@@ -10,6 +10,12 @@ A workout calendar inspired by Language Miner's Sunday-first activity calendar.
 - Track current streak, total active days, XP, and day/week/month training hours.
 - Browse and preview 149 exercises across 13 muscle group categories.
 - Progress is stored locally in this browser, without cross-device synchronization.
+- Import PNG/JPG/WebP workout screenshots from Garmin Connect, Apple Fitness, Samsung Health, or another app.
+- English text recognition runs locally, then you review activity, date, start time, duration, distance and calories before saving.
+- Add a new completed activity or update an existing planned/completed workout. Walking, hiking, treadmill sessions and other custom activities remain in your calendar after reload.
+- Original screenshots are saved privately in this browser using IndexedDB, with a gallery and links from calendar entries. Identical screenshot files are detected to avoid duplicate records. Deleting a screenshot keeps its workout and training hours; deleting a workout keeps its screenshot in the gallery.
+
+Screenshot import reads shared screenshots; the app does not connect directly to Garmin, Apple, Samsung accounts or watches. Screenshots and recognition text never upload to GitHub, Sites, or a remote OCR service. Recognition assets are bundled with the app. English OCR can miss labels or misread values; all fields are editable before confirmation. Storage is device-local; clearing browser data removes records and screenshots. Use the same app URL and browser to access saved history.
 
 The daily chart groups workout durations by their recorded start hour; workouts without a start time have a separate bucket. Weekly and monthly charts show hours per calendar day. The week begins Sunday. Unentered durations count as zero and are flagged for entry. Future days support planning, with completion available on today and past dates.
 

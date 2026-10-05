@@ -4,3 +4,6 @@ guide-review.jpg
 .sites-runtime/
 enhance.py
 __pycache__/
+test-fixtures/
+integrate-import.py
+import-markup.py
