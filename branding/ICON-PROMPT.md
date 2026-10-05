@@ -1,7 +1,7 @@
-# Gym Stone icon
+# Gym Stone logo source
 
-Generated with the built-in imagegen tool. The original is `gym-stone-icon-original.png`; resized app, home-screen and browser icons are in `dist/icons`.
+The current game identity uses the exact logo supplied by the user: a carved stone G with an electric blue glow, a stone-and-metal barbell, the Gym Stone wordmark, and the Workout Quest subtitle.
 
-Final prompt:
+`gym-stone-user-logo.png` preserves the supplied source image. Browser, header, touch and installed-app icons are resized exports of that same artwork. No new generation, redesign or cropping was used for this replacement.
 
-> Use case: logo-brand. Create a premium app icon for Gym Stone, a workout calendar game. A single bold dumbbell carved from luminous faceted golden amber stone, with a small mint-green gemstone sparkle integrated above the center. Midnight navy-blue background, rounded-square app-icon composition, clean sculptural 3D illustration, polished bevels, strong readable silhouette at tiny sizes, centered with generous breathing room. Palette matches navy #101522, gold #ffd166, mint #7ee4c1. No letters, words, calendars, watermark, extra objects, borders, or mockup devices. One icon fills the square.
+The previous generated logo has been superseded. Icon filenames include `v2` so the app loads the new artwork instead of a cached earlier icon.

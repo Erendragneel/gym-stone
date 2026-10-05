@@ -865,216 +865,351 @@
     "id": "guide-push-up",
     "name": "Push Up",
     "group": "Chest",
-    "image": "assets/guide-push-up.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-push-up.gif"
+    "image": "assets/anime-push-up.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-push-up.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-close-grip-push-up",
     "name": "Close Grip Push Up",
     "group": "Chest",
-    "image": "assets/guide-close-grip-push-up.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-close-grip-push-up.gif"
+    "image": "assets/anime-close-grip-push-up.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-close-grip-push-up.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-dumbbell-bench-press",
     "name": "Dumbbell Bench Press",
     "group": "Chest",
-    "image": "assets/guide-dumbbell-bench-press.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-dumbbell-bench-press.gif"
+    "image": "assets/anime-dumbbell-bench-press.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-dumbbell-bench-press.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-dumbbell-chest-fly",
     "name": "Dumbbell Chest Fly",
     "group": "Chest",
-    "image": "assets/guide-dumbbell-chest-fly.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-dumbbell-chest-fly.gif"
+    "image": "assets/anime-dumbbell-chest-fly.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-dumbbell-chest-fly.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-overhead-dumbbell-triceps-extension",
     "name": "Overhead Dumbbell Triceps Extension",
     "group": "Triceps",
-    "image": "assets/guide-overhead-dumbbell-triceps-extension.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-overhead-dumbbell-triceps-extension.gif"
+    "image": "assets/anime-overhead-dumbbell-triceps-extension.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-overhead-dumbbell-triceps-extension.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-cable-triceps-pushdown",
     "name": "Cable Triceps Pushdown",
     "group": "Triceps",
-    "image": "assets/guide-cable-triceps-pushdown.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-cable-triceps-pushdown.gif"
+    "image": "assets/anime-cable-triceps-pushdown.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-cable-triceps-pushdown.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-dumbbell-triceps-kickback",
     "name": "Dumbbell Triceps Kickback",
     "group": "Triceps",
-    "image": "assets/guide-dumbbell-triceps-kickback.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-dumbbell-triceps-kickback.gif"
+    "image": "assets/anime-dumbbell-triceps-kickback.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-dumbbell-triceps-kickback.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-bench-dip",
     "name": "Bench Dip",
     "group": "Triceps",
-    "image": "assets/guide-bench-dip.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-bench-dip.gif"
+    "image": "assets/anime-bench-dip.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-bench-dip.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-bodyweight-squat",
     "name": "Bodyweight Squat",
     "group": "Quads",
-    "image": "assets/guide-bodyweight-squat.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-bodyweight-squat.gif"
+    "image": "assets/anime-bodyweight-squat.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-bodyweight-squat.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-barbell-back-squat",
     "name": "Barbell Back Squat",
     "group": "Quads",
-    "image": "assets/guide-barbell-back-squat.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-barbell-back-squat.gif"
+    "image": "assets/anime-barbell-back-squat.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-barbell-back-squat.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-barbell-front-squat",
     "name": "Barbell Front Squat",
     "group": "Quads",
-    "image": "assets/guide-barbell-front-squat.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-barbell-front-squat.gif"
+    "image": "assets/anime-barbell-front-squat.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-barbell-front-squat.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-forward-lunge",
     "name": "Forward Lunge",
     "group": "Quads",
-    "image": "assets/guide-forward-lunge.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-forward-lunge.gif"
+    "image": "assets/anime-forward-lunge.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-forward-lunge.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-leg-extension",
     "name": "Leg Extension",
     "group": "Quads",
-    "image": "assets/guide-leg-extension.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-leg-extension.gif"
+    "image": "assets/anime-leg-extension.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-leg-extension.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-prone-leg-curl",
     "name": "Prone Leg Curl",
     "group": "Hamstrings",
-    "image": "assets/guide-prone-leg-curl.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-prone-leg-curl.gif"
+    "image": "assets/anime-prone-leg-curl.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-prone-leg-curl.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-bodyweight-hip-hinge",
     "name": "Bodyweight Hip Hinge",
     "group": "Hamstrings",
-    "image": "assets/guide-bodyweight-hip-hinge.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-bodyweight-hip-hinge.gif"
+    "image": "assets/anime-bodyweight-hip-hinge.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-bodyweight-hip-hinge.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-standing-calf-raise",
     "name": "Standing Calf Raise",
     "group": "Calves",
-    "image": "assets/guide-standing-calf-raise.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-standing-calf-raise.gif"
+    "image": "assets/anime-standing-calf-raise.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-standing-calf-raise.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-standing-dumbbell-calf-raise",
     "name": "Standing Dumbbell Calf Raise",
     "group": "Calves",
-    "image": "assets/guide-standing-dumbbell-calf-raise.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-standing-dumbbell-calf-raise.gif"
+    "image": "assets/anime-standing-dumbbell-calf-raise.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-standing-dumbbell-calf-raise.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-crunch",
     "name": "Crunch",
     "group": "Abs",
-    "image": "assets/guide-crunch.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-crunch.gif"
+    "image": "assets/anime-crunch.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-crunch.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-lying-leg-raise",
     "name": "Lying Leg Raise",
     "group": "Abs",
-    "image": "assets/guide-lying-leg-raise.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-lying-leg-raise.gif"
+    "image": "assets/anime-lying-leg-raise.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-lying-leg-raise.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-dead-bug",
     "name": "Dead Bug",
     "group": "Abs",
-    "image": "assets/guide-dead-bug.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-dead-bug.gif"
+    "image": "assets/anime-dead-bug.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-dead-bug.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-bird-dog",
     "name": "Bird Dog",
     "group": "Abs",
-    "image": "assets/guide-bird-dog.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-bird-dog.gif"
+    "image": "assets/anime-bird-dog.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-bird-dog.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-seated-wrist-curl",
     "name": "Seated Wrist Curl",
     "group": "Forearms",
-    "image": "assets/guide-seated-wrist-curl.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-seated-wrist-curl.gif"
+    "image": "assets/anime-seated-wrist-curl.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-seated-wrist-curl.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-seated-reverse-wrist-curl",
     "name": "Seated Reverse Wrist Curl",
     "group": "Forearms",
-    "image": "assets/guide-seated-reverse-wrist-curl.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-seated-reverse-wrist-curl.gif"
+    "image": "assets/anime-seated-reverse-wrist-curl.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-seated-reverse-wrist-curl.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-jumping-jack",
     "name": "Jumping Jack",
     "group": "Full body",
-    "image": "assets/guide-jumping-jack.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-jumping-jack.gif"
+    "image": "assets/anime-jumping-jack.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-jumping-jack.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-mountain-climber",
     "name": "Mountain Climber",
     "group": "Full body",
-    "image": "assets/guide-mountain-climber.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-mountain-climber.gif"
+    "image": "assets/anime-mountain-climber.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-mountain-climber.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-lateral-band-walk",
     "name": "Lateral Band Walk",
     "group": "Glutes & hips",
-    "image": "assets/guide-lateral-band-walk.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-lateral-band-walk.gif"
+    "image": "assets/anime-lateral-band-walk.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-lateral-band-walk.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   },
   {
     "id": "guide-incline-dumbbell-curl",
     "name": "Incline Dumbbell Curl",
     "group": "Biceps",
-    "image": "assets/guide-incline-dumbbell-curl.webp",
-    "style": "Illustrated guide",
-    "gif": "assets/guide-incline-dumbbell-curl.gif"
+    "image": "assets/anime-incline-dumbbell-curl.webp",
+    "style": "Anime keyframe loop",
+    "gif": "assets/anime-incline-dumbbell-curl.gif",
+    "animation": {
+      "keyframes": 6,
+      "duration_ms": 5200,
+      "endpoint_pause_ms": 800
+    }
   }
 ]

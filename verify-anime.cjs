@@ -1,0 +1,40 @@
+const {chromium}=require('C:/Users/Elijio Villa jr/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const assert=require('node:assert/strict');
+const crypto=require('node:crypto');
+(async()=>{
+ const browser=await chromium.launch({headless:true,channel:'chrome'});
+ const page=await browser.newPage({viewport:{width:1440,height:1100},timezoneId:'Asia/Tokyo'});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:5173');
+ await page.waitForFunction(()=>document.querySelectorAll('.exercise-card').length===149);
+ const catalog=await page.evaluate(()=>fetch('exercises.json').then(r=>r.json()));
+ const refreshed=catalog.filter(e=>e.animation);
+ assert.equal(refreshed.length,27);
+ assert.equal(await page.getByText('Illustrated loop',{exact:true}).count(),0);
+ for(const e of refreshed){
+  const response=await page.request.get('http://127.0.0.1:5173/'+e.image);
+  assert.equal(response.status(),200,e.name);
+  const bytes=await response.body();
+  assert.equal(bytes.toString('ascii',0,4),'RIFF',e.name);
+  assert.equal(bytes.toString('ascii',8,12),'WEBP',e.name);
+ }
+ await page.locator('#search').fill('Bodyweight Squat');
+ await page.getByRole('button',{name:'Preview Bodyweight Squat',exact:true}).click();
+ await page.waitForFunction(()=>document.querySelector('#preview-image').complete&&document.querySelector('#preview-image').naturalWidth>0);
+ assert.match(await page.locator('#preview-image').getAttribute('src'),/anime-bodyweight-squat/);
+ const before=await page.locator('#preview-image').screenshot();
+ await page.waitForTimeout(1150);
+ const after=await page.locator('#preview-image').screenshot();
+ assert.notEqual(crypto.createHash('sha256').update(before).digest('hex'),crypto.createHash('sha256').update(after).digest('hex'),'Preview must visibly animate');
+ await page.getByRole('button',{name:'Close exercise preview',exact:true}).click();
+ await page.locator('#search').fill('');
+ await page.locator('#filters').getByRole('button',{name:'Quads',exact:true}).click();
+ await page.waitForFunction(()=>[...document.querySelectorAll('.exercise-grid img')].every(i=>i.complete&&i.naturalWidth>0));
+ await page.locator('.library').screenshot({path:'anime-desktop-review.png'});
+ await page.setViewportSize({width:390,height:844});
+ await page.locator('.library').screenshot({path:'anime-mobile-review.png'});
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ assert.deepEqual(errors,[]);
+ await browser.close();
+ console.log('PASS: all27 anime assets served, no simplified labels, visible animation, desktop/mobile library and no page errors.');
+})().catch(e=>{console.error(e);process.exit(1)});

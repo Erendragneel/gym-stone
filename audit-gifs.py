@@ -11,7 +11,9 @@ for e in items:
 items=list(unique.values());(root/'dist/exercises.json').write_text(json.dumps(items,indent=2),encoding='utf-8')
 report=[]
 optimized=any(e['image'].endswith('.webp') for e in items)
-archive=zipfile.ZipFile(root.parent/'Gym_Stone_Exercise_GIF_Library.zip') if optimized else None
+archive_path=root.parent/'Gym_Stone_Anime_Exercise_GIF_Library_v1.1.zip'
+if not archive_path.is_file():archive_path=root.parent/'Gym_Stone_Exercise_GIF_Library.zip'
+archive=zipfile.ZipFile(archive_path) if optimized else None
 for e in items:
     p=root/'dist'/e['image']
     if e['image'].endswith('.webp'):

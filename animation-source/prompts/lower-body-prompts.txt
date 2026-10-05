@@ -1,0 +1,111 @@
+Barbell Back Squat
+Use case: illustration-story.
+Asset type: a SIX-FRAME exercise animation sprite sheet for Gym Stone.
+Reference images: use both supplied Goblet Squat images ONLY as character and rendering style references; do not reproduce their layout or text.
+Subject/style: the identical young adult muscular anime man from the reference, spiky black hair, warm tan skin, burgundy red sleeveless tank, dark charcoal shorts, red sneakers with white soles, detailed anatomical muscle shading, crisp hand-drawn anime linework and cel shading. No character redesign.
+Scene: quiet neutral light gray studio background and ground, soft consistent lighting and ground shadow.
+Composition: high-resolution landscape 3072 by 2048 pixels if possible. Exactly THREE columns and TWO rows of SIX EQUAL rectangular cells, read left-to-right then top-to-bottom. No margins, gutters, borders, labels, titles, captions, symbols, watermark, or text. The cells touch edge-to-edge but their subjects never touch neighboring cells. Each cell contains one complete single pose, never ghosted double exposure.
+Animation invariants: identical character, face, hairstyle, outfit, camera angle, scale, perspective, equipment geometry, ground baseline, illumination and background in all six cells. Full body and every piece of equipment fully visible inside each individual cell with comfortable safe space. Feet remain precisely registered at the same baseline wherever motion permits. Render one coherent progressive movement over all six frames, not six different exercises. First frame is start; sixth frame is end, intermediate frames evenly interpolate. The downstream animation reverses the frames.
+Avoid: stick figures, flat schematic diagrams, simplified silhouettes, photorealism, extra people, extra limbs, duplicate arms/legs, ghost trails, character drift, multiple exercises, text, cropped heads or shoes or weights.
+Exercise: Barbell Back Squat.
+Motion and biomechanics: Camera: fixed front three-quarter view, enough side angle to make bar position behind shoulders unmistakable. Equipment: one straight horizontal loaded barbell with matching dark plates at both ends, always resting across upper traps BEHIND the neck, hands gripping wider than shoulder width, not overhead, never in front rack. Start upright with feet shoulder-width and toes slightly out. Six frames progressively bend hips and knees downward: upright; slight bend; quarter squat; half squat; near parallel; thigh-parallel comfortable depth. Whole feet and heels firmly planted, knees track toes, neutral spine, chest stable, modest natural torso inclination, no rounding. Bar stays physically on rear upper traps in every frame and moves vertically with shoulders.
+
+------------------------
+
+Barbell Front Squat
+Use case: illustration-story.
+Asset type: a SIX-FRAME exercise animation sprite sheet for Gym Stone.
+Reference images: use both supplied Goblet Squat images ONLY as character and rendering style references; do not reproduce their layout or text.
+Subject/style: the identical young adult muscular anime man from the reference, spiky black hair, warm tan skin, burgundy red sleeveless tank, dark charcoal shorts, red sneakers with white soles, detailed anatomical muscle shading, crisp hand-drawn anime linework and cel shading. No character redesign.
+Scene: quiet neutral light gray studio background and ground, soft consistent lighting and ground shadow.
+Composition: high-resolution landscape 3072 by 2048 pixels if possible. Exactly THREE columns and TWO rows of SIX EQUAL rectangular cells, read left-to-right then top-to-bottom. No margins, gutters, borders, labels, titles, captions, symbols, watermark, or text. The cells touch edge-to-edge but their subjects never touch neighboring cells. Each cell contains one complete single pose, never ghosted double exposure.
+Animation invariants: identical character, face, hairstyle, outfit, camera angle, scale, perspective, equipment geometry, ground baseline, illumination and background in all six cells. Full body and every piece of equipment fully visible inside each individual cell with comfortable safe space. Feet remain precisely registered at the same baseline wherever motion permits. Render one coherent progressive movement over all six frames, not six different exercises. First frame is start; sixth frame is end, intermediate frames evenly interpolate. The downstream animation reverses the frames.
+Avoid: stick figures, flat schematic diagrams, simplified silhouettes, photorealism, extra people, extra limbs, duplicate arms/legs, ghost trails, character drift, multiple exercises, text, cropped heads or shoes or weights.
+Exercise: Barbell Front Squat.
+Motion and biomechanics: Camera: fixed front three-quarter view, enough side angle to clearly show front rack. Equipment: one straight horizontal loaded barbell with matching dark plates at both ends, always resting across FRONT shoulders/clavicles in front rack, fingertips under bar, elbows pointing forward and high. Bar never rests behind neck. Start upright, feet shoulder-width, toes slightly out. Six frames descend evenly: upright; slight bend; quarter squat; half squat; near parallel; thigh-parallel comfortable depth. Whole feet and heels planted, knees track toes, neutral spine and upright torso, elbows remain high; bar and plates stay registered to the shoulders.
+
+------------------------
+
+Forward Lunge
+Use case: illustration-story.
+Asset type: a SIX-FRAME exercise animation sprite sheet for Gym Stone.
+Reference images: use both supplied Goblet Squat images ONLY as character and rendering style references; do not reproduce their layout or text.
+Subject/style: the identical young adult muscular anime man from the reference, spiky black hair, warm tan skin, burgundy red sleeveless tank, dark charcoal shorts, red sneakers with white soles, detailed anatomical muscle shading, crisp hand-drawn anime linework and cel shading. No character redesign.
+Scene: quiet neutral light gray studio background and ground, soft consistent lighting and ground shadow.
+Composition: high-resolution landscape 3072 by 2048 pixels if possible. Exactly THREE columns and TWO rows of SIX EQUAL rectangular cells, read left-to-right then top-to-bottom. No margins, gutters, borders, labels, titles, captions, symbols, watermark, or text. The cells touch edge-to-edge but their subjects never touch neighboring cells. Each cell contains one complete single pose, never ghosted double exposure.
+Animation invariants: identical character, face, hairstyle, outfit, camera angle, scale, perspective, equipment geometry, ground baseline, illumination and background in all six cells. Full body and every piece of equipment fully visible inside each individual cell with comfortable safe space. Feet remain precisely registered at the same baseline wherever motion permits. Render one coherent progressive movement over all six frames, not six different exercises. First frame is start; sixth frame is end, intermediate frames evenly interpolate. The downstream animation reverses the frames.
+Avoid: stick figures, flat schematic diagrams, simplified silhouettes, photorealism, extra people, extra limbs, duplicate arms/legs, ghost trails, character drift, multiple exercises, text, cropped heads or shoes or weights.
+Exercise: Forward Lunge.
+Motion and biomechanics: Camera: fixed side three-quarter view, both legs visible and no equipment. Begin in an established long forward split stance, left/front foot flat and right/rear foot behind with heel lifted; hands on hips. Six progressive frames smoothly lower the hips straight down into the forward lunge: nearly straight legs; small knee bend; shallow lunge; middle lunge; near bottom; front knee around 90 degrees and rear knee hovering above floor. The LEFT FRONT FOOT stays completely planted at the exact same coordinate through ALL frames, left shin approximately vertical, knee tracks toes. Rear toes stay anchored, rear heel lifted. Upright torso, neutral spine, balanced pelvis, no forward sliding of front foot.
+
+------------------------
+
+Leg Extension
+Use case: illustration-story.
+Asset type: a SIX-FRAME exercise animation sprite sheet for Gym Stone.
+Reference images: use both supplied Goblet Squat images ONLY as character and rendering style references; do not reproduce their layout or text.
+Subject/style: the identical young adult muscular anime man from the reference, spiky black hair, warm tan skin, burgundy red sleeveless tank, dark charcoal shorts, red sneakers with white soles, detailed anatomical muscle shading, crisp hand-drawn anime linework and cel shading. No character redesign.
+Scene: quiet neutral light gray studio background and ground, soft consistent lighting and ground shadow.
+Composition: high-resolution landscape 3072 by 2048 pixels if possible. Exactly THREE columns and TWO rows of SIX EQUAL rectangular cells, read left-to-right then top-to-bottom. No margins, gutters, borders, labels, titles, captions, symbols, watermark, or text. The cells touch edge-to-edge but their subjects never touch neighboring cells. Each cell contains one complete single pose, never ghosted double exposure.
+Animation invariants: identical character, face, hairstyle, outfit, camera angle, scale, perspective, equipment geometry, ground baseline, illumination and background in all six cells. Full body and every piece of equipment fully visible inside each individual cell with comfortable safe space. Feet remain precisely registered at the same baseline wherever motion permits. Render one coherent progressive movement over all six frames, not six different exercises. First frame is start; sixth frame is end, intermediate frames evenly interpolate. The downstream animation reverses the frames.
+Avoid: stick figures, flat schematic diagrams, simplified silhouettes, photorealism, extra people, extra limbs, duplicate arms/legs, ghost trails, character drift, multiple exercises, text, cropped heads or shoes or weights.
+Exercise: Leg Extension.
+Motion and biomechanics: Camera: fixed clean side three-quarter view, facing right. Equipment: a compact charcoal gray seated leg-extension machine fully inside each cell: upright back pad, seat, stationary base, pivot aligned near knee, one padded roller across front of lower shins just above ankles, handles beside seat. Same machine geometry in all six frames. Man sits with back supported, hips fixed, hands holding handles. Start both knees bent about 90 degrees with shins down. Six progressive frames extend BOTH knees together: 90-degree flexion; 75; 55; 35; 15; almost straight but not hyperextended. Thighs stay resting on seat; only lower legs and roller swing forward and up around knee. Torso and hips never lift; roller stays in contact with lower shins and moves with them.
+
+------------------------
+
+Prone Leg Curl
+Use case: illustration-story.
+Asset type: a SIX-FRAME exercise animation sprite sheet for Gym Stone.
+Reference images: use both supplied Goblet Squat images ONLY as character and rendering style references; do not reproduce their layout or text.
+Subject/style: the identical young adult muscular anime man from the reference, spiky black hair, warm tan skin, burgundy red sleeveless tank, dark charcoal shorts, red sneakers with white soles, detailed anatomical muscle shading, crisp hand-drawn anime linework and cel shading. No character redesign.
+Scene: quiet neutral light gray studio background and ground, soft consistent lighting and ground shadow.
+Composition: high-resolution landscape 3072 by 2048 pixels if possible. Exactly THREE columns and TWO rows of SIX EQUAL rectangular cells, read left-to-right then top-to-bottom. No margins, gutters, borders, labels, titles, captions, symbols, watermark, or text. The cells touch edge-to-edge but their subjects never touch neighboring cells. Each cell contains one complete single pose, never ghosted double exposure.
+Animation invariants: identical character, face, hairstyle, outfit, camera angle, scale, perspective, equipment geometry, ground baseline, illumination and background in all six cells. Full body and every piece of equipment fully visible inside each individual cell with comfortable safe space. Feet remain precisely registered at the same baseline wherever motion permits. Render one coherent progressive movement over all six frames, not six different exercises. First frame is start; sixth frame is end, intermediate frames evenly interpolate. The downstream animation reverses the frames.
+Avoid: stick figures, flat schematic diagrams, simplified silhouettes, photorealism, extra people, extra limbs, duplicate arms/legs, ghost trails, character drift, multiple exercises, text, cropped heads or shoes or weights.
+Exercise: Prone Leg Curl.
+Motion and biomechanics: Camera: fixed side three-quarter view, facing left, legs extending to right. Equipment: one charcoal gray prone leg-curl machine fully inside each cell, horizontal padded bench, stable low metal base and knee pivot mechanism, padded roller across BACK of lower legs just above heels, all consistent between frames. Man lies face down on bench, chest and hips supported, hands holding front handles, thighs remain on bench. Start knees nearly straight, feet past bench end and roller against lower calves. Six progressive frames flex BOTH knees together: nearly straight; 20-degree bend; 40; 60; 80; 100 degrees with heels approaching buttocks. Only lower legs and attached roller rotate upward around knees, no hip lift or arched back. Exactly two arms and two legs; full bench and body visible.
+
+------------------------
+
+Bodyweight Hip Hinge
+Use case: illustration-story.
+Asset type: a SIX-FRAME exercise animation sprite sheet for Gym Stone.
+Reference images: use both supplied Goblet Squat images ONLY as character and rendering style references; do not reproduce their layout or text.
+Subject/style: the identical young adult muscular anime man from the reference, spiky black hair, warm tan skin, burgundy red sleeveless tank, dark charcoal shorts, red sneakers with white soles, detailed anatomical muscle shading, crisp hand-drawn anime linework and cel shading. No character redesign.
+Scene: quiet neutral light gray studio background and ground, soft consistent lighting and ground shadow.
+Composition: high-resolution landscape 3072 by 2048 pixels if possible. Exactly THREE columns and TWO rows of SIX EQUAL rectangular cells, read left-to-right then top-to-bottom. No margins, gutters, borders, labels, titles, captions, symbols, watermark, or text. The cells touch edge-to-edge but their subjects never touch neighboring cells. Each cell contains one complete single pose, never ghosted double exposure.
+Animation invariants: identical character, face, hairstyle, outfit, camera angle, scale, perspective, equipment geometry, ground baseline, illumination and background in all six cells. Full body and every piece of equipment fully visible inside each individual cell with comfortable safe space. Feet remain precisely registered at the same baseline wherever motion permits. Render one coherent progressive movement over all six frames, not six different exercises. First frame is start; sixth frame is end, intermediate frames evenly interpolate. The downstream animation reverses the frames.
+Avoid: stick figures, flat schematic diagrams, simplified silhouettes, photorealism, extra people, extra limbs, duplicate arms/legs, ghost trails, character drift, multiple exercises, text, cropped heads or shoes or weights.
+Exercise: Bodyweight Hip Hinge.
+Motion and biomechanics: Camera: fixed true side three-quarter view facing right, no equipment, hands crossed gently on chest throughout to expose spine alignment. Start upright with feet hip-width at fixed coordinates and knees softly unlocked. Six progressive frames hinge by pushing hips backward: upright; slight hinge; 20-degree torso inclination; 35; 50; about 60 degrees from upright. Back stays straight with neutral spine and head aligned; hips move backward and torso tips forward as one unit. Knees bend slightly only and shins stay near vertical, heels and whole feet remain fully planted. This is a HIP HINGE, not a squat: no deep knee flexion, no rounded back, no downward crouch.
+
+------------------------
+
+Standing Calf Raise
+Use case: illustration-story.
+Asset type: a SIX-FRAME exercise animation sprite sheet for Gym Stone.
+Reference images: use both supplied Goblet Squat images ONLY as character and rendering style references; do not reproduce their layout or text.
+Subject/style: the identical young adult muscular anime man from the reference, spiky black hair, warm tan skin, burgundy red sleeveless tank, dark charcoal shorts, red sneakers with white soles, detailed anatomical muscle shading, crisp hand-drawn anime linework and cel shading. No character redesign.
+Scene: quiet neutral light gray studio background and ground, soft consistent lighting and ground shadow.
+Composition: high-resolution landscape 3072 by 2048 pixels if possible. Exactly THREE columns and TWO rows of SIX EQUAL rectangular cells, read left-to-right then top-to-bottom. No margins, gutters, borders, labels, titles, captions, symbols, watermark, or text. The cells touch edge-to-edge but their subjects never touch neighboring cells. Each cell contains one complete single pose, never ghosted double exposure.
+Animation invariants: identical character, face, hairstyle, outfit, camera angle, scale, perspective, equipment geometry, ground baseline, illumination and background in all six cells. Full body and every piece of equipment fully visible inside each individual cell with comfortable safe space. Feet remain precisely registered at the same baseline wherever motion permits. Render one coherent progressive movement over all six frames, not six different exercises. First frame is start; sixth frame is end, intermediate frames evenly interpolate. The downstream animation reverses the frames.
+Avoid: stick figures, flat schematic diagrams, simplified silhouettes, photorealism, extra people, extra limbs, duplicate arms/legs, ghost trails, character drift, multiple exercises, text, cropped heads or shoes or weights.
+Exercise: Standing Calf Raise.
+Motion and biomechanics: Camera: fixed front three-quarter view, no equipment, hands on hips. Start standing tall with both feet parallel hip-width, heels down. Six progressive frames perform only ankle plantarflexion: heels down; very small heel lift; quarter raise; half raise; near top; maximum controlled heel raise standing on balls of both feet. Forefeet and toes stay planted at exactly the same ground coordinates, heels rise up, body elevates vertically a little. Knees straight without hyperextension, torso upright, neutral spine, no squat, no jumping, no foot translation, no single-leg substitution.
+
+------------------------
+
+Standing Dumbbell Calf Raise
+Use case: illustration-story.
+Asset type: a SIX-FRAME exercise animation sprite sheet for Gym Stone.
+Reference images: use both supplied Goblet Squat images ONLY as character and rendering style references; do not reproduce their layout or text.
+Subject/style: the identical young adult muscular anime man from the reference, spiky black hair, warm tan skin, burgundy red sleeveless tank, dark charcoal shorts, red sneakers with white soles, detailed anatomical muscle shading, crisp hand-drawn anime linework and cel shading. No character redesign.
+Scene: quiet neutral light gray studio background and ground, soft consistent lighting and ground shadow.
+Composition: high-resolution landscape 3072 by 2048 pixels if possible. Exactly THREE columns and TWO rows of SIX EQUAL rectangular cells, read left-to-right then top-to-bottom. No margins, gutters, borders, labels, titles, captions, symbols, watermark, or text. The cells touch edge-to-edge but their subjects never touch neighboring cells. Each cell contains one complete single pose, never ghosted double exposure.
+Animation invariants: identical character, face, hairstyle, outfit, camera angle, scale, perspective, equipment geometry, ground baseline, illumination and background in all six cells. Full body and every piece of equipment fully visible inside each individual cell with comfortable safe space. Feet remain precisely registered at the same baseline wherever motion permits. Render one coherent progressive movement over all six frames, not six different exercises. First frame is start; sixth frame is end, intermediate frames evenly interpolate. The downstream animation reverses the frames.
+Avoid: stick figures, flat schematic diagrams, simplified silhouettes, photorealism, extra people, extra limbs, duplicate arms/legs, ghost trails, character drift, multiple exercises, text, cropped heads or shoes or weights.
+Exercise: Standing Dumbbell Calf Raise.
+Motion and biomechanics: Camera: fixed TRUE SIDE PROFILE facing right, with just enough slight three-quarter offset to distinguish the two legs. The side silhouettes must make the raised heels clearly visible; do not choose a frontal view. Leave extra space above head for the body to rise. Equipment: one matching dark dumbbell hanging from EACH hand at sides, straight relaxed arms; both dumbbells remain visible and unchanged. Start standing tall with both feet parallel hip-width, heels down. Six progressive frames perform only ankle plantarflexion: heels down; small heel lift; quarter raise; half raise; near top; maximum controlled heel raise standing on balls of both feet. Forefeet and toes stay planted at exactly the same ground coordinates, heels rise, body and hanging dumbbells elevate vertically together slightly. Knees straight without hyperextension, torso upright, neutral spine, no squat, no jump, no walking, no changes of hand grip or dumbbell geometry.
+Crucial visible motion: frame 1 both shoe soles flat, frame 2 heels about 1 cm above ground, frame 3 about 2 cm, frame 4 about 3 cm, frame 5 about 4 cm, frame 6 about 5 cm; the forefoot stays on ground and each shoe visibly tilts around toes. Head/shoulders elevate by the corresponding amount at constant scale, and knees stay straight. Make each intermediate heel height visibly distinct.
+
