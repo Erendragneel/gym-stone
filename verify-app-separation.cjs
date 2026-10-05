@@ -39,6 +39,7 @@ const { chromium } = require('C:/Users/Elijio Villa jr/.cache/codex-runtimes/cod
     const origin = `http://127.0.0.1:${server.address().port}`;
     browser = await chromium.launch({ headless: true, channel: 'chrome' });
     const context = await browser.newContext();
+    await context.addInitScript(() => Object.defineProperty(window, 'GYM_STONE_CLOUD_CONFIG', {value:{url:'',key:''},writable:false}));
     const languagePage = await context.newPage();
     await languagePage.goto(origin + '/language-miner/');
     const languageCdp = await context.newCDPSession(languagePage);
@@ -103,7 +104,7 @@ const { chromium } = require('C:/Users/Elijio Villa jr/.cache/codex-runtimes/cod
     });
     assert.deepEqual(isolation.scopes, [origin + '/gym-stone/dist/']);
     assert.equal(await languagePage.evaluate(() => navigator.serviceWorker.controller), null);
-    assert(isolation.cacheNames.includes('gym-stone-shell-v6-app-identity'));
+    assert(isolation.cacheNames.includes('gym-stone-shell-v7-online-profiles'));
     assert(!isolation.cacheNames.includes('gym-stone-shell-obsolete-verification'));
     assert.equal(isolation.lmCache, 'Language Miner cache sentinel');
     assert.deepEqual(isolation.lmStorage, { language: 'ja', progress: 42 });
