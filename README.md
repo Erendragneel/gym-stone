@@ -9,6 +9,9 @@ A workout calendar inspired by Language Miner's Sunday-first activity calendar.
 - Enter minutes and an optional start time for completed exercises.
 - Track current streak, total active days, XP, and day/week/month training hours.
 - Browse and preview 149 exercises across 13 muscle group categories.
+- Share Game shows the public game link and an offline-generated QR code, with copy, device sharing, and PNG download. Shared links contain no workout or screenshot data.
+- Download App installs Gym Stone as a browser app on supported browsers, with iPhone/iPad, Android, and desktop instructions when automatic installation is unavailable. Installed apps use the new Gym Stone logo.
+- A service worker keeps the calendar available offline after an online visit; exercise animations and OCR files are cached when loaded. Browser storage remains local to the same browser and app origin.
 - Progress is stored locally in this browser, without cross-device synchronization.
 - Import PNG/JPG/WebP workout screenshots from Garmin Connect, Apple Fitness, Samsung Health, or another app.
 - English text recognition runs locally, then you review activity, date, start time, duration, distance and calories before saving.
