@@ -1,0 +1,1194 @@
+[
+  {
+    "exercise": "Bodyweight Glute Bridge",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-01_Bodyweight_Glute_Bridge.gif"
+  },
+  {
+    "exercise": "Barbell Hip Thrust",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-02_Barbell_Hip_Thrust.gif"
+  },
+  {
+    "exercise": "Single Leg Glute Bridge",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-03_Single_Leg_Glute_Bridge.gif"
+  },
+  {
+    "exercise": "Frog Pump",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-04_Frog_Pump.gif"
+  },
+  {
+    "exercise": "Side Lying Clamshell",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-05_Side_Lying_Clamshell.gif"
+  },
+  {
+    "exercise": "Side Lying Hip Abduction",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-06_Side_Lying_Hip_Abduction.gif"
+  },
+  {
+    "exercise": "Quadruped Donkey Kick",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-07_Quadruped_Donkey_Kick.gif"
+  },
+  {
+    "exercise": "Quadruped Fire Hydrant",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-08_Quadruped_Fire_Hydrant.gif"
+  },
+  {
+    "exercise": "Cable Hip Abduction",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-09_Cable_Hip_Abduction.gif"
+  },
+  {
+    "exercise": "Cable Glute Kickback",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-10_Cable_Glute_Kickback.gif"
+  },
+  {
+    "exercise": "Monster Walk",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-12_Monster_Walk.gif"
+  },
+  {
+    "exercise": "Goblet Squat",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-13_Goblet_Squat.gif"
+  },
+  {
+    "exercise": "Sumo Dumbbell Squat",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-14_Sumo_Dumbbell_Squat.gif"
+  },
+  {
+    "exercise": "Reverse Lunge",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-15_Reverse_Lunge.gif"
+  },
+  {
+    "exercise": "Bulgarian Split Squat",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-16_Bulgarian_Split_Squat.gif"
+  },
+  {
+    "exercise": "Low Box Step Up",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-17_Low_Box_Step_Up.gif"
+  },
+  {
+    "exercise": "Lateral Lunge",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-18_Lateral_Lunge.gif"
+  },
+  {
+    "exercise": "Curtsy Lunge",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-19_Curtsy_Lunge.gif"
+  },
+  {
+    "exercise": "Single Leg Dumbbell RDL",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-20_Single_Leg_Dumbbell_RDL.gif"
+  },
+  {
+    "exercise": "Hip Abduction Machine",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-21_Hip_Abduction_Machine.gif"
+  },
+  {
+    "exercise": "Hip Adduction Machine",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-22_Hip_Adduction_Machine.gif"
+  },
+  {
+    "exercise": "Barbell Romanian Deadlift",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-23_Barbell_Romanian_Deadlift.gif"
+  },
+  {
+    "exercise": "Kettlebell Swing",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-24_Kettlebell_Swing.gif"
+  },
+  {
+    "exercise": "90 90 Hip Switch",
+    "group": "Glutes & hips",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g0-25_90_90_Hip_Switch.gif"
+  },
+  {
+    "exercise": "Conventional Deadlift",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-01_Conventional_Deadlift.gif"
+  },
+  {
+    "exercise": "Romanian Deadlift",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-02_Romanian_Deadlift.gif"
+  },
+  {
+    "exercise": "Barbell Good Morning",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-03_Barbell_Good_Morning.gif"
+  },
+  {
+    "exercise": "45 Degree Back Extension",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-04_45_Degree_Back_Extension.gif"
+  },
+  {
+    "exercise": "Bent Over Barbell Row",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-05_Bent_Over_Barbell_Row.gif"
+  },
+  {
+    "exercise": "Pendlay Row",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-06_Pendlay_Row.gif"
+  },
+  {
+    "exercise": "T Bar Row",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-07_T_Bar_Row.gif"
+  },
+  {
+    "exercise": "Single Arm Dumbbell Row",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-08_Single_Arm_Dumbbell_Row.gif"
+  },
+  {
+    "exercise": "Chest Supported Dumbbell Row",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-09_Chest_Supported_Dumbbell_Row.gif"
+  },
+  {
+    "exercise": "Chest Supported Machine Row",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-10_Chest_Supported_Machine_Row.gif"
+  },
+  {
+    "exercise": "Neutral Grip Seated Cable Row",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-11_Neutral_Grip_Seated_Cable_Row.gif"
+  },
+  {
+    "exercise": "Wide Grip Seated Cable Row",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-12_Wide_Grip_Seated_Cable_Row.gif"
+  },
+  {
+    "exercise": "Wide Grip Lat Pulldown",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-13_Wide_Grip_Lat_Pulldown.gif"
+  },
+  {
+    "exercise": "Close Neutral Grip Pulldown",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-14_Close_Neutral_Grip_Pulldown.gif"
+  },
+  {
+    "exercise": "Single Arm Cable Pulldown",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-15_Single_Arm_Cable_Pulldown.gif"
+  },
+  {
+    "exercise": "Straight Arm Cable Pulldown",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-16_Straight_Arm_Cable_Pulldown.gif"
+  },
+  {
+    "exercise": "Overhand Pull Up",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-17_Overhand_Pull_Up.gif"
+  },
+  {
+    "exercise": "Wide Grip Pull Up",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-18_Wide_Grip_Pull_Up.gif"
+  },
+  {
+    "exercise": "Neutral Grip Pull Up",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-19_Neutral_Grip_Pull_Up.gif"
+  },
+  {
+    "exercise": "Overhand Inverted Row",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-20_Overhand_Inverted_Row.gif"
+  },
+  {
+    "exercise": "Machine High Row",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-21_Machine_High_Row.gif"
+  },
+  {
+    "exercise": "Dumbbell Pullover",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-22_Dumbbell_Pullover.gif"
+  },
+  {
+    "exercise": "Barbell Shrug",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-23_Barbell_Shrug.gif"
+  },
+  {
+    "exercise": "Rope Face Pull",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-24_Rope_Face_Pull.gif"
+  },
+  {
+    "exercise": "Superman",
+    "group": "Back",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g1-25_Superman.gif"
+  },
+  {
+    "exercise": "Standing Dumbbell Shoulder Press",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-01_Standing_Dumbbell_Shoulder_Press.gif"
+  },
+  {
+    "exercise": "Seated Dumbbell Shoulder Press",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-02_Seated_Dumbbell_Shoulder_Press.gif"
+  },
+  {
+    "exercise": "Arnold Press",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-03_Arnold_Press.gif"
+  },
+  {
+    "exercise": "Standing Barbell Overhead Press",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-04_Standing_Barbell_Overhead_Press.gif"
+  },
+  {
+    "exercise": "Seated Barbell Shoulder Press",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-05_Seated_Barbell_Shoulder_Press.gif"
+  },
+  {
+    "exercise": "Machine Shoulder Press",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-06_Machine_Shoulder_Press.gif"
+  },
+  {
+    "exercise": "Half Kneeling Landmine Press",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-07_Half_Kneeling_Landmine_Press.gif"
+  },
+  {
+    "exercise": "Two Hand Landmine Press",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-08_Two_Hand_Landmine_Press.gif"
+  },
+  {
+    "exercise": "Dumbbell Lateral Raise",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-09_Dumbbell_Lateral_Raise.gif"
+  },
+  {
+    "exercise": "Cable Lateral Raise",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-10_Cable_Lateral_Raise.gif"
+  },
+  {
+    "exercise": "Leaning Lateral Raise",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-11_Leaning_Lateral_Raise.gif"
+  },
+  {
+    "exercise": "Dumbbell Front Raise",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-12_Dumbbell_Front_Raise.gif"
+  },
+  {
+    "exercise": "Plate Front Raise",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-13_Plate_Front_Raise.gif"
+  },
+  {
+    "exercise": "Cable Front Raise",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-14_Cable_Front_Raise.gif"
+  },
+  {
+    "exercise": "Bent Over Rear Delt Fly",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-15_Bent_Over_Rear_Delt_Fly.gif"
+  },
+  {
+    "exercise": "Chest Supported Rear Delt Fly",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-16_Chest_Supported_Rear_Delt_Fly.gif"
+  },
+  {
+    "exercise": "Reverse Pec Deck",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-17_Reverse_Pec_Deck.gif"
+  },
+  {
+    "exercise": "Wide Grip Upright Row",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-19_Wide_Grip_Upright_Row.gif"
+  },
+  {
+    "exercise": "Dumbbell Scaption Raise",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-20_Dumbbell_Scaption_Raise.gif"
+  },
+  {
+    "exercise": "Cuban Rotation to Press",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-21_Cuban_Rotation_to_Press.gif"
+  },
+  {
+    "exercise": "Incline Bench Y Raise",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-22_Incline_Bench_Y_Raise.gif"
+  },
+  {
+    "exercise": "Resistance Band Pull Apart",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-23_Resistance_Band_Pull_Apart.gif"
+  },
+  {
+    "exercise": "Cable External Rotation",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-24_Cable_External_Rotation.gif"
+  },
+  {
+    "exercise": "Pike Push Up",
+    "group": "Shoulders",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g2-25_Pike_Push_Up.gif"
+  },
+  {
+    "exercise": "Standing Dumbbell Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-01_Standing_Dumbbell_Curl.gif"
+  },
+  {
+    "exercise": "Alternating Dumbbell Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-02_Alternating_Dumbbell_Curl.gif"
+  },
+  {
+    "exercise": "Hammer Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-03_Hammer_Curl.gif"
+  },
+  {
+    "exercise": "Cross Body Hammer Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-04_Cross_Body_Hammer_Curl.gif"
+  },
+  {
+    "exercise": "Concentration Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-06_Concentration_Curl.gif"
+  },
+  {
+    "exercise": "Dumbbell Preacher Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-07_Dumbbell_Preacher_Curl.gif"
+  },
+  {
+    "exercise": "Spider Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-08_Spider_Curl.gif"
+  },
+  {
+    "exercise": "Straight Barbell Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-09_Straight_Barbell_Curl.gif"
+  },
+  {
+    "exercise": "EZ Bar Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-10_EZ_Bar_Curl.gif"
+  },
+  {
+    "exercise": "Preacher EZ Bar Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-11_Preacher_EZ_Bar_Curl.gif"
+  },
+  {
+    "exercise": "Reverse Barbell Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-12_Reverse_Barbell_Curl.gif"
+  },
+  {
+    "exercise": "Drag Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-13_Drag_Curl.gif"
+  },
+  {
+    "exercise": "Zottman Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-14_Zottman_Curl.gif"
+  },
+  {
+    "exercise": "Seated Dumbbell Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-15_Seated_Dumbbell_Curl.gif"
+  },
+  {
+    "exercise": "Seated Hammer Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-16_Seated_Hammer_Curl.gif"
+  },
+  {
+    "exercise": "Standing Cable Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-17_Standing_Cable_Curl.gif"
+  },
+  {
+    "exercise": "Single Arm Cable Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-18_Single_Arm_Cable_Curl.gif"
+  },
+  {
+    "exercise": "Rope Hammer Cable Curl",
+    "group": "Biceps",
+    "frames": 9,
+    "unique_frames": 9,
+    "duration_ms": 3900,
+    "file": "assets/g3-19_Rope_Hammer_Cable_Curl.gif"
+  },
+  {
+    "exercise": "Bayesian Cable Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-20_Bayesian_Cable_Curl.gif"
+  },
+  {
+    "exercise": "Overhead Cable Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-21_Overhead_Cable_Curl.gif"
+  },
+  {
+    "exercise": "Machine Preacher Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-22_Machine_Preacher_Curl.gif"
+  },
+  {
+    "exercise": "Resistance Band Curl",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-23_Resistance_Band_Curl.gif"
+  },
+  {
+    "exercise": "Chin Up",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-24_Chin_Up.gif"
+  },
+  {
+    "exercise": "Underhand Inverted Row",
+    "group": "Biceps",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g3-25_Underhand_Inverted_Row.gif"
+  },
+  {
+    "exercise": "Side Plank",
+    "group": "Obliques",
+    "frames": 16,
+    "unique_frames": 16,
+    "duration_ms": 3520,
+    "file": "assets/g4-01_Side_Plank.gif"
+  },
+  {
+    "exercise": "Side Plank Hip Dips",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-02_Side_Plank_Hip_Dips.gif"
+  },
+  {
+    "exercise": "Side Plank Rotation",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-03_Side_Plank_Rotation.gif"
+  },
+  {
+    "exercise": "Bicycle Crunch",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-04_Bicycle_Crunch.gif"
+  },
+  {
+    "exercise": "Heel Touches",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-05_Heel_Touches.gif"
+  },
+  {
+    "exercise": "Cross Body Crunch",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-06_Cross_Body_Crunch.gif"
+  },
+  {
+    "exercise": "Cross Body Mountain Climber",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-07_Cross_Body_Mountain_Climber.gif"
+  },
+  {
+    "exercise": "Windshield Wipers",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-08_Windshield_Wipers.gif"
+  },
+  {
+    "exercise": "Russian Twist",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-09_Russian_Twist.gif"
+  },
+  {
+    "exercise": "Reverse Crunch With Rotation",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-10_Reverse_Crunch_With_Rotation.gif"
+  },
+  {
+    "exercise": "Dumbbell Side Bend",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-11_Dumbbell_Side_Bend.gif"
+  },
+  {
+    "exercise": "Weighted Russian Twist",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-12_Weighted_Russian_Twist.gif"
+  },
+  {
+    "exercise": "Suitcase Carry",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-13_Suitcase_Carry.gif"
+  },
+  {
+    "exercise": "Standing Oblique Crunch",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-14_Standing_Oblique_Crunch.gif"
+  },
+  {
+    "exercise": "High to Low Cable Woodchop",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-15_High_to_Low_Cable_Woodchop.gif"
+  },
+  {
+    "exercise": "Low to High Cable Woodchop",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-16_Low_to_High_Cable_Woodchop.gif"
+  },
+  {
+    "exercise": "Horizontal Cable Rotation",
+    "group": "Obliques",
+    "frames": 6,
+    "unique_frames": 6,
+    "duration_ms": 2600,
+    "file": "assets/g4-17_Horizontal_Cable_Rotation.gif"
+  },
+  {
+    "exercise": "Pallof Press",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-18_Pallof_Press.gif"
+  },
+  {
+    "exercise": "Landmine Rotation",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-19_Landmine_Rotation.gif"
+  },
+  {
+    "exercise": "Medicine Ball Rotational Throw",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-20_Medicine_Ball_Rotational_Throw.gif"
+  },
+  {
+    "exercise": "Hanging Oblique Knee Raise",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-21_Hanging_Oblique_Knee_Raise.gif"
+  },
+  {
+    "exercise": "Hanging Windshield Wipers",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-22_Hanging_Windshield_Wipers.gif"
+  },
+  {
+    "exercise": "Hanging Knee Raise With Twist",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-23_Hanging_Knee_Raise_With_Twist.gif"
+  },
+  {
+    "exercise": "Copenhagen Plank",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-24_Copenhagen_Plank.gif"
+  },
+  {
+    "exercise": "Side Plank Crunch",
+    "group": "Obliques",
+    "frames": 12,
+    "unique_frames": 12,
+    "duration_ms": 5200,
+    "file": "assets/g4-25_Side_Plank_Crunch.gif"
+  },
+  {
+    "exercise": "Push Up",
+    "group": "Chest",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-push-up.gif"
+  },
+  {
+    "exercise": "Close Grip Push Up",
+    "group": "Chest",
+    "frames": 23,
+    "unique_frames": 12,
+    "duration_ms": 1930,
+    "file": "assets/guide-close-grip-push-up.gif"
+  },
+  {
+    "exercise": "Dumbbell Bench Press",
+    "group": "Chest",
+    "frames": 24,
+    "unique_frames": 14,
+    "duration_ms": 1920,
+    "file": "assets/guide-dumbbell-bench-press.gif"
+  },
+  {
+    "exercise": "Dumbbell Chest Fly",
+    "group": "Chest",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-dumbbell-chest-fly.gif"
+  },
+  {
+    "exercise": "Overhead Dumbbell Triceps Extension",
+    "group": "Triceps",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-overhead-dumbbell-triceps-extension.gif"
+  },
+  {
+    "exercise": "Cable Triceps Pushdown",
+    "group": "Triceps",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-cable-triceps-pushdown.gif"
+  },
+  {
+    "exercise": "Dumbbell Triceps Kickback",
+    "group": "Triceps",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-dumbbell-triceps-kickback.gif"
+  },
+  {
+    "exercise": "Bench Dip",
+    "group": "Triceps",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-bench-dip.gif"
+  },
+  {
+    "exercise": "Bodyweight Squat",
+    "group": "Quads",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-bodyweight-squat.gif"
+  },
+  {
+    "exercise": "Barbell Back Squat",
+    "group": "Quads",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-barbell-back-squat.gif"
+  },
+  {
+    "exercise": "Barbell Front Squat",
+    "group": "Quads",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-barbell-front-squat.gif"
+  },
+  {
+    "exercise": "Forward Lunge",
+    "group": "Quads",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-forward-lunge.gif"
+  },
+  {
+    "exercise": "Leg Extension",
+    "group": "Quads",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-leg-extension.gif"
+  },
+  {
+    "exercise": "Prone Leg Curl",
+    "group": "Hamstrings",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-prone-leg-curl.gif"
+  },
+  {
+    "exercise": "Bodyweight Hip Hinge",
+    "group": "Hamstrings",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-bodyweight-hip-hinge.gif"
+  },
+  {
+    "exercise": "Standing Calf Raise",
+    "group": "Calves",
+    "frames": 22,
+    "unique_frames": 12,
+    "duration_ms": 1930,
+    "file": "assets/guide-standing-calf-raise.gif"
+  },
+  {
+    "exercise": "Standing Dumbbell Calf Raise",
+    "group": "Calves",
+    "frames": 22,
+    "unique_frames": 12,
+    "duration_ms": 1930,
+    "file": "assets/guide-standing-dumbbell-calf-raise.gif"
+  },
+  {
+    "exercise": "Crunch",
+    "group": "Abs",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-crunch.gif"
+  },
+  {
+    "exercise": "Lying Leg Raise",
+    "group": "Abs",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-lying-leg-raise.gif"
+  },
+  {
+    "exercise": "Dead Bug",
+    "group": "Abs",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-dead-bug.gif"
+  },
+  {
+    "exercise": "Bird Dog",
+    "group": "Abs",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-bird-dog.gif"
+  },
+  {
+    "exercise": "Seated Wrist Curl",
+    "group": "Forearms",
+    "frames": 22,
+    "unique_frames": 12,
+    "duration_ms": 1930,
+    "file": "assets/guide-seated-wrist-curl.gif"
+  },
+  {
+    "exercise": "Seated Reverse Wrist Curl",
+    "group": "Forearms",
+    "frames": 23,
+    "unique_frames": 12,
+    "duration_ms": 1930,
+    "file": "assets/guide-seated-reverse-wrist-curl.gif"
+  },
+  {
+    "exercise": "Jumping Jack",
+    "group": "Full body",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-jumping-jack.gif"
+  },
+  {
+    "exercise": "Mountain Climber",
+    "group": "Full body",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-mountain-climber.gif"
+  },
+  {
+    "exercise": "Lateral Band Walk",
+    "group": "Glutes & hips",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-lateral-band-walk.gif"
+  },
+  {
+    "exercise": "Incline Dumbbell Curl",
+    "group": "Biceps",
+    "frames": 24,
+    "unique_frames": 13,
+    "duration_ms": 1920,
+    "file": "assets/guide-incline-dumbbell-curl.gif"
+  }
+]

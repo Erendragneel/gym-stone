@@ -1,0 +1,1080 @@
+[
+  {
+    "name": "Bodyweight Glute Bridge",
+    "id": "g0-01_Bodyweight_Glute_Bridge",
+    "group": "Glutes & hips",
+    "image": "assets/g0-01_Bodyweight_Glute_Bridge.webp",
+    "gif": "assets/g0-01_Bodyweight_Glute_Bridge.gif"
+  },
+  {
+    "name": "Barbell Hip Thrust",
+    "id": "g0-02_Barbell_Hip_Thrust",
+    "group": "Glutes & hips",
+    "image": "assets/g0-02_Barbell_Hip_Thrust.webp",
+    "gif": "assets/g0-02_Barbell_Hip_Thrust.gif"
+  },
+  {
+    "name": "Single Leg Glute Bridge",
+    "id": "g0-03_Single_Leg_Glute_Bridge",
+    "group": "Glutes & hips",
+    "image": "assets/g0-03_Single_Leg_Glute_Bridge.webp",
+    "gif": "assets/g0-03_Single_Leg_Glute_Bridge.gif"
+  },
+  {
+    "name": "Frog Pump",
+    "id": "g0-04_Frog_Pump",
+    "group": "Glutes & hips",
+    "image": "assets/g0-04_Frog_Pump.webp",
+    "gif": "assets/g0-04_Frog_Pump.gif"
+  },
+  {
+    "name": "Side Lying Clamshell",
+    "id": "g0-05_Side_Lying_Clamshell",
+    "group": "Glutes & hips",
+    "image": "assets/g0-05_Side_Lying_Clamshell.webp",
+    "gif": "assets/g0-05_Side_Lying_Clamshell.gif"
+  },
+  {
+    "name": "Side Lying Hip Abduction",
+    "id": "g0-06_Side_Lying_Hip_Abduction",
+    "group": "Glutes & hips",
+    "image": "assets/g0-06_Side_Lying_Hip_Abduction.webp",
+    "gif": "assets/g0-06_Side_Lying_Hip_Abduction.gif"
+  },
+  {
+    "name": "Quadruped Donkey Kick",
+    "id": "g0-07_Quadruped_Donkey_Kick",
+    "group": "Glutes & hips",
+    "image": "assets/g0-07_Quadruped_Donkey_Kick.webp",
+    "gif": "assets/g0-07_Quadruped_Donkey_Kick.gif"
+  },
+  {
+    "name": "Quadruped Fire Hydrant",
+    "id": "g0-08_Quadruped_Fire_Hydrant",
+    "group": "Glutes & hips",
+    "image": "assets/g0-08_Quadruped_Fire_Hydrant.webp",
+    "gif": "assets/g0-08_Quadruped_Fire_Hydrant.gif"
+  },
+  {
+    "name": "Cable Hip Abduction",
+    "id": "g0-09_Cable_Hip_Abduction",
+    "group": "Glutes & hips",
+    "image": "assets/g0-09_Cable_Hip_Abduction.webp",
+    "gif": "assets/g0-09_Cable_Hip_Abduction.gif"
+  },
+  {
+    "name": "Cable Glute Kickback",
+    "id": "g0-10_Cable_Glute_Kickback",
+    "group": "Glutes & hips",
+    "image": "assets/g0-10_Cable_Glute_Kickback.webp",
+    "gif": "assets/g0-10_Cable_Glute_Kickback.gif"
+  },
+  {
+    "name": "Monster Walk",
+    "id": "g0-12_Monster_Walk",
+    "group": "Glutes & hips",
+    "image": "assets/g0-12_Monster_Walk.webp",
+    "gif": "assets/g0-12_Monster_Walk.gif"
+  },
+  {
+    "name": "Goblet Squat",
+    "id": "g0-13_Goblet_Squat",
+    "group": "Glutes & hips",
+    "image": "assets/g0-13_Goblet_Squat.webp",
+    "groups": [
+      "Glutes & hips",
+      "Quads"
+    ],
+    "gif": "assets/g0-13_Goblet_Squat.gif"
+  },
+  {
+    "name": "Sumo Dumbbell Squat",
+    "id": "g0-14_Sumo_Dumbbell_Squat",
+    "group": "Glutes & hips",
+    "image": "assets/g0-14_Sumo_Dumbbell_Squat.webp",
+    "gif": "assets/g0-14_Sumo_Dumbbell_Squat.gif"
+  },
+  {
+    "name": "Reverse Lunge",
+    "id": "g0-15_Reverse_Lunge",
+    "group": "Glutes & hips",
+    "image": "assets/g0-15_Reverse_Lunge.webp",
+    "gif": "assets/g0-15_Reverse_Lunge.gif"
+  },
+  {
+    "name": "Bulgarian Split Squat",
+    "id": "g0-16_Bulgarian_Split_Squat",
+    "group": "Glutes & hips",
+    "image": "assets/g0-16_Bulgarian_Split_Squat.webp",
+    "gif": "assets/g0-16_Bulgarian_Split_Squat.gif"
+  },
+  {
+    "name": "Low Box Step Up",
+    "id": "g0-17_Low_Box_Step_Up",
+    "group": "Glutes & hips",
+    "image": "assets/g0-17_Low_Box_Step_Up.webp",
+    "gif": "assets/g0-17_Low_Box_Step_Up.gif"
+  },
+  {
+    "name": "Lateral Lunge",
+    "id": "g0-18_Lateral_Lunge",
+    "group": "Glutes & hips",
+    "image": "assets/g0-18_Lateral_Lunge.webp",
+    "gif": "assets/g0-18_Lateral_Lunge.gif"
+  },
+  {
+    "name": "Curtsy Lunge",
+    "id": "g0-19_Curtsy_Lunge",
+    "group": "Glutes & hips",
+    "image": "assets/g0-19_Curtsy_Lunge.webp",
+    "gif": "assets/g0-19_Curtsy_Lunge.gif"
+  },
+  {
+    "name": "Single Leg Dumbbell RDL",
+    "id": "g0-20_Single_Leg_Dumbbell_RDL",
+    "group": "Glutes & hips",
+    "image": "assets/g0-20_Single_Leg_Dumbbell_RDL.webp",
+    "gif": "assets/g0-20_Single_Leg_Dumbbell_RDL.gif"
+  },
+  {
+    "name": "Hip Abduction Machine",
+    "id": "g0-21_Hip_Abduction_Machine",
+    "group": "Glutes & hips",
+    "image": "assets/g0-21_Hip_Abduction_Machine.webp",
+    "gif": "assets/g0-21_Hip_Abduction_Machine.gif"
+  },
+  {
+    "name": "Hip Adduction Machine",
+    "id": "g0-22_Hip_Adduction_Machine",
+    "group": "Glutes & hips",
+    "image": "assets/g0-22_Hip_Adduction_Machine.webp",
+    "gif": "assets/g0-22_Hip_Adduction_Machine.gif"
+  },
+  {
+    "name": "Barbell Romanian Deadlift",
+    "id": "g0-23_Barbell_Romanian_Deadlift",
+    "group": "Glutes & hips",
+    "image": "assets/g0-23_Barbell_Romanian_Deadlift.webp",
+    "gif": "assets/g0-23_Barbell_Romanian_Deadlift.gif"
+  },
+  {
+    "name": "Kettlebell Swing",
+    "id": "g0-24_Kettlebell_Swing",
+    "group": "Glutes & hips",
+    "image": "assets/g0-24_Kettlebell_Swing.webp",
+    "gif": "assets/g0-24_Kettlebell_Swing.gif"
+  },
+  {
+    "name": "90 90 Hip Switch",
+    "id": "g0-25_90_90_Hip_Switch",
+    "group": "Glutes & hips",
+    "image": "assets/g0-25_90_90_Hip_Switch.webp",
+    "gif": "assets/g0-25_90_90_Hip_Switch.gif"
+  },
+  {
+    "name": "Conventional Deadlift",
+    "id": "g1-01_Conventional_Deadlift",
+    "group": "Back",
+    "image": "assets/g1-01_Conventional_Deadlift.webp",
+    "gif": "assets/g1-01_Conventional_Deadlift.gif"
+  },
+  {
+    "name": "Romanian Deadlift",
+    "id": "g1-02_Romanian_Deadlift",
+    "group": "Back",
+    "image": "assets/g1-02_Romanian_Deadlift.webp",
+    "gif": "assets/g1-02_Romanian_Deadlift.gif"
+  },
+  {
+    "name": "Barbell Good Morning",
+    "id": "g1-03_Barbell_Good_Morning",
+    "group": "Back",
+    "image": "assets/g1-03_Barbell_Good_Morning.webp",
+    "gif": "assets/g1-03_Barbell_Good_Morning.gif"
+  },
+  {
+    "name": "45 Degree Back Extension",
+    "id": "g1-04_45_Degree_Back_Extension",
+    "group": "Back",
+    "image": "assets/g1-04_45_Degree_Back_Extension.webp",
+    "gif": "assets/g1-04_45_Degree_Back_Extension.gif"
+  },
+  {
+    "name": "Bent Over Barbell Row",
+    "id": "g1-05_Bent_Over_Barbell_Row",
+    "group": "Back",
+    "image": "assets/g1-05_Bent_Over_Barbell_Row.webp",
+    "gif": "assets/g1-05_Bent_Over_Barbell_Row.gif"
+  },
+  {
+    "name": "Pendlay Row",
+    "id": "g1-06_Pendlay_Row",
+    "group": "Back",
+    "image": "assets/g1-06_Pendlay_Row.webp",
+    "gif": "assets/g1-06_Pendlay_Row.gif"
+  },
+  {
+    "name": "T Bar Row",
+    "id": "g1-07_T_Bar_Row",
+    "group": "Back",
+    "image": "assets/g1-07_T_Bar_Row.webp",
+    "gif": "assets/g1-07_T_Bar_Row.gif"
+  },
+  {
+    "name": "Single Arm Dumbbell Row",
+    "id": "g1-08_Single_Arm_Dumbbell_Row",
+    "group": "Back",
+    "image": "assets/g1-08_Single_Arm_Dumbbell_Row.webp",
+    "gif": "assets/g1-08_Single_Arm_Dumbbell_Row.gif"
+  },
+  {
+    "name": "Chest Supported Dumbbell Row",
+    "id": "g1-09_Chest_Supported_Dumbbell_Row",
+    "group": "Back",
+    "image": "assets/g1-09_Chest_Supported_Dumbbell_Row.webp",
+    "gif": "assets/g1-09_Chest_Supported_Dumbbell_Row.gif"
+  },
+  {
+    "name": "Chest Supported Machine Row",
+    "id": "g1-10_Chest_Supported_Machine_Row",
+    "group": "Back",
+    "image": "assets/g1-10_Chest_Supported_Machine_Row.webp",
+    "gif": "assets/g1-10_Chest_Supported_Machine_Row.gif"
+  },
+  {
+    "name": "Neutral Grip Seated Cable Row",
+    "id": "g1-11_Neutral_Grip_Seated_Cable_Row",
+    "group": "Back",
+    "image": "assets/g1-11_Neutral_Grip_Seated_Cable_Row.webp",
+    "gif": "assets/g1-11_Neutral_Grip_Seated_Cable_Row.gif"
+  },
+  {
+    "name": "Wide Grip Seated Cable Row",
+    "id": "g1-12_Wide_Grip_Seated_Cable_Row",
+    "group": "Back",
+    "image": "assets/g1-12_Wide_Grip_Seated_Cable_Row.webp",
+    "gif": "assets/g1-12_Wide_Grip_Seated_Cable_Row.gif"
+  },
+  {
+    "name": "Wide Grip Lat Pulldown",
+    "id": "g1-13_Wide_Grip_Lat_Pulldown",
+    "group": "Back",
+    "image": "assets/g1-13_Wide_Grip_Lat_Pulldown.webp",
+    "gif": "assets/g1-13_Wide_Grip_Lat_Pulldown.gif"
+  },
+  {
+    "name": "Close Neutral Grip Pulldown",
+    "id": "g1-14_Close_Neutral_Grip_Pulldown",
+    "group": "Back",
+    "image": "assets/g1-14_Close_Neutral_Grip_Pulldown.webp",
+    "gif": "assets/g1-14_Close_Neutral_Grip_Pulldown.gif"
+  },
+  {
+    "name": "Single Arm Cable Pulldown",
+    "id": "g1-15_Single_Arm_Cable_Pulldown",
+    "group": "Back",
+    "image": "assets/g1-15_Single_Arm_Cable_Pulldown.webp",
+    "gif": "assets/g1-15_Single_Arm_Cable_Pulldown.gif"
+  },
+  {
+    "name": "Straight Arm Cable Pulldown",
+    "id": "g1-16_Straight_Arm_Cable_Pulldown",
+    "group": "Back",
+    "image": "assets/g1-16_Straight_Arm_Cable_Pulldown.webp",
+    "gif": "assets/g1-16_Straight_Arm_Cable_Pulldown.gif"
+  },
+  {
+    "name": "Overhand Pull Up",
+    "id": "g1-17_Overhand_Pull_Up",
+    "group": "Back",
+    "image": "assets/g1-17_Overhand_Pull_Up.webp",
+    "gif": "assets/g1-17_Overhand_Pull_Up.gif"
+  },
+  {
+    "name": "Wide Grip Pull Up",
+    "id": "g1-18_Wide_Grip_Pull_Up",
+    "group": "Back",
+    "image": "assets/g1-18_Wide_Grip_Pull_Up.webp",
+    "gif": "assets/g1-18_Wide_Grip_Pull_Up.gif"
+  },
+  {
+    "name": "Neutral Grip Pull Up",
+    "id": "g1-19_Neutral_Grip_Pull_Up",
+    "group": "Back",
+    "image": "assets/g1-19_Neutral_Grip_Pull_Up.webp",
+    "gif": "assets/g1-19_Neutral_Grip_Pull_Up.gif"
+  },
+  {
+    "name": "Overhand Inverted Row",
+    "id": "g1-20_Overhand_Inverted_Row",
+    "group": "Back",
+    "image": "assets/g1-20_Overhand_Inverted_Row.webp",
+    "gif": "assets/g1-20_Overhand_Inverted_Row.gif"
+  },
+  {
+    "name": "Machine High Row",
+    "id": "g1-21_Machine_High_Row",
+    "group": "Back",
+    "image": "assets/g1-21_Machine_High_Row.webp",
+    "gif": "assets/g1-21_Machine_High_Row.gif"
+  },
+  {
+    "name": "Dumbbell Pullover",
+    "id": "g1-22_Dumbbell_Pullover",
+    "group": "Back",
+    "image": "assets/g1-22_Dumbbell_Pullover.webp",
+    "gif": "assets/g1-22_Dumbbell_Pullover.gif"
+  },
+  {
+    "name": "Barbell Shrug",
+    "id": "g1-23_Barbell_Shrug",
+    "group": "Back",
+    "image": "assets/g1-23_Barbell_Shrug.webp",
+    "gif": "assets/g1-23_Barbell_Shrug.gif"
+  },
+  {
+    "name": "Rope Face Pull",
+    "id": "g1-24_Rope_Face_Pull",
+    "group": "Back",
+    "image": "assets/g1-24_Rope_Face_Pull.webp",
+    "groups": [
+      "Back",
+      "Shoulders"
+    ],
+    "gif": "assets/g1-24_Rope_Face_Pull.gif"
+  },
+  {
+    "name": "Superman",
+    "id": "g1-25_Superman",
+    "group": "Back",
+    "image": "assets/g1-25_Superman.webp",
+    "gif": "assets/g1-25_Superman.gif"
+  },
+  {
+    "name": "Standing Dumbbell Shoulder Press",
+    "id": "g2-01_Standing_Dumbbell_Shoulder_Press",
+    "group": "Shoulders",
+    "image": "assets/g2-01_Standing_Dumbbell_Shoulder_Press.webp",
+    "gif": "assets/g2-01_Standing_Dumbbell_Shoulder_Press.gif"
+  },
+  {
+    "name": "Seated Dumbbell Shoulder Press",
+    "id": "g2-02_Seated_Dumbbell_Shoulder_Press",
+    "group": "Shoulders",
+    "image": "assets/g2-02_Seated_Dumbbell_Shoulder_Press.webp",
+    "gif": "assets/g2-02_Seated_Dumbbell_Shoulder_Press.gif"
+  },
+  {
+    "name": "Arnold Press",
+    "id": "g2-03_Arnold_Press",
+    "group": "Shoulders",
+    "image": "assets/g2-03_Arnold_Press.webp",
+    "gif": "assets/g2-03_Arnold_Press.gif"
+  },
+  {
+    "name": "Standing Barbell Overhead Press",
+    "id": "g2-04_Standing_Barbell_Overhead_Press",
+    "group": "Shoulders",
+    "image": "assets/g2-04_Standing_Barbell_Overhead_Press.webp",
+    "gif": "assets/g2-04_Standing_Barbell_Overhead_Press.gif"
+  },
+  {
+    "name": "Seated Barbell Shoulder Press",
+    "id": "g2-05_Seated_Barbell_Shoulder_Press",
+    "group": "Shoulders",
+    "image": "assets/g2-05_Seated_Barbell_Shoulder_Press.webp",
+    "gif": "assets/g2-05_Seated_Barbell_Shoulder_Press.gif"
+  },
+  {
+    "name": "Machine Shoulder Press",
+    "id": "g2-06_Machine_Shoulder_Press",
+    "group": "Shoulders",
+    "image": "assets/g2-06_Machine_Shoulder_Press.webp",
+    "gif": "assets/g2-06_Machine_Shoulder_Press.gif"
+  },
+  {
+    "name": "Half Kneeling Landmine Press",
+    "id": "g2-07_Half_Kneeling_Landmine_Press",
+    "group": "Shoulders",
+    "image": "assets/g2-07_Half_Kneeling_Landmine_Press.webp",
+    "gif": "assets/g2-07_Half_Kneeling_Landmine_Press.gif"
+  },
+  {
+    "name": "Two Hand Landmine Press",
+    "id": "g2-08_Two_Hand_Landmine_Press",
+    "group": "Shoulders",
+    "image": "assets/g2-08_Two_Hand_Landmine_Press.webp",
+    "gif": "assets/g2-08_Two_Hand_Landmine_Press.gif"
+  },
+  {
+    "name": "Dumbbell Lateral Raise",
+    "id": "g2-09_Dumbbell_Lateral_Raise",
+    "group": "Shoulders",
+    "image": "assets/g2-09_Dumbbell_Lateral_Raise.webp",
+    "gif": "assets/g2-09_Dumbbell_Lateral_Raise.gif"
+  },
+  {
+    "name": "Cable Lateral Raise",
+    "id": "g2-10_Cable_Lateral_Raise",
+    "group": "Shoulders",
+    "image": "assets/g2-10_Cable_Lateral_Raise.webp",
+    "gif": "assets/g2-10_Cable_Lateral_Raise.gif"
+  },
+  {
+    "name": "Leaning Lateral Raise",
+    "id": "g2-11_Leaning_Lateral_Raise",
+    "group": "Shoulders",
+    "image": "assets/g2-11_Leaning_Lateral_Raise.webp",
+    "gif": "assets/g2-11_Leaning_Lateral_Raise.gif"
+  },
+  {
+    "name": "Dumbbell Front Raise",
+    "id": "g2-12_Dumbbell_Front_Raise",
+    "group": "Shoulders",
+    "image": "assets/g2-12_Dumbbell_Front_Raise.webp",
+    "gif": "assets/g2-12_Dumbbell_Front_Raise.gif"
+  },
+  {
+    "name": "Plate Front Raise",
+    "id": "g2-13_Plate_Front_Raise",
+    "group": "Shoulders",
+    "image": "assets/g2-13_Plate_Front_Raise.webp",
+    "gif": "assets/g2-13_Plate_Front_Raise.gif"
+  },
+  {
+    "name": "Cable Front Raise",
+    "id": "g2-14_Cable_Front_Raise",
+    "group": "Shoulders",
+    "image": "assets/g2-14_Cable_Front_Raise.webp",
+    "gif": "assets/g2-14_Cable_Front_Raise.gif"
+  },
+  {
+    "name": "Bent Over Rear Delt Fly",
+    "id": "g2-15_Bent_Over_Rear_Delt_Fly",
+    "group": "Shoulders",
+    "image": "assets/g2-15_Bent_Over_Rear_Delt_Fly.webp",
+    "gif": "assets/g2-15_Bent_Over_Rear_Delt_Fly.gif"
+  },
+  {
+    "name": "Chest Supported Rear Delt Fly",
+    "id": "g2-16_Chest_Supported_Rear_Delt_Fly",
+    "group": "Shoulders",
+    "image": "assets/g2-16_Chest_Supported_Rear_Delt_Fly.webp",
+    "gif": "assets/g2-16_Chest_Supported_Rear_Delt_Fly.gif"
+  },
+  {
+    "name": "Reverse Pec Deck",
+    "id": "g2-17_Reverse_Pec_Deck",
+    "group": "Shoulders",
+    "image": "assets/g2-17_Reverse_Pec_Deck.webp",
+    "gif": "assets/g2-17_Reverse_Pec_Deck.gif"
+  },
+  {
+    "name": "Wide Grip Upright Row",
+    "id": "g2-19_Wide_Grip_Upright_Row",
+    "group": "Shoulders",
+    "image": "assets/g2-19_Wide_Grip_Upright_Row.webp",
+    "gif": "assets/g2-19_Wide_Grip_Upright_Row.gif"
+  },
+  {
+    "name": "Dumbbell Scaption Raise",
+    "id": "g2-20_Dumbbell_Scaption_Raise",
+    "group": "Shoulders",
+    "image": "assets/g2-20_Dumbbell_Scaption_Raise.webp",
+    "gif": "assets/g2-20_Dumbbell_Scaption_Raise.gif"
+  },
+  {
+    "name": "Cuban Rotation to Press",
+    "id": "g2-21_Cuban_Rotation_to_Press",
+    "group": "Shoulders",
+    "image": "assets/g2-21_Cuban_Rotation_to_Press.webp",
+    "gif": "assets/g2-21_Cuban_Rotation_to_Press.gif"
+  },
+  {
+    "name": "Incline Bench Y Raise",
+    "id": "g2-22_Incline_Bench_Y_Raise",
+    "group": "Shoulders",
+    "image": "assets/g2-22_Incline_Bench_Y_Raise.webp",
+    "gif": "assets/g2-22_Incline_Bench_Y_Raise.gif"
+  },
+  {
+    "name": "Resistance Band Pull Apart",
+    "id": "g2-23_Resistance_Band_Pull_Apart",
+    "group": "Shoulders",
+    "image": "assets/g2-23_Resistance_Band_Pull_Apart.webp",
+    "gif": "assets/g2-23_Resistance_Band_Pull_Apart.gif"
+  },
+  {
+    "name": "Cable External Rotation",
+    "id": "g2-24_Cable_External_Rotation",
+    "group": "Shoulders",
+    "image": "assets/g2-24_Cable_External_Rotation.webp",
+    "gif": "assets/g2-24_Cable_External_Rotation.gif"
+  },
+  {
+    "name": "Pike Push Up",
+    "id": "g2-25_Pike_Push_Up",
+    "group": "Shoulders",
+    "image": "assets/g2-25_Pike_Push_Up.webp",
+    "gif": "assets/g2-25_Pike_Push_Up.gif"
+  },
+  {
+    "name": "Standing Dumbbell Curl",
+    "id": "g3-01_Standing_Dumbbell_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-01_Standing_Dumbbell_Curl.webp",
+    "gif": "assets/g3-01_Standing_Dumbbell_Curl.gif"
+  },
+  {
+    "name": "Alternating Dumbbell Curl",
+    "id": "g3-02_Alternating_Dumbbell_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-02_Alternating_Dumbbell_Curl.webp",
+    "gif": "assets/g3-02_Alternating_Dumbbell_Curl.gif"
+  },
+  {
+    "name": "Hammer Curl",
+    "id": "g3-03_Hammer_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-03_Hammer_Curl.webp",
+    "gif": "assets/g3-03_Hammer_Curl.gif"
+  },
+  {
+    "name": "Cross Body Hammer Curl",
+    "id": "g3-04_Cross_Body_Hammer_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-04_Cross_Body_Hammer_Curl.webp",
+    "gif": "assets/g3-04_Cross_Body_Hammer_Curl.gif"
+  },
+  {
+    "name": "Concentration Curl",
+    "id": "g3-06_Concentration_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-06_Concentration_Curl.webp",
+    "gif": "assets/g3-06_Concentration_Curl.gif"
+  },
+  {
+    "name": "Dumbbell Preacher Curl",
+    "id": "g3-07_Dumbbell_Preacher_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-07_Dumbbell_Preacher_Curl.webp",
+    "gif": "assets/g3-07_Dumbbell_Preacher_Curl.gif"
+  },
+  {
+    "name": "Spider Curl",
+    "id": "g3-08_Spider_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-08_Spider_Curl.webp",
+    "gif": "assets/g3-08_Spider_Curl.gif"
+  },
+  {
+    "name": "Straight Barbell Curl",
+    "id": "g3-09_Straight_Barbell_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-09_Straight_Barbell_Curl.webp",
+    "gif": "assets/g3-09_Straight_Barbell_Curl.gif"
+  },
+  {
+    "name": "EZ Bar Curl",
+    "id": "g3-10_EZ_Bar_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-10_EZ_Bar_Curl.webp",
+    "gif": "assets/g3-10_EZ_Bar_Curl.gif"
+  },
+  {
+    "name": "Preacher EZ Bar Curl",
+    "id": "g3-11_Preacher_EZ_Bar_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-11_Preacher_EZ_Bar_Curl.webp",
+    "gif": "assets/g3-11_Preacher_EZ_Bar_Curl.gif"
+  },
+  {
+    "name": "Reverse Barbell Curl",
+    "id": "g3-12_Reverse_Barbell_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-12_Reverse_Barbell_Curl.webp",
+    "gif": "assets/g3-12_Reverse_Barbell_Curl.gif"
+  },
+  {
+    "name": "Drag Curl",
+    "id": "g3-13_Drag_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-13_Drag_Curl.webp",
+    "gif": "assets/g3-13_Drag_Curl.gif"
+  },
+  {
+    "name": "Zottman Curl",
+    "id": "g3-14_Zottman_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-14_Zottman_Curl.webp",
+    "gif": "assets/g3-14_Zottman_Curl.gif"
+  },
+  {
+    "name": "Seated Dumbbell Curl",
+    "id": "g3-15_Seated_Dumbbell_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-15_Seated_Dumbbell_Curl.webp",
+    "gif": "assets/g3-15_Seated_Dumbbell_Curl.gif"
+  },
+  {
+    "name": "Seated Hammer Curl",
+    "id": "g3-16_Seated_Hammer_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-16_Seated_Hammer_Curl.webp",
+    "gif": "assets/g3-16_Seated_Hammer_Curl.gif"
+  },
+  {
+    "name": "Standing Cable Curl",
+    "id": "g3-17_Standing_Cable_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-17_Standing_Cable_Curl.webp",
+    "gif": "assets/g3-17_Standing_Cable_Curl.gif"
+  },
+  {
+    "name": "Single Arm Cable Curl",
+    "id": "g3-18_Single_Arm_Cable_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-18_Single_Arm_Cable_Curl.webp",
+    "gif": "assets/g3-18_Single_Arm_Cable_Curl.gif"
+  },
+  {
+    "name": "Rope Hammer Cable Curl",
+    "id": "g3-19_Rope_Hammer_Cable_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-19_Rope_Hammer_Cable_Curl.webp",
+    "gif": "assets/g3-19_Rope_Hammer_Cable_Curl.gif"
+  },
+  {
+    "name": "Bayesian Cable Curl",
+    "id": "g3-20_Bayesian_Cable_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-20_Bayesian_Cable_Curl.webp",
+    "gif": "assets/g3-20_Bayesian_Cable_Curl.gif"
+  },
+  {
+    "name": "Overhead Cable Curl",
+    "id": "g3-21_Overhead_Cable_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-21_Overhead_Cable_Curl.webp",
+    "gif": "assets/g3-21_Overhead_Cable_Curl.gif"
+  },
+  {
+    "name": "Machine Preacher Curl",
+    "id": "g3-22_Machine_Preacher_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-22_Machine_Preacher_Curl.webp",
+    "gif": "assets/g3-22_Machine_Preacher_Curl.gif"
+  },
+  {
+    "name": "Resistance Band Curl",
+    "id": "g3-23_Resistance_Band_Curl",
+    "group": "Biceps",
+    "image": "assets/g3-23_Resistance_Band_Curl.webp",
+    "gif": "assets/g3-23_Resistance_Band_Curl.gif"
+  },
+  {
+    "name": "Chin Up",
+    "id": "g3-24_Chin_Up",
+    "group": "Biceps",
+    "image": "assets/g3-24_Chin_Up.webp",
+    "gif": "assets/g3-24_Chin_Up.gif"
+  },
+  {
+    "name": "Underhand Inverted Row",
+    "id": "g3-25_Underhand_Inverted_Row",
+    "group": "Biceps",
+    "image": "assets/g3-25_Underhand_Inverted_Row.webp",
+    "gif": "assets/g3-25_Underhand_Inverted_Row.gif"
+  },
+  {
+    "name": "Side Plank",
+    "id": "g4-01_Side_Plank",
+    "group": "Obliques",
+    "image": "assets/g4-01_Side_Plank.webp",
+    "gif": "assets/g4-01_Side_Plank.gif"
+  },
+  {
+    "name": "Side Plank Hip Dips",
+    "id": "g4-02_Side_Plank_Hip_Dips",
+    "group": "Obliques",
+    "image": "assets/g4-02_Side_Plank_Hip_Dips.webp",
+    "gif": "assets/g4-02_Side_Plank_Hip_Dips.gif"
+  },
+  {
+    "name": "Side Plank Rotation",
+    "id": "g4-03_Side_Plank_Rotation",
+    "group": "Obliques",
+    "image": "assets/g4-03_Side_Plank_Rotation.webp",
+    "gif": "assets/g4-03_Side_Plank_Rotation.gif"
+  },
+  {
+    "name": "Bicycle Crunch",
+    "id": "g4-04_Bicycle_Crunch",
+    "group": "Obliques",
+    "image": "assets/g4-04_Bicycle_Crunch.webp",
+    "gif": "assets/g4-04_Bicycle_Crunch.gif"
+  },
+  {
+    "name": "Heel Touches",
+    "id": "g4-05_Heel_Touches",
+    "group": "Obliques",
+    "image": "assets/g4-05_Heel_Touches.webp",
+    "gif": "assets/g4-05_Heel_Touches.gif"
+  },
+  {
+    "name": "Cross Body Crunch",
+    "id": "g4-06_Cross_Body_Crunch",
+    "group": "Obliques",
+    "image": "assets/g4-06_Cross_Body_Crunch.webp",
+    "gif": "assets/g4-06_Cross_Body_Crunch.gif"
+  },
+  {
+    "name": "Cross Body Mountain Climber",
+    "id": "g4-07_Cross_Body_Mountain_Climber",
+    "group": "Obliques",
+    "image": "assets/g4-07_Cross_Body_Mountain_Climber.webp",
+    "gif": "assets/g4-07_Cross_Body_Mountain_Climber.gif"
+  },
+  {
+    "name": "Windshield Wipers",
+    "id": "g4-08_Windshield_Wipers",
+    "group": "Obliques",
+    "image": "assets/g4-08_Windshield_Wipers.webp",
+    "gif": "assets/g4-08_Windshield_Wipers.gif"
+  },
+  {
+    "name": "Russian Twist",
+    "id": "g4-09_Russian_Twist",
+    "group": "Obliques",
+    "image": "assets/g4-09_Russian_Twist.webp",
+    "gif": "assets/g4-09_Russian_Twist.gif"
+  },
+  {
+    "name": "Reverse Crunch With Rotation",
+    "id": "g4-10_Reverse_Crunch_With_Rotation",
+    "group": "Obliques",
+    "image": "assets/g4-10_Reverse_Crunch_With_Rotation.webp",
+    "gif": "assets/g4-10_Reverse_Crunch_With_Rotation.gif"
+  },
+  {
+    "name": "Dumbbell Side Bend",
+    "id": "g4-11_Dumbbell_Side_Bend",
+    "group": "Obliques",
+    "image": "assets/g4-11_Dumbbell_Side_Bend.webp",
+    "gif": "assets/g4-11_Dumbbell_Side_Bend.gif"
+  },
+  {
+    "name": "Weighted Russian Twist",
+    "id": "g4-12_Weighted_Russian_Twist",
+    "group": "Obliques",
+    "image": "assets/g4-12_Weighted_Russian_Twist.webp",
+    "gif": "assets/g4-12_Weighted_Russian_Twist.gif"
+  },
+  {
+    "name": "Suitcase Carry",
+    "id": "g4-13_Suitcase_Carry",
+    "group": "Obliques",
+    "image": "assets/g4-13_Suitcase_Carry.webp",
+    "gif": "assets/g4-13_Suitcase_Carry.gif"
+  },
+  {
+    "name": "Standing Oblique Crunch",
+    "id": "g4-14_Standing_Oblique_Crunch",
+    "group": "Obliques",
+    "image": "assets/g4-14_Standing_Oblique_Crunch.webp",
+    "gif": "assets/g4-14_Standing_Oblique_Crunch.gif"
+  },
+  {
+    "name": "High to Low Cable Woodchop",
+    "id": "g4-15_High_to_Low_Cable_Woodchop",
+    "group": "Obliques",
+    "image": "assets/g4-15_High_to_Low_Cable_Woodchop.webp",
+    "gif": "assets/g4-15_High_to_Low_Cable_Woodchop.gif"
+  },
+  {
+    "name": "Low to High Cable Woodchop",
+    "id": "g4-16_Low_to_High_Cable_Woodchop",
+    "group": "Obliques",
+    "image": "assets/g4-16_Low_to_High_Cable_Woodchop.webp",
+    "gif": "assets/g4-16_Low_to_High_Cable_Woodchop.gif"
+  },
+  {
+    "name": "Horizontal Cable Rotation",
+    "id": "g4-17_Horizontal_Cable_Rotation",
+    "group": "Obliques",
+    "image": "assets/g4-17_Horizontal_Cable_Rotation.webp",
+    "gif": "assets/g4-17_Horizontal_Cable_Rotation.gif"
+  },
+  {
+    "name": "Pallof Press",
+    "id": "g4-18_Pallof_Press",
+    "group": "Obliques",
+    "image": "assets/g4-18_Pallof_Press.webp",
+    "gif": "assets/g4-18_Pallof_Press.gif"
+  },
+  {
+    "name": "Landmine Rotation",
+    "id": "g4-19_Landmine_Rotation",
+    "group": "Obliques",
+    "image": "assets/g4-19_Landmine_Rotation.webp",
+    "gif": "assets/g4-19_Landmine_Rotation.gif"
+  },
+  {
+    "name": "Medicine Ball Rotational Throw",
+    "id": "g4-20_Medicine_Ball_Rotational_Throw",
+    "group": "Obliques",
+    "image": "assets/g4-20_Medicine_Ball_Rotational_Throw.webp",
+    "gif": "assets/g4-20_Medicine_Ball_Rotational_Throw.gif"
+  },
+  {
+    "name": "Hanging Oblique Knee Raise",
+    "id": "g4-21_Hanging_Oblique_Knee_Raise",
+    "group": "Obliques",
+    "image": "assets/g4-21_Hanging_Oblique_Knee_Raise.webp",
+    "gif": "assets/g4-21_Hanging_Oblique_Knee_Raise.gif"
+  },
+  {
+    "name": "Hanging Windshield Wipers",
+    "id": "g4-22_Hanging_Windshield_Wipers",
+    "group": "Obliques",
+    "image": "assets/g4-22_Hanging_Windshield_Wipers.webp",
+    "gif": "assets/g4-22_Hanging_Windshield_Wipers.gif"
+  },
+  {
+    "name": "Hanging Knee Raise With Twist",
+    "id": "g4-23_Hanging_Knee_Raise_With_Twist",
+    "group": "Obliques",
+    "image": "assets/g4-23_Hanging_Knee_Raise_With_Twist.webp",
+    "gif": "assets/g4-23_Hanging_Knee_Raise_With_Twist.gif"
+  },
+  {
+    "name": "Copenhagen Plank",
+    "id": "g4-24_Copenhagen_Plank",
+    "group": "Obliques",
+    "image": "assets/g4-24_Copenhagen_Plank.webp",
+    "gif": "assets/g4-24_Copenhagen_Plank.gif"
+  },
+  {
+    "name": "Side Plank Crunch",
+    "id": "g4-25_Side_Plank_Crunch",
+    "group": "Obliques",
+    "image": "assets/g4-25_Side_Plank_Crunch.webp",
+    "gif": "assets/g4-25_Side_Plank_Crunch.gif"
+  },
+  {
+    "id": "guide-push-up",
+    "name": "Push Up",
+    "group": "Chest",
+    "image": "assets/guide-push-up.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-push-up.gif"
+  },
+  {
+    "id": "guide-close-grip-push-up",
+    "name": "Close Grip Push Up",
+    "group": "Chest",
+    "image": "assets/guide-close-grip-push-up.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-close-grip-push-up.gif"
+  },
+  {
+    "id": "guide-dumbbell-bench-press",
+    "name": "Dumbbell Bench Press",
+    "group": "Chest",
+    "image": "assets/guide-dumbbell-bench-press.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-dumbbell-bench-press.gif"
+  },
+  {
+    "id": "guide-dumbbell-chest-fly",
+    "name": "Dumbbell Chest Fly",
+    "group": "Chest",
+    "image": "assets/guide-dumbbell-chest-fly.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-dumbbell-chest-fly.gif"
+  },
+  {
+    "id": "guide-overhead-dumbbell-triceps-extension",
+    "name": "Overhead Dumbbell Triceps Extension",
+    "group": "Triceps",
+    "image": "assets/guide-overhead-dumbbell-triceps-extension.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-overhead-dumbbell-triceps-extension.gif"
+  },
+  {
+    "id": "guide-cable-triceps-pushdown",
+    "name": "Cable Triceps Pushdown",
+    "group": "Triceps",
+    "image": "assets/guide-cable-triceps-pushdown.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-cable-triceps-pushdown.gif"
+  },
+  {
+    "id": "guide-dumbbell-triceps-kickback",
+    "name": "Dumbbell Triceps Kickback",
+    "group": "Triceps",
+    "image": "assets/guide-dumbbell-triceps-kickback.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-dumbbell-triceps-kickback.gif"
+  },
+  {
+    "id": "guide-bench-dip",
+    "name": "Bench Dip",
+    "group": "Triceps",
+    "image": "assets/guide-bench-dip.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-bench-dip.gif"
+  },
+  {
+    "id": "guide-bodyweight-squat",
+    "name": "Bodyweight Squat",
+    "group": "Quads",
+    "image": "assets/guide-bodyweight-squat.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-bodyweight-squat.gif"
+  },
+  {
+    "id": "guide-barbell-back-squat",
+    "name": "Barbell Back Squat",
+    "group": "Quads",
+    "image": "assets/guide-barbell-back-squat.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-barbell-back-squat.gif"
+  },
+  {
+    "id": "guide-barbell-front-squat",
+    "name": "Barbell Front Squat",
+    "group": "Quads",
+    "image": "assets/guide-barbell-front-squat.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-barbell-front-squat.gif"
+  },
+  {
+    "id": "guide-forward-lunge",
+    "name": "Forward Lunge",
+    "group": "Quads",
+    "image": "assets/guide-forward-lunge.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-forward-lunge.gif"
+  },
+  {
+    "id": "guide-leg-extension",
+    "name": "Leg Extension",
+    "group": "Quads",
+    "image": "assets/guide-leg-extension.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-leg-extension.gif"
+  },
+  {
+    "id": "guide-prone-leg-curl",
+    "name": "Prone Leg Curl",
+    "group": "Hamstrings",
+    "image": "assets/guide-prone-leg-curl.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-prone-leg-curl.gif"
+  },
+  {
+    "id": "guide-bodyweight-hip-hinge",
+    "name": "Bodyweight Hip Hinge",
+    "group": "Hamstrings",
+    "image": "assets/guide-bodyweight-hip-hinge.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-bodyweight-hip-hinge.gif"
+  },
+  {
+    "id": "guide-standing-calf-raise",
+    "name": "Standing Calf Raise",
+    "group": "Calves",
+    "image": "assets/guide-standing-calf-raise.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-standing-calf-raise.gif"
+  },
+  {
+    "id": "guide-standing-dumbbell-calf-raise",
+    "name": "Standing Dumbbell Calf Raise",
+    "group": "Calves",
+    "image": "assets/guide-standing-dumbbell-calf-raise.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-standing-dumbbell-calf-raise.gif"
+  },
+  {
+    "id": "guide-crunch",
+    "name": "Crunch",
+    "group": "Abs",
+    "image": "assets/guide-crunch.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-crunch.gif"
+  },
+  {
+    "id": "guide-lying-leg-raise",
+    "name": "Lying Leg Raise",
+    "group": "Abs",
+    "image": "assets/guide-lying-leg-raise.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-lying-leg-raise.gif"
+  },
+  {
+    "id": "guide-dead-bug",
+    "name": "Dead Bug",
+    "group": "Abs",
+    "image": "assets/guide-dead-bug.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-dead-bug.gif"
+  },
+  {
+    "id": "guide-bird-dog",
+    "name": "Bird Dog",
+    "group": "Abs",
+    "image": "assets/guide-bird-dog.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-bird-dog.gif"
+  },
+  {
+    "id": "guide-seated-wrist-curl",
+    "name": "Seated Wrist Curl",
+    "group": "Forearms",
+    "image": "assets/guide-seated-wrist-curl.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-seated-wrist-curl.gif"
+  },
+  {
+    "id": "guide-seated-reverse-wrist-curl",
+    "name": "Seated Reverse Wrist Curl",
+    "group": "Forearms",
+    "image": "assets/guide-seated-reverse-wrist-curl.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-seated-reverse-wrist-curl.gif"
+  },
+  {
+    "id": "guide-jumping-jack",
+    "name": "Jumping Jack",
+    "group": "Full body",
+    "image": "assets/guide-jumping-jack.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-jumping-jack.gif"
+  },
+  {
+    "id": "guide-mountain-climber",
+    "name": "Mountain Climber",
+    "group": "Full body",
+    "image": "assets/guide-mountain-climber.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-mountain-climber.gif"
+  },
+  {
+    "id": "guide-lateral-band-walk",
+    "name": "Lateral Band Walk",
+    "group": "Glutes & hips",
+    "image": "assets/guide-lateral-band-walk.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-lateral-band-walk.gif"
+  },
+  {
+    "id": "guide-incline-dumbbell-curl",
+    "name": "Incline Dumbbell Curl",
+    "group": "Biceps",
+    "image": "assets/guide-incline-dumbbell-curl.webp",
+    "style": "Illustrated guide",
+    "gif": "assets/guide-incline-dumbbell-curl.gif"
+  }
+]
