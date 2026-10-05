@@ -13,6 +13,7 @@ A workout calendar inspired by Language Miner's Sunday-first activity calendar.
 - Download App installs Gym Stone as a browser app on supported browsers, with iPhone/iPad, Android, and desktop instructions when automatic installation is unavailable. Installed apps use the new Gym Stone logo.
 - A service worker keeps the calendar available offline after an online visit; exercise animations and OCR files are cached when loaded. Browser storage remains local to the same browser and app origin.
 - Progress is stored locally in this browser, without cross-device synchronization.
+- Gym Stone has its own installed-app identity (`/gym-stone/`), distinct from Language Miner's existing identity on the same GitHub Pages domain. Its launch URL and offline scope stay inside `gym-stone/dist/`, and changing the app ID does not change the saved-data location. If an older Language Miner shortcut opens Gym Stone, revisit `https://erendragneel.github.io/language-miner/` in the browser that installed it, then install Gym Stone separately from its official URL. Keep browser site data when repairing an old installation so both games retain their progress.
 - Import PNG/JPG/WebP workout screenshots from Garmin Connect, Apple Fitness, Samsung Health, or another app.
 - English text recognition runs locally, then you review activity, date, start time, duration, distance and calories before saving.
 - Add a new completed activity or update an existing planned/completed workout. Walking, hiking, treadmill sessions and other custom activities remain in your calendar after reload.

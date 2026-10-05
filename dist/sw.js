@@ -1,12 +1,12 @@
 /* Offline app shell. Exercise animations and local OCR files are cached as used. */
 const CACHE_PREFIX = 'gym-stone-';
-const SHELL_CACHE = CACHE_PREFIX + 'shell-v2';
+const SHELL_CACHE = CACHE_PREFIX + 'shell-v6-app-identity';
 const MEDIA_CACHE = CACHE_PREFIX + 'media-v1';
 const SHELL = [
   './', './index.html', './app.js?v=4', './style.css?v=3', './calendar-theme.css',
   './screenshot-import.css?v=2', './screenshot-parser.js', './screenshot-store.js',
   './screenshot-import.js?v=2', './exercises.json', './qr-code.js',
-  './share-install.js', './share-install.css?v=2', './manifest.webmanifest?v=3',
+  './share-install.js', './share-install.css?v=2', './manifest.webmanifest?v=4',
   './icons/gym-stone-v3-32.png', './icons/gym-stone-v3-48.png',
   './icons/gym-stone-v3-180.png', './icons/gym-stone-v3-192.png', './icons/gym-stone-v3-512.png'
 ];
