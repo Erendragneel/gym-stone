@@ -1,0 +1,11 @@
+{
+  "cell_indices": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "reviewed": true,
+  "needs_repair": false,
+  "note": "Root visually reviewed the fixed-bar repair: the single bar and rack stay fixed while the body rises to a chin-above-bar endpoint. Use cells0,1,2,4 and reverse; omit repeated lower cell3 and tightest-framed cell5."
+}

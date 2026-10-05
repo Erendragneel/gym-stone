@@ -1,0 +1,11 @@
+{
+  "cell_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "peak_index": 3,
+  "note": "Use cells 0–3 only: consistent working arm and half-kneeling anchors. Cells 4–5 swap the working hand, inherited from source, so exclude them. Selected sequence shows a shorter pulldown range.",
+  "reviewed": true
+}

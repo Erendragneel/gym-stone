@@ -5,7 +5,7 @@ const crypto=require('node:crypto');
  const browser=await chromium.launch({headless:true,channel:'chrome'});
  const page=await browser.newPage({viewport:{width:1440,height:1100},timezoneId:'Asia/Tokyo'});
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
- await page.goto('http://127.0.0.1:5173');
+ await page.context().route('**/cloud-config.js',r=>r.fulfill({contentType:'application/javascript',body:"window.GYM_STONE_CLOUD_CONFIG={url:'',key:''}"}));await page.goto('http://127.0.0.1:5173');await page.locator('#account-preview').waitFor({state:'visible'});await page.locator('#account-preview').click();
  await page.waitForFunction(()=>document.querySelectorAll('.exercise-card').length===149);
  const catalog=await page.evaluate(()=>fetch('exercises.json').then(r=>r.json()));
  const refreshed=catalog.filter(e=>e.animation);

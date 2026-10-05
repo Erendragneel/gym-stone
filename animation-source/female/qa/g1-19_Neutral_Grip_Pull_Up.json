@@ -1,0 +1,5 @@
+{
+  "cycle": true,
+  "note": "Root visually reviewed: retain all six cells as the full ascent/descent cycle, with the peak at cell 3. Do not truncate before the return.",
+  "reviewed": true
+}

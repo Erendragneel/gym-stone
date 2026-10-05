@@ -1,0 +1,11 @@
+{
+  "cell_indices": [
+    0,
+    1,
+    2,
+    4,
+    5
+  ],
+  "note": "Cell 3 drops the bar slightly after cell 2; omit cell 3 for a clean one-way row ascent.",
+  "reviewed": true
+}

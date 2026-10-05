@@ -1,0 +1,2 @@
+/* Only the public project URL and publishable/anon key belong in this file. */
+window.GYM_STONE_CLOUD_CONFIG = Object.freeze({"url":"https://skadxestusbzrmglsyei.supabase.co","key":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNrYWR4ZXN0dXNienJtZ2xzeWVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTExODI4MjUsImV4cCI6MjEwNjc1ODgyNX0.EvJg3hwzxeE4X_MRrvae14vkGgJ4v9eULI7dwQV-V4c","remindersReady":false,"emailDeliveryReady":false});

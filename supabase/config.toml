@@ -1,0 +1,4 @@
+project_id = "gym-stone"
+
+[functions.gym-login]
+verify_jwt = true

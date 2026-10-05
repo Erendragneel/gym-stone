@@ -1,0 +1,6 @@
+{
+  "peak_index": 2,
+  "notes": "Use forward subset before source-derived camera mirror in bottom row; trim 3px cell edges to remove retained grid separators.",
+  "accepted": true,
+  "needs_repair": false
+}

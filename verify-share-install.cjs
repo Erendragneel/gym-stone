@@ -4,9 +4,10 @@ const URL='https://erendragneel.github.io/gym-stone/';
 (async()=>{
   const browser=await chromium.launch({headless:true,channel:'chrome'});
   const context=await browser.newContext({viewport:{width:1440,height:1000},permissions:['clipboard-read','clipboard-write']});
+  await context.addInitScript(()=>Object.defineProperty(window,'GYM_STONE_CLOUD_CONFIG',{value:{url:'',key:''},writable:false}));
   const page=await context.newPage(),errors=[];
   page.on('pageerror',error=>errors.push(error.message));
-  await page.goto('http://127.0.0.1:5173');
+  await page.context().route('**/cloud-config.js',r=>r.fulfill({contentType:'application/javascript',body:"window.GYM_STONE_CLOUD_CONFIG={url:'',key:''}"}));await page.goto('http://127.0.0.1:5173');await page.locator('#account-preview').waitFor({state:'visible'});await page.locator('#account-preview').click();
   await page.waitForFunction(()=>document.querySelectorAll('.exercise-card').length>140);
   await page.getByRole('button',{name:'Share Game'}).click();
   assert.equal(await page.locator('#share-url').inputValue(),URL);
@@ -42,14 +43,14 @@ const URL='https://erendragneel.github.io/gym-stone/';
   await page.locator('#search').fill('Jumping Jack');await page.getByRole('button',{name:'Add to selected day: Jumping Jack',exact:true}).click();
   await page.locator('.check').first().click();await page.getByRole('spinbutton',{name:'Minutes spent on Jumping Jack'}).fill('30');await page.getByRole('spinbutton',{name:'Minutes spent on Jumping Jack'}).press('Tab');
   await page.waitForFunction(()=>document.querySelector('.save-label').textContent.startsWith('●'));
-  await context.setOffline(true);await page.reload();await page.waitForFunction(()=>document.querySelectorAll('.exercise-card').length>140);
+  await context.setOffline(true);await page.reload();await page.locator('#account-preview').waitFor({state:'visible'});await page.locator('#account-preview').click();await page.waitForFunction(()=>document.querySelectorAll('.exercise-card').length>140);
   assert.equal(await page.locator('#day-hours').textContent(),'0.5 h');assert.equal(await page.locator('.daily-row').count(),1);
   await page.getByRole('button',{name:'Share Game'}).click();assert.equal(await page.locator('#share-url').inputValue(),URL);
   await context.setOffline(false);
   for(const [ua,expected] of [
     ['Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 Version/17.0 Mobile/15E148 Safari/604.1',/Safari.*Share.*Add to Home Screen/s],
     ['Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/130.0 Mobile Safari/537.36',/Samsung Internet.*Install app/s]
-  ]){const mobile=await browser.newContext({viewport:{width:390,height:844},userAgent:ua});const p=await mobile.newPage();await p.goto('http://127.0.0.1:5173');await p.getByRole('button',{name:'Download App'}).click();assert.match(await p.locator('#install-steps').textContent(),expected);assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await mobile.close();}
+  ]){const mobile=await browser.newContext({viewport:{width:390,height:844},userAgent:ua});await mobile.addInitScript(()=>Object.defineProperty(window,'GYM_STONE_CLOUD_CONFIG',{value:{url:'',key:''},writable:false}));const p=await mobile.newPage();await mobile.route('**/cloud-config.js',r=>r.fulfill({contentType:'application/javascript',body:"window.GYM_STONE_CLOUD_CONFIG={url:'',key:''}"}));await p.goto('http://127.0.0.1:5173');await p.locator('#account-preview').waitFor({state:'visible'});await p.locator('#account-preview').click();await p.getByRole('button',{name:'Download App'}).click();assert.match(await p.locator('#install-steps').textContent(),expected);assert.equal(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await mobile.close();}
   assert.deepEqual(errors,[]);await browser.close();
   console.log('PASS: public QR/link, clipboard fallback, native share and cancellation, QR download, install prompt accepted/dismissed/installed states, device instructions, mobile layout, real offline calendar and saved progress.');
 })().catch(error=>{console.error(error);process.exit(1)});

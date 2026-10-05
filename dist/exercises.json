@@ -4,77 +4,253 @@
     "id": "g0-01_Bodyweight_Glute_Bridge",
     "group": "Glutes & hips",
     "image": "assets/g0-01_Bodyweight_Glute_Bridge.webp",
-    "gif": "assets/g0-01_Bodyweight_Glute_Bridge.gif"
+    "gif": "assets/g0-01_Bodyweight_Glute_Bridge.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-01_Bodyweight_Glute_Bridge.webp",
+        "gif": "assets/g0-01_Bodyweight_Glute_Bridge.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-01_Bodyweight_Glute_Bridge.webp",
+        "gif": "assets/female-g0-01_Bodyweight_Glute_Bridge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Barbell Hip Thrust",
     "id": "g0-02_Barbell_Hip_Thrust",
     "group": "Glutes & hips",
     "image": "assets/g0-02_Barbell_Hip_Thrust.webp",
-    "gif": "assets/g0-02_Barbell_Hip_Thrust.gif"
+    "gif": "assets/g0-02_Barbell_Hip_Thrust.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-02_Barbell_Hip_Thrust.webp",
+        "gif": "assets/g0-02_Barbell_Hip_Thrust.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-02_Barbell_Hip_Thrust.webp",
+        "gif": "assets/female-g0-02_Barbell_Hip_Thrust.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Single Leg Glute Bridge",
     "id": "g0-03_Single_Leg_Glute_Bridge",
     "group": "Glutes & hips",
     "image": "assets/g0-03_Single_Leg_Glute_Bridge.webp",
-    "gif": "assets/g0-03_Single_Leg_Glute_Bridge.gif"
+    "gif": "assets/g0-03_Single_Leg_Glute_Bridge.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-03_Single_Leg_Glute_Bridge.webp",
+        "gif": "assets/g0-03_Single_Leg_Glute_Bridge.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-03_Single_Leg_Glute_Bridge.webp",
+        "gif": "assets/female-g0-03_Single_Leg_Glute_Bridge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Frog Pump",
     "id": "g0-04_Frog_Pump",
     "group": "Glutes & hips",
     "image": "assets/g0-04_Frog_Pump.webp",
-    "gif": "assets/g0-04_Frog_Pump.gif"
+    "gif": "assets/g0-04_Frog_Pump.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-04_Frog_Pump.webp",
+        "gif": "assets/g0-04_Frog_Pump.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-04_Frog_Pump.webp",
+        "gif": "assets/female-g0-04_Frog_Pump.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Side Lying Clamshell",
     "id": "g0-05_Side_Lying_Clamshell",
     "group": "Glutes & hips",
     "image": "assets/g0-05_Side_Lying_Clamshell.webp",
-    "gif": "assets/g0-05_Side_Lying_Clamshell.gif"
+    "gif": "assets/g0-05_Side_Lying_Clamshell.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-05_Side_Lying_Clamshell.webp",
+        "gif": "assets/g0-05_Side_Lying_Clamshell.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-05_Side_Lying_Clamshell.webp",
+        "gif": "assets/female-g0-05_Side_Lying_Clamshell.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Side Lying Hip Abduction",
     "id": "g0-06_Side_Lying_Hip_Abduction",
     "group": "Glutes & hips",
     "image": "assets/g0-06_Side_Lying_Hip_Abduction.webp",
-    "gif": "assets/g0-06_Side_Lying_Hip_Abduction.gif"
+    "gif": "assets/g0-06_Side_Lying_Hip_Abduction.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-06_Side_Lying_Hip_Abduction.webp",
+        "gif": "assets/g0-06_Side_Lying_Hip_Abduction.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-06_Side_Lying_Hip_Abduction.webp",
+        "gif": "assets/female-g0-06_Side_Lying_Hip_Abduction.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Quadruped Donkey Kick",
     "id": "g0-07_Quadruped_Donkey_Kick",
     "group": "Glutes & hips",
     "image": "assets/g0-07_Quadruped_Donkey_Kick.webp",
-    "gif": "assets/g0-07_Quadruped_Donkey_Kick.gif"
+    "gif": "assets/g0-07_Quadruped_Donkey_Kick.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-07_Quadruped_Donkey_Kick.webp",
+        "gif": "assets/g0-07_Quadruped_Donkey_Kick.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-07_Quadruped_Donkey_Kick.webp",
+        "gif": "assets/female-g0-07_Quadruped_Donkey_Kick.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Quadruped Fire Hydrant",
     "id": "g0-08_Quadruped_Fire_Hydrant",
     "group": "Glutes & hips",
     "image": "assets/g0-08_Quadruped_Fire_Hydrant.webp",
-    "gif": "assets/g0-08_Quadruped_Fire_Hydrant.gif"
+    "gif": "assets/g0-08_Quadruped_Fire_Hydrant.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-08_Quadruped_Fire_Hydrant.webp",
+        "gif": "assets/g0-08_Quadruped_Fire_Hydrant.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-08_Quadruped_Fire_Hydrant.webp",
+        "gif": "assets/female-g0-08_Quadruped_Fire_Hydrant.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Cable Hip Abduction",
     "id": "g0-09_Cable_Hip_Abduction",
     "group": "Glutes & hips",
     "image": "assets/g0-09_Cable_Hip_Abduction.webp",
-    "gif": "assets/g0-09_Cable_Hip_Abduction.gif"
+    "gif": "assets/g0-09_Cable_Hip_Abduction.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-09_Cable_Hip_Abduction.webp",
+        "gif": "assets/g0-09_Cable_Hip_Abduction.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-09_Cable_Hip_Abduction.webp",
+        "gif": "assets/female-g0-09_Cable_Hip_Abduction.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Cable Glute Kickback",
     "id": "g0-10_Cable_Glute_Kickback",
     "group": "Glutes & hips",
     "image": "assets/g0-10_Cable_Glute_Kickback.webp",
-    "gif": "assets/g0-10_Cable_Glute_Kickback.gif"
+    "gif": "assets/g0-10_Cable_Glute_Kickback.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-10_Cable_Glute_Kickback.webp",
+        "gif": "assets/g0-10_Cable_Glute_Kickback.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-10_Cable_Glute_Kickback.webp",
+        "gif": "assets/female-g0-10_Cable_Glute_Kickback.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Monster Walk",
     "id": "g0-12_Monster_Walk",
     "group": "Glutes & hips",
     "image": "assets/g0-12_Monster_Walk.webp",
-    "gif": "assets/g0-12_Monster_Walk.gif"
+    "gif": "assets/g0-12_Monster_Walk.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-12_Monster_Walk.webp",
+        "gif": "assets/g0-12_Monster_Walk.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-12_Monster_Walk.webp",
+        "gif": "assets/female-g0-12_Monster_Walk.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Goblet Squat",
@@ -85,252 +261,828 @@
       "Glutes & hips",
       "Quads"
     ],
-    "gif": "assets/g0-13_Goblet_Squat.gif"
+    "gif": "assets/g0-13_Goblet_Squat.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-13_Goblet_Squat.webp",
+        "gif": "assets/g0-13_Goblet_Squat.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-13_Goblet_Squat.webp",
+        "gif": "assets/female-g0-13_Goblet_Squat.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Sumo Dumbbell Squat",
     "id": "g0-14_Sumo_Dumbbell_Squat",
     "group": "Glutes & hips",
     "image": "assets/g0-14_Sumo_Dumbbell_Squat.webp",
-    "gif": "assets/g0-14_Sumo_Dumbbell_Squat.gif"
+    "gif": "assets/g0-14_Sumo_Dumbbell_Squat.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-14_Sumo_Dumbbell_Squat.webp",
+        "gif": "assets/g0-14_Sumo_Dumbbell_Squat.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-14_Sumo_Dumbbell_Squat.webp",
+        "gif": "assets/female-g0-14_Sumo_Dumbbell_Squat.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Reverse Lunge",
     "id": "g0-15_Reverse_Lunge",
     "group": "Glutes & hips",
     "image": "assets/g0-15_Reverse_Lunge.webp",
-    "gif": "assets/g0-15_Reverse_Lunge.gif"
+    "gif": "assets/g0-15_Reverse_Lunge.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-15_Reverse_Lunge.webp",
+        "gif": "assets/g0-15_Reverse_Lunge.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-15_Reverse_Lunge.webp",
+        "gif": "assets/female-g0-15_Reverse_Lunge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Bulgarian Split Squat",
     "id": "g0-16_Bulgarian_Split_Squat",
     "group": "Glutes & hips",
     "image": "assets/g0-16_Bulgarian_Split_Squat.webp",
-    "gif": "assets/g0-16_Bulgarian_Split_Squat.gif"
+    "gif": "assets/g0-16_Bulgarian_Split_Squat.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-16_Bulgarian_Split_Squat.webp",
+        "gif": "assets/g0-16_Bulgarian_Split_Squat.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-16_Bulgarian_Split_Squat.webp",
+        "gif": "assets/female-g0-16_Bulgarian_Split_Squat.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Low Box Step Up",
     "id": "g0-17_Low_Box_Step_Up",
     "group": "Glutes & hips",
     "image": "assets/g0-17_Low_Box_Step_Up.webp",
-    "gif": "assets/g0-17_Low_Box_Step_Up.gif"
+    "gif": "assets/g0-17_Low_Box_Step_Up.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-17_Low_Box_Step_Up.webp",
+        "gif": "assets/g0-17_Low_Box_Step_Up.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-17_Low_Box_Step_Up.webp",
+        "gif": "assets/female-g0-17_Low_Box_Step_Up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Lateral Lunge",
     "id": "g0-18_Lateral_Lunge",
     "group": "Glutes & hips",
     "image": "assets/g0-18_Lateral_Lunge.webp",
-    "gif": "assets/g0-18_Lateral_Lunge.gif"
+    "gif": "assets/g0-18_Lateral_Lunge.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-18_Lateral_Lunge.webp",
+        "gif": "assets/g0-18_Lateral_Lunge.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-18_Lateral_Lunge.webp",
+        "gif": "assets/female-g0-18_Lateral_Lunge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Curtsy Lunge",
     "id": "g0-19_Curtsy_Lunge",
     "group": "Glutes & hips",
     "image": "assets/g0-19_Curtsy_Lunge.webp",
-    "gif": "assets/g0-19_Curtsy_Lunge.gif"
+    "gif": "assets/g0-19_Curtsy_Lunge.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-19_Curtsy_Lunge.webp",
+        "gif": "assets/g0-19_Curtsy_Lunge.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-19_Curtsy_Lunge.webp",
+        "gif": "assets/female-g0-19_Curtsy_Lunge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Single Leg Dumbbell RDL",
     "id": "g0-20_Single_Leg_Dumbbell_RDL",
     "group": "Glutes & hips",
     "image": "assets/g0-20_Single_Leg_Dumbbell_RDL.webp",
-    "gif": "assets/g0-20_Single_Leg_Dumbbell_RDL.gif"
+    "gif": "assets/g0-20_Single_Leg_Dumbbell_RDL.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-20_Single_Leg_Dumbbell_RDL.webp",
+        "gif": "assets/g0-20_Single_Leg_Dumbbell_RDL.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-20_Single_Leg_Dumbbell_RDL.webp",
+        "gif": "assets/female-g0-20_Single_Leg_Dumbbell_RDL.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Hip Abduction Machine",
     "id": "g0-21_Hip_Abduction_Machine",
     "group": "Glutes & hips",
     "image": "assets/g0-21_Hip_Abduction_Machine.webp",
-    "gif": "assets/g0-21_Hip_Abduction_Machine.gif"
+    "gif": "assets/g0-21_Hip_Abduction_Machine.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-21_Hip_Abduction_Machine.webp",
+        "gif": "assets/g0-21_Hip_Abduction_Machine.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-21_Hip_Abduction_Machine.webp",
+        "gif": "assets/female-g0-21_Hip_Abduction_Machine.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Hip Adduction Machine",
     "id": "g0-22_Hip_Adduction_Machine",
     "group": "Glutes & hips",
     "image": "assets/g0-22_Hip_Adduction_Machine.webp",
-    "gif": "assets/g0-22_Hip_Adduction_Machine.gif"
+    "gif": "assets/g0-22_Hip_Adduction_Machine.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-22_Hip_Adduction_Machine.webp",
+        "gif": "assets/g0-22_Hip_Adduction_Machine.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-22_Hip_Adduction_Machine.webp",
+        "gif": "assets/female-g0-22_Hip_Adduction_Machine.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Barbell Romanian Deadlift",
     "id": "g0-23_Barbell_Romanian_Deadlift",
     "group": "Glutes & hips",
     "image": "assets/g0-23_Barbell_Romanian_Deadlift.webp",
-    "gif": "assets/g0-23_Barbell_Romanian_Deadlift.gif"
+    "gif": "assets/g0-23_Barbell_Romanian_Deadlift.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-23_Barbell_Romanian_Deadlift.webp",
+        "gif": "assets/g0-23_Barbell_Romanian_Deadlift.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-23_Barbell_Romanian_Deadlift.webp",
+        "gif": "assets/female-g0-23_Barbell_Romanian_Deadlift.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Kettlebell Swing",
     "id": "g0-24_Kettlebell_Swing",
     "group": "Glutes & hips",
     "image": "assets/g0-24_Kettlebell_Swing.webp",
-    "gif": "assets/g0-24_Kettlebell_Swing.gif"
+    "gif": "assets/g0-24_Kettlebell_Swing.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-24_Kettlebell_Swing.webp",
+        "gif": "assets/g0-24_Kettlebell_Swing.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-24_Kettlebell_Swing.webp",
+        "gif": "assets/female-g0-24_Kettlebell_Swing.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "90 90 Hip Switch",
     "id": "g0-25_90_90_Hip_Switch",
     "group": "Glutes & hips",
     "image": "assets/g0-25_90_90_Hip_Switch.webp",
-    "gif": "assets/g0-25_90_90_Hip_Switch.gif"
+    "gif": "assets/g0-25_90_90_Hip_Switch.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g0-25_90_90_Hip_Switch.webp",
+        "gif": "assets/g0-25_90_90_Hip_Switch.gif"
+      },
+      "female": {
+        "image": "assets/female-g0-25_90_90_Hip_Switch.webp",
+        "gif": "assets/female-g0-25_90_90_Hip_Switch.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Conventional Deadlift",
     "id": "g1-01_Conventional_Deadlift",
     "group": "Back",
     "image": "assets/g1-01_Conventional_Deadlift.webp",
-    "gif": "assets/g1-01_Conventional_Deadlift.gif"
+    "gif": "assets/g1-01_Conventional_Deadlift.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-01_Conventional_Deadlift.webp",
+        "gif": "assets/g1-01_Conventional_Deadlift.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-01_Conventional_Deadlift.webp",
+        "gif": "assets/female-g1-01_Conventional_Deadlift.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Romanian Deadlift",
     "id": "g1-02_Romanian_Deadlift",
     "group": "Back",
     "image": "assets/g1-02_Romanian_Deadlift.webp",
-    "gif": "assets/g1-02_Romanian_Deadlift.gif"
+    "gif": "assets/g1-02_Romanian_Deadlift.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-02_Romanian_Deadlift.webp",
+        "gif": "assets/g1-02_Romanian_Deadlift.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-02_Romanian_Deadlift.webp",
+        "gif": "assets/female-g1-02_Romanian_Deadlift.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Barbell Good Morning",
     "id": "g1-03_Barbell_Good_Morning",
     "group": "Back",
     "image": "assets/g1-03_Barbell_Good_Morning.webp",
-    "gif": "assets/g1-03_Barbell_Good_Morning.gif"
+    "gif": "assets/g1-03_Barbell_Good_Morning.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-03_Barbell_Good_Morning.webp",
+        "gif": "assets/g1-03_Barbell_Good_Morning.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-03_Barbell_Good_Morning.webp",
+        "gif": "assets/female-g1-03_Barbell_Good_Morning.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "45 Degree Back Extension",
     "id": "g1-04_45_Degree_Back_Extension",
     "group": "Back",
     "image": "assets/g1-04_45_Degree_Back_Extension.webp",
-    "gif": "assets/g1-04_45_Degree_Back_Extension.gif"
+    "gif": "assets/g1-04_45_Degree_Back_Extension.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-04_45_Degree_Back_Extension.webp",
+        "gif": "assets/g1-04_45_Degree_Back_Extension.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-04_45_Degree_Back_Extension.webp",
+        "gif": "assets/female-g1-04_45_Degree_Back_Extension.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Bent Over Barbell Row",
     "id": "g1-05_Bent_Over_Barbell_Row",
     "group": "Back",
     "image": "assets/g1-05_Bent_Over_Barbell_Row.webp",
-    "gif": "assets/g1-05_Bent_Over_Barbell_Row.gif"
+    "gif": "assets/g1-05_Bent_Over_Barbell_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-05_Bent_Over_Barbell_Row.webp",
+        "gif": "assets/g1-05_Bent_Over_Barbell_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-05_Bent_Over_Barbell_Row.webp",
+        "gif": "assets/female-g1-05_Bent_Over_Barbell_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Pendlay Row",
     "id": "g1-06_Pendlay_Row",
     "group": "Back",
     "image": "assets/g1-06_Pendlay_Row.webp",
-    "gif": "assets/g1-06_Pendlay_Row.gif"
+    "gif": "assets/g1-06_Pendlay_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-06_Pendlay_Row.webp",
+        "gif": "assets/g1-06_Pendlay_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-06_Pendlay_Row.webp",
+        "gif": "assets/female-g1-06_Pendlay_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "T Bar Row",
     "id": "g1-07_T_Bar_Row",
     "group": "Back",
     "image": "assets/g1-07_T_Bar_Row.webp",
-    "gif": "assets/g1-07_T_Bar_Row.gif"
+    "gif": "assets/g1-07_T_Bar_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-07_T_Bar_Row.webp",
+        "gif": "assets/g1-07_T_Bar_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-07_T_Bar_Row.webp",
+        "gif": "assets/female-g1-07_T_Bar_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Single Arm Dumbbell Row",
     "id": "g1-08_Single_Arm_Dumbbell_Row",
     "group": "Back",
     "image": "assets/g1-08_Single_Arm_Dumbbell_Row.webp",
-    "gif": "assets/g1-08_Single_Arm_Dumbbell_Row.gif"
+    "gif": "assets/g1-08_Single_Arm_Dumbbell_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-08_Single_Arm_Dumbbell_Row.webp",
+        "gif": "assets/g1-08_Single_Arm_Dumbbell_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-08_Single_Arm_Dumbbell_Row.webp",
+        "gif": "assets/female-g1-08_Single_Arm_Dumbbell_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Chest Supported Dumbbell Row",
     "id": "g1-09_Chest_Supported_Dumbbell_Row",
     "group": "Back",
     "image": "assets/g1-09_Chest_Supported_Dumbbell_Row.webp",
-    "gif": "assets/g1-09_Chest_Supported_Dumbbell_Row.gif"
+    "gif": "assets/g1-09_Chest_Supported_Dumbbell_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-09_Chest_Supported_Dumbbell_Row.webp",
+        "gif": "assets/g1-09_Chest_Supported_Dumbbell_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-09_Chest_Supported_Dumbbell_Row.webp",
+        "gif": "assets/female-g1-09_Chest_Supported_Dumbbell_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Chest Supported Machine Row",
     "id": "g1-10_Chest_Supported_Machine_Row",
     "group": "Back",
     "image": "assets/g1-10_Chest_Supported_Machine_Row.webp",
-    "gif": "assets/g1-10_Chest_Supported_Machine_Row.gif"
+    "gif": "assets/g1-10_Chest_Supported_Machine_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-10_Chest_Supported_Machine_Row.webp",
+        "gif": "assets/g1-10_Chest_Supported_Machine_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-10_Chest_Supported_Machine_Row.webp",
+        "gif": "assets/female-g1-10_Chest_Supported_Machine_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Neutral Grip Seated Cable Row",
     "id": "g1-11_Neutral_Grip_Seated_Cable_Row",
     "group": "Back",
     "image": "assets/g1-11_Neutral_Grip_Seated_Cable_Row.webp",
-    "gif": "assets/g1-11_Neutral_Grip_Seated_Cable_Row.gif"
+    "gif": "assets/g1-11_Neutral_Grip_Seated_Cable_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-11_Neutral_Grip_Seated_Cable_Row.webp",
+        "gif": "assets/g1-11_Neutral_Grip_Seated_Cable_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-11_Neutral_Grip_Seated_Cable_Row.webp",
+        "gif": "assets/female-g1-11_Neutral_Grip_Seated_Cable_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Wide Grip Seated Cable Row",
     "id": "g1-12_Wide_Grip_Seated_Cable_Row",
     "group": "Back",
     "image": "assets/g1-12_Wide_Grip_Seated_Cable_Row.webp",
-    "gif": "assets/g1-12_Wide_Grip_Seated_Cable_Row.gif"
+    "gif": "assets/g1-12_Wide_Grip_Seated_Cable_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-12_Wide_Grip_Seated_Cable_Row.webp",
+        "gif": "assets/g1-12_Wide_Grip_Seated_Cable_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-12_Wide_Grip_Seated_Cable_Row.webp",
+        "gif": "assets/female-g1-12_Wide_Grip_Seated_Cable_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Wide Grip Lat Pulldown",
     "id": "g1-13_Wide_Grip_Lat_Pulldown",
     "group": "Back",
     "image": "assets/g1-13_Wide_Grip_Lat_Pulldown.webp",
-    "gif": "assets/g1-13_Wide_Grip_Lat_Pulldown.gif"
+    "gif": "assets/g1-13_Wide_Grip_Lat_Pulldown.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-13_Wide_Grip_Lat_Pulldown.webp",
+        "gif": "assets/g1-13_Wide_Grip_Lat_Pulldown.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-13_Wide_Grip_Lat_Pulldown.webp",
+        "gif": "assets/female-g1-13_Wide_Grip_Lat_Pulldown.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Close Neutral Grip Pulldown",
     "id": "g1-14_Close_Neutral_Grip_Pulldown",
     "group": "Back",
     "image": "assets/g1-14_Close_Neutral_Grip_Pulldown.webp",
-    "gif": "assets/g1-14_Close_Neutral_Grip_Pulldown.gif"
+    "gif": "assets/g1-14_Close_Neutral_Grip_Pulldown.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-14_Close_Neutral_Grip_Pulldown.webp",
+        "gif": "assets/g1-14_Close_Neutral_Grip_Pulldown.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-14_Close_Neutral_Grip_Pulldown.webp",
+        "gif": "assets/female-g1-14_Close_Neutral_Grip_Pulldown.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Single Arm Cable Pulldown",
     "id": "g1-15_Single_Arm_Cable_Pulldown",
     "group": "Back",
     "image": "assets/g1-15_Single_Arm_Cable_Pulldown.webp",
-    "gif": "assets/g1-15_Single_Arm_Cable_Pulldown.gif"
+    "gif": "assets/g1-15_Single_Arm_Cable_Pulldown.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-15_Single_Arm_Cable_Pulldown.webp",
+        "gif": "assets/g1-15_Single_Arm_Cable_Pulldown.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-15_Single_Arm_Cable_Pulldown.webp",
+        "gif": "assets/female-g1-15_Single_Arm_Cable_Pulldown.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Straight Arm Cable Pulldown",
     "id": "g1-16_Straight_Arm_Cable_Pulldown",
     "group": "Back",
     "image": "assets/g1-16_Straight_Arm_Cable_Pulldown.webp",
-    "gif": "assets/g1-16_Straight_Arm_Cable_Pulldown.gif"
+    "gif": "assets/g1-16_Straight_Arm_Cable_Pulldown.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-16_Straight_Arm_Cable_Pulldown.webp",
+        "gif": "assets/g1-16_Straight_Arm_Cable_Pulldown.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-16_Straight_Arm_Cable_Pulldown.webp",
+        "gif": "assets/female-g1-16_Straight_Arm_Cable_Pulldown.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Overhand Pull Up",
     "id": "g1-17_Overhand_Pull_Up",
     "group": "Back",
     "image": "assets/g1-17_Overhand_Pull_Up.webp",
-    "gif": "assets/g1-17_Overhand_Pull_Up.gif"
+    "gif": "assets/g1-17_Overhand_Pull_Up.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-17_Overhand_Pull_Up.webp",
+        "gif": "assets/g1-17_Overhand_Pull_Up.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-17_Overhand_Pull_Up.webp",
+        "gif": "assets/female-g1-17_Overhand_Pull_Up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Wide Grip Pull Up",
     "id": "g1-18_Wide_Grip_Pull_Up",
     "group": "Back",
     "image": "assets/g1-18_Wide_Grip_Pull_Up.webp",
-    "gif": "assets/g1-18_Wide_Grip_Pull_Up.gif"
+    "gif": "assets/g1-18_Wide_Grip_Pull_Up.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-18_Wide_Grip_Pull_Up.webp",
+        "gif": "assets/g1-18_Wide_Grip_Pull_Up.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-18_Wide_Grip_Pull_Up.webp",
+        "gif": "assets/female-g1-18_Wide_Grip_Pull_Up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Neutral Grip Pull Up",
     "id": "g1-19_Neutral_Grip_Pull_Up",
     "group": "Back",
     "image": "assets/g1-19_Neutral_Grip_Pull_Up.webp",
-    "gif": "assets/g1-19_Neutral_Grip_Pull_Up.gif"
+    "gif": "assets/g1-19_Neutral_Grip_Pull_Up.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-19_Neutral_Grip_Pull_Up.webp",
+        "gif": "assets/g1-19_Neutral_Grip_Pull_Up.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-19_Neutral_Grip_Pull_Up.webp",
+        "gif": "assets/female-g1-19_Neutral_Grip_Pull_Up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Overhand Inverted Row",
     "id": "g1-20_Overhand_Inverted_Row",
     "group": "Back",
     "image": "assets/g1-20_Overhand_Inverted_Row.webp",
-    "gif": "assets/g1-20_Overhand_Inverted_Row.gif"
+    "gif": "assets/g1-20_Overhand_Inverted_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-20_Overhand_Inverted_Row.webp",
+        "gif": "assets/g1-20_Overhand_Inverted_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-20_Overhand_Inverted_Row.webp",
+        "gif": "assets/female-g1-20_Overhand_Inverted_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Machine High Row",
     "id": "g1-21_Machine_High_Row",
     "group": "Back",
     "image": "assets/g1-21_Machine_High_Row.webp",
-    "gif": "assets/g1-21_Machine_High_Row.gif"
+    "gif": "assets/g1-21_Machine_High_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-21_Machine_High_Row.webp",
+        "gif": "assets/g1-21_Machine_High_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-21_Machine_High_Row.webp",
+        "gif": "assets/female-g1-21_Machine_High_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Dumbbell Pullover",
     "id": "g1-22_Dumbbell_Pullover",
     "group": "Back",
     "image": "assets/g1-22_Dumbbell_Pullover.webp",
-    "gif": "assets/g1-22_Dumbbell_Pullover.gif"
+    "gif": "assets/g1-22_Dumbbell_Pullover.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-22_Dumbbell_Pullover.webp",
+        "gif": "assets/g1-22_Dumbbell_Pullover.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-22_Dumbbell_Pullover.webp",
+        "gif": "assets/female-g1-22_Dumbbell_Pullover.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Barbell Shrug",
     "id": "g1-23_Barbell_Shrug",
     "group": "Back",
     "image": "assets/g1-23_Barbell_Shrug.webp",
-    "gif": "assets/g1-23_Barbell_Shrug.gif"
+    "gif": "assets/g1-23_Barbell_Shrug.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-23_Barbell_Shrug.webp",
+        "gif": "assets/g1-23_Barbell_Shrug.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-23_Barbell_Shrug.webp",
+        "gif": "assets/female-g1-23_Barbell_Shrug.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Rope Face Pull",
@@ -341,525 +1093,1725 @@
       "Back",
       "Shoulders"
     ],
-    "gif": "assets/g1-24_Rope_Face_Pull.gif"
+    "gif": "assets/g1-24_Rope_Face_Pull.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-24_Rope_Face_Pull.webp",
+        "gif": "assets/g1-24_Rope_Face_Pull.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-24_Rope_Face_Pull.webp",
+        "gif": "assets/female-g1-24_Rope_Face_Pull.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Superman",
     "id": "g1-25_Superman",
     "group": "Back",
     "image": "assets/g1-25_Superman.webp",
-    "gif": "assets/g1-25_Superman.gif"
+    "gif": "assets/g1-25_Superman.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g1-25_Superman.webp",
+        "gif": "assets/g1-25_Superman.gif"
+      },
+      "female": {
+        "image": "assets/female-g1-25_Superman.webp",
+        "gif": "assets/female-g1-25_Superman.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Standing Dumbbell Shoulder Press",
     "id": "g2-01_Standing_Dumbbell_Shoulder_Press",
     "group": "Shoulders",
     "image": "assets/g2-01_Standing_Dumbbell_Shoulder_Press.webp",
-    "gif": "assets/g2-01_Standing_Dumbbell_Shoulder_Press.gif"
+    "gif": "assets/g2-01_Standing_Dumbbell_Shoulder_Press.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-01_Standing_Dumbbell_Shoulder_Press.webp",
+        "gif": "assets/g2-01_Standing_Dumbbell_Shoulder_Press.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-01_Standing_Dumbbell_Shoulder_Press.webp",
+        "gif": "assets/female-g2-01_Standing_Dumbbell_Shoulder_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Seated Dumbbell Shoulder Press",
     "id": "g2-02_Seated_Dumbbell_Shoulder_Press",
     "group": "Shoulders",
     "image": "assets/g2-02_Seated_Dumbbell_Shoulder_Press.webp",
-    "gif": "assets/g2-02_Seated_Dumbbell_Shoulder_Press.gif"
+    "gif": "assets/g2-02_Seated_Dumbbell_Shoulder_Press.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-02_Seated_Dumbbell_Shoulder_Press.webp",
+        "gif": "assets/g2-02_Seated_Dumbbell_Shoulder_Press.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-02_Seated_Dumbbell_Shoulder_Press.webp",
+        "gif": "assets/female-g2-02_Seated_Dumbbell_Shoulder_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Arnold Press",
     "id": "g2-03_Arnold_Press",
     "group": "Shoulders",
     "image": "assets/g2-03_Arnold_Press.webp",
-    "gif": "assets/g2-03_Arnold_Press.gif"
+    "gif": "assets/g2-03_Arnold_Press.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-03_Arnold_Press.webp",
+        "gif": "assets/g2-03_Arnold_Press.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-03_Arnold_Press.webp",
+        "gif": "assets/female-g2-03_Arnold_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Standing Barbell Overhead Press",
     "id": "g2-04_Standing_Barbell_Overhead_Press",
     "group": "Shoulders",
     "image": "assets/g2-04_Standing_Barbell_Overhead_Press.webp",
-    "gif": "assets/g2-04_Standing_Barbell_Overhead_Press.gif"
+    "gif": "assets/g2-04_Standing_Barbell_Overhead_Press.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-04_Standing_Barbell_Overhead_Press.webp",
+        "gif": "assets/g2-04_Standing_Barbell_Overhead_Press.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-04_Standing_Barbell_Overhead_Press.webp",
+        "gif": "assets/female-g2-04_Standing_Barbell_Overhead_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Seated Barbell Shoulder Press",
     "id": "g2-05_Seated_Barbell_Shoulder_Press",
     "group": "Shoulders",
     "image": "assets/g2-05_Seated_Barbell_Shoulder_Press.webp",
-    "gif": "assets/g2-05_Seated_Barbell_Shoulder_Press.gif"
+    "gif": "assets/g2-05_Seated_Barbell_Shoulder_Press.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-05_Seated_Barbell_Shoulder_Press.webp",
+        "gif": "assets/g2-05_Seated_Barbell_Shoulder_Press.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-05_Seated_Barbell_Shoulder_Press.webp",
+        "gif": "assets/female-g2-05_Seated_Barbell_Shoulder_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Machine Shoulder Press",
     "id": "g2-06_Machine_Shoulder_Press",
     "group": "Shoulders",
     "image": "assets/g2-06_Machine_Shoulder_Press.webp",
-    "gif": "assets/g2-06_Machine_Shoulder_Press.gif"
+    "gif": "assets/g2-06_Machine_Shoulder_Press.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-06_Machine_Shoulder_Press.webp",
+        "gif": "assets/g2-06_Machine_Shoulder_Press.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-06_Machine_Shoulder_Press.webp",
+        "gif": "assets/female-g2-06_Machine_Shoulder_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Half Kneeling Landmine Press",
     "id": "g2-07_Half_Kneeling_Landmine_Press",
     "group": "Shoulders",
     "image": "assets/g2-07_Half_Kneeling_Landmine_Press.webp",
-    "gif": "assets/g2-07_Half_Kneeling_Landmine_Press.gif"
+    "gif": "assets/g2-07_Half_Kneeling_Landmine_Press.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-07_Half_Kneeling_Landmine_Press.webp",
+        "gif": "assets/g2-07_Half_Kneeling_Landmine_Press.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-07_Half_Kneeling_Landmine_Press.webp",
+        "gif": "assets/female-g2-07_Half_Kneeling_Landmine_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Two Hand Landmine Press",
     "id": "g2-08_Two_Hand_Landmine_Press",
     "group": "Shoulders",
     "image": "assets/g2-08_Two_Hand_Landmine_Press.webp",
-    "gif": "assets/g2-08_Two_Hand_Landmine_Press.gif"
+    "gif": "assets/g2-08_Two_Hand_Landmine_Press.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-08_Two_Hand_Landmine_Press.webp",
+        "gif": "assets/g2-08_Two_Hand_Landmine_Press.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-08_Two_Hand_Landmine_Press.webp",
+        "gif": "assets/female-g2-08_Two_Hand_Landmine_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Dumbbell Lateral Raise",
     "id": "g2-09_Dumbbell_Lateral_Raise",
     "group": "Shoulders",
     "image": "assets/g2-09_Dumbbell_Lateral_Raise.webp",
-    "gif": "assets/g2-09_Dumbbell_Lateral_Raise.gif"
+    "gif": "assets/g2-09_Dumbbell_Lateral_Raise.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-09_Dumbbell_Lateral_Raise.webp",
+        "gif": "assets/g2-09_Dumbbell_Lateral_Raise.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-09_Dumbbell_Lateral_Raise.webp",
+        "gif": "assets/female-g2-09_Dumbbell_Lateral_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Cable Lateral Raise",
     "id": "g2-10_Cable_Lateral_Raise",
     "group": "Shoulders",
     "image": "assets/g2-10_Cable_Lateral_Raise.webp",
-    "gif": "assets/g2-10_Cable_Lateral_Raise.gif"
+    "gif": "assets/g2-10_Cable_Lateral_Raise.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-10_Cable_Lateral_Raise.webp",
+        "gif": "assets/g2-10_Cable_Lateral_Raise.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-10_Cable_Lateral_Raise.webp",
+        "gif": "assets/female-g2-10_Cable_Lateral_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Leaning Lateral Raise",
     "id": "g2-11_Leaning_Lateral_Raise",
     "group": "Shoulders",
     "image": "assets/g2-11_Leaning_Lateral_Raise.webp",
-    "gif": "assets/g2-11_Leaning_Lateral_Raise.gif"
+    "gif": "assets/g2-11_Leaning_Lateral_Raise.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-11_Leaning_Lateral_Raise.webp",
+        "gif": "assets/g2-11_Leaning_Lateral_Raise.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-11_Leaning_Lateral_Raise.webp",
+        "gif": "assets/female-g2-11_Leaning_Lateral_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Dumbbell Front Raise",
     "id": "g2-12_Dumbbell_Front_Raise",
     "group": "Shoulders",
     "image": "assets/g2-12_Dumbbell_Front_Raise.webp",
-    "gif": "assets/g2-12_Dumbbell_Front_Raise.gif"
+    "gif": "assets/g2-12_Dumbbell_Front_Raise.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-12_Dumbbell_Front_Raise.webp",
+        "gif": "assets/g2-12_Dumbbell_Front_Raise.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-12_Dumbbell_Front_Raise.webp",
+        "gif": "assets/female-g2-12_Dumbbell_Front_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Plate Front Raise",
     "id": "g2-13_Plate_Front_Raise",
     "group": "Shoulders",
     "image": "assets/g2-13_Plate_Front_Raise.webp",
-    "gif": "assets/g2-13_Plate_Front_Raise.gif"
+    "gif": "assets/g2-13_Plate_Front_Raise.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-13_Plate_Front_Raise.webp",
+        "gif": "assets/g2-13_Plate_Front_Raise.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-13_Plate_Front_Raise.webp",
+        "gif": "assets/female-g2-13_Plate_Front_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Cable Front Raise",
     "id": "g2-14_Cable_Front_Raise",
     "group": "Shoulders",
     "image": "assets/g2-14_Cable_Front_Raise.webp",
-    "gif": "assets/g2-14_Cable_Front_Raise.gif"
+    "gif": "assets/g2-14_Cable_Front_Raise.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-14_Cable_Front_Raise.webp",
+        "gif": "assets/g2-14_Cable_Front_Raise.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-14_Cable_Front_Raise.webp",
+        "gif": "assets/female-g2-14_Cable_Front_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Bent Over Rear Delt Fly",
     "id": "g2-15_Bent_Over_Rear_Delt_Fly",
     "group": "Shoulders",
     "image": "assets/g2-15_Bent_Over_Rear_Delt_Fly.webp",
-    "gif": "assets/g2-15_Bent_Over_Rear_Delt_Fly.gif"
+    "gif": "assets/g2-15_Bent_Over_Rear_Delt_Fly.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-15_Bent_Over_Rear_Delt_Fly.webp",
+        "gif": "assets/g2-15_Bent_Over_Rear_Delt_Fly.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-15_Bent_Over_Rear_Delt_Fly.webp",
+        "gif": "assets/female-g2-15_Bent_Over_Rear_Delt_Fly.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Chest Supported Rear Delt Fly",
     "id": "g2-16_Chest_Supported_Rear_Delt_Fly",
     "group": "Shoulders",
     "image": "assets/g2-16_Chest_Supported_Rear_Delt_Fly.webp",
-    "gif": "assets/g2-16_Chest_Supported_Rear_Delt_Fly.gif"
+    "gif": "assets/g2-16_Chest_Supported_Rear_Delt_Fly.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-16_Chest_Supported_Rear_Delt_Fly.webp",
+        "gif": "assets/g2-16_Chest_Supported_Rear_Delt_Fly.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-16_Chest_Supported_Rear_Delt_Fly.webp",
+        "gif": "assets/female-g2-16_Chest_Supported_Rear_Delt_Fly.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Reverse Pec Deck",
     "id": "g2-17_Reverse_Pec_Deck",
     "group": "Shoulders",
     "image": "assets/g2-17_Reverse_Pec_Deck.webp",
-    "gif": "assets/g2-17_Reverse_Pec_Deck.gif"
+    "gif": "assets/g2-17_Reverse_Pec_Deck.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-17_Reverse_Pec_Deck.webp",
+        "gif": "assets/g2-17_Reverse_Pec_Deck.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-17_Reverse_Pec_Deck.webp",
+        "gif": "assets/female-g2-17_Reverse_Pec_Deck.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Wide Grip Upright Row",
     "id": "g2-19_Wide_Grip_Upright_Row",
     "group": "Shoulders",
     "image": "assets/g2-19_Wide_Grip_Upright_Row.webp",
-    "gif": "assets/g2-19_Wide_Grip_Upright_Row.gif"
+    "gif": "assets/g2-19_Wide_Grip_Upright_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-19_Wide_Grip_Upright_Row.webp",
+        "gif": "assets/g2-19_Wide_Grip_Upright_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-19_Wide_Grip_Upright_Row.webp",
+        "gif": "assets/female-g2-19_Wide_Grip_Upright_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Dumbbell Scaption Raise",
     "id": "g2-20_Dumbbell_Scaption_Raise",
     "group": "Shoulders",
     "image": "assets/g2-20_Dumbbell_Scaption_Raise.webp",
-    "gif": "assets/g2-20_Dumbbell_Scaption_Raise.gif"
+    "gif": "assets/g2-20_Dumbbell_Scaption_Raise.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-20_Dumbbell_Scaption_Raise.webp",
+        "gif": "assets/g2-20_Dumbbell_Scaption_Raise.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-20_Dumbbell_Scaption_Raise.webp",
+        "gif": "assets/female-g2-20_Dumbbell_Scaption_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Cuban Rotation to Press",
     "id": "g2-21_Cuban_Rotation_to_Press",
     "group": "Shoulders",
     "image": "assets/g2-21_Cuban_Rotation_to_Press.webp",
-    "gif": "assets/g2-21_Cuban_Rotation_to_Press.gif"
+    "gif": "assets/g2-21_Cuban_Rotation_to_Press.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-21_Cuban_Rotation_to_Press.webp",
+        "gif": "assets/g2-21_Cuban_Rotation_to_Press.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-21_Cuban_Rotation_to_Press.webp",
+        "gif": "assets/female-g2-21_Cuban_Rotation_to_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Incline Bench Y Raise",
     "id": "g2-22_Incline_Bench_Y_Raise",
     "group": "Shoulders",
     "image": "assets/g2-22_Incline_Bench_Y_Raise.webp",
-    "gif": "assets/g2-22_Incline_Bench_Y_Raise.gif"
+    "gif": "assets/g2-22_Incline_Bench_Y_Raise.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-22_Incline_Bench_Y_Raise.webp",
+        "gif": "assets/g2-22_Incline_Bench_Y_Raise.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-22_Incline_Bench_Y_Raise.webp",
+        "gif": "assets/female-g2-22_Incline_Bench_Y_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Resistance Band Pull Apart",
     "id": "g2-23_Resistance_Band_Pull_Apart",
     "group": "Shoulders",
     "image": "assets/g2-23_Resistance_Band_Pull_Apart.webp",
-    "gif": "assets/g2-23_Resistance_Band_Pull_Apart.gif"
+    "gif": "assets/g2-23_Resistance_Band_Pull_Apart.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-23_Resistance_Band_Pull_Apart.webp",
+        "gif": "assets/g2-23_Resistance_Band_Pull_Apart.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-23_Resistance_Band_Pull_Apart.webp",
+        "gif": "assets/female-g2-23_Resistance_Band_Pull_Apart.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Cable External Rotation",
     "id": "g2-24_Cable_External_Rotation",
     "group": "Shoulders",
     "image": "assets/g2-24_Cable_External_Rotation.webp",
-    "gif": "assets/g2-24_Cable_External_Rotation.gif"
+    "gif": "assets/g2-24_Cable_External_Rotation.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-24_Cable_External_Rotation.webp",
+        "gif": "assets/g2-24_Cable_External_Rotation.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-24_Cable_External_Rotation.webp",
+        "gif": "assets/female-g2-24_Cable_External_Rotation.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Pike Push Up",
     "id": "g2-25_Pike_Push_Up",
     "group": "Shoulders",
     "image": "assets/g2-25_Pike_Push_Up.webp",
-    "gif": "assets/g2-25_Pike_Push_Up.gif"
+    "gif": "assets/g2-25_Pike_Push_Up.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g2-25_Pike_Push_Up.webp",
+        "gif": "assets/g2-25_Pike_Push_Up.gif"
+      },
+      "female": {
+        "image": "assets/female-g2-25_Pike_Push_Up.webp",
+        "gif": "assets/female-g2-25_Pike_Push_Up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Standing Dumbbell Curl",
     "id": "g3-01_Standing_Dumbbell_Curl",
     "group": "Biceps",
     "image": "assets/g3-01_Standing_Dumbbell_Curl.webp",
-    "gif": "assets/g3-01_Standing_Dumbbell_Curl.gif"
+    "gif": "assets/g3-01_Standing_Dumbbell_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-01_Standing_Dumbbell_Curl.webp",
+        "gif": "assets/g3-01_Standing_Dumbbell_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-01_Standing_Dumbbell_Curl.webp",
+        "gif": "assets/female-g3-01_Standing_Dumbbell_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Alternating Dumbbell Curl",
     "id": "g3-02_Alternating_Dumbbell_Curl",
     "group": "Biceps",
     "image": "assets/g3-02_Alternating_Dumbbell_Curl.webp",
-    "gif": "assets/g3-02_Alternating_Dumbbell_Curl.gif"
+    "gif": "assets/g3-02_Alternating_Dumbbell_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-02_Alternating_Dumbbell_Curl.webp",
+        "gif": "assets/g3-02_Alternating_Dumbbell_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-02_Alternating_Dumbbell_Curl.webp",
+        "gif": "assets/female-g3-02_Alternating_Dumbbell_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Hammer Curl",
     "id": "g3-03_Hammer_Curl",
     "group": "Biceps",
     "image": "assets/g3-03_Hammer_Curl.webp",
-    "gif": "assets/g3-03_Hammer_Curl.gif"
+    "gif": "assets/g3-03_Hammer_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-03_Hammer_Curl.webp",
+        "gif": "assets/g3-03_Hammer_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-03_Hammer_Curl.webp",
+        "gif": "assets/female-g3-03_Hammer_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Cross Body Hammer Curl",
     "id": "g3-04_Cross_Body_Hammer_Curl",
     "group": "Biceps",
     "image": "assets/g3-04_Cross_Body_Hammer_Curl.webp",
-    "gif": "assets/g3-04_Cross_Body_Hammer_Curl.gif"
+    "gif": "assets/g3-04_Cross_Body_Hammer_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-04_Cross_Body_Hammer_Curl.webp",
+        "gif": "assets/g3-04_Cross_Body_Hammer_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-04_Cross_Body_Hammer_Curl.webp",
+        "gif": "assets/female-g3-04_Cross_Body_Hammer_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Concentration Curl",
     "id": "g3-06_Concentration_Curl",
     "group": "Biceps",
     "image": "assets/g3-06_Concentration_Curl.webp",
-    "gif": "assets/g3-06_Concentration_Curl.gif"
+    "gif": "assets/g3-06_Concentration_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-06_Concentration_Curl.webp",
+        "gif": "assets/g3-06_Concentration_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-06_Concentration_Curl.webp",
+        "gif": "assets/female-g3-06_Concentration_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Dumbbell Preacher Curl",
     "id": "g3-07_Dumbbell_Preacher_Curl",
     "group": "Biceps",
     "image": "assets/g3-07_Dumbbell_Preacher_Curl.webp",
-    "gif": "assets/g3-07_Dumbbell_Preacher_Curl.gif"
+    "gif": "assets/g3-07_Dumbbell_Preacher_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-07_Dumbbell_Preacher_Curl.webp",
+        "gif": "assets/g3-07_Dumbbell_Preacher_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-07_Dumbbell_Preacher_Curl.webp",
+        "gif": "assets/female-g3-07_Dumbbell_Preacher_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Spider Curl",
     "id": "g3-08_Spider_Curl",
     "group": "Biceps",
     "image": "assets/g3-08_Spider_Curl.webp",
-    "gif": "assets/g3-08_Spider_Curl.gif"
+    "gif": "assets/g3-08_Spider_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-08_Spider_Curl.webp",
+        "gif": "assets/g3-08_Spider_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-08_Spider_Curl.webp",
+        "gif": "assets/female-g3-08_Spider_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Straight Barbell Curl",
     "id": "g3-09_Straight_Barbell_Curl",
     "group": "Biceps",
     "image": "assets/g3-09_Straight_Barbell_Curl.webp",
-    "gif": "assets/g3-09_Straight_Barbell_Curl.gif"
+    "gif": "assets/g3-09_Straight_Barbell_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-09_Straight_Barbell_Curl.webp",
+        "gif": "assets/g3-09_Straight_Barbell_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-09_Straight_Barbell_Curl.webp",
+        "gif": "assets/female-g3-09_Straight_Barbell_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "EZ Bar Curl",
     "id": "g3-10_EZ_Bar_Curl",
     "group": "Biceps",
     "image": "assets/g3-10_EZ_Bar_Curl.webp",
-    "gif": "assets/g3-10_EZ_Bar_Curl.gif"
+    "gif": "assets/g3-10_EZ_Bar_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-10_EZ_Bar_Curl.webp",
+        "gif": "assets/g3-10_EZ_Bar_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-10_EZ_Bar_Curl.webp",
+        "gif": "assets/female-g3-10_EZ_Bar_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Preacher EZ Bar Curl",
     "id": "g3-11_Preacher_EZ_Bar_Curl",
     "group": "Biceps",
     "image": "assets/g3-11_Preacher_EZ_Bar_Curl.webp",
-    "gif": "assets/g3-11_Preacher_EZ_Bar_Curl.gif"
+    "gif": "assets/g3-11_Preacher_EZ_Bar_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-11_Preacher_EZ_Bar_Curl.webp",
+        "gif": "assets/g3-11_Preacher_EZ_Bar_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-11_Preacher_EZ_Bar_Curl.webp",
+        "gif": "assets/female-g3-11_Preacher_EZ_Bar_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Reverse Barbell Curl",
     "id": "g3-12_Reverse_Barbell_Curl",
     "group": "Biceps",
     "image": "assets/g3-12_Reverse_Barbell_Curl.webp",
-    "gif": "assets/g3-12_Reverse_Barbell_Curl.gif"
+    "gif": "assets/g3-12_Reverse_Barbell_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-12_Reverse_Barbell_Curl.webp",
+        "gif": "assets/g3-12_Reverse_Barbell_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-12_Reverse_Barbell_Curl.webp",
+        "gif": "assets/female-g3-12_Reverse_Barbell_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Drag Curl",
     "id": "g3-13_Drag_Curl",
     "group": "Biceps",
     "image": "assets/g3-13_Drag_Curl.webp",
-    "gif": "assets/g3-13_Drag_Curl.gif"
+    "gif": "assets/g3-13_Drag_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-13_Drag_Curl.webp",
+        "gif": "assets/g3-13_Drag_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-13_Drag_Curl.webp",
+        "gif": "assets/female-g3-13_Drag_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Zottman Curl",
     "id": "g3-14_Zottman_Curl",
     "group": "Biceps",
     "image": "assets/g3-14_Zottman_Curl.webp",
-    "gif": "assets/g3-14_Zottman_Curl.gif"
+    "gif": "assets/g3-14_Zottman_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-14_Zottman_Curl.webp",
+        "gif": "assets/g3-14_Zottman_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-14_Zottman_Curl.webp",
+        "gif": "assets/female-g3-14_Zottman_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Seated Dumbbell Curl",
     "id": "g3-15_Seated_Dumbbell_Curl",
     "group": "Biceps",
     "image": "assets/g3-15_Seated_Dumbbell_Curl.webp",
-    "gif": "assets/g3-15_Seated_Dumbbell_Curl.gif"
+    "gif": "assets/g3-15_Seated_Dumbbell_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-15_Seated_Dumbbell_Curl.webp",
+        "gif": "assets/g3-15_Seated_Dumbbell_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-15_Seated_Dumbbell_Curl.webp",
+        "gif": "assets/female-g3-15_Seated_Dumbbell_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Seated Hammer Curl",
     "id": "g3-16_Seated_Hammer_Curl",
     "group": "Biceps",
     "image": "assets/g3-16_Seated_Hammer_Curl.webp",
-    "gif": "assets/g3-16_Seated_Hammer_Curl.gif"
+    "gif": "assets/g3-16_Seated_Hammer_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-16_Seated_Hammer_Curl.webp",
+        "gif": "assets/g3-16_Seated_Hammer_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-16_Seated_Hammer_Curl.webp",
+        "gif": "assets/female-g3-16_Seated_Hammer_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Standing Cable Curl",
     "id": "g3-17_Standing_Cable_Curl",
     "group": "Biceps",
     "image": "assets/g3-17_Standing_Cable_Curl.webp",
-    "gif": "assets/g3-17_Standing_Cable_Curl.gif"
+    "gif": "assets/g3-17_Standing_Cable_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-17_Standing_Cable_Curl.webp",
+        "gif": "assets/g3-17_Standing_Cable_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-17_Standing_Cable_Curl.webp",
+        "gif": "assets/female-g3-17_Standing_Cable_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Single Arm Cable Curl",
     "id": "g3-18_Single_Arm_Cable_Curl",
     "group": "Biceps",
     "image": "assets/g3-18_Single_Arm_Cable_Curl.webp",
-    "gif": "assets/g3-18_Single_Arm_Cable_Curl.gif"
+    "gif": "assets/g3-18_Single_Arm_Cable_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-18_Single_Arm_Cable_Curl.webp",
+        "gif": "assets/g3-18_Single_Arm_Cable_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-18_Single_Arm_Cable_Curl.webp",
+        "gif": "assets/female-g3-18_Single_Arm_Cable_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Rope Hammer Cable Curl",
     "id": "g3-19_Rope_Hammer_Cable_Curl",
     "group": "Biceps",
     "image": "assets/g3-19_Rope_Hammer_Cable_Curl.webp",
-    "gif": "assets/g3-19_Rope_Hammer_Cable_Curl.gif"
+    "gif": "assets/g3-19_Rope_Hammer_Cable_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-19_Rope_Hammer_Cable_Curl.webp",
+        "gif": "assets/g3-19_Rope_Hammer_Cable_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-19_Rope_Hammer_Cable_Curl.webp",
+        "gif": "assets/female-g3-19_Rope_Hammer_Cable_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Bayesian Cable Curl",
     "id": "g3-20_Bayesian_Cable_Curl",
     "group": "Biceps",
     "image": "assets/g3-20_Bayesian_Cable_Curl.webp",
-    "gif": "assets/g3-20_Bayesian_Cable_Curl.gif"
+    "gif": "assets/g3-20_Bayesian_Cable_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-20_Bayesian_Cable_Curl.webp",
+        "gif": "assets/g3-20_Bayesian_Cable_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-20_Bayesian_Cable_Curl.webp",
+        "gif": "assets/female-g3-20_Bayesian_Cable_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Overhead Cable Curl",
     "id": "g3-21_Overhead_Cable_Curl",
     "group": "Biceps",
     "image": "assets/g3-21_Overhead_Cable_Curl.webp",
-    "gif": "assets/g3-21_Overhead_Cable_Curl.gif"
+    "gif": "assets/g3-21_Overhead_Cable_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-21_Overhead_Cable_Curl.webp",
+        "gif": "assets/g3-21_Overhead_Cable_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-21_Overhead_Cable_Curl.webp",
+        "gif": "assets/female-g3-21_Overhead_Cable_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Machine Preacher Curl",
     "id": "g3-22_Machine_Preacher_Curl",
     "group": "Biceps",
     "image": "assets/g3-22_Machine_Preacher_Curl.webp",
-    "gif": "assets/g3-22_Machine_Preacher_Curl.gif"
+    "gif": "assets/g3-22_Machine_Preacher_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-22_Machine_Preacher_Curl.webp",
+        "gif": "assets/g3-22_Machine_Preacher_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-22_Machine_Preacher_Curl.webp",
+        "gif": "assets/female-g3-22_Machine_Preacher_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Resistance Band Curl",
     "id": "g3-23_Resistance_Band_Curl",
     "group": "Biceps",
     "image": "assets/g3-23_Resistance_Band_Curl.webp",
-    "gif": "assets/g3-23_Resistance_Band_Curl.gif"
+    "gif": "assets/g3-23_Resistance_Band_Curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-23_Resistance_Band_Curl.webp",
+        "gif": "assets/g3-23_Resistance_Band_Curl.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-23_Resistance_Band_Curl.webp",
+        "gif": "assets/female-g3-23_Resistance_Band_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Chin Up",
     "id": "g3-24_Chin_Up",
     "group": "Biceps",
     "image": "assets/g3-24_Chin_Up.webp",
-    "gif": "assets/g3-24_Chin_Up.gif"
+    "gif": "assets/g3-24_Chin_Up.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-24_Chin_Up.webp",
+        "gif": "assets/g3-24_Chin_Up.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-24_Chin_Up.webp",
+        "gif": "assets/female-g3-24_Chin_Up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Underhand Inverted Row",
     "id": "g3-25_Underhand_Inverted_Row",
     "group": "Biceps",
     "image": "assets/g3-25_Underhand_Inverted_Row.webp",
-    "gif": "assets/g3-25_Underhand_Inverted_Row.gif"
+    "gif": "assets/g3-25_Underhand_Inverted_Row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g3-25_Underhand_Inverted_Row.webp",
+        "gif": "assets/g3-25_Underhand_Inverted_Row.gif"
+      },
+      "female": {
+        "image": "assets/female-g3-25_Underhand_Inverted_Row.webp",
+        "gif": "assets/female-g3-25_Underhand_Inverted_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Side Plank",
     "id": "g4-01_Side_Plank",
     "group": "Obliques",
     "image": "assets/g4-01_Side_Plank.webp",
-    "gif": "assets/g4-01_Side_Plank.gif"
+    "gif": "assets/g4-01_Side_Plank.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-01_Side_Plank.webp",
+        "gif": "assets/g4-01_Side_Plank.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-01_Side_Plank.webp",
+        "gif": "assets/female-g4-01_Side_Plank.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Side Plank Hip Dips",
     "id": "g4-02_Side_Plank_Hip_Dips",
     "group": "Obliques",
     "image": "assets/g4-02_Side_Plank_Hip_Dips.webp",
-    "gif": "assets/g4-02_Side_Plank_Hip_Dips.gif"
+    "gif": "assets/g4-02_Side_Plank_Hip_Dips.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-02_Side_Plank_Hip_Dips.webp",
+        "gif": "assets/g4-02_Side_Plank_Hip_Dips.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-02_Side_Plank_Hip_Dips.webp",
+        "gif": "assets/female-g4-02_Side_Plank_Hip_Dips.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Side Plank Rotation",
     "id": "g4-03_Side_Plank_Rotation",
     "group": "Obliques",
     "image": "assets/g4-03_Side_Plank_Rotation.webp",
-    "gif": "assets/g4-03_Side_Plank_Rotation.gif"
+    "gif": "assets/g4-03_Side_Plank_Rotation.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-03_Side_Plank_Rotation.webp",
+        "gif": "assets/g4-03_Side_Plank_Rotation.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-03_Side_Plank_Rotation.webp",
+        "gif": "assets/female-g4-03_Side_Plank_Rotation.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Bicycle Crunch",
     "id": "g4-04_Bicycle_Crunch",
     "group": "Obliques",
     "image": "assets/g4-04_Bicycle_Crunch.webp",
-    "gif": "assets/g4-04_Bicycle_Crunch.gif"
+    "gif": "assets/g4-04_Bicycle_Crunch.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-04_Bicycle_Crunch.webp",
+        "gif": "assets/g4-04_Bicycle_Crunch.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-04_Bicycle_Crunch.webp",
+        "gif": "assets/female-g4-04_Bicycle_Crunch.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Heel Touches",
     "id": "g4-05_Heel_Touches",
     "group": "Obliques",
     "image": "assets/g4-05_Heel_Touches.webp",
-    "gif": "assets/g4-05_Heel_Touches.gif"
+    "gif": "assets/g4-05_Heel_Touches.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-05_Heel_Touches.webp",
+        "gif": "assets/g4-05_Heel_Touches.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-05_Heel_Touches.webp",
+        "gif": "assets/female-g4-05_Heel_Touches.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Cross Body Crunch",
     "id": "g4-06_Cross_Body_Crunch",
     "group": "Obliques",
     "image": "assets/g4-06_Cross_Body_Crunch.webp",
-    "gif": "assets/g4-06_Cross_Body_Crunch.gif"
+    "gif": "assets/g4-06_Cross_Body_Crunch.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-06_Cross_Body_Crunch.webp",
+        "gif": "assets/g4-06_Cross_Body_Crunch.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-06_Cross_Body_Crunch.webp",
+        "gif": "assets/female-g4-06_Cross_Body_Crunch.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Cross Body Mountain Climber",
     "id": "g4-07_Cross_Body_Mountain_Climber",
     "group": "Obliques",
     "image": "assets/g4-07_Cross_Body_Mountain_Climber.webp",
-    "gif": "assets/g4-07_Cross_Body_Mountain_Climber.gif"
+    "gif": "assets/g4-07_Cross_Body_Mountain_Climber.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-07_Cross_Body_Mountain_Climber.webp",
+        "gif": "assets/g4-07_Cross_Body_Mountain_Climber.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-07_Cross_Body_Mountain_Climber.webp",
+        "gif": "assets/female-g4-07_Cross_Body_Mountain_Climber.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Windshield Wipers",
     "id": "g4-08_Windshield_Wipers",
     "group": "Obliques",
     "image": "assets/g4-08_Windshield_Wipers.webp",
-    "gif": "assets/g4-08_Windshield_Wipers.gif"
+    "gif": "assets/g4-08_Windshield_Wipers.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-08_Windshield_Wipers.webp",
+        "gif": "assets/g4-08_Windshield_Wipers.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-08_Windshield_Wipers.webp",
+        "gif": "assets/female-g4-08_Windshield_Wipers.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Russian Twist",
     "id": "g4-09_Russian_Twist",
     "group": "Obliques",
     "image": "assets/g4-09_Russian_Twist.webp",
-    "gif": "assets/g4-09_Russian_Twist.gif"
+    "gif": "assets/g4-09_Russian_Twist.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-09_Russian_Twist.webp",
+        "gif": "assets/g4-09_Russian_Twist.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-09_Russian_Twist.webp",
+        "gif": "assets/female-g4-09_Russian_Twist.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Reverse Crunch With Rotation",
     "id": "g4-10_Reverse_Crunch_With_Rotation",
     "group": "Obliques",
     "image": "assets/g4-10_Reverse_Crunch_With_Rotation.webp",
-    "gif": "assets/g4-10_Reverse_Crunch_With_Rotation.gif"
+    "gif": "assets/g4-10_Reverse_Crunch_With_Rotation.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-10_Reverse_Crunch_With_Rotation.webp",
+        "gif": "assets/g4-10_Reverse_Crunch_With_Rotation.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-10_Reverse_Crunch_With_Rotation.webp",
+        "gif": "assets/female-g4-10_Reverse_Crunch_With_Rotation.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Dumbbell Side Bend",
     "id": "g4-11_Dumbbell_Side_Bend",
     "group": "Obliques",
     "image": "assets/g4-11_Dumbbell_Side_Bend.webp",
-    "gif": "assets/g4-11_Dumbbell_Side_Bend.gif"
+    "gif": "assets/g4-11_Dumbbell_Side_Bend.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-11_Dumbbell_Side_Bend.webp",
+        "gif": "assets/g4-11_Dumbbell_Side_Bend.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-11_Dumbbell_Side_Bend.webp",
+        "gif": "assets/female-g4-11_Dumbbell_Side_Bend.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Weighted Russian Twist",
     "id": "g4-12_Weighted_Russian_Twist",
     "group": "Obliques",
     "image": "assets/g4-12_Weighted_Russian_Twist.webp",
-    "gif": "assets/g4-12_Weighted_Russian_Twist.gif"
+    "gif": "assets/g4-12_Weighted_Russian_Twist.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-12_Weighted_Russian_Twist.webp",
+        "gif": "assets/g4-12_Weighted_Russian_Twist.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-12_Weighted_Russian_Twist.webp",
+        "gif": "assets/female-g4-12_Weighted_Russian_Twist.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Suitcase Carry",
     "id": "g4-13_Suitcase_Carry",
     "group": "Obliques",
     "image": "assets/g4-13_Suitcase_Carry.webp",
-    "gif": "assets/g4-13_Suitcase_Carry.gif"
+    "gif": "assets/g4-13_Suitcase_Carry.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-13_Suitcase_Carry.webp",
+        "gif": "assets/g4-13_Suitcase_Carry.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-13_Suitcase_Carry.webp",
+        "gif": "assets/female-g4-13_Suitcase_Carry.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Standing Oblique Crunch",
     "id": "g4-14_Standing_Oblique_Crunch",
     "group": "Obliques",
     "image": "assets/g4-14_Standing_Oblique_Crunch.webp",
-    "gif": "assets/g4-14_Standing_Oblique_Crunch.gif"
+    "gif": "assets/g4-14_Standing_Oblique_Crunch.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-14_Standing_Oblique_Crunch.webp",
+        "gif": "assets/g4-14_Standing_Oblique_Crunch.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-14_Standing_Oblique_Crunch.webp",
+        "gif": "assets/female-g4-14_Standing_Oblique_Crunch.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "High to Low Cable Woodchop",
     "id": "g4-15_High_to_Low_Cable_Woodchop",
     "group": "Obliques",
     "image": "assets/g4-15_High_to_Low_Cable_Woodchop.webp",
-    "gif": "assets/g4-15_High_to_Low_Cable_Woodchop.gif"
+    "gif": "assets/g4-15_High_to_Low_Cable_Woodchop.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-15_High_to_Low_Cable_Woodchop.webp",
+        "gif": "assets/g4-15_High_to_Low_Cable_Woodchop.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-15_High_to_Low_Cable_Woodchop.webp",
+        "gif": "assets/female-g4-15_High_to_Low_Cable_Woodchop.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Low to High Cable Woodchop",
     "id": "g4-16_Low_to_High_Cable_Woodchop",
     "group": "Obliques",
     "image": "assets/g4-16_Low_to_High_Cable_Woodchop.webp",
-    "gif": "assets/g4-16_Low_to_High_Cable_Woodchop.gif"
+    "gif": "assets/g4-16_Low_to_High_Cable_Woodchop.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-16_Low_to_High_Cable_Woodchop.webp",
+        "gif": "assets/g4-16_Low_to_High_Cable_Woodchop.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-16_Low_to_High_Cable_Woodchop.webp",
+        "gif": "assets/female-g4-16_Low_to_High_Cable_Woodchop.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Horizontal Cable Rotation",
     "id": "g4-17_Horizontal_Cable_Rotation",
     "group": "Obliques",
     "image": "assets/g4-17_Horizontal_Cable_Rotation.webp",
-    "gif": "assets/g4-17_Horizontal_Cable_Rotation.gif"
+    "gif": "assets/g4-17_Horizontal_Cable_Rotation.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-17_Horizontal_Cable_Rotation.webp",
+        "gif": "assets/g4-17_Horizontal_Cable_Rotation.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-17_Horizontal_Cable_Rotation.webp",
+        "gif": "assets/female-g4-17_Horizontal_Cable_Rotation.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Pallof Press",
     "id": "g4-18_Pallof_Press",
     "group": "Obliques",
     "image": "assets/g4-18_Pallof_Press.webp",
-    "gif": "assets/g4-18_Pallof_Press.gif"
+    "gif": "assets/g4-18_Pallof_Press.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-18_Pallof_Press.webp",
+        "gif": "assets/g4-18_Pallof_Press.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-18_Pallof_Press.webp",
+        "gif": "assets/female-g4-18_Pallof_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Landmine Rotation",
     "id": "g4-19_Landmine_Rotation",
     "group": "Obliques",
     "image": "assets/g4-19_Landmine_Rotation.webp",
-    "gif": "assets/g4-19_Landmine_Rotation.gif"
+    "gif": "assets/g4-19_Landmine_Rotation.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-19_Landmine_Rotation.webp",
+        "gif": "assets/g4-19_Landmine_Rotation.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-19_Landmine_Rotation.webp",
+        "gif": "assets/female-g4-19_Landmine_Rotation.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Medicine Ball Rotational Throw",
     "id": "g4-20_Medicine_Ball_Rotational_Throw",
     "group": "Obliques",
     "image": "assets/g4-20_Medicine_Ball_Rotational_Throw.webp",
-    "gif": "assets/g4-20_Medicine_Ball_Rotational_Throw.gif"
+    "gif": "assets/g4-20_Medicine_Ball_Rotational_Throw.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-20_Medicine_Ball_Rotational_Throw.webp",
+        "gif": "assets/g4-20_Medicine_Ball_Rotational_Throw.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-20_Medicine_Ball_Rotational_Throw.webp",
+        "gif": "assets/female-g4-20_Medicine_Ball_Rotational_Throw.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Hanging Oblique Knee Raise",
     "id": "g4-21_Hanging_Oblique_Knee_Raise",
     "group": "Obliques",
     "image": "assets/g4-21_Hanging_Oblique_Knee_Raise.webp",
-    "gif": "assets/g4-21_Hanging_Oblique_Knee_Raise.gif"
+    "gif": "assets/g4-21_Hanging_Oblique_Knee_Raise.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-21_Hanging_Oblique_Knee_Raise.webp",
+        "gif": "assets/g4-21_Hanging_Oblique_Knee_Raise.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-21_Hanging_Oblique_Knee_Raise.webp",
+        "gif": "assets/female-g4-21_Hanging_Oblique_Knee_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Hanging Windshield Wipers",
     "id": "g4-22_Hanging_Windshield_Wipers",
     "group": "Obliques",
     "image": "assets/g4-22_Hanging_Windshield_Wipers.webp",
-    "gif": "assets/g4-22_Hanging_Windshield_Wipers.gif"
+    "gif": "assets/g4-22_Hanging_Windshield_Wipers.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-22_Hanging_Windshield_Wipers.webp",
+        "gif": "assets/g4-22_Hanging_Windshield_Wipers.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-22_Hanging_Windshield_Wipers.webp",
+        "gif": "assets/female-g4-22_Hanging_Windshield_Wipers.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Hanging Knee Raise With Twist",
     "id": "g4-23_Hanging_Knee_Raise_With_Twist",
     "group": "Obliques",
     "image": "assets/g4-23_Hanging_Knee_Raise_With_Twist.webp",
-    "gif": "assets/g4-23_Hanging_Knee_Raise_With_Twist.gif"
+    "gif": "assets/g4-23_Hanging_Knee_Raise_With_Twist.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-23_Hanging_Knee_Raise_With_Twist.webp",
+        "gif": "assets/g4-23_Hanging_Knee_Raise_With_Twist.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-23_Hanging_Knee_Raise_With_Twist.webp",
+        "gif": "assets/female-g4-23_Hanging_Knee_Raise_With_Twist.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Copenhagen Plank",
     "id": "g4-24_Copenhagen_Plank",
     "group": "Obliques",
     "image": "assets/g4-24_Copenhagen_Plank.webp",
-    "gif": "assets/g4-24_Copenhagen_Plank.gif"
+    "gif": "assets/g4-24_Copenhagen_Plank.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-24_Copenhagen_Plank.webp",
+        "gif": "assets/g4-24_Copenhagen_Plank.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-24_Copenhagen_Plank.webp",
+        "gif": "assets/female-g4-24_Copenhagen_Plank.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "name": "Side Plank Crunch",
     "id": "g4-25_Side_Plank_Crunch",
     "group": "Obliques",
     "image": "assets/g4-25_Side_Plank_Crunch.webp",
-    "gif": "assets/g4-25_Side_Plank_Crunch.gif"
+    "gif": "assets/g4-25_Side_Plank_Crunch.gif",
+    "variants": {
+      "male": {
+        "image": "assets/g4-25_Side_Plank_Crunch.webp",
+        "gif": "assets/g4-25_Side_Plank_Crunch.gif"
+      },
+      "female": {
+        "image": "assets/female-g4-25_Side_Plank_Crunch.webp",
+        "gif": "assets/female-g4-25_Side_Plank_Crunch.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
+    }
   },
   {
     "id": "guide-push-up",
@@ -872,6 +2824,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-push-up.webp",
+        "gif": "assets/anime-push-up.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-push-up.webp",
+        "gif": "assets/female-guide-push-up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -885,6 +2853,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-close-grip-push-up.webp",
+        "gif": "assets/anime-close-grip-push-up.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-close-grip-push-up.webp",
+        "gif": "assets/female-guide-close-grip-push-up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -898,6 +2882,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-dumbbell-bench-press.webp",
+        "gif": "assets/anime-dumbbell-bench-press.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-dumbbell-bench-press.webp",
+        "gif": "assets/female-guide-dumbbell-bench-press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -911,6 +2911,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-dumbbell-chest-fly.webp",
+        "gif": "assets/anime-dumbbell-chest-fly.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-dumbbell-chest-fly.webp",
+        "gif": "assets/female-guide-dumbbell-chest-fly.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -924,6 +2940,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-overhead-dumbbell-triceps-extension.webp",
+        "gif": "assets/anime-overhead-dumbbell-triceps-extension.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-overhead-dumbbell-triceps-extension.webp",
+        "gif": "assets/female-guide-overhead-dumbbell-triceps-extension.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -937,6 +2969,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-cable-triceps-pushdown.webp",
+        "gif": "assets/anime-cable-triceps-pushdown.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-cable-triceps-pushdown.webp",
+        "gif": "assets/female-guide-cable-triceps-pushdown.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -950,6 +2998,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-dumbbell-triceps-kickback.webp",
+        "gif": "assets/anime-dumbbell-triceps-kickback.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-dumbbell-triceps-kickback.webp",
+        "gif": "assets/female-guide-dumbbell-triceps-kickback.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -963,6 +3027,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-bench-dip.webp",
+        "gif": "assets/anime-bench-dip.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-bench-dip.webp",
+        "gif": "assets/female-guide-bench-dip.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -976,6 +3056,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-bodyweight-squat.webp",
+        "gif": "assets/anime-bodyweight-squat.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-bodyweight-squat.webp",
+        "gif": "assets/female-guide-bodyweight-squat.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -989,6 +3085,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-barbell-back-squat.webp",
+        "gif": "assets/anime-barbell-back-squat.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-barbell-back-squat.webp",
+        "gif": "assets/female-guide-barbell-back-squat.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1002,6 +3114,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-barbell-front-squat.webp",
+        "gif": "assets/anime-barbell-front-squat.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-barbell-front-squat.webp",
+        "gif": "assets/female-guide-barbell-front-squat.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1015,6 +3143,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-forward-lunge.webp",
+        "gif": "assets/anime-forward-lunge.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-forward-lunge.webp",
+        "gif": "assets/female-guide-forward-lunge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1028,6 +3172,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-leg-extension.webp",
+        "gif": "assets/anime-leg-extension.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-leg-extension.webp",
+        "gif": "assets/female-guide-leg-extension.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1041,6 +3201,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-prone-leg-curl.webp",
+        "gif": "assets/anime-prone-leg-curl.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-prone-leg-curl.webp",
+        "gif": "assets/female-guide-prone-leg-curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1054,6 +3230,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-bodyweight-hip-hinge.webp",
+        "gif": "assets/anime-bodyweight-hip-hinge.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-bodyweight-hip-hinge.webp",
+        "gif": "assets/female-guide-bodyweight-hip-hinge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1067,6 +3259,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-standing-calf-raise.webp",
+        "gif": "assets/anime-standing-calf-raise.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-standing-calf-raise.webp",
+        "gif": "assets/female-guide-standing-calf-raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1080,6 +3288,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-standing-dumbbell-calf-raise.webp",
+        "gif": "assets/anime-standing-dumbbell-calf-raise.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-standing-dumbbell-calf-raise.webp",
+        "gif": "assets/female-guide-standing-dumbbell-calf-raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1093,6 +3317,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-crunch.webp",
+        "gif": "assets/anime-crunch.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-crunch.webp",
+        "gif": "assets/female-guide-crunch.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1106,6 +3346,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-lying-leg-raise.webp",
+        "gif": "assets/anime-lying-leg-raise.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-lying-leg-raise.webp",
+        "gif": "assets/female-guide-lying-leg-raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1119,6 +3375,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-dead-bug.webp",
+        "gif": "assets/anime-dead-bug.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-dead-bug.webp",
+        "gif": "assets/female-guide-dead-bug.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1132,6 +3404,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-bird-dog.webp",
+        "gif": "assets/anime-bird-dog.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-bird-dog.webp",
+        "gif": "assets/female-guide-bird-dog.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1145,6 +3433,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-seated-wrist-curl.webp",
+        "gif": "assets/anime-seated-wrist-curl.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-seated-wrist-curl.webp",
+        "gif": "assets/female-guide-seated-wrist-curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1158,6 +3462,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-seated-reverse-wrist-curl.webp",
+        "gif": "assets/anime-seated-reverse-wrist-curl.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-seated-reverse-wrist-curl.webp",
+        "gif": "assets/female-guide-seated-reverse-wrist-curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1171,6 +3491,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-jumping-jack.webp",
+        "gif": "assets/anime-jumping-jack.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-jumping-jack.webp",
+        "gif": "assets/female-guide-jumping-jack.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1184,6 +3520,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-mountain-climber.webp",
+        "gif": "assets/anime-mountain-climber.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-mountain-climber.webp",
+        "gif": "assets/female-guide-mountain-climber.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1197,6 +3549,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-lateral-band-walk.webp",
+        "gif": "assets/anime-lateral-band-walk.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-lateral-band-walk.webp",
+        "gif": "assets/female-guide-lateral-band-walk.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   },
   {
@@ -1210,6 +3578,22 @@
       "keyframes": 6,
       "duration_ms": 5200,
       "endpoint_pause_ms": 800
+    },
+    "variants": {
+      "male": {
+        "image": "assets/anime-incline-dumbbell-curl.webp",
+        "gif": "assets/anime-incline-dumbbell-curl.gif"
+      },
+      "female": {
+        "image": "assets/female-guide-incline-dumbbell-curl.webp",
+        "gif": "assets/female-guide-incline-dumbbell-curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800
+        }
+      }
     }
   }
 ]

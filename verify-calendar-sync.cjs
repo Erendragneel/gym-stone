@@ -1,0 +1,46 @@
+const {chromium}=require('C:/Users/Elijio Villa jr/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const assert=require('node:assert/strict');
+(async()=>{
+  const browser=await chromium.launch({headless:true,channel:'chrome'}),remote={alice:{},bob:{}},errors=[];
+  const profile={name:'Alice_1',gender:'female',birthday:'1996-01-01',weight:65,weightUnit:'kg',targetWeight:null,goal:'strength',daysPerWeek:3,minutesPerWorkout:30,hoursPerWeek:3,completed:true,updatedAt:Date.now()};
+  async function device(who){
+    const context=await browser.newContext({serviceWorkers:'block'}),page=await context.newPage(),state={online:true};page.on('pageerror',e=>errors.push(e.message));
+    await context.addInitScript(({who})=>{if(!localStorage.getItem('gym-stone-session-v1'))localStorage.setItem('gym-stone-session-v1',JSON.stringify({access_token:'access-'+who,refresh_token:'refresh-'+who,expires_at:Math.floor(Date.now()/1000)+3600,user:{id:who,username:who==='alice'?'Alice_1':'Bob_2'}}));},{who});
+    await context.route('**/cloud-config.js',r=>r.fulfill({contentType:'application/javascript',body:"window.GYM_STONE_CLOUD_CONFIG={url:'https://gym-stone-test.supabase.co',key:'"+'x'.repeat(40)+"'}"}));
+    const ordered=value=>Array.isArray(value)?value.map(ordered):value&&typeof value==='object'?Object.fromEntries(Object.keys(value).sort().map(k=>[k,ordered(value[k])])):value;
+    await context.route('https://gym-stone-test.supabase.co/**',async r=>{
+      if(!state.online)return r.abort();const req=r.request(),path=new URL(req.url()).pathname,body=req.postDataJSON();let data;
+      if(path.endsWith('/user'))data={id:who,user_metadata:{gym_username:who==='alice'?'Alice_1':'Bob_2'}};
+      else if(path.endsWith('/gym_players'))data=[{username:who==='alice'?'Alice_1':'Bob_2',profile:{...profile,name:who==='alice'?'Alice_1':'Bob_2'}}];
+      else if(path.endsWith('/gym_workout_days'))data=Object.entries(remote[who]).map(([day,row])=>({day,...row}));
+      else if(path.endsWith('/gym_save_workout_day')){
+        if(state.hold)await state.hold;
+        assert.ok(!JSON.stringify(body).includes('blob'));assert.ok(!JSON.stringify(body).includes('PRIVATE_RAW_TEXT'));const existing=remote[who][body.p_day],accepted=(existing?.revision||0)===body.p_revision;
+        if(accepted)remote[who][body.p_day]={items:structuredClone(body.p_items),revision:(existing?.revision||0)+1};
+        data={accepted,day:body.p_day,...(remote[who][body.p_day]||{items:[],revision:0})};
+      }else data={};await r.fulfill({json:ordered(data)});
+    });
+    await page.goto('http://127.0.0.1:5173');await page.locator('.exercise-card').first().waitFor().catch(async e=>{console.error(errors,await page.locator('#exercise-grid').textContent());throw e});await page.waitForFunction(()=>document.querySelector('.save-label').textContent.includes('Synced'));return{page,context,state};
+  }
+  async function minutes(device,value){const input=device.page.locator('.duration-fields input[type=number]');await input.fill(String(value));await input.dispatchEvent('change');await device.page.waitForFunction(async value=>Object.values(await GymScreenshotStore.getRecords()).flat().some(r=>r.minutes===value),value);}
+  const a=await device('alice'),b=await device('alice'),day=await a.page.evaluate(()=>new Date().toLocaleDateString('en-CA'));
+  await a.page.locator('#mode-done').click();await a.page.locator('.add-exercise').first().click();await minutes(a, 30);await a.page.waitForFunction(async ([day,min])=>(await GymScreenshotStore.getRecords())?.[day]?.[0]?.minutes===min,[day,30]);await a.page.evaluate(()=>GymCalendar.kick());await a.page.waitForFunction(()=>document.querySelector('.save-label').textContent.includes('Synced'));
+  assert.equal(remote.alice[day].items[0].minutes,30);
+  await b.page.evaluate(()=>GymCalendar.kick(true));assert.equal(await b.page.locator('.duration-fields input[type=number]').inputValue(),'30');
+  a.state.online=false;await minutes(a, 45);await a.page.evaluate(()=>GymCalendar.kick());assert.match(await a.page.locator('.save-label').textContent(),/Sync pending/);
+  await a.page.reload();await a.page.locator('.exercise-card').first().waitFor();assert.equal(await a.page.locator('.duration-fields input[type=number]').inputValue(),'45');
+  await minutes(b, 60);await b.page.evaluate(()=>GymCalendar.kick());assert.equal(remote.alice[day].items[0].minutes,60);
+  a.state.online=true;await a.page.evaluate(()=>GymCalendar.kick(true));await a.page.locator('#review-sync').click();assert.match(await a.page.locator('#sync-conflicts').textContent(),/45 min/);assert.match(await a.page.locator('#sync-conflicts').textContent(),/60 min/);
+  await a.page.getByRole('button',{name:'Keep this device’s day',exact:true}).click();await a.page.evaluate(()=>GymCalendar.kick());assert.equal(remote.alice[day].items[0].minutes,45);
+  await b.page.evaluate(()=>GymCalendar.kick(true));assert.equal(await b.page.locator('.duration-fields input[type=number]').inputValue(),'45');
+  a.state.online=false;await minutes(a, 50);await a.page.evaluate(()=>GymCalendar.kick());
+  await minutes(b, 70);await b.page.evaluate(()=>GymCalendar.kick());a.state.online=true;await a.page.evaluate(()=>GymCalendar.kick(true));await a.page.locator('#review-sync').click();await a.page.getByRole('button',{name:'Use saved online day',exact:true}).click();await a.page.waitForFunction(()=>document.querySelector('.duration-fields input[type=number]')?.value==='70');await a.page.evaluate(()=>GymCalendar.kick());assert.equal(await a.page.locator('.duration-fields input[type=number]').inputValue(),'70');
+  const c=await device('bob');assert.equal(await c.page.locator('.daily-row').count(),0);assert.equal(Object.keys(remote.bob).length,0);
+  await a.page.locator('.daily-row .remove').click();await a.page.waitForFunction(async ()=>Object.values(await GymScreenshotStore.getRecords()).flat().length===0);await a.page.evaluate(()=>GymCalendar.kick());assert.deepEqual(remote.alice[day].items,[]);await b.page.evaluate(()=>GymCalendar.kick(true));assert.equal(await b.page.locator('.daily-row').count(),0);
+  await a.page.locator('#mode-done').click();let release;a.state.hold=new Promise(resolve=>release=resolve);const inFlight=a.page.waitForRequest(request=>request.url().endsWith('/gym_save_workout_day'));
+  await a.page.locator('.add-exercise').first().click();await inFlight;await minutes(a,20);release();a.state.hold=null;await a.page.evaluate(()=>GymCalendar.kick());await a.page.waitForFunction(()=>document.querySelector('.save-label').textContent.includes('Synced'));assert.equal(remote.alice[day].items[0].minutes,20);
+  await c.page.evaluate(async day=>{const db=await new Promise((resolve,reject)=>{const request=indexedDB.open('gym-stone-records',1);request.onupgradeneeded=()=>{request.result.createObjectStore('screenshots',{keyPath:'id'}).createIndex('hash','hash',{unique:true});request.result.createObjectStore('state',{keyPath:'id'})};request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error)});await new Promise((resolve,reject)=>{const tx=db.transaction(['screenshots','state'],'readwrite');tx.objectStore('screenshots').put({id:'qa-legacy-photo',hash:'qa-legacy-hash',blob:new Blob(['qa'],{type:'image/png'}),ocrText:'PRIVATE_RAW_TEXT'});tx.objectStore('state').put({id:'workouts',records:{[day]:[{id:'qa-walk',name:'Casual Walk',group:'Activity',done:true,minutes:10,screenshotIds:['qa-legacy-photo']}]}});tx.oncomplete=resolve;tx.onabort=()=>reject(tx.error)});db.close()},day);
+  await c.page.locator('#player-profile').click();await c.page.locator('#previous-history-choice').waitFor();assert.equal(await c.page.locator('#import-previous-history').isChecked(),false);await c.page.locator('#import-previous-history').check();await c.page.locator('#profile-next').click();await c.page.locator('#save-profile').click();await c.page.locator('#profile-dialog').waitFor({state:'hidden'});await c.page.evaluate(()=>GymCalendar.kick());assert.equal(remote.bob[day].items[0].name,'Casual Walk');assert.equal((await c.page.evaluate(()=>GymScreenshotStore.list())).length,1);
+  await c.page.evaluate(()=>GymScreenshotStore.importGuestHistory());await c.page.evaluate(()=>GymCalendar.kick());assert.equal(remote.bob[day].items.length,1);assert.equal((await c.page.evaluate(()=>GymScreenshotStore.list())).length,1);assert.equal((await c.page.evaluate(()=>GymScreenshotStore.guestHistory())).records[day].length,1);
+  assert.deepEqual(errors,[]);await browser.close();console.log('PASS: two-device calendar sync, durable offline edits, both conflict choices, deletion and account isolation');
+})().catch(e=>{console.error(e);process.exit(1)});
