@@ -5,6 +5,7 @@ import json,zipfile
 root=Path(__file__).parent;catalog=root/'dist/exercises.json';items=json.loads(catalog.read_text(encoding='utf-8'));zip_path=root.parent/'Gym_Stone_Exercise_GIF_Library.zip'
 assert zip_path.is_file(),'Preserve the GIF library before optimization'
 def convert(e):
+    if e['image'].endswith('.webp'):return (root/'dist'/e['image']).stat().st_size
     path=root/'dist'/e['image'];im=Image.open(path);frames=[];durations=[]
     for n in range(im.n_frames):
         im.seek(n);f=im.convert('RGB');f.thumbnail((600,600),Image.Resampling.LANCZOS);frames.append(f);durations.append(im.info.get('duration',85))

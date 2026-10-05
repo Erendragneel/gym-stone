@@ -2,6 +2,8 @@
 
 A workout calendar inspired by Language Miner's Sunday-first activity calendar.
 
+**Open the app:** https://erendragneel.github.io/gym-stone/
+
 - Select a day to plan exercises or log already completed workouts.
 - Check and uncheck completion; remove entries when needed.
 - Enter minutes and an optional start time for completed exercises.

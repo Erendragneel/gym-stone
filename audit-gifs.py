@@ -1,6 +1,6 @@
 from pathlib import Path
 from PIL import Image
-import json,hashlib,zipfile
+import json,hashlib,zipfile,io
 root=Path(__file__).parent
 items=json.loads((root/'dist/exercises.json').read_text(encoding='utf-8-sig'))
 unique={}
@@ -10,8 +10,16 @@ for e in items:
     else:unique[e['name']]=e
 items=list(unique.values());(root/'dist/exercises.json').write_text(json.dumps(items,indent=2),encoding='utf-8')
 report=[]
+optimized=any(e['image'].endswith('.webp') for e in items)
+archive=zipfile.ZipFile(root.parent/'Gym_Stone_Exercise_GIF_Library.zip') if optimized else None
 for e in items:
-    p=root/'dist'/e['image'];im=Image.open(p);digests=set();duration=0
+    p=root/'dist'/e['image']
+    if e['image'].endswith('.webp'):
+        filename=Path(e['gif']).name
+        archived=next(n for n in archive.namelist() if Path(n).name==filename)
+        im=Image.open(io.BytesIO(archive.read(archived)))
+    else:im=Image.open(p)
+    digests=set();duration=0
     frames=[];durations=[];broken=False
     for frame in range(im.n_frames):
         try:
@@ -26,8 +34,10 @@ for e in items:
     assert im.info.get('loop')==0,e['name']+' does not loop'
     report.append({'exercise':e['name'],'group':e['group'],'frames':im.n_frames,'unique_frames':len(digests),'duration_ms':duration,'file':e['image']})
 (root/'gif-audit.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
-with zipfile.ZipFile(root.parent/'Gym_Stone_Exercise_GIF_Library.zip','w',compression=zipfile.ZIP_DEFLATED) as z:
+if archive:archive.close()
+if not optimized:
+ with zipfile.ZipFile(root.parent/'Gym_Stone_Exercise_GIF_Library.zip','w',compression=zipfile.ZIP_DEFLATED) as z:
     for e in items:z.write(root/'dist'/e['image'],e['group'].replace(' & ','_')+'/'+Path(e['image']).name)
     z.write(root/'dist/exercises.json','exercise-catalog.json');z.write(root/'gif-audit.json','animation-audit.json')
     z.writestr('README.txt',f'Gym Stone Exercise Library\n{len(items)} exercise GIFs across all major muscle groups.\nOriginal supplied anime GIFs plus newly created simplified illustrated loops.\nThis is a curated library, not an exhaustive catalog of every possible exercise or variation.\nIllustrated loops are movement diagrams, not personalized form coaching.\n')
-print(f'PASS: {len(items)} exercise files decode, animate and loop. Download ZIP created.')
+print(f'PASS: {len(items)} exercise files decode, animate and loop. Download ZIP preserved.')
