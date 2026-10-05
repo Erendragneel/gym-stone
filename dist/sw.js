@@ -1,14 +1,14 @@
 /* Offline app shell. Exercise animations and local OCR files are cached as used. */
 const CACHE_PREFIX = 'gym-stone-';
-const SHELL_CACHE = CACHE_PREFIX + 'shell-v1';
+const SHELL_CACHE = CACHE_PREFIX + 'shell-v2';
 const MEDIA_CACHE = CACHE_PREFIX + 'media-v1';
 const SHELL = [
-  './', './index.html', './app.js?v=4', './style.css?v=2', './calendar-theme.css',
+  './', './index.html', './app.js?v=4', './style.css?v=3', './calendar-theme.css',
   './screenshot-import.css?v=2', './screenshot-parser.js', './screenshot-store.js',
   './screenshot-import.js?v=2', './exercises.json', './qr-code.js',
-  './share-install.js', './share-install.css', './manifest.webmanifest',
-  './icons/gym-stone-v2-32.png', './icons/gym-stone-v2-48.png',
-  './icons/gym-stone-v2-180.png', './icons/gym-stone-v2-192.png', './icons/gym-stone-v2-512.png'
+  './share-install.js', './share-install.css?v=2', './manifest.webmanifest?v=3',
+  './icons/gym-stone-v3-32.png', './icons/gym-stone-v3-48.png',
+  './icons/gym-stone-v3-180.png', './icons/gym-stone-v3-192.png', './icons/gym-stone-v3-512.png'
 ];
 const shellPaths = new Set(SHELL.map(path => new URL(path, self.registration.scope).href));
 self.addEventListener('install', event => {
