@@ -1,0 +1,85 @@
+{
+  "mode": "Built-in ImageGen",
+  "new_exercises": 250,
+  "catalog_exercises": 425,
+  "tracking": {
+    "reps": 214,
+    "time": 36
+  },
+  "artwork": "sheets/*.png",
+  "exact_prompts": "sheets/*.txt",
+  "source_review": "All 250 selected six-cell sheets have saved visual QA and exact prompts.",
+  "decoded_files": {
+    "gif": 500,
+    "webp": 500
+  },
+  "encoded_contact_reviews": [
+    {
+      "reviewer": "stretch_ui",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "result": "Pass: complete people/equipment, retained margins, matching titles and captions."
+    },
+    {
+      "reviewer": "root",
+      "pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        24
+      ],
+      "result": "Pass: complete heads/hands/feet and finite apparatus, retained margins and matching titles/cues."
+    },
+    {
+      "reviewer": "stretch_review",
+      "pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "result": "Pass: complete people, footwear, finite equipment, encoding margins and matching titles/cues."
+    },
+    {
+      "reviewer": "expansion_core",
+      "pages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "result": "Pass: complete people/equipment and matching names/captions."
+    }
+  ],
+  "browser_checks": [
+    "425-move library and combined search/equipment/level filters",
+    "All 500 new WebPs from local server",
+    "Blank sets/reps and timed quantities, totals and persistence",
+    "425 real muscle-map previews, role colors, 320-1440px layouts and offline shell",
+    "Male/female switching and fixed prenatal identity",
+    "Two-device expanded strength/time synchronization, offline conflicts and account isolation",
+    "Existing pregnancy, stretch and workout-tracking regressions"
+  ],
+  "reproduction": "build-expanded-library.py --from-sources completed with 0 regenerated variants.",
+  "archive_sha256": "75c524735a4b528db1f8cdc3dcc3c2d0ab321bad56d93de593664d0cb3b15517"
+}
