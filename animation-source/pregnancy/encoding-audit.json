@@ -1,0 +1,654 @@
+[
+  {
+    "id": "prenatal-walk",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      550,
+      550,
+      650,
+      650,
+      550,
+      550
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 266685,
+      "sha256": "444fbbf6df91739725cbb6168b08f73d0abc7b48ca92b52b620cf0c70dd25d99"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 47856,
+      "sha256": "81d4c69251cd6ef27f4c6bf4eaaa41d74771cca51d410983165e276cf0078d7b"
+    }
+  },
+  {
+    "id": "prenatal-cycle",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "frame_durations_ms": [
+      500,
+      500,
+      500,
+      500,
+      500
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 5,
+      "distinct_frames": 5,
+      "duration_ms": 2500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 303693,
+      "sha256": "127dd32ea27e1d32c72134a9753595b8209a80c57a84133921f0080bac0c6406"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 5,
+      "distinct_frames": 5,
+      "duration_ms": 2500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 63726,
+      "sha256": "32189a10fe753870095a7fc620e9a3388fa6036c5e1bf337b4070e112b95aed5"
+    }
+  },
+  {
+    "id": "prenatal-march",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "frame_durations_ms": [
+      450,
+      650,
+      450,
+      650,
+      450
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 5,
+      "distinct_frames": 5,
+      "duration_ms": 2650,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 245979,
+      "sha256": "8d22686c2a30704110cf43ff037b494a0f38863d04c17e0092bc18f931ea0443"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 5,
+      "distinct_frames": 5,
+      "duration_ms": 2650,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 55404,
+      "sha256": "867b0c3fc9df815e89bc4ca1b185c2284a6dfb6fa4959162c535c190b18acb5c"
+    }
+  },
+  {
+    "id": "prenatal-sit-stand",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      550,
+      550,
+      650,
+      650,
+      550,
+      550
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 336907,
+      "sha256": "ce64937964d64074666e9735035bcd8d7a1e5ce6e80ed1228b13be6f7d6058a0"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 66048,
+      "sha256": "e416db41aaf32125df1ea8abab7f7f3358f7c2bdff8eda55e2a21e998fbb5c54"
+    }
+  },
+  {
+    "id": "prenatal-wall-pushup",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      550,
+      550,
+      650,
+      650,
+      550,
+      550
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 315178,
+      "sha256": "22a62dafc471e11039a95c774f0ec7af45e01ac1d80315e19969273c5f3dda10"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 54314,
+      "sha256": "3c6389d061f53ff50c8f8e220984044f337916cf68358e5a111afa2f4a1cdb67"
+    }
+  },
+  {
+    "id": "prenatal-band-row",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      550,
+      550,
+      650,
+      650,
+      550,
+      550
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 319592,
+      "sha256": "d9f94d7616caf3111d922fb1878a76b8b94e339ec587b506f43abe712dec22ea"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 72384,
+      "sha256": "ab200bf2d90e4c476ad19e9c5ab7ccecf03e9199735cc8c877b4d73943458df8"
+    }
+  },
+  {
+    "id": "prenatal-band-curl",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      550,
+      550,
+      650,
+      650,
+      550,
+      550
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 343036,
+      "sha256": "adfa9258341adbdbd0623d5640c999ea9c0f6a14390c1b3a1d8f187475523cb0"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 73334,
+      "sha256": "6ec0ea88116b9453c73b68b1ac4270c30b2926196413846e9f9a98fc686a9538"
+    }
+  },
+  {
+    "id": "prenatal-band-raise",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      550,
+      550,
+      650,
+      650,
+      550,
+      550
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 330260,
+      "sha256": "95b0e78870039e5647088163397c705702336b129042329cc852308d1a561354"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 74900,
+      "sha256": "2b3e67a730637f8b14784a2ebfbab261074486536f423cebf251676612217083"
+    }
+  },
+  {
+    "id": "prenatal-calf-raise",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      550,
+      550,
+      650,
+      650,
+      550,
+      550
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 303825,
+      "sha256": "2412bf9ca5e6fc9f485133f5a2f0693b956c6ade6d19715d5d7ad140e123a89a"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 59936,
+      "sha256": "6f073ed10694915f388438c5b3137307d5b0fcfb2dcb3d4bad2c667fa82ebc9c"
+    }
+  },
+  {
+    "id": "prenatal-leg-extension",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      650,
+      550,
+      900,
+      550,
+      650
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 5,
+      "distinct_frames": 5,
+      "duration_ms": 3300,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 251023,
+      "sha256": "451dba0e6e82df03cf1ed612ad2e2cd7e9a5cda0dc00734ade5c924f5a99a16b"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 5,
+      "distinct_frames": 5,
+      "duration_ms": 3300,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 47880,
+      "sha256": "0acc3d94ebaf475981ac3e2c9d916a698e898571e484938db1674f9a7fe433c0"
+    }
+  },
+  {
+    "id": "prenatal-wall-tilt",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      800,
+      650,
+      1200,
+      1200,
+      650,
+      800
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 5300,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 307898,
+      "sha256": "9a395acea290dfb151d983891edcbb2df87794255b867c22043fdfd3a14700a8"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 5300,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 47036,
+      "sha256": "7f8819b992e1f7ab00e014f225b85777f5a8ca16faa25e8410d223360c480752"
+    }
+  },
+  {
+    "id": "prenatal-cat-arch",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      550,
+      550,
+      650,
+      650,
+      550,
+      550
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 304049,
+      "sha256": "3718e3ec8ce32bcb935b3ee9af14a331035ec00a694861842eb70b3e9da34c31"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 3500,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 61160,
+      "sha256": "ce7c7bde0a4d33af1f94e65fa44c2fd0fa525f32b13c51df088403d2ffb52762"
+    }
+  },
+  {
+    "id": "prenatal-figure-four",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      700,
+      550,
+      1600,
+      1600,
+      550,
+      700
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 5700,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 332750,
+      "sha256": "896810b4cc7fd2500e507412472028380b1c1e59cd6871bfc7fb7195e8c73c63"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 5700,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 70934,
+      "sha256": "957feafe7291c613945815c0bc3497f03ea44fe8f958855ab872e0149e8428d0"
+    }
+  },
+  {
+    "id": "prenatal-calf-stretch",
+    "source_grid_size": [
+      1536,
+      1024
+    ],
+    "cell_sequence": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frame_durations_ms": [
+      700,
+      550,
+      1600,
+      1600,
+      550,
+      700
+    ],
+    "gif": {
+      "format": "gif",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 5700,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 325022,
+      "sha256": "7caf9afc2b6077a6d042e1f4b9faa4b06c98a6ba0b4eec80ad2e1d8a3e7894f9"
+    },
+    "webp": {
+      "format": "webp",
+      "frames": 6,
+      "distinct_frames": 6,
+      "duration_ms": 5700,
+      "size": [
+        600,
+        484
+      ],
+      "bytes": 59816,
+      "sha256": "180a23ced7b06ac8e9b904f7ba3a2c833970fc63019e627fa8936d0e5d88311d"
+    }
+  }
+]

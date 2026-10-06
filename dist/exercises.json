@@ -4933,5 +4933,533 @@
     },
     "image": "assets/male-stretch-shoulder.webp",
     "gif": "assets/male-stretch-shoulder.gif"
+  },
+  {
+    "id": "prenatal-walk",
+    "name": "Comfortable Walk",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Cardio",
+    "tracking": "time",
+    "cues": [
+      "Walk on level ground at a pace where you can talk"
+    ],
+    "adjustment": "Shorten the session or stride if needed; avoid overheating.",
+    "guidanceUrl": "https://www.acog.org/womens-health/faqs/exercise-during-pregnancy",
+    "image": "assets/prenatal-walk.webp",
+    "gif": "assets/prenatal-walk.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-walk.webp",
+        "gif": "assets/prenatal-walk.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-walk.webp",
+        "gif": "assets/prenatal-walk.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-cycle",
+    "name": "Upright Stationary Cycling",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Cardio",
+    "tracking": "time",
+    "cues": [
+      "Pedal comfortably while seated upright"
+    ],
+    "adjustment": "Adjust the seat and handlebars for belly space and easy reach; use a stationary bike.",
+    "guidanceUrl": "https://www.acog.org/womens-health/faqs/exercise-during-pregnancy",
+    "image": "assets/prenatal-cycle.webp",
+    "gif": "assets/prenatal-cycle.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-cycle.webp",
+        "gif": "assets/prenatal-cycle.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 2500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-cycle.webp",
+        "gif": "assets/prenatal-cycle.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 2500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-march",
+    "name": "Supported Marching",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Cardio",
+    "tracking": "time",
+    "cues": [
+      "Hold a sturdy chair and alternate small steps"
+    ],
+    "adjustment": "Keep knee lifts low. Stop if marching increases pelvic discomfort.",
+    "guidanceUrl": "https://www.jpaget.nhs.uk/media/kpilebj3/ph-15-fit-for-pregnancy-llt-v3-web.pdf",
+    "image": "assets/prenatal-march.webp",
+    "gif": "assets/prenatal-march.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-march.webp",
+        "gif": "assets/prenatal-march.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 2650,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-march.webp",
+        "gif": "assets/prenatal-march.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 2650,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-sit-stand",
+    "name": "Chair Sit-to-Stand",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Strength",
+    "tracking": "reps",
+    "cues": [
+      "Rise smoothly and lower slowly",
+      "Breathe out as you stand"
+    ],
+    "adjustment": "Use a sturdy chair placed against a wall; use your hands for help if needed.",
+    "guidanceUrl": "https://ruh.nhs.uk/patients/patient_information/PHY086_Pregnancy_Strengthening_Exercises.pdf",
+    "image": "assets/prenatal-sit-stand.webp",
+    "gif": "assets/prenatal-sit-stand.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-sit-stand.webp",
+        "gif": "assets/prenatal-sit-stand.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-sit-stand.webp",
+        "gif": "assets/prenatal-sit-stand.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-wall-pushup",
+    "name": "Wall Push-Up",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Strength",
+    "tracking": "reps",
+    "cues": [
+      "Place hands at shoulder height and keep your back straight"
+    ],
+    "adjustment": "Stand closer to the wall for less resistance; leave room for your belly.",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/pregnancy-exercises/art-20546799",
+    "image": "assets/prenatal-wall-pushup.webp",
+    "gif": "assets/prenatal-wall-pushup.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-wall-pushup.webp",
+        "gif": "assets/prenatal-wall-pushup.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-wall-pushup.webp",
+        "gif": "assets/prenatal-wall-pushup.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-band-row",
+    "name": "Seated Band Row",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Strength",
+    "tracking": "reps",
+    "cues": [
+      "Sit tall and draw your elbows back",
+      "Return slowly without leaning"
+    ],
+    "adjustment": "Use a light band securely beneath both feet and a sturdy chair.",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/pregnancy-exercises/art-20546799",
+    "image": "assets/prenatal-band-row.webp",
+    "gif": "assets/prenatal-band-row.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-band-row.webp",
+        "gif": "assets/prenatal-band-row.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-band-row.webp",
+        "gif": "assets/prenatal-band-row.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-band-curl",
+    "name": "Seated Band Biceps Curl",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Strength",
+    "tracking": "reps",
+    "cues": [
+      "Keep elbows near your sides and curl gently"
+    ],
+    "adjustment": "Use a light band beneath both feet. Stay upright and breathe throughout.",
+    "guidanceUrl": "https://ruh.nhs.uk/patients/patient_information/PHY086_Pregnancy_Strengthening_Exercises.pdf",
+    "image": "assets/prenatal-band-curl.webp",
+    "gif": "assets/prenatal-band-curl.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-band-curl.webp",
+        "gif": "assets/prenatal-band-curl.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-band-curl.webp",
+        "gif": "assets/prenatal-band-curl.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-band-raise",
+    "name": "Seated Band Lateral Raise",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Strength",
+    "tracking": "reps",
+    "cues": [
+      "Lift arms gently to the sides without shrugging"
+    ],
+    "adjustment": "Choose light resistance and a comfortable height; avoid straining.",
+    "guidanceUrl": "https://ruh.nhs.uk/patients/patient_information/PHY086_Pregnancy_Strengthening_Exercises.pdf",
+    "image": "assets/prenatal-band-raise.webp",
+    "gif": "assets/prenatal-band-raise.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-band-raise.webp",
+        "gif": "assets/prenatal-band-raise.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-band-raise.webp",
+        "gif": "assets/prenatal-band-raise.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-calf-raise",
+    "name": "Supported Calf Raise",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Strength",
+    "tracking": "reps",
+    "cues": [
+      "Hold support and rise onto both toes",
+      "Lower both heels slowly"
+    ],
+    "adjustment": "Use both feet together and keep a stable support within reach.",
+    "guidanceUrl": "https://ruh.nhs.uk/patients/patient_information/PHY086_Pregnancy_Strengthening_Exercises.pdf",
+    "image": "assets/prenatal-calf-raise.webp",
+    "gif": "assets/prenatal-calf-raise.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-calf-raise.webp",
+        "gif": "assets/prenatal-calf-raise.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-calf-raise.webp",
+        "gif": "assets/prenatal-calf-raise.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-leg-extension",
+    "name": "All-Fours Leg Extension",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Strength",
+    "tracking": "reps",
+    "cues": [
+      "Keep both hands down and your hips level",
+      "Extend one leg without arching your back"
+    ],
+    "adjustment": "Pad your knees and lift no higher than your torso; stop if uncomfortable. Alternate sides.",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/pregnancy-week-by-week/in-depth/pregnancy-exercises/art-20546799",
+    "sides": "both",
+    "image": "assets/prenatal-leg-extension.webp",
+    "gif": "assets/prenatal-leg-extension.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-leg-extension.webp",
+        "gif": "assets/prenatal-leg-extension.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-leg-extension.webp",
+        "gif": "assets/prenatal-leg-extension.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-wall-tilt",
+    "name": "Standing Wall Pelvic Tilt",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Mobility",
+    "tracking": "reps",
+    "cues": [
+      "With soft knees, gently tilt your pelvis toward the wall",
+      "Relax back to neutral"
+    ],
+    "adjustment": "Use a small movement and breathe normally; do not force your lower back.",
+    "guidanceUrl": "https://www.nnuh.nhs.uk/publication/download/physiotherapy-advice-in-pregnancy-v12/",
+    "image": "assets/prenatal-wall-tilt.webp",
+    "gif": "assets/prenatal-wall-tilt.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-wall-tilt.webp",
+        "gif": "assets/prenatal-wall-tilt.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-wall-tilt.webp",
+        "gif": "assets/prenatal-wall-tilt.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-cat-arch",
+    "name": "Gentle Cat Arch",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Mobility",
+    "tracking": "time",
+    "cues": [
+      "Place hands beneath shoulders and knees beneath hips",
+      "Gently round your back, then return to neutral"
+    ],
+    "adjustment": "Stay in a comfortable range; avoid dropping into a deep back bend.",
+    "guidanceUrl": "https://ruh.nhs.uk/patients/patient_information/PHY085_Pregnancy_Flexibility_Exercises.pdf",
+    "image": "assets/prenatal-cat-arch.webp",
+    "gif": "assets/prenatal-cat-arch.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-cat-arch.webp",
+        "gif": "assets/prenatal-cat-arch.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-cat-arch.webp",
+        "gif": "assets/prenatal-cat-arch.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3500,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-figure-four",
+    "name": "Seated Figure-Four Stretch",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Mobility",
+    "tracking": "time",
+    "cues": [
+      "Sit tall and rest one ankle over the opposite knee",
+      "Lean forward only slightly if comfortable"
+    ],
+    "adjustment": "Do not press down on your knee. Skip if it causes pelvic or hip discomfort; switch sides.",
+    "guidanceUrl": "https://ruh.nhs.uk/patients/patient_information/PHY085_Pregnancy_Flexibility_Exercises.pdf",
+    "sides": "both",
+    "image": "assets/prenatal-figure-four.webp",
+    "gif": "assets/prenatal-figure-four.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-figure-four.webp",
+        "gif": "assets/prenatal-figure-four.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5700,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-figure-four.webp",
+        "gif": "assets/prenatal-figure-four.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5700,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
+  },
+  {
+    "id": "prenatal-calf-stretch",
+    "name": "Supported Calf Stretch",
+    "group": "Pregnancy",
+    "prenatal": true,
+    "pregnancyCategory": "Mobility",
+    "tracking": "time",
+    "cues": [
+      "Hold a wall and keep the rear heel on the floor"
+    ],
+    "adjustment": "Use a gentle staggered stance and a comfortable stretch; switch sides.",
+    "guidanceUrl": "https://ruh.nhs.uk/patients/patient_information/PHY085_Pregnancy_Flexibility_Exercises.pdf",
+    "sides": "both",
+    "image": "assets/prenatal-calf-stretch.webp",
+    "gif": "assets/prenatal-calf-stretch.gif",
+    "variants": {
+      "male": {
+        "image": "assets/prenatal-calf-stretch.webp",
+        "gif": "assets/prenatal-calf-stretch.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5700,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/prenatal-calf-stretch.webp",
+        "gif": "assets/prenatal-calf-stretch.gif",
+        "style": "Anime prenatal pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5700,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    }
   }
 ]
