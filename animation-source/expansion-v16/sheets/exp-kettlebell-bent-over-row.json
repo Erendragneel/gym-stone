@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Kettlebell bent-over row: two kettlebells hang below shoulders in a stable hip hinge, elbows pull back to lift bells beside waist then lower. Bent knees and planted feet remain stable; complete heads, shoes and kettlebells fit all cells."
+}

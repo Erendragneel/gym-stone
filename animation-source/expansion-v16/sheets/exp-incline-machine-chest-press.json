@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Incline machine press: supported reclined seat, planted feet, independent connected levers press diagonally upward with visible elbow/handle movement in both rows; complete heads, shoes and plate-loaded apparatus intact."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Resistance-band shoulder press: band secured beneath both planted shoes, handles move from shoulder height to overhead with elbows extending while torso stays upright. Complete raised hands, elastic lengths and full bodies are contained in both rows."
+}

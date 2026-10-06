@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed both rows: reclined supported pelvis and back, both soles on the sled, hands on handles; extended, partial and roughly right-angle knee positions show leg pressing without hip lift. All plates, rail ends, platforms, heads and feet are contained."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Cable shrug: low central cable connects to bar held with straight arms in front of thighs, shoulders rise toward ears while head, torso and feet remain steady, then lower. No elbow curl or shoulder roll; complete cable station and both bodies visible."
+}

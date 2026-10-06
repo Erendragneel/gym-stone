@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Incline dumbbell fly: supported inclined bench, feet planted, arms move from above chest to wide lateral opening with bent elbows rather than a vertical press; complete bodies, dumbbells and bench in male/female rows."
+}

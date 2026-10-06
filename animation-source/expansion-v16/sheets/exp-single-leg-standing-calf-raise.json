@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    900,
+    650,
+    900
+  ],
+  "review": "Both full athletes with complete balance support and low step contained. Unused leg stays lifted behind; working forefoot stays on step as heel moves from below step to raised position, upright stable posture."
+}

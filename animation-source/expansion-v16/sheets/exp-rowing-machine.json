@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      1,
+      2,
+      1,
+      2
+    ],
+    "female": [
+      4,
+      5,
+      4,
+      5
+    ]
+  },
+  "durations": [
+    700,
+    700,
+    700,
+    700
+  ],
+  "review": "Selected drive and finish cells only (male1/2, female4/5), where footplates stay fixed and legs remain extended while the handle comes to lower ribs and the trunk leans slightly back. Catch cells have inconsistent footplate placement and are excluded. Complete rail, fan, shoes and figures fit inside cells."
+}

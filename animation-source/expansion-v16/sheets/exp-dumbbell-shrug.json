@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Dumbbell shrug: paired dumbbells hang beside thighs with straight elbows, shoulders rise toward ears then lower while head, torso and feet remain stable. Both rows show distinct small shoulder movement and complete weights and bodies."
+}

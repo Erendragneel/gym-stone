@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: back supported on machine, one leg moves the lower-shin roller from bent knee toward straight while the other foot stays down. Full machine tower, seat, lever and both athletes contained; male/female movement matches."
+}

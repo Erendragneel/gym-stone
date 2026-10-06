@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    900,
+    650,
+    900
+  ],
+  "review": "One working dumbbell presses over chest with shoulder/head supported and planted feet; other hand rests on abdomen. Both athletes and full incline bench contained in all poses."
+}

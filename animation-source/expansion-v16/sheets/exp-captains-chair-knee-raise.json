@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Both rows show supported captain-chair knee raises from long legs to bent knees lifted toward waist. Forearm supports and back pad stay stable; complete machine base, heads and feet visible."
+}

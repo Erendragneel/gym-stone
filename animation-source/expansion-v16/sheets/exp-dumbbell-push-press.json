@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Dumbbell push press: two dumbbells at shoulders during a shallow upright knee dip, legs then straighten as elbows extend weights overhead, returning to the dip/rack pose. Feet stay planted, no deep squat or exaggerated back arch; both complete bodies and dumbbells fit cells."
+}

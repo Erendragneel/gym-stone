@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Seated single-arm cable shoulder press: low rear pulley connects to working handle, supported seated torso and planted feet, working hand presses from shoulder to overhead while free hand rests on thigh. Both rows contain full apparatus, head, shoes, raised hand and cable."
+}

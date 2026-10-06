@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Both rows show chest-level ball setup, overhead lift and forward floor slam with knees and hips flexed. Non-bouncing ball, hand contact and complete body are plausible and fully contained."
+}

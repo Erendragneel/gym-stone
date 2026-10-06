@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Machine-assisted pull-up: knees supported on moving pad, straight hanging arms bend as body and pad rise together with chin approaching bar level; lowering returns to extended arms. Complete counterweight machine and suspended shoes fit both gender rows."
+}

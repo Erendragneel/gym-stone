@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed both rows: fixed complete Smith frame, loaded bar guided along rails across the upper back, hands stabilizing it; three knee-and-hip bend depths with whole feet down and steady trunks. All rack tops, bases, plates, heads and feet are inside each cell."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells after native correction: one shoe remains flat on floor throughout while the working leg alone bends against ankle roller. Fixed upper-thigh pad visible; full tower, seat, lever and both athletes contained."
+}

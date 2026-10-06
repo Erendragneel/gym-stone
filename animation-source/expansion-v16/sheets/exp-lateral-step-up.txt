@@ -1,0 +1,12 @@
+Create ONE production exercise animation sprite sheet asset, exact1536x1024 pixels, THREE columns by TWO rows with six equal square cells. This asset demonstrates ONE exercise with both existing athlete characters. Reference image1 is MALE identity and anime style only; image2 is FEMALE identity and anime style only. Ignore their exercises and text.
+TOP ROW: same muscular adult male athlete in THREE successive poses: short black spiky hair, medium tan skin, red sleeveless tank, charcoal shorts, red athletic shoes.
+BOTTOM ROW: same adult female athlete in the SAME THREE corresponding poses: black high ponytail, medium tan skin, red sleeveless tank, charcoal shorts, red athletic shoes, athletic body NOT pregnant.
+Clean detailed instructional anime linework and shading matching the references, plain pale blue-gray studio background and subtle ground shadow. Every cell is a SEPARATE complete head-to-toes character drawing. The entire head, hair, hands, both feet AND ALL equipment must stay INSIDE each cell, with generous empty50pxmargin on every side. Reduce the whole figure/equipment scale uniformly when apparatus is large; do not crop limbs or machines. Same camera, scale, floor, stable apparatus and body proportions within each row. No motion ghosts, extra limbs, labels, arrows, numbers, titles, borders, captions, split cells, or decorative inset panels.
+Exercise: Lateral Step-Up.
+Camera and setup: Front three-quarter view: stand beside a low stable step, its closest foot placed on the top and the other foot on the floor. Arms are out slightly for balance..
+Column1 START: Stand side-on beside the step with the near foot planted on top.
+Column2 MIDDLE: Straighten the upper leg to raise the body sideways onto the step.
+Column3 END: Finish upright on the step with the trailing foot hovering beside the working foot; lower the trailing foot back to the floor.
+Apply the same setup and movement to male top row and female bottom row. Both rows must visibly change posture between columns according to this exercise. Show mechanically plausible joints and load paths. Keep fixed supports stationary and all equipment connections correct.
+
+Critical containment: the entire head-to-feet athlete AND entire finite apparatus must fit in the central 390px by390px bounding area of EACH512px square cell. Every rack includes complete top crossbars and bases, every tower its complete top and bottom. Never draw a support cut off at a cell edge. Scale the apparatus and athlete together to fit, then keep that scale constant across each row.

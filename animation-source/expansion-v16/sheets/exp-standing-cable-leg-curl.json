@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: continuous front low-pulley cable reaches cuffed ankle while knee bends heel backward; other foot stays grounded and hand holds full balance post. Complete tower top/base, rail and full athletes contained."
+}

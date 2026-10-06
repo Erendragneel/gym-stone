@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Both rows show sled push with firm arms, forward torso angle and short driving steps. Entire sled poles, plate stack, runners, hands and shoes contained; no limb ghosting."
+}

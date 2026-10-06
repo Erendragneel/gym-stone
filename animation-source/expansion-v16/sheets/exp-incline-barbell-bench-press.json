@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Incline barbell press: fixed inclined bench and supported head/torso, both feet planted, clear elbow extension/descent in each gender, uncropped body and equipment with generous margins after native repair."
+}

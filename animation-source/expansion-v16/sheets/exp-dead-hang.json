@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "female": [
+      3,
+      4,
+      4,
+      3
+    ]
+  },
+  "durations": [
+    450,
+    1300,
+    1300,
+    450
+  ],
+  "review": "Native repair keeps the step and bar stationary. Approved setup and bent-knee suspended-hang cells only; final forward knee-tuck cells excluded. Long hang pause and complete feet, grips, frame and step."
+}

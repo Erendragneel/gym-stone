@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: fixed split stance with rear heel raised, both knees bend into a controlled descent as bar remains across upper back. Complete plates, bar ends, bodies and shoes contained; three clear depth positions in each row."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Single-arm floor press: one loaded arm extends and lowers until upper arm is supported by mat, empty hand rests on abdomen, knees bent and feet planted; complete bodies, dumbbell and mat in both rows."
+}

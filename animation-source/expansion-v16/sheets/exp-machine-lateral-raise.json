@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    900,
+    650,
+    900
+  ],
+  "review": "Both seated athletes lift upper-arm pads outward from ribs to shoulder height, with consistent machine supports, supported backs and flat feet. Full bodies and machine bases fit inside each cell."
+}

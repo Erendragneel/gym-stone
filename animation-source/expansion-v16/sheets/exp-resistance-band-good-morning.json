@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: continuous resistance band anchored under both shoes and held over upper shoulders; hips hinge back with soft knees and neutral trunk. Full athletes, band and feet contained; three hinge depths per row."
+}

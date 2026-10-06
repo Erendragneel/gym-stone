@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed both rows: three distinct knee-and-hip bend depths under shoulder pads, hands on handles, backs supported on the sled and feet secured on its platform. Entire heads, feet, plates, rails and machine bases remain within all six cells."
+}

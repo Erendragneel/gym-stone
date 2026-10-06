@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: feet stay inside complete hex bar, both hands hold raised side handles; hips and knees extend from loaded floor position to upright lockout. Plates, sleeves, head and feet fully contained for both athletes."
+}

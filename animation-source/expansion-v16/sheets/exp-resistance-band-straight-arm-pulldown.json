@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Resistance-band straight-arm pulldown: secure high front anchor, slightly hinged stance, arms stay long with soft elbows as handles sweep from forward/up to thighs against stretched band. Both complete bodies, band strands and anchor are visible."
+}

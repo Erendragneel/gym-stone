@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      2,
+      0,
+      2
+    ],
+    "female": [
+      3,
+      5,
+      3,
+      5
+    ]
+  },
+  "durations": [
+    650,
+    650,
+    650,
+    650
+  ],
+  "review": "Approved only start and end cells in each row: both correctly show grounded hand support during bear-plank drag. Middle cells excluded because they ambiguously show both hands near weight. All selected limbs and dumbbell contained."
+}

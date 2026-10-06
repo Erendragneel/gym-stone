@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    900,
+    650,
+    900
+  ],
+  "review": "Both athletes stand securely on the band middle, with two continuous band lengths leading to hands. Straight arms lift forward to shoulder height while torso and feet stay still; all bodies/band fit in cells."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      3,
+      4
+    ]
+  },
+  "durations": [
+    800,
+    1500,
+    800,
+    1500
+  ],
+  "review": "Selected closed-arm and vertical-arm opening phases (male0/1, female3/4); final arm is hidden and excluded. Both profiles keep stacked bent knees and pelvis grounded while chest rotates and eyes follow the raised hand. Complete bodies, hands, shoes and mats fit each cell."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Dumbbell lying triceps extension: two separate dumbbells above the chest, upper arms held upright while elbows bend to bring weights beside the forehead, then return straight. Bench support, planted feet and all equipment are contained in all six cells."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    900,
+    650,
+    900
+  ],
+  "review": "Both athletes start with handles reaching forward and opposite crossed cables, then open softly bent arms out to shoulder height. Both complete compact towers and full bodies stay inside each square."
+}

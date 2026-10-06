@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed both rows: upright supported torso, feet against the vertical plate and hands on handles; knees progress from bent to nearly straight along a horizontal press path. Complete selectorized machine, seated athletes, feet and hands are contained."
+}

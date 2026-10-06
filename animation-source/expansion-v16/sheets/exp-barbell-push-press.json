@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    500,
+    900,
+    500,
+    900
+  ],
+  "review": "Both athletes show a shallow planted dip, leg-assisted overhead press with straight arms, and controlled return. Whole head, feet and bar plates are visible in all three cells."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      1,
+      0,
+      2,
+      0
+    ],
+    "female": [
+      4,
+      3,
+      5,
+      3
+    ]
+  },
+  "durations": [
+    550,
+    350,
+    550,
+    350
+  ],
+  "review": "Native correction gives alternating walking strides while both forearms hug the sandbag against the chest with an upright trunk. Full profiles and bag remain within their cells."
+}

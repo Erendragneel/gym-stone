@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Machine pullover repaired: elbows remain bent near a right angle on the connected pads while upper arms rotate from forward/up to beside torso; handles stay above pads and the resistance stack rises in middle pose. Both rows show shoulder-driven arc with supported torso and complete machinery/bodies."
+}

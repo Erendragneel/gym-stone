@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Both rows show lying overhead-arm start through controlled trunk-and-leg rise into V position. No neck pulling, extra limbs or cropped hands/feet; whole mats contained."
+}

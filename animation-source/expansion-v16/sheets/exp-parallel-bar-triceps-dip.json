@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Parallel-bar triceps dip: two parallel rails support the hands, feet remain suspended with knees bent, elbows bend to about a right angle as torso lowers with only a small lean, then straighten. Complete rails, bases, bodies and shoes are visible in both rows."
+}

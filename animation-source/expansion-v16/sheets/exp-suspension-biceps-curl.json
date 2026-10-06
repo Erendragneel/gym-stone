@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    900,
+    650,
+    900
+  ],
+  "review": "Both athletes face complete high anchor with straight backward leaning body. Elbows flex to bring handles toward forehead; planted feet, upper-arm direction and straps are plausible and contained."
+}

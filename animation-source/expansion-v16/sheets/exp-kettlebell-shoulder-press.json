@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Kettlebell shoulder press: single bell rests outside forearm in rack at shoulder, working elbow extends overhead while free hand stays at hip and torso remains upright. Both complete raised bells, hands and full bodies are contained."
+}

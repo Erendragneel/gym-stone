@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Native endpoint correction accepted: supporting knee progressively bends to lower the hips while the free heel descends to the floor in front of the fixed low step. No upright return in the end column; all limb lengths are plausible, stance foot stays on the step, and both complete bodies and step fit in every cell."
+}

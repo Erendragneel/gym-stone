@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Single-arm cable press: working hand pushes forward from chest while empty hand remains at hip, torso and stance stable; native repair includes all post caps and floor bases in each cell, no clipped body or equipment."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: one heel stays on a single floor slider and draws inward through three knee angles; inactive leg stays bent and raised, hips remain lifted. All limbs, hair and slider contained despite tight inner head margin."
+}

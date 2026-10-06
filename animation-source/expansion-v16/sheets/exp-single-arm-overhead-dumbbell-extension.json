@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Single-arm overhead dumbbell extension: seated upright with feet planted and free hand at hip, working upper arm points up while the elbow bends to lower the dumbbell behind the head, then extends. Both rows have matching form with complete raised weight, hair, bench and shoes."
+}

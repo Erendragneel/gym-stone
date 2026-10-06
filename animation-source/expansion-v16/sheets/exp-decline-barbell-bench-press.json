@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Decline barbell press corrected natively: head and shoulders lower than hips, legs secured, middle-column elbows bend visibly to lower bar toward chest; male top/female bottom and complete apparatus contained. Side view naturally overlaps barbell plates."
+}

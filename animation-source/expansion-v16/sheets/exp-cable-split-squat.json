@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: complete compact low pulley with continuous cable to chest-held handle; fixed split stance descends through increasing knee bend. Both athletes, feet and housing contained; cable remains clear of feet."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Native load-connection repair accepted: hip belt connects to a flexible vertical cable entering a pulley on a fixed enclosed loading housing. Complete machine and both athletes fit in all cells; three squat depths, feet grounded, pelvis centered and knees tracking toes."
+}

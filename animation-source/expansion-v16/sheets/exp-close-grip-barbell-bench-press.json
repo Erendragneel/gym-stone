@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Close-grip barbell bench press: hands just inside shoulder width, elbows lower close to the ribs and extend above the chest, head and torso supported with feet planted. All heads, shoes, bench parts and barbell ends are visible in both rows."
+}

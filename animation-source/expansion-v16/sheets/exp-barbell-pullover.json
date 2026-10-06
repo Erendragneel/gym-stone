@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Barbell pullover: lying head and torso supported on bench, planted feet, long softly bent arms move the bar from above chest toward overhead then return without a large elbow bend. Both rows have complete heads, shoes, bench and barbell plates/endpoints."
+}

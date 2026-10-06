@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Standing single-arm dumbbell shoulder press: working dumbbell moves from shoulder height to straight overhead arm without side lean or knee drive, free hand at hip. Both rows keep feet planted and complete heads, shoes and dumbbells within all cells."
+}

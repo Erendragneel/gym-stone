@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Resistance-band face pull: secure face-height front anchor connects to two handles, standing torso stays steady as elbows open outward and handles move from forward reach toward sides of face. Band remains connected, shoulders controlled, full bodies and anchor intact."
+}

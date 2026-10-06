@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Resistance-band lat pulldown: tall kneeling on mat facing a secure high anchor, two band strands stretch as elbows pull from overhead toward ribs with handles at upper chest, then return overhead. No behind-neck pull; full heads, feet, anchor and mat in both rows."
+}

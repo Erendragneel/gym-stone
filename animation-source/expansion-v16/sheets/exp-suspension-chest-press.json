@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Suspension chest press corrected natively: athletes now face away from high rear anchor, straps run above shoulders toward hand-held handles, arms press straight forward then elbows bend beside ribs while the straight inclined body and feet remain stable. Full bodies, paired handles and complete anchor post/base are contained. Setup and TRX guidance URL corrected; triceps extension and fly also audited for rear-anchor pushing orientation."
+}

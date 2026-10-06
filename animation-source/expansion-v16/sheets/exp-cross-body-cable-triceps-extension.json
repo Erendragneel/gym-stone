@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Cross-body cable triceps extension: standing side-on to high pulley with cable crossing front of chest, working forearm starts bent across upper chest then extends diagonally toward working outer hip without torso rotation. Both rows keep complete heads, shoes, handle and cable tower."
+}

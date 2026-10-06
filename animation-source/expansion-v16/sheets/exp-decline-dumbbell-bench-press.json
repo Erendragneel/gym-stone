@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Decline dumbbell press: head end lower than hips, feet secured by elevated leg rollers; straight-arm press and distinct bent-elbow lowering in both gender rows, all heads, ponytail, feet, weights and bench intact."
+}

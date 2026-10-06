@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: both heels remain on floor-contact sliders, knees bend as sliders draw inward and hips stay bridged with shoulders supported. Two distinct positions per gender; full bodies, hands, shoes and both sliders contained."
+}

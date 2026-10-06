@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      2,
+      1,
+      2
+    ],
+    "female": [
+      3,
+      5,
+      4,
+      5
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    650,
+    450
+  ],
+  "review": "Both rows show standing, crouch with palms grounded, and controlled plank. Playback reordered standing→crouch→plank→crouch to show step-back burpee without jump or unsupported transition. Complete figures framed."
+}

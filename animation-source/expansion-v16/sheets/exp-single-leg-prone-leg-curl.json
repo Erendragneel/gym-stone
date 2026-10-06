@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: prone torso and hips stay on bench; one knee raises heel against roller while other leg stays extended with its shoe low. Clear two-leg separation at middle/end; entire machine, head, hands and shoes contained."
+}

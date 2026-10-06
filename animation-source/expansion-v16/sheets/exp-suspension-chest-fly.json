@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Suspension chest fly: stable high frame and connected straps, slight straight-body forward lean, hands separate in wide lateral arc with softly bent elbows then return; all heads, feet, handles and full anchor frame contained."
+}

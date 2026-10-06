@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Single-arm cable triceps pressdown: upper arm remains beside the torso while forearm moves from bent elbow to straight hand near thigh, with stack rising under tension. High pulley, cable, grip, head and feet are fully visible in both gender rows."
+}

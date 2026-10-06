@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      1,
+      0,
+      2,
+      0
+    ],
+    "female": [
+      4,
+      3,
+      5,
+      3
+    ]
+  },
+  "durations": [
+    550,
+    450,
+    550,
+    450
+  ],
+  "review": "Both rows show wide-foot high plank with alternating opposite-shoulder taps. Grounded-hand pose inserted between taps so supports remain clear; full heads, fingers and both shoes inside cells."
+}

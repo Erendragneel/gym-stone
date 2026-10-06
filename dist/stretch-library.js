@@ -50,6 +50,7 @@
       }
       return;
     }
+    if (window.GymLibrary?.details(exercise)) return;
     if (!exercise.phase) {
       help.textContent = 'Watch the movement, then add it to your selected day.';
       return;

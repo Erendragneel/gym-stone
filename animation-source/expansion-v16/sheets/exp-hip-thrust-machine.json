@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: padded hip load remains connected to side lever as hips rise, upper back supported and feet planted on complete platform. Three distinct hip heights per gender; complete frame, pads, lever/plate illustration and full athletes contained."
+}

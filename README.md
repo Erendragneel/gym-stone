@@ -2,15 +2,19 @@
 
 A workout calendar inspired by Language Miner's Sunday-first activity calendar.
 
+Every exercise preview includes front and back muscle-group maps. Dark red marks primary muscles; light red marks assisting muscles and stabilizers. Written muscle lists provide the same information without relying on color. Stretches label their main and supporting stretch targets. Maps work with both exercise characters and offline, and scale from phones to desktop. Mapping references are available in each preview. `verify-muscle-maps.cjs` validates coverage, color roles, preview switching, mobile layout, planning/logging, profile switching, persistence and offline loading.
+
 **Open the app:** https://erendragneel.github.io/gym-stone/
 
-Download the [male GIF library](https://github.com/Erendragneel/gym-stone/releases/download/v1.1.0/Gym_Stone_Anime_Exercise_GIF_Library_v1.1.zip) or [female GIF library](https://github.com/Erendragneel/gym-stone/releases/download/v1.2.0/Gym_Stone_Female_Anime_Exercise_GIF_Library_v1.2.zip). Each contains 149 exercises.
+Download the [250 new exercises / 500 male and female GIFs](https://github.com/Erendragneel/gym-stone/releases/tag/v1.6.0), [reframed original GIF libraries](https://github.com/Erendragneel/gym-stone/releases/tag/v1.3.0), [warm-up and cooldown GIFs](https://github.com/Erendragneel/gym-stone/releases/tag/v1.4.0), or [pregnancy GIFs](https://github.com/Erendragneel/gym-stone/releases/tag/v1.5.0).
 
 - Select a day to plan exercises or log already completed workouts.
 - Check and uncheck completion; remove entries when needed.
-- Enter minutes and an optional start time for completed exercises.
+- Enter sets and reps for strength, or minutes for cardio, holds and timed activity. Tracking can be changed per entry. New exercise quantities start blank; an optional start time supports the daily chart.
 - Track current streak, total active days, XP, and day/week/month training hours.
-- Browse and preview 149 exercises across 13 muscle group categories.
+- Browse and preview 425 exercises across muscle groups, cardio and mobility. Combine name search with equipment and difficulty filters. The 250 new moves include form cues and male/female illustrated examples.
+- Dedicated Warm-up and Cooldown sections contain 12 exercises with animations and timing guidance for before/after training.
+- A dedicated Pregnancy section contains 14 modified cardio, strength and mobility examples, with adjustments, primary guidance links, clinician tailoring and stop signs. Pregnancy animation identity stays fixed when the general profile gender changes.
 - Share Game shows the public game link and an offline-generated QR code, with copy, device sharing, and PNG download. Shared links contain no workout or screenshot data.
 - Download App installs Gym Stone as a browser app on supported browsers, with iPhone/iPad, Android, and desktop instructions when automatic installation is unavailable. Installed apps use the new Gym Stone logo.
 - A service worker keeps the calendar available offline after an online visit; exercise animations and OCR files are cached when loaded. Offline caches and original screenshots remain local to the same browser and app origin.
@@ -29,15 +33,17 @@ Screenshot import reads shared screenshots; the app does not connect directly to
 
 The daily chart groups workout durations by their recorded start hour; workouts without a start time have a separate bucket. Weekly and monthly charts show hours per calendar day. The week begins Sunday. Unentered durations count as zero and are flagged for entry. Future days support planning, with completion available on today and past dates.
 
-The library preserves 122 supplied anime animations and adds 27 detailed anime keyframe loops matching the original character art: muscular anatomy, black spiky hair, red top, dark shorts, red shoes, and gray studio framing. The simplified diagram loops have been replaced. New loops follow the original reference chat's 5.2-second cycles, 0.8-second endpoint pauses, and form captions. Six generated motion keyframes are assembled with gentle transitions; these are instructional illustrations rather than recorded or motion-captured demonstrations. Selected source sheets and exact built-in generation prompts are in `animation-source`.
+The 425-move catalog combines the original 149 exercises, 12 warm-up/cooldown moves, 14 pregnancy moves and 250 new exercises. General demonstrations use matching adult male and female anime athletes: tan skin, red tanks, charcoal shorts and red shoes, with short spiky hair or a high ponytail. Pregnancy examples use a separate fixed prenatal character.
 
-Every catalog exercise also has an adult female athlete counterpart: dark ponytail, medium tan skin, red tank, charcoal shorts and red shoes in the same gray studio. All 149 female GIF/WebP pairs use the original male movement as a reference. Their selected artwork, prompts and motion corrections are retained under `animation-source/female`. These are illustrated keyframe loops with transitions.
+The 250 new exercises use individually generated paired pose sheets, reviewed for the named movement, complete people and equipment, stable supports and cable/load connections. Each sheet contains three male poses above three female poses. Whole source cells are retained and surrounded by a 40-pixel margin; GIFs use opaque discrete poses without blended motion ghosts. Illustrated playback demonstrates the movement and does not prescribe sets, reps or session time.
 
-The incomplete Incline Dumbbell Curl and empty Lateral Band Walk source files have new anime replacements. Damaged ending frames in Rope Hammer Cable Curl and Horizontal Cable Rotation were recovered from their valid frames. Duplicate exercise names are merged with muscle-group memberships retained. Exercise IDs are unchanged so saved workout history keeps its links. This is a curated library, not every possible exercise or variation.
+Final native artwork, exact prompts and per-sheet review choices are retained in `animation-source/expansion-v16/sheets`; the complete exercise specifications are in `animation-source/expansion-v16/jobs.json`. To reproduce the assets from these saved sources, run `build-expanded-library.py --from-sources` with Pillow and NumPy. The generator preserves all 175 pre-expansion catalog entries exactly, keeping saved exercise IDs and workout links intact.
 
 ## Validation
 
-All 149 GIFs in the separate downloadable library were decoded frame by frame and checked for multiple distinct frames and infinite looping. `gif-audit.json` records results. The 27 refreshed GIFs also have verified 5.2-second timing. The app serves smaller animated WebP copies to reduce loading time; the GIF ZIP preserves the GIF versions. The female library is decoded frame by frame with verified 5.2-second infinite loops; `female-animation-audit.json` records all 149 GIF/WebP pairs and their hashes. Browser checks cover onboarding, gender selection, goal sliders, planning, completion, duration totals, day/week/month charts, persistence, animation preview, screenshot import, sharing, installation and mobile overflow. Real Supabase checks verify signup/sign-in, private profile/calendar ownership, revisions and two-device syncing. Mock checks exercise offline outbox recovery and both conflict choices. `verify-tab-storage.cjs` checks native browser locks, safe takeover of offline history/outbox, separate-player leases and profile responses arriving after a save. See `supabase/README.md` for applied migrations and account setup.
+The app serves smaller animated WebPs; downloadable packs preserve GIF versions. `audit-expanded-library.py` independently decodes all 500 new GIFs and 500 new WebPs, checks dimensions, opaque frames, distinct poses, infinite loops and exact timing, verifies ZIP hashes, and confirms all previous catalog entries remain unchanged. `animation-source/expansion-v16/decoded-audit.json` retains its results.
+
+`verify-expanded-library.cjs` checks all 425 moves, combined search/equipment/level filters, isolation of the guided sections, blank strength/timed quantities, totals, gender switching, all 500 WebPs from the server, persistence and 360-pixel scrolling/preview layout. Existing checks cover sets/reps, stretches, pregnancy guidance, onboarding, planning, charts, screenshot import, sharing, installation and mobile overflow. Real Supabase checks previously verified signup/sign-in, private profile/calendar ownership, revisions and two-device syncing. Mock checks cover calendar synchronization, offline recovery and conflict choices. See `supabase/README.md` for applied migrations and account setup.
 
 Optional WebMCP tools feature-detect browser support. A supported WebMCP context was unavailable for tool execution validation. The standard interface was tested directly.
 

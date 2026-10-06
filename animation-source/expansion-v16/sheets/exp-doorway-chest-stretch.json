@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    700,
+    700,
+    2400,
+    700
+  ],
+  "review": "Native edit makes endpoint chest/hip turn away from the supported forearm clear for both profiles. Elbow stays near shoulder height at90degrees against jamb, shoulders remain relaxed, and full characters plus complete doorway frame fit cells."
+}

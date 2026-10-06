@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Seated cable chest press: back and head supported against upright pad, feet planted, independent cable handles press forward at chest height from bent elbows; all cable towers including caps/bases intact in male/female rows."
+}

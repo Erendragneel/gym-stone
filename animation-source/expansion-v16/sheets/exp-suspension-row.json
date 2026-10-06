@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Suspension row: athlete faces high front anchor with straight body leaning backward, planted feet held as elbows pull handles toward ribs and chest rises toward straps. Paired taut straps connect fully; both rows contain entire bodies and rack."
+}

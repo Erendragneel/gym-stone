@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    350,
+    250,
+    350,
+    250
+  ],
+  "review": "Both profiles show grounded stance, low two-foot jump with rope below shoes and overhead rope phase. Rope is continuous between handles and entirely inside cells, including the overhead arc; full heads and feet are intact."
+}

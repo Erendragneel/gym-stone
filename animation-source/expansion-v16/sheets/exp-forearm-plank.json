@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "review": "Both rows: complete forearm-plank setup and straight-leg hold; elbows remain under the shoulders, hands and feet fully inside cells. Held endpoint extended for breathing demonstration.",
+  "durations": [
+    450,
+    650,
+    2400,
+    650
+  ]
+}

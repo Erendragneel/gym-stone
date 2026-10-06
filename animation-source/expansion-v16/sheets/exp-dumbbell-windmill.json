@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Both rows show conservative light-dumbbell windmill with vertical loaded arm, eyes toward raised hand, controlled hip shift and free hand reaching only knee. Full body and dumbbell contained."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Resistance-band chest press: secure fixed band anchors behind body at chest height, handles move from chest to forward extension while staggered feet and torso stay stable; red elastic bands and full anchors/body visible."
+}

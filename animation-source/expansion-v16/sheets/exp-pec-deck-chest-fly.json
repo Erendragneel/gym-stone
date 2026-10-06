@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Pec-deck fly: seated back support, forearms on vertical pads, levers move from open lateral position to together in front of chest, feet stay planted; male top/female bottom and all equipment contained."
+}

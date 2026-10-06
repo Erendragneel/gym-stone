@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    900,
+    650,
+    900
+  ],
+  "review": "Both athletes hold opposite low-pulley handles, crossed cables rising from floor units to hands. Arms rise into an overhead Y without torso lean. Complete people and pulley units are visible."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Standing single-arm cable row: chest-height pulley in front, upright staggered stance without torso rotation, working arm reaches forward then elbow pulls back beside ribs to bring handle near waist. Full head, feet, handle, cable and capped tower are visible in both rows."
+}

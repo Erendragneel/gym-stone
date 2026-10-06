@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Single-arm dumbbell bench press: one dumbbell and one working arm extend/lower, empty hand rests on abdomen, head/torso supported and feet planted in both rows; complete body, weight and bench within each cell."
+}

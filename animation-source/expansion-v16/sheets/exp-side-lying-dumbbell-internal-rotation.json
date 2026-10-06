@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    900,
+    650,
+    900
+  ],
+  "review": "Native repair added head support and removed working-arm torso propping. Both athletes lie on the working/right side, with right elbow on towel fixed beside ribs; right forearm rotates from near floor to vertical. Body, pillow, mat and weight stay complete."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: fixed split stance, two dumbbells carried at sides, front knee and rear knee progressively bend while torso remains upright. Whole bodies and both weights contained; male and female follow the same movement."
+}

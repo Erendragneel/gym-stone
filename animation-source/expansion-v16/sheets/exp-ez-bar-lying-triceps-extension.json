@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "EZ-bar lying triceps extension: bench supports head and torso, feet planted, upper arms stay near vertical as elbows bend and the curved bar approaches the forehead, then straighten. Both gender rows show the same controlled elbow movement with complete bar and bodies."
+}

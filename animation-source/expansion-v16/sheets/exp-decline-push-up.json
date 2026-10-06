@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Decline push-up: toes stay on stable low bench, hands on floor; clear straight-arm plank and controlled chest lowering with aligned torso/hips, both gender rows and all hands, feet, bench intact."
+}

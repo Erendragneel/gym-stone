@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Plate-loaded lat pulldown: seated with thigh pads and planted feet, paired lever handles start overhead then elbows pull down beside torso to shoulder/upper-chest level. Lever pivots and weight plates stay connected; both complete bodies and machine remain contained."
+}

@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: guided padded bar stays across hip crease as hips extend, feet remain planted and back supported. Complete Smith rails, collars, top crossbar, safety catches, base, plates and full athletes contained; tight intact frame margins are acceptable with encoder padding."
+}

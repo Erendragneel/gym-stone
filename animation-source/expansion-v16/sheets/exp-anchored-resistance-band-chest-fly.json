@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Anchored band chest fly: fixed chest-height band anchors, arms open laterally then meet in front while shoulders and stance stay controlled; elastic bands visible, complete anchor posts and both athlete rows contained."
+}

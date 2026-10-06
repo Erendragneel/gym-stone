@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Incline dumbbell press: both athlete rows show independent dumbbells above upper chest and controlled bent-elbow lowering, head/torso supported, feet planted; all limbs, weights and bench visible inside cells."
+}

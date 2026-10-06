@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "High-to-low cable fly: high fixed pulleys, arms open laterally then sweep diagonally downward to meet below chest with small elbow bends; feet and torso stable, both gender rows and all equipment fully contained."
+}

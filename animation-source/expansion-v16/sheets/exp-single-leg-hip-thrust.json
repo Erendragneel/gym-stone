@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: one foot stays grounded while other leg remains bent and raised, hands stabilize complete bench and hips rise through three heights. Top working shin nearly vertical with torso/thigh alignment; both shoes and full bodies contained."
+}

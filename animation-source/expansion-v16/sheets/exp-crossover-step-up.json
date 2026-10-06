@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells after native correction: start visibly crosses the far leg in front onto the low box, then planted leg extends while the free foot lifts beside it. Two distinct positions per gender; full bodies, shoes and complete box contained."
+}

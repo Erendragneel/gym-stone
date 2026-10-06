@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed all six cells: dumbbell remains stabilized across hip crease as pelvis rises, back supported by complete bench and both feet flat. Top torso/thigh alignment and vertical shins shown; complete bodies, shoes, weight and bench contained."
+}

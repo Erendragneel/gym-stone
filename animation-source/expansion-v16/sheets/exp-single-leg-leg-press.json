@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "female": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "durations": [
+    650,
+    450,
+    900,
+    450
+  ],
+  "review": "Reviewed both rows: only one foot presses the sled while the unused leg rests on the lower frame away from the carriage. Working knee progresses through extension and controlled flexion; pelvis and back remain supported. All limbs, sled, plates and rail ends fit within each cell."
+}

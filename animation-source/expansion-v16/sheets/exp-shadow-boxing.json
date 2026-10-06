@@ -1,0 +1,24 @@
+{
+  "reviewed": true,
+  "cell_indices": {
+    "male": [
+      0,
+      1,
+      0,
+      2
+    ],
+    "female": [
+      3,
+      4,
+      3,
+      5
+    ]
+  },
+  "durations": [
+    350,
+    400,
+    350,
+    400
+  ],
+  "review": "Both profiles show guarded stance, lead-hand extension and rear-hand extension with a hip/heel pivot. Non-punching hand protects chin, knees remain soft, fists and entire bodies are contained."
+}
