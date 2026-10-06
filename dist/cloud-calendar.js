@@ -106,7 +106,7 @@
       for(const [label,items]of [['This device',ctx.desired[day]||[]],['Saved online',remote.items]]){
         const title=document.createElement('b'),ul=document.createElement('ul');title.textContent=label;
         if(!items.length){const li=document.createElement('li');li.textContent='No exercises';ul.append(li);}
-        for(const item of items){const li=document.createElement('li');li.textContent=(item.done?'Completed: ':'Planned: ')+(item.name||window.GymCalendarNames?.(item)||item.id)+(item.minutes?' · '+item.minutes+' min':'');ul.append(li);}
+        for(const item of items){const li=document.createElement('li'),name=item.name||window.GymCalendarNames?.(item)||item.id,mode=window.GymTracking?.mode(item,{name});const details=mode==='reps'?(item.sets&&item.reps?' · '+item.sets+' sets × '+item.reps+' reps':''):(item.minutes?' · '+item.minutes+' min':'');li.textContent=(item.done?'Completed: ':'Planned: ')+name+details;ul.append(li);}
         card.append(title,ul);
       }
       for(const [label,useLocal]of [['Keep this device’s day',true],['Use saved online day',false]]){
