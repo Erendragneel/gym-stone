@@ -4465,5 +4465,473 @@
         }
       }
     }
+  },
+  {
+    "id": "stretch-arm-circles",
+    "name": "Arm Circles",
+    "phase": "warmup",
+    "group": "Warm-up",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Move in controlled circles",
+      "Change direction halfway"
+    ],
+    "sides": "alternate",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-arm-circles.webp",
+        "gif": "assets/male-stretch-arm-circles.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-arm-circles.webp",
+        "gif": "assets/female-stretch-arm-circles.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-arm-circles.webp",
+    "gif": "assets/male-stretch-arm-circles.gif"
+  },
+  {
+    "id": "stretch-torso-rotations",
+    "name": "Standing Torso Rotations",
+    "phase": "warmup",
+    "group": "Warm-up",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Keep hips facing forward",
+      "Turn gently without forcing"
+    ],
+    "sides": "alternate",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-torso-rotations.webp",
+        "gif": "assets/male-stretch-torso-rotations.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 2400,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-torso-rotations.webp",
+        "gif": "assets/female-stretch-torso-rotations.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 2400,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-torso-rotations.webp",
+    "gif": "assets/male-stretch-torso-rotations.gif"
+  },
+  {
+    "id": "stretch-front-leg-swings",
+    "name": "Front-to-Back Leg Swings",
+    "phase": "warmup",
+    "group": "Warm-up",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Keep the torso upright",
+      "Use support and switch legs"
+    ],
+    "sides": "both",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-front-leg-swings.webp",
+        "gif": "assets/male-stretch-front-leg-swings.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-front-leg-swings.webp",
+        "gif": "assets/female-stretch-front-leg-swings.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-front-leg-swings.webp",
+    "gif": "assets/male-stretch-front-leg-swings.gif"
+  },
+  {
+    "id": "stretch-lateral-leg-swings",
+    "name": "Lateral Leg Swings",
+    "phase": "warmup",
+    "group": "Warm-up",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Keep the hips level",
+      "Swing gently and switch legs"
+    ],
+    "sides": "both",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-lateral-leg-swings.webp",
+        "gif": "assets/male-stretch-lateral-leg-swings.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-lateral-leg-swings.webp",
+        "gif": "assets/female-stretch-lateral-leg-swings.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-lateral-leg-swings.webp",
+    "gif": "assets/male-stretch-lateral-leg-swings.gif"
+  },
+  {
+    "id": "stretch-cat-cow",
+    "name": "Cat-Cow",
+    "phase": "warmup",
+    "group": "Warm-up",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Hands under shoulders",
+      "Move slowly with your breath"
+    ],
+    "sides": "none",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-cat-cow.webp",
+        "gif": "assets/male-stretch-cat-cow.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-cat-cow.webp",
+        "gif": "assets/female-stretch-cat-cow.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-cat-cow.webp",
+    "gif": "assets/male-stretch-cat-cow.gif"
+  },
+  {
+    "id": "stretch-walking-knee-hugs",
+    "name": "Walking Knee Hugs",
+    "phase": "warmup",
+    "group": "Warm-up",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Stand tall with each step",
+      "Lift each knee comfortably"
+    ],
+    "sides": "alternate",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-walking-knee-hugs.webp",
+        "gif": "assets/male-stretch-walking-knee-hugs.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-walking-knee-hugs.webp",
+        "gif": "assets/female-stretch-walking-knee-hugs.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 3300,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-walking-knee-hugs.webp",
+    "gif": "assets/male-stretch-walking-knee-hugs.gif"
+  },
+  {
+    "id": "stretch-calf",
+    "name": "Standing Calf Stretch",
+    "phase": "cooldown",
+    "group": "Cooldown",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Keep the back heel down",
+      "Hold gently; switch sides"
+    ],
+    "sides": "both",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-calf.webp",
+        "gif": "assets/male-stretch-calf.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 6600,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-calf.webp",
+        "gif": "assets/female-stretch-calf.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 6600,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-calf.webp",
+    "gif": "assets/male-stretch-calf.gif"
+  },
+  {
+    "id": "stretch-quadriceps",
+    "name": "Standing Quadriceps Stretch",
+    "phase": "cooldown",
+    "group": "Cooldown",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Keep knees close together",
+      "Use support and switch sides"
+    ],
+    "sides": "both",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-quadriceps.webp",
+        "gif": "assets/male-stretch-quadriceps.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 6600,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-quadriceps.webp",
+        "gif": "assets/female-stretch-quadriceps.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 6600,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-quadriceps.webp",
+    "gif": "assets/male-stretch-quadriceps.gif"
+  },
+  {
+    "id": "stretch-hamstring",
+    "name": "Seated Hamstring Stretch",
+    "phase": "cooldown",
+    "group": "Cooldown",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Hinge forward from the hips",
+      "Keep your back long; switch legs"
+    ],
+    "sides": "both",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-hamstring.webp",
+        "gif": "assets/male-stretch-hamstring.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 6600,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-hamstring.webp",
+        "gif": "assets/female-stretch-hamstring.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 6600,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-hamstring.webp",
+    "gif": "assets/male-stretch-hamstring.gif"
+  },
+  {
+    "id": "stretch-hip-flexor",
+    "name": "Half-Kneeling Hip Flexor Stretch",
+    "phase": "cooldown",
+    "group": "Cooldown",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Tuck the pelvis slightly",
+      "Stay upright; switch sides"
+    ],
+    "sides": "both",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-hip-flexor.webp",
+        "gif": "assets/male-stretch-hip-flexor.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 6600,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-hip-flexor.webp",
+        "gif": "assets/female-stretch-hip-flexor.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 6600,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-hip-flexor.webp",
+    "gif": "assets/male-stretch-hip-flexor.gif"
+  },
+  {
+    "id": "stretch-figure-four",
+    "name": "Seated Figure-Four Glute Stretch",
+    "phase": "cooldown",
+    "group": "Cooldown",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Rest ankle above opposite knee",
+      "Lean gently forward; switch sides"
+    ],
+    "sides": "both",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-figure-four.webp",
+        "gif": "assets/male-stretch-figure-four.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 6600,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-figure-four.webp",
+        "gif": "assets/female-stretch-figure-four.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 6600,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-figure-four.webp",
+    "gif": "assets/male-stretch-figure-four.gif"
+  },
+  {
+    "id": "stretch-shoulder",
+    "name": "Cross-Body Shoulder Stretch",
+    "phase": "cooldown",
+    "group": "Cooldown",
+    "tracking": "time",
+    "defaultMinutes": 1,
+    "suggestedSeconds": 30,
+    "cues": [
+      "Keep the shoulder relaxed",
+      "Support upper arm; switch sides"
+    ],
+    "sides": "both",
+    "guidanceUrl": "https://www.mayoclinic.org/healthy-lifestyle/fitness/in-depth/stretching/art-20047931",
+    "variants": {
+      "male": {
+        "image": "assets/male-stretch-shoulder.webp",
+        "gif": "assets/male-stretch-shoulder.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 6600,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      },
+      "female": {
+        "image": "assets/female-stretch-shoulder.webp",
+        "gif": "assets/female-stretch-shoulder.gif",
+        "style": "Anime pose loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
+      }
+    },
+    "image": "assets/male-stretch-shoulder.webp",
+    "gif": "assets/male-stretch-shoulder.gif"
   }
 ]

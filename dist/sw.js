@@ -1,9 +1,9 @@
 /* Offline app shell. Exercise animations and local OCR files are cached as used. */
 const CACHE_PREFIX = 'gym-stone-';
-const SHELL_CACHE = CACHE_PREFIX + 'shell-v11-complete-framing';
-const MEDIA_CACHE = CACHE_PREFIX + 'media-v3-complete-framing';
+const SHELL_CACHE = CACHE_PREFIX + 'shell-v12-stretches';
+const MEDIA_CACHE = CACHE_PREFIX + 'media-v4-stretches';
 const SHELL = [
-  './', './index.html', './app.js?v=8', './style.css?v=4', './calendar-theme.css', './navigation.css?v=1', './navigation.js?v=1',
+  './', './index.html', './app.js?v=9', './style.css?v=4', './calendar-theme.css', './navigation.css?v=1', './navigation.js?v=1', './stretch-library.js?v=1', './stretch-library.css?v=1',
   './screenshot-import.css?v=2', './screenshot-parser.js', './screenshot-store.js?v=3',
   './screenshot-import.js?v=3', './workout-tracking.js', './exercises.json', './qr-code.js',
   './player-profile.js?v=3', './player-profile.css?v=4', './profile-data.js', './cloud-config.js', './cloud-account.js?v=2', './cloud-calendar.js', './assets/characters/male-avatar.png', './assets/characters/female-avatar.png', './assets/characters/male-character.png', './assets/characters/female-character.png',

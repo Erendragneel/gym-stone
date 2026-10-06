@@ -1,0 +1,9 @@
+.stretch-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 0;flex-shrink:0}
+.stretch-tabs button{background:#0d1b2d;border:1px solid #36556f;border-radius:8px;color:var(--muted);font:inherit;font-size:13px;padding:10px 14px}
+.stretch-tabs button.active{background:#136670;border-color:#39d9c5;color:#f2ffff}
+.stretch-tabs small{display:block;font-size:10px;opacity:.85;margin-top:2px}
+.stretch-guidance{color:var(--muted);background:#102737;border-radius:8px;padding:10px 12px;font-size:12px;line-height:1.5;margin-top:10px;flex-shrink:0}
+.stretch-guidance p{margin:0}.stretch-guidance a{display:inline-block;color:#9cddd6;font-size:11px;margin-top:4px}
+.stretch-timing{display:block;color:#9cddd6;margin-bottom:8px}.workout-fields .stretch-duration-note{width:100%;color:var(--muted);font-size:11px}
+.quest-phase-heading{font-size:11px;letter-spacing:.5px;text-transform:uppercase;color:#9cddd6;margin:16px 0 2px;padding:0}.quest-phase-heading:first-child{margin-top:8px}
+@media(max-width:720px){.stretch-tabs{gap:6px;margin-top:12px}.stretch-tabs button{font-size:11px;flex:1;padding:8px 4px}.stretch-tabs small{font-size:9px}.stretch-guidance{font-size:11px;padding:8px 10px;line-height:1.4}.stretch-guidance a{font-size:10px}body[data-screen=exercises] .library{height:calc(100dvh - 215px);min-height:470px}body[data-screen=exercises] .exercise-grid{flex:1;max-height:none;min-height:60px}.stretch-tabs+ .stretch-guidance:not([hidden])~.muscle-select{margin:8px 0}}

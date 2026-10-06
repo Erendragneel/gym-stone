@@ -5,11 +5,14 @@ import numpy as np
 def cells(path):
     sheet = Image.open(path).convert('RGB')
     w, h = sheet.size
-    assert w % 3 == 0 and h % 2 == 0, (path, sheet.size)
+    assert abs(w / h - 1.5) < 0.02, (path, sheet.size)
     frames = []
     for index in range(6):
-        x, y = index % 3 * w // 3, index // 3 * h // 2
-        cell = sheet.crop((x, y, x + w // 3, y + h // 2))
+        column, row = index % 3, index // 3
+        # A generated sheet may differ by one pixel from the requested size.
+        # Rounded shared boundaries retain every pixel without losing an edge.
+        cell = sheet.crop((round(column*w/3), round(row*h/2),
+                           round((column+1)*w/3), round((row+1)*h/2)))
         # Use one fixed scale for the whole sheet. Keep the complete source cell;
         # shifting/clamping rows to align feet can truncate heads and equipment.
         art = cell.resize((432, 432), Image.Resampling.LANCZOS)

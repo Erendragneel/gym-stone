@@ -1,0 +1,146 @@
+[
+  {
+    "id": "stretch-arm-circles",
+    "gender": "male",
+    "gif_bytes": 300817,
+    "sha256": "8d2be5c933fa84665fae3bb04325b582d21da54d47adcf675aac43adb91d88db"
+  },
+  {
+    "id": "stretch-arm-circles",
+    "gender": "female",
+    "gif_bytes": 320340,
+    "sha256": "1de9117a85fa87794b18a1cfcef347195e3da80641c5240463dd40823194e545"
+  },
+  {
+    "id": "stretch-torso-rotations",
+    "gender": "male",
+    "gif_bytes": 209630,
+    "sha256": "2bb1998169dd6aea3606d2ba4232236e386ea61c0ea7fff4fc154075c7b0714d"
+  },
+  {
+    "id": "stretch-torso-rotations",
+    "gender": "female",
+    "gif_bytes": 225364,
+    "sha256": "a6772eb897664b15d034ac93a1d4eb877c4837a6b83bf496692d3ebb34e7ca49"
+  },
+  {
+    "id": "stretch-front-leg-swings",
+    "gender": "male",
+    "gif_bytes": 314814,
+    "sha256": "5aae901059bdf6ebc2ccefab31e974786f0e8174a9b15fe1454a306ad7a5f533"
+  },
+  {
+    "id": "stretch-front-leg-swings",
+    "gender": "female",
+    "gif_bytes": 328960,
+    "sha256": "9e5728f8aa9389a3695f35c30e54f2d2b04ca0b38b39bcf443289b707e90ac35"
+  },
+  {
+    "id": "stretch-lateral-leg-swings",
+    "gender": "male",
+    "gif_bytes": 323671,
+    "sha256": "c01ecd9355e5a207ff31390473dd325f20e53920a30e7101082186eea2b09eb8"
+  },
+  {
+    "id": "stretch-lateral-leg-swings",
+    "gender": "female",
+    "gif_bytes": 332061,
+    "sha256": "e9fade0656219baf95af0010b987d9856e17c3a3c3bcdd8237b4587f388e6079"
+  },
+  {
+    "id": "stretch-cat-cow",
+    "gender": "male",
+    "gif_bytes": 277674,
+    "sha256": "2f3d715ecf214f52f34d0ce58ce799ce89e674ac9f6dec0de3eb7439d6853cfc"
+  },
+  {
+    "id": "stretch-cat-cow",
+    "gender": "female",
+    "gif_bytes": 310022,
+    "sha256": "f1d48040771e306cb62cbd2d255d85e5a10b32919ca7363eb0ed7e7fcc8e7b10"
+  },
+  {
+    "id": "stretch-walking-knee-hugs",
+    "gender": "male",
+    "gif_bytes": 316898,
+    "sha256": "d25845d3abd8312409904dc2a4e64316d4572fe457dc8afe75b7e45df6f23da6"
+  },
+  {
+    "id": "stretch-walking-knee-hugs",
+    "gender": "female",
+    "gif_bytes": 322426,
+    "sha256": "6344a456008f8a43a7838c2ff2153617e5c98dbe04849b3c397574536de16939"
+  },
+  {
+    "id": "stretch-calf",
+    "gender": "male",
+    "gif_bytes": 305105,
+    "sha256": "adcc0c015a906ef0a6cf57c9393cd609def649e660fd2ee8b88620ebcefe6d5b"
+  },
+  {
+    "id": "stretch-calf",
+    "gender": "female",
+    "gif_bytes": 339163,
+    "sha256": "6d73411b05dc4b91b60d0818bdbd0bb5c5884f9bf66baca5c619112a035ab255"
+  },
+  {
+    "id": "stretch-quadriceps",
+    "gender": "male",
+    "gif_bytes": 303089,
+    "sha256": "a9582f0abb24ab4d8b8f7ee281d7bebe6bed1611611a08335ed6402df98c98fb"
+  },
+  {
+    "id": "stretch-quadriceps",
+    "gender": "female",
+    "gif_bytes": 329475,
+    "sha256": "e10d27a510b28e545cf0ab78db3f50e063c7a4d19588abc5a85669d6597679a0"
+  },
+  {
+    "id": "stretch-hamstring",
+    "gender": "male",
+    "gif_bytes": 330936,
+    "sha256": "10179370fc89b4934024c95a9b377c86272d6081907b0e11e1ac9b76ba4a27fd"
+  },
+  {
+    "id": "stretch-hamstring",
+    "gender": "female",
+    "gif_bytes": 367465,
+    "sha256": "54e8d2a36dd7b62ac45efff8c7baa1196260f8bcf107485615a23945e7119f75"
+  },
+  {
+    "id": "stretch-hip-flexor",
+    "gender": "male",
+    "gif_bytes": 303123,
+    "sha256": "8fd53103065360959823714c94e41f48d6c6416db54d0589c8833e65c1e7f298"
+  },
+  {
+    "id": "stretch-hip-flexor",
+    "gender": "female",
+    "gif_bytes": 352929,
+    "sha256": "431a7697e63a7c1ccd1e785682a9857e11216dea110f7457e26e06d7dc8991ac"
+  },
+  {
+    "id": "stretch-figure-four",
+    "gender": "male",
+    "gif_bytes": 352468,
+    "sha256": "62013d4f6bcb1a08b6826ce3e4a27b2fe6aad5eb3f4581d0e0ffdf400c30c98e"
+  },
+  {
+    "id": "stretch-figure-four",
+    "gender": "female",
+    "gif_bytes": 361223,
+    "sha256": "b4f3f2e5bc8c84be350d249a9e01a0eee7894201619a69b1df65c5cbcd82077d"
+  },
+  {
+    "id": "stretch-shoulder",
+    "gender": "male",
+    "gif_bytes": 322211,
+    "sha256": "5811f6eb8284674c6b859d3eaf2acf336dda6474a862244263f7ef44d93e722d"
+  },
+  {
+    "id": "stretch-shoulder",
+    "gender": "female",
+    "gif_bytes": 231093,
+    "sha256": "c2a2d881c79caba2fcd7ba0cbd48e88bdfb6a6adc2988accf5331ea62230c23e"
+  }
+]
