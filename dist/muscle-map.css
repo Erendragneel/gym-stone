@@ -1,0 +1,53 @@
+/* Preserve the existing exercise artwork alongside an accessible anatomy map. */
+#exercise-dialog{width:min(1060px,94vw);max-height:92dvh;border-color:#36556f;background:#152639}
+#exercise-dialog .dialog-content{padding:28px}
+#exercise-dialog .dialog-close{z-index:2;background:#102337;color:#fff}
+#exercise-dialog #preview-name{font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.2;margin:8px 44px 20px 0}
+.exercise-preview-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:20px;align-items:stretch;margin-bottom:20px}
+.exercise-preview-animation{display:flex;align-items:center;justify-content:center;min-width:0;background:#eef0f5;border-radius:12px;overflow:hidden}
+#exercise-dialog #preview-image{display:block;width:100%;height:auto;max-height:540px;object-fit:contain;background:#eef0f5}
+.muscle-panel{min-width:0;background:#e7edf3;color:#182b40;border:1px solid #bccad7;border-radius:12px;padding:18px}
+.muscle-panel h3{font-size:1.25rem;line-height:1.3;margin:0 0 14px}
+.muscle-figures{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.muscle-figure{min-width:0;margin:0;text-align:center}
+.muscle-figure svg{width:100%;height:310px;display:block;overflow:visible}
+.muscle-figure figcaption{font-size:.875rem;font-weight:700;margin:5px 0 14px}
+.muscle-body-outline{fill:#d5dce2;stroke:#7c8995;stroke-width:1.25;stroke-linejoin:round}
+.muscle-region{stroke:#8996a1;stroke-width:.8;stroke-linejoin:round}
+.muscle-inactive{fill:#c4cdd5}
+.muscle-primary{fill:#9d1835;background:#9d1835}
+.muscle-secondary{fill:#f5a5ad;background:#f5a5ad}
+.muscle-body-detail{fill:none;stroke:#8996a1;stroke-width:.8}
+.muscle-legends{display:grid;grid-template-columns:1fr;gap:14px;border-top:1px solid #bccad7;padding-top:14px}
+.muscle-legend-group h4{display:flex;gap:9px;align-items:center;font-size:.9375rem;line-height:1.4;margin:0 0 5px}
+.muscle-swatch{display:inline-block;width:18px;height:18px;border:1px solid #733344;border-radius:5px;flex-shrink:0}
+.muscle-swatch.muscle-secondary{border-color:#b16d76}
+#exercise-dialog .muscle-list{color:#263d52;font-size:.875rem;line-height:1.55;margin:0;padding-left:27px;overflow-wrap:anywhere}
+#exercise-dialog .muscle-map-note{color:#4e6477;font-size:.8125rem;line-height:1.5;margin:14px 0 0}
+.muscle-map-sources{font-size:.8125rem;margin-top:10px;color:#4e6477}
+.muscle-map-sources summary{cursor:pointer;min-height:24px}
+#exercise-dialog .muscle-map-sources p{color:#4e6477;font-size:.8125rem;margin:8px 0}
+.muscle-map-sources a{display:block;color:#245775;margin:5px 0;text-decoration:underline}
+#exercise-dialog #preview-instructions{font-size:.9375rem;line-height:1.6}
+#exercise-dialog #preview-add{min-height:44px}
+@media(max-width:760px){
+ #exercise-dialog{width:94vw;max-height:92dvh}
+ #exercise-dialog .dialog-content{padding:20px}
+ .exercise-preview-grid{grid-template-columns:1fr;gap:16px}
+ #exercise-dialog #preview-name{font-size:1.6rem;margin-bottom:16px}
+ #exercise-dialog #preview-image{max-height:260px}
+ .muscle-panel{padding:16px}
+ .muscle-figure svg{height:290px}
+ #exercise-dialog #preview-add{width:100%}
+}
+@media(max-width:360px){
+ #exercise-dialog .dialog-content{padding:16px}
+ .muscle-panel{padding:12px}
+ .muscle-figures{gap:6px}
+ .muscle-figure svg{height:255px}
+}
+@media(forced-colors:active){
+ .muscle-primary{fill:Highlight;stroke:CanvasText;stroke-width:2}
+ .muscle-secondary{fill:Canvas;stroke:Highlight;stroke-width:2;stroke-dasharray:4 2}
+ .muscle-inactive{fill:Canvas;stroke:GrayText}
+}

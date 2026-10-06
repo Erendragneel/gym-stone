@@ -2,6 +2,8 @@
 
 A workout calendar inspired by Language Miner's Sunday-first activity calendar.
 
+Every exercise preview includes front and back muscle-group maps. Dark red marks primary muscles; light red marks assisting muscles and stabilizers. Written muscle lists provide the same information without relying on color. Stretches label their main and supporting stretch targets. Maps work with both exercise characters and offline, and scale from phones to desktop. Mapping references are available in each preview. `verify-muscle-maps.cjs` validates coverage, color roles, preview switching, mobile layout, planning/logging, profile switching, persistence and offline loading.
+
 **Open the app:** https://erendragneel.github.io/gym-stone/
 
 Download the [male GIF library](https://github.com/Erendragneel/gym-stone/releases/download/v1.1.0/Gym_Stone_Anime_Exercise_GIF_Library_v1.1.zip) or [female GIF library](https://github.com/Erendragneel/gym-stone/releases/download/v1.2.0/Gym_Stone_Female_Anime_Exercise_GIF_Library_v1.2.zip). Each contains 149 exercises.
