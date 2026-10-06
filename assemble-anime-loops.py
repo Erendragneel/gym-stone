@@ -6,7 +6,7 @@ and encodes the slow instructional loops used by the supplied collection.
 """
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
-import argparse, hashlib, json
+import argparse, hashlib, json, importlib.util
 import numpy as np
 
 ROOT = Path(__file__).resolve().parent
@@ -47,25 +47,9 @@ CUES = {
 }
 
 def cells(path):
-    sheet = Image.open(path).convert('RGB')
-    w,h = sheet.size
-    assert w % 3 == 0 and h % 2 == 0, f'Unexpected sprite grid: {path}'
-    frames = [sheet.crop((i%3*w//3, i//3*h//2, (i%3+1)*w//3, (i//3+1)*h//2)) for i in range(6)]
-    # Register the lowest dark contour (ground contact/equipment foot) so the
-    # generated rows do not introduce a camera jump at the row boundary.
-    anchors=[]
-    for frame in frames:
-        a=np.asarray(frame)
-        ys=np.where(np.max(a,axis=2)<105)[0]
-        anchors.append(int(np.quantile(ys,.999)) if len(ys) else frame.height-30)
-    target=max(anchors)
-    registered=[]
-    for frame,anchor in zip(frames,anchors):
-        a=np.asarray(frame)
-        shift=min(65,max(-65,target-anchor))
-        indices=np.clip(np.arange(frame.height)-shift,0,frame.height-1)
-        registered.append(Image.fromarray(a[indices]))
-    return registered
+    spec=importlib.util.spec_from_file_location('sprite_framing',ROOT/'sprite-framing.py')
+    framing=importlib.util.module_from_spec(spec);spec.loader.exec_module(framing)
+    return framing.cells(path)
 
 def caption(frame,name,cue):
     art=frame.resize((512,512),Image.Resampling.LANCZOS)

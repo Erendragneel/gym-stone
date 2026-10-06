@@ -1,0 +1,2088 @@
+[
+  {
+    "id": "g0-01_Bodyweight_Glute_Bridge",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "b9e4b88b0f39afac86bde7eb04989aeabf9f20a2bedb83045fee9f50222f98b9"
+  },
+  {
+    "id": "g0-02_Barbell_Hip_Thrust",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "5a16a20a632db1e0b64d059f0bd56c9bbf270aa5f113287861fcd5ff1f8fac88"
+  },
+  {
+    "id": "g0-03_Single_Leg_Glute_Bridge",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "9f13b6cc960c107179127d2300caf29be45686789cd1d4f21c3404d4ace0d618"
+  },
+  {
+    "id": "g0-04_Frog_Pump",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "a5eb03da9987736f6c644f1dace6547b07143726992871faf1816f1b2d89dac5"
+  },
+  {
+    "id": "g0-05_Side_Lying_Clamshell",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "b63151be9c973ede31e2acec9adc8f08020929a338a1c4678db4317f923f692c"
+  },
+  {
+    "id": "g0-06_Side_Lying_Hip_Abduction",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "3f1118c5b14a6d3c5bcf706d8148f1ae4d86f6564f2819bfc5a8b721b686c505"
+  },
+  {
+    "id": "g0-07_Quadruped_Donkey_Kick",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "8e4ffaaee4b6ee6aee9afafafd3a15b43e475501e2945fc3f87c5551ede318a1"
+  },
+  {
+    "id": "g0-08_Quadruped_Fire_Hydrant",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "80ee9b46603a824e38ac0e66925c083e7e1e0f51df630db3552e960337d9a966"
+  },
+  {
+    "id": "g0-09_Cable_Hip_Abduction",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "b58067934a92c3dd0cac49e51f79e055536a4520e8abc559963f9aebeda83b0a"
+  },
+  {
+    "id": "g0-10_Cable_Glute_Kickback",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "9b0bb0529954d7f866355d5e9b61f9f4cadf19374fced94d3f75f98c9b99254f"
+  },
+  {
+    "id": "g0-12_Monster_Walk",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "7e4b40d450ce182d3bd0808c4796668c1cef53a714e8b85eb810cbcea7c8c30a"
+  },
+  {
+    "id": "g0-13_Goblet_Squat",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "123a049ca904b30785155a93dcdd9977bdc7cb617692aab63d3d07f72fa513ce"
+  },
+  {
+    "id": "g0-14_Sumo_Dumbbell_Squat",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "62e8744a0efda21becda709b1d4dfe80fae13c88db1c88863082ae035963fb6e"
+  },
+  {
+    "id": "g0-15_Reverse_Lunge",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "4964fb8d44e853e374aa27da7083aa67b4227fcfa5e6d76d9bc0a44b24c6a8b0"
+  },
+  {
+    "id": "g0-16_Bulgarian_Split_Squat",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "184aeff081b442d72b5d36e658fcd4037cd1050287d6ff9ef7cddaa6de10712d"
+  },
+  {
+    "id": "g0-17_Low_Box_Step_Up",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "3a9324ab8f6d94da043c7e741775d6dce9a98991cc418d9edf8390ff805a727e"
+  },
+  {
+    "id": "g0-18_Lateral_Lunge",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "8b5f9b53a4adba248c727944a62b07fe1f7982bdb7f5bcbf798e100c14621e13"
+  },
+  {
+    "id": "g0-19_Curtsy_Lunge",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "c78c6ff2e35a0c36c3dea45f2ec5175000188cd3ea3319f856521c88b976347c"
+  },
+  {
+    "id": "g0-20_Single_Leg_Dumbbell_RDL",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "2b7819323d9a15107547c3828745d2f020198936b4c9f3f5a823169b28a1297d"
+  },
+  {
+    "id": "g0-21_Hip_Abduction_Machine",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "a049123d121f3137e079c8a6afb7492068167b88d1d4aae49195bff9acb72dee"
+  },
+  {
+    "id": "g0-22_Hip_Adduction_Machine",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "9e23d9ce71dd5aab9e65e604da710c06faa637447ebc9437bee44dd39bcbefae"
+  },
+  {
+    "id": "g0-23_Barbell_Romanian_Deadlift",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "5e0778403c33f183a71889852446881107306875ca39927b91fcb759402765d0"
+  },
+  {
+    "id": "g0-24_Kettlebell_Swing",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "fe85398049c513e96c1a619fcfbcb32bec373c8ced0fcca069ba72ff8a4e59f5"
+  },
+  {
+    "id": "g0-25_90_90_Hip_Switch",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "4cc27b803a076fcaeb1090f8ab0838d8bedbdf292a7cdc4374008a5fd2626615"
+  },
+  {
+    "id": "g1-01_Conventional_Deadlift",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "c2b45a2754b832b77f542015821300a5b5ddb693d07e24908722a9fcc58235b1"
+  },
+  {
+    "id": "g1-02_Romanian_Deadlift",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "557d30ad5703e72c3e8ddb24c97e71c03077582e89f4a44f946226c059572217"
+  },
+  {
+    "id": "g1-03_Barbell_Good_Morning",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "67d9fba5c983140194f1941c51098f5f71d8840b8b50acb31529e972e5395cfa"
+  },
+  {
+    "id": "g1-04_45_Degree_Back_Extension",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "c7d629941b78a6af88ec670e5a81d92fcf7b2c74ff2e1248dbb3efc9158d59ec"
+  },
+  {
+    "id": "g1-05_Bent_Over_Barbell_Row",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "aafcd9740df5d220c69785b29c1ac559230e1a99191eb8f0b8b5944f086a7b41"
+  },
+  {
+    "id": "g1-06_Pendlay_Row",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "d5a046494a0be977f4f84194cfd17aebc03c9e9cafaa97403e3360d8bc3654f2"
+  },
+  {
+    "id": "g1-07_T_Bar_Row",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "a44e7f6840c71ad22550c030febb1f3e09faf7737e2f680bcd783caf8fde36ec"
+  },
+  {
+    "id": "g1-08_Single_Arm_Dumbbell_Row",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "b9f98eebd1eeb1cf9966ac6f88afaff4c382e06ac457627a19feea23fc5ce6df"
+  },
+  {
+    "id": "g1-09_Chest_Supported_Dumbbell_Row",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "ec8c6a38350090322b95194ead4c3d437dffffc26bf3db20068d30cbb091366d"
+  },
+  {
+    "id": "g1-10_Chest_Supported_Machine_Row",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "752385e2b12f26214d0c94868670372356a10155f7050799d0cfef19f34e139a"
+  },
+  {
+    "id": "g1-11_Neutral_Grip_Seated_Cable_Row",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "45a819d45ecfec0672982c31336cbef7546bdd369e78a1819a5a5bffd59fdef3"
+  },
+  {
+    "id": "g1-12_Wide_Grip_Seated_Cable_Row",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "18eb28afdfd061c01491851752b9ec4a9206aa0b0ab13369da8d046da3d6a68a"
+  },
+  {
+    "id": "g1-13_Wide_Grip_Lat_Pulldown",
+    "gender": "male",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "2685a09da66f4b7b13630557bd0ce016aa9ea683af2ec6780128e554f9f13939"
+  },
+  {
+    "id": "g1-14_Close_Neutral_Grip_Pulldown",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "ecd90322e6483a3fe86caf535255cc37b6a6d27edc694c5a93edea7cdf00aaa9"
+  },
+  {
+    "id": "g1-15_Single_Arm_Cable_Pulldown",
+    "gender": "male",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "ded6931ef4e830a02a8e3a199d0053f01a4891e84ca3dd4c4f72d719b8cc1bb4"
+  },
+  {
+    "id": "g1-16_Straight_Arm_Cable_Pulldown",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "2554a5dd3c6184a1710f2823dcd7cbd24e8090f58ecf900bbbf722337c5ba2ef"
+  },
+  {
+    "id": "g1-17_Overhand_Pull_Up",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "17cbc8432ee43ab21d9a13132901fdd3d3ce04c6897fcdab567a690566e4cc5b"
+  },
+  {
+    "id": "g1-18_Wide_Grip_Pull_Up",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "4b743a4f50155c9ff5d504b4ca31c99d4fcc967b18cad7bc72c9ddac9de57f9e"
+  },
+  {
+    "id": "g1-19_Neutral_Grip_Pull_Up",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "2d9ce0f1764ac5decbeafc89f17cfb84b5ec186a49c838a537e3c9c946b3dc0b"
+  },
+  {
+    "id": "g1-20_Overhand_Inverted_Row",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "0d96f8cd461a7a3c619bde866862355d1842314aa98837ae73167feca9db344b"
+  },
+  {
+    "id": "g1-21_Machine_High_Row",
+    "gender": "male",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "e4b7a48d1377f624b24c62c1a06e4cfdfeef27ed7a0a3aa95af4d8e98558e294"
+  },
+  {
+    "id": "g1-22_Dumbbell_Pullover",
+    "gender": "male",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "ac51831a8a494d52b05a3694ef22b133ae4732420a8cc32cdb88cab0aba7a5c3"
+  },
+  {
+    "id": "g1-23_Barbell_Shrug",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "0de873476fbbcd39de42bc81e93d4493b6ba416edfa24b6c6454e73428a4995f"
+  },
+  {
+    "id": "g1-24_Rope_Face_Pull",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "3fd1985c8bcbfd539906a7d11effbfc44ad8f76acfb85fdbe91713b64559834e"
+  },
+  {
+    "id": "g1-25_Superman",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "40c2d449bcb492238b068f992823eb1c5439e71f6e70faa59f917eb3535bddc2"
+  },
+  {
+    "id": "g2-01_Standing_Dumbbell_Shoulder_Press",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "7498e723ccd35de992ff888ba264e4b5cea72c282f4f37459ac8822b92b29169"
+  },
+  {
+    "id": "g2-02_Seated_Dumbbell_Shoulder_Press",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "5e3a11ed22d1b324f3ff8cb35b3ee865e2eb9ca98a8dd9e111c5ed65cb2e525b"
+  },
+  {
+    "id": "g2-03_Arnold_Press",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "0ebd776010a65892092ae5cb3101c4289e6d54cdecd7f7b6d79d49b90cacb058"
+  },
+  {
+    "id": "g2-04_Standing_Barbell_Overhead_Press",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "9dccd5b5ed2d2ba82bc5760ad53d9125d9f58d363140b0d4430930c8122db64f"
+  },
+  {
+    "id": "g2-05_Seated_Barbell_Shoulder_Press",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "3e25d7ebd6fef95bb9a9521a2e20c01719b6eb193bc08e650ed36424799b759f"
+  },
+  {
+    "id": "g2-06_Machine_Shoulder_Press",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "87dba8aae4d46255a5cead89799699f49f3b9cae994155d68cf9d169fa7ec53e"
+  },
+  {
+    "id": "g2-07_Half_Kneeling_Landmine_Press",
+    "gender": "male",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "1efeab7b008eafac52b778aa9ad1e7ad3f5235b07cbd589cc573318b916b5b3e"
+  },
+  {
+    "id": "g2-08_Two_Hand_Landmine_Press",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "f68f50dda0c72116976bfc2048f7529960cae77636452d5940d5def107ba265a"
+  },
+  {
+    "id": "g2-09_Dumbbell_Lateral_Raise",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "8f7d07aff22dc85209c4d75a8ef761d39c8fdf962f2c5049f574ccfd6d59ac59"
+  },
+  {
+    "id": "g2-10_Cable_Lateral_Raise",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "6d6e41a09f750bfbf9f6e6a2a8014cda7909f413a3576633c854124daeb16a37"
+  },
+  {
+    "id": "g2-11_Leaning_Lateral_Raise",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "393d87a40fe028f4c729068859cc897ae9e2093255ea7b3dc2038e3643f4a4a4"
+  },
+  {
+    "id": "g2-12_Dumbbell_Front_Raise",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "e5362a1404f905bc7a0f05ed6e17a3a11d6d21326eeec361194b88199dd987be"
+  },
+  {
+    "id": "g2-13_Plate_Front_Raise",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "fcc9c18e54312524028b935eb03ade86d3e1a4ac982f475606d246b9c3c59c60"
+  },
+  {
+    "id": "g2-14_Cable_Front_Raise",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "00bdb9f3383357690fa282447adcffe20145cfc98805ade8bac12bb33441e3c5"
+  },
+  {
+    "id": "g2-15_Bent_Over_Rear_Delt_Fly",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "26d39403d07502b41acfb7810fde550fc04c40d00af9bcc24e0d5a552a461059"
+  },
+  {
+    "id": "g2-16_Chest_Supported_Rear_Delt_Fly",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "899ef14a8ca4fa408d00fccb2ad992325d927e559e390a89738dcab49678d94a"
+  },
+  {
+    "id": "g2-17_Reverse_Pec_Deck",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "8999ad7a54082426a0d3fbd7ab9646847517c064e31001fd8f5f63fa848eb344"
+  },
+  {
+    "id": "g2-19_Wide_Grip_Upright_Row",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "1023dad902ef5d545673a2474cb9450425d3194bf0fb79871920ff5a6fe66b93"
+  },
+  {
+    "id": "g2-20_Dumbbell_Scaption_Raise",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "fe29c1b7eaef43e943234621890b5e2ff4fe8342e342d34345854a784279ae83"
+  },
+  {
+    "id": "g2-21_Cuban_Rotation_to_Press",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "4d4e1c38c02b82d45479ba6b8fe9237c9a0d3b7a5f0e5361dfe744eacc36c84a"
+  },
+  {
+    "id": "g2-22_Incline_Bench_Y_Raise",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "e4aa33f6fbcc07689a87314f8d3a9c1e41dba13eef2fbf0254318f8c371da826"
+  },
+  {
+    "id": "g2-23_Resistance_Band_Pull_Apart",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "b8718e929019e8438d759ff81c935d5adb3aca6fcdefeb4936321fa7d18e663f"
+  },
+  {
+    "id": "g2-24_Cable_External_Rotation",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "50122cc29b58f136a87776df3ae9d258b569c2b58a2c6b2c8dd4ad94b778b179"
+  },
+  {
+    "id": "g2-25_Pike_Push_Up",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "696e503c96669dfab6eb7addb2c5d46a411ec699a5684fd877014a00a49f4773"
+  },
+  {
+    "id": "g3-01_Standing_Dumbbell_Curl",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "8ec58d86975b039f93dfbe371d294d9147cc5d90d9641aac624bc9e59baee912"
+  },
+  {
+    "id": "g3-02_Alternating_Dumbbell_Curl",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "15b69221d202fc0ac314a993316ee1f519bdef090ccc682c8ae7cd845c710c8e"
+  },
+  {
+    "id": "g3-03_Hammer_Curl",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "ff73d40229994594a6abd5be4b2ec43a3b7e8ace6341604b71284102d81ba0dd"
+  },
+  {
+    "id": "g3-04_Cross_Body_Hammer_Curl",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "20ca689a00758bc41742c23ec497c8e6d34e8ebbc7ae6f1457dd31375f17b6b3"
+  },
+  {
+    "id": "g3-06_Concentration_Curl",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "0bd91831e78a1a58846ce25fe55d48f09cae4ecba4f09210d8560845254180c2"
+  },
+  {
+    "id": "g3-07_Dumbbell_Preacher_Curl",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "7db2b783bf62f21bb51fa28d5ebadc1db9354c6a044dfd58ff20f778e511770c"
+  },
+  {
+    "id": "g3-08_Spider_Curl",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "766f35dd408c873ac8593ca9475035162185991b60349a767f11b941dd717324"
+  },
+  {
+    "id": "g3-09_Straight_Barbell_Curl",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "50dd416582ac7b9af10ad636ef777924fb2774c9d63fe3acf0ad3b10d9ff302e"
+  },
+  {
+    "id": "g3-10_EZ_Bar_Curl",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "e8aa80d7121e0dffe3905929941177ef194ead4282d9f37ba02dd66f92eac833"
+  },
+  {
+    "id": "g3-11_Preacher_EZ_Bar_Curl",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "9ea152e7a723fee2b8a6c699f8f9ddfc4963e8211d74b49ba0ee6a4161774d11"
+  },
+  {
+    "id": "g3-12_Reverse_Barbell_Curl",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "58633604e1f0b2d4f06973d49c6288439c1feb58f94074d17caae68eacf946e1"
+  },
+  {
+    "id": "g3-13_Drag_Curl",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "b5e2740e48392589973498e79cb3d8ef5b9ed5293f8f3aa06479d0c39fbc6dc2"
+  },
+  {
+    "id": "g3-14_Zottman_Curl",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "6945e11b285543edcfd34b2a91b09bc055572b001a5d8f413e4f6bdf49ec05ed"
+  },
+  {
+    "id": "g3-15_Seated_Dumbbell_Curl",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "3fe2ae33197d0e17601d3d88783e5526b26d6c8aed916b428b9701091dcc271a"
+  },
+  {
+    "id": "g3-16_Seated_Hammer_Curl",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "33ae98f8f5341292157d02e83ef96e685fa022184841799309db0df852779761"
+  },
+  {
+    "id": "g3-17_Standing_Cable_Curl",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "fcebaa8638144c90955d9b3cd1a0b1630e8fd1c6c57544d559b03341c492d206"
+  },
+  {
+    "id": "g3-18_Single_Arm_Cable_Curl",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "a1d2e578c66679c25e064e3acc20858ee69babed7aa444af46067862db55c586"
+  },
+  {
+    "id": "g3-19_Rope_Hammer_Cable_Curl",
+    "gender": "male",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "84d0370ef78aa1477b50e8485fc9f7742415cd46bad3ba89af573ec3384e09a6"
+  },
+  {
+    "id": "g3-20_Bayesian_Cable_Curl",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "b65ae01e3af039195eef7a7ef4871f03d5b7d89451cff219df6bd7dbe321c387"
+  },
+  {
+    "id": "g3-21_Overhead_Cable_Curl",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "460ad69aea5c1fd629fa30fce5730bb3e7766031d644f5c6ceb2943ccd149888"
+  },
+  {
+    "id": "g3-22_Machine_Preacher_Curl",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "b450fa028f25680929537279efc610155ce19f63bbeaccc9b8d49ecee0cdeefa"
+  },
+  {
+    "id": "g3-23_Resistance_Band_Curl",
+    "gender": "male",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "2de4127d6bcb743aa6949f86e38f6907c9543fac3a87fcf31d3148e0d5566494"
+  },
+  {
+    "id": "g3-24_Chin_Up",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "61e84136021ab80c21ee1a671a9602a3094460c3ab2fb461aa2e850b8ce00106"
+  },
+  {
+    "id": "g3-25_Underhand_Inverted_Row",
+    "gender": "male",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "bf0a1fc1454617abcb8d338992bebe541ecd6a60c36d6691e4ab7d4758fe5fbf"
+  },
+  {
+    "id": "g4-01_Side_Plank",
+    "gender": "male",
+    "frames": 16,
+    "duration_ms": 3520,
+    "sha256": "38516bc10452cd14f663dc29a2e82d22cc092e12d1aa2ced2fe8f95106af42b0"
+  },
+  {
+    "id": "g4-02_Side_Plank_Hip_Dips",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "faf3000e3748443293c75b65d282bfd78112116458731f96856da09cbfd5ee67"
+  },
+  {
+    "id": "g4-03_Side_Plank_Rotation",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "4bec8cd00039a65ca630295f78b7f8bef9c980f96557a395da4a0ab2de70952f"
+  },
+  {
+    "id": "g4-04_Bicycle_Crunch",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "600727d3c581b922f4cb70cae0e01f0dad041b8d05cd5271719b606e3d34bd17"
+  },
+  {
+    "id": "g4-05_Heel_Touches",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "7f9a40e3a5c3b6e91d8178891a5ee4ff515abc4f28bb6e58dd12760b9ba80d3c"
+  },
+  {
+    "id": "g4-06_Cross_Body_Crunch",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "b16cbc7afd40f4c395417dc265502c8f093d99de4687abf6346051e124336f50"
+  },
+  {
+    "id": "g4-07_Cross_Body_Mountain_Climber",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "5a33d172f81d3cce44097f897661eea230b601049f4ba788f918dd6eaac15e53"
+  },
+  {
+    "id": "g4-08_Windshield_Wipers",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "2ab203984ed084f95c51c695dfd9357f647830a99559c3acb8e540ff59104218"
+  },
+  {
+    "id": "g4-09_Russian_Twist",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "7199d7ee2fb940d98a356ec8e5c567696f16a36bac183da57cf03174fbe76bad"
+  },
+  {
+    "id": "g4-10_Reverse_Crunch_With_Rotation",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "0af91463edbc35638e1c1f42e0ac7b73c0fa7f8b35c0606827f5d2d977ffc07d"
+  },
+  {
+    "id": "g4-11_Dumbbell_Side_Bend",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "1e65a8791544188d074c889fb266846a3c0bc0e918fb21f3a16c313740836fde"
+  },
+  {
+    "id": "g4-12_Weighted_Russian_Twist",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "3a338f8a4fe3be72eef362eaafe0c8c4a16d63162298562c28cd0aabe0f7b4a9"
+  },
+  {
+    "id": "g4-13_Suitcase_Carry",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "4c8c3b9a59ce3079842eb4bbd4072611ef96d9ece6a401ab48cf94fcc8019f34"
+  },
+  {
+    "id": "g4-14_Standing_Oblique_Crunch",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "5b7e9d098a5284fc7dc462cccc58670a3b2836bf16fa892501d975484bdbb73d"
+  },
+  {
+    "id": "g4-15_High_to_Low_Cable_Woodchop",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "5f67f3b1afcbd54acafdc8ca1c27432a59e99429d99c15781a228d627ab8815e"
+  },
+  {
+    "id": "g4-16_Low_to_High_Cable_Woodchop",
+    "gender": "male",
+    "frames": 12,
+    "duration_ms": 5200,
+    "sha256": "c8e3f01f102984592d584f53049fb36c5712ebe845f9a8afce63418a6dcc51c4"
+  },
+  {
+    "id": "g4-17_Horizontal_Cable_Rotation",
+    "gender": "male",
+    "frames": 6,
+    "duration_ms": 2600,
+    "sha256": "30dce9897895c98e48af7753d188149cc484a9c86f8ee4280bd66974256b9452"
+  },
+  {
+    "id": "g4-18_Pallof_Press",
+    "gender": "male",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "780abaa8762f18142e4d1086dc8b0606d6dceaf2110ee653c9e080f1af8b78d2"
+  },
+  {
+    "id": "g4-19_Landmine_Rotation",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "f77fd0bad03170def90afe400cf0da6634c53ad9c3a505c5327a90e39374fffe"
+  },
+  {
+    "id": "g4-20_Medicine_Ball_Rotational_Throw",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "3e7bdc123215451a385e4330eae7b9087eda99461f991e21a606d15d7bb67f53"
+  },
+  {
+    "id": "g4-21_Hanging_Oblique_Knee_Raise",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "c5ef67f8f75f709e8394d5e3d72c8ac0d3f3a960f7c728a4b2b835e5cb460e22"
+  },
+  {
+    "id": "g4-22_Hanging_Windshield_Wipers",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "2cbf5ea7e622fc3217b6ee4e207ecf0e29449e3e3a6651f874605edfd88d4f67"
+  },
+  {
+    "id": "g4-23_Hanging_Knee_Raise_With_Twist",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "e8c998f60a29e644997b25a8355d8140fed8ccbc8b8e7e2791cd69fbcae2d9d4"
+  },
+  {
+    "id": "g4-24_Copenhagen_Plank",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "5d64e8d3773302b5efc7db9580aece01e0904b541214eaa7eda4a4aaa59ba98a"
+  },
+  {
+    "id": "g4-25_Side_Plank_Crunch",
+    "gender": "male",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "b185bbb032be50f965e2504bb1dd2aac75421d651995a1502b7d5dbe8d5a31da"
+  },
+  {
+    "id": "guide-push-up",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "ae4f55aee8ac94118537e2df392167d1dcd08e2b2c6d785b644e5bd4b4a6d9ef"
+  },
+  {
+    "id": "guide-close-grip-push-up",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "bd181263cf2583f494a4d13fe0979a88385cff9fbd5d25b0065aee516613d71d"
+  },
+  {
+    "id": "guide-dumbbell-bench-press",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "ce985776e1f6a9e6ae7671a2e97c40e2c911a93480b9dfbced303988589adeea"
+  },
+  {
+    "id": "guide-dumbbell-chest-fly",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "1bca8d2c34a3a6852c2dc683397abb3590d4c636c3207f7fb88389c380e47680"
+  },
+  {
+    "id": "guide-overhead-dumbbell-triceps-extension",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "42a3e887a48ddba038ce272f4565aeae6cc885c48aea95a31483adbbf91dcb60"
+  },
+  {
+    "id": "guide-cable-triceps-pushdown",
+    "gender": "male",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "10e59f2d6f1dab3fc561344d12492296d806b1f82b5780f8a4473172830c1e81"
+  },
+  {
+    "id": "guide-dumbbell-triceps-kickback",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "72b728b95c2072402486fa7bdd268db05a047d6cbffdf6f079f2d60eb9e58260"
+  },
+  {
+    "id": "guide-bench-dip",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "d25aaf4d5070bc516a517db245a3caa2ff1b82a3852fac92973b816a26e3728c"
+  },
+  {
+    "id": "guide-bodyweight-squat",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "1f01a473a39455677504cb06c5f53468261379d223776015e9c11c58fa3118b6"
+  },
+  {
+    "id": "guide-barbell-back-squat",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "d6a5248eae28b8b1ab0ecf6c801d0d60203e87b8618f2305ebc216a981cc60a7"
+  },
+  {
+    "id": "guide-barbell-front-squat",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "617b6ddd18062e74325c97fa02cdfc903d744bb9e065592d5bf22be9f61e4966"
+  },
+  {
+    "id": "guide-forward-lunge",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "43d3dbaac9a54bf09c1dbf9472cb9d78737017df8ec0faf50dafeeb0d0ddbc0d"
+  },
+  {
+    "id": "guide-leg-extension",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "df8be672df19a0dbd59fb58dfa25e0dd73c6c0b6cfcc4250843dd2755fa08a91"
+  },
+  {
+    "id": "guide-prone-leg-curl",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "363b9b17839ee33fa4b39b23f3619ae41665f4d242e689862c59824d7b90a76f"
+  },
+  {
+    "id": "guide-bodyweight-hip-hinge",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "269e0d1eddd1ea7ae2222013a66b7d407e864483cf704537555f56ec487cb8ae"
+  },
+  {
+    "id": "guide-standing-calf-raise",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "301bb23efdd8dda9324b99a652bdd646bb62f9d3912d6265e926961299f3fba2"
+  },
+  {
+    "id": "guide-standing-dumbbell-calf-raise",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "a7f1e1fa9f3d1cca6a7a89268005b2deabd361cb347684c2fb066f9cb44f97d7"
+  },
+  {
+    "id": "guide-crunch",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "5eccdeee38cd869d537116b5dabd37c5e11f428cd8467436520394510e571b93"
+  },
+  {
+    "id": "guide-lying-leg-raise",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "10e5aa143d007832e895250ff8ecd2ddb83b12131b680bba1a5e7db477ef56c7"
+  },
+  {
+    "id": "guide-dead-bug",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "015acf03f3d190b19df9328b4d2e9d8980941f460b2303a3c97bc545ed95d88b"
+  },
+  {
+    "id": "guide-bird-dog",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "4feee0a7803b735c4ad7ca20903b132ae6da568aadc78622efa8356c6cf63ab9"
+  },
+  {
+    "id": "guide-seated-wrist-curl",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "9c8a5a1a4ed95202afa8003469c43e976b1de46ad192b56af5ae0522c0c64f3a"
+  },
+  {
+    "id": "guide-seated-reverse-wrist-curl",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "9846d568690b6105e4b9347ca6b5994e9d1707c4f2c07aa6a7a53cdee68df0da"
+  },
+  {
+    "id": "guide-jumping-jack",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "465f0f68c693c724c183194f56a605b1a7b35aa690976cf022bc69822d5ed656"
+  },
+  {
+    "id": "guide-mountain-climber",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "348c9e38921b13f33b252e2f115a213efa56b6b439b4328737b1684023843b8b"
+  },
+  {
+    "id": "guide-lateral-band-walk",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "306387ef0a0ea488e8aca4b1a5652002f61c77e3186156d2c800a0a69f0b8d17"
+  },
+  {
+    "id": "guide-incline-dumbbell-curl",
+    "gender": "male",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "348c7297dd2a14b8a43926eb0ea001f6a2588b7be57a101e782d4a4953ab74b2"
+  },
+  {
+    "id": "g0-01_Bodyweight_Glute_Bridge",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "ffae3c2289db02c9e384a7f45be902e050bf6dfd87363248f86410b60fbb6668"
+  },
+  {
+    "id": "g0-02_Barbell_Hip_Thrust",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "a03fef7c3dd4c3c897475cfae2e5ad651c764a4eaa6ca9881912b6cb97ca11f4"
+  },
+  {
+    "id": "g0-03_Single_Leg_Glute_Bridge",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "92231cefaed61ad2eac290eec536fcdf5e2d824f5242d8da056326ba1d86117d"
+  },
+  {
+    "id": "g0-04_Frog_Pump",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "c141e7dc0764b24649a0ce0a591f0a8d01aa75a4bf1126e647df010d3ddbd19e"
+  },
+  {
+    "id": "g0-05_Side_Lying_Clamshell",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "b08457ef575ddb38314a92fac14c7bb94305ac3e488454de4d6c69d037a1d570"
+  },
+  {
+    "id": "g0-06_Side_Lying_Hip_Abduction",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "9c9cb6bc2702d44444f494acbfb96ea80ef189c316ac385e09498ff1d2c30643"
+  },
+  {
+    "id": "g0-07_Quadruped_Donkey_Kick",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "2dc5e84dc55fe23629797031cf422a56a537de460a7dc0bec0ea654ad380088b"
+  },
+  {
+    "id": "g0-08_Quadruped_Fire_Hydrant",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "05ba89e2709775d882cdf0f179ccb358e7ca85e9c5b3413233e5f900b181e96f"
+  },
+  {
+    "id": "g0-09_Cable_Hip_Abduction",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "3fbd5b9eb8050bb670242a0937c11b7c43bfbc11112edadb573c0807ebb01f30"
+  },
+  {
+    "id": "g0-10_Cable_Glute_Kickback",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "072c4179f29fe5b68e5f6324c7a374ea6e01fafa9a1e24b54832a1508d3b1ef8"
+  },
+  {
+    "id": "g0-12_Monster_Walk",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "070bed004aae15aced7ef0137ca5b325b668b0766ec5eeecd4fc68f11716705c"
+  },
+  {
+    "id": "g0-13_Goblet_Squat",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "7d39525ceae6133213652f048f69e99b13be6384ec7951a2e26fe223a96c585b"
+  },
+  {
+    "id": "g0-14_Sumo_Dumbbell_Squat",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "c0fc874b5475323e7a5967a61e9e051763f297a8c82794b150ed78afc6261b2c"
+  },
+  {
+    "id": "g0-15_Reverse_Lunge",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "c61a1658b8d9523656e5aef1096c7d09e1f26ac9b53d5d7dd32b2c2778554483"
+  },
+  {
+    "id": "g0-16_Bulgarian_Split_Squat",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "70c7f58bfe95c45e99f54d89b844629b2e10e7325e927f1e6efcfadb1763fed5"
+  },
+  {
+    "id": "g0-17_Low_Box_Step_Up",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "1bd38f9de1d40272797b3cf4864a547fad2b45f820ea44e57be2f0f1cd8abe3c"
+  },
+  {
+    "id": "g0-18_Lateral_Lunge",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "8614a5140d8de01355e0bc39471d91d3dea2a38c28a2c07ccd05fea3a4277d3e"
+  },
+  {
+    "id": "g0-19_Curtsy_Lunge",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "77baa94899a10985d6c08ff7eaaeeac05f1a525510432372d3f3c45109781c92"
+  },
+  {
+    "id": "g0-20_Single_Leg_Dumbbell_RDL",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "7629639e475925b924bbc65518b30d1ff1b493aec76501ef772722c359227deb"
+  },
+  {
+    "id": "g0-21_Hip_Abduction_Machine",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "e37b2011f308e2b887c7917aebb91f58f5c56a7e89a21add6b5da5a765610252"
+  },
+  {
+    "id": "g0-22_Hip_Adduction_Machine",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "1c5d5f69f16946c97862d30f603d5315bf5f346e5cd6bbf3467a43da578ff551"
+  },
+  {
+    "id": "g0-23_Barbell_Romanian_Deadlift",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "95b935e07ecbbdb179c1aab8220f87459eec17567f4232c9d482bbcc3a3eba88"
+  },
+  {
+    "id": "g0-24_Kettlebell_Swing",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "c8305fbe98292fda6202022238d9a564e859aa8898061bef64ef650c51f3085d"
+  },
+  {
+    "id": "g0-25_90_90_Hip_Switch",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "1465a7ce12a90301b91a1b463f2d0b2b7c04ffebd86dafac5c293105fa072b0b"
+  },
+  {
+    "id": "g1-01_Conventional_Deadlift",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "d2a2ad058753b2cbdd2acdce39533704455dffab6d6cf402c7201dbee9b6cb47"
+  },
+  {
+    "id": "g1-02_Romanian_Deadlift",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "5429b70a06209eb583e61d831d74b30266899fbe1e7630d82bea5b503a97dae5"
+  },
+  {
+    "id": "g1-03_Barbell_Good_Morning",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "e1f4f0dc849f4c6f80a4dd45037bb84d96bef74db9fc2d9afe0e081e55f9560e"
+  },
+  {
+    "id": "g1-04_45_Degree_Back_Extension",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "1dbea1fe9c67c27b6a1aae24a2267f7a883ec072b3e51641762c299bab14bd0c"
+  },
+  {
+    "id": "g1-05_Bent_Over_Barbell_Row",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "af2a3ad82a8ff5240fb2b5eb9905063c5b216214b39f7244d4f7a1e406880fac"
+  },
+  {
+    "id": "g1-06_Pendlay_Row",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "652f44453c5435253a10e13ff5eaed49b16b9932e91b93403350d9b3e03ca967"
+  },
+  {
+    "id": "g1-07_T_Bar_Row",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "b4738231cf80c9dc0aa111fa5921a2d2ba187fd2b7d16265f4e8e4f317c25019"
+  },
+  {
+    "id": "g1-08_Single_Arm_Dumbbell_Row",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "1159771496e36af7d322067143775270bb304b7eace1138fc06c9c66c8ed6c14"
+  },
+  {
+    "id": "g1-09_Chest_Supported_Dumbbell_Row",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "533d5363ab6aa0f63ade88a6186be580668baf2681fa58c6ddf604c5b72729fb"
+  },
+  {
+    "id": "g1-10_Chest_Supported_Machine_Row",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "91ed7d94fab7b4b83c2e9d7d34f4d29350cf8c14202ca6ab1eece6da754581e1"
+  },
+  {
+    "id": "g1-11_Neutral_Grip_Seated_Cable_Row",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "9523e87a52c0817f7738c894fdf810263d4b8a4d5a025546bd3498ffb3a45787"
+  },
+  {
+    "id": "g1-12_Wide_Grip_Seated_Cable_Row",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "10acd36b8ae069be6be71aa13dc27e033bf11eda33849c25db660abbc52e7dca"
+  },
+  {
+    "id": "g1-13_Wide_Grip_Lat_Pulldown",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "38cab6f5e66104af347a9bdc26e34ceefe6bb048fe8213908da290bd7083177c"
+  },
+  {
+    "id": "g1-14_Close_Neutral_Grip_Pulldown",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "24ab631fdf0090a604478d87759897a0be31102eb66e16818de9a0f1c5fa2030"
+  },
+  {
+    "id": "g1-15_Single_Arm_Cable_Pulldown",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "4918748c6a7e13d131bf0039c499df929b77a86fd7bd48f04cce1d4c57a89677"
+  },
+  {
+    "id": "g1-16_Straight_Arm_Cable_Pulldown",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "d110dcf0885616bf59fadb5ae4a96637e105dabd6a29375484e5304b94814d4b"
+  },
+  {
+    "id": "g1-17_Overhand_Pull_Up",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "a117492d5cd8f7b606b12e9f2f3919b753b04faf17b3d15fe27e205d6b846cca"
+  },
+  {
+    "id": "g1-18_Wide_Grip_Pull_Up",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "78e4650fb2505b0f205567dd3ac51dd63d4d8c2ddd6587a7fce4e8406e71f372"
+  },
+  {
+    "id": "g1-19_Neutral_Grip_Pull_Up",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "ed974f12da6bb55ccc398c4c5c1166ba7251e38fbad546cac4dc5051b2db4cc1"
+  },
+  {
+    "id": "g1-20_Overhand_Inverted_Row",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "71f29e22123e970f1b868a24c401013b0f6a322647bfcacb7f36e8262ebfdb77"
+  },
+  {
+    "id": "g1-21_Machine_High_Row",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "4c3559d83f76ab65b2a1d5beaa420c4af7dd7d5bbb217155571650a053c56102"
+  },
+  {
+    "id": "g1-22_Dumbbell_Pullover",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "a750be7e49a9259f4082162593b84cd0d7e2e4d9770a83a8907194aef61abdbd"
+  },
+  {
+    "id": "g1-23_Barbell_Shrug",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "33b55ea17ad1aee23854d1a42c94ba3c23177f4dbdc89d8cca5ec90d91fd3fbd"
+  },
+  {
+    "id": "g1-24_Rope_Face_Pull",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "563d0675d30dc800773e9e34cbc9b328b9d5da805e4bdb78d0a13941c10e1a28"
+  },
+  {
+    "id": "g1-25_Superman",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "2b0aca88e74ef60464fcc3b49b84342ec48ad744647542e072567628ca8be506"
+  },
+  {
+    "id": "g2-01_Standing_Dumbbell_Shoulder_Press",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "ab8798c090e1c0f711570959896f8df8e09da82bea64380eb86f3124a89e9a45"
+  },
+  {
+    "id": "g2-02_Seated_Dumbbell_Shoulder_Press",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "a00013e7982373923359a98b2e2aba9f6203fde34734322f5dc2c35eefbffe13"
+  },
+  {
+    "id": "g2-03_Arnold_Press",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "e7249e6041e58a2c1fbfb1a11d2da55870990d0105879e377a06f81d7cd0f1f8"
+  },
+  {
+    "id": "g2-04_Standing_Barbell_Overhead_Press",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "8383bc28c504ec07a120096a08dbdb36bbd12bee4e1868e6de3cc4a4035f3c6c"
+  },
+  {
+    "id": "g2-05_Seated_Barbell_Shoulder_Press",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "02018d33ea27b24eb747d11bfc9ad6747d04266600d60628ad89a9a8edfb6b41"
+  },
+  {
+    "id": "g2-06_Machine_Shoulder_Press",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "0c497a6c11082267ef0d8ac8ff717a4d748ef79ef21e41beb55ed44f7e17dfba"
+  },
+  {
+    "id": "g2-07_Half_Kneeling_Landmine_Press",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "cb7889f0cc7924e7e8e3db7691e0689905effe35f2d70a47601b3d4f6d9dc24c"
+  },
+  {
+    "id": "g2-08_Two_Hand_Landmine_Press",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "e37be37fb254cbc5dced85882fc0040185a985ff9ec2b096de6b2f9196af6cc5"
+  },
+  {
+    "id": "g2-09_Dumbbell_Lateral_Raise",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "eff5086f2bc2e84c28a1000740437b2aad006aba98161a8dfb97f43206da2b77"
+  },
+  {
+    "id": "g2-10_Cable_Lateral_Raise",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "6dd2faedbd64cab27a03dae85a8d1cc08279aa60bbe7b82c04c739e725f7259d"
+  },
+  {
+    "id": "g2-11_Leaning_Lateral_Raise",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "53ba70bc423a6b0011c57b497bd58aa2275b9fe6112f0d2b68fcba75cd40dafc"
+  },
+  {
+    "id": "g2-12_Dumbbell_Front_Raise",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "611706b11dd11c786b30ced774fb0f852eae43ad1641815fc3bc5c64257523e6"
+  },
+  {
+    "id": "g2-13_Plate_Front_Raise",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "1106dff6bc58620200aa47ab825227f495ff5fbc54683c9058fac8e9315d2e77"
+  },
+  {
+    "id": "g2-14_Cable_Front_Raise",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "59bfd7505528954eb8bd312c1e0b4e48eb1f5991e4473622d8a65da4dff4e34e"
+  },
+  {
+    "id": "g2-15_Bent_Over_Rear_Delt_Fly",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "80526a8a4fa5ff2f9f419a3277258ba4586a8c91e484b5c0f171fdaa31e9a0f4"
+  },
+  {
+    "id": "g2-16_Chest_Supported_Rear_Delt_Fly",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "a4805c3c14853534051bc2362d18abaab28f6eb8903514b74e5af60e5e0ae330"
+  },
+  {
+    "id": "g2-17_Reverse_Pec_Deck",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "ace96c0a1b79b775fbc930d7cc4e24feff8d35cb585bae4565851d6359defcf0"
+  },
+  {
+    "id": "g2-19_Wide_Grip_Upright_Row",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "2e50480d0883f2e4627684bd7b172fbd1a55fa1c5f139adcb2f99cdd689a7bfb"
+  },
+  {
+    "id": "g2-20_Dumbbell_Scaption_Raise",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "2bcd151aff0704d82b3b9cd71e5756f46d261f258795b50261aea12038600366"
+  },
+  {
+    "id": "g2-21_Cuban_Rotation_to_Press",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "a4f3ce710c97769904c8f39a09157af75fc3d16004e7c701d2d7ced438a817fb"
+  },
+  {
+    "id": "g2-22_Incline_Bench_Y_Raise",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "ccc6ec9bff17f008149ee227439d979a935a3650f560bc016501f43364d587e8"
+  },
+  {
+    "id": "g2-23_Resistance_Band_Pull_Apart",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "140b0cd8abafd9722d91c26f1676b4c0ae57634b9bacaac95c0b67626cf075db"
+  },
+  {
+    "id": "g2-24_Cable_External_Rotation",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "184862d39d3dc57821f250a4d9901cfba5bb9e7dec5abdc8b1d2c5534389ce83"
+  },
+  {
+    "id": "g2-25_Pike_Push_Up",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "cd278daec11627f4f35b284f7d6433d37c0a9e26b227b2143353985f2b62e582"
+  },
+  {
+    "id": "g3-01_Standing_Dumbbell_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "64c987859d8e7c74c7d41227b01e1787b05411766b634e8d24f0bf4d70e565a0"
+  },
+  {
+    "id": "g3-02_Alternating_Dumbbell_Curl",
+    "gender": "female",
+    "frames": 16,
+    "duration_ms": 5200,
+    "sha256": "22b46b67dff96f12a16a90b191a70193aeab6c3119cce55a7c03b52f6f0606fc"
+  },
+  {
+    "id": "g3-03_Hammer_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "84f1d1371d29479877bf779a8d0e166684d572c0e7a48b36884eb7af23fa2a0f"
+  },
+  {
+    "id": "g3-04_Cross_Body_Hammer_Curl",
+    "gender": "female",
+    "frames": 16,
+    "duration_ms": 5200,
+    "sha256": "576bd04e4e1f4e0ae7c7dd9c09ecfcef63c6f5f5af0f7e6f4ac30f9756857eb2"
+  },
+  {
+    "id": "g3-06_Concentration_Curl",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "d2d9057fc88ba1542b29aa12bcda66cdca9f63ffe0c89d0af641d4163477d27a"
+  },
+  {
+    "id": "g3-07_Dumbbell_Preacher_Curl",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "2e5224d5b75c888619eadb06f77be24de5adfc65ac6162fd8972e3680593b444"
+  },
+  {
+    "id": "g3-08_Spider_Curl",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "66318160eaa8685b029a057139d5af0365f55e459a7f682f484b34c953e2a05e"
+  },
+  {
+    "id": "g3-09_Straight_Barbell_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "cacfdc6319ddee49bb78dc24f7ae7255a48c6f9fa95d2d77f86c0dc9c4b4598b"
+  },
+  {
+    "id": "g3-10_EZ_Bar_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "e93d037f76b058a9c27cda214ec4434e6e5ea5bac39186fd54a097f414cfbfe8"
+  },
+  {
+    "id": "g3-11_Preacher_EZ_Bar_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "3419d7e0498aede7876c57cb0a83dec69a1c65cbc570edee0bb2433e27b30fbd"
+  },
+  {
+    "id": "g3-12_Reverse_Barbell_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "3cf932efa6e3f7d299faa916b3499e844e7e805d15e5d67d4d6cd71cfb1e4377"
+  },
+  {
+    "id": "g3-13_Drag_Curl",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "1a4823cf34c1883963b6507435d99aa826dcbf2959131a3e29540e9316fd7df9"
+  },
+  {
+    "id": "g3-14_Zottman_Curl",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "c983a2a8a552df9e78d10b962733b3e37667a641497d5563ae592db640052668"
+  },
+  {
+    "id": "g3-15_Seated_Dumbbell_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "6a6e330fb6ebe43aeee2d47bc5fca9d342d8e0a49d87c128b1e772a5955e1e73"
+  },
+  {
+    "id": "g3-16_Seated_Hammer_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "1073ef0b38bba245a2e43930e9741cdc18f80b65442e2edfb50adc151589afd1"
+  },
+  {
+    "id": "g3-17_Standing_Cable_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "a3f722556256e934b77207ca79d5d2aa393c312b25c7373351da30ca7421d0ea"
+  },
+  {
+    "id": "g3-18_Single_Arm_Cable_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "70b4b05ff50af6a0fe67894132246ac9b0a2af6fca6737f1e597c94ee24f3d73"
+  },
+  {
+    "id": "g3-19_Rope_Hammer_Cable_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "5103955f07b387dedbab1546f1123d3df09ee09159dd53aa3c0450e535d6feaf"
+  },
+  {
+    "id": "g3-20_Bayesian_Cable_Curl",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "f57071bbdfae14b80978c46c67eea73f30201716bd6766790eeab3ea44db40c1"
+  },
+  {
+    "id": "g3-21_Overhead_Cable_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "e019d34a75a79563c208a4dff155850b66c26f669efbe3e70b2bed95bdc945ac"
+  },
+  {
+    "id": "g3-22_Machine_Preacher_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "5a949f0c41a26ac092a36b853fb2fa329356953c04aec30971574c638d41f274"
+  },
+  {
+    "id": "g3-23_Resistance_Band_Curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "6ae6bf9bd8a2949a4117219449b40cbc681d3b292fd8247a9927dd46a1cf9f62"
+  },
+  {
+    "id": "g3-24_Chin_Up",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "4aa5fc2a77fced040f2df02ab5f5eb71ae47586913c55bf72e673d46da69b144"
+  },
+  {
+    "id": "g3-25_Underhand_Inverted_Row",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "0272fdc3e636007c5dbc153f6434f7ecfd925447916bce71fd1dc1404100ea68"
+  },
+  {
+    "id": "g4-01_Side_Plank",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "36844d4fba087a2e92bbe6b85a9cd5be672f625ee7af4d77403d82c7830b1933"
+  },
+  {
+    "id": "g4-02_Side_Plank_Hip_Dips",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "a2ee98c87dc3ba390bfb5c3ed7f13e3a43f4fb057e80ec86ca124496f087dcbe"
+  },
+  {
+    "id": "g4-03_Side_Plank_Rotation",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "c90d24cda3ea4098ba64f6dcc5c36798ee54566973b20092b75ac7988d9df45b"
+  },
+  {
+    "id": "g4-04_Bicycle_Crunch",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "f3b38ddb1189d1db769efc187b3dc1c0187626eae9ee1ba2f6e22c9e917cbaef"
+  },
+  {
+    "id": "g4-05_Heel_Touches",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "d928669f62d91bfe22d5a0520620fefb42807b3fb0639fc76019490eab5a9d6d"
+  },
+  {
+    "id": "g4-06_Cross_Body_Crunch",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "efae7f5c5c848a6d7a80f28c39325e1cadf9622d7250a354f465ba02be9a7936"
+  },
+  {
+    "id": "g4-07_Cross_Body_Mountain_Climber",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "7f13aee61083fa06cc20b586b32d9a2022e201c17b3ca309d3dfed0c54751591"
+  },
+  {
+    "id": "g4-08_Windshield_Wipers",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "a97739eed01ed7a505dd77277cd50b873fb7eb380707718abf2442290b5ca977"
+  },
+  {
+    "id": "g4-09_Russian_Twist",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "a0614cc59715567b9547796c4e2d2353cd086867059d3b140b879d50ad26da9f"
+  },
+  {
+    "id": "g4-10_Reverse_Crunch_With_Rotation",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "e3cd72c712445656b9d8360461036e6e6b40cf84de32867bd55176a8b4485b70"
+  },
+  {
+    "id": "g4-11_Dumbbell_Side_Bend",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "a2272677cc0831f82e6ccf7a1990c998c4d458919a15b8870d05e7ecb397a0cf"
+  },
+  {
+    "id": "g4-12_Weighted_Russian_Twist",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "1369457c6c7d62f623168f370d3614c139fde4d13181ca50ab55d63750d27b6a"
+  },
+  {
+    "id": "g4-13_Suitcase_Carry",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "0373bf784c6600b16bac73e66d5b9f45a9d099d444f538e71c697b0970bb5114"
+  },
+  {
+    "id": "g4-14_Standing_Oblique_Crunch",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "3bb8232653dbe9997d78a6c4278a2c591b2f58d164bec6c240b2f430462abe9d"
+  },
+  {
+    "id": "g4-15_High_to_Low_Cable_Woodchop",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "4ed13f971925aa3f2e47256c273cccdf9bc2846beb5ff693b152e4c87b6ee6f6"
+  },
+  {
+    "id": "g4-16_Low_to_High_Cable_Woodchop",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "441cad0c7cbe93f349ee84c2da033e0cd247480832234d09e677715b24812c9f"
+  },
+  {
+    "id": "g4-17_Horizontal_Cable_Rotation",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "af1b8d7c37e688f568494aeb69071214ef0a7be98421fe3f9a20ae2c8079283f"
+  },
+  {
+    "id": "g4-18_Pallof_Press",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "ba6b49d342a313b337a1c5a696a05073dc234bcdbf6bf40c37b0240eeda4d220"
+  },
+  {
+    "id": "g4-19_Landmine_Rotation",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "337f300ef8182ae13fb34011e82d65fd3e7744b652755dc11c95022bd7dff347"
+  },
+  {
+    "id": "g4-20_Medicine_Ball_Rotational_Throw",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "3c0c365f5c58c3de9fa6f331a22697f8ead2a3497c068c8120623a2a351f5dc5"
+  },
+  {
+    "id": "g4-21_Hanging_Oblique_Knee_Raise",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "24ff18d3cacd56628b510d12ce21af723dc5516f0d46e1943801dabc3023bf9b"
+  },
+  {
+    "id": "g4-22_Hanging_Windshield_Wipers",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "063fd701226ea0f93b6f28bb282a6ffdb0b7ed216884ba05b41784ea29548ed6"
+  },
+  {
+    "id": "g4-23_Hanging_Knee_Raise_With_Twist",
+    "gender": "female",
+    "frames": 24,
+    "duration_ms": 5200,
+    "sha256": "f25ec0573ba7ead3f0781160d87f07da6c6a8ca93b847a34d2549c111466cc12"
+  },
+  {
+    "id": "g4-24_Copenhagen_Plank",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "97bc10c3973573f1bf0dce56531e54e3d307cc968b67179a56ad24fdc1354655"
+  },
+  {
+    "id": "g4-25_Side_Plank_Crunch",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "042fd60e5e5954ea78c5de98101aaf74e27208ba9b22a2ef0feda2eb2880750a"
+  },
+  {
+    "id": "guide-push-up",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "9a9e95c2cb888a71ad0609bdb20375faf3c571a8f319db88ae1317119ce00923"
+  },
+  {
+    "id": "guide-close-grip-push-up",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "44b332e094e1c23afb607849a52059e44d72b5167d2654ceb2bc19ab994add0d"
+  },
+  {
+    "id": "guide-dumbbell-bench-press",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "8afad7eaa274405734721b6f8149628cc0860c9aa1050058e7249075769aa64a"
+  },
+  {
+    "id": "guide-dumbbell-chest-fly",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "fc4d97a9ee6ac8bfd69ae739feecad4d47696de290fec2ccda6814f274a15ece"
+  },
+  {
+    "id": "guide-overhead-dumbbell-triceps-extension",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "23ffaeba5bddec571bac5c734a1d560c204bad1a3a0256b4f4733d4fe2ac07df"
+  },
+  {
+    "id": "guide-cable-triceps-pushdown",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "225e208dff9775ece5b3bc9a7e525e613733d61abada34d3042f74430f2b44b6"
+  },
+  {
+    "id": "guide-dumbbell-triceps-kickback",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "c74b69b88a70f3b2b9b9013103cf56b519fd9a990df1d7d542bd317211677a35"
+  },
+  {
+    "id": "guide-bench-dip",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "10e50af7d4dc2cf0d00492e5d8f26945235e0da3a20c38618a1a979d53c76ed2"
+  },
+  {
+    "id": "guide-bodyweight-squat",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "ccfbcc6bf9e763a626150ee5ada3abc59d66ec935bbc5f2b9e0fe6f56ef2b5a7"
+  },
+  {
+    "id": "guide-barbell-back-squat",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "a51efaeed0ce167b32155016f692aa0d29c4207569ecaa1f340a8ba06291d48d"
+  },
+  {
+    "id": "guide-barbell-front-squat",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "d8e85f3d25f4cf81be02a8dff6117c96a9829e202446f40944ba7d4e6f580ed5"
+  },
+  {
+    "id": "guide-forward-lunge",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "04b1399d456e1a3e41210ae7b7e231ba7aefe7a0b744f5dc621eb3acfd7cbe60"
+  },
+  {
+    "id": "guide-leg-extension",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "b6b821dd7661642ab4267be6bd37e7252c35d13f69a1e5edc03e1f58da0bbf2a"
+  },
+  {
+    "id": "guide-prone-leg-curl",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "8f288beb7ce0425a9f34000173f16c6892a75339b0d51c9c815e80dcaf7779d6"
+  },
+  {
+    "id": "guide-bodyweight-hip-hinge",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "460642dacaaa2786d0b9de11e1c881b860bc991d270c6cd065a69f3131715d20"
+  },
+  {
+    "id": "guide-standing-calf-raise",
+    "gender": "female",
+    "frames": 26,
+    "duration_ms": 5200,
+    "sha256": "e42bcf82e4d51313247de2061552be6b80be31aaef0095bd117b4991b07b9c04"
+  },
+  {
+    "id": "guide-standing-dumbbell-calf-raise",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "83d7083b1de8673f311d68c57d455bc323802008383d46e0edbb5fcd242f669d"
+  },
+  {
+    "id": "guide-crunch",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "667fb6e9884459e3731274e5666b02d6ab997192afed8bd5d555829581df59dc"
+  },
+  {
+    "id": "guide-lying-leg-raise",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "a7277ec6e1ea3e5ac4593c7db0cd4371f344a37c14e4b29e99c4107586faad49"
+  },
+  {
+    "id": "guide-dead-bug",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "5b996c6808d7a4411b181f22ac282fac67b267f35a644330265d6c7f7a4cdbb6"
+  },
+  {
+    "id": "guide-bird-dog",
+    "gender": "female",
+    "frames": 20,
+    "duration_ms": 5200,
+    "sha256": "414312d127f820751a1f08b76344158e5ec1dcfe7c6536d62682efb0f9cf74fc"
+  },
+  {
+    "id": "guide-seated-wrist-curl",
+    "gender": "female",
+    "frames": 14,
+    "duration_ms": 5200,
+    "sha256": "a8debe2d776bf91a67acd7553164207275e4e4c44ef70d1d09560d1071ed3c4e"
+  },
+  {
+    "id": "guide-seated-reverse-wrist-curl",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "61ab4d3f718e5c431d2faeee9955a03b03a215cfae6cba32e69762f8958cfde7"
+  },
+  {
+    "id": "guide-jumping-jack",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "98206f0c575827a7d327e6c8d645363619407cf038a10df987d2569dec0ed6d1"
+  },
+  {
+    "id": "guide-mountain-climber",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "3ed1485598280ab182448c9bec471cff357bf49a07e034bc9c46008006ad74b0"
+  },
+  {
+    "id": "guide-lateral-band-walk",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "5f98018d372c163c52c37b931520c256f9a5607bcc2bc6b9a52a2ee59937a14f"
+  },
+  {
+    "id": "guide-incline-dumbbell-curl",
+    "gender": "female",
+    "frames": 32,
+    "duration_ms": 5200,
+    "sha256": "f820526b3494cbd5c573c26617e48ca0d712f8d0340bcd8771309f1f17173f11"
+  }
+]

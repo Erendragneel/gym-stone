@@ -16,16 +16,7 @@ male = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(male)
 
 def sprite_cells(path):
-    sheet = Image.open(path).convert('RGB')
-    w,h = sheet.size
-    assert w%3==0 and h%2==0, (path,sheet.size)
-    frames=[sheet.crop((i%3*w//3+4,i//3*h//2+4,(i%3+1)*w//3-4,(i//3+1)*h//2-4)).resize((512,512),Image.Resampling.LANCZOS) for i in range(6)]
-    anchors=[]
-    for f in frames:
-        ys=np.where(np.max(np.asarray(f),axis=2)<105)[0]
-        anchors.append(int(np.quantile(ys,.999)) if len(ys) else 480)
-    target=max(anchors)
-    return [Image.fromarray(np.asarray(f)[np.clip(np.arange(512)-max(-35,min(35,target-y)),0,511)]) for f,y in zip(frames,anchors)]
+    return male.cells(path)
 
 def make_loop(frames, cycle=False, pause_indices=None):
     if cycle:

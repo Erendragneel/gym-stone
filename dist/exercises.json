@@ -8,7 +8,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-01_Bodyweight_Glute_Bridge.webp",
-        "gif": "assets/g0-01_Bodyweight_Glute_Bridge.gif"
+        "gif": "assets/g0-01_Bodyweight_Glute_Bridge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-01_Bodyweight_Glute_Bridge.webp",
@@ -17,7 +24,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -31,7 +39,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-02_Barbell_Hip_Thrust.webp",
-        "gif": "assets/g0-02_Barbell_Hip_Thrust.gif"
+        "gif": "assets/g0-02_Barbell_Hip_Thrust.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-02_Barbell_Hip_Thrust.webp",
@@ -40,7 +55,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -54,7 +70,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-03_Single_Leg_Glute_Bridge.webp",
-        "gif": "assets/g0-03_Single_Leg_Glute_Bridge.gif"
+        "gif": "assets/g0-03_Single_Leg_Glute_Bridge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-03_Single_Leg_Glute_Bridge.webp",
@@ -63,7 +86,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -77,7 +101,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-04_Frog_Pump.webp",
-        "gif": "assets/g0-04_Frog_Pump.gif"
+        "gif": "assets/g0-04_Frog_Pump.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-04_Frog_Pump.webp",
@@ -86,7 +117,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -100,7 +132,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-05_Side_Lying_Clamshell.webp",
-        "gif": "assets/g0-05_Side_Lying_Clamshell.gif"
+        "gif": "assets/g0-05_Side_Lying_Clamshell.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-05_Side_Lying_Clamshell.webp",
@@ -109,7 +148,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -123,7 +163,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-06_Side_Lying_Hip_Abduction.webp",
-        "gif": "assets/g0-06_Side_Lying_Hip_Abduction.gif"
+        "gif": "assets/g0-06_Side_Lying_Hip_Abduction.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-06_Side_Lying_Hip_Abduction.webp",
@@ -132,7 +179,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -146,7 +194,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-07_Quadruped_Donkey_Kick.webp",
-        "gif": "assets/g0-07_Quadruped_Donkey_Kick.gif"
+        "gif": "assets/g0-07_Quadruped_Donkey_Kick.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-07_Quadruped_Donkey_Kick.webp",
@@ -155,7 +210,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -169,7 +225,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-08_Quadruped_Fire_Hydrant.webp",
-        "gif": "assets/g0-08_Quadruped_Fire_Hydrant.gif"
+        "gif": "assets/g0-08_Quadruped_Fire_Hydrant.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-08_Quadruped_Fire_Hydrant.webp",
@@ -178,7 +241,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -192,7 +256,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-09_Cable_Hip_Abduction.webp",
-        "gif": "assets/g0-09_Cable_Hip_Abduction.gif"
+        "gif": "assets/g0-09_Cable_Hip_Abduction.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-09_Cable_Hip_Abduction.webp",
@@ -201,7 +272,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -224,7 +296,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -238,7 +311,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-12_Monster_Walk.webp",
-        "gif": "assets/g0-12_Monster_Walk.gif"
+        "gif": "assets/g0-12_Monster_Walk.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-12_Monster_Walk.webp",
@@ -247,7 +327,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -274,7 +355,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -297,7 +379,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -320,7 +403,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -343,7 +427,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -366,7 +451,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -380,7 +466,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-18_Lateral_Lunge.webp",
-        "gif": "assets/g0-18_Lateral_Lunge.gif"
+        "gif": "assets/g0-18_Lateral_Lunge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-18_Lateral_Lunge.webp",
@@ -389,7 +482,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -403,7 +497,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-19_Curtsy_Lunge.webp",
-        "gif": "assets/g0-19_Curtsy_Lunge.gif"
+        "gif": "assets/g0-19_Curtsy_Lunge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-19_Curtsy_Lunge.webp",
@@ -412,7 +513,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -426,7 +528,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-20_Single_Leg_Dumbbell_RDL.webp",
-        "gif": "assets/g0-20_Single_Leg_Dumbbell_RDL.gif"
+        "gif": "assets/g0-20_Single_Leg_Dumbbell_RDL.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-20_Single_Leg_Dumbbell_RDL.webp",
@@ -435,7 +544,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -449,7 +559,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-21_Hip_Abduction_Machine.webp",
-        "gif": "assets/g0-21_Hip_Abduction_Machine.gif"
+        "gif": "assets/g0-21_Hip_Abduction_Machine.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-21_Hip_Abduction_Machine.webp",
@@ -458,7 +575,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -472,7 +590,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-22_Hip_Adduction_Machine.webp",
-        "gif": "assets/g0-22_Hip_Adduction_Machine.gif"
+        "gif": "assets/g0-22_Hip_Adduction_Machine.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-22_Hip_Adduction_Machine.webp",
@@ -481,7 +606,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -495,7 +621,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-23_Barbell_Romanian_Deadlift.webp",
-        "gif": "assets/g0-23_Barbell_Romanian_Deadlift.gif"
+        "gif": "assets/g0-23_Barbell_Romanian_Deadlift.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-23_Barbell_Romanian_Deadlift.webp",
@@ -504,7 +637,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -518,7 +652,14 @@
     "variants": {
       "male": {
         "image": "assets/g0-24_Kettlebell_Swing.webp",
-        "gif": "assets/g0-24_Kettlebell_Swing.gif"
+        "gif": "assets/g0-24_Kettlebell_Swing.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g0-24_Kettlebell_Swing.webp",
@@ -527,7 +668,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -550,7 +692,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -573,7 +716,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -587,7 +731,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-02_Romanian_Deadlift.webp",
-        "gif": "assets/g1-02_Romanian_Deadlift.gif"
+        "gif": "assets/g1-02_Romanian_Deadlift.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-02_Romanian_Deadlift.webp",
@@ -596,7 +747,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -610,7 +762,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-03_Barbell_Good_Morning.webp",
-        "gif": "assets/g1-03_Barbell_Good_Morning.gif"
+        "gif": "assets/g1-03_Barbell_Good_Morning.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-03_Barbell_Good_Morning.webp",
@@ -619,7 +778,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -633,7 +793,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-04_45_Degree_Back_Extension.webp",
-        "gif": "assets/g1-04_45_Degree_Back_Extension.gif"
+        "gif": "assets/g1-04_45_Degree_Back_Extension.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-04_45_Degree_Back_Extension.webp",
@@ -642,7 +809,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -665,7 +833,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -688,7 +857,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -711,7 +881,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -734,7 +905,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -748,7 +920,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-09_Chest_Supported_Dumbbell_Row.webp",
-        "gif": "assets/g1-09_Chest_Supported_Dumbbell_Row.gif"
+        "gif": "assets/g1-09_Chest_Supported_Dumbbell_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-09_Chest_Supported_Dumbbell_Row.webp",
@@ -757,7 +936,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -771,7 +951,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-10_Chest_Supported_Machine_Row.webp",
-        "gif": "assets/g1-10_Chest_Supported_Machine_Row.gif"
+        "gif": "assets/g1-10_Chest_Supported_Machine_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-10_Chest_Supported_Machine_Row.webp",
@@ -780,7 +967,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -794,7 +982,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-11_Neutral_Grip_Seated_Cable_Row.webp",
-        "gif": "assets/g1-11_Neutral_Grip_Seated_Cable_Row.gif"
+        "gif": "assets/g1-11_Neutral_Grip_Seated_Cable_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-11_Neutral_Grip_Seated_Cable_Row.webp",
@@ -803,7 +998,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -817,7 +1013,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-12_Wide_Grip_Seated_Cable_Row.webp",
-        "gif": "assets/g1-12_Wide_Grip_Seated_Cable_Row.gif"
+        "gif": "assets/g1-12_Wide_Grip_Seated_Cable_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-12_Wide_Grip_Seated_Cable_Row.webp",
@@ -826,7 +1029,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -840,7 +1044,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-13_Wide_Grip_Lat_Pulldown.webp",
-        "gif": "assets/g1-13_Wide_Grip_Lat_Pulldown.gif"
+        "gif": "assets/g1-13_Wide_Grip_Lat_Pulldown.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 5,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-13_Wide_Grip_Lat_Pulldown.webp",
@@ -849,7 +1060,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -863,7 +1075,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-14_Close_Neutral_Grip_Pulldown.webp",
-        "gif": "assets/g1-14_Close_Neutral_Grip_Pulldown.gif"
+        "gif": "assets/g1-14_Close_Neutral_Grip_Pulldown.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-14_Close_Neutral_Grip_Pulldown.webp",
@@ -872,7 +1091,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -886,7 +1106,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-15_Single_Arm_Cable_Pulldown.webp",
-        "gif": "assets/g1-15_Single_Arm_Cable_Pulldown.gif"
+        "gif": "assets/g1-15_Single_Arm_Cable_Pulldown.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-15_Single_Arm_Cable_Pulldown.webp",
@@ -895,7 +1122,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -918,7 +1146,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -932,7 +1161,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-17_Overhand_Pull_Up.webp",
-        "gif": "assets/g1-17_Overhand_Pull_Up.gif"
+        "gif": "assets/g1-17_Overhand_Pull_Up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-17_Overhand_Pull_Up.webp",
@@ -941,7 +1177,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -964,7 +1201,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -987,7 +1225,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1010,7 +1249,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1024,7 +1264,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-21_Machine_High_Row.webp",
-        "gif": "assets/g1-21_Machine_High_Row.gif"
+        "gif": "assets/g1-21_Machine_High_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-21_Machine_High_Row.webp",
@@ -1033,7 +1280,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1047,7 +1295,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-22_Dumbbell_Pullover.webp",
-        "gif": "assets/g1-22_Dumbbell_Pullover.gif"
+        "gif": "assets/g1-22_Dumbbell_Pullover.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 4,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-22_Dumbbell_Pullover.webp",
@@ -1056,7 +1311,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1070,7 +1326,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-23_Barbell_Shrug.webp",
-        "gif": "assets/g1-23_Barbell_Shrug.gif"
+        "gif": "assets/g1-23_Barbell_Shrug.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-23_Barbell_Shrug.webp",
@@ -1079,7 +1342,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1097,7 +1361,14 @@
     "variants": {
       "male": {
         "image": "assets/g1-24_Rope_Face_Pull.webp",
-        "gif": "assets/g1-24_Rope_Face_Pull.gif"
+        "gif": "assets/g1-24_Rope_Face_Pull.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g1-24_Rope_Face_Pull.webp",
@@ -1106,7 +1377,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1129,7 +1401,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1152,7 +1425,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1166,7 +1440,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-02_Seated_Dumbbell_Shoulder_Press.webp",
-        "gif": "assets/g2-02_Seated_Dumbbell_Shoulder_Press.gif"
+        "gif": "assets/g2-02_Seated_Dumbbell_Shoulder_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-02_Seated_Dumbbell_Shoulder_Press.webp",
@@ -1175,7 +1456,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1189,7 +1471,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-03_Arnold_Press.webp",
-        "gif": "assets/g2-03_Arnold_Press.gif"
+        "gif": "assets/g2-03_Arnold_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-03_Arnold_Press.webp",
@@ -1198,7 +1487,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1212,7 +1502,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-04_Standing_Barbell_Overhead_Press.webp",
-        "gif": "assets/g2-04_Standing_Barbell_Overhead_Press.gif"
+        "gif": "assets/g2-04_Standing_Barbell_Overhead_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-04_Standing_Barbell_Overhead_Press.webp",
@@ -1221,7 +1518,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1244,7 +1542,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1267,7 +1566,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1281,7 +1581,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-07_Half_Kneeling_Landmine_Press.webp",
-        "gif": "assets/g2-07_Half_Kneeling_Landmine_Press.gif"
+        "gif": "assets/g2-07_Half_Kneeling_Landmine_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-07_Half_Kneeling_Landmine_Press.webp",
@@ -1290,7 +1597,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1304,7 +1612,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-08_Two_Hand_Landmine_Press.webp",
-        "gif": "assets/g2-08_Two_Hand_Landmine_Press.gif"
+        "gif": "assets/g2-08_Two_Hand_Landmine_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-08_Two_Hand_Landmine_Press.webp",
@@ -1313,7 +1628,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1336,7 +1652,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1350,7 +1667,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-10_Cable_Lateral_Raise.webp",
-        "gif": "assets/g2-10_Cable_Lateral_Raise.gif"
+        "gif": "assets/g2-10_Cable_Lateral_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-10_Cable_Lateral_Raise.webp",
@@ -1359,7 +1683,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1373,7 +1698,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-11_Leaning_Lateral_Raise.webp",
-        "gif": "assets/g2-11_Leaning_Lateral_Raise.gif"
+        "gif": "assets/g2-11_Leaning_Lateral_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-11_Leaning_Lateral_Raise.webp",
@@ -1382,7 +1714,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1396,7 +1729,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-12_Dumbbell_Front_Raise.webp",
-        "gif": "assets/g2-12_Dumbbell_Front_Raise.gif"
+        "gif": "assets/g2-12_Dumbbell_Front_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-12_Dumbbell_Front_Raise.webp",
@@ -1405,7 +1745,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1428,7 +1769,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1451,7 +1793,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1465,7 +1808,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-15_Bent_Over_Rear_Delt_Fly.webp",
-        "gif": "assets/g2-15_Bent_Over_Rear_Delt_Fly.gif"
+        "gif": "assets/g2-15_Bent_Over_Rear_Delt_Fly.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-15_Bent_Over_Rear_Delt_Fly.webp",
@@ -1474,7 +1824,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1488,7 +1839,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-16_Chest_Supported_Rear_Delt_Fly.webp",
-        "gif": "assets/g2-16_Chest_Supported_Rear_Delt_Fly.gif"
+        "gif": "assets/g2-16_Chest_Supported_Rear_Delt_Fly.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-16_Chest_Supported_Rear_Delt_Fly.webp",
@@ -1497,7 +1855,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1511,7 +1870,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-17_Reverse_Pec_Deck.webp",
-        "gif": "assets/g2-17_Reverse_Pec_Deck.gif"
+        "gif": "assets/g2-17_Reverse_Pec_Deck.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-17_Reverse_Pec_Deck.webp",
@@ -1520,7 +1886,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1543,7 +1910,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1566,7 +1934,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1589,7 +1958,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1612,7 +1982,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1635,7 +2006,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1649,7 +2021,14 @@
     "variants": {
       "male": {
         "image": "assets/g2-24_Cable_External_Rotation.webp",
-        "gif": "assets/g2-24_Cable_External_Rotation.gif"
+        "gif": "assets/g2-24_Cable_External_Rotation.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g2-24_Cable_External_Rotation.webp",
@@ -1658,7 +2037,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1681,7 +2061,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1704,7 +2085,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1727,7 +2109,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1750,7 +2133,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1773,7 +2157,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1787,7 +2172,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-06_Concentration_Curl.webp",
-        "gif": "assets/g3-06_Concentration_Curl.gif"
+        "gif": "assets/g3-06_Concentration_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-06_Concentration_Curl.webp",
@@ -1796,7 +2188,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1810,7 +2203,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-07_Dumbbell_Preacher_Curl.webp",
-        "gif": "assets/g3-07_Dumbbell_Preacher_Curl.gif"
+        "gif": "assets/g3-07_Dumbbell_Preacher_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-07_Dumbbell_Preacher_Curl.webp",
@@ -1819,7 +2219,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1833,7 +2234,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-08_Spider_Curl.webp",
-        "gif": "assets/g3-08_Spider_Curl.gif"
+        "gif": "assets/g3-08_Spider_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-08_Spider_Curl.webp",
@@ -1842,7 +2250,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1865,7 +2274,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1888,7 +2298,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1902,7 +2313,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-11_Preacher_EZ_Bar_Curl.webp",
-        "gif": "assets/g3-11_Preacher_EZ_Bar_Curl.gif"
+        "gif": "assets/g3-11_Preacher_EZ_Bar_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-11_Preacher_EZ_Bar_Curl.webp",
@@ -1911,7 +2329,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1925,7 +2344,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-12_Reverse_Barbell_Curl.webp",
-        "gif": "assets/g3-12_Reverse_Barbell_Curl.gif"
+        "gif": "assets/g3-12_Reverse_Barbell_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-12_Reverse_Barbell_Curl.webp",
@@ -1934,7 +2360,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1957,7 +2384,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -1980,7 +2408,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2003,7 +2432,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2026,7 +2456,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2040,7 +2471,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-17_Standing_Cable_Curl.webp",
-        "gif": "assets/g3-17_Standing_Cable_Curl.gif"
+        "gif": "assets/g3-17_Standing_Cable_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-17_Standing_Cable_Curl.webp",
@@ -2049,7 +2487,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2063,7 +2502,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-18_Single_Arm_Cable_Curl.webp",
-        "gif": "assets/g3-18_Single_Arm_Cable_Curl.gif"
+        "gif": "assets/g3-18_Single_Arm_Cable_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-18_Single_Arm_Cable_Curl.webp",
@@ -2072,7 +2518,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2086,7 +2533,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-19_Rope_Hammer_Cable_Curl.webp",
-        "gif": "assets/g3-19_Rope_Hammer_Cable_Curl.gif"
+        "gif": "assets/g3-19_Rope_Hammer_Cable_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-19_Rope_Hammer_Cable_Curl.webp",
@@ -2095,7 +2549,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2109,7 +2564,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-20_Bayesian_Cable_Curl.webp",
-        "gif": "assets/g3-20_Bayesian_Cable_Curl.gif"
+        "gif": "assets/g3-20_Bayesian_Cable_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-20_Bayesian_Cable_Curl.webp",
@@ -2118,7 +2580,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2132,7 +2595,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-21_Overhead_Cable_Curl.webp",
-        "gif": "assets/g3-21_Overhead_Cable_Curl.gif"
+        "gif": "assets/g3-21_Overhead_Cable_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-21_Overhead_Cable_Curl.webp",
@@ -2141,7 +2611,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2155,7 +2626,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-22_Machine_Preacher_Curl.webp",
-        "gif": "assets/g3-22_Machine_Preacher_Curl.gif"
+        "gif": "assets/g3-22_Machine_Preacher_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-22_Machine_Preacher_Curl.webp",
@@ -2164,7 +2642,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2178,7 +2657,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-23_Resistance_Band_Curl.webp",
-        "gif": "assets/g3-23_Resistance_Band_Curl.gif"
+        "gif": "assets/g3-23_Resistance_Band_Curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-23_Resistance_Band_Curl.webp",
@@ -2187,7 +2673,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2201,7 +2688,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-24_Chin_Up.webp",
-        "gif": "assets/g3-24_Chin_Up.gif"
+        "gif": "assets/g3-24_Chin_Up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-24_Chin_Up.webp",
@@ -2210,7 +2704,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2224,7 +2719,14 @@
     "variants": {
       "male": {
         "image": "assets/g3-25_Underhand_Inverted_Row.webp",
-        "gif": "assets/g3-25_Underhand_Inverted_Row.gif"
+        "gif": "assets/g3-25_Underhand_Inverted_Row.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g3-25_Underhand_Inverted_Row.webp",
@@ -2233,7 +2735,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2256,7 +2759,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2279,7 +2783,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2302,7 +2807,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2316,7 +2822,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-04_Bicycle_Crunch.webp",
-        "gif": "assets/g4-04_Bicycle_Crunch.gif"
+        "gif": "assets/g4-04_Bicycle_Crunch.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-04_Bicycle_Crunch.webp",
@@ -2325,7 +2838,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2339,7 +2853,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-05_Heel_Touches.webp",
-        "gif": "assets/g4-05_Heel_Touches.gif"
+        "gif": "assets/g4-05_Heel_Touches.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-05_Heel_Touches.webp",
@@ -2348,7 +2869,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2362,7 +2884,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-06_Cross_Body_Crunch.webp",
-        "gif": "assets/g4-06_Cross_Body_Crunch.gif"
+        "gif": "assets/g4-06_Cross_Body_Crunch.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-06_Cross_Body_Crunch.webp",
@@ -2371,7 +2900,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2385,7 +2915,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-07_Cross_Body_Mountain_Climber.webp",
-        "gif": "assets/g4-07_Cross_Body_Mountain_Climber.gif"
+        "gif": "assets/g4-07_Cross_Body_Mountain_Climber.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-07_Cross_Body_Mountain_Climber.webp",
@@ -2394,7 +2931,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2408,7 +2946,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-08_Windshield_Wipers.webp",
-        "gif": "assets/g4-08_Windshield_Wipers.gif"
+        "gif": "assets/g4-08_Windshield_Wipers.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-08_Windshield_Wipers.webp",
@@ -2417,7 +2962,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2431,7 +2977,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-09_Russian_Twist.webp",
-        "gif": "assets/g4-09_Russian_Twist.gif"
+        "gif": "assets/g4-09_Russian_Twist.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-09_Russian_Twist.webp",
@@ -2440,7 +2993,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2454,7 +3008,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-10_Reverse_Crunch_With_Rotation.webp",
-        "gif": "assets/g4-10_Reverse_Crunch_With_Rotation.gif"
+        "gif": "assets/g4-10_Reverse_Crunch_With_Rotation.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-10_Reverse_Crunch_With_Rotation.webp",
@@ -2463,7 +3024,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2477,7 +3039,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-11_Dumbbell_Side_Bend.webp",
-        "gif": "assets/g4-11_Dumbbell_Side_Bend.gif"
+        "gif": "assets/g4-11_Dumbbell_Side_Bend.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-11_Dumbbell_Side_Bend.webp",
@@ -2486,7 +3055,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2500,7 +3070,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-12_Weighted_Russian_Twist.webp",
-        "gif": "assets/g4-12_Weighted_Russian_Twist.gif"
+        "gif": "assets/g4-12_Weighted_Russian_Twist.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-12_Weighted_Russian_Twist.webp",
@@ -2509,7 +3086,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2523,7 +3101,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-13_Suitcase_Carry.webp",
-        "gif": "assets/g4-13_Suitcase_Carry.gif"
+        "gif": "assets/g4-13_Suitcase_Carry.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-13_Suitcase_Carry.webp",
@@ -2532,7 +3117,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2555,7 +3141,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2578,7 +3165,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2601,7 +3189,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2624,7 +3213,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2638,7 +3228,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-18_Pallof_Press.webp",
-        "gif": "assets/g4-18_Pallof_Press.gif"
+        "gif": "assets/g4-18_Pallof_Press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-18_Pallof_Press.webp",
@@ -2647,7 +3244,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2661,7 +3259,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-19_Landmine_Rotation.webp",
-        "gif": "assets/g4-19_Landmine_Rotation.gif"
+        "gif": "assets/g4-19_Landmine_Rotation.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-19_Landmine_Rotation.webp",
@@ -2670,7 +3275,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2684,7 +3290,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-20_Medicine_Ball_Rotational_Throw.webp",
-        "gif": "assets/g4-20_Medicine_Ball_Rotational_Throw.gif"
+        "gif": "assets/g4-20_Medicine_Ball_Rotational_Throw.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-20_Medicine_Ball_Rotational_Throw.webp",
@@ -2693,7 +3306,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2707,7 +3321,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-21_Hanging_Oblique_Knee_Raise.webp",
-        "gif": "assets/g4-21_Hanging_Oblique_Knee_Raise.gif"
+        "gif": "assets/g4-21_Hanging_Oblique_Knee_Raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-21_Hanging_Oblique_Knee_Raise.webp",
@@ -2716,7 +3337,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2730,7 +3352,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-22_Hanging_Windshield_Wipers.webp",
-        "gif": "assets/g4-22_Hanging_Windshield_Wipers.gif"
+        "gif": "assets/g4-22_Hanging_Windshield_Wipers.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-22_Hanging_Windshield_Wipers.webp",
@@ -2739,7 +3368,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2753,7 +3383,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-23_Hanging_Knee_Raise_With_Twist.webp",
-        "gif": "assets/g4-23_Hanging_Knee_Raise_With_Twist.gif"
+        "gif": "assets/g4-23_Hanging_Knee_Raise_With_Twist.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-23_Hanging_Knee_Raise_With_Twist.webp",
@@ -2762,7 +3399,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2776,7 +3414,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-24_Copenhagen_Plank.webp",
-        "gif": "assets/g4-24_Copenhagen_Plank.gif"
+        "gif": "assets/g4-24_Copenhagen_Plank.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-24_Copenhagen_Plank.webp",
@@ -2785,7 +3430,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2799,7 +3445,14 @@
     "variants": {
       "male": {
         "image": "assets/g4-25_Side_Plank_Crunch.webp",
-        "gif": "assets/g4-25_Side_Plank_Crunch.gif"
+        "gif": "assets/g4-25_Side_Plank_Crunch.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-g4-25_Side_Plank_Crunch.webp",
@@ -2808,7 +3461,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2828,7 +3482,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-push-up.webp",
-        "gif": "assets/anime-push-up.gif"
+        "gif": "assets/anime-push-up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-push-up.webp",
@@ -2837,7 +3498,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2857,7 +3519,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-close-grip-push-up.webp",
-        "gif": "assets/anime-close-grip-push-up.gif"
+        "gif": "assets/anime-close-grip-push-up.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-close-grip-push-up.webp",
@@ -2866,7 +3535,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2886,7 +3556,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-dumbbell-bench-press.webp",
-        "gif": "assets/anime-dumbbell-bench-press.gif"
+        "gif": "assets/anime-dumbbell-bench-press.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-dumbbell-bench-press.webp",
@@ -2895,7 +3572,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2915,7 +3593,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-dumbbell-chest-fly.webp",
-        "gif": "assets/anime-dumbbell-chest-fly.gif"
+        "gif": "assets/anime-dumbbell-chest-fly.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-dumbbell-chest-fly.webp",
@@ -2924,7 +3609,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2944,7 +3630,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-overhead-dumbbell-triceps-extension.webp",
-        "gif": "assets/anime-overhead-dumbbell-triceps-extension.gif"
+        "gif": "assets/anime-overhead-dumbbell-triceps-extension.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-overhead-dumbbell-triceps-extension.webp",
@@ -2953,7 +3646,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -2973,7 +3667,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-cable-triceps-pushdown.webp",
-        "gif": "assets/anime-cable-triceps-pushdown.gif"
+        "gif": "assets/anime-cable-triceps-pushdown.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 3,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-cable-triceps-pushdown.webp",
@@ -2982,7 +3683,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3002,7 +3704,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-dumbbell-triceps-kickback.webp",
-        "gif": "assets/anime-dumbbell-triceps-kickback.gif"
+        "gif": "assets/anime-dumbbell-triceps-kickback.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-dumbbell-triceps-kickback.webp",
@@ -3011,7 +3720,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3031,7 +3741,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-bench-dip.webp",
-        "gif": "assets/anime-bench-dip.gif"
+        "gif": "assets/anime-bench-dip.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-bench-dip.webp",
@@ -3040,7 +3757,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3060,7 +3778,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-bodyweight-squat.webp",
-        "gif": "assets/anime-bodyweight-squat.gif"
+        "gif": "assets/anime-bodyweight-squat.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-bodyweight-squat.webp",
@@ -3069,7 +3794,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3089,7 +3815,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-barbell-back-squat.webp",
-        "gif": "assets/anime-barbell-back-squat.gif"
+        "gif": "assets/anime-barbell-back-squat.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-barbell-back-squat.webp",
@@ -3098,7 +3831,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3118,7 +3852,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-barbell-front-squat.webp",
-        "gif": "assets/anime-barbell-front-squat.gif"
+        "gif": "assets/anime-barbell-front-squat.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-barbell-front-squat.webp",
@@ -3127,7 +3868,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3147,7 +3889,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-forward-lunge.webp",
-        "gif": "assets/anime-forward-lunge.gif"
+        "gif": "assets/anime-forward-lunge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-forward-lunge.webp",
@@ -3156,7 +3905,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3176,7 +3926,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-leg-extension.webp",
-        "gif": "assets/anime-leg-extension.gif"
+        "gif": "assets/anime-leg-extension.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-leg-extension.webp",
@@ -3185,7 +3942,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3205,7 +3963,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-prone-leg-curl.webp",
-        "gif": "assets/anime-prone-leg-curl.gif"
+        "gif": "assets/anime-prone-leg-curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-prone-leg-curl.webp",
@@ -3214,7 +3979,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3234,7 +4000,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-bodyweight-hip-hinge.webp",
-        "gif": "assets/anime-bodyweight-hip-hinge.gif"
+        "gif": "assets/anime-bodyweight-hip-hinge.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-bodyweight-hip-hinge.webp",
@@ -3243,7 +4016,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3263,7 +4037,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-standing-calf-raise.webp",
-        "gif": "assets/anime-standing-calf-raise.gif"
+        "gif": "assets/anime-standing-calf-raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-standing-calf-raise.webp",
@@ -3272,7 +4053,8 @@
         "animation": {
           "keyframes": 5,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3292,7 +4074,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-standing-dumbbell-calf-raise.webp",
-        "gif": "assets/anime-standing-dumbbell-calf-raise.gif"
+        "gif": "assets/anime-standing-dumbbell-calf-raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-standing-dumbbell-calf-raise.webp",
@@ -3301,7 +4090,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3321,7 +4111,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-crunch.webp",
-        "gif": "assets/anime-crunch.gif"
+        "gif": "assets/anime-crunch.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-crunch.webp",
@@ -3330,7 +4127,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3350,7 +4148,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-lying-leg-raise.webp",
-        "gif": "assets/anime-lying-leg-raise.gif"
+        "gif": "assets/anime-lying-leg-raise.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-lying-leg-raise.webp",
@@ -3359,7 +4164,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3379,7 +4185,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-dead-bug.webp",
-        "gif": "assets/anime-dead-bug.gif"
+        "gif": "assets/anime-dead-bug.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-dead-bug.webp",
@@ -3388,7 +4201,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3408,7 +4222,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-bird-dog.webp",
-        "gif": "assets/anime-bird-dog.gif"
+        "gif": "assets/anime-bird-dog.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-bird-dog.webp",
@@ -3417,7 +4238,8 @@
         "animation": {
           "keyframes": 4,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3437,7 +4259,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-seated-wrist-curl.webp",
-        "gif": "assets/anime-seated-wrist-curl.gif"
+        "gif": "assets/anime-seated-wrist-curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-seated-wrist-curl.webp",
@@ -3446,7 +4275,8 @@
         "animation": {
           "keyframes": 3,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3466,7 +4296,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-seated-reverse-wrist-curl.webp",
-        "gif": "assets/anime-seated-reverse-wrist-curl.gif"
+        "gif": "assets/anime-seated-reverse-wrist-curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-seated-reverse-wrist-curl.webp",
@@ -3475,7 +4312,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3495,7 +4333,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-jumping-jack.webp",
-        "gif": "assets/anime-jumping-jack.gif"
+        "gif": "assets/anime-jumping-jack.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-jumping-jack.webp",
@@ -3504,7 +4349,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3524,7 +4370,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-mountain-climber.webp",
-        "gif": "assets/anime-mountain-climber.gif"
+        "gif": "assets/anime-mountain-climber.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-mountain-climber.webp",
@@ -3533,7 +4386,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3553,7 +4407,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-lateral-band-walk.webp",
-        "gif": "assets/anime-lateral-band-walk.gif"
+        "gif": "assets/anime-lateral-band-walk.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-lateral-band-walk.webp",
@@ -3562,7 +4423,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
@@ -3582,7 +4444,14 @@
     "variants": {
       "male": {
         "image": "assets/anime-incline-dumbbell-curl.webp",
-        "gif": "assets/anime-incline-dumbbell-curl.gif"
+        "gif": "assets/anime-incline-dumbbell-curl.gif",
+        "style": "Anime keyframe loop",
+        "animation": {
+          "keyframes": 6,
+          "duration_ms": 5200,
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
+        }
       },
       "female": {
         "image": "assets/female-guide-incline-dumbbell-curl.webp",
@@ -3591,7 +4460,8 @@
         "animation": {
           "keyframes": 6,
           "duration_ms": 5200,
-          "endpoint_pause_ms": 800
+          "endpoint_pause_ms": 800,
+          "framing": "Complete source cell with 40px safety margin"
         }
       }
     }
