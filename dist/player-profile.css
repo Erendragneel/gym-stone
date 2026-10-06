@@ -7,3 +7,5 @@
 #sync-conflicts section{border-top:1px solid #36425a;padding:16px 0}#sync-conflicts button{margin:4px 8px 4px 0}#sync-conflicts li{margin:5px 0;overflow-wrap:anywhere}
 
 .reminder-days{border:0;padding:0;margin:14px 0;display:flex;gap:5px;flex-wrap:wrap}.reminder-days legend{font-size:13px;margin-bottom:8px;color:#becbdc}.reminder-days label{cursor:pointer}.reminder-days input{width:16px;height:16px;margin:5px}.reminder-days span{font-size:13px}.profile-fields select{min-width:0;width:100%}
+
+.password-control{position:relative;display:block}.profile-field .password-control input{padding-right:64px}.password-visibility{position:absolute;right:4px;top:4px;bottom:4px;width:48px;border:1px solid #475d81;border-radius:8px;background:#243a58;color:var(--text);font-size:20px;display:grid;place-items:center}.password-visibility:hover{background:#345275}.password-visibility:focus-visible{outline:2px solid var(--lime);outline-offset:2px}.password-visibility[aria-pressed=true]{border-color:var(--lime)}

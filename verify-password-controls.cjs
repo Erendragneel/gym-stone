@@ -1,0 +1,18 @@
+const fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto'),assert=require('node:assert/strict');
+const {chromium}=require('C:/Users/Elijio Villa jr/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{
+ const sandbox={window:{}};vm.runInNewContext(fs.readFileSync('dist/cloud-config.js','utf8'),sandbox);const config=sandbox.window.GYM_STONE_CLOUD_CONFIG;
+ const browser=await chromium.launch({headless:true,channel:'chrome'}),context=await browser.newContext({serviceWorkers:'block',viewport:{width:390,height:844}}),page=await context.newPage();let submitted=0;
+ await context.route('**/auth/v1/signup?**',r=>{submitted++;return r.fulfill({status:400,contentType:'application/json',body:JSON.stringify({message:'QA request intercepted'})})});
+ await page.goto('http://127.0.0.1:5173');await page.locator('#account-dialog').waitFor({state:'visible'});
+ assert.equal(await page.locator('#account-password').getAttribute('minlength'),'8');await page.locator('#account-username').fill('qa_password');await page.locator('#account-email').fill('qa_password@example.invalid');
+ await page.locator('#account-password').fill('Abc1234');await page.locator('#account-confirm').fill('Abc1234');await page.locator('#account-submit').click();assert.equal(submitted,0);assert.match(await page.locator('#account-error').textContent(),/at least 8/);
+ await page.locator('#account-password').fill('Abc12345');await page.locator('#account-confirm').fill('Abc12345');await page.getByRole('button',{name:'Show password',exact:true}).click();assert.equal(await page.locator('#account-password').getAttribute('type'),'text');assert.equal(await page.locator('#account-confirm').getAttribute('type'),'password');await page.getByRole('button',{name:'Hide password',exact:true}).click();assert.equal(await page.locator('#account-password').getAttribute('type'),'password');await page.getByRole('button',{name:'Show confirmation password',exact:true}).click();assert.equal(await page.locator('#account-confirm').getAttribute('type'),'text');
+ await page.locator('#account-switch').click();assert.equal(await page.locator('#account-confirm').getAttribute('type'),'password');assert.equal(await page.locator('#account-password').getAttribute('placeholder'),'Enter your password');await page.locator('#account-switch').click();
+ await page.locator('#account-password').fill('Abc12345');await page.locator('#account-confirm').fill('Abc12345');await page.locator('#account-submit').click();await page.waitForFunction(()=>document.getElementById('account-error').textContent==='QA request intercepted');assert.equal(submitted,1);assert.equal(await page.locator('#account-password').inputValue(),'');
+ await page.screenshot({path:'password-controls-mobile.png',fullPage:true});await browser.close();
+ const suffix=Date.now().toString(36),password=crypto.randomBytes(6).toString('base64url');assert.equal(password.length,8);
+ async function signup(pass,name){const response=await fetch(config.url+'/auth/v1/signup',{method:'POST',headers:{apikey:config.key,'Content-Type':'application/json'},body:JSON.stringify({email:name+'@example.invalid',password:pass,data:{gym_username:name}})});return {status:response.status,body:await response.json()};}
+ const short=await signup(password.slice(0,7),'qa_pw_'+suffix+'s');assert.equal(short.status,422);const valid=await signup(password,'qa_pw_'+suffix);assert.equal(valid.status,200);assert(valid.body.user?.id&&valid.body.access_token);
+ console.log('PASS: frontend seven/eight-character boundary, both visibility buttons, mode reset, submission reset; live server rejects seven and accepts eight characters.');
+})().catch(e=>{console.error(e.message);process.exit(1)});

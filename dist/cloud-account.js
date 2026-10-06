@@ -53,7 +53,9 @@
     $('account-username-label').hidden=recover||password;$('account-email-label').hidden=!(signup||recover);
     $('account-password-label').hidden=recover;$('account-confirm-label').hidden=!(signup||password);
     $('account-password').autocomplete=signup||password?'new-password':'current-password';
-    $('account-password').minLength=signup||password?12:1;
+    $('account-password').minLength=signup||password?8:1;
+    $('account-password').placeholder=signup||password?'At least 8 characters':'Enter your password';
+    resetPasswordVisibility();
     $('account-switch').hidden=password;$('account-recover').hidden=mode!=='signin';
     $('account-recover').textContent=config.emailDeliveryReady===true?'Forgot password?':'Password recovery is currently unavailable';
     $('account-recover').disabled=config.emailDeliveryReady!==true;
@@ -98,7 +100,7 @@
     const username=$('account-username').value.trim(),email=$('account-email').value.trim(),password=$('account-password').value;
     if(['signup','signin'].includes(mode)&&!/^[A-Za-z0-9_]{3,24}$/.test(username)){$('account-error').textContent='Use a username with 3–24 letters, numbers or underscores.';return;}
     if(['signup','recover'].includes(mode)&&!$('account-email').checkValidity()){$('account-error').textContent='Enter a valid email address.';return;}
-    if(['signup','password'].includes(mode)&&(password.length<12||password!==$('account-confirm').value)){$('account-error').textContent='Use at least 12 characters and enter the same password twice.';return;}
+    if(['signup','password'].includes(mode)&&(password.length<8||password!==$('account-confirm').value)){$('account-error').textContent='Use at least 8 characters and enter the same password twice.';return;}
     busy=true;$('account-submit').disabled=true;$('account-error').textContent='';$('account-status').textContent='Connecting…';
     try {
       const redirect=location.origin+location.pathname;
@@ -111,8 +113,19 @@
         else {$('account-status').textContent='Check your email to confirm your account, then return and sign in.';}
       }
     } catch(error){$('account-status').textContent='';$('account-error').textContent=/database error saving new user/i.test(error.message)?'That username may already be taken. Try another username.':error.name==='TimeoutError'?'Connection timed out. Please try again.':error.message;}
-    finally{busy=false;$('account-submit').disabled=false;$('account-password').value='';$('account-confirm').value='';}
+    finally{resetPasswordVisibility();busy=false;$('account-submit').disabled=false;$('account-password').value='';$('account-confirm').value='';}
   };
+  function resetPasswordVisibility(){
+    for(const id of ['account-password','account-confirm']){const input=$(id),button=$(id+'-visibility');input.type='password';if(button){button.setAttribute('aria-label',id==='account-confirm'?'Show confirmation password':'Show password');button.setAttribute('aria-pressed','false');button.title=button.getAttribute('aria-label');}}
+  }
+  for(const id of ['account-password','account-confirm']){
+    const input=$(id),wrapper=document.createElement('span'),button=document.createElement('button');
+    wrapper.className='password-control';input.before(wrapper);wrapper.append(input);
+    button.id=id+'-visibility';button.type='button';button.className='password-visibility';button.textContent='👁';button.setAttribute('aria-controls',id);
+    button.onclick=()=>{const show=input.type==='password';input.type=show?'text':'password';button.setAttribute('aria-pressed',String(show));button.setAttribute('aria-label',(show?'Hide ':'Show ')+(id==='account-confirm'?'confirmation password':'password'));button.title=button.getAttribute('aria-label');};wrapper.append(button);
+  }
+  resetPasswordVisibility();
+  dialog.addEventListener('close',resetPasswordVisibility);
   const ready=bootstrap();
   window.GymCloud={configured,get remindersReady(){return config.remindersReady===true;},get user(){return session?.user||null;},ready,open,loadProfile,saveProfile,signOut,loadCalendar,saveCalendarDay,loadEmailPrefs,saveEmailPrefs};
   ready.then(()=>{if(!session)open();});
