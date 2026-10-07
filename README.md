@@ -17,6 +17,7 @@ Download the [250 new exercises / 500 male and female GIFs](https://github.com/E
 - Browse and preview 425 exercises across muscle groups, cardio and mobility. Combine name search with equipment and difficulty filters. The 250 new moves include form cues and male/female illustrated examples.
 - Dedicated Warm-up and Cooldown sections contain 12 exercises with animations and timing guidance for before/after training.
 - A dedicated Pregnancy section contains 14 modified cardio, strength and mobility examples, with adjustments, primary guidance links, clinician tailoring and stop signs. Pregnancy animation identity stays fixed when the general profile gender changes.
+- The Pregnancy tab, category and exercises are available only when the saved player profile is Female. Changing to Male exits the Pregnancy category and closes its preview; previously saved workouts remain in the calendar.
 - Share Game shows the public game link and an offline-generated QR code, with copy, device sharing, and PNG download. Shared links contain no workout or screenshot data.
 - Download App installs Gym Stone as a browser app on supported browsers, with iPhone/iPad, Android, and desktop instructions when automatic installation is unavailable. Installed apps use the new Gym Stone logo.
 - A service worker keeps the calendar available offline after an online visit; exercise animations and OCR files are cached when loaded. Offline caches and original screenshots remain local to the same browser and app origin.

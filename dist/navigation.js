@@ -49,8 +49,8 @@
   const originalRender=render;render=function(){originalRender();document.getElementById('summary-hours').textContent=document.getElementById('week-hours').textContent;document.getElementById('progress-date').value=selected;document.getElementById('picker-day').textContent=new Date(selected+'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric'});};
   const filterLabel=document.createElement('label');filterLabel.className='muscle-select';filterLabel.innerHTML='Muscle group <select id="muscle-filter"><option>All moves</option></select>';document.getElementById('filters').before(filterLabel);
   const filters=document.getElementById('filters'),select=document.getElementById('muscle-filter');
-  const syncFilters=()=>{const value=filter;select.replaceChildren(...Array.from(filters.children,button=>{const option=document.createElement('option');option.textContent=button.textContent;return option;}));select.value=value;};
-  new MutationObserver(syncFilters).observe(filters,{childList:true});
+  const syncFilters=()=>{const value=filter;select.replaceChildren(...Array.from(filters.children).filter(button=>!button.hidden).map(button=>{const option=document.createElement('option');option.textContent=button.textContent;return option;}));select.value=value;};
+  new MutationObserver(syncFilters).observe(filters,{childList:true,subtree:true,attributes:true,attributeFilter:['hidden']});
   select.onchange=()=>{Array.from(filters.children).find(button=>button.textContent===select.value)?.click();};
   document.querySelector('.library h2').firstChild.textContent='Exercise library ';
   document.querySelector('.empty-day p')?.replaceChildren(document.createTextNode('Use Add exercise or Log activity to build your workout.'));

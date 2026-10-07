@@ -18,7 +18,9 @@
     return exercise.phase === 'cooldown' ? seconds + ' sec per side · ' + total + ' min total' : (exercise.sides === 'both' ? seconds + ' sec per side · ' : '') + total + ' min of gentle movement';
   }
   function render(group) {
+    const pregnancyAllowed = GymProfile.gender === 'female';
     for (const button of byId('stretch-tabs').querySelectorAll('button')) {
+      button.hidden = button.dataset.group === 'Pregnancy' && !pregnancyAllowed;
       const active = button.dataset.group === group || (button.dataset.group === 'All moves' && !guidance[group] && group !== 'Pregnancy');
       button.classList.toggle('active', active);
       button.setAttribute('aria-pressed', String(active));
@@ -26,8 +28,8 @@
     const help = byId('stretch-guidance');
     help.hidden = !guidance[group];
     byId('stretch-guidance-text').textContent = guidance[group] || '';
-    byId('pregnancy-guidance').hidden = group !== 'Pregnancy';
-    document.querySelector('.library').classList.toggle('is-pregnancy', group === 'Pregnancy');
+    byId('pregnancy-guidance').hidden = group !== 'Pregnancy' || !pregnancyAllowed;
+    document.querySelector('.library').classList.toggle('is-pregnancy', group === 'Pregnancy' && pregnancyAllowed);
   }
   function cueText(cues) {
     return Array.isArray(cues) ? cues.map(cue => cue.trim().replace(/[.!?]+$/, '')).join('. ') + '.' : (cues || 'Move comfortably and breathe normally.');
