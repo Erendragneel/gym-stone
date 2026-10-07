@@ -12,6 +12,8 @@ Download the [250 new exercises / 500 male and female GIFs](https://github.com/E
 - Check and uncheck completion; remove entries when needed.
 - Enter sets and reps for strength, or minutes for cardio, holds and timed activity. Tracking can be changed per entry. New exercise quantities start blank; an optional start time supports the daily chart.
 - Track current streak, total active days, XP, and day/week/month training hours.
+- Open Nutrition to log breakfast, lunch, dinner and snacks for any selected day. Enter calories and optional protein, carbs and fat for the portion eaten; unknown macros stay blank and totals are marked as incomplete. Edit or delete foods, undo the last deletion, and track water in mL with undo for the last drink.
+- Set optional daily calorie, macro and water goals. Nutrition uses the same selected date as the workout calendar, while its totals stay separate from training. Diaries and goals are saved offline on this device, separately for each player; they do not sync across devices. Clearing browser data removes the nutrition diary.
 - Browse and preview 425 exercises across muscle groups, cardio and mobility. Combine name search with equipment and difficulty filters. The 250 new moves include form cues and male/female illustrated examples.
 - Dedicated Warm-up and Cooldown sections contain 12 exercises with animations and timing guidance for before/after training.
 - A dedicated Pregnancy section contains 14 modified cardio, strength and mobility examples, with adjustments, primary guidance links, clinician tailoring and stop signs. Pregnancy animation identity stays fixed when the general profile gender changes.
@@ -40,6 +42,8 @@ The 250 new exercises use paired pose sheets created with built-in ImageGen, rev
 Final native artwork, exact prompts and per-sheet review choices are retained in `animation-source/expansion-v16/sheets`; the complete exercise specifications are in `animation-source/expansion-v16/jobs.json`. To reproduce the assets from these saved sources, run `build-expanded-library.py --from-sources` with Pillow and NumPy. The generator preserves all 175 pre-expansion catalog entries exactly, keeping saved exercise IDs and workout links intact.
 
 ## Validation
+
+`verify-nutrition.cjs` checks food creation, editing and deletion, optional macros, daily totals and goals, water tracking, calendar date selection, player isolation, storage-failure recovery, persistence, mobile layout and offline loading.
 
 The app serves smaller animated WebPs; downloadable packs preserve GIF versions. `audit-expanded-library.py` independently decodes all 500 new GIFs and 500 new WebPs, checks dimensions, opaque frames, distinct poses, infinite loops and exact timing, verifies ZIP hashes, and confirms all previous catalog entries remain unchanged. `animation-source/expansion-v16/decoded-audit.json` retains its results.
 

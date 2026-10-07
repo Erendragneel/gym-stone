@@ -1,8 +1,8 @@
 /* Keep the existing calendar and storage model; give each task its own screen. */
 (() => {
   const main = document.querySelector('main');
-  const icons = {today:'⌂', calendar:'▦', exercises:'◇', progress:'▥'};
-  const labels = {today:'Today', calendar:'Calendar', exercises:'Exercises', progress:'Progress'};
+  const icons = {today:'⌂', calendar:'▦', exercises:'◇', nutrition:'♧', progress:'▥'};
+  const labels = {today:'Today', calendar:'Calendar', exercises:'Exercises', nutrition:'Nutrition', progress:'Progress'};
   const nav = document.createElement('nav');
   nav.className = 'app-nav'; nav.setAttribute('aria-label','Main navigation');
   nav.innerHTML = '<div class="nav-brand">GYM STONE<span>Your training quest</span></div>' + Object.keys(labels).map(key => `<button type="button" data-screen="${key}"><span aria-hidden="true">${icons[key]}</span>${labels[key]}</button>`).join('') + '<button type="button" id="more-menu-toggle" aria-expanded="false" aria-controls="more-menu"><span aria-hidden="true">•••</span>More</button>';
@@ -31,8 +31,9 @@
   function showScreen(next,focus=true){
     if(!labels[next])next='today';screen=next;document.body.dataset.screen=next;
     for(const button of nav.querySelectorAll('[data-screen]')){const active=button.dataset.screen===next;button.classList.toggle('active',active);if(active)button.setAttribute('aria-current','page');else button.removeAttribute('aria-current');}
-    heading.textContent=labels[next];intro.querySelector('p').textContent={today:'Your workout, one move at a time.',calendar:'Choose a day to plan or review your workout.',exercises:'Search, preview, and add moves to your selected day.',progress:'See your training time, strength totals, and goals.'}[next];
+    heading.textContent=labels[next];intro.querySelector('p').textContent={today:'Your workout, one move at a time.',calendar:'Choose a day to plan or review your workout.',exercises:'Search, preview, and add moves to your selected day.',nutrition:'Track your meals, macros, and water each day.',progress:'See your training time, strength totals, and goals.'}[next];
     workspace.hidden=!['today','calendar'].includes(next);calendarHome.hidden=next!=='calendar';library.hidden=next!=='exercises';activity.hidden=next!=='progress';stats.hidden=!['today','progress'].includes(next);summary.hidden=next!=='today';
+    document.getElementById('nutrition-section').hidden=next!=='nutrition';
     if(next==='calendar'){calendarHome.append(calendar);calendarHome.append(daily);}else{workspace.append(calendar);workspace.append(daily);}
     workspace.classList.toggle('today-workspace',next==='today');
     document.getElementById('today').hidden=!['today','calendar'].includes(next);
