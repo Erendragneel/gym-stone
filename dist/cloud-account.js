@@ -59,7 +59,8 @@
     $('account-switch').hidden=password;$('account-recover').hidden=mode!=='signin';
     $('account-recover').textContent=config.emailDeliveryReady===true?'Forgot password?':'Password recovery is currently unavailable';
     $('account-recover').disabled=config.emailDeliveryReady!==true;
-    $('account-switch').textContent=signup?'Already have an account? Sign in':'New player? Create an account';
+    $('account-switch').textContent=signup?'Sign in':'Create account';
+    $('account-switch').setAttribute('aria-label',signup?'Already have an account? Sign in':'New player? Create an account');
     $('account-note').textContent=signup?'Your email links your account across devices. Your birthday, weight and goals are private. '+(config.emailDeliveryReady===true?'Email confirmation and password recovery are available.':'Keep your password safe: email verification, recovery emails and email reminders are currently unavailable.'):recover?'Enter the email address used to create your Gym Stone account.':'Sign in to access your player profile and goals across devices.';
     $('account-error').textContent='';$('account-status').textContent='';
     for(const field of ['account-username','account-email','account-password','account-confirm']) $(field).disabled=$(field+'-label')?.hidden||(!configured&&field!=='account-username');
