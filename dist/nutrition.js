@@ -13,7 +13,7 @@
   const amount = (value, max, positive=false) => typeof value === 'number' && Number.isFinite(value) && value >= (positive ? 0.1 : 0) && value <= max ? value : null;
   const fmt = value => Number(value.toFixed(1)).toLocaleString(undefined, {maximumFractionDigits:1});
   let state=blank(), loaded=false, busy=false, generation=0, activeOwner='', loadPromise;
-  let editing=null, entryDate=null, removed=null;
+  let editing=null, entryDate=null, removed=null, foodSource='';
 
   const section=document.createElement('section');
   section.id='nutrition-section'; section.className='nutrition-section'; section.hidden=true;
@@ -49,6 +49,7 @@
       if(!validDate(day) || !data || typeof data !== 'object') continue;
       const meals=(Array.isArray(data.meals)?data.meals:[]).filter(row=>row && typeof row.id==='string' && typeof row.name==='string' && row.name.trim() && Object.hasOwn(mealNames,row.meal) && amount(row.calories,limits.calories)!==null).map(row=>({id:row.id, name:row.name.trim().slice(0,100), meal:row.meal, serving:typeof row.serving==='string'?row.serving.slice(0,100):'', calories:row.calories, ...Object.fromEntries(['protein','carbs','fat'].map(key=>[key,amount(row[key],limits[key])]))}));
       const water=(Array.isArray(data.water)?data.water:[]).filter(row=>row && typeof row.id==='string' && amount(row.amount,10000,true)!==null).map(row=>({id:row.id,amount:row.amount}));
+      for(const row of meals){const original=data.meals.find(item=>item.id===row.id);if(typeof original?.source==='string')row.source=original.source.slice(0,200);}
       result.days[day]={meals:meals.filter((row,i,all)=>all.findIndex(other=>other.id===row.id)===i), water:water.filter((row,i,all)=>all.findIndex(other=>other.id===row.id)===i)};
     }
     return result;
@@ -84,6 +85,7 @@
       for(const row of rows){
         const item=document.createElement('article');item.className='nutrition-food';const info=document.createElement('div');info.className='nutrition-food-info';const name=document.createElement('strong');name.textContent=row.name;
         const portion=document.createElement('span');portion.textContent=row.serving || 'One entered portion';const macros=document.createElement('p');macros.textContent=['protein','carbs','fat'].map(key=>labels[key]+': '+(row[key]===null?'—':fmt(row[key])+' g')).join(' · ');info.append(name,portion,macros);
+        if(row.source){const source=document.createElement('span');source.textContent=row.source;info.append(source);}
         const calories=document.createElement('span');calories.className='nutrition-food-calories';calories.textContent=fmt(row.calories)+' kcal';
         const actions=document.createElement('div');actions.className='nutrition-food-actions';
         for(const [label,action] of [['Edit',()=>openEntry(row)],['Delete',()=>deleteMeal(row.id)]]){const button=document.createElement('button');button.className='secondary';button.type='button';button.textContent=label;button.setAttribute('aria-label',label+' '+row.name);button.dataset.nutritionWrite='';button.onclick=action;actions.append(button);}
@@ -134,7 +136,7 @@
     }finally{if(current===generation){busy=false;renderNutrition();}}
   }
   function openEntry(row=null){
-    if(!loaded||busy)return;editing=row?.id||null;entryDate=selected;$('nutrition-entry-form').reset();$('nutrition-entry-error').textContent='';
+    if(!loaded||busy)return;foodSource=row?.source||'';editing=row?.id||null;entryDate=selected;$('nutrition-entry-form').reset();$('nutrition-entry-error').textContent='';
     $('nutrition-entry-title').textContent=row?'Edit food':'Log food';$('nutrition-entry-date').textContent=new Date(entryDate+'T12:00:00').toLocaleDateString(undefined,{month:'long',day:'numeric',year:'numeric'});
     for(const key of ['name','meal','serving','calories','protein','carbs','fat'])if(row)$('nutrition-'+key).value=row[key]??'';
     entry.showModal();$('nutrition-name').focus();
@@ -156,6 +158,7 @@
     const name=$('nutrition-name').value.trim();if(!name){$('nutrition-entry-error').textContent='Enter a food or meal name.';$('nutrition-name').focus();return;}
     const row={id:editing||crypto.randomUUID(),name,meal:$('nutrition-meal').value,serving:$('nutrition-serving').value.trim()};
     for(const key of ['calories','protein','carbs','fat'])row[key]=$('nutrition-'+key).value===''?null:Number($('nutrition-'+key).value);
+    if(foodSource)row.source=foodSource;
     const day=entryDate;
     const saved=await commit(next=>{const data=ensureDay(next,day),index=data.meals.findIndex(item=>item.id===row.id);if(index<0)data.meals.push(row);else data.meals[index]=row;},'nutrition-entry-error');
     if(saved){entry.close();removed=null;renderNutrition();$('nutrition-add').focus();}
@@ -178,6 +181,8 @@
   const originalRender=render;render=function(){originalRender();renderNutrition();};
   window.addEventListener('gym-account-changed',()=>{loadPromise=load();});
   loadPromise=(async()=>{await window.GymCloud?.ready;return loadPromise=load();})();
-  window.GymNutrition={get ready(){return loadPromise;},get value(){return structuredClone(state);},render:renderNutrition};
+  window.GymNutrition={get ready(){return loadPromise;},get value(){return structuredClone(state);},render:renderNutrition,
+    openFood(row){if(!loaded||busy)return;openEntry();foodSource=row.source||'';for(const key of ['name','serving','calories','protein','carbs','fat'])if(row[key]!==undefined)$('nutrition-'+key).value=row[key]??'';},
+    get date(){return selected;}};
   renderNutrition();
 })();
