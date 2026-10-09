@@ -22,16 +22,16 @@
     return value*(distance.unit==='mi'?KM_PER_MI:distance.unit==='m'?0.001:1);
   }
   function assistance(record,exercise) {
-    return record.weightKind==='assistance'||(/assisted/i.test(exercise?.name||record.name||'')&&/machine/i.test(exercise?.equipment||''));
+    return window.GymTracking.assistance(record,exercise);
   }
   function values(record,exercise={}) {
-    const metrics={},load=number(record.weight,10000),distance=distanceKm(record.distance);
-    if(load!==null)metrics[assistance(record,exercise)?'assistance':'weight']=load*(record.weightUnit==='lb'?KG_PER_LB:1);
+    const metrics={},load=window.GymTracking.measuredLoad(record,exercise),distance=distanceKm(record.distance);
+    if(load)metrics[assistance(record,exercise)?'assistance':'weight']=load.kg;
     if(distance!==null&&distance>0)metrics.distance=distance;
     const timed=window.GymTracking.mode(record,exercise)==='time',minutes=number(record.minutes,1440);
     if(timed&&distance>0&&minutes>0)metrics.speed=distance/minutes*60;
-    const sets=window.GymTracking.count(record.sets),reps=window.GymTracking.count(record.reps);
-    if(!timed&&sets!==null&&reps!==null)metrics.reps=sets*reps;
+    const totals=window.GymTracking.totals(record);
+    if(!timed&&totals.validEntries)metrics.reps=totals.reps;
     if(timed&&minutes>0&&/\b(plank|wall sit|dead hang|hold)\b/i.test(exercise.name||record.name||'')&&!exercise.phase)metrics.hold=minutes;
     return metrics;
   }
@@ -68,7 +68,8 @@
         for(const [metric,value]of Object.entries(measured)){
           const series=group.series[metric]||(group.series[metric]=[]),previousBest=series.reduce((best,point)=>best===null||better(point.value,best.value,metric)?point:best,null);
           const isRecord=!!previousBest&&better(value,previousBest.value,metric);
-          const point={day,id:record.id,value,weightUnit:record.weightUnit==='lb'?'lb':'kg',distanceUnit:record.distance?.unit||'km',isRecord,sets:record.sets,reps:record.reps,minutes:record.minutes};
+          const load=window.GymTracking.measuredLoad(record,exercise),totals=window.GymTracking.totals(record);
+          const point={day,id:record.id,value,tracking:window.GymTracking.mode(record,exercise),weightUnit:load?.weightUnit||window.GymTracking.weightUnit(record),distanceUnit:record.distance?.unit||'km',isRecord,sets:load?.sets??record.sets,reps:load?.reps??record.reps,totalSets:totals.sets,totalReps:totals.reps,setEntryCount:totals.validEntries,minutes:record.minutes};
           series.push(point);
           if(isRecord)result.records.push({metric,value,previous:previousBest.value,point});
         }

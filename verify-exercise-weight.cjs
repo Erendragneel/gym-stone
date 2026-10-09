@@ -7,6 +7,7 @@ const url=process.env.GYM_TEST_URL||'http://127.0.0.1:5173';
   const context=await browser.newContext({serviceWorkers:'block',viewport:{width:1440,height:1000},timezoneId:'Asia/Tokyo'});
   const page=await context.newPage(),errors=[];
   page.on('pageerror',error=>errors.push(error.message));
+  await context.route('**/assets/*.webp',route=>route.fulfill({contentType:'image/png',body:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aUVsAAAAASUVORK5CYII=','base64')}));
   await context.route('**/cloud-config.js',route=>route.fulfill({contentType:'application/javascript',body:"window.GYM_STONE_CLOUD_CONFIG={url:'',key:''}"}));
   async function enter(){await page.goto(url);await page.locator('#account-preview').click();await page.waitForFunction(()=>exercises.length===425)}
   async function add(name){
@@ -78,6 +79,7 @@ const url=process.env.GYM_TEST_URL||'http://127.0.0.1:5173';
   // Verify the refreshed offline shell also serves the new controls and data.
   const offline=await browser.newContext({viewport:{width:390,height:844},serviceWorkers:'allow'}),offlinePage=await offline.newPage();
   offlinePage.on('pageerror',error=>errors.push(error.message));
+  await offline.route('**/assets/*.webp',route=>route.fulfill({contentType:'image/png',body:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aUVsAAAAASUVORK5CYII=','base64')}));
   await offline.route('**/cloud-config.js',route=>route.fulfill({contentType:'application/javascript',body:"window.GYM_STONE_CLOUD_CONFIG={url:'',key:''}"}));
   await offlinePage.goto(url);await offlinePage.locator('#account-preview').click();await offlinePage.waitForFunction(()=>exercises.length===425);
   await offlinePage.evaluate(async id=>{await navigator.serviceWorker.ready;const day=new Date().toLocaleDateString('en-CA');await GymScreenshotStore.putRecords({[day]:[{id,done:true,tracking:'reps',sets:3,reps:8,weight:42.75,weightUnit:'kg',minutes:0,time:''}]})},squat);

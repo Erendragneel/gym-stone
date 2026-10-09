@@ -46,7 +46,8 @@
     const key=chosenMetric,series=group.series[key],{latest,first,previous,best,lastDifferent}=data.stats(series,key),definition=data.definitions[key];
     const hero=get('latest-result');hero.replaceChildren();const heading=element('div');heading.append(element('span','Latest · '+date(latest.day)),element('strong',format(latest.value,key,latest)));
     if(key==='speed')heading.append(element('p','Pace '+pace(latest.value,latest)));
-    if(key==='weight'&&latest.sets&&latest.reps)heading.append(element('p',latest.sets+' sets × '+latest.reps+' reps / set'));
+    if(key==='weight'&&latest.tracking==='reps'&&latest.setEntryCount>1)heading.append(element('p',latest.totalSets+' sets · '+latest.totalReps+' total reps across '+latest.setEntryCount+' entries'));
+    else if(key==='weight'&&latest.tracking==='reps'&&latest.sets&&latest.reps)heading.append(element('p',latest.sets+' sets × '+latest.reps+' reps / set'));
     if(key==='assistance')heading.append(element('p','Less assistance is an improvement.'));
     hero.append(heading);
     hero.append(element('span',latest.isRecord?definition.recordLabel:series.length===1?'Starting log':data.equal(latest.value,best.value,key)?'Matched best':'Latest result',latest.isRecord?'personal-record-badge':'result-status'));

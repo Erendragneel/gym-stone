@@ -55,3 +55,5 @@ Optional WebMCP tools feature-detect browser support. A supported WebMCP context
 ## Local use
 
 Serve `dist` with a local HTTP server and open its address. For example: `python -m http.server 5173 --directory dist`. Opening the HTML directly as a file does not support loading the exercise catalog. For a device-only development preview, temporarily use empty URL/key values in `dist/cloud-config.js`; restore the public production config before publishing. Online username sign-in is configured for the published app origins.
+
+Exercises tracked with sets and reps support multiple entries using **+ Add entry**. Each entry has its own sets, reps, optional weight and kg/lb unit. Completed strength totals sum all valid entries; personal bests use the heaviest lifted load (or least assistance) and total reps, with one record bonus per exercise session. Existing single-entry logs remain supported.

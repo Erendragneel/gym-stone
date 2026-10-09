@@ -4,6 +4,7 @@ const url=process.env.GYM_TEST_URL||'http://127.0.0.1:5173';
 (async()=>{
   const browser=await chromium.launch({headless:true,channel:'chrome'}),context=await browser.newContext({serviceWorkers:'block',viewport:{width:1440,height:1100},timezoneId:'Asia/Tokyo'}),page=await context.newPage(),errors=[];
   page.on('pageerror',error=>errors.push(error.message));
+  await context.route('**/assets/*.webp',route=>route.fulfill({contentType:'image/png',body:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aUVsAAAAASUVORK5CYII=','base64')}));
   await context.route('**/cloud-config.js',route=>route.fulfill({contentType:'application/javascript',body:"window.GYM_STONE_CLOUD_CONFIG={url:'',key:''}"}));
   await page.goto(url);await page.locator('#account-preview').click();await page.waitForFunction(()=>exercises.length===425);
   const fixture=await page.evaluate(async()=>{
@@ -54,6 +55,7 @@ const url=process.env.GYM_TEST_URL||'http://127.0.0.1:5173';
   // Incoming cloud history updates results without re-announcing old awards.
   await page.evaluate(()=>window.dispatchEvent(new CustomEvent('gym-calendar-records',{detail:{}})));assert.equal(await page.locator('#performance-results').isVisible(),false);assert.equal(await page.locator('#performance-empty').isVisible(),true);assert.match(await page.locator('#record-totals').textContent(),/Bonus XP earned\+0/);
   const offline=await browser.newContext({serviceWorkers:'allow',timezoneId:'Asia/Tokyo'}),offlinePage=await offline.newPage();offlinePage.on('pageerror',error=>errors.push(error.message));
+  await offline.route('**/assets/*.webp',route=>route.fulfill({contentType:'image/png',body:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aUVsAAAAASUVORK5CYII=','base64')}));
   await offline.route('**/cloud-config.js',route=>route.fulfill({contentType:'application/javascript',body:"window.GYM_STONE_CLOUD_CONFIG={url:'',key:''}"}));
   await offlinePage.goto(url);await offlinePage.locator('#account-preview').click();await offlinePage.waitForFunction(()=>exercises.length===425);
   await offlinePage.evaluate(async fixture=>{const record=weight=>({id:fixture.id,done:true,tracking:'reps',sets:3,reps:10,weight,weightUnit:'kg',minutes:0,time:''});await navigator.serviceWorker.ready;await GymScreenshotStore.putRecords({[fixture.earlier]:[record(16)],[fixture.today]:[record(20)]})},fixture);
