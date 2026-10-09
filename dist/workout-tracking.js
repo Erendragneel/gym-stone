@@ -25,6 +25,16 @@
     if (amount === null) return '';
     return amount + ' ' + weightUnit(record) + (record.weightKind === 'assistance' ? ' assistance' : '');
   }
+  function supportsDistance(record, exercise = {}) {
+    if(window.GymProgressData?.distanceKm(record.distance)!==null && record.distance)return true;
+    if(exercise.phase || exercise.group==='Mobility' || exercise.pregnancyCategory==='Mobility')return false;
+    const name=exercise.name||record.name||'';
+    if(/\b(yoga|plank|hold|stretch|meditation)\b/i.test(name))return false;
+    return /\b(run(?:ning)?|jog(?:ging)?|walk(?:ing)?|hiking|treadmill|cycl(?:ing|e)|bike|swim(?:ming)?|rowing|elliptical|stair|carry|sled)\b/i.test(name) || exercise.group==='Cardio' || (mode(record,exercise)==='time'&&['Activity','Cardio & activity'].includes(exercise.group||record.group));
+  }
+  function distanceText(record) {
+    return window.GymProgressData?.distanceKm(record.distance)!=null?record.distance.value+' '+record.distance.unit:'';
+  }
   function supportsWeight(record, exercise = {}) {
     // Keep recorded loads editable even if catalog metadata changes later.
     if (weight(record.weight) !== null) return true;
@@ -50,5 +60,5 @@
       return total;
     }, { sets: 0, reps: 0 });
   }
-  window.GymTracking = { mode, count, strength, weight, weightUnit, weightText, supportsWeight };
+  window.GymTracking = { mode, count, strength, weight, weightUnit, weightText, supportsWeight, supportsDistance, distanceText };
 })();

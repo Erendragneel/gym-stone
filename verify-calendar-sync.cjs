@@ -1,5 +1,6 @@
 const {chromium}=require('C:/Users/Elijio Villa jr/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const assert=require('node:assert/strict');
+const url=process.env.GYM_TEST_URL||'http://127.0.0.1:5173';
 (async()=>{
   const browser=await chromium.launch({headless:true,channel:'chrome'}),remote={alice:{},bob:{}},errors=[];
   const profile={name:'Alice_1',gender:'female',birthday:'1996-01-01',weight:65,weightUnit:'kg',targetWeight:null,goal:'strength',daysPerWeek:3,minutesPerWorkout:30,hoursPerWeek:3,completed:true,updatedAt:Date.now()};
@@ -20,7 +21,7 @@ const assert=require('node:assert/strict');
         data={accepted,day:body.p_day,...(remote[who][body.p_day]||{items:[],revision:0})};
       }else data={};await r.fulfill({json:ordered(data)});
     });
-    await page.goto('http://127.0.0.1:5173');await page.locator('.app-nav [data-screen="exercises"]').click();await page.locator('.exercise-card').first().waitFor();await page.waitForFunction(()=>document.querySelector('.save-label').textContent.includes('Synced'));return{page,context,state};
+    await page.goto(url);await page.locator('.exercise-card').first().waitFor({state:'attached'});await page.waitForFunction(()=>document.querySelector('.save-label').textContent.includes('Synced'));await page.locator('.app-nav [data-screen="exercises"]').click();return{page,context,state};
   }
   async function minutes(device,value){await device.page.evaluate(()=>GymNavigation.show('calendar'));await device.page.locator('.workout-details').evaluateAll(items=>items.forEach(item=>item.open=true));await device.page.locator('.workout-fields select[aria-label^="Tracking mode for"][aria-label^="Tracking mode for"]').selectOption('time');const input=device.page.locator('.duration-fields input[aria-label^="Minutes spent on"]');await input.fill(String(value));await input.dispatchEvent('change');await device.page.waitForFunction(async value=>Object.values(await GymScreenshotStore.getRecords()).flat().some(r=>r.minutes===value),value);}
   const a=await device('alice'),b=await device('alice'),day=await a.page.evaluate(()=>new Date().toLocaleDateString('en-CA'));
@@ -65,12 +66,21 @@ const assert=require('node:assert/strict');
   const blankNew=await b.page.evaluate(async ids=>Object.values(await GymScreenshotStore.getRecords()).flat().filter(r=>ids.includes(r.id)),expandedIds);assert.equal(blankNew.length,2);assert(blankNew.every(r=>r.minutes===null&&r.sets===null&&r.reps===null));
   await b.page.evaluate(()=>GymNavigation.show('calendar'));await b.page.locator('.workout-details').evaluateAll(items=>items.forEach(item=>item.open=true));
   await b.page.getByLabel('Weight unit for Dumbbell Front Squat',{exact:true}).selectOption('lb');
-  for(const [label,value] of [['Sets for Dumbbell Front Squat','3'],['Reps per set for Dumbbell Front Squat','10'],['Weight for Dumbbell Front Squat','35.5'],['Minutes spent on Treadmill Jog','18.5']]){await b.page.getByLabel(label,{exact:true}).fill(value);await b.page.getByLabel(label,{exact:true}).dispatchEvent('change')}
+  await b.page.getByLabel('Distance unit for Treadmill Jog',{exact:true}).selectOption('mi');
+  for(const [label,value] of [['Sets for Dumbbell Front Squat','3'],['Reps per set for Dumbbell Front Squat','10'],['Weight for Dumbbell Front Squat','35.5'],['Minutes spent on Treadmill Jog','18.5'],['Distance for Treadmill Jog','2.5']]){await b.page.getByLabel(label,{exact:true}).fill(value);await b.page.getByLabel(label,{exact:true}).dispatchEvent('change')}
   await b.page.evaluate(()=>GymScreenshotStore.whenIdle());await b.page.evaluate(async()=>{await GymScreenshotStore.whenIdle();await GymCalendar.kick()});await b.page.waitForFunction(()=>document.querySelector('.save-label').textContent.includes('Synced'));await a.page.evaluate(async()=>{await GymScreenshotStore.whenIdle();await GymCalendar.kick(true)});
   const expandedRoundtrip=await a.page.evaluate(async ids=>Object.values(await GymScreenshotStore.getRecords()).flat().filter(r=>ids.includes(r.id)),expandedIds);
   const expandedStrength=expandedRoundtrip.find(r=>r.id===expandedIds[0]),expandedCardio=expandedRoundtrip.find(r=>r.id===expandedIds[1]);assert.equal(expandedStrength.tracking,'reps');assert.equal(expandedStrength.sets,3);assert.equal(expandedStrength.reps,10);assert.equal(expandedCardio.tracking,'time');assert.equal(expandedCardio.minutes,18.5);assert(expandedRoundtrip.every(r=>r.done));assert.deepEqual(expandedRoundtrip,remote.alice[day].items.filter(r=>expandedIds.includes(r.id)));
   assert.equal(expandedStrength.weight,35.5);assert.equal(expandedStrength.weightUnit,'lb');
-  assert.deepEqual(errors,[]);await browser.close();console.log('PASS: two-device calendar sync, expanded library sets/reps and timed activity roundtrip, prenatal tracking/metadata and stretch duration roundtrip, durable offline edits, both conflict choices, deletion and account isolation');
+  assert.deepEqual(expandedCardio.distance,{value:2.5,unit:'mi'});
+  const previousDay=await a.page.evaluate(day=>{const date=new Date(day+'T12:00:00');date.setDate(date.getDate()-1);return date.toLocaleDateString('en-CA')},day);
+  remote.alice[previousDay]={revision:1,items:[{...expandedStrength,weight:30},{...expandedCardio,minutes:20,distance:{value:2,unit:'mi'}}]};
+  for(const device of [a,b])await device.page.evaluate(async()=>{await GymScreenshotStore.whenIdle();await GymCalendar.kick(true)});
+  async function personalRecords(device){return device.page.evaluate(async ids=>{const records=await GymScreenshotStore.getRecords(),snapshot=GymProgressData.build(records,recordExercise,{through:today});return snapshot.achievements.filter(item=>ids.includes(item.id)).map(item=>({id:item.id,day:item.day,bonusXP:item.bonusXP,records:item.records.map(record=>record.metric)}))},expandedIds)}
+  const syncedRecords=await personalRecords(a);assert.deepEqual(syncedRecords,await personalRecords(b));assert.equal(syncedRecords.length,2);assert(syncedRecords.every(item=>item.day===day&&item.bonusXP===50));
+  assert.deepEqual(syncedRecords.find(item=>item.id===expandedIds[0]).records,['weight']);assert.deepEqual(syncedRecords.find(item=>item.id===expandedIds[1]).records,['distance','speed']);
+  await a.page.reload();await a.page.locator('.exercise-card').first().waitFor({state:'attached'});await a.page.waitForFunction(()=>document.querySelector('.save-label').textContent.includes('Synced'));assert.deepEqual(await personalRecords(a),syncedRecords);
+  assert.deepEqual(errors,[]);await browser.close();console.log('PASS: two-device calendar sync, weight/distance and derived personal records roundtrip/reload, prenatal tracking, durable offline edits, both conflict choices, deletion and account isolation');
 })().catch(e=>{console.error(e);process.exit(1)});
 
 

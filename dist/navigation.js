@@ -31,7 +31,7 @@
   function showScreen(next,focus=true){
     if(!labels[next])next='today';screen=next;document.body.dataset.screen=next;
     for(const button of nav.querySelectorAll('[data-screen]')){const active=button.dataset.screen===next;button.classList.toggle('active',active);if(active)button.setAttribute('aria-current','page');else button.removeAttribute('aria-current');}
-    heading.textContent=labels[next];intro.querySelector('p').textContent={today:'Your workout, one move at a time.',calendar:'Choose a day to plan or review your workout.',exercises:'Search, preview, and add moves to your selected day.',nutrition:'Track your meals, macros, and water each day.',progress:'See your training time, strength totals, and goals.'}[next];
+    heading.textContent=labels[next];intro.querySelector('p').textContent={today:'Your workout, one move at a time.',calendar:'Choose a day to plan or review your workout.',exercises:'Search, preview, and add moves to your selected day.',nutrition:'Track your meals, macros, and water each day.',progress:'Track your weight, distance, speed, and personal bests.'}[next];
     workspace.hidden=!['today','calendar'].includes(next);calendarHome.hidden=next!=='calendar';library.hidden=next!=='exercises';activity.hidden=next!=='progress';stats.hidden=!['today','progress'].includes(next);summary.hidden=next!=='today';
     document.getElementById('nutrition-section').hidden=next!=='nutrition';
     if(next==='calendar'){calendarHome.append(calendar);calendarHome.append(daily);}else{workspace.append(calendar);workspace.append(daily);}
@@ -46,7 +46,7 @@
   document.getElementById('quick-import').onclick=()=>document.getElementById('import-screenshot').click();
   summary.onclick=()=>showScreen('progress');
   const originalSelect=selectDay;selectDay=function(key){originalSelect(key);if(screen==='progress')showScreen('calendar');};
-  const originalRender=render;render=function(){originalRender();document.getElementById('summary-hours').textContent=document.getElementById('week-hours').textContent;document.getElementById('progress-date').value=selected;document.getElementById('picker-day').textContent=new Date(selected+'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric'});};
+  const originalRender=render;render=function(){originalRender();document.getElementById('summary-hours').textContent=document.getElementById('week-hours').textContent;document.getElementById('progress-date').value=selected<today?selected:today;document.getElementById('progress-date').max=today;document.getElementById('picker-day').textContent=new Date(selected+'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric'});};
   const filterLabel=document.createElement('label');filterLabel.className='muscle-select';filterLabel.innerHTML='Muscle group <select id="muscle-filter"><option>All moves</option></select>';document.getElementById('filters').before(filterLabel);
   const filters=document.getElementById('filters'),select=document.getElementById('muscle-filter');
   const syncFilters=()=>{const value=filter;select.replaceChildren(...Array.from(filters.children).filter(button=>!button.hidden).map(button=>{const option=document.createElement('option');option.textContent=button.textContent;return option;}));select.value=value;};
