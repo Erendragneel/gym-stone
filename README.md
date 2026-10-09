@@ -10,7 +10,7 @@ Download the [250 new exercises / 500 male and female GIFs](https://github.com/E
 
 - Select a day to plan exercises or log already completed workouts.
 - Check and uncheck completion; remove entries when needed.
-- Enter sets and reps for strength, or minutes for cardio, holds and timed activity. Tracking can be changed per entry. New exercise quantities start blank; an optional start time supports the daily chart.
+- Enter sets and reps for strength, or minutes for cardio, holds and timed activity. Weight-capable exercises also have an optional decimal weight and a kilograms/pounds dropdown, including timed carries and holds. Each entry saves its amount and unit; workout and sync conflict summaries display them. Bodyweight strength moves support added weight; assisted machines label assistance separately. Tracking can be changed per entry. New exercise quantities start blank; an optional start time supports the daily chart.
 - Track current streak, total active days, XP, and day/week/month training hours.
 - Open Nutrition to log breakfast, lunch, dinner and snacks for any selected day. Enter calories and optional protein, carbs and fat for the portion eaten; unknown macros stay blank and totals are marked as incomplete. Edit or delete foods, undo the last deletion, and track water in mL with undo for the last drink.
 - Set optional daily calorie, macro and water goals. Nutrition uses the same selected date as the workout calendar, while its totals stay separate from training. Diaries and goals are saved offline on this device, separately for each player; they do not sync across devices. Clearing browser data removes the nutrition diary.
