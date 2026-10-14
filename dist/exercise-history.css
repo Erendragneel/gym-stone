@@ -1,0 +1,7 @@
+.exercise-history{padding:0 0 24px;margin:0 0 24px;border-bottom:1px solid var(--line)}
+.history-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}.history-heading h3{font-size:20px;margin:0}.history-heading span{color:var(--muted);font-size:13px}
+.history-exercise-card{display:flex;flex-direction:column;align-items:stretch;gap:0;padding:0;background:#202a42;border:1px solid #344565;border-radius:12px;overflow:hidden;min-width:0}
+.history-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}.history-tabs button,#history-more{font:inherit;min-height:44px;padding:8px 14px;border:1px solid #36556f;border-radius:9px;background:#0d1b2d;color:var(--text);font-size:14px}.history-tabs button[aria-pressed=true]{background:#136670;border-color:#39d9c5;color:#f2ffff}
+#history-caption{color:var(--muted);font-size:14px;margin:0 0 14px}.history-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:18px}.history-last-use{font-size:14px;color:var(--muted);margin:0}.history-frequency{color:#9cddd6}#history-more{margin-top:14px}
+body[data-screen=exercises] .history-grid .exercise-body h3{min-height:0}.exercise-history [hidden]{display:none!important}
+@media(max-width:720px){.exercise-history{padding-bottom:20px;margin-bottom:20px}.history-heading h3{font-size:18px}.history-grid{grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:16px}}
