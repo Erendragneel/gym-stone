@@ -1,8 +1,9 @@
 /* Offline app shell. Exercise animations and local OCR files are cached as used. */
 const CACHE_PREFIX = 'gym-stone-';
-const SHELL_CACHE = CACHE_PREFIX + 'shell-v27-workout-recommendations';
-const MEDIA_CACHE = CACHE_PREFIX + 'media-v6-expansion';
+const SHELL_CACHE = CACHE_PREFIX + 'shell-v22-controlled-motion-complete';
+const MEDIA_CACHE = CACHE_PREFIX + 'media-v18-controlled-motion';
 const SHELL = [
+  './clean-animation.js?v=18', './clean-animation.css?v=18',
   './exercise-history.css?v=1', './exercise-history.js?v=1', './workout-recommendations.css?v=1', './workout-recommendations-data.js?v=1', './workout-recommendations.js?v=1', './', './index.html', './app.js?v=20', './style.css?v=5', './calendar-theme.css', './nutrition.css?v=2', './nutrition.js?v=2', './nutrition-tools.js?v=1', './food-worker.js', './machine-data.js?v=1', './machine-photo.js?v=1', './machine-photo.css?v=1', './machine-worker.js?v=1', './food-library.json', './navigation.css?v=1', './navigation.js?v=4', './stretch-library.js?v=4', './stretch-library.css?v=2', './expanded-library.js?v=1', './expanded-library.css?v=2',
   './screenshot-import.css?v=2', './screenshot-parser.js', './screenshot-store.js?v=4',
   './screenshot-import.js?v=3', './workout-tracking.js?v=4', './set-entries.css?v=1', './set-entry-fields.js?v=1', './progress-data.js?v=2', './progress.js?v=2', './progress.css?v=1', './exercises.json', './exercise-muscles.js?v=1', './muscle-map.js?v=1', './muscle-map.css?v=1', './qr-code.js',

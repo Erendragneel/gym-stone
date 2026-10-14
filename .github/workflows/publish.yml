@@ -1,0 +1,39 @@
+name: Publish Gym Stone
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify every reviewed animation
+        run: node scripts/verify-motion-package.cjs .
+      - uses: actions/configure-pages@v5
+      - name: Assemble reviewed static app
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          cp -a dist _site/dist
+          touch _site/.nojekyll
+          test "$(du -sb _site | cut -f1)" -lt 1000000000
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

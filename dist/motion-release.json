@@ -1,0 +1,3201 @@
+{
+  "status": "ready-for-final-browser-tests",
+  "checkedAt": "2026-10-14T17:51:50.287Z",
+  "reviewedExercises": 425,
+  "pendingExercises": 0,
+  "variants": 864,
+  "keyframes": 24056,
+  "siteBytes": 866236586,
+  "pixelIdentityVerifiedForEveryPackedKeyframe": true,
+  "lossless": true,
+  "removedUnusedFiles": 1374,
+  "removedUnusedBytes": 225592507,
+  "characterVariantsPreserved": true,
+  "nativeSourceBindings": [
+    {
+      "exercise": "exp-45-degree-leg-press",
+      "variant": "female",
+      "sourceHash": "4368d988b26a1f99be63dfba50d8f76efb1fb7674b09fce6c467a5fc4349623f"
+    },
+    {
+      "exercise": "exp-45-degree-leg-press",
+      "variant": "male",
+      "sourceHash": "e819ed294fd761930d5fc4867514ba9a543c984401a6917359b7aeff1f8d0574"
+    },
+    {
+      "exercise": "exp-air-bike",
+      "variant": "female",
+      "sourceHash": "43b5fe3fa22dbad8b18102ad22fdb7ea9ccc9eabddb1d68d0165d74ad67e46b1"
+    },
+    {
+      "exercise": "exp-air-bike",
+      "variant": "male",
+      "sourceHash": "cfa6d2689fba874af9f5c721f32be24c34e72cb8ab3b94986e446ca4efd8b98e"
+    },
+    {
+      "exercise": "exp-anchored-resistance-band-chest-fly",
+      "variant": "retained",
+      "sourceHash": "41a80ed4c2669ea0b6fe7a0f5cbdd1485d785cb8b60a59b269a94fe8d6dea993"
+    },
+    {
+      "exercise": "exp-anchored-resistance-band-rear-delt-fly",
+      "variant": "retained",
+      "sourceHash": "e844ec19b5fad8fe04dd852babf6aab2a5aee93da81f4181872d76fd8bd587cc"
+    },
+    {
+      "exercise": "exp-assisted-nordic-hamstring-curl",
+      "variant": "female",
+      "sourceHash": "efbd50230aaa0e1c27d05c6acae5b29264df9257b30a1126b54de381eb047fa0"
+    },
+    {
+      "exercise": "exp-assisted-nordic-hamstring-curl",
+      "variant": "male",
+      "sourceHash": "944d97f7c36c36ae1b0cd120a3d4b50422e290fe41516495c0c71c4fe31861fd"
+    },
+    {
+      "exercise": "exp-assisted-triceps-dip",
+      "variant": "retained",
+      "sourceHash": "c0f954d3a73066c3fbc51ef9635c2bbd8748c037e955c3559cb4c798390c67ef"
+    },
+    {
+      "exercise": "exp-b-stance-dumbbell-romanian-deadlift",
+      "variant": "female",
+      "sourceHash": "070c672ce57c1e3f0d5e27677315f30d44f21f3c5b5885ede7c4c6d3a566ef7e"
+    },
+    {
+      "exercise": "exp-b-stance-dumbbell-romanian-deadlift",
+      "variant": "male",
+      "sourceHash": "ee1f662442c88de9bac451d8c1b2dc5ed8ca431d78fbe1a69bfad29cffd57567"
+    },
+    {
+      "exercise": "exp-backward-sled-drag",
+      "variant": "female",
+      "sourceHash": "97d7a853f08669d168821c677a66cc6b9a2d04913d0e82cabb50e788155f4bbe"
+    },
+    {
+      "exercise": "exp-backward-sled-drag",
+      "variant": "male",
+      "sourceHash": "c75c6f936922829e28c6fbab349ec893f7027a539bb95dc4ed81acd9c8f09a83"
+    },
+    {
+      "exercise": "exp-band-assisted-pull-up",
+      "variant": "female",
+      "sourceHash": "b41c0a198100e4238f3bc6aa7ae102e5ccbc27d0ac54caa9a32c32100e4f7248"
+    },
+    {
+      "exercise": "exp-band-assisted-pull-up",
+      "variant": "male",
+      "sourceHash": "a9c85d4070c16c4e5c3e8fd16e61dc876b118d3e09cfa3cde70d3df62ba09b68"
+    },
+    {
+      "exercise": "exp-band-resisted-seated-calf-press",
+      "variant": "retained",
+      "sourceHash": "04bfc65f525d577d4e5d825a618778574d7bee846168b65b176b4412f0487d08"
+    },
+    {
+      "exercise": "exp-banded-side-lying-hip-abduction",
+      "variant": "retained",
+      "sourceHash": "7d1f0ccb917662fe69555655187604535224e9bfe7ceeb5caf8204e1d8e63f92"
+    },
+    {
+      "exercise": "exp-barbell-bench-press",
+      "variant": "retained",
+      "sourceHash": "09d63a922aa47e852fdf8ed4957ed40f829fbea15b45de8216cbc8bcee321d97"
+    },
+    {
+      "exercise": "exp-barbell-box-squat",
+      "variant": "retained",
+      "sourceHash": "49ed15d73b02651d0d208a29ace7a2b18b6878e3737022c2a33adcbc22d30bda"
+    },
+    {
+      "exercise": "exp-barbell-bulgarian-split-squat",
+      "variant": "female",
+      "sourceHash": "35b535badba33ee27cafb8e301de3ca51721bd0d8de78490d53a8d981c6b9b2b"
+    },
+    {
+      "exercise": "exp-barbell-bulgarian-split-squat",
+      "variant": "male",
+      "sourceHash": "06a37f1d13c496ac35099449ae231f9c4fcff9b0e7e48a6a951f40f6dcfc5e10"
+    },
+    {
+      "exercise": "exp-barbell-glute-bridge",
+      "variant": "retained",
+      "sourceHash": "b6361bac4f9d6c60ed9ad549b37c42c05e8f9051f07cee50399ab7521244d7b2"
+    },
+    {
+      "exercise": "exp-barbell-pullover",
+      "variant": "retained",
+      "sourceHash": "d3dcde433b13f154d87aea1d53635aa1703e20d1170c5ea3a0119bcb22345b6f"
+    },
+    {
+      "exercise": "exp-barbell-push-press",
+      "variant": "retained",
+      "sourceHash": "e3494727138ffc9b7df889a8b6e501d431650bb417a1cf7c017cf4910a0d9b8c"
+    },
+    {
+      "exercise": "exp-barbell-reverse-lunge",
+      "variant": "female",
+      "sourceHash": "b8c5834ba61dcfb949ffeb8853929d7fbb6404a170d16f91baf53189466e724f"
+    },
+    {
+      "exercise": "exp-barbell-reverse-lunge",
+      "variant": "male",
+      "sourceHash": "fe17bb53270141385efa46ec92124aaa44588e7980389cd2b8544ac6bb93a5e7"
+    },
+    {
+      "exercise": "exp-barbell-split-squat",
+      "variant": "female",
+      "sourceHash": "634210f342a203e7954b7b8ff81d7991c5e0646c7de59d48e35eec669bf805ef"
+    },
+    {
+      "exercise": "exp-barbell-split-squat",
+      "variant": "male",
+      "sourceHash": "623e7d340b35074a902d787d4e20833a75cdaa87ed9795c7a86f3d1fe7f9f01c"
+    },
+    {
+      "exercise": "exp-barbell-sumo-deadlift",
+      "variant": "female",
+      "sourceHash": "bf0a57f4a6360e2f4a28e8f8e656f49ac0cf7032042b7f9903e956b339c26fd6"
+    },
+    {
+      "exercise": "exp-barbell-sumo-deadlift",
+      "variant": "male",
+      "sourceHash": "b4e84db948f48a816a760308e6b1345e4cdf5e23ebedcf570647c2d31d9d9c47"
+    },
+    {
+      "exercise": "exp-battle-rope-alternating-waves",
+      "variant": "retained",
+      "sourceHash": "4c838116cb1a0627be5675e91cfab6a045bfc68d62266f8d79aab801497670e3"
+    },
+    {
+      "exercise": "exp-bear-crawl",
+      "variant": "female",
+      "sourceHash": "c7dd25de949076bce8c455c666bf30363312630e55c1309111fb4bd7abc8ee34"
+    },
+    {
+      "exercise": "exp-bear-crawl",
+      "variant": "male",
+      "sourceHash": "31fdba2e8f2b2e7dc2ee860dbe6589f8ab9c893d130bec4ad73c2c935f85a6ae"
+    },
+    {
+      "exercise": "exp-bear-plank-dumbbell-drag",
+      "variant": "female",
+      "sourceHash": "d6b07b1c1fc7c7682bc60e188246a77e0710eac3f058809980e6b865e27cc8a9"
+    },
+    {
+      "exercise": "exp-bear-plank-dumbbell-drag",
+      "variant": "male",
+      "sourceHash": "2278b17d8d5d21a0f30ba999b82068319f445f9f0f4427b7988c55832f647a7a"
+    },
+    {
+      "exercise": "exp-bear-plank-hold",
+      "variant": "female",
+      "sourceHash": "1eee6e03a81cc02dbc3cbe514d1bfa54b59b8f1336911e14bdd7312b7c2eda31"
+    },
+    {
+      "exercise": "exp-bear-plank-hold",
+      "variant": "male",
+      "sourceHash": "0f8eaf3c458567e17c2c18b58beecd426ef4eb29152cd36f2c14a766d27beb45"
+    },
+    {
+      "exercise": "exp-belt-squat",
+      "variant": "retained",
+      "sourceHash": "fd18178391a2d0400462b9a39fc9685c42c87769d0ff9a769961817243c121da"
+    },
+    {
+      "exercise": "exp-bench-bodyweight-triceps-extension",
+      "variant": "retained",
+      "sourceHash": "687a5392846d7c1e2ffb48c624ce45e1408449c021e24edbe756babc371cc46c"
+    },
+    {
+      "exercise": "exp-bent-over-cable-row",
+      "variant": "female",
+      "sourceHash": "072a508be6564e48d29fd9104a7edae96f392c2a99046af21c9daa84827c50e3"
+    },
+    {
+      "exercise": "exp-bent-over-cable-row",
+      "variant": "male",
+      "sourceHash": "7265b0158fedc37b28d05d9e4506fca70a2c0f2793da1f1098cf0a28de439cb0"
+    },
+    {
+      "exercise": "exp-bodyweight-bench-hip-thrust",
+      "variant": "female",
+      "sourceHash": "764463fe8db1aa60411958a9e692d50846791e9ef1381758b2cec1597666b89f"
+    },
+    {
+      "exercise": "exp-bodyweight-bench-hip-thrust",
+      "variant": "male",
+      "sourceHash": "02457e7d714f003a6e817f9f47f27dac14ee9f93517cc2d1a92f47277254240a"
+    },
+    {
+      "exercise": "exp-bodyweight-bulgarian-split-squat",
+      "variant": "female",
+      "sourceHash": "834dcdf2a1974412b7e30c7f9027fce15f754fd76bc53c3166c4c9f62805acfc"
+    },
+    {
+      "exercise": "exp-bodyweight-bulgarian-split-squat",
+      "variant": "male",
+      "sourceHash": "1c9829080757c655188cc00f603fcf4ff2d6380b77be815d6ed9417e4e0aa8a8"
+    },
+    {
+      "exercise": "exp-bodyweight-clamshell",
+      "variant": "female",
+      "sourceHash": "8960dd4d1885e56a48460834014655758dfada61dc1ff9d3ec28ca668d1c4f0a"
+    },
+    {
+      "exercise": "exp-bodyweight-clamshell",
+      "variant": "male",
+      "sourceHash": "2e89a60051a7a0367a5d5bd56968ac6d8d33649b1ddd89166de998e2a523915c"
+    },
+    {
+      "exercise": "exp-bodyweight-reverse-lunge",
+      "variant": "female",
+      "sourceHash": "62c317b6714a038bdd7ff15d752e4b211bce0e847003df1d74b317eea5c6be54"
+    },
+    {
+      "exercise": "exp-bodyweight-reverse-lunge",
+      "variant": "male",
+      "sourceHash": "dc393daf617903ce23d359d04aa0f931a18166b224b15113d18070a3aa54a743"
+    },
+    {
+      "exercise": "exp-butt-kicks",
+      "variant": "female",
+      "sourceHash": "b4a9b3af0a414fbeece29ab847c3038ee874d6e0022a5494bbc4c09bac0b6106"
+    },
+    {
+      "exercise": "exp-butt-kicks",
+      "variant": "male",
+      "sourceHash": "34297907f55b27851facbfb70b0205da6c572f68da33db2375198bad97e02187"
+    },
+    {
+      "exercise": "exp-cable-drag-curl",
+      "variant": "retained",
+      "sourceHash": "b0a731b2f53491f91cffe48415a8d1799f8d0850faa3605ab25150e99904be89"
+    },
+    {
+      "exercise": "exp-cable-hip-adduction",
+      "variant": "female",
+      "sourceHash": "25c350647ec239a73dc6ab60e5c3f86d412bf97d66f92c3ec7da2d1a06f1ff8e"
+    },
+    {
+      "exercise": "exp-cable-hip-adduction",
+      "variant": "male",
+      "sourceHash": "768575a77092b3f76977809f4f86be829b2ab0b16e5dade622c396e9c002eaf7"
+    },
+    {
+      "exercise": "exp-cable-internal-rotation",
+      "variant": "retained",
+      "sourceHash": "32f1341ede60bbcc36e94fa58a401efb6f481cae1736872da8958d13b9e41105"
+    },
+    {
+      "exercise": "exp-cable-preacher-curl",
+      "variant": "retained",
+      "sourceHash": "c1393abb95a77f987d3fd525678542fcb2a61abaf9b82acf851d21f014c40f18"
+    },
+    {
+      "exercise": "exp-cable-pull-through",
+      "variant": "retained",
+      "sourceHash": "75246949d5d10c41552fdcccf2ae19dec028e6b889a98f2ec43b608be3a8d492"
+    },
+    {
+      "exercise": "exp-cable-rear-delt-fly",
+      "variant": "retained",
+      "sourceHash": "031656c08f7342796c4e73a4e160c97add298f46942f1a3d96b6e66a1b946f56"
+    },
+    {
+      "exercise": "exp-cable-reverse-lunge",
+      "variant": "female",
+      "sourceHash": "2f0d4787834786d91718806e2cd75d7977d064ace99c1378be4b8c49c27f6fd6"
+    },
+    {
+      "exercise": "exp-cable-reverse-lunge",
+      "variant": "male",
+      "sourceHash": "2ac793781dcb123aba0dd9c208a16ad4b69be17d00630617812a8dc96f2763ca"
+    },
+    {
+      "exercise": "exp-cable-scaption-raise",
+      "variant": "retained",
+      "sourceHash": "287e3435860a995f7b293fcae598aaca8fbbe5111cbeb72eac59f142e0a3db6f"
+    },
+    {
+      "exercise": "exp-cable-shrug",
+      "variant": "retained",
+      "sourceHash": "94c929e48cf0763c6df5f96faa181bf02ef74ca655ed9fafffc9659624ec6b75"
+    },
+    {
+      "exercise": "exp-cable-split-squat",
+      "variant": "female",
+      "sourceHash": "bd03144483dd08f689b601c22fc3f93772fbcabb9fb90624d68490dc6a3fb369"
+    },
+    {
+      "exercise": "exp-cable-split-squat",
+      "variant": "male",
+      "sourceHash": "350b6a7e9599000cb7c815d773c231a73b802d8b80c9ec3b3dd9e954564451d9"
+    },
+    {
+      "exercise": "exp-cable-triceps-kickback",
+      "variant": "retained",
+      "sourceHash": "3b703963b482d677931a957382ca9319b91d84f99ec6823018bb508241cf92a8"
+    },
+    {
+      "exercise": "exp-cable-y-raise",
+      "variant": "retained",
+      "sourceHash": "fe05f6b8afed70afc656039daca5ad392aadf4c15619727ebea5cc6815b0e63a"
+    },
+    {
+      "exercise": "exp-captains-chair-knee-raise",
+      "variant": "female",
+      "sourceHash": "9f98add1f7639cf0006c1ab41ddf096855e7b44622d8e1025f651fc076321021"
+    },
+    {
+      "exercise": "exp-captains-chair-knee-raise",
+      "variant": "male",
+      "sourceHash": "f282a8fca15e343dc0b6f0a80033076ac3a91f48d90e005b05c687ec5af3895a"
+    },
+    {
+      "exercise": "exp-chest-supported-barbell-row",
+      "variant": "retained",
+      "sourceHash": "d3197f4f7b6357152c469f1d81a41923d1af04b523504cd3fe67733992d68609"
+    },
+    {
+      "exercise": "exp-childs-pose-lat-reach",
+      "variant": "female",
+      "sourceHash": "7cc0b81769ff6ee20d9b5a15dd02726c8917f1658e78d137b99b28bfbdfab230"
+    },
+    {
+      "exercise": "exp-childs-pose-lat-reach",
+      "variant": "male",
+      "sourceHash": "88b3addd920bd815df2b94fe2de9c49c2d8a1ac44c151a9cc9febf910d798b32"
+    },
+    {
+      "exercise": "exp-close-grip-barbell-bench-press",
+      "variant": "retained",
+      "sourceHash": "e149d56c851c550d60236b2097b6129f40fe777f9b30872aa408b8c27cbf5847"
+    },
+    {
+      "exercise": "exp-close-grip-barbell-floor-press",
+      "variant": "retained",
+      "sourceHash": "d4d0b254249a86df377d7d53fe0ceb906882f5b846b2079f59310ffd64714e5c"
+    },
+    {
+      "exercise": "exp-cross-body-cable-triceps-extension",
+      "variant": "retained",
+      "sourceHash": "dade03779ab90a90298e834cbaf0c2fe6ed2888e512108e03fc6102ef37114ba"
+    },
+    {
+      "exercise": "exp-crossover-step-up",
+      "variant": "female",
+      "sourceHash": "b9bf5207ae2087b3190c591bfa939ad773a6d9b65efb6fa9389fcb933aa9ebb8"
+    },
+    {
+      "exercise": "exp-crossover-step-up",
+      "variant": "male",
+      "sourceHash": "ad73b7f145b9005dc4f0afa7491e305e0812b79490e80c9c442cf6d1035f867c"
+    },
+    {
+      "exercise": "exp-dead-hang",
+      "variant": "female",
+      "sourceHash": "4d14045c193b87310c3358a2916f4cf88cde182165e1be45634124403d83cd0c"
+    },
+    {
+      "exercise": "exp-dead-hang",
+      "variant": "male",
+      "sourceHash": "d84d21b25b9f294f9879250787225d5afe279fb197d22cc22a5f3e9fde16e60f"
+    },
+    {
+      "exercise": "exp-decline-barbell-bench-press",
+      "variant": "retained",
+      "sourceHash": "d9366eb50232be75e47a0ce0d73d8adb7df8b0d79166fd4184797117dbad4def"
+    },
+    {
+      "exercise": "exp-decline-dumbbell-bench-press",
+      "variant": "female",
+      "sourceHash": "c96c67b2616916cc3ad42e3a652875ab62047ed70257d81f3dc5e083ea5a8543"
+    },
+    {
+      "exercise": "exp-decline-dumbbell-bench-press",
+      "variant": "male",
+      "sourceHash": "4b4ee8df67ab82cfe7bbe3c08d01367738eb5f4808efca363bde3ed984fe9dd3"
+    },
+    {
+      "exercise": "exp-decline-dumbbell-chest-fly",
+      "variant": "female",
+      "sourceHash": "9a2b0afc633809579f5b068b7e5a22008be0ec8d2a218bdf26219e578f6305c9"
+    },
+    {
+      "exercise": "exp-decline-dumbbell-chest-fly",
+      "variant": "male",
+      "sourceHash": "2450689ec5d397941f1141d9dd11b5fe3fc81847f1a11e59bfb705cfdfb5977a"
+    },
+    {
+      "exercise": "exp-decline-push-up",
+      "variant": "female",
+      "sourceHash": "43c961780a00498e669b5aa96bed2a12a863332238e0c30b13fe6dbfc8c187ad"
+    },
+    {
+      "exercise": "exp-decline-push-up",
+      "variant": "male",
+      "sourceHash": "829f0d51e134c4b0bb26c16b6b3e2c72ecf1187bc2494b28c4681a5ae9d3d6c2"
+    },
+    {
+      "exercise": "exp-donkey-calf-raise-machine",
+      "variant": "retained",
+      "sourceHash": "4c64e1f9fb2cb066a5ab4ab96d47a6b72eea7eba79a6e4e4a1e0ed338df7b788"
+    },
+    {
+      "exercise": "exp-doorway-chest-stretch",
+      "variant": "female",
+      "sourceHash": "53169777b22da93829a3a384d8633456d1c4c74f22341ce0bc4099867aeb6ac2"
+    },
+    {
+      "exercise": "exp-doorway-chest-stretch",
+      "variant": "male",
+      "sourceHash": "f1b01a7ed02f27fc37aac3affcf92c771435a5e6fe8427d546244bb217923792"
+    },
+    {
+      "exercise": "exp-dumbbell-curl-isometric-hold",
+      "variant": "female",
+      "sourceHash": "1a855b67dbbcf1660359866564d2a7c22a0c58f9280db9801432781f9a1cf800"
+    },
+    {
+      "exercise": "exp-dumbbell-curl-isometric-hold",
+      "variant": "male",
+      "sourceHash": "57345890c4f45f84cc6e8ee84569720affceb8b68bd91243b95e581f5a539f27"
+    },
+    {
+      "exercise": "exp-dumbbell-curtsy-lunge",
+      "variant": "female",
+      "sourceHash": "bc240bd56ad9f8a35b025a473e771b48ff852b0fd8c416889444e413e383249e"
+    },
+    {
+      "exercise": "exp-dumbbell-curtsy-lunge",
+      "variant": "male",
+      "sourceHash": "1a9a4177eba0a33e17f9103d3c457f307637691635bc4e2b85a49400937a2fad"
+    },
+    {
+      "exercise": "exp-dumbbell-deadlift",
+      "variant": "retained",
+      "sourceHash": "b0b7304ba240594b5cfb98f05ed2a24781336fa7df586746534f3e404ed6b305"
+    },
+    {
+      "exercise": "exp-dumbbell-floor-press",
+      "variant": "retained",
+      "sourceHash": "32d2a58a2e24d2f434696efc70e1db3685bc05de8624bce50a483b61286082b1"
+    },
+    {
+      "exercise": "exp-dumbbell-forward-lunge",
+      "variant": "female",
+      "sourceHash": "256aca5b43daab98939026913094bd87b6fdb1bf641560e4bad0a1edbba3a215"
+    },
+    {
+      "exercise": "exp-dumbbell-forward-lunge",
+      "variant": "male",
+      "sourceHash": "980d6c54c7ad8882dd226cbf7f543c13e6868e2bc858bc38c42e43db1a622632"
+    },
+    {
+      "exercise": "exp-dumbbell-front-squat",
+      "variant": "female",
+      "sourceHash": "c0ade24cd8b6457acad02677549acaa0f9ae1ef9a561c9a353e9ee15a8d94a19"
+    },
+    {
+      "exercise": "exp-dumbbell-front-squat",
+      "variant": "male",
+      "sourceHash": "3c5ca3f5cfe3958dc54de5880c8aa2774e4b8ffd33c969b98c68cb9c21df3637"
+    },
+    {
+      "exercise": "exp-dumbbell-glute-bridge",
+      "variant": "retained",
+      "sourceHash": "fd3e6accf242ffcc054779bfda0b6aeab383fbe162a6b694f843dd5a9b7cbe7c"
+    },
+    {
+      "exercise": "exp-dumbbell-hip-thrust",
+      "variant": "female",
+      "sourceHash": "fd9cb5b98603bef5e5f2fd5fcf8ee175bab5c0e977133b21828195fef1fb5aa5"
+    },
+    {
+      "exercise": "exp-dumbbell-hip-thrust",
+      "variant": "male",
+      "sourceHash": "5d19ae47ce8f6b9852a848d2353611eded573ebbd0689659174c4e401792b064"
+    },
+    {
+      "exercise": "exp-dumbbell-lateral-lunge",
+      "variant": "female",
+      "sourceHash": "728f25c9f82e2ebb2b47f47f11f1d5102f4d90677eec191db23f8c7decaea911"
+    },
+    {
+      "exercise": "exp-dumbbell-lateral-lunge",
+      "variant": "male",
+      "sourceHash": "5ce1800ddba4bf87ef0a25915acb4e2e02fd261c9cd45a9461dcb1ee2a29ce20"
+    },
+    {
+      "exercise": "exp-dumbbell-lying-triceps-extension",
+      "variant": "retained",
+      "sourceHash": "5eca3e4c7c00c8c031ea2174e31f0c604be0b2ee281580249dd594a533ad515d"
+    },
+    {
+      "exercise": "exp-dumbbell-push-press",
+      "variant": "retained",
+      "sourceHash": "e32bb3d5b63795d9370b9db6a900cafc9f1662707196c475f8b3216cd308a3eb"
+    },
+    {
+      "exercise": "exp-dumbbell-radial-deviation",
+      "variant": "retained",
+      "sourceHash": "530de221ec00e1213c1c62e46e7367b58f5385cd780e8ebb5b759b2f2822347a"
+    },
+    {
+      "exercise": "exp-dumbbell-reverse-lunge",
+      "variant": "female",
+      "sourceHash": "fc1e88f6ad47ab5e4ab0e87276b13e6138d46504280c62d252067cd23d236530"
+    },
+    {
+      "exercise": "exp-dumbbell-reverse-lunge",
+      "variant": "male",
+      "sourceHash": "53a953f76996f10f6713af46c3859c164da7d766d1bf2b680efcafb539eeb44e"
+    },
+    {
+      "exercise": "exp-dumbbell-romanian-deadlift",
+      "variant": "retained",
+      "sourceHash": "f45bb05b3d004eb30b1d0c088f4d0a096a7b76831b2788e7ded24acfbe25713e"
+    },
+    {
+      "exercise": "exp-dumbbell-serratus-punch",
+      "variant": "retained",
+      "sourceHash": "6e3313c9d398f7247fd53f8530c242da2e6568f6dba283b9efafe858702f00b4"
+    },
+    {
+      "exercise": "exp-dumbbell-shrug",
+      "variant": "female",
+      "sourceHash": "5b24b77c7b6683f14f8a75fe1a0466fc52187c40d933ff2f52715ab99caa2306"
+    },
+    {
+      "exercise": "exp-dumbbell-shrug",
+      "variant": "male",
+      "sourceHash": "3df59a49636d8e8faf23175731ba7b23a66c5b2084c5dcea940ee49f03914736"
+    },
+    {
+      "exercise": "exp-dumbbell-split-squat",
+      "variant": "female",
+      "sourceHash": "ac1ca7e1cea3e9ffa95117719f879b36ae62376f32eec0c1b552a9213f17c01f"
+    },
+    {
+      "exercise": "exp-dumbbell-split-squat",
+      "variant": "male",
+      "sourceHash": "3c25470057be09977e9680877a024e48a768cfba691337dba0783c1b815843c4"
+    },
+    {
+      "exercise": "exp-dumbbell-squeeze-press",
+      "variant": "retained",
+      "sourceHash": "63f97b11a8bf7cea600540e077579a1caf4d968d3be2d6a358b052ab97e985bc"
+    },
+    {
+      "exercise": "exp-dumbbell-step-up",
+      "variant": "female",
+      "sourceHash": "f3a7d42ee8344c75597e019991bef3ed8bf2f88366c77c97c68009d92f35e8fe"
+    },
+    {
+      "exercise": "exp-dumbbell-step-up",
+      "variant": "male",
+      "sourceHash": "bd0bf57617daed635ee1c95d3b3c81328a6abba9e668882f49b56ca9b258a414"
+    },
+    {
+      "exercise": "exp-dumbbell-suitcase-squat",
+      "variant": "female",
+      "sourceHash": "2fec57212af6896c4f37c4db4de151ba77556dfc0683a97737232eff22361090"
+    },
+    {
+      "exercise": "exp-dumbbell-suitcase-squat",
+      "variant": "male",
+      "sourceHash": "a5b646faae6d8eeaa57195ebf1e894d6eeb31e3ff9768f41444595fdda9c0df3"
+    },
+    {
+      "exercise": "exp-dumbbell-thruster",
+      "variant": "female",
+      "sourceHash": "6cfa9e135d52c8026c2fbd3a6acbdfddf2c74cecad059596e5a167de49d3b4f1"
+    },
+    {
+      "exercise": "exp-dumbbell-thruster",
+      "variant": "male",
+      "sourceHash": "672b58c601333aa8f69db0b3d7057427b18ba91e8cfe930d690b6a567306c7c8"
+    },
+    {
+      "exercise": "exp-dumbbell-walking-lunge",
+      "variant": "female",
+      "sourceHash": "fcc8a7c200176181d0d9380b5a95014fcda8bc83141607c22498787cc7a1db3c"
+    },
+    {
+      "exercise": "exp-dumbbell-walking-lunge",
+      "variant": "male",
+      "sourceHash": "fe7c385a0e7b0ce5f17806bfe7bbceb0967a5b75ce1aaa1b351ae6ca2e2384e2"
+    },
+    {
+      "exercise": "exp-dumbbell-windmill",
+      "variant": "female",
+      "sourceHash": "8adf4bf309bbbb5e1f5ae9665947b80079238ffa02f362a3bb1a6a8a8ae9e6a0"
+    },
+    {
+      "exercise": "exp-dumbbell-windmill",
+      "variant": "male",
+      "sourceHash": "2a171c984f68d7fc809f94764c04605524f8b1407695821325fefd3bdf93e111"
+    },
+    {
+      "exercise": "exp-elliptical-trainer",
+      "variant": "female",
+      "sourceHash": "76c1f2de5a96b8d58203b40ac9c5e8275d55a20ed63949f2f0423bbde2f53b2b"
+    },
+    {
+      "exercise": "exp-elliptical-trainer",
+      "variant": "male",
+      "sourceHash": "51e5c4dbd2de978ddf7b06098dccff3021ff10743dc079eeb860f1f2c7bf9a54"
+    },
+    {
+      "exercise": "exp-ez-bar-lying-triceps-extension",
+      "variant": "retained",
+      "sourceHash": "c4e52baee37a406ff61a03f49965669f9d875a1c3ff04a9b7e2d58b9a878db87"
+    },
+    {
+      "exercise": "exp-farmers-carry",
+      "variant": "female",
+      "sourceHash": "9400f398cf81e8cfec38280b85b2349eb6ce6294826087600be11554d7478ff9"
+    },
+    {
+      "exercise": "exp-farmers-carry",
+      "variant": "male",
+      "sourceHash": "83529d659a7536d820f9ca9a33e841b3549ddd76bd41dc41f9e95b273612dbfc"
+    },
+    {
+      "exercise": "exp-feet-elevated-glute-bridge",
+      "variant": "female",
+      "sourceHash": "af20a6abe41d22b90f48d119294dacc50181249e9e90d40103a440fd8c649555"
+    },
+    {
+      "exercise": "exp-feet-elevated-glute-bridge",
+      "variant": "male",
+      "sourceHash": "b6e3cad93a4788ba892b79b345aa11ee48918824cbc55baba04dd1d86af1af4e"
+    },
+    {
+      "exercise": "exp-finger-band-extension",
+      "variant": "retained",
+      "sourceHash": "91204a86ebd59734c1d60fab107921583e7a07cb9874c531ebf0b1e30b5c81c0"
+    },
+    {
+      "exercise": "exp-flutter-kick",
+      "variant": "female",
+      "sourceHash": "a15f6182dfe086ca052e0eb8ed7614d051179f23cffa70f7f9804c4996c5cc24"
+    },
+    {
+      "exercise": "exp-flutter-kick",
+      "variant": "male",
+      "sourceHash": "cae83e06cd717e0626e3c0f559893342f0cc0100f5d355a0bf225183c125f1f4"
+    },
+    {
+      "exercise": "exp-forearm-plank",
+      "variant": "female",
+      "sourceHash": "4e037f3198c360b78d98f54e5f62b9f9a88f1ef489520cfb1fcbe92200c286cd"
+    },
+    {
+      "exercise": "exp-forearm-plank",
+      "variant": "male",
+      "sourceHash": "88f3a2787eed1feeea3067e51a648989f465d0ec5a08b38efbac5ad1af55b7d3"
+    },
+    {
+      "exercise": "exp-forearm-pronation-supination",
+      "variant": "retained",
+      "sourceHash": "6e5486c4ac3c3a2462852a91afaa08eb6745ee31ed069eb1d97b2a25d9dc6070"
+    },
+    {
+      "exercise": "exp-forward-step-down",
+      "variant": "female",
+      "sourceHash": "43d0a088450d895070b0071c3f321bce7f339286d0f2390bc071214a1d7a52d7"
+    },
+    {
+      "exercise": "exp-forward-step-down",
+      "variant": "male",
+      "sourceHash": "776d7e4126efe8dcce8a36a4f363e8a964c33a79d2f2f22f8fd5a7817841b1b0"
+    },
+    {
+      "exercise": "exp-front-foot-elevated-split-squat",
+      "variant": "female",
+      "sourceHash": "24679df47454b658eca2a960f11d259e2ad2c3515cf7981991e56ed3c2a2b888"
+    },
+    {
+      "exercise": "exp-front-foot-elevated-split-squat",
+      "variant": "male",
+      "sourceHash": "1472c4d467a3f5861870d8a521f18f6031d832dcb69ccfd8ed97b24bba5af3aa"
+    },
+    {
+      "exercise": "exp-gentle-neck-rotation",
+      "variant": "female",
+      "sourceHash": "cd9c19ef72b72f3c4b7eafa28584c9502f4572293739296b0a351cf5fca96f45"
+    },
+    {
+      "exercise": "exp-gentle-neck-rotation",
+      "variant": "male",
+      "sourceHash": "f42f400ed4646d3642cf374d640da58d5d341b07e34de888790766f5b810edb2"
+    },
+    {
+      "exercise": "exp-glute-ham-raise",
+      "variant": "female",
+      "sourceHash": "f70f941c849e8cd4f39fa89533df6d8f9638f2eb79d06253c63f79997f3218d5"
+    },
+    {
+      "exercise": "exp-glute-ham-raise",
+      "variant": "male",
+      "sourceHash": "f386012aa1d6fddf2b77106d47b5da939b18e38fcb32ae19581c3100a625396f"
+    },
+    {
+      "exercise": "exp-hack-squat-machine",
+      "variant": "female",
+      "sourceHash": "8e0c3bbe695f197d6a0b33473550122bc8d466484d0331c22f36a7ef2659c6df"
+    },
+    {
+      "exercise": "exp-hack-squat-machine",
+      "variant": "male",
+      "sourceHash": "43b812fd7951edb3a7c97744a6ecfabcdb518a87b9659e2b08b5fdc314f1746b"
+    },
+    {
+      "exercise": "exp-hamstring-walkout",
+      "variant": "retained",
+      "sourceHash": "f589355534e2fff1ae5bded3473436836ea25e7e7cc454e16605d074a3ba1892"
+    },
+    {
+      "exercise": "exp-hand-gripper-squeeze",
+      "variant": "female",
+      "sourceHash": "ce0f5b3d593e004e0f3dada242e8ffebe7b2a9cad8c0734cc94542ac6013d738"
+    },
+    {
+      "exercise": "exp-hand-gripper-squeeze",
+      "variant": "male",
+      "sourceHash": "e7f6011f52f665747074cce09f666e8077620e0e3b45488e7531c5d10373e33e"
+    },
+    {
+      "exercise": "exp-hanging-straight-leg-raise",
+      "variant": "female",
+      "sourceHash": "2585dd41309092f6d1ffb250ff034afca2ca690d233eea820f06d2a7890799f9"
+    },
+    {
+      "exercise": "exp-hanging-straight-leg-raise",
+      "variant": "male",
+      "sourceHash": "0337e393af401088c9972693a2eb3017dd1bcce8142a6f245d0b06122a408a71"
+    },
+    {
+      "exercise": "exp-high-knees",
+      "variant": "retained",
+      "sourceHash": "93e45ded5b486f17b3c8e531f253d6ff3a2e942dd7151d3550450815e23ec781"
+    },
+    {
+      "exercise": "exp-high-to-low-cable-chest-fly",
+      "variant": "retained",
+      "sourceHash": "32042fa19364be59fba33dfbd576348831ca6964b33a44cc5cbe291543ad5242"
+    },
+    {
+      "exercise": "exp-hip-thrust-machine",
+      "variant": "retained",
+      "sourceHash": "405f98c48e1e9d81d5472c787c4edb834279047439e5312b6913797b09382768"
+    },
+    {
+      "exercise": "exp-hollow-body-hold",
+      "variant": "female",
+      "sourceHash": "a5b1b1b5066901f7d86bc464aafb8477d09e6a605a199c3f8081912a383979a4"
+    },
+    {
+      "exercise": "exp-hollow-body-hold",
+      "variant": "male",
+      "sourceHash": "0db1647c0b05bdc438345dbf8a8109321f2ac84d8f87007d33f245d664ecab50"
+    },
+    {
+      "exercise": "exp-horizontal-leg-press",
+      "variant": "female",
+      "sourceHash": "92da1759f64405525c391e6ffc291089534db382615497747e82b73be4871e12"
+    },
+    {
+      "exercise": "exp-horizontal-leg-press",
+      "variant": "male",
+      "sourceHash": "97373123c0c9c7ae87996180b45532a3c18cc937f0cc468f47e60d24d4967e38"
+    },
+    {
+      "exercise": "exp-inchworm-walkout",
+      "variant": "female",
+      "sourceHash": "1e49a089e3118bc7c45580b132294633e872ef6b40ab83e2ba5961c9d0106f6c"
+    },
+    {
+      "exercise": "exp-inchworm-walkout",
+      "variant": "male",
+      "sourceHash": "3e9e6fc8934115a2fe88260a6e7614746ccc09111789d28dbe27cc7e0e1fe71e"
+    },
+    {
+      "exercise": "exp-incline-barbell-bench-press",
+      "variant": "retained",
+      "sourceHash": "a7ad1ada57e896bebdef867e87bfa59f8bc020f5e36c4cdcc5a3b14a4b8ee08e"
+    },
+    {
+      "exercise": "exp-incline-dumbbell-bench-press",
+      "variant": "retained",
+      "sourceHash": "5567ef048cc5e9cf7d9dd9c9bdb1b8f6904d4afe8ef7a9455bc326b0b06677e6"
+    },
+    {
+      "exercise": "exp-incline-dumbbell-chest-fly",
+      "variant": "retained",
+      "sourceHash": "ca3e8056b7055d74b0c5d626fe8e96132408ba2e53e3bfbe71835c1c8269278f"
+    },
+    {
+      "exercise": "exp-incline-dumbbell-hammer-curl",
+      "variant": "retained",
+      "sourceHash": "cfc1f6d2cfc48f1e2ec0b3ee9809b3470d87ba909275ff123d1fe3be46a096e0"
+    },
+    {
+      "exercise": "exp-incline-machine-chest-press",
+      "variant": "female",
+      "sourceHash": "4005c8da34e065171247a516dc9ccfea39a3a32da9aee348bb468ebf3e7420e4"
+    },
+    {
+      "exercise": "exp-incline-machine-chest-press",
+      "variant": "male",
+      "sourceHash": "5d8803bbd9714970883df2fd1cfb5be80a161c2e8e15ebd82fc54f6fc9972391"
+    },
+    {
+      "exercise": "exp-incline-push-up",
+      "variant": "female",
+      "sourceHash": "e1256b4f72ddb66eb66f9ee53098815fcb3398c23eebb1532976e199c5b7ac97"
+    },
+    {
+      "exercise": "exp-incline-push-up",
+      "variant": "male",
+      "sourceHash": "5182ea645f2947d97ab186b5536118363f11a4bbc9870a2321dec3cb521fd4c1"
+    },
+    {
+      "exercise": "exp-jump-rope",
+      "variant": "female",
+      "sourceHash": "7acd5fb3e5a7963230527b40de206e8d39ae5131fb615eb77de55ed8445c6a1e"
+    },
+    {
+      "exercise": "exp-jump-rope",
+      "variant": "male",
+      "sourceHash": "48ef65f358181305c61bb48719276edddc17c974a7d0d5b472de83250cca6841"
+    },
+    {
+      "exercise": "exp-kettlebell-bent-over-row",
+      "variant": "retained",
+      "sourceHash": "093ef2c42e91ee099c183a30ef419dfa91a1b9fcf7cfc14ef510270d3db72ac8"
+    },
+    {
+      "exercise": "exp-kettlebell-biceps-curl",
+      "variant": "retained",
+      "sourceHash": "bab1d98f490c3c3317be101d4c397915645bc7df65b4bb58dcbe99362c519b92"
+    },
+    {
+      "exercise": "exp-kettlebell-deadlift",
+      "variant": "female",
+      "sourceHash": "db88be81b3e6ac3576f2d3edd36d511e375d9920d6b0278faa2515f17d512f25"
+    },
+    {
+      "exercise": "exp-kettlebell-deadlift",
+      "variant": "male",
+      "sourceHash": "1edacee2df2ae57cc36b6f0be7d046e2d0f4eb46ef5f3a69a411e17448821901"
+    },
+    {
+      "exercise": "exp-kettlebell-floor-press",
+      "variant": "retained",
+      "sourceHash": "a2e500219496a6b91b41bd6090d5871d999def4472b5971fdab9fc6f84729bef"
+    },
+    {
+      "exercise": "exp-kettlebell-romanian-deadlift",
+      "variant": "retained",
+      "sourceHash": "13cfaaafeee7bfb285f4e93fd59a7b5b2ba6ccb935f9d39a386b9b7fc6c27c72"
+    },
+    {
+      "exercise": "exp-kettlebell-shoulder-press",
+      "variant": "retained",
+      "sourceHash": "0718c6515077a129372a6f665b56e8e944c13fd8bd093741728cb303ae45a024"
+    },
+    {
+      "exercise": "exp-knee-to-wall-ankle-mobilization",
+      "variant": "female",
+      "sourceHash": "1cb33a25595d94c510352730d30b57e0b3eb36e8f1aa324bbd3d0f0ccd9a39e4"
+    },
+    {
+      "exercise": "exp-knee-to-wall-ankle-mobilization",
+      "variant": "male",
+      "sourceHash": "e3b84f72a5a4a341da1e12a126f183999839f4cb01c535ba84846b65c4873a3e"
+    },
+    {
+      "exercise": "exp-kneeling-ab-wheel-rollout",
+      "variant": "female",
+      "sourceHash": "ec9e6f7dd964e1b8abef0ed0738e4c77dcfb2cd5b74d41483acad295b43bbee5"
+    },
+    {
+      "exercise": "exp-kneeling-ab-wheel-rollout",
+      "variant": "male",
+      "sourceHash": "9a04135f103c002d08a15f751f25810a7a376c4cfd015af919fcba8c22c4b135"
+    },
+    {
+      "exercise": "exp-kneeling-cable-crunch",
+      "variant": "female",
+      "sourceHash": "c395f8c7900f0bec0164f3521036f848ad37598ef211a85e667216ec13d7e7f7"
+    },
+    {
+      "exercise": "exp-kneeling-cable-crunch",
+      "variant": "male",
+      "sourceHash": "5cfb08c80e1d0dd9bb65ee489c5c4b7641c1272c2057c5f996ce17f339cbc916"
+    },
+    {
+      "exercise": "exp-kneeling-leg-curl-machine",
+      "variant": "female",
+      "sourceHash": "e9e73615fbaeb971f6647fc212f87e3b804252e23f256c0ba11c0244d8be1172"
+    },
+    {
+      "exercise": "exp-kneeling-leg-curl-machine",
+      "variant": "male",
+      "sourceHash": "cc9cc7995669f6b74d000e6750eb3fc31b53a377b829d258ea73a77004b9d874"
+    },
+    {
+      "exercise": "exp-kneeling-push-up",
+      "variant": "female",
+      "sourceHash": "4a00def68409356025fc184b86cbd40dde3cc83e9ace29656b03416312fa93d3"
+    },
+    {
+      "exercise": "exp-kneeling-push-up",
+      "variant": "male",
+      "sourceHash": "1536b2b9c38079f3e52b883c4d18c099ac970ebe4fafc55c3b1b9dbbe9a18b87"
+    },
+    {
+      "exercise": "exp-landmine-squat",
+      "variant": "female",
+      "sourceHash": "b545883844f0252260d2fef4ca49fbae07aaad7f13eb03b828de72fb927d34e1"
+    },
+    {
+      "exercise": "exp-landmine-squat",
+      "variant": "male",
+      "sourceHash": "66139200597921154f98054c30bc58c2b14c57cc6bda44fac255f8f2366b237e"
+    },
+    {
+      "exercise": "exp-lateral-shuffle",
+      "variant": "female",
+      "sourceHash": "a004ad326e78af6fc1e41b6adb2d3d18005e356cc3f74f632cc764a5b610c500"
+    },
+    {
+      "exercise": "exp-lateral-shuffle",
+      "variant": "male",
+      "sourceHash": "ad7fbb46ac9f2145b8608abb1666b3540bfd46ae8677d9baf0fca481d22055ab"
+    },
+    {
+      "exercise": "exp-lateral-step-up",
+      "variant": "female",
+      "sourceHash": "e73e90c938437c2c6456a3411270da5735d37a9b96279e0d04a5acbc8443ef7f"
+    },
+    {
+      "exercise": "exp-lateral-step-up",
+      "variant": "male",
+      "sourceHash": "807070fd665d2a43b0ddd77319d0eb6746aa08b33d638f6da23a1e085fafba3d"
+    },
+    {
+      "exercise": "exp-leg-press-calf-raise",
+      "variant": "retained",
+      "sourceHash": "5d7a1d59060fd5c3ed5058ff3a2564d58e2f50fd2cf2904d839ffcbc11b35f66"
+    },
+    {
+      "exercise": "exp-low-to-high-cable-chest-fly",
+      "variant": "retained",
+      "sourceHash": "999fc8bd3ea6e1f56449461e64b7432323565b6be8a65beadc0817d4394f09e8"
+    },
+    {
+      "exercise": "exp-lying-cable-triceps-extension",
+      "variant": "retained",
+      "sourceHash": "f609094ec4f68829b5401edced24de2c10b460251568c6bd29a837b05fbc835c"
+    },
+    {
+      "exercise": "exp-machine-assisted-pull-up",
+      "variant": "retained",
+      "sourceHash": "aa47c13f446d5f469d1145b39c10a9d4e64deca2c242a2bcfb6839d2da935363"
+    },
+    {
+      "exercise": "exp-machine-chest-press",
+      "variant": "retained",
+      "sourceHash": "c1f9ac4008725d61a946c5c8347c05acade4390e0b1af5eee8a010387964ee2f"
+    },
+    {
+      "exercise": "exp-machine-lateral-raise",
+      "variant": "female",
+      "sourceHash": "630d2cd70d6a73853d735186aa7f218cc7294521827522398984adbfc71c5356"
+    },
+    {
+      "exercise": "exp-machine-lateral-raise",
+      "variant": "male",
+      "sourceHash": "91d2e7064416a1976ad01a5e8b4763b042a0a1133f66ab6b734c1e709f61d607"
+    },
+    {
+      "exercise": "exp-machine-pullover",
+      "variant": "retained",
+      "sourceHash": "8497850ab05e02bfa534e6d2f8e4f695ea73877d0e4c3df8a2e4b6a90e8d409b"
+    },
+    {
+      "exercise": "exp-machine-triceps-extension",
+      "variant": "retained",
+      "sourceHash": "a0284ec659ad7dba78c9827bd393af0e8c50f8f6d925fea9dbeebe0ab0036a50"
+    },
+    {
+      "exercise": "exp-medicine-ball-chest-pass",
+      "variant": "retained",
+      "sourceHash": "a5a2a35c7f6b2ba6a99358f6bf81f02dab521382376d00d4decf048ce1528c38"
+    },
+    {
+      "exercise": "exp-medicine-ball-rotational-slam",
+      "variant": "retained",
+      "sourceHash": "0612f8d1d4da7eae7a039644910048cccabab3345d06c338481d971437e00a0a"
+    },
+    {
+      "exercise": "exp-medicine-ball-slam",
+      "variant": "female",
+      "sourceHash": "79fdd75ec99abb069779a015b5fdedd75d06d0c61bbb1a3bebe9772dbe4d7e1a"
+    },
+    {
+      "exercise": "exp-medicine-ball-slam",
+      "variant": "male",
+      "sourceHash": "d768bf94bb66cf6a25222afae6662867b391f015cf8e38142e1ed391bbc59d6b"
+    },
+    {
+      "exercise": "exp-pallof-walkout",
+      "variant": "female",
+      "sourceHash": "5a8c6f94dc992d3b04b22451c53cd30f5b4eb8fbc105711365f2b00f59fd47c4"
+    },
+    {
+      "exercise": "exp-pallof-walkout",
+      "variant": "male",
+      "sourceHash": "8204cb7b7194246c5506d8abe9257ce072282a36b7d711c06035d4f3a2cec8d0"
+    },
+    {
+      "exercise": "exp-parallel-bar-triceps-dip",
+      "variant": "female",
+      "sourceHash": "391b5a28de61d412b996fd81d3892299532c028e3dc3d8f8c499e1d58f1dd1c8"
+    },
+    {
+      "exercise": "exp-parallel-bar-triceps-dip",
+      "variant": "male",
+      "sourceHash": "4ecec464d712e77e3ca034b1265d3b56a354f20d2fdbaa958ae09393cc36d893"
+    },
+    {
+      "exercise": "exp-pec-deck-chest-fly",
+      "variant": "female",
+      "sourceHash": "519e464f36df32a0f16bdaad552cb50873ed3107e6c4cdc70fc79779072de749"
+    },
+    {
+      "exercise": "exp-pec-deck-chest-fly",
+      "variant": "male",
+      "sourceHash": "1734f3a3911dab8fd4f86d1e901e1b4873e6c686f55aac5c7d6084f1f6ebf6c0"
+    },
+    {
+      "exercise": "exp-plank-shoulder-tap",
+      "variant": "female",
+      "sourceHash": "74a31b48073127b80d6fd790bcbf08b7913a6eaa7d3e405a26853d1079b1ae2c"
+    },
+    {
+      "exercise": "exp-plank-shoulder-tap",
+      "variant": "male",
+      "sourceHash": "b758658ca814659fb57bb1f8e20ffd0c74e597fb4f0f0ac922902a08d2efbc7b"
+    },
+    {
+      "exercise": "exp-plate-loaded-lat-pulldown",
+      "variant": "retained",
+      "sourceHash": "11d39632ab62e2054cc15fb80767a357af853ee50f542c4b60bdfa8cd488e7ef"
+    },
+    {
+      "exercise": "exp-plate-pinch-hold",
+      "variant": "female",
+      "sourceHash": "8e638f2a750d1bf356c85e2f71af35c4ff7b565ee925c48c107e9f6532b31ab9"
+    },
+    {
+      "exercise": "exp-plate-pinch-hold",
+      "variant": "male",
+      "sourceHash": "8f3716cf7929cffd32d4bef7ba5e3e6772d0da49f51dd2149e5e39d4acb3ed41"
+    },
+    {
+      "exercise": "exp-prone-cobra-hold",
+      "variant": "female",
+      "sourceHash": "66479bb87ed8faa290bc8fc3e089148f9daa9268d2b069ed6de26279ca84a536"
+    },
+    {
+      "exercise": "exp-prone-cobra-hold",
+      "variant": "male",
+      "sourceHash": "d8d2cc332e0778523b82def9a151e25c1590c408583cbf2cb21070c0668a87b5"
+    },
+    {
+      "exercise": "exp-prone-dumbbell-i-raise",
+      "variant": "retained",
+      "sourceHash": "bb4d58d022856aec4eb73b09a9ac8d21a9688ad85cea141d8a168d76652402ed"
+    },
+    {
+      "exercise": "exp-prone-dumbbell-w-raise",
+      "variant": "retained",
+      "sourceHash": "3e3032e7adab2abbfc80a28ba765e9f25b61ed190f5aa8d097889dcc921de61d"
+    },
+    {
+      "exercise": "exp-prone-press-up",
+      "variant": "female",
+      "sourceHash": "57fe2eb0b7e781eab421ae9f7783a92a2f394ed4833056c943fd6978a17e2f16"
+    },
+    {
+      "exercise": "exp-prone-press-up",
+      "variant": "male",
+      "sourceHash": "de6ff03cc5e4344bc515794436772ceb88f8091dc10ae8df9b637ead09e928a2"
+    },
+    {
+      "exercise": "exp-quadruped-adductor-rock-back",
+      "variant": "female",
+      "sourceHash": "dbdfbe296610e74235d4c9e0511d8049d3272d558520b8badd0d546f0c75203c"
+    },
+    {
+      "exercise": "exp-quadruped-adductor-rock-back",
+      "variant": "male",
+      "sourceHash": "6009a01f44c7642b3322bc7b869adfba9c8f22689909e4a6e595aa526736dc42"
+    },
+    {
+      "exercise": "exp-quadruped-thread-the-needle",
+      "variant": "female",
+      "sourceHash": "db76b859424a5e716074bab5a8bc1c207394846a97d0a72618559c8e9c9ea9d8"
+    },
+    {
+      "exercise": "exp-quadruped-thread-the-needle",
+      "variant": "male",
+      "sourceHash": "30ea0e394d9bb69213b79aa9a59e2a0e198696acd57cf42397e42bb40bb38157"
+    },
+    {
+      "exercise": "exp-quadruped-wrist-rock",
+      "variant": "female",
+      "sourceHash": "037e949332be6c6d83dfbf95bdcb56db53ec6d4a07e8f60559ac90282e83be54"
+    },
+    {
+      "exercise": "exp-quadruped-wrist-rock",
+      "variant": "male",
+      "sourceHash": "ce6ab0d29955e8b4cdc45152f2b885e6aedd19845a58c69ce3e32e2e585666b9"
+    },
+    {
+      "exercise": "exp-renegade-row",
+      "variant": "female",
+      "sourceHash": "1b240d27c96e02992ee87007ce2c4710aa717d5414009e2690eababd2dd69096"
+    },
+    {
+      "exercise": "exp-renegade-row",
+      "variant": "male",
+      "sourceHash": "e9eae5e351db0e4e2671fe7ac6ce61cdbad857050b9ca418b99e248d941245ff"
+    },
+    {
+      "exercise": "exp-resistance-band-bent-over-row",
+      "variant": "retained",
+      "sourceHash": "9740283d87f00aab6be87e2ef25b7647bcc7afa3add031144dce7490c4395f7c"
+    },
+    {
+      "exercise": "exp-resistance-band-chest-press",
+      "variant": "retained",
+      "sourceHash": "a2f59860f816587df85b4ca50959a88ed60498465a0f6e05019ce51388e88c02"
+    },
+    {
+      "exercise": "exp-resistance-band-external-rotation",
+      "variant": "retained",
+      "sourceHash": "3ad34e2aa724ae50dd5f96abb9fbd6d315c98a9edeb9b93d173098110790a393"
+    },
+    {
+      "exercise": "exp-resistance-band-face-pull",
+      "variant": "female",
+      "sourceHash": "7ac09a06605fb968332a8d4857523fb49b31321151e0edaa75149b1346e2baaf"
+    },
+    {
+      "exercise": "exp-resistance-band-face-pull",
+      "variant": "male",
+      "sourceHash": "43d784d15b893d93d808542aa7702318baaf251d0703c8e6ab01c2f4ea29fffc"
+    },
+    {
+      "exercise": "exp-resistance-band-front-raise",
+      "variant": "retained",
+      "sourceHash": "9655b666fbabf72043fd1a667812e3818bd11257915cb153e6aa28bc9d351b6e"
+    },
+    {
+      "exercise": "exp-resistance-band-good-morning",
+      "variant": "female",
+      "sourceHash": "e561df153b1625e0deff2f55511a9e70db14806cc05f8c7f5e7a493c03098afd"
+    },
+    {
+      "exercise": "exp-resistance-band-good-morning",
+      "variant": "male",
+      "sourceHash": "5c714ec89317f138e8dcbde063048e94eedae3aaf97f9e672018b2b241633afa"
+    },
+    {
+      "exercise": "exp-resistance-band-hammer-curl",
+      "variant": "retained",
+      "sourceHash": "1fb2613ab930282cd3e78816023a5546a292bd00df6f4bebff37742338e799b9"
+    },
+    {
+      "exercise": "exp-resistance-band-lat-pulldown",
+      "variant": "retained",
+      "sourceHash": "39ddd5c614fe8c7865befa946af3dd51293acccd5662eb57517ca0be19c66698"
+    },
+    {
+      "exercise": "exp-resistance-band-overhead-triceps-extension",
+      "variant": "retained",
+      "sourceHash": "23e52fd578f1c76b37a0d1d1ad840699d8fb899a09a3dd0a548eb7f232a01b04"
+    },
+    {
+      "exercise": "exp-resistance-band-prone-leg-curl",
+      "variant": "retained",
+      "sourceHash": "fdaf75212390dd5eba41c9aecd0e34f5366ce600166569786b38530d1f025999"
+    },
+    {
+      "exercise": "exp-resistance-band-push-up",
+      "variant": "female",
+      "sourceHash": "ee0f3d2ea293e60e85830025e70acc9e8a1e7b68c6faf5ea2885c17daaa9b0d7"
+    },
+    {
+      "exercise": "exp-resistance-band-push-up",
+      "variant": "male",
+      "sourceHash": "cab88a794f40e37838451eea0c3f846c186039705f732e65467c608f2c66ccec"
+    },
+    {
+      "exercise": "exp-resistance-band-romanian-deadlift",
+      "variant": "female",
+      "sourceHash": "5e89ffc999966bfa3ad78cb0773afbd0316cbe4e7a045a36de0c9d0f2624432b"
+    },
+    {
+      "exercise": "exp-resistance-band-romanian-deadlift",
+      "variant": "male",
+      "sourceHash": "dd80e6969b045a96d9c67f338466b54114f09ae0ee7b00c17e6765269a4198f8"
+    },
+    {
+      "exercise": "exp-resistance-band-shoulder-press",
+      "variant": "retained",
+      "sourceHash": "ef64ddfc9daf5dca01c0670e73c45580eba49f29b88de9641ed35eec8a6418ab"
+    },
+    {
+      "exercise": "exp-resistance-band-standing-hip-extension",
+      "variant": "female",
+      "sourceHash": "725160952cf162ec8ed9940531823bdef1390e5fd765a314fc8fef1201d35eda"
+    },
+    {
+      "exercise": "exp-resistance-band-standing-hip-extension",
+      "variant": "male",
+      "sourceHash": "4da0d781aa415196062a0685ca70da4ef179ace52f15e089ed792b1b65e4c125"
+    },
+    {
+      "exercise": "exp-resistance-band-straight-arm-pulldown",
+      "variant": "female",
+      "sourceHash": "14a03c3eb80824d39f4687ece3d36d34ccb651e71da056c348f2d097f198a9b9"
+    },
+    {
+      "exercise": "exp-resistance-band-straight-arm-pulldown",
+      "variant": "male",
+      "sourceHash": "d7c5d30de63562bd1b20f7a711e4d549b5ca60e472ab241cc396cf1c2cc7c508"
+    },
+    {
+      "exercise": "exp-resistance-band-triceps-kickback",
+      "variant": "female",
+      "sourceHash": "42f83ce5579408f01bc56172d329bf4b01e51b3918621e0a3765b3b0fd38680e"
+    },
+    {
+      "exercise": "exp-resistance-band-triceps-kickback",
+      "variant": "male",
+      "sourceHash": "01f6fd39f4a940508e54324d648cb6d877ced7e7f2dd04c4375c775fc04c0d79"
+    },
+    {
+      "exercise": "exp-resistance-band-triceps-pressdown",
+      "variant": "retained",
+      "sourceHash": "a00b9bf4fba8ebae19d4ecf3c9c35fececf2a6ff740a5d5e016059619c3bf1cf"
+    },
+    {
+      "exercise": "exp-resistance-band-w-pull",
+      "variant": "female",
+      "sourceHash": "deed8c73c234fc82ee5a875f3b593d1cd9b176eda7581c1d7fdd5e7645a87efe"
+    },
+    {
+      "exercise": "exp-resistance-band-w-pull",
+      "variant": "male",
+      "sourceHash": "d3cf13a66dfaff16db613b819f671bf7afab9501bb68c017c9930b61ddb5f243"
+    },
+    {
+      "exercise": "exp-reverse-cable-curl",
+      "variant": "retained",
+      "sourceHash": "fdf15a84f206126717610c8e1d2914c2b701fb0c74aba94bfe1d3ee04fbf702c"
+    },
+    {
+      "exercise": "exp-reverse-crunch",
+      "variant": "retained",
+      "sourceHash": "bdce90b3fed4794a66309975490ea4b3ccdeba4eb9f782d1a4ebc01c979b58e2"
+    },
+    {
+      "exercise": "exp-reverse-hyperextension-machine",
+      "variant": "retained",
+      "sourceHash": "c40dac77acd266e5e19a0bfdbfd3669539c3664c25c244a23bc2b520f0dc632a"
+    },
+    {
+      "exercise": "exp-rowing-machine",
+      "variant": "female",
+      "sourceHash": "bebbb56aa391ab7c10b5b221bef2499a1acd9a2b01432750defcfee0773a731e"
+    },
+    {
+      "exercise": "exp-rowing-machine",
+      "variant": "male",
+      "sourceHash": "3fb6f08577c2e9a49c1ec222c4488238f85db313f6bb4ec3c880effd3310f029"
+    },
+    {
+      "exercise": "exp-sandbag-bear-hug-carry",
+      "variant": "female",
+      "sourceHash": "85201256fe17e5f6f2ca7572adbc5eb8075d156c882eab57de2f5372ce9d26ec"
+    },
+    {
+      "exercise": "exp-sandbag-bear-hug-carry",
+      "variant": "male",
+      "sourceHash": "99cf7aece9ec5c43eb34412624b20b0179b7c1a833cb0654b74c7aceb7841fc0"
+    },
+    {
+      "exercise": "exp-scapular-pull-up",
+      "variant": "female",
+      "sourceHash": "e2f6695320993a3ebb368992f592559ac71e7fe71c5d1e161591925e6ee6dff1"
+    },
+    {
+      "exercise": "exp-scapular-pull-up",
+      "variant": "male",
+      "sourceHash": "88db766127570f5cb35ca2a64eb94befbf82d85df81224cf2f629b8245512ba8"
+    },
+    {
+      "exercise": "exp-scapular-push-up",
+      "variant": "female",
+      "sourceHash": "2e012df5f411e84d98255a0b63a9076b336a3664763cf85985e647ee23b86d47"
+    },
+    {
+      "exercise": "exp-scapular-push-up",
+      "variant": "male",
+      "sourceHash": "f6ba8e73ce896323d280763c0d32433293fb0e22d985c84c9d483eb9d16b44d0"
+    },
+    {
+      "exercise": "exp-seated-band-hip-abduction",
+      "variant": "female",
+      "sourceHash": "1605f793a0c1eb88f4729739175246b68a67ff27206cbacdca31b37759fa26aa"
+    },
+    {
+      "exercise": "exp-seated-band-hip-abduction",
+      "variant": "male",
+      "sourceHash": "5bc25da3e3bdd5ed3676cd237a73262819811e99316b1452feb778e125d6eca1"
+    },
+    {
+      "exercise": "exp-seated-cable-chest-press",
+      "variant": "retained",
+      "sourceHash": "a1c841f6152928da69da0de1bba9b455135070c3fbee71d98b1897baae349027"
+    },
+    {
+      "exercise": "exp-seated-cable-overhead-triceps-extension",
+      "variant": "retained",
+      "sourceHash": "a0c44e6296f5828da4484b8e01c04b12da408c9c2800fe67f7b2dab135c85c68"
+    },
+    {
+      "exercise": "exp-seated-calf-raise-machine",
+      "variant": "female",
+      "sourceHash": "5599c9031a8de293262009c87a61b63e0f9b76e19437b29a24905e106fe1756a"
+    },
+    {
+      "exercise": "exp-seated-calf-raise-machine",
+      "variant": "male",
+      "sourceHash": "b436a65720cbdd197403292c7a99e1db7994364bd73f6beb49067aebb8935ade"
+    },
+    {
+      "exercise": "exp-seated-dumbbell-calf-raise",
+      "variant": "female",
+      "sourceHash": "f1f34fe5d67c667208e29683f0230f4d2b563296c89d3446babe06d13d7f85f3"
+    },
+    {
+      "exercise": "exp-seated-dumbbell-calf-raise",
+      "variant": "male",
+      "sourceHash": "c0b4afdc3e5373f182987b03eb878c30a78962570855bd88476a72ac3a4ba56c"
+    },
+    {
+      "exercise": "exp-seated-leg-curl",
+      "variant": "female",
+      "sourceHash": "1e57f7bb3601d89af24ce12c853b3cb90fcb24876bafac0f70cced86d406714e"
+    },
+    {
+      "exercise": "exp-seated-leg-curl",
+      "variant": "male",
+      "sourceHash": "576f47ac34c81da384e43bfa0ce6dd0315f8c9c38099ad2d0cec2e3c7c3de7f3"
+    },
+    {
+      "exercise": "exp-shadow-boxing",
+      "variant": "female",
+      "sourceHash": "add6e4b62bfffbff8e0bd9acd0b5e6351394a384eb63e3966e1580899e058441"
+    },
+    {
+      "exercise": "exp-shadow-boxing",
+      "variant": "male",
+      "sourceHash": "11afc961c33b93cdaeb53e24099e815122b90498c6b612eec331cd9af43c97fd"
+    },
+    {
+      "exercise": "exp-side-lying-dumbbell-external-rotation",
+      "variant": "retained",
+      "sourceHash": "b7c80dffd9513c873ba3df1643cb0ffdec5e7c76e9935cb6f5694fecee4b2bc1"
+    },
+    {
+      "exercise": "exp-side-lying-dumbbell-internal-rotation",
+      "variant": "retained",
+      "sourceHash": "418e645855189fc78fa78239ab236e072739eb1bcb7c91d4c6fc0820a14d291d"
+    },
+    {
+      "exercise": "exp-side-lying-hip-adduction",
+      "variant": "retained",
+      "sourceHash": "de0c156883a647668f13dfa364efda809a4100b71b759bca1e2daf60bfeafcb2"
+    },
+    {
+      "exercise": "exp-side-lying-oblique-v-up",
+      "variant": "retained",
+      "sourceHash": "ff95eef0a2b067b46f60faf71d402d45e9f4c7ebc10a32277243fda0bb19976b"
+    },
+    {
+      "exercise": "exp-side-plank-cable-row",
+      "variant": "female",
+      "sourceHash": "72074760ee14f8c5d91926e3da7b6c19b8baa9feaeef1087753acf8cd745ae40"
+    },
+    {
+      "exercise": "exp-side-plank-cable-row",
+      "variant": "male",
+      "sourceHash": "dbed04bf0861a49aaf7ec707181a68085185a615b10fce751116a348c96dea3d"
+    },
+    {
+      "exercise": "exp-single-arm-cable-chest-press",
+      "variant": "retained",
+      "sourceHash": "b7daf6634fdfbf004a08a11af5798f9f643104bd39af7c83c46574a566476e9d"
+    },
+    {
+      "exercise": "exp-single-arm-cable-triceps-pressdown",
+      "variant": "retained",
+      "sourceHash": "ff898fd76a3d75f64e64cf6431e2a909caca50e16dc3882b45147a5e365c6a8f"
+    },
+    {
+      "exercise": "exp-single-arm-dumbbell-bench-press",
+      "variant": "retained",
+      "sourceHash": "c8b28d5e329adc1e0e850b46fc4a843ec46023161e0026e0f67237dc96793c0a"
+    },
+    {
+      "exercise": "exp-single-arm-dumbbell-floor-press",
+      "variant": "retained",
+      "sourceHash": "d60c061b00ab7a678b4fd9ddab6dde32963237d092d1ce3b279bfc37ae23fb02"
+    },
+    {
+      "exercise": "exp-single-arm-incline-dumbbell-bench-press",
+      "variant": "retained",
+      "sourceHash": "0944ca5f4492a8ed7535efcf1b3a815814df50028637b1334ffd792226f51bbe"
+    },
+    {
+      "exercise": "exp-single-arm-overhead-carry",
+      "variant": "female",
+      "sourceHash": "525570e4c84d6be10250dc5b38ed82c3374ed3ecb847d61f46b7907d0e2dc925"
+    },
+    {
+      "exercise": "exp-single-arm-overhead-carry",
+      "variant": "male",
+      "sourceHash": "010ffbd0b757cbd84cdd58e67b6c31dacb94655b47deae4b793f2f4cbc357cfa"
+    },
+    {
+      "exercise": "exp-single-arm-overhead-dumbbell-extension",
+      "variant": "retained",
+      "sourceHash": "11822bc7fc7ceff55973747fa2ed3f7c89cc8b7acaef3118b88f257739f83f0d"
+    },
+    {
+      "exercise": "exp-single-arm-seated-cable-shoulder-press",
+      "variant": "female",
+      "sourceHash": "c215f3e5f19fa44df4dabc4642a01969acb74be5bf5897e26d4ae490317b9277"
+    },
+    {
+      "exercise": "exp-single-arm-seated-cable-shoulder-press",
+      "variant": "male",
+      "sourceHash": "50cdfa09216c047b7191894444886b991f161df6173da24f734cb4ab79c91b7e"
+    },
+    {
+      "exercise": "exp-single-arm-standing-dumbbell-shoulder-press",
+      "variant": "retained",
+      "sourceHash": "b122223ed4a07560974e205954fe3beacf45f978a721cd1102f87f0a189b65b7"
+    },
+    {
+      "exercise": "exp-single-leg-box-squat",
+      "variant": "female",
+      "sourceHash": "f22f32d89f44ddad7ba5387453a4f3551e510dff96f88d1e3d2e275585934e98"
+    },
+    {
+      "exercise": "exp-single-leg-box-squat",
+      "variant": "male",
+      "sourceHash": "340b25feb1842f74c88f1d1131a416c95ba575fe06e4d0cfa3181d80874b5e63"
+    },
+    {
+      "exercise": "exp-single-leg-dumbbell-calf-raise",
+      "variant": "female",
+      "sourceHash": "7327a594d8992e8fecf1a7b65d59a06e22dc8c111861c2274c3d06fb334b9a6b"
+    },
+    {
+      "exercise": "exp-single-leg-dumbbell-calf-raise",
+      "variant": "male",
+      "sourceHash": "2236e2cf5cf03b1c9559ccbfdbe531cca4712d5dd4fe84aa9b090d91f9bd6311"
+    },
+    {
+      "exercise": "exp-single-leg-feet-elevated-glute-bridge",
+      "variant": "female",
+      "sourceHash": "5e727015887bf479c8a7d49e911b4f840dd9723fe6afffc14f333a7183fd9417"
+    },
+    {
+      "exercise": "exp-single-leg-feet-elevated-glute-bridge",
+      "variant": "male",
+      "sourceHash": "f24abd7c4b5587f01246f00edbae5221e6ba122043dda78a803fcf8654e0cd10"
+    },
+    {
+      "exercise": "exp-single-leg-hip-thrust",
+      "variant": "female",
+      "sourceHash": "5d7f8c955005b677fdb4fe5d2649d0aa74cac92880a223060da7b265daa8cd1e"
+    },
+    {
+      "exercise": "exp-single-leg-hip-thrust",
+      "variant": "male",
+      "sourceHash": "e148d7cdba53144eb7aac719b866b19637ca5c485fb3c90741a50555fd1377a5"
+    },
+    {
+      "exercise": "exp-single-leg-leg-extension",
+      "variant": "retained",
+      "sourceHash": "ce09afac666ed401a81a8a38552b38f7b96c156d54a3862f8a05b13d1f54a6cc"
+    },
+    {
+      "exercise": "exp-single-leg-leg-press",
+      "variant": "retained",
+      "sourceHash": "ee9e6c2ff0ada5123e92f1a538ed05038ec34232765c13bbc3f43369c6b4d479"
+    },
+    {
+      "exercise": "exp-single-leg-prone-leg-curl",
+      "variant": "retained",
+      "sourceHash": "32dffeb49725188cdae52961cbbfff5a9043c324251daa9d45698616448681e2"
+    },
+    {
+      "exercise": "exp-single-leg-seated-leg-curl",
+      "variant": "retained",
+      "sourceHash": "8149d585d9af6f68b25b4de10e8dbab9b25b6166ee50cbddfe8b4f8fcf982479"
+    },
+    {
+      "exercise": "exp-single-leg-slider-hamstring-curl",
+      "variant": "retained",
+      "sourceHash": "17edb41254ba2d76b42cd92222c4a242719ccbe36e67a8a80fc7409c5bf39d38"
+    },
+    {
+      "exercise": "exp-single-leg-stability-ball-hamstring-curl",
+      "variant": "female",
+      "sourceHash": "e2f36ea07d59c97abd589fae41c72b1201fae43a915c4694c1c5bf522ed4b0b4"
+    },
+    {
+      "exercise": "exp-single-leg-stability-ball-hamstring-curl",
+      "variant": "male",
+      "sourceHash": "57bbf6cc511cf763fe50573bd0c4aecf031d643463b465cb26ee7422ba47f675"
+    },
+    {
+      "exercise": "exp-single-leg-standing-calf-raise",
+      "variant": "female",
+      "sourceHash": "ff42f62c32fcc7eec998ab4662da7fec73a28bb9d2f4352268db62f7e2158e94"
+    },
+    {
+      "exercise": "exp-single-leg-standing-calf-raise",
+      "variant": "male",
+      "sourceHash": "9aec81afadfeefb76cf369c9884d8ccf0d5d9848cb131f0f5e5199b69e7e52f9"
+    },
+    {
+      "exercise": "exp-sit-up",
+      "variant": "female",
+      "sourceHash": "b2de7e829cf2ba08ce3fc09f3e0a1bc2d478966bb8c64e8fb13e0b37b47ec81b"
+    },
+    {
+      "exercise": "exp-sit-up",
+      "variant": "male",
+      "sourceHash": "4854303499332c3b8bb5761fa2678deb4f0ecfe09a02dd28b284299db749260b"
+    },
+    {
+      "exercise": "exp-sled-push",
+      "variant": "female",
+      "sourceHash": "a996af7e2598a99b2db97b7c9e12902f392b53a9606b6c68b015c643110f466a"
+    },
+    {
+      "exercise": "exp-sled-push",
+      "variant": "male",
+      "sourceHash": "b46f5b9d35d5da26d0b706b95b6f371702bf9f2a59a3d96c01bdb0349626fae9"
+    },
+    {
+      "exercise": "exp-slider-body-saw",
+      "variant": "retained",
+      "sourceHash": "2c5a4dff1fad1580a2a22e48b11ca6e9c890a5569539d7b50c307bd8347b7b27"
+    },
+    {
+      "exercise": "exp-slider-hamstring-curl",
+      "variant": "female",
+      "sourceHash": "34625474371976f4c4d020df648224c8efb425b9101cde6f1ffa572357e65c1e"
+    },
+    {
+      "exercise": "exp-slider-hamstring-curl",
+      "variant": "male",
+      "sourceHash": "57160aeac6cf0533ac9fe7c4adeea6db2ecbbe8c1bca90a53474fd1764ad1c97"
+    },
+    {
+      "exercise": "exp-sliding-lateral-lunge",
+      "variant": "female",
+      "sourceHash": "5b67106230ba27e0f36eaf7cff20f4d377c2686de2d4284bdc07a353d7c5fd18"
+    },
+    {
+      "exercise": "exp-sliding-lateral-lunge",
+      "variant": "male",
+      "sourceHash": "ed5eb161e6c5d22363c6ff49e154c769ad344dafddf6b6dd40e5109368c38319"
+    },
+    {
+      "exercise": "exp-smith-machine-hip-thrust",
+      "variant": "female",
+      "sourceHash": "c594c8cbae11902d3abb6662d3a4cdb3db35e8201dd4d051e7fbb22422807f5f"
+    },
+    {
+      "exercise": "exp-smith-machine-hip-thrust",
+      "variant": "male",
+      "sourceHash": "902d4f557abedb2ec7814f57a0b60165ae1136f5133190b0e81d09e230af5575"
+    },
+    {
+      "exercise": "exp-smith-machine-seated-calf-raise",
+      "variant": "female",
+      "sourceHash": "9c0badb0fe7a70e822ea7318dafc0aca3888127f19b4df0cf989262b4bfabf25"
+    },
+    {
+      "exercise": "exp-smith-machine-seated-calf-raise",
+      "variant": "male",
+      "sourceHash": "f7770c9e5d8f5d3968a8a40acd1c3a6413687df9193cdac11aad84c4c66cd363"
+    },
+    {
+      "exercise": "exp-smith-machine-squat",
+      "variant": "female",
+      "sourceHash": "4a77712a724be63fb61413108511e20b1c1c98e02ba25b49bb8612253400ae7d"
+    },
+    {
+      "exercise": "exp-smith-machine-squat",
+      "variant": "male",
+      "sourceHash": "56cb22b009b4f6d18e98d13bfb1775be1b29c0310e429c57f8ae99efe63c09fe"
+    },
+    {
+      "exercise": "exp-smith-machine-standing-calf-raise",
+      "variant": "retained",
+      "sourceHash": "4f00f267537721cc3bdd5dd52c2747776886f324628a2d52807fdfb4be34cb50"
+    },
+    {
+      "exercise": "exp-stability-ball-crunch",
+      "variant": "female",
+      "sourceHash": "565be4f248cd281bab751160c4bb2c3b111b166e4983164df27258d97b584497"
+    },
+    {
+      "exercise": "exp-stability-ball-crunch",
+      "variant": "male",
+      "sourceHash": "9cf34e3be90ec059c9a9a11061ffcdb3f7c765b4b00b7660105157db53f7a410"
+    },
+    {
+      "exercise": "exp-stability-ball-hamstring-curl",
+      "variant": "female",
+      "sourceHash": "c9fe5a4d324d830c56f3a6f87ea09bd49ce86fdff2114fa3d8fec25cf73b8186"
+    },
+    {
+      "exercise": "exp-stability-ball-hamstring-curl",
+      "variant": "male",
+      "sourceHash": "d58fe6198cfd55d05bdf0e05bcd1c5b33fbbef2da42b25b85630394b1cd8f814"
+    },
+    {
+      "exercise": "exp-stability-ball-knee-tuck",
+      "variant": "female",
+      "sourceHash": "8c58584292d74e08ae54439d67f3d355725dcf18acfada71221f3abe69f26977"
+    },
+    {
+      "exercise": "exp-stability-ball-knee-tuck",
+      "variant": "male",
+      "sourceHash": "65495d5997c82ef9def6da3d450af8402cc703c1c385f543ffa40ba7066c30f9"
+    },
+    {
+      "exercise": "exp-stair-climber",
+      "variant": "female",
+      "sourceHash": "76c786e20668d0f0b163ec1593d5e5c61ca6c3445e06c2fd1f83d7fbb5730424"
+    },
+    {
+      "exercise": "exp-stair-climber",
+      "variant": "male",
+      "sourceHash": "fdeb5cfc61149a8de996f6215745e54a91eef9a34b27251aa413de01182de0e8"
+    },
+    {
+      "exercise": "exp-standing-band-hip-abduction",
+      "variant": "retained",
+      "sourceHash": "f8cbc0b11779da26b7d1dec55a3d8a80970dbca9bc3096b895864bddfbdfd3c7"
+    },
+    {
+      "exercise": "exp-standing-band-hip-adduction",
+      "variant": "female",
+      "sourceHash": "d09efd0a872ed7325d83a24d4691c515430fdc43006f8bc6eb118bba25a8a469"
+    },
+    {
+      "exercise": "exp-standing-band-hip-adduction",
+      "variant": "male",
+      "sourceHash": "1fb96bd5c4f3db7351addfbf6de485a3306cc604aa7ab19af0b3fdcc9318ed5c"
+    },
+    {
+      "exercise": "exp-standing-cable-chest-fly",
+      "variant": "retained",
+      "sourceHash": "1101b802f8d6883108e507cd163be2a3c239a84d73bd51567a1ae959041381b2"
+    },
+    {
+      "exercise": "exp-standing-cable-chest-press",
+      "variant": "retained",
+      "sourceHash": "c15b4884348951bb1927556d857a576b057d42409ab3efc9b60086c77a2266a8"
+    },
+    {
+      "exercise": "exp-standing-cable-leg-curl",
+      "variant": "retained",
+      "sourceHash": "2a705d1e4c3169ddf7caafe3564ba0a4ac5d63239ff1405cdc29612ee644058a"
+    },
+    {
+      "exercise": "exp-standing-cable-leg-extension",
+      "variant": "retained",
+      "sourceHash": "42e9379a637cc19e8b4ca5e1bd89a7ea585c95bf26d6ac45a5b410399cfe32f9"
+    },
+    {
+      "exercise": "exp-standing-calf-raise-machine",
+      "variant": "retained",
+      "sourceHash": "13ca80e8afcaf0a83fba948a646f644d09073bbbcb81589cdc14326ebd96cec0"
+    },
+    {
+      "exercise": "exp-standing-high-cable-row",
+      "variant": "retained",
+      "sourceHash": "c76636a5547986079eee7711ba436bb29a849e20250b7afc88f0f1ae77b4cb22"
+    },
+    {
+      "exercise": "exp-standing-hip-extension-machine",
+      "variant": "retained",
+      "sourceHash": "48d28243993c38242077b906ae34710a65ae078183860fdb162cd38a69edf9c6"
+    },
+    {
+      "exercise": "exp-standing-leg-curl-machine",
+      "variant": "female",
+      "sourceHash": "5779477cf41a4bb539faf8f697020988ed751ea4e433d0c89e4c253e29cf49d3"
+    },
+    {
+      "exercise": "exp-standing-leg-curl-machine",
+      "variant": "male",
+      "sourceHash": "c34d951fa56460930172e797bd0c512c48067e848acd6bb262a5d087170a9e2b"
+    },
+    {
+      "exercise": "exp-standing-single-arm-cable-row",
+      "variant": "retained",
+      "sourceHash": "4cb6db6323b0570aa03fe14843704e25d457d75b17ca4d81d9dc885a26f634c1"
+    },
+    {
+      "exercise": "exp-step-back-burpee",
+      "variant": "retained",
+      "sourceHash": "c75ed20be42b8a6a01f1444a0c48b966df47b205f1e06bb36f7bea892641573f"
+    },
+    {
+      "exercise": "exp-suitcase-deadlift",
+      "variant": "female",
+      "sourceHash": "672afd0ef2cf9f4d1bfd7d025ac6038f924afe19e9168a3adfdb53af7b194643"
+    },
+    {
+      "exercise": "exp-suitcase-deadlift",
+      "variant": "male",
+      "sourceHash": "848d9a2c1b12f7bb1659c8cc37bb73a16279d174a6133e9dd9b19c602075a847"
+    },
+    {
+      "exercise": "exp-supine-cable-chest-fly",
+      "variant": "retained",
+      "sourceHash": "526887676364bf7f21c3c50f440a23ebde949ea64a1c7326809aa7c55d05cf15"
+    },
+    {
+      "exercise": "exp-supine-cable-pullover",
+      "variant": "retained",
+      "sourceHash": "58efa696cd727b70aa7a642ec7cc6a6a22097d42d29dbbde37ea3d63267dd75e"
+    },
+    {
+      "exercise": "exp-suspension-assisted-squat",
+      "variant": "female",
+      "sourceHash": "abd1ffb93ca361a0fb2a60774d7a30c21381a86420cb3c3bff9dbbef3aa5a34f"
+    },
+    {
+      "exercise": "exp-suspension-assisted-squat",
+      "variant": "male",
+      "sourceHash": "1edc056aff5d276ab87110506ab3f29671c9bfcf2bba6ae4606d12ad73752593"
+    },
+    {
+      "exercise": "exp-suspension-biceps-curl",
+      "variant": "retained",
+      "sourceHash": "816435d1acb16fbff6f36f5bf4c443ec2937eefe4c46d018f1943e88db2e3ee7"
+    },
+    {
+      "exercise": "exp-suspension-chest-fly",
+      "variant": "female",
+      "sourceHash": "f3f84773113a6d6db09f3020c2c5f68a9de6d4b62116c6f31595d3856b3d7eae"
+    },
+    {
+      "exercise": "exp-suspension-chest-fly",
+      "variant": "male",
+      "sourceHash": "7536424216c47505fe9253cf9b8b272a250f1cd211b641aa4e99b0d05ac60bc5"
+    },
+    {
+      "exercise": "exp-suspension-chest-press",
+      "variant": "female",
+      "sourceHash": "ffeb9af8e4773b59258e0a8883898928380c5d7563076edc756bec796f091de9"
+    },
+    {
+      "exercise": "exp-suspension-chest-press",
+      "variant": "male",
+      "sourceHash": "1cfdabbf58f9e2aedb548c3f83568526a78346f830f9e129884f4dce3c330b88"
+    },
+    {
+      "exercise": "exp-suspension-hamstring-curl",
+      "variant": "female",
+      "sourceHash": "71da3fa1cfc4d4475da9cef738375d1f39d7455e875c006e8257a5471aa852df"
+    },
+    {
+      "exercise": "exp-suspension-hamstring-curl",
+      "variant": "male",
+      "sourceHash": "b4d59b32546f43e4051681daa9e01ad2018c73b26e830d747b3f472b0253242f"
+    },
+    {
+      "exercise": "exp-suspension-row",
+      "variant": "retained",
+      "sourceHash": "857647914f574a56ff0f20d1d76269af3d7a29a2001679b30526ee21df9e9d04"
+    },
+    {
+      "exercise": "exp-suspension-triceps-extension",
+      "variant": "retained",
+      "sourceHash": "d9b1f6d060f3ad75b7a2bb4ecae1e45471a784c2c7b715fc005182449fb13a2f"
+    },
+    {
+      "exercise": "exp-thoracic-open-book",
+      "variant": "female",
+      "sourceHash": "37a262cd4a1414987b112e0c59a9b4c385dabf14b963d3f9a7d36b4897612cff"
+    },
+    {
+      "exercise": "exp-thoracic-open-book",
+      "variant": "male",
+      "sourceHash": "6442cdab54be6187fb0bbb48166d1adc5ef47b193e81d9618e51aba2abfa031c"
+    },
+    {
+      "exercise": "exp-trap-bar-deadlift",
+      "variant": "female",
+      "sourceHash": "9f0533a9d963692f707ebb9b5f913c089d7936306395c8d4dc4591b679615205"
+    },
+    {
+      "exercise": "exp-trap-bar-deadlift",
+      "variant": "male",
+      "sourceHash": "5a06b30362b9266199f27f0012cb6507a8de14b0c697007d42053aad438cacac"
+    },
+    {
+      "exercise": "exp-treadmill-jog",
+      "variant": "female",
+      "sourceHash": "3e63343f2e7f1841e1b7d1b5e4614c3ce19cfa867e44c57edc3183d2e39b8781"
+    },
+    {
+      "exercise": "exp-treadmill-jog",
+      "variant": "male",
+      "sourceHash": "9509cb78dba205a8f5a24c0ea9ecdf3e71a038b3584284ea21150418f7dbf6aa"
+    },
+    {
+      "exercise": "exp-v-up",
+      "variant": "female",
+      "sourceHash": "89a4c29870c5a31cf4b95b580c656e0137845ee7cf8940b65027007f89c36b58"
+    },
+    {
+      "exercise": "exp-v-up",
+      "variant": "male",
+      "sourceHash": "0b1ba9436067d22dbf8d870fca605bd66d96fdb0b7d94423de351226ce072854"
+    },
+    {
+      "exercise": "exp-walking-lunge",
+      "variant": "female",
+      "sourceHash": "d8f6aa173ca28b00cbc663084b3375e0b3978ec127d7593995ae001a36196be7"
+    },
+    {
+      "exercise": "exp-walking-lunge",
+      "variant": "male",
+      "sourceHash": "da2f37c47d5f949e58ebb4a5692413927ab465200e6d660f26cd25bf2deddd00"
+    },
+    {
+      "exercise": "exp-wall-sit",
+      "variant": "female",
+      "sourceHash": "205843fac6cfb5c9385331e9e443effd2373d6e04af1cac06c3465dab2755ea0"
+    },
+    {
+      "exercise": "exp-wall-sit",
+      "variant": "male",
+      "sourceHash": "0d7263caf1dc7ab55ac7973105102b38027392163b6bd0ec653a81b86af635ae"
+    },
+    {
+      "exercise": "exp-wall-slides",
+      "variant": "retained",
+      "sourceHash": "e56c363034796591bf804219279337173e61a5244b71ac80429de241120785a8"
+    },
+    {
+      "exercise": "exp-wrist-roller",
+      "variant": "retained",
+      "sourceHash": "31a70d2d2ea16b9f387ff24535bb25363fc0df23fc0f7399bcd75177568b7fb2"
+    },
+    {
+      "exercise": "exp-zercher-squat",
+      "variant": "retained",
+      "sourceHash": "6b25454a1dc60f1aa568036b7652bcd51b881dc76e4659137cff01bdecfd5936"
+    },
+    {
+      "exercise": "g0-01_Bodyweight_Glute_Bridge",
+      "variant": "female",
+      "sourceHash": "96da32fcf0b51db56f21a618403b93a42ae0da056a88954826533fd0a59ac495"
+    },
+    {
+      "exercise": "g0-01_Bodyweight_Glute_Bridge",
+      "variant": "male",
+      "sourceHash": "ee6c085fe139e89fd70037c5ff428762ca1bc5f9e440bd51c27471ad0d989b86"
+    },
+    {
+      "exercise": "g0-02_Barbell_Hip_Thrust",
+      "variant": "female",
+      "sourceHash": "d70c21aa874fcc7af41809cf21e5d10d1a2ab3ededef9a34f3bfcbb89b5dd6df"
+    },
+    {
+      "exercise": "g0-02_Barbell_Hip_Thrust",
+      "variant": "male",
+      "sourceHash": "a6e1641bec10c9253f3e72202de21a6bc05fd6bcaf129c98391111ef6292bbe7"
+    },
+    {
+      "exercise": "g0-03_Single_Leg_Glute_Bridge",
+      "variant": "female",
+      "sourceHash": "3459fcc18c81bb95b7ebd8c725b5147e75d4300ac0d193cd20b36e96ee983149"
+    },
+    {
+      "exercise": "g0-03_Single_Leg_Glute_Bridge",
+      "variant": "male",
+      "sourceHash": "ca8f90abdb1f9d98729c3ca994ade31be03942dcfe8653c6e75bee066f1638a6"
+    },
+    {
+      "exercise": "g0-04_Frog_Pump",
+      "variant": "female",
+      "sourceHash": "53893eec29a9728a95232e8ab43b800647bd588d00cf2b2ca2592d12a3a2f813"
+    },
+    {
+      "exercise": "g0-04_Frog_Pump",
+      "variant": "male",
+      "sourceHash": "24445340822ff1959de8e140bd272226f8b196e1a9f6887d1860e8acf697b0ab"
+    },
+    {
+      "exercise": "g0-05_Side_Lying_Clamshell",
+      "variant": "female",
+      "sourceHash": "ca08a0d56238371d1f27803be890af5c791c24f54b65be215e0ae9af5eed7801"
+    },
+    {
+      "exercise": "g0-05_Side_Lying_Clamshell",
+      "variant": "male",
+      "sourceHash": "5512d50d19b25000309b2227f62d28080c14fac100743b4b19a927ccefa3a73a"
+    },
+    {
+      "exercise": "g0-06_Side_Lying_Hip_Abduction",
+      "variant": "female",
+      "sourceHash": "b7cb436d6d0563e95346a88570207345c22f50338d0ea517fdcef76d68969da6"
+    },
+    {
+      "exercise": "g0-06_Side_Lying_Hip_Abduction",
+      "variant": "male",
+      "sourceHash": "2fda69a364daaa501a18137731b2ae7868b685dca4c07b72134d40c34d617631"
+    },
+    {
+      "exercise": "g0-07_Quadruped_Donkey_Kick",
+      "variant": "female",
+      "sourceHash": "be0a339c0f9a6ee43161f1c73c9ec84117d41ac384136710eb7c181eccce76c5"
+    },
+    {
+      "exercise": "g0-07_Quadruped_Donkey_Kick",
+      "variant": "male",
+      "sourceHash": "a1fc1e715889179bc565a4caef74b6fdf2e47a54b9a505aea6c48dd8ecc4c335"
+    },
+    {
+      "exercise": "g0-08_Quadruped_Fire_Hydrant",
+      "variant": "female",
+      "sourceHash": "75485f0e7d124622b056571c43fdd0a92187df9c536fb652eac355ece2eac4bd"
+    },
+    {
+      "exercise": "g0-08_Quadruped_Fire_Hydrant",
+      "variant": "male",
+      "sourceHash": "bb1f819f055511764eb5102e29df31bceb0abe947424f190978660487d3e8d8d"
+    },
+    {
+      "exercise": "g0-09_Cable_Hip_Abduction",
+      "variant": "female",
+      "sourceHash": "1c7f8f87d5aa04798990b0dc20ce595ec0b07916f6ea2b8da5a8a3d0ca22e8e3"
+    },
+    {
+      "exercise": "g0-09_Cable_Hip_Abduction",
+      "variant": "male",
+      "sourceHash": "4cb71f4a5088ce7e45dad4235b591705207592d3a44ff103c1920c086b7456c0"
+    },
+    {
+      "exercise": "g0-10_Cable_Glute_Kickback",
+      "variant": "female",
+      "sourceHash": "1ad9924dec200426da2af6dbb4e1b88e05fb5224a3946f3b6d76c082bb247ccb"
+    },
+    {
+      "exercise": "g0-10_Cable_Glute_Kickback",
+      "variant": "male",
+      "sourceHash": "f02fecb6525627096a736004d29fa938a6e46dd44b1ab67f18e3919b8c1a5805"
+    },
+    {
+      "exercise": "g0-12_Monster_Walk",
+      "variant": "retained",
+      "sourceHash": "5a128262199ba696cf243112d4698f30e7542246fa756bab126cc7819bfea279"
+    },
+    {
+      "exercise": "g0-13_Goblet_Squat",
+      "variant": "female",
+      "sourceHash": "a15b4b8dbb5690a5eff31f038d99f1e84a8bc67f014d0cda417173db3edecf1d"
+    },
+    {
+      "exercise": "g0-13_Goblet_Squat",
+      "variant": "male",
+      "sourceHash": "f106d572307736fc449c6fc085b720256570b54126bfa8119101f21ea7a75621"
+    },
+    {
+      "exercise": "g0-14_Sumo_Dumbbell_Squat",
+      "variant": "female",
+      "sourceHash": "79fc1fb0918cbe2044cb8175723fa5a4a744bc0e018f264ff09d22de7ef8a256"
+    },
+    {
+      "exercise": "g0-14_Sumo_Dumbbell_Squat",
+      "variant": "male",
+      "sourceHash": "3c17b9ea1cdb2049cb146023a9d38a2f74349915bc687de07d7ed5aefa664c35"
+    },
+    {
+      "exercise": "g0-15_Reverse_Lunge",
+      "variant": "female",
+      "sourceHash": "62c317b6714a038bdd7ff15d752e4b211bce0e847003df1d74b317eea5c6be54"
+    },
+    {
+      "exercise": "g0-15_Reverse_Lunge",
+      "variant": "male",
+      "sourceHash": "dc393daf617903ce23d359d04aa0f931a18166b224b15113d18070a3aa54a743"
+    },
+    {
+      "exercise": "g0-16_Bulgarian_Split_Squat",
+      "variant": "female",
+      "sourceHash": "e01ba51214c5025876ce657e44519313ea1b3f95fa011cb16efc4acd11cfe4ee"
+    },
+    {
+      "exercise": "g0-16_Bulgarian_Split_Squat",
+      "variant": "male",
+      "sourceHash": "bd3179e2ca9cfb2c316610dd349257d98ddc6dd16acaa7ad1f400a94ad6f4389"
+    },
+    {
+      "exercise": "g0-17_Low_Box_Step_Up",
+      "variant": "female",
+      "sourceHash": "b7823fb6e4a150d7974d9dd2ecada9db7d15897525efb325304d5712b2817006"
+    },
+    {
+      "exercise": "g0-17_Low_Box_Step_Up",
+      "variant": "male",
+      "sourceHash": "b022e37f1c958cabce2c69fc7ca331861f3f87bed58b99f1b028f08cd0bf1f1a"
+    },
+    {
+      "exercise": "g0-18_Lateral_Lunge",
+      "variant": "female",
+      "sourceHash": "05de5b75aee18486e16e828c7f3f7c617cab2f74575167c23ac906d8b860fef8"
+    },
+    {
+      "exercise": "g0-18_Lateral_Lunge",
+      "variant": "male",
+      "sourceHash": "9bef9d5eb1f0c1b65b21b8906b100457c1701395febb33c9fb24175923318535"
+    },
+    {
+      "exercise": "g0-19_Curtsy_Lunge",
+      "variant": "female",
+      "sourceHash": "ea02090eb1b75b70786e2744346cc8b442026f29479a0192f41037375c47d81d"
+    },
+    {
+      "exercise": "g0-19_Curtsy_Lunge",
+      "variant": "male",
+      "sourceHash": "f1329a2e6d7f74ba7dc6d9b64c5efa528ce22eab816acfb0fbe7362fc72c5596"
+    },
+    {
+      "exercise": "g0-20_Single_Leg_Dumbbell_RDL",
+      "variant": "female",
+      "sourceHash": "a712286daac06450918ac90ea43a5c8dba27314c2b18d5772110a1f1ac501a9a"
+    },
+    {
+      "exercise": "g0-20_Single_Leg_Dumbbell_RDL",
+      "variant": "male",
+      "sourceHash": "8335a2cc23402141ccb1f10801009e2407e98534fbb4e33e52bd64a018d1c9ee"
+    },
+    {
+      "exercise": "g0-21_Hip_Abduction_Machine",
+      "variant": "retained",
+      "sourceHash": "0a0378c9102f8dfa6dd683ad32e041514d1bf2e55f416f26ceaa3755c21f9982"
+    },
+    {
+      "exercise": "g0-22_Hip_Adduction_Machine",
+      "variant": "retained",
+      "sourceHash": "ce4739a9bedaad47331014d1b8ea99b25c72ca224642dd77b856a0d678ce4624"
+    },
+    {
+      "exercise": "g0-23_Barbell_Romanian_Deadlift",
+      "variant": "female",
+      "sourceHash": "07f44d10dc002476b93bfd4f94f151946e9df8f4ae2b04b987312f2c634ae721"
+    },
+    {
+      "exercise": "g0-23_Barbell_Romanian_Deadlift",
+      "variant": "male",
+      "sourceHash": "6b09c049c1747e12518772c4cefa49f18c590d3012769bf8074ea74966920466"
+    },
+    {
+      "exercise": "g0-24_Kettlebell_Swing",
+      "variant": "female",
+      "sourceHash": "6eeb374a70c18637506ac83e2bd28da70eaac7b70ff36c3730abeca9be4e1c28"
+    },
+    {
+      "exercise": "g0-24_Kettlebell_Swing",
+      "variant": "male",
+      "sourceHash": "cb5896a1c69ae3ad9b48aa3c6d6f153c46348dc1f2401ebbc10461b16dbfaf17"
+    },
+    {
+      "exercise": "g0-25_90_90_Hip_Switch",
+      "variant": "retained",
+      "sourceHash": "81e529ca350eefab2df7932c8908da07eed0e40d6195373aebb4f3f7a71e26d8"
+    },
+    {
+      "exercise": "g1-01_Conventional_Deadlift",
+      "variant": "female",
+      "sourceHash": "6a405bbdc2f03c1bef57c953ce0c068dd74f2350f49e5e9eddccb0a95d85a750"
+    },
+    {
+      "exercise": "g1-01_Conventional_Deadlift",
+      "variant": "male",
+      "sourceHash": "7566f42622c3b9b823cb417bde9d593777e54be23497edbb9622eff2814fdec8"
+    },
+    {
+      "exercise": "g1-02_Romanian_Deadlift",
+      "variant": "female",
+      "sourceHash": "7b6c518106400d65139cf872594fecf9144a71aa7e7862ac535cc502057166fc"
+    },
+    {
+      "exercise": "g1-02_Romanian_Deadlift",
+      "variant": "male",
+      "sourceHash": "2a904841e4cb6ecd233e119b21ece62a5a98183940b48f698ebcacf889c24dc6"
+    },
+    {
+      "exercise": "g1-03_Barbell_Good_Morning",
+      "variant": "female",
+      "sourceHash": "b920f3127de03503d398bbe5144f84964d2de66f7c6e0b800d4667d5cf75967e"
+    },
+    {
+      "exercise": "g1-03_Barbell_Good_Morning",
+      "variant": "male",
+      "sourceHash": "7b71e1461b161f399e27f139a7e68581673f58faeff5b42170f28a7cc2a511f2"
+    },
+    {
+      "exercise": "g1-04_45_Degree_Back_Extension",
+      "variant": "female",
+      "sourceHash": "de10d0a1284691a132ceca55db5fbec859ba95d0c3241c30ccd0b9ff6c5a170e"
+    },
+    {
+      "exercise": "g1-04_45_Degree_Back_Extension",
+      "variant": "male",
+      "sourceHash": "7ffd4740511dd4bad781c564051eb5df202e42aae48f5fbeef0d14a5a702b434"
+    },
+    {
+      "exercise": "g1-05_Bent_Over_Barbell_Row",
+      "variant": "female",
+      "sourceHash": "f1291abf11d030e65b066febb7763c6e1f0e7813b2da11b94975c872426581a0"
+    },
+    {
+      "exercise": "g1-05_Bent_Over_Barbell_Row",
+      "variant": "male",
+      "sourceHash": "4ce23ad857cb220ecc8d7d7a2807cce9b486b8d253b6eb6bcd9e37ae712b28a6"
+    },
+    {
+      "exercise": "g1-06_Pendlay_Row",
+      "variant": "female",
+      "sourceHash": "cc04d2f33eee5004b345bbbe8972395e6fffa128ca1a48c228ad39186225d447"
+    },
+    {
+      "exercise": "g1-06_Pendlay_Row",
+      "variant": "male",
+      "sourceHash": "4d593a7cebaf2ddbf1fd5be35320fcaf4b510dca884ea4ce0d6e05f7fe947f34"
+    },
+    {
+      "exercise": "g1-07_T_Bar_Row",
+      "variant": "female",
+      "sourceHash": "fefdf07a5b7f4541fe9580e73949c8b2daf867e7c4862ebf82c62bdce1d0083f"
+    },
+    {
+      "exercise": "g1-07_T_Bar_Row",
+      "variant": "male",
+      "sourceHash": "9eb2572a23edf23539f27d19edb23087d21b0e8f834e628b7700735f88a94dde"
+    },
+    {
+      "exercise": "g1-08_Single_Arm_Dumbbell_Row",
+      "variant": "female",
+      "sourceHash": "171523c2d95f87ad6c17662be25de10f4ea0b58805e20e692a817c02cd5164d6"
+    },
+    {
+      "exercise": "g1-08_Single_Arm_Dumbbell_Row",
+      "variant": "male",
+      "sourceHash": "9e1c5c2bfe43e50e9a71d4814d6a49b1cc57e411439a8ab89c12e852c1357c4f"
+    },
+    {
+      "exercise": "g1-09_Chest_Supported_Dumbbell_Row",
+      "variant": "retained",
+      "sourceHash": "3acf2f4b0c6700ac73c0e0627894350c09e445ef70d643b5314c5a14f5a62e60"
+    },
+    {
+      "exercise": "g1-10_Chest_Supported_Machine_Row",
+      "variant": "female",
+      "sourceHash": "ae043f2e789b0ecbc2a02be3a0e59a0489971266f77c28080d7b790ec062e91d"
+    },
+    {
+      "exercise": "g1-10_Chest_Supported_Machine_Row",
+      "variant": "male",
+      "sourceHash": "fd77ba58b82d6cf37aad3d09a5afd4d54b335286ba3598296781b3f349e17bfb"
+    },
+    {
+      "exercise": "g1-11_Neutral_Grip_Seated_Cable_Row",
+      "variant": "retained",
+      "sourceHash": "0ec572e617853da995422b5bc395ade50123cb9e2344265d6fe7813aff2761a7"
+    },
+    {
+      "exercise": "g1-12_Wide_Grip_Seated_Cable_Row",
+      "variant": "female",
+      "sourceHash": "367c3339c9c97cee04aefddd23dd4b9e9b5d73e91338f5c3784372e4d3674202"
+    },
+    {
+      "exercise": "g1-12_Wide_Grip_Seated_Cable_Row",
+      "variant": "male",
+      "sourceHash": "8f21dde5036d6823d68487551653d3f10b6a38ba876abfc5a935316a266e41cf"
+    },
+    {
+      "exercise": "g1-13_Wide_Grip_Lat_Pulldown",
+      "variant": "retained",
+      "sourceHash": "d126dd877f51ba7e0a166139f0096f610a8155eac804e1b911b476cb70f21687"
+    },
+    {
+      "exercise": "g1-14_Close_Neutral_Grip_Pulldown",
+      "variant": "retained",
+      "sourceHash": "15efc8c97d2f7ad8854cd54c09666b37850a1dd41b5b919f60a4ef471678e11c"
+    },
+    {
+      "exercise": "g1-15_Single_Arm_Cable_Pulldown",
+      "variant": "female",
+      "sourceHash": "de3560b0f550a906cb9b953774cd684adc67a1f21af5373ff54b664c95bf25aa"
+    },
+    {
+      "exercise": "g1-15_Single_Arm_Cable_Pulldown",
+      "variant": "male",
+      "sourceHash": "a13078111f25925fc5e49d16c8cd187961fb49932a056c0c5eeae04590d7b735"
+    },
+    {
+      "exercise": "g1-16_Straight_Arm_Cable_Pulldown",
+      "variant": "female",
+      "sourceHash": "96c31dca4024913d0647810e01e05a8a5153bc3540833b846c7a4f29273d6a9f"
+    },
+    {
+      "exercise": "g1-16_Straight_Arm_Cable_Pulldown",
+      "variant": "male",
+      "sourceHash": "9f991fa91bd88d9e9de927cbb791182bc9ce509b3c9ab0066ca2d0ae4722e835"
+    },
+    {
+      "exercise": "g1-17_Overhand_Pull_Up",
+      "variant": "female",
+      "sourceHash": "e587f175dc5079000481b9effb79028bfdbf32ddd0f25f42e58de89dd484817b"
+    },
+    {
+      "exercise": "g1-17_Overhand_Pull_Up",
+      "variant": "male",
+      "sourceHash": "54cd43e169d845c914dc928400d9caa87e2b717ff8aa4486177d59972861b283"
+    },
+    {
+      "exercise": "g1-18_Wide_Grip_Pull_Up",
+      "variant": "female",
+      "sourceHash": "9e7d824b8217de39e655e518880416ce857592be8840fc882a540f765f2dfac9"
+    },
+    {
+      "exercise": "g1-18_Wide_Grip_Pull_Up",
+      "variant": "male",
+      "sourceHash": "b677b75b038e2a4b22730accf436f1a02d0cf7a30dd819b195222f7ce1c5d66e"
+    },
+    {
+      "exercise": "g1-19_Neutral_Grip_Pull_Up",
+      "variant": "female",
+      "sourceHash": "90db5601357640cafec95c00e838eb4d0f0e9420c479a3a4db4682505afa2b94"
+    },
+    {
+      "exercise": "g1-19_Neutral_Grip_Pull_Up",
+      "variant": "male",
+      "sourceHash": "07a9a66b03a40539a36ec64d193c59b1a87adda9c9d8ae3545a5d865ee20f5a4"
+    },
+    {
+      "exercise": "g1-20_Overhand_Inverted_Row",
+      "variant": "female",
+      "sourceHash": "2252c85598241e9d2e253a01306ea69418b9f3b00ddb3f4fb2d4724fc018d397"
+    },
+    {
+      "exercise": "g1-20_Overhand_Inverted_Row",
+      "variant": "male",
+      "sourceHash": "831d4297d07088f15e7af58aafc496732c89e2944428658989c155f19c2253e6"
+    },
+    {
+      "exercise": "g1-21_Machine_High_Row",
+      "variant": "female",
+      "sourceHash": "e26e49d80cb43a072d0d6f28ae7faab740ecac16e2ac5fe88980cc5374d87b83"
+    },
+    {
+      "exercise": "g1-21_Machine_High_Row",
+      "variant": "male",
+      "sourceHash": "f1af42c69b6b9d18df9450d785a45035eccc973d7ed4c4ab5bc4d6da34bde95f"
+    },
+    {
+      "exercise": "g1-22_Dumbbell_Pullover",
+      "variant": "female",
+      "sourceHash": "5891bfdc8127940516c4cd7b9bf61806994379cdd5b77f5ee711291b6da9e98f"
+    },
+    {
+      "exercise": "g1-22_Dumbbell_Pullover",
+      "variant": "male",
+      "sourceHash": "4a0848bd4edb5b5e95204b53ed3397112f28ff736271909f3de3c3e7d4a77d17"
+    },
+    {
+      "exercise": "g1-23_Barbell_Shrug",
+      "variant": "retained",
+      "sourceHash": "5621d81df100dd06727f6b1a4f15a34555c2d8c666ab44fea9994ad9a285af40"
+    },
+    {
+      "exercise": "g1-24_Rope_Face_Pull",
+      "variant": "retained",
+      "sourceHash": "97b17484b933e375476a96b5b4a4628bd961fa24ba7eea73abca75bd05fa5f2d"
+    },
+    {
+      "exercise": "g1-25_Superman",
+      "variant": "retained",
+      "sourceHash": "3d678d150ebf2c8b59db7c9c569541139c1b9132401232cf0e4c07d15a7f0a2f"
+    },
+    {
+      "exercise": "g2-01_Standing_Dumbbell_Shoulder_Press",
+      "variant": "retained",
+      "sourceHash": "e51f63f46b66e7d77dff42b6d87c74c76eec9c6bd3e8385cd52f6b2a1401ab85"
+    },
+    {
+      "exercise": "g2-02_Seated_Dumbbell_Shoulder_Press",
+      "variant": "retained",
+      "sourceHash": "cf42571f96fe5d90ac744618f6a755a946870c81a020fe671d93cf4f70493ad0"
+    },
+    {
+      "exercise": "g2-03_Arnold_Press",
+      "variant": "female",
+      "sourceHash": "e1c0da66ef7a150b9d3c2400c16991589ef60847b467de7f5b141f87f57785b7"
+    },
+    {
+      "exercise": "g2-03_Arnold_Press",
+      "variant": "male",
+      "sourceHash": "13869e78d391bc4525766ca15319ea49b0a5d5af3e003146f428ee77a65817fb"
+    },
+    {
+      "exercise": "g2-04_Standing_Barbell_Overhead_Press",
+      "variant": "retained",
+      "sourceHash": "bda47a844d3c082026f1811a591df25fd2961420c4035ad9a1ea30185b868863"
+    },
+    {
+      "exercise": "g2-05_Seated_Barbell_Shoulder_Press",
+      "variant": "retained",
+      "sourceHash": "8db1a185f6d831fbc6ddaef7309c838b63f69d2a02eab98646bbf64d29d5997e"
+    },
+    {
+      "exercise": "g2-06_Machine_Shoulder_Press",
+      "variant": "retained",
+      "sourceHash": "8546e9ef3cd096cee5c4930e6c7de438aae2bc1854c2f663ff2e97a0709c5214"
+    },
+    {
+      "exercise": "g2-07_Half_Kneeling_Landmine_Press",
+      "variant": "retained",
+      "sourceHash": "d8b130fa836c3c9d92119da364ddf5622727f57db35d06184b618520702e76ae"
+    },
+    {
+      "exercise": "g2-08_Two_Hand_Landmine_Press",
+      "variant": "retained",
+      "sourceHash": "450ce7e41783e6fc68f4de97821590d74f794187c7697e897a13f6e404e0de55"
+    },
+    {
+      "exercise": "g2-09_Dumbbell_Lateral_Raise",
+      "variant": "retained",
+      "sourceHash": "f34c86e144a5460184020453be6f366706bf67cfc36f95f6de55c54f5d64cce9"
+    },
+    {
+      "exercise": "g2-10_Cable_Lateral_Raise",
+      "variant": "retained",
+      "sourceHash": "bba1041fad361613d9c092951ac6be299f631a37aa012732d2d73234e2150b27"
+    },
+    {
+      "exercise": "g2-11_Leaning_Lateral_Raise",
+      "variant": "retained",
+      "sourceHash": "8c2c526d390f023383fdb7e02646065246c78b4fa8211ceb1bda71dffa021c83"
+    },
+    {
+      "exercise": "g2-12_Dumbbell_Front_Raise",
+      "variant": "retained",
+      "sourceHash": "6fee4dc1c2fce5edf855d210b8255e6a80816bd19ef29a199802afdab70853b0"
+    },
+    {
+      "exercise": "g2-13_Plate_Front_Raise",
+      "variant": "retained",
+      "sourceHash": "64e26195e7b9249732b42ba9912ad6d69baa5385ff1639d07d9ae249e0309ef5"
+    },
+    {
+      "exercise": "g2-14_Cable_Front_Raise",
+      "variant": "retained",
+      "sourceHash": "39f84adb78bab73269a99608b775ffc26f90abe6c09f8fa67bcb3f723e00ffd4"
+    },
+    {
+      "exercise": "g2-15_Bent_Over_Rear_Delt_Fly",
+      "variant": "retained",
+      "sourceHash": "ec4af0f1e2b5c695de860a12982daac4167b4b4b5fd204ab52bbe55890e9d196"
+    },
+    {
+      "exercise": "g2-16_Chest_Supported_Rear_Delt_Fly",
+      "variant": "female",
+      "sourceHash": "058e45dbe924781a2beaea15e12228506502c5a16eda5b82a0e5f125a02ddf38"
+    },
+    {
+      "exercise": "g2-16_Chest_Supported_Rear_Delt_Fly",
+      "variant": "male",
+      "sourceHash": "34d732709e0d6e093c0d487cd191fa1db80b55ddc45a3b3510c8ee68cb7e4935"
+    },
+    {
+      "exercise": "g2-17_Reverse_Pec_Deck",
+      "variant": "retained",
+      "sourceHash": "ccb822a5ba6fc107ae9b8b28159f37fc9e34b2a8aa4eb3bd65fd71c423b98e1a"
+    },
+    {
+      "exercise": "g2-19_Wide_Grip_Upright_Row",
+      "variant": "retained",
+      "sourceHash": "e75120a5e10bba50fe88980f3c84efa88d9f34a0ab0a29a27e2e731e567ef680"
+    },
+    {
+      "exercise": "g2-20_Dumbbell_Scaption_Raise",
+      "variant": "retained",
+      "sourceHash": "a10deeb206e1762ab5909c0ec64b12b1b18e5a458092ca419aac1ffad9724f05"
+    },
+    {
+      "exercise": "g2-21_Cuban_Rotation_to_Press",
+      "variant": "retained",
+      "sourceHash": "868ba4dd67084c75ce51f1be4e10f85e75f9e745ac41e5ff473ede3e68380146"
+    },
+    {
+      "exercise": "g2-22_Incline_Bench_Y_Raise",
+      "variant": "retained",
+      "sourceHash": "f7f8f79128e01a75400d852df8ea352b7cad0302db7fc141ab49efa16a9e2a44"
+    },
+    {
+      "exercise": "g2-23_Resistance_Band_Pull_Apart",
+      "variant": "retained",
+      "sourceHash": "0c726d10bee93e6c8e0200b65f3fb3dc2c41706e56f5b326e53c3fbfd4943b1a"
+    },
+    {
+      "exercise": "g2-24_Cable_External_Rotation",
+      "variant": "retained",
+      "sourceHash": "8fde4520bff4d423831bcc3f16162a2f79a061f9db0834fed44e2e315659a304"
+    },
+    {
+      "exercise": "g2-25_Pike_Push_Up",
+      "variant": "female",
+      "sourceHash": "fd5b8581ca7f7e6d5b1f89bef3e169d90e037083665b19a24338a2325e6bece5"
+    },
+    {
+      "exercise": "g2-25_Pike_Push_Up",
+      "variant": "male",
+      "sourceHash": "2fe61e583916a414ec82f82fb4b9c7735999b5c8822d2c76d35e2b38b569e2cc"
+    },
+    {
+      "exercise": "g3-01_Standing_Dumbbell_Curl",
+      "variant": "female",
+      "sourceHash": "0c5d31d17438afa14ae27bc2038064b6289b77ba42d2a9285d4d1ef2e53c5c82"
+    },
+    {
+      "exercise": "g3-01_Standing_Dumbbell_Curl",
+      "variant": "male",
+      "sourceHash": "66bbdc5d5d210a6b8711b497786d22258199a75866d71b729697a5d348671858"
+    },
+    {
+      "exercise": "g3-02_Alternating_Dumbbell_Curl",
+      "variant": "retained",
+      "sourceHash": "31986797e03a495bce243f4b8722f78672530e856484e3be52e036076c972328"
+    },
+    {
+      "exercise": "g3-03_Hammer_Curl",
+      "variant": "retained",
+      "sourceHash": "b4285e6416f2c25ac76a524246380ac7026e376d4c36079159ddf79fc9d0fead"
+    },
+    {
+      "exercise": "g3-04_Cross_Body_Hammer_Curl",
+      "variant": "retained",
+      "sourceHash": "f45ea7263a216eec301df39011eb158a6941712d89663f9e57b96a66852d2cff"
+    },
+    {
+      "exercise": "g3-06_Concentration_Curl",
+      "variant": "retained",
+      "sourceHash": "914bf17f5faad480af6a19fdff0271330ce6f2994536550885013bb2cf316c4f"
+    },
+    {
+      "exercise": "g3-07_Dumbbell_Preacher_Curl",
+      "variant": "female",
+      "sourceHash": "3091c3f9dd303825db73a3b67dc8617f121ee154adedee025636677c943c2d06"
+    },
+    {
+      "exercise": "g3-07_Dumbbell_Preacher_Curl",
+      "variant": "male",
+      "sourceHash": "9694200f3dacd716cca4169b155615f30126485d33357c33de0197331fb61743"
+    },
+    {
+      "exercise": "g3-08_Spider_Curl",
+      "variant": "female",
+      "sourceHash": "1385e2817bf79f6617ee42bdce93c3062a8814025b654a2107aaaaee1e4e7884"
+    },
+    {
+      "exercise": "g3-08_Spider_Curl",
+      "variant": "male",
+      "sourceHash": "ee2086bd5698ec592b31ff3eee147c8c247872528ee40d8079cad3233098726a"
+    },
+    {
+      "exercise": "g3-09_Straight_Barbell_Curl",
+      "variant": "retained",
+      "sourceHash": "71e2e5fc64ff61aca2da4e72f5ce052b82084e5485a7ee02120762988a2c99a0"
+    },
+    {
+      "exercise": "g3-10_EZ_Bar_Curl",
+      "variant": "retained",
+      "sourceHash": "11d897b0a99f44b61b57e9e7362f5d604c9a2730bd3b9e19e9b75222efb3cc2a"
+    },
+    {
+      "exercise": "g3-11_Preacher_EZ_Bar_Curl",
+      "variant": "retained",
+      "sourceHash": "a240a810db9a0daf204805ad7b1caa930fcb571f25dc7a52e0e630bbf7a68d54"
+    },
+    {
+      "exercise": "g3-12_Reverse_Barbell_Curl",
+      "variant": "retained",
+      "sourceHash": "c6793b6136684b87fd7c7020c53f3f04ff0ee7bcf45a0416814bb07fcecefd49"
+    },
+    {
+      "exercise": "g3-13_Drag_Curl",
+      "variant": "retained",
+      "sourceHash": "d99c61044776602c4c2cb110c5d5caac6e098a3876d73bdf1a7000d788746501"
+    },
+    {
+      "exercise": "g3-14_Zottman_Curl",
+      "variant": "female",
+      "sourceHash": "487cd9870a73eca00dd50aaa219e24db2e6d9ab815bf58d3e5a8da62a68c5271"
+    },
+    {
+      "exercise": "g3-14_Zottman_Curl",
+      "variant": "male",
+      "sourceHash": "b69a97a9b8172431fbfc2b6a68af00c4ac47df56c860c15d76e6f1c6c3fd7331"
+    },
+    {
+      "exercise": "g3-15_Seated_Dumbbell_Curl",
+      "variant": "female",
+      "sourceHash": "839cead45a84588440999f08ada906fa52d77a76c60d0be98c7399d14fe10bd2"
+    },
+    {
+      "exercise": "g3-15_Seated_Dumbbell_Curl",
+      "variant": "male",
+      "sourceHash": "0dcb566119b115f082230fbda5260f74e41b7e9b6a98acae789a4454ae869005"
+    },
+    {
+      "exercise": "g3-16_Seated_Hammer_Curl",
+      "variant": "retained",
+      "sourceHash": "ac9e0ed71e8414150c7ffeae32a360c4701edf4cad16182a1906197be77e8f1e"
+    },
+    {
+      "exercise": "g3-17_Standing_Cable_Curl",
+      "variant": "retained",
+      "sourceHash": "6241b8bbe13ee723efcd71f117490fc633e31b7d64d4a817c653b2bdb8e7ae4f"
+    },
+    {
+      "exercise": "g3-18_Single_Arm_Cable_Curl",
+      "variant": "retained",
+      "sourceHash": "0f2c26f8203ec5b40751c5e478a31dc47237b90e067a422319474cc637204708"
+    },
+    {
+      "exercise": "g3-19_Rope_Hammer_Cable_Curl",
+      "variant": "retained",
+      "sourceHash": "c568b261d6b7ee70f4a19364e9854e2e7d8d34f9179781a8f5c5122410f6057a"
+    },
+    {
+      "exercise": "g3-20_Bayesian_Cable_Curl",
+      "variant": "retained",
+      "sourceHash": "a3bc64a5b9fc3cdd42722a5601464417e2882714dcde8f359f79ddfa7cf6982a"
+    },
+    {
+      "exercise": "g3-21_Overhead_Cable_Curl",
+      "variant": "retained",
+      "sourceHash": "f6cb030d5e344ce07135fbbc4741da6fbfc425126c28b2335c17b41623735e69"
+    },
+    {
+      "exercise": "g3-22_Machine_Preacher_Curl",
+      "variant": "retained",
+      "sourceHash": "7cb114a8a141e340d7f02415ae198b4871c3297066eed708a52ef2f3f967a3e7"
+    },
+    {
+      "exercise": "g3-23_Resistance_Band_Curl",
+      "variant": "retained",
+      "sourceHash": "9162142e85be3c7cd592aafe5b270a49b3683fac3f636c9f2ad8b71cf42d07ad"
+    },
+    {
+      "exercise": "g3-24_Chin_Up",
+      "variant": "female",
+      "sourceHash": "af2a6ac905d24ecb45380237bfd8f0dffcff037a09b885c0eb1d20c7e96481ca"
+    },
+    {
+      "exercise": "g3-24_Chin_Up",
+      "variant": "male",
+      "sourceHash": "2c9bf35920b372858e8a6e6bc9c62c8ff1950f1e6f02b8d8113c4848ad22d1b5"
+    },
+    {
+      "exercise": "g3-25_Underhand_Inverted_Row",
+      "variant": "female",
+      "sourceHash": "1ede64181483e78eee95f4133e7197a85d4fd9594ef990645b99a9b823af6d13"
+    },
+    {
+      "exercise": "g3-25_Underhand_Inverted_Row",
+      "variant": "male",
+      "sourceHash": "9ca8aa25014b01abcae9b1efcb6629693a5479338825b71fd514203b1d651337"
+    },
+    {
+      "exercise": "g4-01_Side_Plank",
+      "variant": "female",
+      "sourceHash": "c999995fb0fef649b1951ef99843f2322cd67bd27c7b0f2922dae2a5dbc99d05"
+    },
+    {
+      "exercise": "g4-01_Side_Plank",
+      "variant": "male",
+      "sourceHash": "40fe57a679a37260a4fc27967f211a69f90407a976d9a9c74ccf09fe1d837feb"
+    },
+    {
+      "exercise": "g4-02_Side_Plank_Hip_Dips",
+      "variant": "retained",
+      "sourceHash": "86ec2c1419ba94871eb0034006812463fa4d2cf4c62de8e369b444c0751f180a"
+    },
+    {
+      "exercise": "g4-03_Side_Plank_Rotation",
+      "variant": "retained",
+      "sourceHash": "effb75c02362de560775836c183c2ce71ff25eb08ad47607ddf50743b473a3ae"
+    },
+    {
+      "exercise": "g4-04_Bicycle_Crunch",
+      "variant": "retained",
+      "sourceHash": "0525a0f7a1f01e9a1cc4f0602d880fd936d31010b068dd4746b5bb25acd66546"
+    },
+    {
+      "exercise": "g4-05_Heel_Touches",
+      "variant": "female",
+      "sourceHash": "ccc7fcdb4961c589d634dc8d6064746259833fb41a9a8d4f95d18f6249fc1872"
+    },
+    {
+      "exercise": "g4-05_Heel_Touches",
+      "variant": "male",
+      "sourceHash": "6020862fceffba4727d76212317a288d147b7a41548d57b2c796e65ca25b568b"
+    },
+    {
+      "exercise": "g4-06_Cross_Body_Crunch",
+      "variant": "female",
+      "sourceHash": "13d22e06f75a161bf25cef892be13afdf6d564f3d4ca7fcb34737e424f36c487"
+    },
+    {
+      "exercise": "g4-06_Cross_Body_Crunch",
+      "variant": "male",
+      "sourceHash": "da2452cd8a6630853d61e3ec6c36850d33509b4c50c8246eb2e842e22072cc46"
+    },
+    {
+      "exercise": "g4-07_Cross_Body_Mountain_Climber",
+      "variant": "female",
+      "sourceHash": "f19e6c23b5e7350e9efc3c7bca5f3c7f8e33c5de5cb46eeaf87a50d8df1f426b"
+    },
+    {
+      "exercise": "g4-07_Cross_Body_Mountain_Climber",
+      "variant": "male",
+      "sourceHash": "3642d8d5db4571cc37433178c864250bee40b6773c28a5331583c5e818ba24f6"
+    },
+    {
+      "exercise": "g4-08_Windshield_Wipers",
+      "variant": "retained",
+      "sourceHash": "d2163539dec8c16aa731f49a5d9ffdaad4593bf472e133d456b6daa4a0f7eb7e"
+    },
+    {
+      "exercise": "g4-09_Russian_Twist",
+      "variant": "female",
+      "sourceHash": "d5ee173149f0195f6c0cc4d680c70a2955e7e53ab3439470e6df40de0cebfbbf"
+    },
+    {
+      "exercise": "g4-09_Russian_Twist",
+      "variant": "male",
+      "sourceHash": "acf778b13ca07dd7bcdf8e05eae1621d2021a3ee5069cd49de9087fc3db1d16b"
+    },
+    {
+      "exercise": "g4-10_Reverse_Crunch_With_Rotation",
+      "variant": "retained",
+      "sourceHash": "95d038e0cf2935245a7d2fd7c46d9d36f8568f27d6e7ff516ab1c166d4abf790"
+    },
+    {
+      "exercise": "g4-11_Dumbbell_Side_Bend",
+      "variant": "retained",
+      "sourceHash": "b1e7a60abe7d4e743b6107616b73c7d425715549ef6fd1d0f0a1d932d0414cd8"
+    },
+    {
+      "exercise": "g4-12_Weighted_Russian_Twist",
+      "variant": "female",
+      "sourceHash": "54a1a319cab4be457a6589fe4401efb77423c46ee160af13f38ebc7e6f623d7e"
+    },
+    {
+      "exercise": "g4-12_Weighted_Russian_Twist",
+      "variant": "male",
+      "sourceHash": "4788710d1e856a50a259f30070931aed71ad42e6763cb91a79dcf3b2844b9302"
+    },
+    {
+      "exercise": "g4-13_Suitcase_Carry",
+      "variant": "retained",
+      "sourceHash": "c738fc52d1d145cae7a96d7549386115338f350323340b95bd4b02ef80b75b90"
+    },
+    {
+      "exercise": "g4-14_Standing_Oblique_Crunch",
+      "variant": "retained",
+      "sourceHash": "89d35d651e9fbf355147e2011637a9f77c0e8cbd3c8e83d841b0c4b0b2ff4f7e"
+    },
+    {
+      "exercise": "g4-15_High_to_Low_Cable_Woodchop",
+      "variant": "retained",
+      "sourceHash": "030ea6697ec5ea48d5905e574adda4bc56f944ef61a6445933c560de970acaa2"
+    },
+    {
+      "exercise": "g4-16_Low_to_High_Cable_Woodchop",
+      "variant": "retained",
+      "sourceHash": "de5b21306a47a0b5f947194b40cb890e2c88f323814f0a6db6be2efc911ef1a2"
+    },
+    {
+      "exercise": "g4-17_Horizontal_Cable_Rotation",
+      "variant": "retained",
+      "sourceHash": "f767bd24a8e7b26e1b827215471f76a0718fe35f51056ac236c7090a550782bb"
+    },
+    {
+      "exercise": "g4-18_Pallof_Press",
+      "variant": "retained",
+      "sourceHash": "3f40f6069aba295b2e1753715e46392e497fa079e59d9b5121da31b3a1d03ae7"
+    },
+    {
+      "exercise": "g4-19_Landmine_Rotation",
+      "variant": "female",
+      "sourceHash": "764751a444580aa7f7844e1819af8c8cafcbaf419990f22feb62f52a9547c672"
+    },
+    {
+      "exercise": "g4-19_Landmine_Rotation",
+      "variant": "male",
+      "sourceHash": "aa53c3b53a282b511a38812d934e998d1f3122409965727034fcbe5f54bcc8f5"
+    },
+    {
+      "exercise": "g4-20_Medicine_Ball_Rotational_Throw",
+      "variant": "female",
+      "sourceHash": "7c4aee1d1f2858c6fae4313dab46543b0b3ca514ab9b2a8371cb9d55532d988c"
+    },
+    {
+      "exercise": "g4-20_Medicine_Ball_Rotational_Throw",
+      "variant": "male",
+      "sourceHash": "2c231829199fd4055c925166a71388c4450f3d354169a4ce03b5b7e6ef6c04c3"
+    },
+    {
+      "exercise": "g4-21_Hanging_Oblique_Knee_Raise",
+      "variant": "female",
+      "sourceHash": "949fb94d45b2c18162720845308c633ae408c843b5d3674ec5248a96ec89a900"
+    },
+    {
+      "exercise": "g4-21_Hanging_Oblique_Knee_Raise",
+      "variant": "male",
+      "sourceHash": "93a33a2e1691014c69b05d3253eb41a48059e184e22482a1aa7b242e2578b480"
+    },
+    {
+      "exercise": "g4-22_Hanging_Windshield_Wipers",
+      "variant": "female",
+      "sourceHash": "4c806066b671d8e8416c5922849d29ff7b2507d49652af1cb1fe51bf77a92750"
+    },
+    {
+      "exercise": "g4-22_Hanging_Windshield_Wipers",
+      "variant": "male",
+      "sourceHash": "870688d72a38760a1abc63474c7eb520df245addcc70007ad220ce1b87748026"
+    },
+    {
+      "exercise": "g4-23_Hanging_Knee_Raise_With_Twist",
+      "variant": "female",
+      "sourceHash": "949fb94d45b2c18162720845308c633ae408c843b5d3674ec5248a96ec89a900"
+    },
+    {
+      "exercise": "g4-23_Hanging_Knee_Raise_With_Twist",
+      "variant": "male",
+      "sourceHash": "93a33a2e1691014c69b05d3253eb41a48059e184e22482a1aa7b242e2578b480"
+    },
+    {
+      "exercise": "g4-24_Copenhagen_Plank",
+      "variant": "female",
+      "sourceHash": "cc64af6356879c1b6a0f37240b8ab3e93adcfb5fc87c2b67bcc203ab93508c05"
+    },
+    {
+      "exercise": "g4-24_Copenhagen_Plank",
+      "variant": "male",
+      "sourceHash": "f808729a25828d83162a8da8669ca8bb1b9bcc5042defb19880f93b8e93a8da0"
+    },
+    {
+      "exercise": "g4-25_Side_Plank_Crunch",
+      "variant": "retained",
+      "sourceHash": "21083b0a550519f96fef0933a3a8cdbbbc52f4bc891df1cbc657a45b71cbe6c7"
+    },
+    {
+      "exercise": "guide-barbell-back-squat",
+      "variant": "female",
+      "sourceHash": "b014c552d6d66c58e98ecb54a62d469e4b9f9438a9b3a1753f562731e95eecb4"
+    },
+    {
+      "exercise": "guide-barbell-back-squat",
+      "variant": "male",
+      "sourceHash": "892650c1e45c916620d8009806c2aa3a2240ff00f5b9d7ad0017e068ce7918c9"
+    },
+    {
+      "exercise": "guide-barbell-front-squat",
+      "variant": "female",
+      "sourceHash": "61d1fedfd2f11f74c0c57737b561dffeef9355449c136381b2419f4c12c16b88"
+    },
+    {
+      "exercise": "guide-barbell-front-squat",
+      "variant": "male",
+      "sourceHash": "8c95eb7f20079aff32b02a08c910828b8eab180f46b2a1d72407a229a7b62a43"
+    },
+    {
+      "exercise": "guide-bench-dip",
+      "variant": "retained",
+      "sourceHash": "b8b077c6e46d4fbe995fc895421f248cb23429a6b06df33ca5df092046760881"
+    },
+    {
+      "exercise": "guide-bird-dog",
+      "variant": "retained",
+      "sourceHash": "bf1240bdb4bd69067a269fb9b5675fb829a79b1ce3556bac0271b61718fb6877"
+    },
+    {
+      "exercise": "guide-bodyweight-hip-hinge",
+      "variant": "retained",
+      "sourceHash": "e385d3ef550570d46b8fc5244318792aa139597ee474f9c5ed1671039fd2ba5e"
+    },
+    {
+      "exercise": "guide-bodyweight-squat",
+      "variant": "female",
+      "sourceHash": "8b9e44b3bfad3b437b0af48cc80a95c4ccb07fe53bf5b955bf25ffaf0e9bb527"
+    },
+    {
+      "exercise": "guide-cable-triceps-pushdown",
+      "variant": "retained",
+      "sourceHash": "509b2c79bb51efbd9052a5c36d0bbc8147c5444b75b683c121ea83fa81280675"
+    },
+    {
+      "exercise": "guide-close-grip-push-up",
+      "variant": "female",
+      "sourceHash": "977f2f4b6e958cf6c275b7c9fd86b04fdf2e953329c0bbdd50190e8015dc9f29"
+    },
+    {
+      "exercise": "guide-close-grip-push-up",
+      "variant": "male",
+      "sourceHash": "4ca56ad348b1c7afbb551beece38089669f2c40c841257be39ebfbac3380a473"
+    },
+    {
+      "exercise": "guide-crunch",
+      "variant": "retained",
+      "sourceHash": "8c45e201585a1e86229407084650e57364b674c6f80938cfe2deaafacddbc626"
+    },
+    {
+      "exercise": "guide-dead-bug",
+      "variant": "retained",
+      "sourceHash": "f89b72767b1eddb5e2b6cec19ae19f3c029858e11438eea98e55fef7f9abdc93"
+    },
+    {
+      "exercise": "guide-dumbbell-bench-press",
+      "variant": "retained",
+      "sourceHash": "b972cced4062fa3bcf0044db42a7fae04d4b4e57e3a6a24995482af208a27c2c"
+    },
+    {
+      "exercise": "guide-dumbbell-chest-fly",
+      "variant": "female",
+      "sourceHash": "f529738e6003dd76a1cb45339c8808e65dac5b41315cb6ab6b96ba84fd2a3dee"
+    },
+    {
+      "exercise": "guide-dumbbell-chest-fly",
+      "variant": "male",
+      "sourceHash": "8c3e9971348b2608b1b02ad707a64011b7cf993ab3caaef5268b9ca4938b701c"
+    },
+    {
+      "exercise": "guide-dumbbell-triceps-kickback",
+      "variant": "retained",
+      "sourceHash": "698f7c56c584d13f6e1894f9a125747f24be4c37ae979b6d54886166cc121580"
+    },
+    {
+      "exercise": "guide-forward-lunge",
+      "variant": "female",
+      "sourceHash": "0914fc11c03c23c60075c1edc57a98e151512ea4405370acc0c63bed4657e91e"
+    },
+    {
+      "exercise": "guide-forward-lunge",
+      "variant": "male",
+      "sourceHash": "7e0eade3b776761f7cf5efff43665bf6b0896ac3ef41cf9c98bbe20c6f2c2db5"
+    },
+    {
+      "exercise": "guide-incline-dumbbell-curl",
+      "variant": "female",
+      "sourceHash": "16fbc57186cd046cc2456fc5598bc6ec08923914c582bc6c820d706cf531bf7c"
+    },
+    {
+      "exercise": "guide-incline-dumbbell-curl",
+      "variant": "male",
+      "sourceHash": "62f6042c3525c894d42eb7157648e809f3bd6066240cdf026ffe7f09be5c9993"
+    },
+    {
+      "exercise": "guide-jumping-jack",
+      "variant": "female",
+      "sourceHash": "240fe0f854194d9fecd019bb5aa8000dbe82a869ae44206b359ee4681eb209fe"
+    },
+    {
+      "exercise": "guide-jumping-jack",
+      "variant": "male",
+      "sourceHash": "1df657e87a544052a0d9b433c9967e5f89341eb0974c85589750bf51004a0a35"
+    },
+    {
+      "exercise": "guide-lateral-band-walk",
+      "variant": "female",
+      "sourceHash": "c204c2512c5c8ebe9e1eb0ef2fb879296593f4f1bd0a82e20eec48aeeb960fc2"
+    },
+    {
+      "exercise": "guide-lateral-band-walk",
+      "variant": "male",
+      "sourceHash": "cbde407d9c790d0915f6668dbfca8020a221545009e45b99afbd891814cb7097"
+    },
+    {
+      "exercise": "guide-leg-extension",
+      "variant": "female",
+      "sourceHash": "3acabf8b5a541781c5c895a569aaf3a0489e7ccc8969503fae82f636bd349747"
+    },
+    {
+      "exercise": "guide-leg-extension",
+      "variant": "male",
+      "sourceHash": "f3a2484eb9ca2a53987b526a663789c93eb9274c1e322a4797fe550490de0880"
+    },
+    {
+      "exercise": "guide-lying-leg-raise",
+      "variant": "retained",
+      "sourceHash": "76a43ae914eaad0ba34d9baa8766242d22e6768bb90021665c15c390eac95ef1"
+    },
+    {
+      "exercise": "guide-mountain-climber",
+      "variant": "retained",
+      "sourceHash": "63dc9c024ebb7d62133983d82399913376a8aa26a2561139e9a0c1fb369dcf6f"
+    },
+    {
+      "exercise": "guide-overhead-dumbbell-triceps-extension",
+      "variant": "retained",
+      "sourceHash": "6f7eeaabf168d884fb490ffc895e5d3f1607dc1ad7362f36b114c1e71ad3ade6"
+    },
+    {
+      "exercise": "guide-prone-leg-curl",
+      "variant": "retained",
+      "sourceHash": "c19024f91fe1f11a779b29082c1c5a9e6702e03a6bdf77aa95bfc20493a7d7bc"
+    },
+    {
+      "exercise": "guide-push-up",
+      "variant": "female",
+      "sourceHash": "a8c40f463b59555fe16aa390f6a29bee186d08ebc923d63d382c70f302afd991"
+    },
+    {
+      "exercise": "guide-push-up",
+      "variant": "male",
+      "sourceHash": "22409153d44bb71a5d651150cf7766b48737cac0db7adb2b93e571f248d20016"
+    },
+    {
+      "exercise": "guide-seated-reverse-wrist-curl",
+      "variant": "retained",
+      "sourceHash": "98cd177ec252d90ab6032862dd399e9a18cde77086dbbf5a7ac85834d697321b"
+    },
+    {
+      "exercise": "guide-seated-wrist-curl",
+      "variant": "retained",
+      "sourceHash": "e33a5d4371035298fe1b84d8982658002be6ee871ab6800d1c46cda4e574491f"
+    },
+    {
+      "exercise": "guide-standing-calf-raise",
+      "variant": "female",
+      "sourceHash": "ace9182916fb0bf3b222a95d37b36c64ba4ef07c4232d5afa61f2e1282780209"
+    },
+    {
+      "exercise": "guide-standing-calf-raise",
+      "variant": "male",
+      "sourceHash": "200107be95b6b0aa96789917aa691f8ef6618a14d3be1c35d0a91e5febd1329b"
+    },
+    {
+      "exercise": "guide-standing-dumbbell-calf-raise",
+      "variant": "female",
+      "sourceHash": "7811f84590332adfdc067f3cd72ec08e14facce24ec8cf77f00a608ecfe436a0"
+    },
+    {
+      "exercise": "guide-standing-dumbbell-calf-raise",
+      "variant": "male",
+      "sourceHash": "a623f9201bf760458fd81f5de8e7222e5041b2fcdb87ab5d6448e6927a1ca2cc"
+    },
+    {
+      "exercise": "prenatal-band-curl",
+      "variant": "retained",
+      "sourceHash": "b58f2f5d93b0bfc38be1b564f11351e9850fe54165241dc4fac76529975fc32f"
+    },
+    {
+      "exercise": "prenatal-band-raise",
+      "variant": "retained",
+      "sourceHash": "79ef793dd8d364c8aa0ff3580e1519084b8443bbf99d96e8a8bc4573111965e7"
+    },
+    {
+      "exercise": "prenatal-band-row",
+      "variant": "prenatal",
+      "sourceHash": "003ea9af5be0906b719615fc7fe8f74c97fb7fa1e4a770ad639acb9ebc6dafea"
+    },
+    {
+      "exercise": "prenatal-calf-raise",
+      "variant": "retained",
+      "sourceHash": "ca4e97957dc96cf2372fad67639f167d6df4001400fbabe70cffecbc578c8024"
+    },
+    {
+      "exercise": "prenatal-calf-stretch",
+      "variant": "retained",
+      "sourceHash": "39014a66bd58d0604f9787f7e48ba8a777ccd9a8f0e908766f1de084bd392c2a"
+    },
+    {
+      "exercise": "prenatal-cat-arch",
+      "variant": "prenatal",
+      "sourceHash": "45448ecf4d6cca75020aebdc89e0993631fa45a74369ab67dc2ec35d0f8da898"
+    },
+    {
+      "exercise": "prenatal-cycle",
+      "variant": "retained",
+      "sourceHash": "df6c1b742ef87f785dc6073dada9b3b1459f66b4ccd509edc8ab8d0b00102b52"
+    },
+    {
+      "exercise": "prenatal-figure-four",
+      "variant": "retained",
+      "sourceHash": "e6120447d2744d2f12b25b601fa0b70a1345478502d3781e5fbddcad332a8b2a"
+    },
+    {
+      "exercise": "prenatal-leg-extension",
+      "variant": "prenatal",
+      "sourceHash": "acecab0e69e17f455149e3628852cb5ea8b556fe1c57134ce6fa463cb13e2576"
+    },
+    {
+      "exercise": "prenatal-march",
+      "variant": "retained",
+      "sourceHash": "60491cb7b25ee06afd92baab32ccab2446546421185a1a19293f803cf3f152a6"
+    },
+    {
+      "exercise": "prenatal-sit-stand",
+      "variant": "prenatal",
+      "sourceHash": "afa7f8645b470a3a201feddee82152fe42927caaa507813e473a8b7b06e74c38"
+    },
+    {
+      "exercise": "prenatal-walk",
+      "variant": "retained",
+      "sourceHash": "2a1af3a36b5df38fbc94c1c1a57c951e148d26a282feb4f8e9d31e2de7a4ba3e"
+    },
+    {
+      "exercise": "prenatal-wall-pushup",
+      "variant": "prenatal",
+      "sourceHash": "264b119a64f638c439d86e9e697a150d789eaa317e634c7f2a250a5668d8a760"
+    },
+    {
+      "exercise": "prenatal-wall-tilt",
+      "variant": "retained",
+      "sourceHash": "b38e3b64b6b37ee553d01238d3fb97d0c193b1db4f9cc19f77cdb40c514208de"
+    },
+    {
+      "exercise": "stretch-arm-circles",
+      "variant": "female",
+      "sourceHash": "36d3ae4fc1239417f51b19244f7ed570b643c086b22957dc837b19e4a91409ca"
+    },
+    {
+      "exercise": "stretch-arm-circles",
+      "variant": "male",
+      "sourceHash": "9cf6988235b4302e1a14cfe81d13499a4a082d14a317479b45609159c65b4641"
+    },
+    {
+      "exercise": "stretch-calf",
+      "variant": "female",
+      "sourceHash": "44ed60c0edf1d5cfd86995f7c93320e2694937f03f3365df0351eb5fc3404be6"
+    },
+    {
+      "exercise": "stretch-calf",
+      "variant": "male",
+      "sourceHash": "e536b63d0def0303ac9b3eeca7ec8995708685604483bd1ba5257d78e4afad30"
+    },
+    {
+      "exercise": "stretch-cat-cow",
+      "variant": "female",
+      "sourceHash": "0b68fa441255d2bb3ac23885b6d81a6d72285bb04de7e3499171c110ffcabe8a"
+    },
+    {
+      "exercise": "stretch-cat-cow",
+      "variant": "male",
+      "sourceHash": "8ed606d245a18ebfea39e20c2e3ba217705a824c3d84e9c6b7aabd00c0241f4d"
+    },
+    {
+      "exercise": "stretch-figure-four",
+      "variant": "female",
+      "sourceHash": "84f0f8cd1d74914bb783f2c4655705edbae0d97c2375f0154c8ed15dac25903e"
+    },
+    {
+      "exercise": "stretch-figure-four",
+      "variant": "male",
+      "sourceHash": "ebbbb0550f0726d96f67e398f213e223f7570e14b969535c0293d290b4ef9281"
+    },
+    {
+      "exercise": "stretch-front-leg-swings",
+      "variant": "retained",
+      "sourceHash": "cdf81064342ba774682248a39c035ec30c3c6536a41447fc05439dbc682b4a25"
+    },
+    {
+      "exercise": "stretch-hamstring",
+      "variant": "female",
+      "sourceHash": "ee6350af86104d81962226a1e5b56ed5035adb1d5f313fe9039b1ab2a1fea2f5"
+    },
+    {
+      "exercise": "stretch-hamstring",
+      "variant": "male",
+      "sourceHash": "4ec0b67e9bb43f60d4dfd8b2a597a343594df02c9ce678df1c6da0b34e00f9f9"
+    },
+    {
+      "exercise": "stretch-hip-flexor",
+      "variant": "retained",
+      "sourceHash": "6af577a64e6152ee33ce2c9cbe0456231dc169a90264b7fc47a7d0d6549e7994"
+    },
+    {
+      "exercise": "stretch-lateral-leg-swings",
+      "variant": "retained",
+      "sourceHash": "c4dddd0e92ce258a0e9d1f11ff46bc805ef280b9e99c8335cf9fcb04961c0bc9"
+    },
+    {
+      "exercise": "stretch-quadriceps",
+      "variant": "female",
+      "sourceHash": "ae9185e659606c26ee66455c1823816795e530569b023a38bba3b210628acaa3"
+    },
+    {
+      "exercise": "stretch-quadriceps",
+      "variant": "male",
+      "sourceHash": "e560a7e6feedc3a401854ac24fb4e406190291e1673df4b5c441c3e7e3cf765e"
+    },
+    {
+      "exercise": "stretch-shoulder",
+      "variant": "retained",
+      "sourceHash": "90ad5ee25beddb79b3b0e494ac714bd98fd14e1596e9dd89176d5794a68b4277"
+    },
+    {
+      "exercise": "stretch-torso-rotations",
+      "variant": "retained",
+      "sourceHash": "603a44074613dddb3b3994b893d9d5e5f8827b2a4b857165c3dc910d91ab6332"
+    },
+    {
+      "exercise": "stretch-walking-knee-hugs",
+      "variant": "retained",
+      "sourceHash": "4dc81547d60b73648294b8d9982eb25ddff3ebb0e80279ff1c27b74df7dd7d4d"
+    }
+  ]
+}

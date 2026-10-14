@@ -1,0 +1,130 @@
+/* Portable, read-only animation gate for local checks and the Pages runner. */
+const fs = require('fs'), path = require('path'), assert = require('assert'), crypto = require('crypto');
+const MANIFEST_PATH = 'dist/motion-package-manifest.json';
+const sha256 = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
+const read = file => JSON.parse(fs.readFileSync(file, 'utf8').replace(/^\uFEFF/, ''));
+const canonical = value => Array.isArray(value) ? value.map(canonical) : value && typeof value === 'object'
+  ? Object.fromEntries(Object.keys(value).sort().map(key => [key, canonical(value[key])])) : value;
+const digest = value => sha256(Buffer.from(JSON.stringify(canonical(value))));
+const compare = (a, b) => a < b ? -1 : a > b ? 1 : 0;
+const owned = value => Object.fromEntries(['image', 'poster', 'style', 'animation'].filter(key => value[key] !== undefined).map(key => [key, value[key]]));
+
+function ordinaryFile(stage, relative) {
+  assert(typeof relative === 'string' && relative.length && !relative.includes('\\') && !path.posix.isAbsolute(relative) && !relative.split('/').some(part => !part || part === '.' || part === '..'), 'Unsafe package path: ' + relative);
+  const base = path.resolve(stage), file = path.resolve(base, ...relative.split('/'));
+  assert(file.startsWith(base + path.sep), 'Package path escaped the checkout');
+  let current = base;
+  for (const part of relative.split('/')) {
+    current = path.join(current, part);
+    assert(!fs.lstatSync(current).isSymbolicLink(), 'Symlink in motion package: ' + relative);
+  }
+  assert(fs.lstatSync(file).isFile(), 'Motion package entry is not an ordinary file: ' + relative);
+  return file;
+}
+
+function validateAnimation(animation, label) {
+  assert(animation && animation.frameWidth === 600 && animation.frameHeight === 484, 'Invalid frame size: ' + label);
+  assert(animation.atlasFrameWidth === 420 && animation.atlasFrameHeight === 420, 'Invalid packed frame size: ' + label);
+  assert(animation.background === '#ffffff' && animation.crossfade === false, 'Unreviewed rendering mode: ' + label);
+  for (const key of ['keyframes', 'storedPoses', 'columns', 'duration_ms']) assert(Number.isInteger(animation[key]) && animation[key] > 0, 'Invalid ' + key + ': ' + label);
+  assert(Array.isArray(animation.delayMs) && animation.delayMs.length === animation.keyframes && animation.delayMs.every(delay => Number.isInteger(delay) && delay > 0), 'Invalid frame timing: ' + label);
+  assert.strictEqual(animation.delayMs.reduce((sum, delay) => sum + delay, 0), animation.duration_ms, 'Incomplete cycle timing: ' + label);
+  assert(Array.isArray(animation.poseSequence) && animation.poseSequence.length === animation.keyframes && animation.poseSequence.every(pose => Number.isInteger(pose) && pose >= 0 && pose < animation.storedPoses), 'Invalid pose sequence: ' + label);
+  assert(animation.atlasOffsetX === 90 && animation.atlasOffsetY === 32, 'Unreviewed packed frame placement: ' + label);
+}
+
+function motionAsset(relative) {
+  assert(typeof relative === 'string' && /^assets\/motion-v18\/[A-Za-z0-9_.\/-]+\.(?:png|webp)$/.test(relative) && !relative.split('/').includes('..'), 'Unreviewed motion asset path: ' + relative);
+  return 'dist/' + relative;
+}
+
+function normalizeAnimationCatalog(catalog) {
+  assert(Array.isArray(catalog) && catalog.length === 425, 'Package requires all 425 exercises');
+  const ids = new Set();
+  return catalog.map(record => {
+    assert(typeof record.id === 'string' && record.id.length && !ids.has(record.id), 'Missing or duplicate exercise ID');
+    ids.add(record.id);
+    assert(record.variants && typeof record.variants === 'object' && !Array.isArray(record.variants) && Object.keys(record.variants).length, 'Missing animation variants: ' + record.id);
+    validateAnimation(record.animation, record.id);
+    motionAsset(record.image);
+    assert(!record.gif, 'Legacy preferred GIF remains: ' + record.id);
+    const variants = Object.fromEntries(Object.keys(record.variants).sort().map(gender => {
+      const variant = record.variants[gender];
+      assert(variant && !variant.gif, 'Invalid packaged variant: ' + record.id + ':' + gender);
+      validateAnimation(variant.animation, record.id + ':' + gender);
+      for (const asset of [variant.image, variant.poster, variant.animation.atlas]) motionAsset(asset);
+      return [gender, owned(variant)];
+    }));
+    return {id: record.id, ...owned(record), variants};
+  }).sort((a, b) => compare(a.id, b.id));
+}
+
+function normalizeBindings(bindings, catalog) {
+  assert(Array.isArray(bindings) && bindings.length, 'Missing reviewed native source bindings');
+  const ids = new Set(catalog.map(record => record.id)), covered = new Set(), seen = new Set();
+  const normalized = bindings.map(binding => {
+    assert(binding && ids.has(binding.exercise) && typeof binding.variant === 'string' && binding.variant.length && /^[a-f0-9]{64}$/.test(binding.sourceHash), 'Invalid reviewed native source binding');
+    const key = JSON.stringify([binding.exercise, binding.variant]);
+    assert(!seen.has(key), 'Duplicate native source binding');
+    seen.add(key); covered.add(binding.exercise);
+    return {exercise: binding.exercise, variant: binding.variant, sourceHash: binding.sourceHash};
+  }).sort((a, b) => compare(a.exercise, b.exercise) || compare(a.variant, b.variant));
+  assert.strictEqual(covered.size, 425, 'Native approval does not cover all 425 exercises');
+  return normalized;
+}
+
+function packageFiles(stage, catalog) {
+  const files = new Set(['dist/clean-animation.js', 'dist/clean-animation.css']);
+  for (const record of catalog) {
+    for (const value of [record, ...Object.values(record.variants)]) {
+      for (const asset of [value.image, value.poster, value.animation.atlas].filter(Boolean)) files.add(motionAsset(asset));
+    }
+  }
+  const inventory = (relative) => {
+    for (const entry of fs.readdirSync(path.join(stage, relative), {withFileTypes: true})) {
+      assert(!entry.isSymbolicLink(), 'Symlink in motion assets');
+      const file = relative + '/' + entry.name;
+      if (entry.isDirectory()) inventory(file);
+      else {
+        assert(entry.isFile() && /\.(?:png|webp|gif)$/.test(entry.name), 'Unexpected motion asset: ' + file);
+        files.add(file);
+      }
+    }
+  };
+  inventory('dist/assets/motion-v18');
+  return [...files].sort().map(relative => {
+    const bytes = fs.readFileSync(ordinaryFile(stage, relative));
+    return {path: relative, sha256: sha256(bytes), bytes: bytes.length};
+  });
+}
+
+function createManifest(stage, nativeSourceBindings) {
+  const catalog = read(ordinaryFile(stage, 'dist/exercises.json'));
+  const normalized = normalizeAnimationCatalog(catalog);
+  return {schemaVersion: 1, reviewedExercises: 425, pendingExercises: 0,
+    animationCatalogSha256: digest(normalized), nativeSourceBindings: normalizeBindings(nativeSourceBindings, catalog), files: packageFiles(stage, catalog)};
+}
+
+function verifyPackage(stage) {
+  const manifest = read(ordinaryFile(stage, MANIFEST_PATH)), release = read(ordinaryFile(stage, 'dist/motion-release.json'));
+  assert(manifest.schemaVersion === 1 && manifest.reviewedExercises === 425 && manifest.pendingExercises === 0, 'Incomplete motion package manifest');
+  assert(release.reviewedExercises === 425 && release.pendingExercises === 0 && release.pixelIdentityVerifiedForEveryPackedKeyframe === true && release.lossless === true, 'Incomplete approved motion release');
+  const actual = createManifest(stage, manifest.nativeSourceBindings);
+  assert.deepStrictEqual(manifest, actual, 'Motion package no longer matches its reviewed manifest');
+  const catalog = read(ordinaryFile(stage, 'dist/exercises.json'));
+  assert.deepStrictEqual(normalizeBindings(release.nativeSourceBindings, catalog), actual.nativeSourceBindings, 'Release/native approval binding differs from the manifest');
+  const variants = catalog.reduce((sum, record) => sum + Object.keys(record.variants).length, 0);
+  const keyframes = catalog.reduce((sum, record) => sum + Object.values(record.variants).reduce((count, variant) => count + variant.animation.keyframes, 0), 0);
+  assert.strictEqual(release.variants, variants, 'Release variant count changed');
+  assert.strictEqual(release.keyframes, keyframes, 'Release keyframe count changed');
+  return {passed: true, reviewedExercises: 425, pendingExercises: 0, variants, keyframes, motionFiles: manifest.files.length,
+    animationCatalogSha256: manifest.animationCatalogSha256, nativeSourceBindings: actual.nativeSourceBindings};
+}
+
+module.exports = {MANIFEST_PATH, normalizeAnimationCatalog, createManifest, verifyPackage};
+if (require.main === module) {
+  try {
+    const result = verifyPackage(path.resolve(process.argv[2] || '.'));
+    console.log(JSON.stringify({...result, nativeSourceBindings: undefined}, null, 2));
+  } catch (error) { console.error(error.message); process.exitCode = 1; }
+}
