@@ -55,6 +55,9 @@ const url=process.env.GYM_TEST_URL||'http://127.0.0.1:5173';
   // Incoming cloud history updates results without re-announcing old awards.
   await page.evaluate(()=>window.dispatchEvent(new CustomEvent('gym-calendar-records',{detail:{}})));assert.equal(await page.locator('#performance-results').isVisible(),false);assert.equal(await page.locator('#performance-empty').isVisible(),true);assert.match(await page.locator('#record-totals').textContent(),/Bonus XP earned\+0/);
   const offline=await browser.newContext({serviceWorkers:'allow',timezoneId:'Asia/Tokyo'}),offlinePage=await offline.newPage();offlinePage.on('pageerror',error=>errors.push(error.message));
+  // Service-worker precaching bypasses Playwright routes. Keep the guest
+  // fixture stable even if the shell fetched the real cloud config first.
+  await offline.addInitScript(()=>Object.defineProperty(window,'GYM_STONE_CLOUD_CONFIG',{configurable:true,get:()=>({url:'',key:''}),set:()=>{}}));
   await offline.route('**/assets/*.webp',route=>route.fulfill({contentType:'image/png',body:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aUVsAAAAASUVORK5CYII=','base64')}));
   await offline.route('**/cloud-config.js',route=>route.fulfill({contentType:'application/javascript',body:"window.GYM_STONE_CLOUD_CONFIG={url:'',key:''}"}));
   await offlinePage.goto(url);await offlinePage.locator('#account-preview').click();await offlinePage.waitForFunction(()=>exercises.length===425);
