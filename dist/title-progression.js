@@ -192,7 +192,7 @@
       pending = null;
       const message = 'Title earned: ' + snapshot.current.name + (snapshot.next ? ' · Keep going toward ' + snapshot.next.name : ' · All ' + data.TITLE_COUNT + ' titles earned!');
       if (typeof notify === 'function') notify(message);
-    }, 300);
+    }, 2900);
     pending = notice;
     return true;
   }

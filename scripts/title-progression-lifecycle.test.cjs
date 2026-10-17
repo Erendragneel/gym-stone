@@ -223,7 +223,7 @@ function verifyNoticeLifecycle() {
     context.titleSnapshot = promoted;
     assert.equal(context.announce(rookie, promoted, promoted), true);
     assert.equal(context.announce(rookie, promoted, promoted), false);
-    assert.deepEqual(delays, [300]);
+    assert.deepEqual(delays, [2900], 'Title celebrations wait until the 2600ms workout reward toast finishes');
     assert.equal(timers.size, 1);
     assert.equal(messages.length, 0);
     flush();
