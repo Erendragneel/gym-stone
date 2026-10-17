@@ -1,0 +1,50 @@
+'use strict';
+const assert = require('node:assert/strict'), fs = require('node:fs'), path = require('node:path'), vm = require('node:vm');
+const root = path.resolve(__dirname, '..'), window = {};
+const catalog = JSON.parse(fs.readFileSync(path.join(root, 'dist/exercises.json'), 'utf8'));
+for (const file of ['workout-tracking.js', 'exercise-muscles.js']) vm.runInNewContext(fs.readFileSync(path.join(root, 'dist', file), 'utf8'), {window});
+const names = ['Kettlebell Russian Twist', 'Kettlebell Sit-Up', 'Kettlebell Halo'];
+const guides = catalog.filter(e => e.illustratedGuide);
+assert.equal(guides.length, 3);
+assert.equal(catalog.length, 434);
+assert.equal(new Set(catalog.map(e => e.id)).size, catalog.length);
+assert.equal(catalog.filter(e => e.name === 'Kettlebell Swing').length, 1);
+assert.equal(catalog.find(e => e.name === 'Kettlebell Swing').id, 'g0-24_Kettlebell_Swing');
+const shell = fs.readFileSync(path.join(root, 'dist/sw.js'), 'utf8');
+for (const name of names) {
+  const exercise = guides.find(e => e.name === name);
+  assert(exercise, 'Missing ' + name);
+  assert.equal(exercise.equipment, 'Kettlebell');
+  assert(!exercise.postpartum && !exercise.prenatal);
+  assert.equal(window.GymTracking.mode({}, exercise), 'reps');
+  assert.equal(window.GymTracking.supportsWeight({}, exercise), true);
+  assert.equal(window.GymTracking.supportsDistance({}, exercise), false);
+  assert(['sets', 'reps', 'weight', 'minutes', 'defaultSets', 'defaultReps', 'defaultMinutes'].every(key => exercise[key] == null));
+  const record = {id: exercise.id, done: true, setEntries: [{sets: 2, reps: 8, weight: 6.5, weightUnit: 'kg'}, {sets: 1, reps: 5, weight: 8, weightUnit: 'kg'}]};
+  assert.equal(window.GymTracking.totals(record).sets, 3);
+  assert.equal(window.GymTracking.totals(record).reps, 21);
+  assert.equal(window.GymTracking.weightText(record.setEntries[0]), '6.5 kg');
+  assert.equal(window.GymTracking.weightText({weight: 15, weightUnit: 'lb'}), '15 lb');
+  const muscles = window.GymMuscleData.exercises[exercise.id];
+  assert(muscles?.primary.length && muscles.secondary.length);
+  assert([...muscles.primary, ...muscles.secondary].every(key => window.GymMuscleData.definitions[key]));
+  for (const variant of Object.values(exercise.variants)) {
+    assert(shell.includes('./' + variant.image), 'Guide missing from offline shell');
+    const svg = fs.readFileSync(path.join(root, 'dist', variant.image), 'utf8');
+    assert.match(svg, /<title\b/);
+    assert.match(svg, /POSITION GUIDE/);
+    assert.doesNotMatch(svg, /<animate|<script|onload=/i);
+  }
+}
+const situp = guides.find(e => e.name === 'Kettlebell Sit-Up');
+for (const query of ['kettlebell sit-up', 'kettlebell sit up', 'kettlebell situp']) assert([situp.name, ...situp.aliases].some(name => name.toLowerCase().includes(query)));
+const {normalizeAnimationCatalog: normalizeMotion} = require('./verify-motion-package.cjs');
+const normalizedCatalog = fs.existsSync(path.join(__dirname, 'pinned-motion-delivery.cjs')) ? require('./pinned-motion-delivery.cjs').normalizeCatalogAtlases(catalog) : catalog;
+const normalizeAnimationCatalog = normalizeMotion;
+assert.equal(normalizeAnimationCatalog(normalizedCatalog).length, 425);
+assert.throws(() => normalizeAnimationCatalog(normalizedCatalog.filter(e => e.id !== 'kettlebell-halo')), /Incomplete kettlebell/);
+const invalid = structuredClone(normalizedCatalog); invalid.find(e => e.id === 'kettlebell-halo').variants.female.animation = {};
+assert.throws(() => normalizeAnimationCatalog(invalid), /Motion metadata in static guide/);
+const unrelated = structuredClone(normalizedCatalog); unrelated.find(e => e.name === 'Kettlebell Swing').illustratedGuide = true;
+assert.equal(normalizeAnimationCatalog(unrelated).length, 425, 'Arbitrary guide flags must not bypass the original animation proof');
+console.log('PASS: three distinct kettlebell guides, one existing swing, optional loads/rep batches, aliases, muscles, offline assets and strict supplement boundaries.');

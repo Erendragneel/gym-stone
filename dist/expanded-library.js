@@ -67,7 +67,7 @@
     if (!exercise.expansion) return false;
     const help = byId('preview-instructions'); help.replaceChildren();
     const metadata = document.createElement('strong'); metadata.className = 'exercise-metadata';
-    metadata.textContent = exercise.equipment + ' · ' + exercise.difficulty + ' · ' + (exercise.tracking === 'time' ? 'Track minutes' : 'Track sets & reps');
+    metadata.textContent = exercise.equipment + ' · ' + exercise.difficulty + ' · ' + (exercise.tracking === 'time' ? 'Track minutes' : 'Track sets & reps') + (exercise.illustratedGuide ? ' · Illustrated position guide' : '');
     const cues = document.createElement('span');
     cues.textContent = exercise.cues.map(cue=>cue.trim().replace(/[.!?]+$/, '')).join('. ') + '.';
     help.append(metadata, cues);

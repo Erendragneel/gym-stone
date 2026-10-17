@@ -14,39 +14,55 @@ const POSTPARTUM_IDS = new Set([
   'postpartum-gentle-ankle-movement', 'postpartum-short-easy-walk',
   'postpartum-gentle-pelvic-floor-lift-release', 'postpartum-side-lying-core-connection'
 ]);
+const KETTLEBELL_IDS = new Set(['kettlebell-russian-twist', 'kettlebell-sit-up', 'kettlebell-halo']);
+
+function staticOnly(record) {
+  const visit = value => {
+    if (!value || typeof value !== 'object') return;
+    for (const [key, child] of Object.entries(value)) {
+      assert(!/^(?:animation|gif)$/i.test(key), 'Motion metadata in static guide: ' + record.id);
+      visit(child);
+    }
+  };
+  visit(record);
+}
 
 function animationCatalog(catalog) {
   assert(Array.isArray(catalog), 'Missing exercise catalog');
-  const ids = new Set(), motion = [], guides = [];
+  const ids = new Set(), motion = [], guides = [], kettlebellGuides = [];
   for (const record of catalog) {
     assert(record && typeof record.id === 'string' && record.id.length && !ids.has(record.id), 'Missing or duplicate exercise ID');
     ids.add(record.id);
+    if (KETTLEBELL_IDS.has(record.id)) {
+      assert(record.illustratedGuide === true && record.equipment === 'Kettlebell' && record.tracking === 'reps' && record.expansion === true && record.supportsWeight === true, 'Invalid kettlebell guide metadata: ' + record.id);
+      assert(record.variants && typeof record.variants === 'object' && !Array.isArray(record.variants) && Object.keys(record.variants).sort().join(',') === 'female,male', 'Kettlebell guide must have male and female image variants: ' + record.id);
+      for (const gender of ['male', 'female']) assert(record.variants[gender]?.image === 'assets/kettlebell/' + gender + '-' + record.id + '.svg', 'Invalid kettlebell guide image: ' + record.id + ':' + gender);
+      assert(record.image === record.variants.male.image, 'Kettlebell guide must use its male image by default: ' + record.id);
+      staticOnly(record); kettlebellGuides.push(record); continue;
+    }
     if (!POSTPARTUM_IDS.has(record.id)) { motion.push(record); continue; }
     assert(record.postpartum === true && record.group === 'Postpartum' && record.tracking === 'time' && record.supportsWeight === false && record.supportsDistance === false, 'Invalid postpartum guide metadata: ' + record.id);
     assert(['defaultMinutes', 'defaultSets', 'defaultReps', 'suggestedSeconds', 'sets', 'reps', 'minutes'].every(key => record[key] == null), 'Postpartum guide contains a default dose: ' + record.id);
     assert(typeof record.image === 'string' && /^assets\/postpartum\/postpartum-[a-z-]+\.svg$/.test(record.image), 'Invalid postpartum guide image: ' + record.id);
     assert(record.variants && typeof record.variants === 'object' && !Array.isArray(record.variants) && Object.keys(record.variants).length === 1 && record.variants.female?.image === record.image, 'Postpartum guide must have only its matching female image variant: ' + record.id);
-    const staticOnly = value => {
-      if (!value || typeof value !== 'object') return;
-      for (const [key, child] of Object.entries(value)) {
-        assert(!/^(?:animation|gif)$/i.test(key), 'Motion metadata in static postpartum guide: ' + record.id);
-        staticOnly(child);
-      }
-    };
     staticOnly(record); guides.push(record);
   }
   assert(motion.length === 425, 'Package requires all 425 reviewed animations');
   assert(guides.length === 0 || guides.length === POSTPARTUM_IDS.size, 'Incomplete postpartum guide supplement');
-  return {motion, guides};
+  assert(kettlebellGuides.length === 0 || kettlebellGuides.length === KETTLEBELL_IDS.size, 'Incomplete kettlebell guide supplement');
+  return {motion, guides, kettlebellGuides};
 }
 
-function validatePostpartumGuides(stage, guides) {
+function validateStaticGuides(stage, guides) {
   const safeTags = new Set(['svg', 'title', 'desc', 'g', 'path', 'rect', 'circle', 'ellipse', 'line', 'polyline', 'polygon', 'text', 'tspan', 'defs', 'marker', 'clippath', 'lineargradient', 'radialgradient', 'stop']);
   for (const record of guides) {
-    const svg = fs.readFileSync(ordinaryFile(stage, 'dist/' + record.image), 'utf8');
-    assert(/<svg\b/i.test(svg) && /<\/svg\s*>\s*$/i.test(svg), 'Invalid postpartum SVG: ' + record.id);
-    assert(!/<!DOCTYPE|<!ENTITY|<\?(?!xml\s)|\bon[a-z]+\s*=|\b(?:href|src)\s*=|\bstyle\s*=|url\s*\(|javascript\s*:|data\s*:/i.test(svg), 'Active or external content in postpartum SVG: ' + record.id);
-    for (const match of svg.matchAll(/<\/?\s*([A-Za-z][\w:.-]*)\b/g)) assert(safeTags.has(match[1].toLowerCase()), 'Unsupported postpartum SVG element: ' + match[1]);
+    const assets = new Set([record.image, ...Object.values(record.variants).map(variant => variant.image)]);
+    for (const asset of assets) {
+      const svg = fs.readFileSync(ordinaryFile(stage, 'dist/' + asset), 'utf8');
+      assert(/<svg\b/i.test(svg) && /<\/svg\s*>\s*$/i.test(svg), 'Invalid static guide SVG: ' + record.id);
+      assert(!/<!DOCTYPE|<!ENTITY|<\?(?!xml\s)|\bon[a-z]+\s*=|\b(?:href|src)\s*=|\bstyle\s*=|url\s*\(|javascript\s*:|data\s*:/i.test(svg), 'Active or external content in static guide SVG: ' + record.id);
+      for (const match of svg.matchAll(/<\/?\s*([A-Za-z][\w:.-]*)\b/g)) assert(safeTags.has(match[1].toLowerCase()), 'Unsupported static guide SVG element: ' + match[1]);
+    }
   }
 }
 
@@ -144,8 +160,8 @@ function packageFiles(stage, catalog) {
 
 function createManifest(stage, nativeSourceBindings) {
   const catalog = read(ordinaryFile(stage, 'dist/exercises.json'));
-  const {motion, guides} = animationCatalog(catalog);
-  validatePostpartumGuides(stage, guides);
+  const {motion, guides, kettlebellGuides} = animationCatalog(catalog);
+  validateStaticGuides(stage, [...guides, ...kettlebellGuides]);
   const normalized = normalizeAnimationCatalog(catalog);
   return {schemaVersion: 1, reviewedExercises: 425, pendingExercises: 0,
     animationCatalogSha256: digest(normalized), nativeSourceBindings: normalizeBindings(nativeSourceBindings, motion), files: packageFiles(stage, motion)};

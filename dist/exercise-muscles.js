@@ -6096,6 +6096,52 @@ window.GymMuscleData = {
         "frontDelts"
       ],
       "kind": "stretch"
+    },
+    "kettlebell-russian-twist": {
+      "name": "Kettlebell Russian Twist",
+      "primary": [
+        "obliques",
+        "abs"
+      ],
+      "secondary": [
+        "deepCore",
+        "hipFlexors",
+        "frontDelts",
+        "forearmFlexors"
+      ],
+      "kind": "strength"
+    },
+    "kettlebell-sit-up": {
+      "name": "Kettlebell Sit-Up",
+      "primary": [
+        "abs",
+        "hipFlexors"
+      ],
+      "secondary": [
+        "deepCore",
+        "obliques",
+        "frontDelts",
+        "forearmFlexors"
+      ],
+      "kind": "strength"
+    },
+    "kettlebell-halo": {
+      "name": "Kettlebell Halo",
+      "primary": [
+        "frontDelts",
+        "sideDelts",
+        "rotatorCuff"
+      ],
+      "secondary": [
+        "serratus",
+        "upperTraps",
+        "triceps",
+        "forearmFlexors",
+        "abs",
+        "deepCore",
+        "obliques"
+      ],
+      "kind": "strength"
     }
   }
 };

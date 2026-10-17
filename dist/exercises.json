@@ -112429,5 +112429,102 @@
         "style": "Recovery position guide"
       }
     }
+  },
+  {
+    "id": "kettlebell-russian-twist",
+    "name": "Kettlebell Russian Twist",
+    "group": "Obliques",
+    "aliases": [
+      "Kettlebell Russian Twists"
+    ],
+    "cues": [
+      "Sit with knees bent and heels on the floor, lean back slightly, and hold the kettlebell close with both hands",
+      "Turn your ribs and shoulders together from side to side while keeping your hips steady; avoid swinging the bell with just your arms",
+      "Use a light bell and a comfortable range; count one left-and-right pair as one rep"
+    ],
+    "equipment": "Kettlebell",
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "illustratedGuide": true,
+    "image": "assets/kettlebell/male-kettlebell-russian-twist.svg",
+    "style": "Illustrated position guide",
+    "variants": {
+      "male": {
+        "image": "assets/kettlebell/male-kettlebell-russian-twist.svg",
+        "style": "Illustrated position guide"
+      },
+      "female": {
+        "image": "assets/kettlebell/female-kettlebell-russian-twist.svg",
+        "style": "Illustrated position guide"
+      }
+    },
+    "guidanceUrl": "https://www.acefitness.org/resources/everyone/exercise-library/47/seated-medicine-ball-trunk-rotations/"
+  },
+  {
+    "id": "kettlebell-sit-up",
+    "name": "Kettlebell Sit-Up",
+    "group": "Abs",
+    "aliases": [
+      "Kettlebell Sit Up",
+      "Kettlebell Situp"
+    ],
+    "cues": [
+      "Lie on your back with knees bent and feet flat, holding a light kettlebell securely at your chest with both hands",
+      "Breathe out and lift your torso toward sitting, keeping the bell at your chest and your neck relaxed",
+      "Lower with control without throwing the bell forward or pressing it overhead; use bodyweight first if you cannot control the movement"
+    ],
+    "equipment": "Kettlebell",
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "illustratedGuide": true,
+    "image": "assets/kettlebell/male-kettlebell-sit-up.svg",
+    "style": "Illustrated position guide",
+    "variants": {
+      "male": {
+        "image": "assets/kettlebell/male-kettlebell-sit-up.svg",
+        "style": "Illustrated position guide"
+      },
+      "female": {
+        "image": "assets/kettlebell/female-kettlebell-sit-up.svg",
+        "style": "Illustrated position guide"
+      }
+    },
+    "guidanceUrl": "https://www.motra.com/exercises/kettlebellSitUp"
+  },
+  {
+    "id": "kettlebell-halo",
+    "name": "Kettlebell Halo",
+    "group": "Shoulders",
+    "cues": [
+      "Stand tall with feet about hip-width apart and hold a light kettlebell by the horns in front of your chest",
+      "Guide the bell beside one ear, behind your head, and around the other side, keeping it close and moving only within a comfortable shoulder range",
+      "Keep your ribs down, head still, and torso steady without leaning back; reverse direction and count each full circle as one rep"
+    ],
+    "equipment": "Kettlebell",
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "illustratedGuide": true,
+    "image": "assets/kettlebell/male-kettlebell-halo.svg",
+    "style": "Illustrated position guide",
+    "variants": {
+      "male": {
+        "image": "assets/kettlebell/male-kettlebell-halo.svg",
+        "style": "Illustrated position guide"
+      },
+      "female": {
+        "image": "assets/kettlebell/female-kettlebell-halo.svg",
+        "style": "Illustrated position guide"
+      }
+    },
+    "guidanceUrl": "https://www.strongfirst.com/proper-swing-grip-kettlebell-halo/"
   }
 ]

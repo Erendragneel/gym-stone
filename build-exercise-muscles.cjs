@@ -28,6 +28,12 @@ const press=()=>profile('chest','frontDelts triceps serratus');
 function classify(e) {
   const n=e.name.toLowerCase().replace(/[-']/g,' ').replace(/\s+/g,' ').trim();
   const group=e.group;
+  const kettlebellGuides={
+    'kettlebell russian twist':['obliques abs','deepCore hipFlexors frontDelts forearmFlexors'],
+    'kettlebell sit up':['abs hipFlexors','deepCore obliques frontDelts forearmFlexors'],
+    'kettlebell halo':['frontDelts sideDelts rotatorCuff','serratus upperTraps triceps forearmFlexors abs deepCore obliques']
+  };
+  if(kettlebellGuides[n])return profile(...kettlebellGuides[n]);
   // Mobility and stretch roles describe tissues moved/stretched, rather than loading or EMG intensity.
   const mobility = {
     'standing calf stretch':['gastrocnemius soleus',''], 'supported calf stretch':['gastrocnemius soleus',''],
