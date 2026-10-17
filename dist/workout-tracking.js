@@ -78,6 +78,7 @@
     }).filter(Boolean).join('; ');
   }
   function supportsDistance(record, exercise = {}) {
+    if(typeof exercise.supportsDistance==='boolean')return exercise.supportsDistance;
     if(window.GymProgressData?.distanceKm(record.distance)!==null && record.distance)return true;
     if(exercise.phase || exercise.group==='Mobility' || exercise.pregnancyCategory==='Mobility')return false;
     const name=exercise.name||record.name||'';

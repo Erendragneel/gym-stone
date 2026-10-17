@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="484" viewBox="0 0 600 484" role="img" aria-labelledby="guide-title guide-description">
+<title id="guide-title">Side-Lying Core Connection: Position guide</title>
+<desc id="guide-description">Static position guide: a person lies on their side with their head supported and knees slightly bent. The illustration is schematic and does not demonstrate a muscle contraction.</desc>
+<rect width="600" height="484" rx="24" fill="#f7f5ed"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="30" y="33" fill="#398278" font-size="13" font-weight="700" letter-spacing="2">POSTPARTUM</text>
+<text x="570" y="33" fill="#398278" font-size="12" font-weight="700" text-anchor="end" letter-spacing="1">CLINICIAN GUIDED</text>
+<text x="30" y="78" fill="#164b49" font-size="25" font-weight="700" >Side-Lying Core Connection</text>
+<rect x="28" y="122" width="544" height="255" rx="20" fill="#fff"/>
+<text x="47" y="148" fill="#577973" font-size="11" font-weight="700" letter-spacing="1.5">POSITION GUIDE</text>
+<rect x="65" y="310" width="470" height="16" rx="8" fill="#dcefe5"/><rect x="76" y="276" width="84" height="34" rx="13" fill="#fff" stroke="#91b7af" stroke-width="3"/><circle cx="118" cy="257" r="23" fill="#f0ceaf" stroke="#164b49" stroke-width="5"/><path d="M147 265 L243 265 L313 288 L370 288 M243 276 L301 307 L365 307" fill="none" stroke="#164b49" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" /><path d="M165 268 L178 296 L223 296" fill="none" stroke="#338c7f" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" /><text x="323" y="200" fill="#164b49" font-size="20" font-weight="600" >Easy breath.</text><text x="323" y="229" fill="#164b49" font-size="20" font-weight="600" >Soft effort.</text><text x="300" y="359" fill="#236e63" font-size="18" font-weight="600" text-anchor="middle">Stop for pain or tummy doming.</text>
+<text x="300" y="414" fill="#164b49" font-size="20" font-weight="600" text-anchor="middle">Gentle exhale, soft tummy connection.</text><text x="300" y="442" fill="#164b49" font-size="20" font-weight="600" text-anchor="middle">Only when recommended for you.</text>
+<text x="300" y="472" fill="#577973" font-size="12" font-weight="500" text-anchor="middle">Static illustration - follow your own recovery advice.</text>
+</g>
+</svg>

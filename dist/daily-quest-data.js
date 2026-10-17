@@ -31,9 +31,9 @@
     for (const day of Object.keys(records || {}).filter(day => validDay(day) && day <= through).sort()) {
       const entries = [];
       for (const record of Array.isArray(records[day]) ? records[day] : []) {
-        if (!record || typeof record !== 'object' || record.done !== true || record.recovery) continue;
+        if (!record || typeof record !== 'object' || record.done !== true || record.recovery || record.postpartum) continue;
         const exercise = typeof resolve === 'function' ? resolve(record) : null;
-        if (exercise?.recovery) continue;
+        if (exercise?.recovery || exercise?.postpartum) continue;
         const customName = normalize(record.name);
         const name = customName || normalize(exercise?.name);
         if (!name) continue;

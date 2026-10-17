@@ -36,6 +36,8 @@ assert.equal(day([done('a',{name:'Walking'}), done('b',{name:'Swimming'}), done(
 assert.equal(day([done('squat'), done('push',{done:false}), done('row',{done:false})]).completed, 1);
 assert.equal(day([done('squat'), done('push',{done:'true'}), done('row',{done:1})]).completed, 1);
 assert.equal(day([done('squat'), done('recovery',{name:'Recovery',recovery:true}), done('rest')]).completed, 1);
+assert.equal(day([done('squat'), done('push'), done('gentle-recovery',{name:'Gentle recovery',postpartum:true})]).earned, false);
+assert.equal(quest.build({[through]:[done('squat'),done('push'),done('gentle-recovery')]}, record => record.id==='gentle-recovery'?{id:record.id,name:'Gentle recovery',postpartum:true}:resolve(record), {through}).bonusXP, 0);
 
 const separate = build({'2026-10-17':trio(), '2026-10-15':trio(), '2026-10-16':[done('squat'),done('push')]});
 assert.deepEqual(separate.earnedDays.map(result => result.day), ['2026-10-15','2026-10-17']);

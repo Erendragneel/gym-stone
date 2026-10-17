@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="484" viewBox="0 0 600 484" role="img" aria-labelledby="guide-title guide-description">
+<title id="guide-title">Gentle Ankle Movement: Position guide</title>
+<desc id="guide-description">Static position guide: a supported seated person with one lower leg extended. Small curved arrows near the foot indicate gentle ankle movement.</desc>
+<rect width="600" height="484" rx="24" fill="#f7f5ed"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="30" y="33" fill="#398278" font-size="13" font-weight="700" letter-spacing="2">POSTPARTUM</text>
+<text x="570" y="33" fill="#398278" font-size="12" font-weight="700" text-anchor="end" letter-spacing="1">GENTLE STARTS</text>
+<text x="30" y="78" fill="#164b49" font-size="25" font-weight="700" >Gentle Ankle Movement</text>
+<rect x="28" y="122" width="544" height="255" rx="20" fill="#fff"/>
+<text x="47" y="148" fill="#577973" font-size="11" font-weight="700" letter-spacing="1.5">POSITION GUIDE</text>
+<path d="M110 266 V322 H209 M124 322 V352 M198 322 V352" fill="none" stroke="#91b7af" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /><circle cx="155" cy="185" r="24" fill="#f0ceaf" stroke="#164b49" stroke-width="5"/><path d="M151 218 L147 278 L194 281 L244 307 L272 296" fill="none" stroke="#164b49" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" /><path d="M148 278 L175 298 L174 346 L201 346" fill="none" stroke="#164b49" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" /><path d="M152 229 L129 265 L177 277" fill="none" stroke="#338c7f" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" /><path d="M260 266 Q292 271 289 304 M254 326 Q284 341 302 317" fill="none" stroke="#38a995" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" /><path d="M279 296 L289 306 L298 294 M290 315 L304 314 L302 328" fill="none" stroke="#38a995" stroke-width="4"/><text x="323" y="231" fill="#164b49" font-size="20" font-weight="600" >Small, slow</text><text x="323" y="260" fill="#164b49" font-size="20" font-weight="600" >movements.</text><text x="323" y="289" fill="#164b49" font-size="20" font-weight="600" >No forcing.</text>
+<text x="300" y="414" fill="#164b49" font-size="20" font-weight="600" text-anchor="middle">Point, flex and circle gently.</text><text x="300" y="442" fill="#164b49" font-size="20" font-weight="600" text-anchor="middle">Stay within a comfortable range.</text>
+<text x="300" y="472" fill="#577973" font-size="12" font-weight="500" text-anchor="middle">Static illustration - follow your own recovery advice.</text>
+</g>
+</svg>
