@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "decoder": "Pillow",
+  "variants": [
+    {
+      "exercise": "kettlebell-russian-twist",
+      "gender": "male",
+      "frames": 14,
+      "unique_poses": 8,
+      "duration_ms": 4000,
+      "atlas_pixels_match": true,
+      "poster_matches": true,
+      "framing_passed": true
+    },
+    {
+      "exercise": "kettlebell-russian-twist",
+      "gender": "female",
+      "frames": 14,
+      "unique_poses": 8,
+      "duration_ms": 4000,
+      "atlas_pixels_match": true,
+      "poster_matches": true,
+      "framing_passed": true
+    },
+    {
+      "exercise": "kettlebell-sit-up",
+      "gender": "male",
+      "frames": 14,
+      "unique_poses": 8,
+      "duration_ms": 4000,
+      "atlas_pixels_match": true,
+      "poster_matches": true,
+      "framing_passed": true
+    },
+    {
+      "exercise": "kettlebell-sit-up",
+      "gender": "female",
+      "frames": 14,
+      "unique_poses": 8,
+      "duration_ms": 4000,
+      "atlas_pixels_match": true,
+      "poster_matches": true,
+      "framing_passed": true
+    },
+    {
+      "exercise": "kettlebell-halo",
+      "gender": "male",
+      "frames": 16,
+      "unique_poses": 8,
+      "duration_ms": 4000,
+      "atlas_pixels_match": true,
+      "poster_matches": true,
+      "framing_passed": true
+    },
+    {
+      "exercise": "kettlebell-halo",
+      "gender": "female",
+      "frames": 16,
+      "unique_poses": 8,
+      "duration_ms": 4000,
+      "atlas_pixels_match": true,
+      "poster_matches": true,
+      "framing_passed": true
+    }
+  ]
+}

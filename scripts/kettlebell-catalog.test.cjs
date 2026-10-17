@@ -4,7 +4,7 @@ const root = path.resolve(__dirname, '..'), window = {};
 const catalog = JSON.parse(fs.readFileSync(path.join(root, 'dist/exercises.json'), 'utf8'));
 for (const file of ['workout-tracking.js', 'exercise-muscles.js']) vm.runInNewContext(fs.readFileSync(path.join(root, 'dist', file), 'utf8'), {window});
 const names = ['Kettlebell Russian Twist', 'Kettlebell Sit-Up', 'Kettlebell Halo'];
-const guides = catalog.filter(e => e.illustratedGuide);
+const guides = catalog.filter(e => e.kettlebellAnimation);
 assert.equal(guides.length, 3);
 assert.equal(catalog.length, 434);
 assert.equal(new Set(catalog.map(e => e.id)).size, catalog.length);
@@ -29,11 +29,11 @@ for (const name of names) {
   assert(muscles?.primary.length && muscles.secondary.length);
   assert([...muscles.primary, ...muscles.secondary].every(key => window.GymMuscleData.definitions[key]));
   for (const variant of Object.values(exercise.variants)) {
-    assert(shell.includes('./' + variant.image), 'Guide missing from offline shell');
-    const svg = fs.readFileSync(path.join(root, 'dist', variant.image), 'utf8');
-    assert.match(svg, /<title\b/);
-    assert.match(svg, /POSITION GUIDE/);
-    assert.doesNotMatch(svg, /<animate|<script|onload=/i);
+    for (const file of [variant.image, variant.poster, variant.animation.atlas]) assert(shell.includes('./' + file), 'Animation asset missing from offline shell');
+    assert.equal(variant.animation.crossfade, false);
+    assert.equal(variant.animation.duration_ms, 4000);
+    assert.equal(variant.animation.storedPoses, 8);
+    assert.equal(exercise.illustratedGuide, undefined);
   }
 }
 const situp = guides.find(e => e.name === 'Kettlebell Sit-Up');
@@ -44,7 +44,9 @@ const normalizeAnimationCatalog = normalizeMotion;
 assert.equal(normalizeAnimationCatalog(normalizedCatalog).length, 425);
 assert.throws(() => normalizeAnimationCatalog(normalizedCatalog.filter(e => e.id !== 'kettlebell-halo')), /Incomplete kettlebell/);
 const invalid = structuredClone(normalizedCatalog); invalid.find(e => e.id === 'kettlebell-halo').variants.female.animation = {};
-assert.throws(() => normalizeAnimationCatalog(invalid), /Motion metadata in static guide/);
+const {verifyKettlebellMotion} = require('./verify-kettlebell-motion.cjs');
+assert.throws(() => verifyKettlebellMotion(root, invalid), /Catalog differs from kettlebell manifest/);
+assert.equal(verifyKettlebellMotion(root, catalog).variants, 6);
 const unrelated = structuredClone(normalizedCatalog); unrelated.find(e => e.name === 'Kettlebell Swing').illustratedGuide = true;
 assert.equal(normalizeAnimationCatalog(unrelated).length, 425, 'Arbitrary guide flags must not bypass the original animation proof');
-console.log('PASS: three distinct kettlebell guides, one existing swing, optional loads/rep batches, aliases, muscles, offline assets and strict supplement boundaries.');
+console.log('PASS: three distinct kettlebell animations, one existing swing, optional loads/rep batches, aliases, muscles, offline assets and strict supplement boundaries.');

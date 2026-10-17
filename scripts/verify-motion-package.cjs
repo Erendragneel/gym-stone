@@ -8,7 +8,7 @@ const canonical = value => Array.isArray(value) ? value.map(canonical) : value &
 const digest = value => sha256(Buffer.from(JSON.stringify(canonical(value))));
 const compare = (a, b) => a < b ? -1 : a > b ? 1 : 0;
 const owned = value => Object.fromEntries(['image', 'poster', 'style', 'animation'].filter(key => value[key] !== undefined).map(key => [key, value[key]]));
-// These static guides are separate from the immutable, 425-exercise motion proof.
+// These supplements are separate from the immutable, 425-exercise motion proof.
 const POSTPARTUM_IDS = new Set([
   'postpartum-comfortable-rib-breathing', 'postpartum-pelvic-floor-release',
   'postpartum-gentle-ankle-movement', 'postpartum-short-easy-walk',
@@ -29,16 +29,16 @@ function staticOnly(record) {
 
 function animationCatalog(catalog) {
   assert(Array.isArray(catalog), 'Missing exercise catalog');
-  const ids = new Set(), motion = [], guides = [], kettlebellGuides = [];
+  const ids = new Set(), motion = [], guides = [], kettlebellAnimations = [];
   for (const record of catalog) {
     assert(record && typeof record.id === 'string' && record.id.length && !ids.has(record.id), 'Missing or duplicate exercise ID');
     ids.add(record.id);
     if (KETTLEBELL_IDS.has(record.id)) {
-      assert(record.illustratedGuide === true && record.equipment === 'Kettlebell' && record.tracking === 'reps' && record.expansion === true && record.supportsWeight === true, 'Invalid kettlebell guide metadata: ' + record.id);
-      assert(record.variants && typeof record.variants === 'object' && !Array.isArray(record.variants) && Object.keys(record.variants).sort().join(',') === 'female,male', 'Kettlebell guide must have male and female image variants: ' + record.id);
-      for (const gender of ['male', 'female']) assert(record.variants[gender]?.image === 'assets/kettlebell/' + gender + '-' + record.id + '.svg', 'Invalid kettlebell guide image: ' + record.id + ':' + gender);
-      assert(record.image === record.variants.male.image, 'Kettlebell guide must use its male image by default: ' + record.id);
-      staticOnly(record); kettlebellGuides.push(record); continue;
+      assert(record.kettlebellAnimation === true && record.illustratedGuide == null && record.equipment === 'Kettlebell' && record.tracking === 'reps' && record.expansion === true && record.supportsWeight === true, 'Invalid kettlebell animation metadata: ' + record.id);
+      assert(record.variants && typeof record.variants === 'object' && !Array.isArray(record.variants) && Object.keys(record.variants).sort().join(',') === 'female,male', 'Kettlebell animation must have male and female variants: ' + record.id);
+      for (const gender of ['male', 'female']) assert(record.variants[gender]?.image === 'assets/kettlebell-motion/' + gender + '-' + record.id + '-animated.webp', 'Invalid kettlebell animation image: ' + record.id + ':' + gender);
+      assert(record.image === record.variants.male.image, 'Kettlebell animation must use its male variant by default: ' + record.id);
+      kettlebellAnimations.push(record); continue;
     }
     if (!POSTPARTUM_IDS.has(record.id)) { motion.push(record); continue; }
     assert(record.postpartum === true && record.group === 'Postpartum' && record.tracking === 'time' && record.supportsWeight === false && record.supportsDistance === false, 'Invalid postpartum guide metadata: ' + record.id);
@@ -49,8 +49,8 @@ function animationCatalog(catalog) {
   }
   assert(motion.length === 425, 'Package requires all 425 reviewed animations');
   assert(guides.length === 0 || guides.length === POSTPARTUM_IDS.size, 'Incomplete postpartum guide supplement');
-  assert(kettlebellGuides.length === 0 || kettlebellGuides.length === KETTLEBELL_IDS.size, 'Incomplete kettlebell guide supplement');
-  return {motion, guides, kettlebellGuides};
+  assert(kettlebellAnimations.length === 0 || kettlebellAnimations.length === KETTLEBELL_IDS.size, 'Incomplete kettlebell animation supplement');
+  return {motion, guides, kettlebellAnimations};
 }
 
 function validateStaticGuides(stage, guides) {
@@ -160,8 +160,9 @@ function packageFiles(stage, catalog) {
 
 function createManifest(stage, nativeSourceBindings) {
   const catalog = read(ordinaryFile(stage, 'dist/exercises.json'));
-  const {motion, guides, kettlebellGuides} = animationCatalog(catalog);
-  validateStaticGuides(stage, [...guides, ...kettlebellGuides]);
+  const {motion, guides, kettlebellAnimations} = animationCatalog(catalog);
+  validateStaticGuides(stage, guides);
+  if (kettlebellAnimations.length) require('./verify-kettlebell-motion.cjs').verifyKettlebellMotion(stage, catalog);
   const normalized = normalizeAnimationCatalog(catalog);
   return {schemaVersion: 1, reviewedExercises: 425, pendingExercises: 0,
     animationCatalogSha256: digest(normalized), nativeSourceBindings: normalizeBindings(nativeSourceBindings, motion), files: packageFiles(stage, motion)};

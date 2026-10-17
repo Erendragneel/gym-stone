@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "id": "kettlebell-russian-twist",
+      "variants": {
+        "male": {
+          "image": "assets/kettlebell-motion/male-kettlebell-russian-twist-animated.webp",
+          "poster": "assets/kettlebell-motion/male-kettlebell-russian-twist-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "columns": 4,
+            "storedPoses": 8,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "keyframes": 14,
+            "delayMs": [
+              440,
+              260,
+              260,
+              260,
+              260,
+              260,
+              260,
+              440,
+              260,
+              260,
+              260,
+              260,
+              260,
+              260
+            ],
+            "duration_ms": 4000,
+            "background": "#ffffff",
+            "crossfade": false,
+            "playbackMode": "loop",
+            "atlas": "assets/kettlebell-motion/male-kettlebell-russian-twist-atlas.webp"
+          }
+        },
+        "female": {
+          "image": "assets/kettlebell-motion/female-kettlebell-russian-twist-animated.webp",
+          "poster": "assets/kettlebell-motion/female-kettlebell-russian-twist-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "columns": 4,
+            "storedPoses": 8,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "keyframes": 14,
+            "delayMs": [
+              440,
+              260,
+              260,
+              260,
+              260,
+              260,
+              260,
+              440,
+              260,
+              260,
+              260,
+              260,
+              260,
+              260
+            ],
+            "duration_ms": 4000,
+            "background": "#ffffff",
+            "crossfade": false,
+            "playbackMode": "loop",
+            "atlas": "assets/kettlebell-motion/female-kettlebell-russian-twist-atlas.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "kettlebell-sit-up",
+      "variants": {
+        "male": {
+          "image": "assets/kettlebell-motion/male-kettlebell-sit-up-animated.webp",
+          "poster": "assets/kettlebell-motion/male-kettlebell-sit-up-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "columns": 4,
+            "storedPoses": 8,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "keyframes": 14,
+            "delayMs": [
+              440,
+              260,
+              260,
+              260,
+              260,
+              260,
+              260,
+              440,
+              260,
+              260,
+              260,
+              260,
+              260,
+              260
+            ],
+            "duration_ms": 4000,
+            "background": "#ffffff",
+            "crossfade": false,
+            "playbackMode": "loop",
+            "atlas": "assets/kettlebell-motion/male-kettlebell-sit-up-atlas.webp"
+          }
+        },
+        "female": {
+          "image": "assets/kettlebell-motion/female-kettlebell-sit-up-animated.webp",
+          "poster": "assets/kettlebell-motion/female-kettlebell-sit-up-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "columns": 4,
+            "storedPoses": 8,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "keyframes": 14,
+            "delayMs": [
+              440,
+              260,
+              260,
+              260,
+              260,
+              260,
+              260,
+              440,
+              260,
+              260,
+              260,
+              260,
+              260,
+              260
+            ],
+            "duration_ms": 4000,
+            "background": "#ffffff",
+            "crossfade": false,
+            "playbackMode": "loop",
+            "atlas": "assets/kettlebell-motion/female-kettlebell-sit-up-atlas.webp"
+          }
+        }
+      }
+    },
+    {
+      "id": "kettlebell-halo",
+      "variants": {
+        "male": {
+          "image": "assets/kettlebell-motion/male-kettlebell-halo-animated.webp",
+          "poster": "assets/kettlebell-motion/male-kettlebell-halo-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "columns": 4,
+            "storedPoses": 8,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              0,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "keyframes": 16,
+            "delayMs": [
+              320,
+              240,
+              240,
+              240,
+              240,
+              240,
+              240,
+              240,
+              320,
+              240,
+              240,
+              240,
+              240,
+              240,
+              240,
+              240
+            ],
+            "duration_ms": 4000,
+            "background": "#ffffff",
+            "crossfade": false,
+            "playbackMode": "loop",
+            "atlas": "assets/kettlebell-motion/male-kettlebell-halo-atlas.webp"
+          }
+        },
+        "female": {
+          "image": "assets/kettlebell-motion/female-kettlebell-halo-animated.webp",
+          "poster": "assets/kettlebell-motion/female-kettlebell-halo-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "columns": 4,
+            "storedPoses": 8,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              0,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ],
+            "keyframes": 16,
+            "delayMs": [
+              320,
+              240,
+              240,
+              240,
+              240,
+              240,
+              240,
+              240,
+              320,
+              240,
+              240,
+              240,
+              240,
+              240,
+              240,
+              240
+            ],
+            "duration_ms": 4000,
+            "background": "#ffffff",
+            "crossfade": false,
+            "playbackMode": "loop",
+            "atlas": "assets/kettlebell-motion/female-kettlebell-halo-atlas.webp"
+          }
+        }
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/kettlebell-motion/female-kettlebell-halo-animated.webp",
+      "sha256": "fcd7962cee129ef69207d12d58a3a820765c9500bb85c757eabef2c1ba75fe70",
+      "bytes": 737630
+    },
+    {
+      "path": "assets/kettlebell-motion/female-kettlebell-halo-atlas.webp",
+      "sha256": "17dbd28ad12ff7e0cb788bb864d419fcb6c16fa5b31fcbdf38edc89b9772485b",
+      "bytes": 355292
+    },
+    {
+      "path": "assets/kettlebell-motion/female-kettlebell-halo-poster.webp",
+      "sha256": "7fd9a56a18762040194bd4bc95b637b01abc98c9218e65c0537ba52cfa3cf5b8",
+      "bytes": 43028
+    },
+    {
+      "path": "assets/kettlebell-motion/female-kettlebell-russian-twist-animated.webp",
+      "sha256": "9ab505a5aeee67d9d0092f414bdb0c6a1a712dba523daf1dd18363c87266aa53",
+      "bytes": 1177016
+    },
+    {
+      "path": "assets/kettlebell-motion/female-kettlebell-russian-twist-atlas.webp",
+      "sha256": "f68617ec409e29bf4f750ff65c9d043f3225ae0021715cab28414106ad9ac609",
+      "bytes": 662534
+    },
+    {
+      "path": "assets/kettlebell-motion/female-kettlebell-russian-twist-poster.webp",
+      "sha256": "7dec082416f4a2d11a6da1aa961c41fb0336bf77001d1b1f5c04bd4717aa54e8",
+      "bytes": 82300
+    },
+    {
+      "path": "assets/kettlebell-motion/female-kettlebell-sit-up-animated.webp",
+      "sha256": "95e380d71685edc9e82a5b524413380e1b3d9dac700bea57130a73f1f2f19baf",
+      "bytes": 735762
+    },
+    {
+      "path": "assets/kettlebell-motion/female-kettlebell-sit-up-atlas.webp",
+      "sha256": "428fb63f7b3f054e614ca85edf78a0a43948b71cf6ce219b56e8c3534e678278",
+      "bytes": 400912
+    },
+    {
+      "path": "assets/kettlebell-motion/female-kettlebell-sit-up-poster.webp",
+      "sha256": "db5fe8d00c03bd16e0e9ed2b65ce6d0cb6204c2d7252043b22d850deecac46d5",
+      "bytes": 43852
+    },
+    {
+      "path": "assets/kettlebell-motion/male-kettlebell-halo-animated.webp",
+      "sha256": "b2d4fe8cd03d1daf8355ae8f9221f32cfb9c33befebadd21027d53606364e915",
+      "bytes": 827374
+    },
+    {
+      "path": "assets/kettlebell-motion/male-kettlebell-halo-atlas.webp",
+      "sha256": "7c58f0a6ac6fc11ddff8f875881899585ad21b49022c16972da897e11b07e97d",
+      "bytes": 396682
+    },
+    {
+      "path": "assets/kettlebell-motion/male-kettlebell-halo-poster.webp",
+      "sha256": "daa7222025d6f9ac035d2a2b0579d6db9dfa1fdeb521716f5939aedf3aa53eab",
+      "bytes": 47522
+    },
+    {
+      "path": "assets/kettlebell-motion/male-kettlebell-russian-twist-animated.webp",
+      "sha256": "3d4bc436273a0a6945ea423c8ce4f218cffaf25b8d059c7e53dc00e288c5e745",
+      "bytes": 1303604
+    },
+    {
+      "path": "assets/kettlebell-motion/male-kettlebell-russian-twist-atlas.webp",
+      "sha256": "2495539107655fab36b38c0ace686014cc72854bedd3a462edc2ac74cd2dc52e",
+      "bytes": 731682
+    },
+    {
+      "path": "assets/kettlebell-motion/male-kettlebell-russian-twist-poster.webp",
+      "sha256": "2f53ad4f570fd3fc0218de2b15ce74fd7e9c2e5a8d2d45f100e422d28c01afb9",
+      "bytes": 92710
+    },
+    {
+      "path": "assets/kettlebell-motion/male-kettlebell-sit-up-animated.webp",
+      "sha256": "182049cfdc7481bfc100371853d78b4f9e48f31e5a72d208e480f1d7722786bc",
+      "bytes": 733056
+    },
+    {
+      "path": "assets/kettlebell-motion/male-kettlebell-sit-up-atlas.webp",
+      "sha256": "43efd728ebf5b05f40961a95eedf97eff259771a9006728c3e65cc3f61ad14f9",
+      "bytes": 401024
+    },
+    {
+      "path": "assets/kettlebell-motion/male-kettlebell-sit-up-poster.webp",
+      "sha256": "a0acd61a1fd3402da91502c48ce3012df89d9ded809b321d0c362c734473224b",
+      "bytes": 46312
+    }
+  ],
+  "sourceSheets": [
+    {
+      "path": "animation-source/kettlebell-motion/sheets/kettlebell-russian-twist.png",
+      "sha256": "21e2087afb80e829903936b97e2a34d39a281b6624e06d37d7ab7d86f47906bb"
+    },
+    {
+      "path": "animation-source/kettlebell-motion/sheets/kettlebell-sit-up.png",
+      "sha256": "74cd606e4be8843e60c6565eebd0ea5aaf0af8d08371614041d1bfeaed4f048b"
+    },
+    {
+      "path": "animation-source/kettlebell-motion/sheets/kettlebell-halo.png",
+      "sha256": "ac3f8397d4dbb6ba85e837ebb1330a32b526f849c29138cc3aa213fb6e39cb52"
+    }
+  ],
+  "sourceLayout": {
+    "path": "animation-source/kettlebell-motion/source-layout.json",
+    "sha256": "d9ed817b7628bad7dc403bafc1078295abeb539d25cbf76f5d8c4cfcf1445f94"
+  }
+}

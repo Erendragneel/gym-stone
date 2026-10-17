@@ -2,7 +2,7 @@ const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),asse
 const root=path.resolve(__dirname,'..'),window={};
 for(const file of ['workout-tracking.js','progress-data.js','workout-recommendations-data.js'])vm.runInNewContext(fs.readFileSync(path.join(root,'dist',file),'utf8'),{window,console});
 const catalog=JSON.parse(fs.readFileSync(path.join(root,'dist/exercises.json'))),guides=catalog.filter(e=>e.postpartum),data=window.GymWorkoutRecommendationsData;
-assert.equal(catalog.filter(e=>!e.illustratedGuide).length,431);assert.equal(guides.length,6);assert.equal(new Set(catalog.map(e=>e.id)).size,catalog.length);
+assert.equal(catalog.filter(e=>!e.kettlebellAnimation).length,431);assert.equal(guides.length,6);assert.equal(new Set(catalog.map(e=>e.id)).size,catalog.length);
 assert.equal(guides.filter(e=>e.postpartumCategory==='Clinician guided').length,2);
 for(const exercise of guides){
  assert.equal(exercise.group,'Postpartum');assert.equal(exercise.prenatal,undefined);assert.equal(exercise.tracking,'time');assert.equal(exercise.defaultMinutes,undefined);assert(exercise.readiness&&exercise.adjustment&&exercise.cues.length&&exercise.guidanceUrl.startsWith('https://'));

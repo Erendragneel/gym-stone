@@ -1,11 +1,27 @@
 /* Offline app shell. Exercise animations and local OCR files are cached as used. */
 const CACHE_PREFIX = 'gym-stone-';
-const SHELL_CACHE = CACHE_PREFIX + 'shell-v31-kettlebell';
+const SHELL_CACHE = CACHE_PREFIX + 'shell-v32-kettlebell-motion';
 const MEDIA_CACHE = CACHE_PREFIX + 'media-v18-controlled-motion';
 const SHELL = [
-  './assets/kettlebell/male-kettlebell-russian-twist.svg', './assets/kettlebell/female-kettlebell-russian-twist.svg',
-  './assets/kettlebell/male-kettlebell-sit-up.svg', './assets/kettlebell/female-kettlebell-sit-up.svg',
-  './assets/kettlebell/male-kettlebell-halo.svg', './assets/kettlebell/female-kettlebell-halo.svg',
+  './kettlebell-motion-manifest.json',
+  './assets/kettlebell-motion/male-kettlebell-russian-twist-animated.webp',
+  './assets/kettlebell-motion/male-kettlebell-russian-twist-poster.webp',
+  './assets/kettlebell-motion/male-kettlebell-russian-twist-atlas.webp',
+  './assets/kettlebell-motion/female-kettlebell-russian-twist-animated.webp',
+  './assets/kettlebell-motion/female-kettlebell-russian-twist-poster.webp',
+  './assets/kettlebell-motion/female-kettlebell-russian-twist-atlas.webp',
+  './assets/kettlebell-motion/male-kettlebell-sit-up-animated.webp',
+  './assets/kettlebell-motion/male-kettlebell-sit-up-poster.webp',
+  './assets/kettlebell-motion/male-kettlebell-sit-up-atlas.webp',
+  './assets/kettlebell-motion/female-kettlebell-sit-up-animated.webp',
+  './assets/kettlebell-motion/female-kettlebell-sit-up-poster.webp',
+  './assets/kettlebell-motion/female-kettlebell-sit-up-atlas.webp',
+  './assets/kettlebell-motion/male-kettlebell-halo-animated.webp',
+  './assets/kettlebell-motion/male-kettlebell-halo-poster.webp',
+  './assets/kettlebell-motion/male-kettlebell-halo-atlas.webp',
+  './assets/kettlebell-motion/female-kettlebell-halo-animated.webp',
+  './assets/kettlebell-motion/female-kettlebell-halo-poster.webp',
+  './assets/kettlebell-motion/female-kettlebell-halo-atlas.webp',
   './title-progression-data.js?v=2', './title-progression.js?v=3', './title-progression.css?v=2',
   './daily-quest-data.js?v=1', './daily-quests.js?v=1', './daily-quests.css?v=1',
   "./assets/postpartum/postpartum-comfortable-rib-breathing.svg",
@@ -16,7 +32,7 @@ const SHELL = [
   "./assets/postpartum/postpartum-side-lying-core-connection.svg",
   './button-system.css?v=1', './button-system.js?v=1', './navigation-options.html', './navigation-options.css', './navigation-options.js',
   './clean-animation.js?v=18', './clean-animation.css?v=18',
-  './exercise-history.css?v=1', './exercise-history.js?v=1', './workout-recommendations.css?v=2', './workout-recommendations-data.js?v=2', './workout-recommendations.js?v=3', './', './index.html', './app.js?v=24-kettlebell', './style.css?v=5', './calendar-theme.css', './nutrition.css?v=2', './nutrition.js?v=2', './nutrition-tools.js?v=1', './food-worker.js', './machine-data.js?v=1', './machine-photo.js?v=2', './machine-photo.css?v=1', './machine-worker.js?v=1', './food-library.json', './navigation.css?v=1', './navigation.js?v=5', './stretch-library.js?v=5', './postpartum-library.js?v=1', './postpartum-library.css?v=1', './stretch-library.css?v=2', './expanded-library.js?v=3', './expanded-library.css?v=2',
+  './exercise-history.css?v=1', './exercise-history.js?v=1', './workout-recommendations.css?v=2', './workout-recommendations-data.js?v=2', './workout-recommendations.js?v=3', './', './index.html', './app.js?v=25-kettlebell-motion', './style.css?v=5', './calendar-theme.css', './nutrition.css?v=2', './nutrition.js?v=2', './nutrition-tools.js?v=1', './food-worker.js', './machine-data.js?v=1', './machine-photo.js?v=2', './machine-photo.css?v=1', './machine-worker.js?v=1', './food-library.json', './navigation.css?v=1', './navigation.js?v=5', './stretch-library.js?v=5', './postpartum-library.js?v=1', './postpartum-library.css?v=1', './stretch-library.css?v=2', './expanded-library.js?v=3', './expanded-library.css?v=2',
   './screenshot-import.css?v=2', './screenshot-parser.js', './screenshot-store.js?v=4',
   './screenshot-import.js?v=3', './workout-tracking.js?v=5', './set-entries.css?v=1', './set-entry-fields.js?v=1', './progress-data.js?v=3', './progress.js?v=2', './progress.css?v=1', './exercises.json', './exercise-muscles.js?v=2', './muscle-map.js?v=1', './muscle-map.css?v=1', './qr-code.js',
   './player-profile.js?v=3', './player-profile.css?v=5', './profile-data.js', './cloud-config.js', './cloud-account.js?v=3', './cloud-calendar.js?v=3', './assets/characters/male-avatar.png', './assets/characters/female-avatar.png', './assets/characters/male-character.png', './assets/characters/female-character.png',
