@@ -1,0 +1,68 @@
+/* Keep the title destination visible without expanding the workout screen. */
+.stats .level-card .title-card-body{min-width:0}
+.stats .level-card #level{display:flex;flex-wrap:wrap;align-items:baseline;gap:3px 10px;font-size:23px;line-height:1.25;overflow-wrap:anywhere;margin-top:3px}
+.stats .level-card .title-numeric-level{display:inline-block;flex-shrink:0;margin:0;font-size:11px;font-weight:500;line-height:1.5;color:#c2d9df;letter-spacing:0}
+.stats .level-card #xp-text{display:block;font-size:11px;line-height:1.5;overflow-wrap:anywhere}
+.stats .level-card .xp-track{margin:8px 0 5px}
+.title-card-footer{display:flex;align-items:center;justify-content:space-between;gap:5px 12px;flex-wrap:wrap;margin-top:5px}
+.title-lifetime{font-size:11px;line-height:1.4;color:#bcd4dc;overflow-wrap:anywhere}
+.title-browse{min-height:44px;flex-shrink:0;border:1px solid #4c797d;border-radius:9px;background:#173f49;color:#c9fff2;padding:8px 11px;font-size:12px;font-weight:600;line-height:1.3}
+.title-browse:hover{background:#20525c;border-color:#7fe4ca}
+#title-dialog{width:min(600px,calc(100vw - 28px));max-width:none;max-height:calc(100dvh - 32px);padding:0;border:1px solid #436479;border-radius:18px;background:#12263b;color:var(--text);overflow:hidden;box-shadow:0 24px 90px #0008}
+#title-dialog[open]{display:flex;flex-direction:column}
+#title-dialog::backdrop{background:#030b16b8;backdrop-filter:blur(5px)}
+.title-dialog-header{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:20px 22px 17px;border-bottom:1px solid #345166;flex-shrink:0}
+.title-dialog-header>div{min-width:0}
+.title-dialog-header .eyebrow{font-size:10px;letter-spacing:1.4px}
+.title-dialog-header h2{font-size:23px;margin:3px 0 0;overflow-wrap:anywhere}
+#title-dialog .title-dialog-close{min-width:62px;min-height:44px;flex-shrink:0;padding:9px 12px;font-size:13px}
+.title-dialog-body{min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:18px 22px 22px;scrollbar-width:thin;scrollbar-color:#527b88 #12263b}
+.title-journey-summary{border:1px solid #477d81;border-radius:12px;background:linear-gradient(115deg,#173f47,#183147);padding:16px}
+.title-journey-summary>.eyebrow{display:block;font-size:10px;letter-spacing:1.2px}
+#title-summary-current{display:block;color:#baffea;font-size:24px;line-height:1.3;margin:4px 0;overflow-wrap:anywhere}
+#title-summary-total{font-size:12px;color:#c1d6df}
+.title-summary-track{height:6px;margin:12px 0 8px;background:#29495c;border-radius:5px;overflow:hidden}
+.title-summary-track>i{display:block;height:100%;background:var(--lime);transition:width .3s}
+#title-summary-next{font-size:12px;line-height:1.5;color:#d3eceb;overflow-wrap:anywhere}
+.title-browser-note{font-size:12px;line-height:1.6;margin:15px 0 12px;color:#b9cedb}
+.title-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:7px}
+.title-list-item{display:flex;align-items:center;gap:12px;border:1px solid #2c495f;border-radius:10px;background:#102236;padding:11px 12px;min-width:0}
+.title-rank{display:grid;place-items:center;width:31px;height:31px;border-radius:50%;background:#20394f;color:#b6cad8;font-size:11px;font-weight:700;flex-shrink:0}
+.title-list-copy{flex:1;min-width:0}
+.title-list-copy strong{display:block;font-size:14px;font-weight:600;line-height:1.35;color:#d8e5ed;overflow-wrap:anywhere}
+.title-list-copy small{display:block;font-size:11px;color:#a8bfce;margin-top:3px}
+.title-state{flex-shrink:0;font-size:10px;font-weight:600;line-height:1.4;color:#adc2d1;padding:4px 7px;border-radius:6px;background:#21384d}
+.title-list-item.earned .title-rank{background:#1a4a48;color:#a6f2db}
+.title-list-item.earned .title-state{background:#1c4444;color:#b8f5df}
+.title-list-item.current{border-color:#76d7bf;background:#193e46}
+.title-list-item.current .title-rank{background:#84e4c7;color:#163e3e}
+.title-list-item.current .title-list-copy strong{color:#d4fff1}
+.title-list-item.current .title-state{background:#84e4c7;color:#153b39}
+.title-list-item.next{border-color:#a98d4a;background:#2b3040}
+.title-list-item.next .title-state{background:#57482e;color:#ffe1a0}
+.title-xp-rules{margin-top:20px;padding-top:16px;border-top:1px solid #345166}
+.title-xp-rules h3{font-size:13px;margin:0 0 8px}
+.title-xp-rules ul{padding-left:18px;margin:0;color:#b9cedb;font-size:12px;line-height:1.8}
+@media(max-width:1000px){.stats .level-card #level{font-size:22px}}
+@media(max-width:720px){
+ .stats .level-card #level{font-size:18px;gap:2px 9px;line-height:1.25}
+ .stats .level-card .title-numeric-level{font-size:10px}
+ .stats .level-card #xp-text{display:block;font-size:10px;line-height:1.5}
+ .stats .level-card .xp-track{margin:7px 0 3px}
+ .title-card-footer{margin-top:4px;gap:4px 8px}
+ .title-lifetime{font-size:10px}
+ .title-browse{font-size:11px;padding:8px 10px}
+ #title-dialog{width:calc(100vw - 24px);max-height:calc(100dvh - 24px);border-radius:15px}
+ .title-dialog-header{gap:10px;padding:15px 14px 13px}
+ .title-dialog-header h2{font-size:20px}
+ .title-dialog-header .eyebrow{font-size:9px;letter-spacing:1px}
+ .title-dialog-body{padding:14px}
+ .title-journey-summary{padding:13px}
+ #title-summary-current{font-size:22px}
+ #title-summary-total,#title-summary-next{font-size:11px}
+ .title-list-item{padding:10px 9px;gap:9px}
+ .title-rank{width:27px;height:27px;font-size:10px}
+ .title-list-copy strong{font-size:12px}
+ .title-list-copy small{font-size:10px}
+ .title-state{font-size:9px;padding:4px 5px}
+}
