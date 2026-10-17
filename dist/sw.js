@@ -1,11 +1,12 @@
 /* Offline app shell. Exercise animations and local OCR files are cached as used. */
 const CACHE_PREFIX = 'gym-stone-';
-const SHELL_CACHE = CACHE_PREFIX + 'shell-v25-collapsed-suggestions';
+const SHELL_CACHE = CACHE_PREFIX + 'shell-v26-daily-trio';
 const MEDIA_CACHE = CACHE_PREFIX + 'media-v18-controlled-motion';
 const SHELL = [
+  './daily-quest-data.js?v=1', './daily-quests.js?v=1', './daily-quests.css?v=1',
   './button-system.css?v=1', './button-system.js?v=1', './navigation-options.html', './navigation-options.css', './navigation-options.js',
   './clean-animation.js?v=18', './clean-animation.css?v=18',
-  './exercise-history.css?v=1', './exercise-history.js?v=1', './workout-recommendations.css?v=2', './workout-recommendations-data.js?v=1', './workout-recommendations.js?v=2', './', './index.html', './app.js?v=20', './style.css?v=5', './calendar-theme.css', './nutrition.css?v=2', './nutrition.js?v=2', './nutrition-tools.js?v=1', './food-worker.js', './machine-data.js?v=1', './machine-photo.js?v=1', './machine-photo.css?v=1', './machine-worker.js?v=1', './food-library.json', './navigation.css?v=1', './navigation.js?v=5', './stretch-library.js?v=4', './stretch-library.css?v=2', './expanded-library.js?v=1', './expanded-library.css?v=2',
+  './exercise-history.css?v=1', './exercise-history.js?v=1', './workout-recommendations.css?v=2', './workout-recommendations-data.js?v=1', './workout-recommendations.js?v=2', './', './index.html', './app.js?v=21', './style.css?v=5', './calendar-theme.css', './nutrition.css?v=2', './nutrition.js?v=2', './nutrition-tools.js?v=1', './food-worker.js', './machine-data.js?v=1', './machine-photo.js?v=1', './machine-photo.css?v=1', './machine-worker.js?v=1', './food-library.json', './navigation.css?v=1', './navigation.js?v=5', './stretch-library.js?v=4', './stretch-library.css?v=2', './expanded-library.js?v=1', './expanded-library.css?v=2',
   './screenshot-import.css?v=2', './screenshot-parser.js', './screenshot-store.js?v=4',
   './screenshot-import.js?v=3', './workout-tracking.js?v=4', './set-entries.css?v=1', './set-entry-fields.js?v=1', './progress-data.js?v=2', './progress.js?v=2', './progress.css?v=1', './exercises.json', './exercise-muscles.js?v=1', './muscle-map.js?v=1', './muscle-map.css?v=1', './qr-code.js',
   './player-profile.js?v=3', './player-profile.css?v=5', './profile-data.js', './cloud-config.js', './cloud-account.js?v=3', './cloud-calendar.js?v=3', './assets/characters/male-avatar.png', './assets/characters/female-avatar.png', './assets/characters/male-character.png', './assets/characters/female-character.png',
