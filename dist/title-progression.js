@@ -91,13 +91,32 @@
     const next = make('p');
     next.id = 'title-summary-next';
     summary.append(current, total, track, next);
-    const note = make('p', 'Each new title takes a larger XP step. Titles unlock automatically from your saved workout XP.', 'title-browser-note');
+    const note = make('p', data.TITLE_COUNT + ' titles, with a larger XP step for every rank. Titles unlock automatically from your saved workout XP.', 'title-browser-note');
     note.id = 'title-browser-note';
+    const pacing = make('details', null, 'title-pacing');
+    pacing.append(make('summary', 'About the ' + data.PACING.targetYears + '-year journey'));
+    const pace = data.PACING;
+    pacing.append(make('p', 'Designed for about ' + pace.targetYears + ' years of consistent training. The reference pace is ' + pace.sessionsPerWeek + ' workouts a week with ' + pace.movesPerSession + ' completed exercises each, Daily Trio on those days, and ' + pace.personalBestsPerWeek + ' personal best a week: about ' + number(pace.weeklyXP) + ' XP per week.'));
+    pacing.append(make('p', 'The final title unlocks at ' + number(pace.finalXP) + ' XP. Your actual timing depends on earned XP. Rest days never reset your progress.'));
+    const jumps = make('nav', null, 'title-list-jumps');
+    jumps.setAttribute('aria-label', 'Jump through title list');
+    for (const [label, isFinal] of [['Current title', false], ['Final title', true]]) {
+      const jump = make('button', label, 'secondary');
+      jump.type = 'button';
+      jump.onclick = () => {
+        const entry = isFinal ? titleRows.at(-1) : titleRows.find(item => item.title.id === latest?.current.id);
+        if (!entry) return;
+        entry.row.scrollIntoView({block: 'center'});
+        entry.row.focus({preventScroll: true});
+      };
+      jumps.append(jump);
+    }
     const list = make('ol', null, 'title-list');
     list.id = 'title-list';
     list.setAttribute('aria-label', 'All ' + data.TITLE_COUNT + ' titles and XP requirements');
     for (const title of data.TITLE_LIST) {
       const row = make('li', null, 'title-list-item');
+      row.tabIndex = -1;
       row.dataset.title = title.id;
       const rank = make('span', String(title.rank).padStart(2, '0'), 'title-rank');
       rank.setAttribute('aria-hidden', 'true');
@@ -113,7 +132,7 @@
     const rules = make('ul');
     for (const text of ['Complete a move: +25 XP', 'Beat a personal best: +50 bonus XP', 'Complete Daily Trio: +100 bonus XP']) rules.append(make('li', text));
     earning.append(rules);
-    body.append(summary, note, list, earning);
+    body.append(summary, note, pacing, jumps, list, earning);
     dialog.append(header, body);
     document.body.append(dialog);
     browse.onclick = () => {

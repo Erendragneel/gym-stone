@@ -25,8 +25,14 @@
 .title-summary-track>i{display:block;height:100%;background:var(--lime);transition:width .3s}
 #title-summary-next{font-size:12px;line-height:1.5;color:#d3eceb;overflow-wrap:anywhere}
 .title-browser-note{font-size:12px;line-height:1.6;margin:15px 0 12px;color:#b9cedb}
+.title-pacing{font-size:12px;line-height:1.6;color:#b9cedb;margin:0 0 8px}
+.title-pacing summary{cursor:pointer;color:#d1ede8;padding:7px 0;min-height:44px;display:list-item;align-content:center}
+.title-pacing p{margin:7px 0 12px}
+.title-list-jumps{display:flex;gap:8px;position:sticky;top:-18px;z-index:1;padding:8px 0;background:#12263b}
+#title-dialog .title-list-jumps button{flex:1;min-height:44px;padding:8px;font-size:12px}
 .title-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:7px}
 .title-list-item{display:flex;align-items:center;gap:12px;border:1px solid #2c495f;border-radius:10px;background:#102236;padding:11px 12px;min-width:0}
+.title-list-item:focus-visible{outline:2px solid #84e4c7;outline-offset:2px}
 .title-rank{display:grid;place-items:center;width:31px;height:31px;border-radius:50%;background:#20394f;color:#b6cad8;font-size:11px;font-weight:700;flex-shrink:0}
 .title-list-copy{flex:1;min-width:0}
 .title-list-copy strong{display:block;font-size:14px;font-weight:600;line-height:1.35;color:#d8e5ed;overflow-wrap:anywhere}
@@ -57,6 +63,7 @@
  .title-dialog-header h2{font-size:20px}
  .title-dialog-header .eyebrow{font-size:9px;letter-spacing:1px}
  .title-dialog-body{padding:14px}
+ .title-list-jumps{top:-14px}
  .title-journey-summary{padding:13px}
  #title-summary-current{font-size:22px}
  #title-summary-total,#title-summary-next{font-size:11px}

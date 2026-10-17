@@ -1,9 +1,9 @@
 /* Offline app shell. Exercise animations and local OCR files are cached as used. */
 const CACHE_PREFIX = 'gym-stone-';
-const SHELL_CACHE = CACHE_PREFIX + 'shell-v29-earned-titles';
+const SHELL_CACHE = CACHE_PREFIX + 'shell-v30-hundred-titles';
 const MEDIA_CACHE = CACHE_PREFIX + 'media-v18-controlled-motion';
 const SHELL = [
-  './title-progression-data.js?v=1', './title-progression.js?v=2', './title-progression.css?v=1',
+  './title-progression-data.js?v=2', './title-progression.js?v=3', './title-progression.css?v=2',
   './daily-quest-data.js?v=1', './daily-quests.js?v=1', './daily-quests.css?v=1',
   "./assets/postpartum/postpartum-comfortable-rib-breathing.svg",
   "./assets/postpartum/postpartum-pelvic-floor-release.svg",

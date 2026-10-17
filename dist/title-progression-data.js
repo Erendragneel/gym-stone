@@ -2,52 +2,129 @@
    Numeric levels are handled separately by the app. Nothing is saved here. */
 (() => {
   'use strict';
-  const titles = [
-    ['Rookie', 0],
-    ['First Rep', 100],
-    ['Trail Starter', 300],
-    ['Foundation Builder', 600],
-    ['Routine Keeper', 1025],
-    ['Momentum Maker', 1600],
-    ['Stone Seeker', 2325],
-    ['Trail Walker', 3200],
-    ['Challenge Chaser', 4225],
-    ['Rep Ranger', 5425],
-    ['Iron Explorer', 6825],
-    ['Stone Pathfinder', 8425],
-    ['Training Adept', 10225],
-    ['Endurance Scout', 12225],
-    ['Iron Trailblazer', 14450],
-    ['Stone Climber', 16925],
-    ['Quest Keeper', 19650],
-    ['Training Vanguard', 22625],
-    ['Summit Seeker', 25850],
-    ['Iron Sentinel', 29350],
-    ['Stone Sentinel', 33150],
-    ['Routine Champion', 37250],
-    ['Trail Champion', 41650],
-    ['Summit Strider', 46350],
-    ['Iron Guardian', 51375],
-    ['Stone Guardian', 56750],
-    ['Quest Champion', 62475],
-    ['Peak Pathfinder', 68550],
-    ['Iron Captain', 74975],
-    ['Stone Captain', 81775],
-    ['Training Marshal', 88975],
-    ['Summit Guardian', 96575],
-    ['Iron Warden', 104575],
-    ['Stone Warden', 112975],
-    ['Quest Master', 121800],
-    ['Summit Master', 131075],
-    ['Iron Luminary', 140800],
-    ['Stone Luminary', 150975],
-    ['Peak Legend', 161600],
-    ['Gym Stone Legend', 172700]
+  const names = [
+    "Rookie",
+    "First Rep",
+    "Trail Starter",
+    "Foundation Builder",
+    "Habit Starter",
+    "Routine Keeper",
+    "Session Scout",
+    "Momentum Maker",
+    "Daily Pathfinder",
+    "Stone Seeker",
+    "Trail Walker",
+    "Rep Tracker",
+    "Rhythm Keeper",
+    "Challenge Chaser",
+    "Rep Ranger",
+    "Routine Builder",
+    "Iron Explorer",
+    "Trail Navigator",
+    "Stone Pathfinder",
+    "Training Adept",
+    "Quest Scout",
+    "Endurance Scout",
+    "Progress Keeper",
+    "Iron Trailblazer",
+    "Stone Climber",
+    "Habit Navigator",
+    "Quest Keeper",
+    "Routine Ranger",
+    "Training Vanguard",
+    "Summit Seeker",
+    "Iron Sentinel",
+    "Stone Sentinel",
+    "Milestone Maker",
+    "Trail Steward",
+    "Routine Champion",
+    "Summit Scout",
+    "Trail Champion",
+    "Summit Strider",
+    "Iron Guardian",
+    "Stone Guardian",
+    "Quest Champion",
+    "Peak Pathfinder",
+    "Iron Captain",
+    "Stone Captain",
+    "Training Marshal",
+    "Summit Guardian",
+    "Iron Warden",
+    "Stone Warden",
+    "Expedition Leader",
+    "Routine Architect",
+    "Trail Architect",
+    "Quest Strategist",
+    "Stone Strategist",
+    "Summit Navigator",
+    "Iron Wayfinder",
+    "Stone Wayfinder",
+    "Quest Vanguard",
+    "Peak Vanguard",
+    "Iron Steward",
+    "Stone Steward",
+    "Training Sage",
+    "Routine Sage",
+    "Trail Sage",
+    "Quest Sage",
+    "Summit Sage",
+    "Iron Scholar",
+    "Stone Scholar",
+    "Path Archivist",
+    "Quest Archivist",
+    "Summit Archivist",
+    "Iron Artisan",
+    "Stone Artisan",
+    "Routine Artisan",
+    "Training Architect",
+    "Peak Architect",
+    "Quest Marshal",
+    "Summit Marshal",
+    "Stone Marshal",
+    "Quest Master",
+    "Summit Master",
+    "Iron Master",
+    "Stone Master",
+    "Trail Master",
+    "Routine Master",
+    "Iron Luminary",
+    "Stone Luminary",
+    "Quest Luminary",
+    "Summit Luminary",
+    "Iron Beacon",
+    "Stone Beacon",
+    "Trail Beacon",
+    "Summit Beacon",
+    "Quest Legend",
+    "Trail Legend",
+    "Iron Legend",
+    "Stone Legend",
+    "Peak Legend",
+    "Summit Legend",
+    "Eternal Pathfinder",
+    "Gym Stone Legend"
   ];
-  const TITLE_LIST = Object.freeze(titles.map(([name, xp], index) => Object.freeze({
-    id: name.toLowerCase().replace(/\s+/g, '-'), rank: index + 1, name, xp
-  })));
+  // Each promotion costs more XP. The first three keep the original milestones.
+  const TITLE_LIST = Object.freeze(names.reduce((list, name, index) => {
+    const gap = index === 0 ? 0 : index <= 3 ? index * 100 : 25 * (index + 9 + Math.floor((index - 3) / 2));
+    const xp = (index ? list[index - 1].xp : 0) + gap;
+    list.push(Object.freeze({
+      id: name.toLowerCase().replace(/\s+/g, '-'), rank: index + 1, name, xp
+    }));
+    return list;
+  }, []));
   const TITLE_COUNT = TITLE_LIST.length;
+  // A reference pace for an approximately three-year journey, not an XP limit.
+  const pace = {
+    targetYears: 3, targetWeeks: 156,
+    sessionsPerWeek: 5, movesPerSession: 6, personalBestsPerWeek: 1,
+    moveXP: 25, dailyTrioXP: 100, personalBestXP: 50
+  };
+  const PACING = Object.freeze({
+    ...pace,
+    weeklyXP: pace.sessionsPerWeek * (pace.movesPerSession * pace.moveXP + pace.dailyTrioXP) + pace.personalBestsPerWeek * pace.personalBestXP,
+    finalXP: TITLE_LIST[TITLE_COUNT - 1].xp
+  });
 
   /* build(xp): xp must be a finite number; invalid and negative values become 0.
      current/next are entries from TITLE_LIST; earned includes the current title.
@@ -69,7 +146,7 @@
       intoTitle, span
     });
   }
-  const api = Object.freeze({build, TITLE_LIST, TITLE_COUNT});
+  const api = Object.freeze({build, TITLE_LIST, TITLE_COUNT, PACING});
   if (typeof window !== 'undefined') window.GymTitleProgressionData = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })();

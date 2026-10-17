@@ -239,7 +239,7 @@ function verifyNoticeLifecycle() {
     assert.equal(context.announce(titles.build(finalXP - 1), context.titleSnapshot), true);
     flush();
     assert.equal(messages.length, 1);
-    assert.match(messages[0], /Gym Stone Legend.*All 40 titles earned/);
+    assert.match(messages[0], /Gym Stone Legend.*All 100 titles earned/);
   }
   {
     const {context, timers, messages, flush} = setupNotices();
