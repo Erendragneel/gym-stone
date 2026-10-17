@@ -8,6 +8,47 @@ const canonical = value => Array.isArray(value) ? value.map(canonical) : value &
 const digest = value => sha256(Buffer.from(JSON.stringify(canonical(value))));
 const compare = (a, b) => a < b ? -1 : a > b ? 1 : 0;
 const owned = value => Object.fromEntries(['image', 'poster', 'style', 'animation'].filter(key => value[key] !== undefined).map(key => [key, value[key]]));
+// These static guides are separate from the immutable, 425-exercise motion proof.
+const POSTPARTUM_IDS = new Set([
+  'postpartum-comfortable-rib-breathing', 'postpartum-pelvic-floor-release',
+  'postpartum-gentle-ankle-movement', 'postpartum-short-easy-walk',
+  'postpartum-gentle-pelvic-floor-lift-release', 'postpartum-side-lying-core-connection'
+]);
+
+function animationCatalog(catalog) {
+  assert(Array.isArray(catalog), 'Missing exercise catalog');
+  const ids = new Set(), motion = [], guides = [];
+  for (const record of catalog) {
+    assert(record && typeof record.id === 'string' && record.id.length && !ids.has(record.id), 'Missing or duplicate exercise ID');
+    ids.add(record.id);
+    if (!POSTPARTUM_IDS.has(record.id)) { motion.push(record); continue; }
+    assert(record.postpartum === true && record.group === 'Postpartum' && record.tracking === 'time' && record.supportsWeight === false && record.supportsDistance === false, 'Invalid postpartum guide metadata: ' + record.id);
+    assert(['defaultMinutes', 'defaultSets', 'defaultReps', 'suggestedSeconds', 'sets', 'reps', 'minutes'].every(key => record[key] == null), 'Postpartum guide contains a default dose: ' + record.id);
+    assert(typeof record.image === 'string' && /^assets\/postpartum\/postpartum-[a-z-]+\.svg$/.test(record.image), 'Invalid postpartum guide image: ' + record.id);
+    assert(record.variants && typeof record.variants === 'object' && !Array.isArray(record.variants) && Object.keys(record.variants).length === 1 && record.variants.female?.image === record.image, 'Postpartum guide must have only its matching female image variant: ' + record.id);
+    const staticOnly = value => {
+      if (!value || typeof value !== 'object') return;
+      for (const [key, child] of Object.entries(value)) {
+        assert(!/^(?:animation|gif)$/i.test(key), 'Motion metadata in static postpartum guide: ' + record.id);
+        staticOnly(child);
+      }
+    };
+    staticOnly(record); guides.push(record);
+  }
+  assert(motion.length === 425, 'Package requires all 425 reviewed animations');
+  assert(guides.length === 0 || guides.length === POSTPARTUM_IDS.size, 'Incomplete postpartum guide supplement');
+  return {motion, guides};
+}
+
+function validatePostpartumGuides(stage, guides) {
+  const safeTags = new Set(['svg', 'title', 'desc', 'g', 'path', 'rect', 'circle', 'ellipse', 'line', 'polyline', 'polygon', 'text', 'tspan', 'defs', 'marker', 'clippath', 'lineargradient', 'radialgradient', 'stop']);
+  for (const record of guides) {
+    const svg = fs.readFileSync(ordinaryFile(stage, 'dist/' + record.image), 'utf8');
+    assert(/<svg\b/i.test(svg) && /<\/svg\s*>\s*$/i.test(svg), 'Invalid postpartum SVG: ' + record.id);
+    assert(!/<!DOCTYPE|<!ENTITY|<\?(?!xml\s)|\bon[a-z]+\s*=|\b(?:href|src)\s*=|\bstyle\s*=|url\s*\(|javascript\s*:|data\s*:/i.test(svg), 'Active or external content in postpartum SVG: ' + record.id);
+    for (const match of svg.matchAll(/<\/?\s*([A-Za-z][\w:.-]*)\b/g)) assert(safeTags.has(match[1].toLowerCase()), 'Unsupported postpartum SVG element: ' + match[1]);
+  }
+}
 
 function ordinaryFile(stage, relative) {
   assert(typeof relative === 'string' && relative.length && !relative.includes('\\') && !path.posix.isAbsolute(relative) && !relative.split('/').some(part => !part || part === '.' || part === '..'), 'Unsafe package path: ' + relative);
@@ -39,7 +80,7 @@ function motionAsset(relative) {
 }
 
 function normalizeAnimationCatalog(catalog) {
-  assert(Array.isArray(catalog) && catalog.length === 425, 'Package requires all 425 exercises');
+  catalog = animationCatalog(catalog).motion;
   const ids = new Set();
   return catalog.map(record => {
     assert(typeof record.id === 'string' && record.id.length && !ids.has(record.id), 'Missing or duplicate exercise ID');
@@ -93,16 +134,21 @@ function packageFiles(stage, catalog) {
   };
   inventory('dist/assets/motion-v18');
   return [...files].sort().map(relative => {
-    const bytes = fs.readFileSync(ordinaryFile(stage, relative));
+    let bytes = fs.readFileSync(ordinaryFile(stage, relative));
+    // Git may check these two reviewed text files out with CRLF on Windows.
+    // Their immutable manifest records LF; all other asset bytes stay exact.
+    if (relative === 'dist/clean-animation.js' || relative === 'dist/clean-animation.css') bytes = Buffer.from(bytes.toString('utf8').replace(/\r\n/g, '\n'));
     return {path: relative, sha256: sha256(bytes), bytes: bytes.length};
   });
 }
 
 function createManifest(stage, nativeSourceBindings) {
   const catalog = read(ordinaryFile(stage, 'dist/exercises.json'));
+  const {motion, guides} = animationCatalog(catalog);
+  validatePostpartumGuides(stage, guides);
   const normalized = normalizeAnimationCatalog(catalog);
   return {schemaVersion: 1, reviewedExercises: 425, pendingExercises: 0,
-    animationCatalogSha256: digest(normalized), nativeSourceBindings: normalizeBindings(nativeSourceBindings, catalog), files: packageFiles(stage, catalog)};
+    animationCatalogSha256: digest(normalized), nativeSourceBindings: normalizeBindings(nativeSourceBindings, motion), files: packageFiles(stage, motion)};
 }
 
 function verifyPackage(stage) {
@@ -111,7 +157,7 @@ function verifyPackage(stage) {
   assert(release.reviewedExercises === 425 && release.pendingExercises === 0 && release.pixelIdentityVerifiedForEveryPackedKeyframe === true && release.lossless === true, 'Incomplete approved motion release');
   const actual = createManifest(stage, manifest.nativeSourceBindings);
   assert.deepStrictEqual(manifest, actual, 'Motion package no longer matches its reviewed manifest');
-  const catalog = read(ordinaryFile(stage, 'dist/exercises.json'));
+  const catalog = animationCatalog(read(ordinaryFile(stage, 'dist/exercises.json'))).motion;
   assert.deepStrictEqual(normalizeBindings(release.nativeSourceBindings, catalog), actual.nativeSourceBindings, 'Release/native approval binding differs from the manifest');
   const variants = catalog.reduce((sum, record) => sum + Object.keys(record.variants).length, 0);
   const keyframes = catalog.reduce((sum, record) => sum + Object.values(record.variants).reduce((count, variant) => count + variant.animation.keyframes, 0), 0);

@@ -47,12 +47,12 @@
     return value;
   }
   function matches(exercise, group) {
-    if (['Pregnancy', 'Warm-up', 'Cooldown'].includes(group)) return true;
+    if (['Pregnancy', 'Postpartum', 'Warm-up', 'Cooldown'].includes(group)) return true;
     return (equipment === 'All equipment' || categoryOf(equipmentOf(exercise)) === equipment) &&
       (level === 'All levels' || exercise.difficulty === level);
   }
   function render(group) {
-    byId('library-tools').hidden = ['Pregnancy', 'Warm-up', 'Cooldown'].includes(group);
+    byId('library-tools').hidden = ['Pregnancy', 'Postpartum', 'Warm-up', 'Cooldown'].includes(group);
     const signature = exercises.length + ':' + exercises.filter(e=>e.equipment).length;
     if (signature === populated) return;
     populated = signature;

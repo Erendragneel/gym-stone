@@ -146,7 +146,7 @@
   window.GymMachinePhoto = {
     matches: exercise => !machine || GymMachineData.matches(exercise, machine),
     render: group => {
-      if (machine && ['Warm-up', 'Cooldown', 'Pregnancy'].includes(group)) {
+      if (machine && ['Warm-up', 'Cooldown', 'Pregnancy', 'Postpartum'].includes(group)) {
         machine = ''; refresh(); status('Machine filter cleared for this exercise section.');
       }
     }

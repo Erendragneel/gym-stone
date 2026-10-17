@@ -25,6 +25,7 @@
     return window.GymTracking.assistance(record,exercise);
   }
   function values(record,exercise={}) {
+    if(exercise.postpartum||record.postpartum)return {};
     const metrics={},load=window.GymTracking.measuredLoad(record,exercise),distance=distanceKm(record.distance);
     if(load)metrics[assistance(record,exercise)?'assistance':'weight']=load.kg;
     if(distance!==null&&distance>0)metrics.distance=distance;

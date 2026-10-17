@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="484" viewBox="0 0 600 484" role="img" aria-labelledby="guide-title guide-description">
+<title id="guide-title">Short Easy Walk: Position guide</title>
+<desc id="guide-description">Static position guide: a walking figure on level ground and a nearby bench. This is a position illustration, not an animation or pace target.</desc>
+<rect width="600" height="484" rx="24" fill="#f7f5ed"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="30" y="33" fill="#398278" font-size="13" font-weight="700" letter-spacing="2">POSTPARTUM</text>
+<text x="570" y="33" fill="#398278" font-size="12" font-weight="700" text-anchor="end" letter-spacing="1">GENTLE STARTS</text>
+<text x="30" y="78" fill="#164b49" font-size="25" font-weight="700" >Short Easy Walk</text>
+<rect x="28" y="122" width="544" height="255" rx="20" fill="#fff"/>
+<text x="47" y="148" fill="#577973" font-size="11" font-weight="700" letter-spacing="1.5">POSITION GUIDE</text>
+<circle cx="163" cy="185" r="24" fill="#f0ceaf" stroke="#164b49" stroke-width="5"/><path d="M165 218 L177 271 L139 309 L119 345 M177 271 L210 304 L226 345" fill="none" stroke="#164b49" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" /><path d="M166 225 L135 252 L110 246 M171 227 L198 247 L222 230" fill="none" stroke="#338c7f" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" /><path d="M96 356 H274" fill="none" stroke="#91b7af" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" /><path d="M378 285 H476 M389 285 V329 M466 285 V329 M387 261 H468" fill="none" stroke="#91b7af" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /><text x="323" y="219" fill="#164b49" font-size="20" font-weight="600" >An easy route.</text><text x="323" y="248" fill="#164b49" font-size="20" font-weight="600" >A place to rest.</text>
+<text x="300" y="414" fill="#164b49" font-size="20" font-weight="600" text-anchor="middle">Choose an easy pace and level ground.</text><text x="300" y="442" fill="#164b49" font-size="20" font-weight="600" text-anchor="middle">Rest whenever you need.</text>
+<text x="300" y="472" fill="#577973" font-size="12" font-weight="500" text-anchor="middle">Static illustration - follow your own recovery advice.</text>
+</g>
+</svg>

@@ -112250,5 +112250,184 @@
         0
       ]
     }
+  },
+  {
+    "id": "postpartum-comfortable-rib-breathing",
+    "name": "Comfortable Rib Breathing",
+    "postpartumCategory": "Gentle starts",
+    "equipment": "Supportive chair or pillows",
+    "guidanceUrl": "https://www.plymouthhospitals.nhs.uk/display-pil/pil-pelvic-floor-relaxation-5338/",
+    "cues": [
+      "Find a supported sitting or lying position.",
+      "Breathe gently, allowing the lower ribs to widen.",
+      "Let the ribs settle naturally as you breathe out.",
+      "Keep shoulders relaxed; do not force or hold the breath."
+    ],
+    "readiness": "Choose a comfortable position within your care team's recovery advice. This is an optional breathing practice.",
+    "adjustment": "Use pillows or sit more upright. Return to normal breathing if uncomfortable or lightheaded.",
+    "group": "Postpartum",
+    "postpartum": true,
+    "difficulty": "Beginner",
+    "tracking": "time",
+    "supportsWeight": false,
+    "supportsDistance": false,
+    "sides": "both",
+    "image": "assets/postpartum/postpartum-comfortable-rib-breathing.svg",
+    "style": "Recovery position guide",
+    "variants": {
+      "female": {
+        "image": "assets/postpartum/postpartum-comfortable-rib-breathing.svg",
+        "style": "Recovery position guide"
+      }
+    }
+  },
+  {
+    "id": "postpartum-pelvic-floor-release",
+    "name": "Pelvic Floor Release",
+    "postpartumCategory": "Gentle starts",
+    "equipment": "Supportive chair or pillows",
+    "guidanceUrl": "https://www.plymouthhospitals.nhs.uk/display-pil/pil-pelvic-floor-relaxation-5338/",
+    "cues": [
+      "Rest in a comfortable supported position.",
+      "Breathe slowly and allow the pelvic floor to soften as you inhale.",
+      "Allow a natural return as you breathe out.",
+      "Do not squeeze, push down or strain."
+    ],
+    "readiness": "Use only while comfortable. Persistent pelvic pain or difficulty relaxing needs individual pelvic health advice.",
+    "adjustment": "Keep the breath easy. If trying to release creates tension or discomfort, stop and ask your clinician.",
+    "group": "Postpartum",
+    "postpartum": true,
+    "difficulty": "Beginner",
+    "tracking": "time",
+    "supportsWeight": false,
+    "supportsDistance": false,
+    "sides": "both",
+    "image": "assets/postpartum/postpartum-pelvic-floor-release.svg",
+    "style": "Recovery position guide",
+    "variants": {
+      "female": {
+        "image": "assets/postpartum/postpartum-pelvic-floor-release.svg",
+        "style": "Recovery position guide"
+      }
+    }
+  },
+  {
+    "id": "postpartum-gentle-ankle-movement",
+    "name": "Gentle Ankle Movement",
+    "postpartumCategory": "Gentle starts",
+    "equipment": "Supportive chair or bed",
+    "guidanceUrl": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/advice-and-exercise-following-childbirth",
+    "cues": [
+      "Sit or recline with your legs comfortably supported.",
+      "Slowly point your toes away, then bring them toward you.",
+      "Add small ankle circles each way if comfortable.",
+      "Move gently without forcing your range."
+    ],
+    "readiness": "Follow your maternity team's movement advice, particularly after surgery or complications.",
+    "adjustment": "Use smaller movements. Stop if uncomfortable, and ask your maternity team about any movement restrictions.",
+    "group": "Postpartum",
+    "postpartum": true,
+    "difficulty": "Beginner",
+    "tracking": "time",
+    "supportsWeight": false,
+    "supportsDistance": false,
+    "sides": "both",
+    "image": "assets/postpartum/postpartum-gentle-ankle-movement.svg",
+    "style": "Recovery position guide",
+    "variants": {
+      "female": {
+        "image": "assets/postpartum/postpartum-gentle-ankle-movement.svg",
+        "style": "Recovery position guide"
+      }
+    }
+  },
+  {
+    "id": "postpartum-short-easy-walk",
+    "name": "Short Easy Walk",
+    "postpartumCategory": "Gentle starts",
+    "equipment": "Comfortable shoes",
+    "guidanceUrl": "https://www.acog.org/womens-health/faqs/exercise-after-pregnancy",
+    "cues": [
+      "Choose a level route with a nearby place to rest.",
+      "Walk at an easy, comfortable pace.",
+      "Finish before pain or fatigue builds; a short outing is enough."
+    ],
+    "readiness": "Begin when ready and within your maternity team's advice. Ask about readiness after caesarean birth or complications.",
+    "adjustment": "Shorten the route or rest. Add activity gradually only as recovery allows; stop if painful.",
+    "group": "Postpartum",
+    "postpartum": true,
+    "difficulty": "Beginner",
+    "tracking": "time",
+    "supportsWeight": false,
+    "supportsDistance": false,
+    "sides": "both",
+    "image": "assets/postpartum/postpartum-short-easy-walk.svg",
+    "style": "Recovery position guide",
+    "variants": {
+      "female": {
+        "image": "assets/postpartum/postpartum-short-easy-walk.svg",
+        "style": "Recovery position guide"
+      }
+    }
+  },
+  {
+    "id": "postpartum-gentle-pelvic-floor-lift-release",
+    "name": "Gentle Pelvic Floor Lift and Release",
+    "postpartumCategory": "Clinician guided",
+    "equipment": "Supportive chair or pillows",
+    "guidanceUrl": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/advice-and-exercise-following-childbirth",
+    "cues": [
+      "Only practise if this exercise is appropriate in your individual care plan.",
+      "Gently close and lift around the back and front passages, breathing normally.",
+      "Fully relax before repeating; never bear down.",
+      "Do not practise by interrupting urine flow."
+    ],
+    "readiness": "Wait until any urinary catheter is removed. Ask for individual advice if painful or hard to release.",
+    "adjustment": "Follow your clinician's own hold and repetition advice. Stop if symptoms increase or full relaxation is difficult.",
+    "group": "Postpartum",
+    "postpartum": true,
+    "difficulty": "Beginner",
+    "tracking": "time",
+    "supportsWeight": false,
+    "supportsDistance": false,
+    "sides": "both",
+    "image": "assets/postpartum/postpartum-gentle-pelvic-floor-lift-release.svg",
+    "style": "Recovery position guide",
+    "variants": {
+      "female": {
+        "image": "assets/postpartum/postpartum-gentle-pelvic-floor-lift-release.svg",
+        "style": "Recovery position guide"
+      }
+    }
+  },
+  {
+    "id": "postpartum-side-lying-core-connection",
+    "name": "Side-Lying Core Connection",
+    "postpartumCategory": "Clinician guided",
+    "equipment": "Comfortable surface and pillows",
+    "guidanceUrl": "https://www.nhs.uk/baby/support-and-services/your-post-pregnancy-body/",
+    "cues": [
+      "Only try this if recommended for your recovery.",
+      "Lie comfortably on your side with knees slightly bent.",
+      "Inhale gently; as you exhale, softly draw in the lower tummy, then release.",
+      "Keep breathing. Stop for pain, pressure, leakage or tummy doming."
+    ],
+    "readiness": "Ask your clinician or pelvic health physiotherapist about technique and suitability, especially with symptoms or an abdominal separation.",
+    "adjustment": "Use a smaller effort and pillows for comfort. Do not strain or push through symptoms; seek individual advice.",
+    "group": "Postpartum",
+    "postpartum": true,
+    "difficulty": "Beginner",
+    "tracking": "time",
+    "supportsWeight": false,
+    "supportsDistance": false,
+    "sides": "both",
+    "image": "assets/postpartum/postpartum-side-lying-core-connection.svg",
+    "style": "Recovery position guide",
+    "variants": {
+      "female": {
+        "image": "assets/postpartum/postpartum-side-lying-core-connection.svg",
+        "style": "Recovery position guide"
+      }
+    }
   }
 ]

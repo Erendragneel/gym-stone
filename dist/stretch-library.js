@@ -21,7 +21,7 @@
     const pregnancyAllowed = GymProfile.gender === 'female';
     for (const button of byId('stretch-tabs').querySelectorAll('button')) {
       button.hidden = button.dataset.group === 'Pregnancy' && !pregnancyAllowed;
-      const active = button.dataset.group === group || (button.dataset.group === 'All moves' && !guidance[group] && group !== 'Pregnancy');
+      const active = button.dataset.group === group || (button.dataset.group === 'All moves' && !guidance[group] && group !== 'Pregnancy' && group !== 'Postpartum');
       button.classList.toggle('active', active);
       button.setAttribute('aria-pressed', String(active));
     }
