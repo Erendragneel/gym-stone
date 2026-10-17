@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1423">
+  <title>Gym Stone · Navigation options</title>
+  <meta name="description" content="Try three interactive Gym Stone navigation examples with sample workouts and nutrition data.">
+  <link rel="stylesheet" href="navigation-options.css">
+  <script src="navigation-options.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <a class="wordmark" href="./index.html#today" aria-label="Return to Gym Stone"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m16 2 12 7v14l-12 7L4 23V9Z"/><path d="m10 12 6-4 6 4v8l-6 4-6-4Z"/></svg>GYM STONE</a>
+    <a class="return-link" href="./index.html#today">Return to the app <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+  </header>
+  <main>
+    <section class="page-intro" aria-labelledby="page-title">
+      <p class="eyebrow">LESS SEARCHING. MORE TRAINING.</p>
+      <h1>Three ways to find your flow.</h1>
+      <p class="intro-copy">Try the tabs, add a sample exercise, or open the tools. Each example shows a different way to organize the same Gym Stone features.</p>
+      <div class="recommendation"><span class="recommendation-mark" aria-hidden="true">A</span><p><strong>My pick: five clear destinations.</strong> Option A keeps every main screen one tap away and gives occasional tools a home in the header. It is the layout used in the updated app.</p></div>
+    </section>
+    <div class="comparison-toolbar">
+      <div class="option-picker" role="group" aria-label="Choose a navigation example">
+        <button type="button" data-option="a" aria-pressed="true" aria-controls="option-a"><span>A</span><span>Five tabs</span></button>
+        <button type="button" data-option="b" aria-pressed="false" aria-controls="option-b"><span>B</span><span>Training hub</span></button>
+        <button type="button" data-option="c" aria-pressed="false" aria-controls="option-c"><span>C</span><span>Quick add</span></button>
+      </div>
+      <p class="sample-label"><span aria-hidden="true"></span>Interactive examples · sample data</p>
+    </div>
+    <div class="comparison-grid">
+      <section class="option-card is-selected" id="option-a" aria-labelledby="title-a">
+        <div class="option-heading"><div class="option-title"><span class="option-letter">A</span><h2 id="title-a">Five clear destinations</h2></div><span class="recommended-badge">Recommended</span><p>All five screens stay visible. Import, saved screenshots, sharing, and installation sit in Tools.</p></div>
+        <div class="demo-app" id="demo-a" data-variant="a" aria-label="Option A interactive example"></div>
+        <div class="option-note"><strong>Best for everyday clarity</strong><p>Familiar tabs, direct access, and room to grow. The smallest change from your current workflow.</p></div>
+      </section>
+      <section class="option-card" id="option-b" aria-labelledby="title-b">
+        <div class="option-heading"><div class="option-title"><span class="option-letter">B</span><h2 id="title-b">A focused training hub</h2></div><span class="concept-badge">Alternative example</span><p>Four main tabs. Workout, Exercises, and Calendar live together inside the Train screen.</p></div>
+        <div class="demo-app" id="demo-b" data-variant="b" aria-label="Option B interactive example"></div>
+        <div class="option-note"><strong>Best for a calmer main menu</strong><p>Training tasks stay together. Opening the library or calendar takes an extra tap from Home.</p></div>
+      </section>
+      <section class="option-card" id="option-c" aria-labelledby="title-c">
+        <div class="option-heading"><div class="option-title"><span class="option-letter">C</span><h2 id="title-c">Put adding front and center</h2></div><span class="concept-badge">Alternative example</span><p>A central Add button opens Exercise, Other activity, and Import screenshot in one place.</p></div>
+        <div class="demo-app" id="demo-c" data-variant="c" aria-label="Option C interactive example"></div>
+        <div class="option-note"><strong>Best for frequent logging</strong><p>The next action is easy to reach. The full exercise library is tucked into the Add menu.</p></div>
+      </section>
+    </div>
+    <footer class="page-footer"><p>These previews use temporary sample data. Changes here reset when you reload.</p><a href="./index.html#today">Open Gym Stone</a></footer>
+  </main>
+</body>
+</html>
