@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "sequence": [
+    0,
+    1,
+    2,
+    3,
+    2,
+    1
+  ],
+  "delayMs": [
+    440,
+    260,
+    260,
+    440,
+    260,
+    260
+  ],
+  "sourceLayoutSha256": "cdf6ee862fda3c274253a62d8265a1129a572e2756a88fcda489f92eb7b85f2a",
+  "uniformCameraScale": 0.9,
+  "records": [
+    {
+      "id": "guide-standing-calf-raise",
+      "source": "animation-source/calf-repair/sheets/standing-calf-raise-v2.png",
+      "sourceSha256": "726442ec2d58e1c93ba67c35626db88f92eaef89df1f9b65913708edee9b3204",
+      "variants": {
+        "male": {
+          "image": "assets/motion-v18/male-guide-standing-calf-raise-poster.webp",
+          "poster": "assets/motion-v18/male-guide-standing-calf-raise-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "keyframes": 6,
+            "uniquePoses": 4,
+            "duration_ms": 1920,
+            "framing": "Fixed camera; complete ImageGen character poses with whole-frame translation only",
+            "nativeTransformVersion": 2,
+            "background": "#ffffff",
+            "crossfade": false,
+            "atlas": "assets/motion-v18/male-guide-standing-calf-raise-atlas.webp",
+            "columns": 4,
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "delayMs": [
+              440,
+              260,
+              260,
+              440,
+              260,
+              260
+            ],
+            "isometricHold": false,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "storedPoses": 4,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              2,
+              1
+            ]
+          }
+        },
+        "female": {
+          "image": "assets/motion-v18/female-guide-standing-calf-raise-poster.webp",
+          "poster": "assets/motion-v18/female-guide-standing-calf-raise-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "keyframes": 6,
+            "uniquePoses": 4,
+            "duration_ms": 1920,
+            "framing": "Fixed camera; complete ImageGen character poses with whole-frame translation only",
+            "nativeTransformVersion": 2,
+            "background": "#ffffff",
+            "crossfade": false,
+            "atlas": "assets/motion-v18/female-guide-standing-calf-raise-atlas.webp",
+            "columns": 4,
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "delayMs": [
+              440,
+              260,
+              260,
+              440,
+              260,
+              260
+            ],
+            "isometricHold": false,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "storedPoses": 4,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              2,
+              1
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "guide-standing-dumbbell-calf-raise",
+      "source": "animation-source/calf-repair/sheets/standing-dumbbell-calf-raise.png",
+      "sourceSha256": "3dc1e5a46e7d1889fcf87d8e8707a0707da7bec3c9c3c419b3eb85bb669bc75b",
+      "variants": {
+        "male": {
+          "image": "assets/motion-v18/male-guide-standing-dumbbell-calf-raise-poster.webp",
+          "poster": "assets/motion-v18/male-guide-standing-dumbbell-calf-raise-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "keyframes": 6,
+            "uniquePoses": 4,
+            "duration_ms": 1920,
+            "framing": "Fixed camera; complete ImageGen character poses with whole-frame translation only",
+            "nativeTransformVersion": 2,
+            "background": "#ffffff",
+            "crossfade": false,
+            "atlas": "assets/motion-v18/male-guide-standing-dumbbell-calf-raise-atlas.webp",
+            "columns": 4,
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "delayMs": [
+              440,
+              260,
+              260,
+              440,
+              260,
+              260
+            ],
+            "isometricHold": false,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "storedPoses": 4,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              2,
+              1
+            ]
+          }
+        },
+        "female": {
+          "image": "assets/motion-v18/female-guide-standing-dumbbell-calf-raise-poster.webp",
+          "poster": "assets/motion-v18/female-guide-standing-dumbbell-calf-raise-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "keyframes": 6,
+            "uniquePoses": 4,
+            "duration_ms": 1920,
+            "framing": "Fixed camera; complete ImageGen character poses with whole-frame translation only",
+            "nativeTransformVersion": 2,
+            "background": "#ffffff",
+            "crossfade": false,
+            "atlas": "assets/motion-v18/female-guide-standing-dumbbell-calf-raise-atlas.webp",
+            "columns": 4,
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "delayMs": [
+              440,
+              260,
+              260,
+              440,
+              260,
+              260
+            ],
+            "isometricHold": false,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "storedPoses": 4,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              2,
+              1
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "exp-single-leg-standing-calf-raise",
+      "source": "animation-source/calf-repair/sheets/single-leg-standing-calf-raise.png",
+      "sourceSha256": "fc0a2c64cf23f5a1e49a27b33040db5d45f6d905445676605cfe0a08fb61a3f7",
+      "variants": {
+        "male": {
+          "image": "assets/motion-v18/male-exp-single-leg-standing-calf-raise-poster.webp",
+          "poster": "assets/motion-v18/male-exp-single-leg-standing-calf-raise-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "keyframes": 6,
+            "uniquePoses": 4,
+            "duration_ms": 1920,
+            "framing": "Fixed camera; complete ImageGen character poses with whole-frame translation only",
+            "nativeTransformVersion": 2,
+            "background": "#ffffff",
+            "crossfade": false,
+            "atlas": "assets/motion-v18/male-exp-single-leg-standing-calf-raise-atlas.webp",
+            "columns": 4,
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "delayMs": [
+              440,
+              260,
+              260,
+              440,
+              260,
+              260
+            ],
+            "isometricHold": false,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "storedPoses": 4,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              2,
+              1
+            ]
+          }
+        },
+        "female": {
+          "image": "assets/motion-v18/female-exp-single-leg-standing-calf-raise-poster.webp",
+          "poster": "assets/motion-v18/female-exp-single-leg-standing-calf-raise-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "keyframes": 6,
+            "uniquePoses": 4,
+            "duration_ms": 1920,
+            "framing": "Fixed camera; complete ImageGen character poses with whole-frame translation only",
+            "nativeTransformVersion": 2,
+            "background": "#ffffff",
+            "crossfade": false,
+            "atlas": "assets/motion-v18/female-exp-single-leg-standing-calf-raise-atlas.webp",
+            "columns": 4,
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "delayMs": [
+              440,
+              260,
+              260,
+              440,
+              260,
+              260
+            ],
+            "isometricHold": false,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "storedPoses": 4,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              2,
+              1
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "exp-single-leg-dumbbell-calf-raise",
+      "source": "animation-source/calf-repair/sheets/single-leg-dumbbell-calf-raise.png",
+      "sourceSha256": "e335a028959daafe03abd41d84de166434591dc141e0ece815a97ad7493f332f",
+      "variants": {
+        "male": {
+          "image": "assets/motion-v18/male-exp-single-leg-dumbbell-calf-raise-poster.webp",
+          "poster": "assets/motion-v18/male-exp-single-leg-dumbbell-calf-raise-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "keyframes": 6,
+            "uniquePoses": 4,
+            "duration_ms": 1920,
+            "framing": "Fixed camera; complete ImageGen character poses with whole-frame translation only",
+            "nativeTransformVersion": 2,
+            "background": "#ffffff",
+            "crossfade": false,
+            "atlas": "assets/motion-v18/male-exp-single-leg-dumbbell-calf-raise-atlas.webp",
+            "columns": 4,
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "delayMs": [
+              440,
+              260,
+              260,
+              440,
+              260,
+              260
+            ],
+            "isometricHold": false,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "storedPoses": 4,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              2,
+              1
+            ]
+          }
+        },
+        "female": {
+          "image": "assets/motion-v18/female-exp-single-leg-dumbbell-calf-raise-poster.webp",
+          "poster": "assets/motion-v18/female-exp-single-leg-dumbbell-calf-raise-poster.webp",
+          "style": "Controlled anime exercise loop",
+          "animation": {
+            "keyframes": 6,
+            "uniquePoses": 4,
+            "duration_ms": 1920,
+            "framing": "Fixed camera; complete ImageGen character poses with whole-frame translation only",
+            "nativeTransformVersion": 2,
+            "background": "#ffffff",
+            "crossfade": false,
+            "atlas": "assets/motion-v18/female-exp-single-leg-dumbbell-calf-raise-atlas.webp",
+            "columns": 4,
+            "frameWidth": 600,
+            "frameHeight": 484,
+            "delayMs": [
+              440,
+              260,
+              260,
+              440,
+              260,
+              260
+            ],
+            "isometricHold": false,
+            "atlasFrameWidth": 420,
+            "atlasFrameHeight": 420,
+            "atlasOffsetX": 90,
+            "atlasOffsetY": 32,
+            "storedPoses": 4,
+            "poseSequence": [
+              0,
+              1,
+              2,
+              3,
+              2,
+              1
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

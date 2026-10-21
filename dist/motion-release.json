@@ -4,7 +4,7 @@
   "reviewedExercises": 425,
   "pendingExercises": 0,
   "variants": 864,
-  "keyframes": 24056,
+  "keyframes": 23096,
   "siteBytes": 866236586,
   "pixelIdentityVerifiedForEveryPackedKeyframe": true,
   "lossless": true,
@@ -1520,12 +1520,12 @@
     {
       "exercise": "exp-single-leg-dumbbell-calf-raise",
       "variant": "female",
-      "sourceHash": "7327a594d8992e8fecf1a7b65d59a06e22dc8c111861c2274c3d06fb334b9a6b"
+      "sourceHash": "e335a028959daafe03abd41d84de166434591dc141e0ece815a97ad7493f332f"
     },
     {
       "exercise": "exp-single-leg-dumbbell-calf-raise",
       "variant": "male",
-      "sourceHash": "2236e2cf5cf03b1c9559ccbfdbe531cca4712d5dd4fe84aa9b090d91f9bd6311"
+      "sourceHash": "e335a028959daafe03abd41d84de166434591dc141e0ece815a97ad7493f332f"
     },
     {
       "exercise": "exp-single-leg-feet-elevated-glute-bridge",
@@ -1585,12 +1585,12 @@
     {
       "exercise": "exp-single-leg-standing-calf-raise",
       "variant": "female",
-      "sourceHash": "ff42f62c32fcc7eec998ab4662da7fec73a28bb9d2f4352268db62f7e2158e94"
+      "sourceHash": "fc0a2c64cf23f5a1e49a27b33040db5d45f6d905445676605cfe0a08fb61a3f7"
     },
     {
       "exercise": "exp-single-leg-standing-calf-raise",
       "variant": "male",
-      "sourceHash": "9aec81afadfeefb76cf369c9884d8ccf0d5d9848cb131f0f5e5199b69e7e52f9"
+      "sourceHash": "fc0a2c64cf23f5a1e49a27b33040db5d45f6d905445676605cfe0a08fb61a3f7"
     },
     {
       "exercise": "exp-sit-up",
@@ -3020,22 +3020,22 @@
     {
       "exercise": "guide-standing-calf-raise",
       "variant": "female",
-      "sourceHash": "ace9182916fb0bf3b222a95d37b36c64ba4ef07c4232d5afa61f2e1282780209"
+      "sourceHash": "726442ec2d58e1c93ba67c35626db88f92eaef89df1f9b65913708edee9b3204"
     },
     {
       "exercise": "guide-standing-calf-raise",
       "variant": "male",
-      "sourceHash": "200107be95b6b0aa96789917aa691f8ef6618a14d3be1c35d0a91e5febd1329b"
+      "sourceHash": "726442ec2d58e1c93ba67c35626db88f92eaef89df1f9b65913708edee9b3204"
     },
     {
       "exercise": "guide-standing-dumbbell-calf-raise",
       "variant": "female",
-      "sourceHash": "7811f84590332adfdc067f3cd72ec08e14facce24ec8cf77f00a608ecfe436a0"
+      "sourceHash": "3dc1e5a46e7d1889fcf87d8e8707a0707da7bec3c9c3c419b3eb85bb669bc75b"
     },
     {
       "exercise": "guide-standing-dumbbell-calf-raise",
       "variant": "male",
-      "sourceHash": "a623f9201bf760458fd81f5de8e7222e5041b2fcdb87ab5d6448e6927a1ca2cc"
+      "sourceHash": "3dc1e5a46e7d1889fcf87d8e8707a0707da7bec3c9c3c419b3eb85bb669bc75b"
     },
     {
       "exercise": "prenatal-band-curl",
@@ -3197,5 +3197,12 @@
       "variant": "retained",
       "sourceHash": "4dc81547d60b73648294b8d9982eb25ddff3ebb0e80279ff1c27b74df7dd7d4d"
     }
-  ]
+  ],
+  "calfRepair": {
+    "date": "2026-10-21",
+    "exercises": 4,
+    "variants": 8,
+    "sourceMethod": "Built-in ImageGen whole-character redraw; no segmented anatomy",
+    "pixelsVerified": true
+  }
 }

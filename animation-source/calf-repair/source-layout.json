@@ -1,0 +1,357 @@
+{
+  "_review": {
+    "schemaVersion": 1,
+    "coordinateSpace": "Offsets are integer pixels applied to a 420x420 cell after uniform full-sheet normalization to 1696x1696 and the standard two-pixel inset.",
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "normalizedSize": [
+      1696,
+      1696
+    ],
+    "cellSize": 420,
+    "poseOrderScope": "Local to each gender: male source cells 0..3 and female source cells 8..11.",
+    "isolationRectPolicy": "Where sourceRects is provided, extract the normalized sheet rectangle, place it at [0,0] in an otherwise white 420x420 cell, then apply offsets. These rectangles isolate a complete own subject and omit neighboring-row hair; they do not cut or warp anatomy.",
+    "warnings": [
+      "The second row of each gender resets heel elevation; only poses 0,1,2,3 are approved.",
+      "Bilateral source head height rises only 1-3 native pixels while the heel rotates 12-13 pixels. Whole-frame floor alignment cannot add the missing body rise without moving the forefoot off the floor.",
+      "Female standing-dumbbell pose 0 begins with a small heel elevation.",
+      "Single-leg-standing female source hair touches the nominal top cell border; sourceRects removes the top inset before offsets add a safe top margin."
+    ]
+  },
+  "guide-standing-calf-raise": {
+    "male": {
+      "poseOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          -8,
+          2
+        ],
+        [
+          -14,
+          4
+        ]
+      ],
+      "anchor": {
+        "kind": "far-forefoot",
+        "target": [
+          135,
+          414
+        ],
+        "method": "Align leading forefoot X and lowest shoe sole Y across native poses."
+      }
+    },
+    "female": {
+      "poseOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          -7,
+          3
+        ],
+        [
+          -10,
+          3
+        ],
+        [
+          -15,
+          3
+        ]
+      ],
+      "anchor": {
+        "kind": "far-forefoot",
+        "target": [
+          130,
+          414
+        ],
+        "method": "Align leading forefoot X and lowest shoe sole Y across native poses."
+      }
+    }
+  },
+  "guide-standing-dumbbell-calf-raise": {
+    "male": {
+      "poseOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          11,
+          0
+        ],
+        [
+          15,
+          1
+        ]
+      ],
+      "anchor": {
+        "kind": "far-forefoot",
+        "target": [
+          144,
+          406
+        ],
+        "method": "Align leading forefoot X and lowest shoe sole Y across native poses."
+      }
+    },
+    "female": {
+      "poseOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          12,
+          0
+        ],
+        [
+          16,
+          0
+        ]
+      ],
+      "anchor": {
+        "kind": "far-forefoot",
+        "target": [
+          145,
+          405
+        ],
+        "method": "Align leading forefoot X and lowest shoe sole Y across native poses."
+      }
+    }
+  },
+  "exp-single-leg-standing-calf-raise": {
+    "male": {
+      "poseOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          19,
+          0
+        ]
+      ],
+      "anchor": {
+        "kind": "support-base",
+        "target": [
+          30,
+          393
+        ],
+        "method": "Align leftmost support base X; its floor remains stationary. Own complete subject ends at Y393."
+      },
+      "sourceRects": [
+        {
+          "left": 2,
+          "top": 2,
+          "width": 420,
+          "height": 404
+        },
+        {
+          "left": 426,
+          "top": 2,
+          "width": 420,
+          "height": 404
+        },
+        {
+          "left": 850,
+          "top": 2,
+          "width": 420,
+          "height": 404
+        },
+        {
+          "left": 1274,
+          "top": 2,
+          "width": 420,
+          "height": 404
+        }
+      ],
+      "sourceRectNotes": "The subject ends at Y393 inside each standard cell. Discarding rows404..419 removes stray next-row hair with at least ten white pixels below the complete subject."
+    },
+    "female": {
+      "poseOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "offsets": [
+        [
+          0,
+          8
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          19,
+          8
+        ]
+      ],
+      "anchor": {
+        "kind": "support-base",
+        "target": [
+          28,
+          403
+        ],
+        "method": "Align leftmost support base X; use sourceRects without the top inset and translate down eight pixels for clear hair margins."
+      },
+      "sourceRects": [
+        {
+          "left": 2,
+          "top": 848,
+          "width": 420,
+          "height": 404
+        },
+        {
+          "left": 426,
+          "top": 848,
+          "width": 420,
+          "height": 404
+        },
+        {
+          "left": 850,
+          "top": 848,
+          "width": 420,
+          "height": 404
+        },
+        {
+          "left": 1274,
+          "top": 848,
+          "width": 420,
+          "height": 404
+        }
+      ],
+      "sourceRectNotes": "Top848 is the exact normalized female row boundary, preserving the ponytail otherwise lost to the standard +2 inset. Pad the extracted404px height to420 with white before translation. Own floor is Y395 before offsets; final floor is Y403."
+    }
+  },
+  "exp-single-leg-dumbbell-calf-raise": {
+    "male": {
+      "poseOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "anchor": {
+        "kind": "support-base",
+        "target": [
+          31,
+          413
+        ],
+        "method": "Support and step remain stationary within one pixel; preserve native framing."
+      }
+    },
+    "female": {
+      "poseOrder": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "anchor": {
+        "kind": "support-base",
+        "target": [
+          31,
+          413
+        ],
+        "method": "Support and step remain stationary within one pixel; preserve native framing."
+      }
+    }
+  }
+}

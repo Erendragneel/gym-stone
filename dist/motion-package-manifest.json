@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedExercises": 425,
   "pendingExercises": 0,
-  "animationCatalogSha256": "a1c6db8544b8ad7af01c39e4b355e989fe77420aaa97ddece09b3d73455108e2",
+  "animationCatalogSha256": "7cf6bba52f9c6945636cdf8ac2c42ae8b3025ffee4d1971cc0f492e1485134c4",
   "nativeSourceBindings": [
     {
       "exercise": "exp-45-degree-leg-press",
@@ -1512,12 +1512,12 @@
     {
       "exercise": "exp-single-leg-dumbbell-calf-raise",
       "variant": "female",
-      "sourceHash": "7327a594d8992e8fecf1a7b65d59a06e22dc8c111861c2274c3d06fb334b9a6b"
+      "sourceHash": "e335a028959daafe03abd41d84de166434591dc141e0ece815a97ad7493f332f"
     },
     {
       "exercise": "exp-single-leg-dumbbell-calf-raise",
       "variant": "male",
-      "sourceHash": "2236e2cf5cf03b1c9559ccbfdbe531cca4712d5dd4fe84aa9b090d91f9bd6311"
+      "sourceHash": "e335a028959daafe03abd41d84de166434591dc141e0ece815a97ad7493f332f"
     },
     {
       "exercise": "exp-single-leg-feet-elevated-glute-bridge",
@@ -1577,12 +1577,12 @@
     {
       "exercise": "exp-single-leg-standing-calf-raise",
       "variant": "female",
-      "sourceHash": "ff42f62c32fcc7eec998ab4662da7fec73a28bb9d2f4352268db62f7e2158e94"
+      "sourceHash": "fc0a2c64cf23f5a1e49a27b33040db5d45f6d905445676605cfe0a08fb61a3f7"
     },
     {
       "exercise": "exp-single-leg-standing-calf-raise",
       "variant": "male",
-      "sourceHash": "9aec81afadfeefb76cf369c9884d8ccf0d5d9848cb131f0f5e5199b69e7e52f9"
+      "sourceHash": "fc0a2c64cf23f5a1e49a27b33040db5d45f6d905445676605cfe0a08fb61a3f7"
     },
     {
       "exercise": "exp-sit-up",
@@ -3012,22 +3012,22 @@
     {
       "exercise": "guide-standing-calf-raise",
       "variant": "female",
-      "sourceHash": "ace9182916fb0bf3b222a95d37b36c64ba4ef07c4232d5afa61f2e1282780209"
+      "sourceHash": "726442ec2d58e1c93ba67c35626db88f92eaef89df1f9b65913708edee9b3204"
     },
     {
       "exercise": "guide-standing-calf-raise",
       "variant": "male",
-      "sourceHash": "200107be95b6b0aa96789917aa691f8ef6618a14d3be1c35d0a91e5febd1329b"
+      "sourceHash": "726442ec2d58e1c93ba67c35626db88f92eaef89df1f9b65913708edee9b3204"
     },
     {
       "exercise": "guide-standing-dumbbell-calf-raise",
       "variant": "female",
-      "sourceHash": "7811f84590332adfdc067f3cd72ec08e14facce24ec8cf77f00a608ecfe436a0"
+      "sourceHash": "3dc1e5a46e7d1889fcf87d8e8707a0707da7bec3c9c3c419b3eb85bb669bc75b"
     },
     {
       "exercise": "guide-standing-dumbbell-calf-raise",
       "variant": "male",
-      "sourceHash": "a623f9201bf760458fd81f5de8e7222e5041b2fcdb87ab5d6448e6927a1ca2cc"
+      "sourceHash": "3dc1e5a46e7d1889fcf87d8e8707a0707da7bec3c9c3c419b3eb85bb669bc75b"
     },
     {
       "exercise": "prenatal-band-curl",
@@ -5153,13 +5153,13 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-leg-dumbbell-calf-raise-atlas.webp",
-      "sha256": "010e9d154187c7919b130c509c2bb160eb6e51ae1b8e8d2d960924feec2ce6b1",
-      "bytes": 2126588
+      "sha256": "ee377a3995cee82794241939d2191552b950c201e8a689dc8622aa7127857b4f",
+      "bytes": 319048
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-leg-dumbbell-calf-raise-poster.webp",
-      "sha256": "04ff121046f985ae9c410fd891bcfa37a66f11725359617d2437a919f31024d0",
-      "bytes": 40848
+      "sha256": "3c38f09e3faa1fe01a25a9aa2bcf997a9ef0dbff110a1681e422abdef5afb294",
+      "bytes": 78608
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-leg-feet-elevated-glute-bridge-atlas.webp",
@@ -5243,13 +5243,13 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-leg-standing-calf-raise-atlas.webp",
-      "sha256": "fe3e945c40fc71396e00f3deb070f0081b03bf5377528110c77694eab5c02814",
-      "bytes": 2117456
+      "sha256": "de641d696956e8b9a200bb2c0fb7d0621e48736bf7f5c13eec42097337a3b0f7",
+      "bytes": 319922
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-leg-standing-calf-raise-poster.webp",
-      "sha256": "a4685383908768c3799e4f6cd9999ee79475f9ec483e58afc86ec06022359204",
-      "bytes": 40506
+      "sha256": "5e3a554bd5537f729967135fcb76971f9b13126b8c47829761554151ee8b1b68",
+      "bytes": 80956
     },
     {
       "path": "dist/assets/motion-v18/female-exp-sit-up-atlas.webp",
@@ -7163,23 +7163,23 @@
     },
     {
       "path": "dist/assets/motion-v18/female-guide-standing-calf-raise-atlas.webp",
-      "sha256": "ec7bd09314b1d244b4f9420b9b0949142880d5ccb98a95bf5564cf525480218b",
-      "bytes": 1422204
+      "sha256": "f162abd064c06a449818103fef97e365b3cf8f373871556821158a9205c8df6d",
+      "bytes": 287182
     },
     {
       "path": "dist/assets/motion-v18/female-guide-standing-calf-raise-poster.webp",
-      "sha256": "4c219f3ef8cbb88bed3053364c33cf97341c55a176f1954066b92d39292ab369",
-      "bytes": 22142
+      "sha256": "341bf243408c4d7364bc10aecd084200738e02745c235204efea4262dac60942",
+      "bytes": 73452
     },
     {
       "path": "dist/assets/motion-v18/female-guide-standing-dumbbell-calf-raise-atlas.webp",
-      "sha256": "6b33ad7cf6493f96e5c2175440b2c8296836b3c2b4869d8a193c9dba69d57cba",
-      "bytes": 1447352
+      "sha256": "e347287f7a889ceaca5dc5d7d6945373e0c575b9c564d65bf3bdfe6eab18b97e",
+      "bytes": 286738
     },
     {
       "path": "dist/assets/motion-v18/female-guide-standing-dumbbell-calf-raise-poster.webp",
-      "sha256": "3fe35040c0b839f7fe91e475bfe5dc3ac86992aa763eee77c86942b995a2b7ee",
-      "bytes": 22618
+      "sha256": "8b8357384097a72a59e263b8c3457247a31a125cb55327a166d2a067a3edb5d4",
+      "bytes": 72162
     },
     {
       "path": "dist/assets/motion-v18/female-stretch-arm-circles-atlas.webp",
@@ -9263,13 +9263,13 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-leg-dumbbell-calf-raise-atlas.webp",
-      "sha256": "2ed4335a77797882a7d6938d3b9920beea5ae4a802b4e4751a481b984f7efd02",
-      "bytes": 2355566
+      "sha256": "e6357526e9231c01cdd20f181a75254dfdfb2fb44d308ef71464b91d5e18d921",
+      "bytes": 332146
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-leg-dumbbell-calf-raise-poster.webp",
-      "sha256": "1b590a7f05e93fd6000df0ed6e8fcf4a0f54cc33491b12c641c024e91339c082",
-      "bytes": 44142
+      "sha256": "e07789eaa4fbc8f0465ae8b2f029340cd8a82b12b9e822c9410dcb28b9839726",
+      "bytes": 82660
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-leg-feet-elevated-glute-bridge-atlas.webp",
@@ -9353,13 +9353,13 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-leg-standing-calf-raise-atlas.webp",
-      "sha256": "4b580c3e61e1e66c7db76108f4cf3570f7d223a089f674f573441954e19c929e",
-      "bytes": 2348712
+      "sha256": "8131f4389e6bcd7b9af71a2b37c7a72a6be3186bcf9762003814d3187dfd63bd",
+      "bytes": 327852
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-leg-standing-calf-raise-poster.webp",
-      "sha256": "2c155c5b91b17589b967d45ecf4936dcc8d623cbf8c887c275a2bc7d9fc94a1c",
-      "bytes": 44146
+      "sha256": "e0f2a0b375843cbed0d83dbe7387aeca8a15966bf298311135d46448b0004013",
+      "bytes": 81914
     },
     {
       "path": "dist/assets/motion-v18/male-exp-sit-up-atlas.webp",
@@ -11273,23 +11273,23 @@
     },
     {
       "path": "dist/assets/motion-v18/male-guide-standing-calf-raise-atlas.webp",
-      "sha256": "00d1c6d85545851d8b1b404995af14fbdd971b68bf4d0e4923f9a9fd4d371c32",
-      "bytes": 1613956
+      "sha256": "e80645e0c41193ef84fe896d818358cac6d2a683ccbb07c3ee5c4d0769370216",
+      "bytes": 292304
     },
     {
       "path": "dist/assets/motion-v18/male-guide-standing-calf-raise-poster.webp",
-      "sha256": "28da2546ba5c886577d6e07095c62f3834eab7173debcfaf7883cfcc6abc1edb",
-      "bytes": 25060
+      "sha256": "0532d585fbe21002820b609130910116606ff844b78c0f2378f0af3c441c1cf2",
+      "bytes": 74726
     },
     {
       "path": "dist/assets/motion-v18/male-guide-standing-dumbbell-calf-raise-atlas.webp",
-      "sha256": "40212d1d80b1a1eef3b90e5ef1efe17368c8845a4eb52425fb2cfdf7e4dd6985",
-      "bytes": 1679978
+      "sha256": "611d5fe003e42157235d4bd3215301a97d4390f75e249d4d98053b91837ef7bd",
+      "bytes": 289508
     },
     {
       "path": "dist/assets/motion-v18/male-guide-standing-dumbbell-calf-raise-poster.webp",
-      "sha256": "ea93ee56d09953f03cb1814a1be50cdc5f087fb755b6aad88766873ec9be0d02",
-      "bytes": 26106
+      "sha256": "5e1d0e4834f823c4a100866ec8b08d7226d6a45156b817182eebb590a3d73971",
+      "bytes": 73358
     },
     {
       "path": "dist/assets/motion-v18/male-stretch-arm-circles-atlas.webp",
