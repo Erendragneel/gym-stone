@@ -13,9 +13,8 @@
   }
   const library = document.querySelector('.library');
   const history = library.querySelector('.exercise-history');
-  const machine = document.getElementById('machine-lookup');
-  const shortcuts = disclosure([history, machine].filter(Boolean), 'Recent exercises & machine search', 'shortcuts-disclosure');
-  if (shortcuts) library.querySelector('.library-heading').after(shortcuts);
+  const shortcuts = disclosure([history].filter(Boolean), 'Recent exercises', 'shortcuts-disclosure');
+  if (shortcuts) (document.getElementById('machine-lookup') || library.querySelector('.library-heading')).after(shortcuts);
   const muscle = library.querySelector('.muscle-select');
   const filters = document.getElementById('library-tools');
   if (muscle && filters) disclosure([muscle, filters], 'Filter exercises', 'filter-disclosure');

@@ -6,7 +6,7 @@
   lookup.id = 'machine-lookup';
   lookup.className = 'machine-lookup';
   lookup.setAttribute('aria-labelledby', 'machine-title');
-  lookup.innerHTML = `<div class="machine-heading"><div><h3 id="machine-title">Find exercises from a machine photo</h3><p>Photograph one machine, with its seat, handles and moving parts in view.</p></div><div class="machine-actions"><button type="button" class="primary" id="machine-take">Take photo</button><button type="button" class="secondary" id="machine-upload">Upload photo</button></div></div>
+  lookup.innerHTML = `<div class="machine-heading"><div><h3 id="machine-title">Find exercises from a machine photo</h3><p>Photograph one machine, with its seat, handles and moving parts in view.</p></div><div class="machine-actions"><button type="button" class="primary" id="machine-take">Take photo</button><button type="button" class="secondary" id="machine-upload">Upload photo</button><button type="button" class="secondary" id="machine-close" aria-label="Close machine search and clear its filter">Close</button></div></div>
     <input id="machine-photo" type="file" accept="image/*" hidden aria-label="Upload machine photo">
     <input id="machine-camera" type="file" accept="image/*" capture="environment" hidden aria-label="Take machine photo">
     <div class="machine-feedback"><img id="machine-photo-preview" alt="Your machine photo" hidden><div class="machine-response"><p id="machine-status" role="status" aria-live="polite"></p><div id="machine-suggestions" role="group" aria-label="Suggested machine matches"></div><button type="button" class="secondary" id="machine-cancel" hidden>Cancel recognition</button></div></div>
@@ -14,6 +14,24 @@
     <div id="machine-filter" hidden><strong id="machine-filter-label"></strong><p id="machine-note"></p><button type="button" class="secondary" id="machine-clear">Show all exercises</button></div>
     <p class="machine-help">Photo matching is experimental and can confuse similar machines. Photos stay on your device. First use downloads about 155 MB plus the runtime. Confirm or correct the machine before choosing exercises.</p>`;
   document.querySelector('.library-heading').after(lookup);
+  lookup.hidden = true;
+  const search = document.querySelector('.library-heading .search');
+  const searchTools = document.createElement('div');
+  searchTools.className = 'library-search-tools';
+  const scan = document.createElement('button');
+  scan.type = 'button'; scan.id = 'machine-scan'; scan.className = 'secondary machine-scan';
+  scan.setAttribute('aria-label', 'Scan a machine');
+  scan.setAttribute('aria-controls', 'machine-lookup');
+  scan.setAttribute('aria-expanded', 'false');
+  scan.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3z"/><circle cx="12" cy="13" r="4"/></svg><span>Scan</span>';
+  search.before(searchTools); searchTools.append(search, scan);
+  function showLookup() {
+    lookup.hidden = false; scan.setAttribute('aria-expanded', 'true');
+    const heading = document.querySelector('.library-heading').getBoundingClientRect();
+    lookup.style.scrollMarginTop = Math.ceil(heading.height + 16) + 'px';
+    const top = lookup.getBoundingClientRect().top;
+    if (top < heading.bottom + 6 || top > window.innerHeight - 160) lookup.scrollIntoView({ block: 'start', behavior: 'auto' });
+  }
   const categories = GymMachineData.categories;
   for (const category of [...categories].sort((a, b) => a.name.localeCompare(b.name))) {
     const option = document.createElement('option');
@@ -84,6 +102,7 @@
   }
   async function recognize(file) {
     if (!file) return;
+    showLookup();
     if (busy) cancel();
     const current = ++generation;
     machine = ''; refresh(); renderExercises();
@@ -129,8 +148,12 @@
       cancel(); status('This photo could not be opened. Try saving it as JPEG or PNG, or choose the machine below.'); $('machine-manual').open = true;
     }
   }
-  $('machine-take').onclick = () => $('machine-camera').click();
-  $('machine-upload').onclick = () => $('machine-photo').click();
+  scan.onclick = () => { showLookup(); $('machine-camera').click(); };
+  $('machine-take').onclick = () => { showLookup(); $('machine-camera').click(); };
+  $('machine-upload').onclick = () => { showLookup(); $('machine-photo').click(); };
+  $('machine-close').onclick = () => {
+    clear(); lookup.hidden = true; scan.setAttribute('aria-expanded', 'false'); scan.focus({ preventScroll: true });
+  };
   for (const id of ['machine-photo', 'machine-camera']) $(id).onchange = event => {
     const file = event.target.files[0]; event.target.value = ''; recognize(file);
   };
@@ -141,7 +164,7 @@
     if (machine) status('Machine filter cleared. Choose a photo match or machine type to narrow the library again.');
     machine = ''; refresh(); renderExercises();
   });
-  window.addEventListener('gym-account-changed', () => clear());
+  window.addEventListener('gym-account-changed', () => { clear(); lookup.hidden = true; scan.setAttribute('aria-expanded', 'false'); });
   window.addEventListener('pagehide', cancel);
   window.GymMachinePhoto = {
     matches: exercise => !machine || GymMachineData.matches(exercise, machine),
