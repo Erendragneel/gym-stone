@@ -4,7 +4,7 @@
   "reviewedExercises": 425,
   "pendingExercises": 0,
   "variants": 864,
-  "keyframes": 23096,
+  "keyframes": 23094,
   "siteBytes": 866236586,
   "pixelIdentityVerifiedForEveryPackedKeyframe": true,
   "lossless": true,
@@ -1094,8 +1094,13 @@
     },
     {
       "exercise": "exp-plate-loaded-lat-pulldown",
-      "variant": "retained",
-      "sourceHash": "11d39632ab62e2054cc15fb80767a357af853ee50f542c4b60bdfa8cd488e7ef"
+      "variant": "female",
+      "sourceHash": "1b9f4d4b83a66e03442128c427f9c57c73ce8d402562d3696286417ddd4ca60e"
+    },
+    {
+      "exercise": "exp-plate-loaded-lat-pulldown",
+      "variant": "male",
+      "sourceHash": "c6afe9ce8b75b5aeb5188e3e308bc5790e6b4f25fc483b0f4bb32c04069bf134"
     },
     {
       "exercise": "exp-plate-pinch-hold",
@@ -3203,6 +3208,17 @@
     "exercises": 4,
     "variants": 8,
     "sourceMethod": "Built-in ImageGen whole-character redraw; no segmented anatomy",
+    "pixelsVerified": true
+  },
+  "pulldownRepair": {
+    "date": "2026-11-04",
+    "exercise": "exp-plate-loaded-lat-pulldown",
+    "variants": 2,
+    "storedPosesPerVariant": {
+      "male": 5,
+      "female": 4
+    },
+    "sourceMethod": "Built-in ImageGen whole-character redraw",
     "pixelsVerified": true
   }
 }

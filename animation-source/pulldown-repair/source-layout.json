@@ -1,0 +1,21 @@
+{
+  "poses": {
+    "male": [
+      {"sheet": "male-pulldown.png", "cell": 0},
+      {"sheet": "male-pulldown.png", "cell": 1},
+      {"sheet": "male-pulldown.png", "cell": 2},
+      {"sheet": "male-pulldown-midpoint.png", "cell": 3},
+      {"sheet": "male-pulldown.png", "cell": 3}
+    ],
+    "female": [
+      {"sheet": "female-pulldown.png", "cell": 0},
+      {"sheet": "female-pulldown.png", "cell": 1},
+      {"sheet": "female-pulldown.png", "cell": 2},
+      {"sheet": "female-pulldown.png", "cell": 3}
+    ]
+  },
+  "delayMs": {
+    "male": [360, 170, 180, 190, 300, 250, 270, 290],
+    "female": [470, 220, 210, 320, 410, 380]
+  }
+}

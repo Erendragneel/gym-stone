@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedExercises": 425,
   "pendingExercises": 0,
-  "animationCatalogSha256": "7cf6bba52f9c6945636cdf8ac2c42ae8b3025ffee4d1971cc0f492e1485134c4",
+  "animationCatalogSha256": "4e8be265d0b84e029b40a6e357976e4a21b81a4b1102b3ddfff2f98496cfdaa5",
   "nativeSourceBindings": [
     {
       "exercise": "exp-45-degree-leg-press",
@@ -1086,8 +1086,13 @@
     },
     {
       "exercise": "exp-plate-loaded-lat-pulldown",
-      "variant": "retained",
-      "sourceHash": "11d39632ab62e2054cc15fb80767a357af853ee50f542c4b60bdfa8cd488e7ef"
+      "variant": "female",
+      "sourceHash": "1b9f4d4b83a66e03442128c427f9c57c73ce8d402562d3696286417ddd4ca60e"
+    },
+    {
+      "exercise": "exp-plate-loaded-lat-pulldown",
+      "variant": "male",
+      "sourceHash": "c6afe9ce8b75b5aeb5188e3e308bc5790e6b4f25fc483b0f4bb32c04069bf134"
     },
     {
       "exercise": "exp-plate-pinch-hold",
@@ -4583,13 +4588,13 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-plate-loaded-lat-pulldown-atlas.webp",
-      "sha256": "c33e8d71699d262c959b2c1c4cc2d9ac3a533a395ae46a5b37137b7d41f41e08",
-      "bytes": 673604
+      "sha256": "4c53379e90f8e1822187888bbe476e24e9a3179bfc86fc6fa875935f2716f98a",
+      "bytes": 404404
     },
     {
       "path": "dist/assets/motion-v18/female-exp-plate-loaded-lat-pulldown-poster.webp",
-      "sha256": "252108e5ed4b68c922edec6b1683bb3ce1096584a5d122031ba5fb383f328d09",
-      "bytes": 83876
+      "sha256": "68a4b1cca3b30a1618a1706224e244ff4d9ca247d54264108ff87beedba3e75e",
+      "bytes": 102022
     },
     {
       "path": "dist/assets/motion-v18/female-exp-plate-pinch-hold-atlas.webp",
@@ -8693,13 +8698,13 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-plate-loaded-lat-pulldown-atlas.webp",
-      "sha256": "4e1797a8f6724cd78145cf36b9e099d61b43a2e6d5451b03b7cb4ca3f476d5bc",
-      "bytes": 671192
+      "sha256": "b64cb2ebfa367f1e19503d7965d83c014ef214e66f2a83d86dfdc2e2ea889574",
+      "bytes": 535824
     },
     {
       "path": "dist/assets/motion-v18/male-exp-plate-loaded-lat-pulldown-poster.webp",
-      "sha256": "eaa7168ea8fc2f396fdd6a25e2289c1dc781c3c8cfccc3cee18776fd05202579",
-      "bytes": 83746
+      "sha256": "626b23693692b293e1d361ea96d262827c3331ce229430a58f4b609fbcd072ee",
+      "bytes": 103174
     },
     {
       "path": "dist/assets/motion-v18/male-exp-plate-pinch-hold-atlas.webp",
