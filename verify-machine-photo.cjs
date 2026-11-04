@@ -14,14 +14,16 @@ const png=Buffer.concat([Buffer.from([137,80,78,71,13,10,26,10]),chunk('IHDR',he
 const expectedIds={
   'leg-press':['exp-45-degree-leg-press','exp-horizontal-leg-press','exp-single-leg-leg-press','exp-leg-press-calf-raise'],
   'leg-extension':['guide-leg-extension','exp-single-leg-leg-extension'],
+  'plate-loaded-lat-pulldown':['exp-plate-loaded-lat-pulldown'],
   'smith-machine':['exp-smith-machine-squat','exp-smith-machine-hip-thrust','exp-smith-machine-seated-calf-raise','exp-smith-machine-standing-calf-raise']
 };
 
 (async()=>{
-  const browser=await chromium.launch({headless:true,channel:'chrome'});
+  const browser=await chromium.launch({headless:true,channel:'chrome',args:['--use-fake-device-for-media-stream']});
   try{
-    const context=await browser.newContext({serviceWorkers:'block',viewport:{width:1440,height:1100},timezoneId:'Asia/Tokyo'});
+    const context=await browser.newContext({permissions:['camera'],serviceWorkers:'block',viewport:{width:1440,height:1100},timezoneId:'Asia/Tokyo'});
     const page=await context.newPage(),errors=[],uploads=[];
+    page.setDefaultTimeout(12000);
     page.on('pageerror',error=>errors.push(error.message));
     page.on('request',request=>{if(request.method()!=='GET')uploads.push(request.url())});
     await context.route('**/cloud-config.js',route=>route.fulfill({contentType:'application/javascript',body:"window.GYM_STONE_CLOUD_CONFIG={url:'',key:''}"}));
@@ -42,13 +44,25 @@ const expectedIds={
         const worker=window.machineWorkers[index],message=worker.messages.at(request);
         worker.onmessage?.({data:{requestId:message?.requestId,...data}});
       };
+      const getUserMedia=navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+      window.machineCameraTest={mode:'live',requests:[]};
+      navigator.mediaDevices.getUserMedia=async constraints=>{
+        const {mode,requests}=window.machineCameraTest;
+        const request={constraints};
+        requests.push(request);
+        if(mode==='denied')throw new DOMException('Camera permission denied','NotAllowedError');
+        const stream=await getUserMedia(constraints);
+        request.stream=stream;
+        if(mode==='pending')return new Promise(resolve=>{request.release=()=>resolve(stream)});
+        return stream;
+      };
     });
     async function enter(reload=false){
       if(reload)await page.reload();else await page.goto(url);
       await page.locator('#account-preview').click({timeout:10000}).catch(async error=>{console.error({errors,state:await page.evaluate(()=>({cloud:!!window.GymCloud,config:window.GYM_STONE_CLOUD_CONFIG,body:document.body.textContent.slice(-300),scripts:Array.from(document.scripts).map(s=>s.src)}))});throw error});
-      await page.waitForFunction(()=>exercises.length===425&&window.GymMachinePhoto&&window.GymMachineData).catch(async error=>{console.error({errors,state:await page.evaluate(()=>({exercises:exercises.length,machinePhoto:!!window.GymMachinePhoto,machineData:!!window.GymMachineData,grid:document.getElementById('exercise-grid').textContent}))});throw error});
+      await page.waitForFunction(()=>exercises.length>0&&window.GymMachinePhoto&&window.GymMachineData).catch(async error=>{console.error({errors,state:await page.evaluate(()=>({exercises:exercises.length,machinePhoto:!!window.GymMachinePhoto,machineData:!!window.GymMachineData,grid:document.getElementById('exercise-grid').textContent}))});throw error});
       await page.locator('.app-nav [data-screen=exercises]').click();
-      await page.waitForFunction(()=>document.querySelectorAll('.exercise-card').length===425).catch(async error=>{console.error({errors,grid:await page.locator('#exercise-grid').textContent()});throw error});
+      await page.waitForFunction(()=>document.querySelectorAll('.exercise-card').length===exercises.filter(exerciseAvailable).length).catch(async error=>{console.error({errors,grid:await page.locator('#exercise-grid').textContent()});throw error});
     }
     async function cards(){return (await page.locator('.exercise-card h3').allTextContents()).sort()}
     async function assertFilter(id){
@@ -57,11 +71,38 @@ const expectedIds={
       assert.equal(await page.locator('#machine-choice').inputValue(),id);
       assert.equal(await page.locator('#machine-filter').isVisible(),true);
     }
-    async function upload(name='machine.png',input='#machine-photo'){
+    async function postPhoto(selectPhoto){
       const before=await page.evaluate(()=>machineWorkers.reduce((total,w)=>total+w.messages.length,0));
-      await page.locator(input).setInputFiles({name,mimeType:'image/png',buffer:png});
+      await selectPhoto();
       await page.waitForFunction(before=>machineWorkers.reduce((total,w)=>total+w.messages.length,0)>before,before).catch(async error=>{console.error('Photo status:',await page.locator('#machine-status').textContent());throw error});
       return page.evaluate(()=>machineWorkers.length-1);
+    }
+    function upload(name='machine.png'){
+      return postPhoto(()=>page.locator('#machine-photo').setInputFiles({name,mimeType:'image/png',buffer:png}));
+    }
+    async function openCamera(button,mode='live'){
+      const index=await page.evaluate(mode=>{machineCameraTest.mode=mode;return machineCameraTest.requests.length},mode);
+      await page.locator(button).click();
+      await page.waitForFunction(index=>machineCameraTest.requests.length>index,index);
+      if(mode==='live'){
+        await page.locator('#machine-live-camera').waitFor({state:'visible'});
+        await page.waitForFunction(()=>!document.getElementById('machine-capture').disabled&&document.getElementById('machine-video').videoWidth>0).catch(async error=>{
+          const state=await page.evaluate(index=>{
+            const video=document.getElementById('machine-video');
+            return {status:document.getElementById('machine-status').textContent,stream:!!machineCameraTest.requests[index].stream,readyState:video.readyState,width:video.videoWidth,paused:video.paused,hidden:document.hidden};
+          },index);
+          console.error('Camera state',state);
+          throw error;
+        });
+      }else if(mode==='pending'){
+        await page.waitForFunction(index=>typeof machineCameraTest.requests[index].release==='function',index);
+      }
+      return index;
+    }
+    async function assertCameraStopped(index){
+      await page.waitForFunction(index=>machineCameraTest.requests[index].stream.getTracks().every(track=>track.readyState==='ended'),index);
+      assert.equal(await page.locator('#machine-video').evaluate(video=>video.srcObject),null);
+      await page.locator('#machine-live-camera').waitFor({state:'hidden'});
     }
     async function emit(index,data,request=-1){await page.evaluate(({index,data,request})=>machineEmit(index,data,request),{index,data,request})}
     async function result(index,results){await emit(index,{type:'result',results});await page.locator('#machine-cancel').waitFor({state:'hidden'})}
@@ -70,18 +111,66 @@ const expectedIds={
       await page.locator('#machine-choice').selectOption(id);await assertFilter(id);
     }
     await enter();
-    assert.equal(await page.locator('#machine-camera').getAttribute('capture'),'environment');
     assert.equal(await page.locator('#machine-photo').getAttribute('accept'),'image/*');
-    assert.equal(await page.locator('#machine-camera').getAttribute('accept'),'image/*');
-    const all=await cards();assert.equal(all.length,425);
+    const all=await cards();assert.equal(all.length,await page.evaluate(()=>exercises.filter(exerciseAvailable).length));
     const fixtures=await page.evaluate(()=>{
       const press=GymMachineData.get('leg-press'),extension=GymMachineData.get('leg-extension');
       if(!press||!extension||press.id===extension.id)throw Error('Distinct leg press and leg extension fixtures are required');
       return {press:{id:press.id,name:press.name},extension:{id:extension.id,name:extension.name}};
     });
     const press=fixtures.press,extension=fixtures.extension;
+    // Scan uses a live camera and passes the captured frame to the same recognizer as uploads.
+    await page.setViewportSize({width:390,height:844});
+    const captureIndex=await openCamera('#machine-scan');
+    const cameraInfo=await page.evaluate(index=>{
+      const {constraints}=machineCameraTest.requests[index];
+      const video=document.getElementById('machine-video');
+      return {constraints,muted:video.muted,inline:video.playsInline};
+    },captureIndex);
+    assert.equal(cameraInfo.constraints.video.facingMode.ideal,'environment');
+    assert(!cameraInfo.constraints.audio);
+    assert(cameraInfo.muted&&cameraInfo.inline,'Camera should play inline without audio');
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+    const captureWorker=await postPhoto(()=>page.locator('#machine-capture').click());
+    await assertCameraStopped(captureIndex);
+    const captured=await page.evaluate(async index=>{
+      const {image}=machineWorkers[index].messages.at(-1);
+      const bitmap=await createImageBitmap(await (await fetch(image)).blob());
+      const frame={type:image.split(';',1)[0],width:bitmap.width,height:bitmap.height};
+      bitmap.close();
+      return frame;
+    },captureWorker);
+    assert.equal(captured.type,'data:image/jpeg');
+    assert.equal(captured.width,captured.height);
+    assert(captured.width>0&&captured.width<=768);
+    await result(captureWorker,[{id:'plate-loaded-lat-pulldown',score:0.8}]);
+    await page.locator('#machine-suggestions [data-machine="plate-loaded-lat-pulldown"]').click();
+    await assertFilter('plate-loaded-lat-pulldown');
+    await page.locator('#machine-clear').click();
+
+    const cancelIndex=await openCamera('#machine-take');
+    await page.locator('#machine-stop-camera').click();
+    await assertCameraStopped(cancelIndex);
+    const pendingIndex=await openCamera('#machine-take','pending');
+    await page.locator('#machine-close').click();
+    await page.evaluate(index=>machineCameraTest.requests[index].release(),pendingIndex);
+    await assertCameraStopped(pendingIndex);
+    assert.equal(await page.locator('#machine-lookup').isVisible(),false);
+    const navigationIndex=await openCamera('#machine-scan');
+    await page.locator('.app-nav [data-screen=today]').click();
+    await assertCameraStopped(navigationIndex);
+    await page.locator('.app-nav [data-screen=exercises]').click();
+    await openCamera('#machine-scan','denied');
+    await page.waitForFunction(()=>/camera/i.test(document.getElementById('machine-status').textContent)&&document.getElementById('machine-manual').open);
+    assert.equal(await page.locator('#machine-upload').isVisible(),true);
+    assert.equal(await page.locator('#machine-choice').isVisible(),true);
+    await page.setViewportSize({width:1440,height:1100});
+
     // Recognition offers candidates only; the user must confirm a machine.
-    let worker=await upload();
+    let worker=await postPhoto(async()=>{
+      const [chooser]=await Promise.all([page.waitForEvent('filechooser'),page.locator('#machine-upload').click()]);
+      await chooser.setFiles({name:'machine.png',mimeType:'image/png',buffer:png});
+    });
     assert.equal(await page.locator('#machine-lookup').getAttribute('aria-busy'),'true');
     assert.equal(await page.locator('#machine-photo-preview').isVisible(),true);
     await emit(worker,{type:'progress',message:'Downloading recognition model…'});
@@ -91,6 +180,7 @@ const expectedIds={
     assert.equal(await page.locator('#machine-filter').isVisible(),false);
     assert.deepEqual(await cards(),all,'Recognition must not automatically filter the library');
     // Selecting a suggested machine clears incompatible search and library filters.
+    await page.locator('.filter-disclosure summary').click();
     await page.locator('#equipment-filter').selectOption('Dumbbells');
     await page.locator('#difficulty-filter').selectOption('Advanced');
     await page.locator('#search').fill('curl');
@@ -146,7 +236,7 @@ const expectedIds={
     assert.equal(await page.locator('#machine-suggestions [data-machine]').count(),0);
     assert.equal(await page.locator('#machine-filter').isVisible(),false);
     // A new upload cancels the prior request and also rejects old request IDs.
-    const obsolete=await upload('first-photo.png'),replacement=await upload('second-photo.png','#machine-camera');
+    const obsolete=await upload('first-photo.png'),replacement=await upload('second-photo.png');
     assert.notEqual(obsolete,replacement);assert.equal(await page.evaluate(index=>machineWorkers[index].terminated,obsolete),true);
     await emit(obsolete,{type:'result',results:[{id:press.id,score:0.99}]});
     assert.equal(await page.locator('#machine-suggestions [data-machine]').count(),0);
@@ -229,10 +319,10 @@ const expectedIds={
     assert.deepEqual(await cards(),all);
     assert.deepEqual(await page.evaluate(()=>GymScreenshotStore.getRecords()),persisted,'Exercise records must survive reload');
     assert.equal(await page.evaluate(()=>JSON.stringify(localStorage).includes('data:image/')),false,'Machine photo must not be persisted in localStorage');
-    await choose(press.id);await page.evaluate(()=>window.dispatchEvent(new CustomEvent('gym-account-changed')));
+    await upload('after-reload.png');await choose(press.id);await page.evaluate(()=>window.dispatchEvent(new CustomEvent('gym-account-changed')));
     assert.equal(await page.locator('#machine-filter').isVisible(),false);
     assert.equal(await page.locator('#machine-choice').inputValue(),'');
     assert.deepEqual(uploads,[],'The photo recognition UI must not upload photos');assert.deepEqual(errors,[]);
-    console.log('PASS: photo/camera input, progress, confirmed exact exercise allowlists, negative/manual fallback, cancellation and stale requests, invalid photos, model errors, preview/date/future guards, storage separation and 320/390/1440px layout (mock recognition worker).');
+    console.log('PASS: live camera capture and cleanup, upload, progress, exercise allowlists, manual fallback, cancellation, invalid photos, model errors, workout dates, storage and responsive layout (fake camera, mock recognition worker).');
   }finally{await browser.close()}
 })().catch(error=>{console.error(error);process.exit(1)});

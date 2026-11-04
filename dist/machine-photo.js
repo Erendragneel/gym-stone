@@ -8,7 +8,7 @@
   lookup.setAttribute('aria-labelledby', 'machine-title');
   lookup.innerHTML = `<div class="machine-heading"><div><h3 id="machine-title">Find exercises from a machine photo</h3><p>Photograph one machine, with its seat, handles and moving parts in view.</p></div><div class="machine-actions"><button type="button" class="primary" id="machine-take">Take photo</button><button type="button" class="secondary" id="machine-upload">Upload photo</button><button type="button" class="secondary" id="machine-close" aria-label="Close machine search and clear its filter">Close</button></div></div>
     <input id="machine-photo" type="file" accept="image/*" hidden aria-label="Upload machine photo">
-    <input id="machine-camera" type="file" accept="image/*" capture="environment" hidden aria-label="Take machine photo">
+    <div class="machine-live-camera" id="machine-live-camera" hidden><video id="machine-video" autoplay muted playsinline hidden aria-label="Live camera preview"></video><div class="machine-actions"><button type="button" class="primary" id="machine-capture" disabled>Capture and scan</button><button type="button" class="secondary" id="machine-stop-camera">Cancel camera</button></div></div>
     <div class="machine-feedback"><img id="machine-photo-preview" alt="Your machine photo" hidden><div class="machine-response"><p id="machine-status" role="status" aria-live="polite"></p><div id="machine-suggestions" role="group" aria-label="Suggested machine matches"></div><button type="button" class="secondary" id="machine-cancel" hidden>Cancel recognition</button></div></div>
     <details id="machine-manual"><summary>Choose or correct the machine</summary><label for="machine-choice">Machine type</label><select id="machine-choice"><option value="">Choose a machine…</option></select></details>
     <div id="machine-filter" hidden><strong id="machine-filter-label"></strong><p id="machine-note"></p><button type="button" class="secondary" id="machine-clear">Show all exercises</button></div>
@@ -16,6 +16,10 @@
   document.querySelector('.library-heading').after(lookup);
   lookup.hidden = true;
   const search = document.querySelector('.library-heading .search');
+  const library = lookup.closest('.library');
+  const cameraPanel = $('machine-live-camera');
+  const video = $('machine-video');
+  const capture = $('machine-capture');
   const searchTools = document.createElement('div');
   searchTools.className = 'library-search-tools';
   const scan = document.createElement('button');
@@ -39,7 +43,57 @@
     $('machine-choice').append(option);
   }
   let machine = '', worker = null, generation = 0, busy = false;
+  let cameraRequest = 0;
   function status(message) { $('machine-status').textContent = message; }
+  function stopCamera() {
+    cameraRequest++;
+    video.srcObject?.getTracks().forEach(track => track.stop());
+    video.srcObject = null;
+    video.hidden = true;
+    capture.disabled = true;
+    cameraPanel.hidden = true;
+  }
+  function cameraUnavailable(message) {
+    stopCamera();
+    status(message);
+    $('machine-manual').open = true;
+  }
+  async function openCamera() {
+    showLookup();
+    if (!cameraPanel.hidden) return;
+    if (busy) cancel();
+    resetPhoto();
+    renderExercises();
+    const request = ++cameraRequest;
+    cameraPanel.hidden = false;
+    status('Opening camera… Allow camera access if prompted.');
+    try {
+      if (!navigator.mediaDevices?.getUserMedia) {
+        cameraUnavailable('Camera preview is unavailable here. Upload a photo or choose the machine below.');
+        return;
+      }
+      const stream = await navigator.mediaDevices.getUserMedia({
+        audio: false, video: { facingMode: { ideal: 'environment' } }
+      });
+      if (request !== cameraRequest) {
+        stream.getTracks().forEach(track => track.stop());
+        return;
+      }
+      for (const track of stream.getVideoTracks()) {
+        track.addEventListener('ended', () => {
+          if (request === cameraRequest) cameraUnavailable('The camera stopped. Try again or upload a photo.');
+        });
+      }
+      video.hidden = false;
+      video.srcObject = stream;
+      await video.play();
+    } catch (error) {
+      if (request !== cameraRequest) return;
+      cameraUnavailable(error.name === 'NotAllowedError'
+        ? 'Camera access was blocked. Allow camera access in your browser, or upload a photo.'
+        : 'The camera could not start. Try again or upload a photo.');
+    }
+  }
   function cancel() {
     generation++; busy = false; worker?.terminate(); worker = null;
     $('machine-cancel').hidden = true;
@@ -53,11 +107,14 @@
     $('machine-note').textContent = category?.note || '';
     for (const button of $('machine-suggestions').children) button.setAttribute('aria-pressed', String(button.dataset.machine === machine));
   }
-  function clear(resetFilters = false) {
-    cancel(); machine = ''; $('machine-suggestions').replaceChildren();
+  function resetPhoto() {
+    machine = ''; $('machine-suggestions').replaceChildren();
     $('machine-photo-preview').removeAttribute('src'); $('machine-photo-preview').hidden = true;
-    $('machine-photo').value = ''; $('machine-camera').value = '';
-    status(''); refresh();
+    refresh();
+  }
+  function clear(resetFilters = false) {
+    stopCamera(); cancel(); resetPhoto();
+    $('machine-photo').value = ''; status('');
     if (resetFilters) {
       Array.from($('filters').children).find(button => button.textContent === 'All moves')?.click();
       $('reset-library-filters').click();
@@ -65,6 +122,7 @@
     renderExercises();
   }
   function choose(id) {
+    if (!cameraPanel.hidden) stopCamera();
     const category = GymMachineData.get(id);
     const wasBusy = busy;
     if (busy) cancel();
@@ -101,31 +159,35 @@
     }
   }
   async function recognize(file) {
-    if (!file) return;
     showLookup();
     if (busy) cancel();
     const current = ++generation;
-    machine = ''; refresh(); renderExercises();
-    $('machine-suggestions').replaceChildren();
-    $('machine-photo-preview').removeAttribute('src'); $('machine-photo-preview').hidden = true;
-    if (!file.type.startsWith('image/') || file.size > 20 * 1024 * 1024) {
+    resetPhoto(); renderExercises();
+    if (file && (!file.type.startsWith('image/') || file.size > 20 * 1024 * 1024)) {
       status('Choose a photo smaller than 20 MB. JPEG, PNG and WebP work best.'); return;
     }
     busy = true; lookup.setAttribute('aria-busy', 'true'); $('machine-cancel').hidden = false;
     status('Preparing your photo…');
     try {
-      const bitmap = await createImageBitmap(file, { imageOrientation: 'from-image' });
-      if (current !== generation) { bitmap.close(); return; }
-      const side = Math.min(768, Math.max(bitmap.width, bitmap.height));
-      const scale = side / Math.max(bitmap.width, bitmap.height);
+      const bitmap = file ? await createImageBitmap(file, { imageOrientation: 'from-image' }) : null;
+      if (current !== generation) { bitmap?.close(); return; }
+      const sourceWidth = bitmap?.width ?? video.videoWidth;
+      const sourceHeight = bitmap?.height ?? video.videoHeight;
+      const side = Math.min(768, Math.max(sourceWidth, sourceHeight));
+      const scale = side / Math.max(sourceWidth, sourceHeight);
       const canvas = document.createElement('canvas');
       canvas.width = canvas.height = Math.max(1, side);
-      const width = Math.max(1, Math.round(bitmap.width * scale)), height = Math.max(1, Math.round(bitmap.height * scale));
+      const width = Math.max(1, Math.round(sourceWidth * scale)), height = Math.max(1, Math.round(sourceHeight * scale));
       const context = canvas.getContext('2d');
       // Keep long frames and tall cable towers inside the model's square crop.
       // Fill transparency before JPEG encoding so black equipment stays visible.
       context.fillStyle = '#ffffff'; context.fillRect(0, 0, side, side);
-      context.drawImage(bitmap, (side - width) / 2, (side - height) / 2, width, height); bitmap.close();
+      try {
+        context.drawImage(bitmap ?? video, (side - width) / 2, (side - height) / 2, width, height);
+      } finally {
+        bitmap?.close();
+        if (!file) stopCamera();
+      }
       const image = canvas.toDataURL('image/jpeg', 0.9);
       $('machine-photo-preview').src = image; $('machine-photo-preview').hidden = false;
       worker ||= new Worker('machine-worker.js?v=1', { type: 'module' });
@@ -145,17 +207,34 @@
       worker.postMessage({ image, candidates: GymMachineData.candidates(), requestId: current });
     } catch {
       if (current !== generation) return;
-      cancel(); status('This photo could not be opened. Try saving it as JPEG or PNG, or choose the machine below.'); $('machine-manual').open = true;
+      cancel();
+      if (!file) cameraUnavailable('The camera photo could not be scanned. Try again or upload a photo.');
+      else { status('This photo could not be opened. Try saving it as JPEG or PNG, or choose the machine below.'); $('machine-manual').open = true; }
     }
   }
-  scan.onclick = () => { showLookup(); $('machine-camera').click(); };
-  $('machine-take').onclick = () => { showLookup(); $('machine-camera').click(); };
-  $('machine-upload').onclick = () => { showLookup(); $('machine-photo').click(); };
+  video.onplaying = () => {
+    if (!video.srcObject) return;
+    capture.disabled = false;
+    status('Fit the whole machine in the frame, then tap Capture and scan.');
+  };
+  capture.onclick = () => {
+    if (video.srcObject && video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA && video.videoWidth && video.videoHeight) recognize();
+  };
+  scan.onclick = openCamera;
+  $('machine-take').onclick = openCamera;
+  $('machine-stop-camera').onclick = () => {
+    stopCamera(); status('Camera closed. Take another photo or upload one.'); $('machine-take').focus();
+  };
+  $('machine-upload').onclick = () => {
+    if (!cameraPanel.hidden) { stopCamera(); status('Choose a photo to scan.'); }
+    $('machine-photo').click();
+  };
   $('machine-close').onclick = () => {
     clear(); lookup.hidden = true; scan.setAttribute('aria-expanded', 'false'); scan.focus({ preventScroll: true });
   };
-  for (const id of ['machine-photo', 'machine-camera']) $(id).onchange = event => {
-    const file = event.target.files[0]; event.target.value = ''; recognize(file);
+  $('machine-photo').onchange = event => {
+    const file = event.target.files[0]; event.target.value = '';
+    if (file) { stopCamera(); recognize(file); }
   };
   $('machine-choice').onchange = event => choose(event.target.value);
   $('machine-cancel').onclick = () => { cancel(); status('Recognition cancelled. Choose a machine below, or try another photo.'); };
@@ -165,6 +244,13 @@
     machine = ''; refresh(); renderExercises();
   });
   window.addEventListener('gym-account-changed', () => { clear(); lookup.hidden = true; scan.setAttribute('aria-expanded', 'false'); });
+  function stopCameraOnLeave() {
+    if (!cameraPanel.hidden) { stopCamera(); status('Camera closed. Take another photo or upload one.'); }
+  }
+  document.addEventListener('visibilitychange', () => { if (document.hidden) stopCameraOnLeave(); });
+  window.addEventListener('pagehide', stopCameraOnLeave);
+  new MutationObserver(() => { if (library.hidden) stopCameraOnLeave(); })
+    .observe(library, { attributes: true, attributeFilter: ['hidden'] });
   window.addEventListener('pagehide', cancel);
   window.GymMachinePhoto = {
     matches: exercise => !machine || GymMachineData.matches(exercise, machine),
