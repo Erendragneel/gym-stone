@@ -20,5 +20,17 @@
 .machine-live-camera video{display:block;width:100%;height:min(52vh,340px);height:min(52dvh,340px);object-fit:contain;background:#0d1b2d;border-radius:8px}
 .machine-live-camera .machine-actions{margin-top:10px}
 .machine-live-camera button:disabled{opacity:.55;cursor:default}
+.machine-photo-review{margin:16px auto 0;width:min(100%,580px)}
+.machine-photo-review h4{font-size:16px;margin:0 0 10px}
+.machine-photo-review p{color:var(--muted);font-size:13px;line-height:1.5;margin:10px 0}
+.machine-photo-review button[aria-pressed=true]{border-color:var(--lime);color:var(--lime);background:#214b4d}
+.machine-photo-review button:disabled{opacity:.55;cursor:default}
+.machine-photo-editor{position:relative;width:min(100%,calc(49vh * var(--machine-photo-ratio,1)));width:min(100%,calc(49dvh * var(--machine-photo-ratio,1)));margin:0 auto 12px;border-radius:8px;overflow:hidden;background:#0d1b2d}
+.machine-photo-editor[data-tool=lasso],.machine-photo-editor[data-tool=blur]{touch-action:none;cursor:crosshair;user-select:none}
+.machine-photo-editor canvas{display:block;width:100%;height:auto}
+.machine-photo-editor canvas+canvas,.machine-photo-editor svg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+#machine-lasso-shade{fill:rgba(3,12,23,.55)}
+#machine-lasso-line{fill:none;stroke:#a7ffe1;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 0 2px #081820)}
+#machine-edit-photo{margin-top:10px}
 @media(max-width:1000px){.library-search-tools{width:100%;flex-basis:auto}}
 @media(max-width:720px){.library-heading:has(.library-search-tools){top:0;padding:8px 0}.library-search-tools .search{padding:8px 10px}.library-search-tools .search input{font-size:16px}.library-search-tools .machine-scan{min-width:76px;padding:10px}.machine-actions button{min-width:60px}}

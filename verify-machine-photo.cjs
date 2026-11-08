@@ -8,9 +8,19 @@ function chunk(name,data){
   for(const byte of body){crc^=byte;for(let bit=0;bit<8;bit++)crc=(crc>>>1)^((crc&1)?0xedb88320:0)}
   checksum.writeUInt32BE((crc^0xffffffff)>>>0);return Buffer.concat([size,body,checksum]);
 }
-const header=Buffer.alloc(13);header.writeUInt32BE(8,0);header.writeUInt32BE(8,4);header[8]=8;header[9]=6;
-const pixels=Buffer.alloc(8*(1+8*4));for(let y=0;y<8;y++)for(let x=0;x<8;x++){const i=y*33+1+x*4;pixels[i]=180;pixels[i+1]=220;pixels[i+2]=255;pixels[i+3]=255}
-const png=Buffer.concat([Buffer.from([137,80,78,71,13,10,26,10]),chunk('IHDR',header),chunk('IDAT',deflateSync(pixels)),chunk('IEND',Buffer.alloc(0))]);
+function makePng(width,height,pixel){
+  const header=Buffer.alloc(13);
+  header.writeUInt32BE(width,0);header.writeUInt32BE(height,4);header[8]=8;header[9]=6;
+  const rowLength=1+width*4;
+  const pixels=Buffer.alloc(height*rowLength);
+  for(let y=0;y<height;y++)for(let x=0;x<width;x++){
+    const i=y*rowLength+1+x*4;
+    pixels.set([...pixel(x,y),255],i);
+  }
+  return Buffer.concat([Buffer.from([137,80,78,71,13,10,26,10]),chunk('IHDR',header),chunk('IDAT',deflateSync(pixels)),chunk('IEND',Buffer.alloc(0))]);
+}
+const png=makePng(8,8,()=>[180,220,255]);
+const lassoPhoto=makePng(96,72,(x,y)=>x>=20&&x<=76&&y>=16&&y<=60?[210,30,40]:[20,45,210]);
 const expectedIds={
   'leg-press':['exp-45-degree-leg-press','exp-horizontal-leg-press','exp-single-leg-leg-press','exp-leg-press-calf-raise'],
   'leg-extension':['guide-leg-extension','exp-single-leg-leg-extension'],
@@ -19,15 +29,15 @@ const expectedIds={
 };
 
 (async()=>{
-  const browser=await chromium.launch({headless:true,channel:'chrome',args:['--use-fake-device-for-media-stream']});
+  const browser=await chromium.launch({headless:true,channel:'chrome'});
   try{
-    const context=await browser.newContext({permissions:['camera'],serviceWorkers:'block',viewport:{width:1440,height:1100},timezoneId:'Asia/Tokyo'});
+    const context=await browser.newContext({serviceWorkers:'block',viewport:{width:1440,height:1100},timezoneId:'Asia/Tokyo'});
     const page=await context.newPage(),errors=[],uploads=[];
     page.setDefaultTimeout(12000);
     page.on('pageerror',error=>errors.push(error.message));
     page.on('request',request=>{if(request.method()!=='GET')uploads.push(request.url())});
     await context.route('**/cloud-config.js',route=>route.fulfill({contentType:'application/javascript',body:"window.GYM_STONE_CLOUD_CONFIG={url:'',key:''}"}));
-    await context.route('**/assets/*.webp',route=>route.fulfill({contentType:'image/png',body:png}));
+    await context.route(/\/assets\/.*\.(?:webp|gif|png)(?:\?|$)/,route=>route.fulfill({contentType:'image/png',body:png}));
     await context.addInitScript(()=>{
       localStorage.setItem('gym-stone-profile-v1',JSON.stringify({name:'Machine tester',gender:'female',birthday:'1996-10-05',weight:65,weightUnit:'kg',goal:'strength',daysPerWeek:3,completed:true,updatedAt:Date.now()}));
       const OriginalWorker=window.Worker;
@@ -44,14 +54,23 @@ const expectedIds={
         const worker=window.machineWorkers[index],message=worker.messages.at(request);
         worker.onmessage?.({data:{requestId:message?.requestId,...data}});
       };
-      const getUserMedia=navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
       window.machineCameraTest={mode:'live',requests:[]};
       navigator.mediaDevices.getUserMedia=async constraints=>{
         const {mode,requests}=window.machineCameraTest;
         const request={constraints};
         requests.push(request);
         if(mode==='denied')throw new DOMException('Camera permission denied','NotAllowedError');
-        const stream=await getUserMedia(constraints);
+        // Provide real video frames and MediaStreamTrack lifecycle without a host camera.
+        const canvas=document.createElement('canvas');
+        canvas.width=640;canvas.height=480;
+        const context=canvas.getContext('2d');
+        const stream=canvas.captureStream(20);
+        let frame=0;
+        const timer=setInterval(()=>{
+          if(!stream.active){clearInterval(timer);return}
+          context.fillStyle='#143c56';context.fillRect(0,0,640,480);
+          context.fillStyle='#f3a141';context.fillRect(frame++%300,80,80,320);
+        },50);
         request.stream=stream;
         if(mode==='pending')return new Promise(resolve=>{request.release=()=>resolve(stream)});
         return stream;
@@ -71,14 +90,64 @@ const expectedIds={
       assert.equal(await page.locator('#machine-choice').inputValue(),id);
       assert.equal(await page.locator('#machine-filter').isVisible(),true);
     }
-    async function postPhoto(selectPhoto){
-      const before=await page.evaluate(()=>machineWorkers.reduce((total,w)=>total+w.messages.length,0));
+    function messageCount(){
+      return page.evaluate(()=>machineWorkers.reduce((total,w)=>total+w.messages.length,0));
+    }
+    async function reviewPhoto(selectPhoto){
+      const before=await messageCount();
       await selectPhoto();
+      await page.locator('#machine-photo-review').waitFor({state:'visible'});
+      assert.equal(await messageCount(),before,'Preparing a photo must wait for Scan before starting recognition');
+      assert.equal(await page.locator('#machine-photo-preview').isVisible(),false);
+    }
+    async function scanPhoto(){
+      const before=await messageCount();
+      await page.locator('#machine-run-scan').click();
       await page.waitForFunction(before=>machineWorkers.reduce((total,w)=>total+w.messages.length,0)>before,before).catch(async error=>{console.error('Photo status:',await page.locator('#machine-status').textContent());throw error});
       return page.evaluate(()=>machineWorkers.length-1);
     }
-    function upload(name='machine.png'){
-      return postPhoto(()=>page.locator('#machine-photo').setInputFiles({name,mimeType:'image/png',buffer:png}));
+    function selectUpload(name,buffer=png){
+      return page.locator('#machine-photo').setInputFiles({name,mimeType:'image/png',buffer});
+    }
+    async function upload(name='machine.png'){
+      await reviewPhoto(()=>selectUpload(name));
+      return scanPhoto();
+    }
+    async function draw(points,touch=false){
+      const surface=page.locator('#machine-photo-source');
+      await surface.scrollIntoViewIfNeeded();
+      const box=await surface.boundingBox();
+      assert(box,'Photo must have a visible drawing surface');
+      const positions=points.map(([x,y])=>({x:box.x+box.width*x,y:box.y+box.height*y}));
+      if(touch){
+        const session=await context.newCDPSession(page);
+        try{
+          await session.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[positions[0]]});
+          for(const point of positions.slice(1)){
+            await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[point]});
+          }
+          await session.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+        }finally{await session.detach()}
+      }else{
+        await page.mouse.move(positions[0].x,positions[0].y);
+        await page.mouse.down();
+        for(const point of positions.slice(1))await page.mouse.move(point.x,point.y,{steps:4});
+        await page.mouse.up();
+      }
+    }
+    function scannedImage(index,points=[]){
+      return page.evaluate(async ({index,points})=>{
+        const {image}=machineWorkers[index].messages.at(-1);
+        const bitmap=await createImageBitmap(await (await fetch(image)).blob());
+        const {width,height}=bitmap;
+        const canvas=document.createElement('canvas');
+        canvas.width=width;canvas.height=height;
+        const context=canvas.getContext('2d');
+        context.drawImage(bitmap,0,0);
+        bitmap.close();
+        const samples=points.map(([x,y])=>Array.from(context.getImageData(Math.floor(x*width),Math.floor(y*height),1,1).data).slice(0,3));
+        return {type:image.split(';',1)[0],width,height,samples};
+      },{index,points});
     }
     async function openCamera(button,mode='live'){
       const index=await page.evaluate(mode=>{machineCameraTest.mode=mode;return machineCameraTest.requests.length},mode);
@@ -113,6 +182,9 @@ const expectedIds={
     await enter();
     assert.equal(await page.locator('#machine-photo').getAttribute('accept'),'image/*');
     const all=await cards();assert.equal(all.length,await page.evaluate(()=>exercises.filter(exerciseAvailable).length));
+    await page.locator('#search').fill('One-Arm Cable Curl');
+    assert.deepEqual(await cards(),['Bayesian Cable Curl']);
+    await page.locator('#search').fill('');
     const fixtures=await page.evaluate(()=>{
       const press=GymMachineData.get('leg-press'),extension=GymMachineData.get('leg-extension');
       if(!press||!extension||press.id===extension.id)throw Error('Distinct leg press and leg extension fixtures are required');
@@ -131,15 +203,10 @@ const expectedIds={
     assert(!cameraInfo.constraints.audio);
     assert(cameraInfo.muted&&cameraInfo.inline,'Camera should play inline without audio');
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
-    const captureWorker=await postPhoto(()=>page.locator('#machine-capture').click());
+    await reviewPhoto(()=>page.locator('#machine-capture').click());
     await assertCameraStopped(captureIndex);
-    const captured=await page.evaluate(async index=>{
-      const {image}=machineWorkers[index].messages.at(-1);
-      const bitmap=await createImageBitmap(await (await fetch(image)).blob());
-      const frame={type:image.split(';',1)[0],width:bitmap.width,height:bitmap.height};
-      bitmap.close();
-      return frame;
-    },captureWorker);
+    const captureWorker=await scanPhoto();
+    const captured=await scannedImage(captureWorker);
     assert.equal(captured.type,'data:image/jpeg');
     assert.equal(captured.width,captured.height);
     assert(captured.width>0&&captured.width<=768);
@@ -164,13 +231,67 @@ const expectedIds={
     await page.waitForFunction(()=>/camera/i.test(document.getElementById('machine-status').textContent)&&document.getElementById('machine-manual').open);
     assert.equal(await page.locator('#machine-upload').isVisible(),true);
     assert.equal(await page.locator('#machine-choice').isVisible(),true);
+
+    // Touch lasso selection changes the recognition input, including pixels inside its bounding box.
+    await reviewPhoto(async()=>{
+      const [chooser]=await Promise.all([page.waitForEvent('filechooser'),page.locator('#machine-upload').click()]);
+      await chooser.setFiles({name:'machine.png',mimeType:'image/png',buffer:lassoPhoto});
+    });
+    const lasso=page.locator('#machine-tool-lasso'),blur=page.locator('#machine-tool-blur');
+    const run=page.locator('#machine-run-scan');
+    assert.equal(await run.textContent(),'Scan photo');
+    await page.setViewportSize({width:320,height:740});
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+    assert.equal(await page.locator('#machine-photo-review').evaluate(review=>review.scrollWidth>review.clientWidth+1),false);
+    await page.setViewportSize({width:390,height:844});
+    await lasso.click();
+    assert.equal(await lasso.getAttribute('aria-pressed'),'true');
+    const triangle=[[0.25,0.25],[0.5,0.25],[0.75,0.25],[0.62,0.5],[0.5,0.78],[0.37,0.5],[0.25,0.25]];
+    await draw(triangle,true);
+    assert.equal(await run.textContent(),'Scan selection');
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+    await page.locator('#machine-clear-edits').click();
+    assert.equal(await run.textContent(),'Scan photo');
+    if(await lasso.getAttribute('aria-pressed')!=='true')await lasso.click();
+    await draw(triangle,true);
+    const cropped=await scannedImage(await scanPhoto(),[[0.5,0.35],[0.18,0.78]]);
+    assert.equal(cropped.width,cropped.height);
+    assert(cropped.width<96,'The lasso crop must zoom into the outlined machine');
+    assert(cropped.samples[0][0]>155&&cropped.samples[0][1]<95,'The lasso must retain the subject');
+    assert(cropped.samples[1].every(channel=>channel>230),'Pixels outside the outline must be white inside the crop');
+    await reviewPhoto(()=>page.locator('#machine-edit-photo').click());
+    assert.equal(await run.textContent(),'Scan selection','Returning to the editor must preserve the outline');
     await page.setViewportSize({width:1440,height:1100});
 
+    // A new photo starts with no selection. Blur stays applied after switching tools.
+    await reviewPhoto(()=>selectUpload('blur-machine.png',lassoPhoto));
+    assert.equal(await run.textContent(),'Scan photo');
+    assert.equal(await lasso.getAttribute('aria-pressed'),'false');
+    assert.equal(await blur.getAttribute('aria-pressed'),'false');
+    await blur.click();
+    await draw([[0.21,0.35],[0.21,0.52],[0.21,0.65]]);
+    await lasso.click();
+    assert.equal(await lasso.getAttribute('aria-pressed'),'true');
+    assert.equal(await blur.getAttribute('aria-pressed'),'false');
+    assert.equal(await run.textContent(),'Scan photo');
+    const samplePoints=[[0.20,0.5],[0.22,0.5],[0.82,0.5]];
+    const blurred=await scannedImage(await scanPhoto(),samplePoints);
+    await reviewPhoto(()=>selectUpload('original-machine.png',lassoPhoto));
+    assert.equal(await run.textContent(),'Scan photo');
+    const brushAlpha=()=>page.locator('#machine-blur-layer').evaluate(canvas=>canvas.getContext('2d').getImageData(Math.round(canvas.width*0.21),Math.round(canvas.height*0.5),1,1).data[3]);
+    assert.equal(await brushAlpha(),0,'A replacement photo must not inherit the previous brush marks');
+    await blur.click();
+    await draw([[0.21,0.35],[0.21,0.65]]);
+    assert(await brushAlpha()>0);
+    await page.locator('#machine-clear-edits').click();
+    assert.equal(await brushAlpha(),0,'Clear edits must remove painted blur');
+    let worker=await scanPhoto();
+    const original=await scannedImage(worker,samplePoints);
+    assert.equal(blurred.width,original.width);
+    assert(blurred.samples.slice(0,2).some((sample,index)=>sample.reduce((distance,channel,channelIndex)=>distance+Math.abs(channel-original.samples[index][channelIndex]),0)>30),'Blur must change pixels sent to the recognition worker');
+    assert(blurred.samples[2].every((channel,index)=>Math.abs(channel-original.samples[2][index])<15),'Blur must leave distant pixels unchanged');
+
     // Recognition offers candidates only; the user must confirm a machine.
-    let worker=await postPhoto(async()=>{
-      const [chooser]=await Promise.all([page.waitForEvent('filechooser'),page.locator('#machine-upload').click()]);
-      await chooser.setFiles({name:'machine.png',mimeType:'image/png',buffer:png});
-    });
     assert.equal(await page.locator('#machine-lookup').getAttribute('aria-busy'),'true');
     assert.equal(await page.locator('#machine-photo-preview').isVisible(),true);
     await emit(worker,{type:'progress',message:'Downloading recognition model…'});
@@ -323,6 +444,6 @@ const expectedIds={
     assert.equal(await page.locator('#machine-filter').isVisible(),false);
     assert.equal(await page.locator('#machine-choice').inputValue(),'');
     assert.deepEqual(uploads,[],'The photo recognition UI must not upload photos');assert.deepEqual(errors,[]);
-    console.log('PASS: live camera capture and cleanup, upload, progress, exercise allowlists, manual fallback, cancellation, invalid photos, model errors, workout dates, storage and responsive layout (fake camera, mock recognition worker).');
+    console.log('PASS: live camera and upload review, touch lasso and blur payloads, cleanup, recognition, manual fallback, workout dates, storage and responsive layout (fake camera, mock recognition worker).');
   }finally{await browser.close()}
 })().catch(error=>{console.error(error);process.exit(1)});

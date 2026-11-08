@@ -18650,6 +18650,12 @@
   {
     "name": "Bayesian Cable Curl",
     "id": "g3-20_Bayesian_Cable_Curl",
+    "aliases": [
+      "One-Arm Cable Curl",
+      "One Arm Cable Curl",
+      "Behind-the-Body Cable Curl",
+      "Behind the Body Cable Curl"
+    ],
     "group": "Biceps",
     "image": "assets/motion-v18/male-g3-20_Bayesian_Cable_Curl-poster.webp",
     "variants": {
