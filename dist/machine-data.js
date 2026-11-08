@@ -97,6 +97,8 @@
     category('hip-abduction-adduction', 'Hip abduction / adduction machine', 'a seated hip abduction or adduction machine with pads beside the knees', [
       'g0-21_Hip_Abduction_Machine', 'g0-22_Hip_Adduction_Machine'
     ], 'These machines can look alike. Read the label: abduction pushes the legs apart; adduction brings them together. Choose only the mode your machine supports.'),
+    category('standing-hip-abduction', 'Standing hip abduction machine', 'a standing hip abductor machine with two foot platforms, thigh pads, and upright support handles', [],
+      'This standing machine has a different setup from the seated hip abduction guide. There is no dedicated guide for this machine yet.'),
     category('leg-press', 'Leg press machine', 'a leg press machine with a seat and a large footplate', [
       'exp-45-degree-leg-press', 'exp-horizontal-leg-press', 'exp-single-leg-leg-press', 'exp-leg-press-calf-raise'
     ], 'Choose the 45-degree or horizontal version that matches the machine. Single-leg presses and calf raises are options only if the machine instructions support that setup.'),
@@ -185,6 +187,71 @@
 
   const byId = new Map(categories.map(item => [item.id, item]));
   const exerciseIdsByCategory = new Map(categories.map(item => [item.id, new Set(item.exerciseIds)]));
+  const categoriesByName = categories.slice().sort((a, b) => a.name.localeCompare(b.name));
+  const aliases = {
+    'cable-station': ['cable machine', 'functional trainer', 'dual adjustable pulley', 'cable crossover'],
+    'plate-loaded-lat-pulldown': ['Forward FWHM-007', 'FWHM-007', 'wide lat pulldown'],
+    'prone-leg-curl': ['Forward FWHM-012', 'FWHM-012', 'prone leg curl', 'lying hamstring curl'],
+    'hack-squat': ['Gymleco 244', '244 Hacklift', 'Hacklift', 'hack lift'],
+    'standing-hip-abduction': ['Gymleco 362', '362 Standing Abductor', 'standing abductor', 'standing hip abductor'],
+    'hip-abduction-adduction': ['seated abductor', 'seated adductor', 'seated hip abduction', 'seated hip adduction']
+  };
+  const option = (id, name) => Object.freeze({ id, name });
+  const cableOptions = Object.freeze({
+    attachments: Object.freeze([
+      option('single-handle', 'One handle'),
+      option('two-handles', 'Two handles'),
+      option('rope', 'Rope'),
+      option('bar', 'Bar'),
+      option('ankle-cuff', 'Ankle cuff')
+    ]),
+    heights: Object.freeze([
+      option('low', 'Low'),
+      option('mid', 'Mid'),
+      option('high', 'High')
+    ])
+  });
+
+  // These are compatible setups from the exercise guides. Alternative attachments
+  // may work in the gym, but the filters only promise the setups listed here.
+  const cableSetups = [
+    ['single-handle', 'low', [
+      'g2-10_Cable_Lateral_Raise', 'g2-14_Cable_Front_Raise', 'g3-18_Single_Arm_Cable_Curl', 'g3-20_Bayesian_Cable_Curl',
+      'g4-16_Low_to_High_Cable_Woodchop', 'exp-cable-triceps-kickback', 'exp-single-arm-seated-cable-shoulder-press', 'exp-side-plank-cable-row'
+    ]],
+    ['single-handle', 'mid', [
+      'g2-24_Cable_External_Rotation', 'g4-17_Horizontal_Cable_Rotation', 'g4-18_Pallof_Press',
+      'exp-single-arm-cable-chest-press', 'exp-standing-single-arm-cable-row', 'exp-cable-internal-rotation'
+    ]],
+    ['single-handle', 'high', [
+      'g1-15_Single_Arm_Cable_Pulldown', 'g4-15_High_to_Low_Cable_Woodchop', 'exp-single-arm-cable-triceps-pressdown', 'exp-cross-body-cable-triceps-extension'
+    ]],
+    ['two-handles', 'low', [
+      'exp-low-to-high-cable-chest-fly', 'exp-supine-cable-chest-fly', 'exp-cable-scaption-raise', 'exp-cable-y-raise'
+    ]],
+    ['two-handles', 'mid', [
+      'exp-standing-cable-chest-press', 'exp-standing-cable-chest-fly', 'exp-seated-cable-chest-press'
+    ]],
+    ['two-handles', 'high', [
+      'g3-21_Overhead_Cable_Curl', 'exp-high-to-low-cable-chest-fly', 'exp-cable-rear-delt-fly'
+    ]],
+    ['rope', 'low', [
+      'g3-19_Rope_Hammer_Cable_Curl', 'exp-seated-cable-overhead-triceps-extension',
+      'exp-cable-split-squat', 'exp-cable-pull-through', 'exp-cable-reverse-lunge'
+    ]],
+    ['rope', 'high', [
+      'g1-16_Straight_Arm_Cable_Pulldown', 'g1-24_Rope_Face_Pull', 'exp-standing-high-cable-row', 'exp-kneeling-cable-crunch'
+    ]],
+    ['bar', 'low', [
+      'g3-17_Standing_Cable_Curl', 'exp-lying-cable-triceps-extension', 'exp-bent-over-cable-row', 'exp-supine-cable-pullover',
+      'exp-cable-shrug', 'exp-cable-preacher-curl', 'exp-reverse-cable-curl', 'exp-cable-drag-curl'
+    ]],
+    ['bar', 'high', ['guide-cable-triceps-pushdown']],
+    ['ankle-cuff', 'low', [
+      'g0-09_Cable_Hip_Abduction', 'g0-10_Cable_Glute_Kickback', 'exp-standing-cable-leg-extension',
+      'exp-standing-cable-leg-curl', 'exp-cable-hip-adduction'
+    ]]
+  ];
   const negativeCandidates = Object.freeze([
     Object.freeze({ id: 'not-gym', text: 'a photo of a household object that is not gym equipment' }),
     Object.freeze({ id: 'multiple-machines', text: 'a wide photo of a gym room with many different exercise machines' }),
@@ -195,16 +262,40 @@
   ]);
 
   function get(id) { return byId.get(id) || null; }
-  function matches(exercise, id) {
+  function searchKey(text) {
+    return String(text ?? '').toLowerCase().normalize('NFKD').replace(/\p{M}/gu, '').replace(/[^\p{L}\p{N}]+/gu, '');
+  }
+  const searchTerms = new Map(categoriesByName.map(item => [
+    item.id, [item.name, item.id, ...(aliases[item.id] || [])].map(searchKey)
+  ]));
+  function search(query) {
+    const key = searchKey(query);
+    if (!key) return categoriesByName.slice();
+    return categoriesByName.map(item => {
+      const terms = searchTerms.get(item.id);
+      if (terms.includes(key)) return { item, rank: 0 };
+      if (terms.some(term => term.startsWith(key))) return { item, rank: 1 };
+      return { item, rank: terms.some(term => term.includes(key)) ? 2 : 3 };
+    }).filter(({ rank }) => rank < 3).sort((a, b) => a.rank - b.rank).map(({ item }) => item);
+  }
+  function matches(exercise, id, setup) {
     if (id === '' || id == null) return true;
     const allowed = exerciseIdsByCategory.get(id);
     if (!allowed || !exercise || exercise.prenatal) return false;
-    return allowed.has(typeof exercise === 'string' ? exercise : exercise.id);
+    const exerciseId = typeof exercise === 'string' ? exercise : exercise.id;
+    if (!allowed.has(exerciseId)) return false;
+    if (id !== 'cable-station' || !setup) return true;
+    const attachment = setup.attachment === 'any' ? '' : setup.attachment;
+    const height = setup.height === 'any' ? '' : setup.height;
+    if (!attachment && !height) return true;
+    return cableSetups.some(([tool, position, exercises]) =>
+      (!attachment || attachment === tool) && (!height || height === position) && exercises.includes(exerciseId)
+    );
   }
   function candidates() {
     return categories.map(item => ({ id: item.id, text: 'a photo of ' + item.description }))
       .concat(negativeCandidates.map(item => ({ id: item.id, text: item.text })));
   }
 
-  return Object.freeze({ categories, get, matches, candidates });
+  return Object.freeze({ categories, cableOptions, get, search, matches, candidates });
 });

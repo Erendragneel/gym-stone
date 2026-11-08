@@ -111,7 +111,7 @@ async function recognize(data) {
     const total = exponentials.reduce((sum, value) => sum + value, 0);
     const results = candidates.map((candidate, index) => ({ id: candidate.id, score: exponentials[index] / total }))
       .sort((a, b) => b.score - a.score).slice(0, 4);
-    post('result', requestId, { results, milliseconds: performance.now() - started });
+    post('result', requestId, { results, embedding, milliseconds: performance.now() - started });
   } catch (error) {
     const message = String(error?.message || error).replace(/[\r\n]+/g, ' ').slice(0, 180);
     post('error', requestId, {

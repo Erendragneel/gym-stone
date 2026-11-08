@@ -25,6 +25,7 @@ const expectedIds={
   'leg-press':['exp-45-degree-leg-press','exp-horizontal-leg-press','exp-single-leg-leg-press','exp-leg-press-calf-raise'],
   'leg-extension':['guide-leg-extension','exp-single-leg-leg-extension'],
   'plate-loaded-lat-pulldown':['exp-plate-loaded-lat-pulldown'],
+  'prone-leg-curl':['guide-prone-leg-curl','exp-single-leg-prone-leg-curl'],
   'smith-machine':['exp-smith-machine-squat','exp-smith-machine-hip-thrust','exp-smith-machine-seated-calf-raise','exp-smith-machine-standing-calf-raise']
 };
 
@@ -174,7 +175,10 @@ const expectedIds={
       await page.locator('#machine-live-camera').waitFor({state:'hidden'});
     }
     async function emit(index,data,request=-1){await page.evaluate(({index,data,request})=>machineEmit(index,data,request),{index,data,request})}
-    async function result(index,results){await emit(index,{type:'result',results});await page.locator('#machine-cancel').waitFor({state:'hidden'})}
+    async function result(index,results,embedding){
+      await emit(index,{type:'result',results,embedding});
+      await page.locator('#machine-cancel').waitFor({state:'hidden'});
+    }
     async function choose(id){
       if(!await page.locator('#machine-manual').evaluate(e=>e.open))await page.locator('#machine-manual summary').click();
       await page.locator('#machine-choice').selectOption(id);await assertFilter(id);
@@ -231,6 +235,79 @@ const expectedIds={
     await page.waitForFunction(()=>/camera/i.test(document.getElementById('machine-status').textContent)&&document.getElementById('machine-manual').open);
     assert.equal(await page.locator('#machine-upload').isVisible(),true);
     assert.equal(await page.locator('#machine-choice').isVisible(),true);
+
+    // Manual search accepts a model number, and broad labels still need a choice.
+    const machineSearch=page.locator('#machine-search'),machineChoice=page.locator('#machine-choice');
+    const options=()=>machineChoice.locator('option').evaluateAll(rows=>rows.map(row=>row.value));
+    await machineSearch.fill('FWHM012');
+    assert.deepEqual(await options(),['','prone-leg-curl']);
+    assert.equal(await page.locator('#machine-filter').isVisible(),false);
+    await machineSearch.press('Enter');
+    await assertFilter('prone-leg-curl');
+    await page.locator('#machine-clear').click();
+    await machineSearch.fill('Leg Curl');
+    assert.deepEqual((await options()).filter(Boolean).sort(),['kneeling-leg-curl','prone-leg-curl','seated-leg-curl','standing-leg-curl']);
+    await machineSearch.press('Enter');
+    assert.equal(await machineChoice.evaluate(choice=>choice===document.activeElement),true);
+    assert.equal(await page.locator('#machine-filter').isVisible(),false);
+    await machineChoice.selectOption('prone-leg-curl');
+    await assertFilter('prone-leg-curl');
+    await page.locator('#machine-clear').click();
+    await machineSearch.fill('Gymleco 362');
+    await machineSearch.press('Enter');
+    assert.match(await page.locator('#machine-status').textContent(),/dedicated exercise guide/i);
+    assert.deepEqual(await cards(),all,'Standing abduction must not show a seated guide as its match');
+    await page.locator('#machine-clear').click();
+
+    // Cable setup filters narrow the existing allowlist, then restore it when cleared.
+    await machineSearch.fill('Functional trainer');
+    await machineSearch.press('Enter');
+    const cableCards=await cards();
+    assert.equal(cableCards.length,51);
+    const attachment=page.locator('#machine-attachment'),pulley=page.locator('#machine-pulley');
+    await attachment.selectOption('single-handle');
+    await pulley.selectOption('low');
+    const lowHandleCards=await cards();
+    assert(lowHandleCards.includes('Bayesian Cable Curl'));
+    assert(!lowHandleCards.includes('Cable Pull-Through'));
+    assert(!lowHandleCards.includes('Single Arm Cable Pulldown'));
+    await pulley.selectOption('high');
+    const highHandleCards=await cards();
+    assert(highHandleCards.includes('Single Arm Cable Pulldown'));
+    assert(!highHandleCards.includes('Bayesian Cable Curl'));
+    await attachment.selectOption('');
+    await pulley.selectOption('');
+    assert.deepEqual(await cards(),cableCards);
+    await page.locator('#machine-clear').click();
+
+    // Read Label uses a separate OCR path, and every suggestion requires confirmation.
+    const suggestedMachines=()=>page.locator('#machine-suggestions [data-machine]').evaluateAll(buttons=>buttons.map(button=>button.dataset.machine));
+    async function readMockLabel(labelResult){
+      await page.evaluate(labelResult=>{
+        window.GymMachineLabel={...window.GymMachineLabel,recognize:async(canvas,{signal})=>{
+          if(!(canvas instanceof HTMLCanvasElement)||!canvas.width||signal.aborted)throw Error('Expected local label pixels');
+          return labelResult;
+        }};
+      },labelResult);
+      await reviewPhoto(()=>selectUpload('equipment-label.png'));
+      const before=await messageCount();
+      await page.locator('#machine-run-label').click();
+      await page.locator('#machine-cancel').waitFor({state:'hidden'});
+      assert.equal(await messageCount(),before,'Reading a label must not call the visual recognition worker');
+      assert.equal(await page.locator('#machine-filter').isVisible(),false,'A label must not select the machine automatically');
+    }
+    await readMockLabel({kind:'exact',machineIds:['prone-leg-curl'],label:'Forward FWHM-012 Lying Leg Curl'});
+    assert.match(await page.locator('#machine-status').textContent(),/FWHM-012/);
+    assert.deepEqual(await suggestedMachines(),['prone-leg-curl']);
+    await page.locator('#machine-suggestions [data-machine="prone-leg-curl"]').click();
+    await assertFilter('prone-leg-curl');
+    await readMockLabel({kind:'possible',machineIds:['prone-leg-curl','seated-leg-curl','standing-leg-curl','kneeling-leg-curl'],label:'Leg Curl'});
+    assert.match(await page.locator('#machine-status').textContent(),/more than one setup/i);
+    assert.deepEqual(await suggestedMachines(),['prone-leg-curl','seated-leg-curl','standing-leg-curl','kneeling-leg-curl']);
+    await readMockLabel({kind:'unknown',machineIds:[],label:''});
+    assert.match(await page.locator('#machine-status').textContent(),/no supported name or model/i);
+    assert.deepEqual(await suggestedMachines(),[]);
+    assert.equal(await machineSearch.isVisible(),true);
 
     // Touch lasso selection changes the recognition input, including pixels inside its bounding box.
     await reviewPhoto(async()=>{
@@ -317,6 +394,35 @@ const expectedIds={
     assert.equal(await page.locator('#machine-photo-preview').isVisible(),false);
     assert.equal(await page.locator('#machine-photo-preview').getAttribute('src'),null);
     assert.equal(await page.locator('#machine-suggestions [data-machine]').count(),0);
+    // Remembering is opt-in. A known embedding is only a suggestion and can be cleared.
+    const embedding=Array.from({length:512},(_,index)=>index===0?1:0);
+    const remember=page.locator('#machine-remember'),forget=page.locator('#machine-forget');
+    const savedCount=()=>page.evaluate(()=>GymMachineReferences.count('guest'));
+    worker=await upload('new-reference.png');
+    await result(worker,[{id:press.id,score:0.72}],embedding);
+    assert.equal(await remember.isVisible(),false);
+    await page.locator('#machine-suggestions [data-machine="'+press.id+'"]').click();
+    assert.equal(await savedCount(),0);
+    assert.equal(await remember.isVisible(),true);
+    await remember.click();
+    assert.equal(await savedCount(),1);
+    assert.equal(await page.evaluate(()=>JSON.stringify(localStorage).includes('data:image/')),false,'Remembering must not save photo pixels');
+    assert.match(await page.locator('#machine-status').textContent(),/remembered on this device/i);
+    await page.locator('#machine-clear').click();
+    worker=await upload('known-reference.png');
+    await result(worker,[{id:'person',score:0.85},{id:extension.id,score:0.1}],embedding);
+    assert.match(await page.locator('#machine-status').textContent(),/machine you remembered/i);
+    assert.equal((await suggestedMachines())[0],press.id);
+    assert.equal(await page.locator('#machine-filter').isVisible(),false);
+    assert.equal(await forget.isVisible(),true);
+    await forget.click();
+    assert.equal(await savedCount(),0);
+    assert.equal(await forget.isVisible(),false);
+    worker=await upload('forgotten-reference.png');
+    await result(worker,[{id:'person',score:0.85}],embedding);
+    assert.deepEqual(await suggestedMachines(),[]);
+    assert.equal(await machineSearch.isVisible(),true);
+
     // Negative model candidates (a person, animal or unrelated object) expose the manual fallback.
     for(const id of ['person','animal','not-gym']){
       worker=await upload('unrecognized-'+id+'.png');
@@ -444,6 +550,6 @@ const expectedIds={
     assert.equal(await page.locator('#machine-filter').isVisible(),false);
     assert.equal(await page.locator('#machine-choice').inputValue(),'');
     assert.deepEqual(uploads,[],'The photo recognition UI must not upload photos');assert.deepEqual(errors,[]);
-    console.log('PASS: live camera and upload review, touch lasso and blur payloads, cleanup, recognition, manual fallback, workout dates, storage and responsive layout (fake camera, mock recognition worker).');
+    console.log('PASS: live camera, upload review, lasso and blur payloads, label suggestions, model search, cable filters, local references, cleanup, workout dates and responsive layout (fake camera and mock recognition).');
   }finally{await browser.close()}
 })().catch(error=>{console.error(error);process.exit(1)});
