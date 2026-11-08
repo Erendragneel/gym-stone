@@ -120,27 +120,77 @@ async function preparePose(pose, { sourceRoot, baseline, atlas, sources, margin 
     if (size !== tile) art = await rgb(sharp(art, { raw: raw(tile, tile) }).resize(size, size));
   }
   const left = Math.floor((tile - size) / 2) + dx, top = Math.floor((tile - size) / 2) + dy;
+  const tapers = pose.tapers ?? (pose.taper ? [pose] : null);
+  if (tapers) {
+    assert(size === tile && Array.isArray(tapers) && tapers.length > 0 && tapers.length <= 2,
+      'Align one or both sides of the original tile');
+    for (const { translate, taper } of tapers) {
+      const [full, zero] = taper;
+      assert(translate.length === 2 && translate.every(Number.isInteger) &&
+        taper.length === 2 && taper.every(x => Number.isInteger(x) && x >= 0 && x < tile) &&
+        Math.abs(full - zero) > Math.abs(translate[0]), 'Use a wide transition between the tower and athlete');
+    }
+    if (tapers.length === 2) {
+      const [[leftFull, leftZero], [rightFull, rightZero]] = tapers.map(alignment => alignment.taper);
+      assert(leftFull < leftZero && leftZero <= rightZero && rightZero < rightFull, 'Keep tower transitions separated');
+    }
+    const bottom = pose.taperBottom;
+    if (bottom) {
+      assert(bottom.length === 2 && bottom.every(y => Number.isInteger(y) && y >= 0 && y < tile) &&
+        bottom[0] < bottom[1], 'Taper above the athlete’s planted feet');
+    }
+    const result = Buffer.alloc(tile * tile * 3, 255);
+    for (let x = 0; x < tile; x++) {
+      let offsetX = 0, offsetY = 0;
+      for (const { translate: [shiftX, shiftY], taper: [full, zero] } of tapers) {
+        const weight = Math.max(0, Math.min(1, (x - zero) / (full - zero)));
+        offsetX += shiftX * weight;
+        offsetY += shiftY * weight;
+      }
+      for (let y = 0; y < tile; y++) {
+        const weight = bottom ? Math.max(0, Math.min(1, (bottom[1] - y) / (bottom[1] - bottom[0]))) : 1;
+        const sourceX = x - offsetX * weight;
+        const sourceY = y - Math.round(offsetY * weight);
+        if (sourceX < 0 || sourceX > tile - 1 || sourceY < 0 || sourceY >= tile) continue;
+        const leftX = Math.floor(sourceX);
+        const fraction = sourceX - leftX;
+        const start = (sourceY * tile + leftX) * 3;
+        const destination = (y * tile + x) * 3;
+        if (fraction === 0) {
+          art.copy(result, destination, start, start + 3);
+        } else {
+          for (let channel = 0; channel < 3; channel++) {
+            const leftValue = art[start + channel];
+            const rightValue = art[start + 3 + channel];
+            result[destination + channel] = Math.round(leftValue + fraction * (rightValue - leftValue));
+          }
+        }
+      }
+    }
+    checkMargin(artworkBounds(result, tile), margin);
+    return result;
+  }
   checkMargin(artworkBounds(art, size), margin, left, top);
   const result = Buffer.alloc(tile * tile * 3, 255);
   blit(result, art, size, size, left, top);
   return result;
 }
 
-function lockPixels(lock) {
-  if (lock.rect) {
-    const [x, y, width, height] = lock.rect;
-    assert(!lock.polygon && lock.rect.length === 4 && lock.rect.every(Number.isInteger) &&
+function regionPixels(region) {
+  if (region.rect) {
+    const [x, y, width, height] = region.rect;
+    assert(!region.polygon && region.rect.length === 4 && region.rect.every(Number.isInteger) &&
       x >= 0 && y >= 0 && width > 0 && height > 0 && x + width <= tile && y + height <= tile,
-    'Invalid stationary rectangle');
+    'Invalid pose rectangle');
     return Array.from({ length: height }, (_, row) => {
       const start = ((y + row) * tile + x) * 3;
       return [start, start + width * 3];
     });
   }
-  const points = lock.polygon;
+  const points = region.polygon;
   assert(Array.isArray(points) && points.length >= 3 && points.every(point =>
     Array.isArray(point) && point.length === 2 && point.every(value => Number.isInteger(value) && value >= 0 && value <= tile)
-  ), 'Invalid stationary polygon');
+  ), 'Invalid pose polygon');
   const runs = [];
   const yMin = Math.min(...points.map(point => point[1])), yMax = Math.max(...points.map(point => point[1]));
   for (let y = yMin; y < yMax; y++) {
@@ -155,21 +205,53 @@ function lockPixels(lock) {
       if (x1 > x0) runs.push([(y * tile + x0) * 3, (y * tile + x1) * 3]);
     }
   }
-  assert(runs.length, 'Stationary polygon covers no pixels');
+  assert(runs.length, 'Pose polygon covers no pixels');
   return runs;
 }
 
-function lockStationaryRegions(poses, locks) {
-  const result = poses.map(pose => Buffer.from(pose));
+function fixedSceneRegions(poses, scene) {
+  const base = poses[scene.from];
+  assert(Number.isInteger(scene.from) && base && Array.isArray(scene.moving) && scene.moving.length,
+    'A fixed scene needs a base pose and moving regions');
+  const moving = scene.moving.flatMap(regionPixels).sort((a, b) => a[0] - b[0]);
+  const fixed = [];
+  let cursor = 0;
+  for (const [start, end] of moving) {
+    if (start > cursor) fixed.push([cursor, start]);
+    cursor = Math.max(cursor, end);
+  }
+  if (cursor < base.length) fixed.push([cursor, base.length]);
+  assert(fixed.length, 'Keep part of the scene fixed');
+  return { base, moving, fixed };
+}
+
+function composePoses(prepared, locks, scene) {
+  const fixedScene = scene && fixedSceneRegions(prepared, scene);
+  const checks = prepared.map(() => []);
+  const poses = prepared.map((source, index) => {
+    if (!fixedScene) return Buffer.from(source);
+    const pose = Buffer.from(fixedScene.base);
+    for (const [start, end] of fixedScene.moving) source.copy(pose, start, start, end);
+    checks[index].push({ source: fixedScene.base, pixels: fixedScene.fixed, label: 'fixed scene' });
+    return pose;
+  });
   for (const lock of locks) {
-    assert(Number.isInteger(lock.from) && poses[lock.from] && Array.isArray(lock.to) && lock.to.length > 0 &&
-      lock.to.every(index => Number.isInteger(index) && index !== lock.from && result[index]), 'Invalid stationary lock targets');
-    const pixels = lockPixels(lock);
+    const source = prepared[lock.from];
+    assert(Number.isInteger(lock.from) && source && Array.isArray(lock.to) && lock.to.length > 0 &&
+      lock.to.every(index => Number.isInteger(index) && index !== lock.from && poses[index]), 'Invalid stationary lock targets');
+    const pixels = regionPixels(lock);
     for (const index of lock.to) {
-      for (const [start, end] of pixels) poses[lock.from].copy(result[index], start, start, end);
+      for (const [start, end] of pixels) source.copy(poses[index], start, start, end);
+      checks[index].push({ source, pixels, label: 'stationary lock' });
     }
   }
-  return result;
+  function verify(index, pose) {
+    for (const { source, pixels, label } of checks[index]) {
+      assert(pixels.every(([start, end]) => pose.subarray(start, end).equals(source.subarray(start, end))),
+        `Pose ${index} changed its ${label} pixels`);
+    }
+  }
+  return { poses, verify };
 }
 
 function timing({ poses, sequence, reverse, delayMs }) {
@@ -197,8 +279,12 @@ async function packVariant(recipe, context, current) {
   const sources = new Map();
   const prepared = [];
   for (const pose of recipe.poses) prepared.push(await preparePose(pose, { ...context, margin, sources }));
-  const poses = lockStationaryRegions(prepared, recipe.locks ?? []);
-  for (const pose of poses) checkMargin(artworkBounds(pose, tile), margin);
+  const composition = composePoses(prepared, recipe.locks ?? [], recipe.fixedScene);
+  const { poses } = composition;
+  for (const [index, pose] of poses.entries()) {
+    checkMargin(artworkBounds(pose, tile), margin);
+    composition.verify(index, pose);
+  }
   assert.equal(new Set(poses.map(hash)).size, poses.length, 'Reviewed poses include identical artwork');
 
   const columns = Math.min(8, poses.length, recipe.columns ?? 4);
@@ -214,7 +300,9 @@ async function packVariant(recipe, context, current) {
   assert((await rgb(sharp(posterBytes))).equals(expectedPoster), 'Poster pixels changed during encoding');
   const decodedAtlas = await rgb(sharp(atlasBytes), { resolveWithObject: true });
   for (let i = 0; i < poses.length; i++) {
-    assert(atlasTile(decodedAtlas, left(i), top(i)).equals(poses[i]), `Pose ${i} pixels changed during encoding`);
+    const decoded = atlasTile(decodedAtlas, left(i), top(i));
+    assert(decoded.equals(poses[i]), `Pose ${i} pixels changed during encoding`);
+    composition.verify(i, decoded);
   }
 
   const poster = current.poster;
@@ -236,9 +324,10 @@ async function build(recipePath, mode, destination) {
   const sourcePath = fs.realpathSync(recipePath);
   const sourceRoot = path.dirname(sourcePath);
   const recipe = read(fs.readFileSync(sourcePath));
-  const { baseCommit, exercises, reviewedOn } = recipe;
+  const { baseCommit, exercises, reviewedOn, releaseKey = 'machineMotionRepair' } = recipe;
   assert(/^[0-9a-f]{40}$/.test(baseCommit) && Array.isArray(exercises) && exercises.length, 'Provide a pinned source commit and reviewed exercises');
   assert(/^\d{4}-\d{2}-\d{2}$/.test(reviewedOn), 'Provide the artwork review date');
+  assert(releaseKey === 'machineMotionRepair' || /^[a-z][A-Za-z]*FrameLock$/.test(releaseKey), 'Invalid motion release record key');
   if (mode === '--apply') assert(sourceRoot.startsWith(path.join(root, 'animation-source') + path.sep), 'Keep release sources in the checkout');
   const baseline = read(gitFile(baseCommit, catalogPath));
   const catalog = read(fs.readFileSync(path.join(root, catalogPath)));
@@ -297,7 +386,10 @@ async function build(recipePath, mode, destination) {
   release.keyframes = catalog.filter(row => !row.postpartum && !row.kettlebellAnimation)
     .reduce((total, row) => total + Object.values(row.variants).reduce((count, variant) => count + variant.animation.keyframes, 0), 0);
   const repaired = [...reviewed.keys()];
-  release.machineMotionRepair = { date: reviewedOn, exercises: repaired, variants: bindings.length, pixelsVerified: true };
+  const report = { date: reviewedOn, exercises: repaired, variants: bindings.length, pixelsVerified: true };
+  const fixedSceneVariants = exercises.flatMap(exercise => Object.values(exercise.variants)).filter(variant => variant.fixedScene).length;
+  if (fixedSceneVariants) report.fixedSceneVariants = fixedSceneVariants;
+  release[releaseKey] = report;
   files.set(catalogPath, json(catalog));
   files.set(releasePath, json(release));
 

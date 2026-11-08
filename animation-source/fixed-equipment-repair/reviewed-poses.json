@@ -1,0 +1,7778 @@
+{
+  "baseCommit": "8f2ee009fa5397764ef9c82ea7b937164e2a4693",
+  "reviewedOn": "2026-11-08",
+  "releaseKey": "fixedEquipmentFrameLock",
+  "exercises": [
+    {
+      "id": "guide-prone-leg-curl",
+      "framing": "One stationary bench, chassis and supported upper body; lower legs and loaded ankle lever move through one curl.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    235,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    315
+                  ],
+                  [
+                    290,
+                    315
+                  ],
+                  [
+                    275,
+                    305
+                  ],
+                  [
+                    267,
+                    292
+                  ],
+                  [
+                    260,
+                    273
+                  ],
+                  [
+                    256,
+                    262
+                  ],
+                  [
+                    251,
+                    255
+                  ],
+                  [
+                    258,
+                    251
+                  ],
+                  [
+                    258,
+                    239
+                  ],
+                  [
+                    277,
+                    237
+                  ],
+                  [
+                    277,
+                    227
+                  ],
+                  [
+                    235,
+                    223
+                  ]
+                ]
+              }
+            ]
+          },
+          "minBorder": 20
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    225,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    315
+                  ],
+                  [
+                    305,
+                    315
+                  ],
+                  [
+                    302,
+                    306
+                  ],
+                  [
+                    296,
+                    284
+                  ],
+                  [
+                    288,
+                    269
+                  ],
+                  [
+                    292,
+                    259
+                  ],
+                  [
+                    291,
+                    247
+                  ],
+                  [
+                    300,
+                    240
+                  ],
+                  [
+                    300,
+                    226
+                  ],
+                  [
+                    225,
+                    218
+                  ]
+                ]
+              }
+            ]
+          },
+          "minBorder": 20
+        }
+      }
+    },
+    {
+      "id": "exp-single-leg-prone-leg-curl",
+      "framing": "The base, bench and tower stay fixed while the working lower leg, ankle roller, linkage and stack move.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                1,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                5,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                1,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    242,
+                    118
+                  ],
+                  [
+                    330,
+                    118
+                  ],
+                  [
+                    361,
+                    154
+                  ],
+                  [
+                    384,
+                    187
+                  ],
+                  [
+                    389,
+                    279
+                  ],
+                  [
+                    328,
+                    279
+                  ],
+                  [
+                    328,
+                    247
+                  ],
+                  [
+                    317,
+                    243
+                  ],
+                  [
+                    303,
+                    239
+                  ],
+                  [
+                    273,
+                    233
+                  ],
+                  [
+                    241,
+                    229
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  159,
+                  79,
+                  47,
+                  91
+                ]
+              }
+            ]
+          },
+          "minBorder": 4
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                1,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                6,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    242,
+                    118
+                  ],
+                  [
+                    330,
+                    118
+                  ],
+                  [
+                    361,
+                    154
+                  ],
+                  [
+                    384,
+                    187
+                  ],
+                  [
+                    389,
+                    279
+                  ],
+                  [
+                    328,
+                    279
+                  ],
+                  [
+                    328,
+                    247
+                  ],
+                  [
+                    317,
+                    243
+                  ],
+                  [
+                    303,
+                    239
+                  ],
+                  [
+                    273,
+                    233
+                  ],
+                  [
+                    241,
+                    229
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  159,
+                  79,
+                  47,
+                  91
+                ]
+              }
+            ]
+          },
+          "minBorder": 4
+        }
+      }
+    },
+    {
+      "id": "exp-plate-loaded-lat-pulldown",
+      "framing": "The lower chassis stays fixed while the two loaded handles and the athlete’s arms move.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            },
+            {
+              "tile": 4
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            360,
+            170,
+            180,
+            190,
+            300,
+            250,
+            270,
+            290
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  0,
+                  0,
+                  420,
+                  326
+                ]
+              }
+            ]
+          }
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            470,
+            220,
+            210,
+            320,
+            410,
+            380
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  0,
+                  0,
+                  420,
+                  228
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "exp-hack-squat-machine",
+      "framing": "The base and footplate stay anchored while the padded carriage and plates travel along the rails and the athlete bends at the knees and hips.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 1,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    299
+                  ],
+                  [
+                    373,
+                    300
+                  ],
+                  [
+                    350,
+                    307
+                  ],
+                  [
+                    311,
+                    312
+                  ],
+                  [
+                    265,
+                    320
+                  ],
+                  [
+                    233,
+                    334
+                  ],
+                  [
+                    169,
+                    334
+                  ],
+                  [
+                    150,
+                    300
+                  ],
+                  [
+                    113,
+                    271
+                  ],
+                  [
+                    0,
+                    263
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 1,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    299
+                  ],
+                  [
+                    373,
+                    300
+                  ],
+                  [
+                    350,
+                    307
+                  ],
+                  [
+                    311,
+                    312
+                  ],
+                  [
+                    265,
+                    320
+                  ],
+                  [
+                    233,
+                    334
+                  ],
+                  [
+                    169,
+                    334
+                  ],
+                  [
+                    150,
+                    300
+                  ],
+                  [
+                    113,
+                    271
+                  ],
+                  [
+                    0,
+                    263
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "g3-18_Single_Arm_Cable_Curl",
+      "framing": "The cable tower chassis stays fixed as the weight stack, cable and curling arm move.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    -9,
+                    0
+                  ],
+                  "taper": [
+                    175,
+                    215
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -10,
+                    0
+                  ],
+                  "taper": [
+                    175,
+                    215
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    -11,
+                    1
+                  ],
+                  "taper": [
+                    175,
+                    215
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    174,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    174,
+                    420
+                  ],
+                  [
+                    174,
+                    335
+                  ],
+                  [
+                    153,
+                    329
+                  ],
+                  [
+                    153,
+                    267
+                  ],
+                  [
+                    174,
+                    254
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  87,
+                  171,
+                  36,
+                  157
+                ]
+              }
+            ]
+          }
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    -8,
+                    0
+                  ],
+                  "taper": [
+                    175,
+                    215
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -7,
+                    0
+                  ],
+                  "taper": [
+                    175,
+                    215
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    -11,
+                    0
+                  ],
+                  "taper": [
+                    175,
+                    215
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    174,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    174,
+                    420
+                  ],
+                  [
+                    174,
+                    335
+                  ],
+                  [
+                    153,
+                    329
+                  ],
+                  [
+                    153,
+                    267
+                  ],
+                  [
+                    174,
+                    254
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  89,
+                  141,
+                  37,
+                  185
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "exp-single-arm-cable-chest-press",
+      "framing": "The cable tower chassis stays fixed as the athlete presses the cable and the stack travels.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    2,
+                    0
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    5,
+                    0
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    4,
+                    -1
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    -2
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    3,
+                    -2
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    -3
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    2,
+                    -2
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    160,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    160,
+                    420
+                  ],
+                  [
+                    160,
+                    161
+                  ],
+                  [
+                    133,
+                    156
+                  ],
+                  [
+                    133,
+                    114
+                  ],
+                  [
+                    160,
+                    109
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  105,
+                  190,
+                  24,
+                  112
+                ]
+              }
+            ]
+          }
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    1
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    1
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    -1
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    2,
+                    -2
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    -1
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    2,
+                    -2
+                  ],
+                  "taper": [
+                    145,
+                    198
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    160,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    160,
+                    420
+                  ],
+                  [
+                    160,
+                    161
+                  ],
+                  [
+                    133,
+                    156
+                  ],
+                  [
+                    133,
+                    114
+                  ],
+                  [
+                    160,
+                    109
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  105,
+                  190,
+                  24,
+                  112
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "exp-standing-high-cable-row",
+      "framing": "The cable tower base and uprights stay fixed while the handles, cable and stack move.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    0
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    0
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    6,
+                    0
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    -1,
+                    1
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    -1,
+                    1
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    -3,
+                    1
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    3,
+                    2
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    229,
+                    0
+                  ],
+                  [
+                    229,
+                    49
+                  ],
+                  [
+                    255,
+                    58
+                  ],
+                  [
+                    255,
+                    90
+                  ],
+                  [
+                    238,
+                    99
+                  ],
+                  [
+                    228,
+                    177
+                  ],
+                  [
+                    228,
+                    420
+                  ],
+                  [
+                    0,
+                    420
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  276,
+                  176,
+                  37,
+                  160
+                ]
+              }
+            ]
+          }
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    -1,
+                    0
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -1,
+                    2
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    4,
+                    2
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    -1,
+                    2
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    2
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    -2,
+                    1
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    3,
+                    1
+                  ],
+                  "taper": [
+                    250,
+                    217
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    0,
+                    0
+                  ],
+                  [
+                    229,
+                    0
+                  ],
+                  [
+                    229,
+                    49
+                  ],
+                  [
+                    255,
+                    58
+                  ],
+                  [
+                    255,
+                    90
+                  ],
+                  [
+                    238,
+                    99
+                  ],
+                  [
+                    228,
+                    177
+                  ],
+                  [
+                    228,
+                    420
+                  ],
+                  [
+                    0,
+                    420
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  276,
+                  176,
+                  37,
+                  160
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "exp-seated-leg-curl",
+      "framing": "The floor frame, rear support and tower stay fixed while the legs curl and the linked roller and stack move.",
+      "variants": {
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                1,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                3,
+                0
+              ]
+            },
+            {
+              "tile": 4,
+              "translate": [
+                0,
+                -2
+              ]
+            },
+            {
+              "tile": 5,
+              "translate": [
+                1,
+                -2
+              ]
+            },
+            {
+              "tile": 6,
+              "translate": [
+                1,
+                -2
+              ]
+            },
+            {
+              "tile": 7,
+              "translate": [
+                3,
+                -2
+              ]
+            },
+            {
+              "tile": 8,
+              "translate": [
+                0,
+                -3
+              ]
+            },
+            {
+              "tile": 9,
+              "translate": [
+                1,
+                -3
+              ]
+            },
+            {
+              "tile": 10,
+              "translate": [
+                1,
+                -3
+              ]
+            },
+            {
+              "tile": 11,
+              "translate": [
+                3,
+                -3
+              ]
+            },
+            {
+              "tile": 12,
+              "translate": [
+                0,
+                -1
+              ]
+            },
+            {
+              "tile": 13,
+              "translate": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tile": 14,
+              "translate": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tile": 15,
+              "translate": [
+                3,
+                -1
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            320,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            320,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "rect": [
+                0,
+                369,
+                420,
+                51
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            },
+            {
+              "rect": [
+                337,
+                310,
+                83,
+                110
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            },
+            {
+              "rect": [
+                0,
+                0,
+                131,
+                164
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            },
+            {
+              "rect": [
+                131,
+                0,
+                106,
+                54
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            },
+            {
+              "rect": [
+                211,
+                54,
+                26,
+                110
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-reverse-hyperextension-machine",
+      "framing": "Fixed upper body, bench and front chassis; lower body and loaded linkage swing behind the hip pivot.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    206,
+                    114
+                  ],
+                  [
+                    395,
+                    114
+                  ],
+                  [
+                    395,
+                    321
+                  ],
+                  [
+                    325,
+                    343
+                  ],
+                  [
+                    213,
+                    343
+                  ],
+                  [
+                    211,
+                    289
+                  ],
+                  [
+                    204,
+                    245
+                  ],
+                  [
+                    202,
+                    190
+                  ],
+                  [
+                    205,
+                    151
+                  ]
+                ]
+              }
+            ]
+          },
+          "minBorder": 20
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    206,
+                    114
+                  ],
+                  [
+                    395,
+                    114
+                  ],
+                  [
+                    395,
+                    321
+                  ],
+                  [
+                    325,
+                    343
+                  ],
+                  [
+                    213,
+                    343
+                  ],
+                  [
+                    211,
+                    289
+                  ],
+                  [
+                    204,
+                    245
+                  ],
+                  [
+                    202,
+                    190
+                  ],
+                  [
+                    205,
+                    151
+                  ]
+                ]
+              }
+            ]
+          },
+          "minBorder": 20
+        }
+      }
+    },
+    {
+      "id": "exp-standing-cable-leg-extension",
+      "framing": "The low cable unit and standing support stay fixed while the leg extends against the ankle cable.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                36,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                39,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                48,
+                0
+              ]
+            },
+            {
+              "tile": 4,
+              "translate": [
+                45,
+                1
+              ]
+            },
+            {
+              "tile": 5,
+              "translate": [
+                41,
+                1
+              ]
+            },
+            {
+              "tile": 6,
+              "translate": [
+                25,
+                1
+              ]
+            },
+            {
+              "tile": 7,
+              "translate": [
+                -3,
+                1
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "rect": [
+                88,
+                341,
+                93,
+                33
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "rect": [
+                294,
+                347,
+                88,
+                30
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            }
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                36,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                37,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                48,
+                0
+              ]
+            },
+            {
+              "tile": 4,
+              "translate": [
+                44,
+                0
+              ]
+            },
+            {
+              "tile": 5,
+              "translate": [
+                42,
+                0
+              ]
+            },
+            {
+              "tile": 6,
+              "translate": [
+                23,
+                0
+              ]
+            },
+            {
+              "tile": 7,
+              "translate": [
+                -2,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "rect": [
+                88,
+                341,
+                93,
+                33
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            },
+            {
+              "rect": [
+                294,
+                347,
+                88,
+                30
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-treadmill-jog",
+      "framing": "The display, uprights and base stay fixed while the belt and runner move.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            },
+            {
+              "tile": 4
+            },
+            {
+              "tile": 5
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "delayMs": [
+            650,
+            850,
+            500,
+            650,
+            850,
+            500
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "rect": [
+                46,
+                330,
+                338,
+                44
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  277,
+                  120
+                ],
+                [
+                  363,
+                  120
+                ],
+                [
+                  371,
+                  178
+                ],
+                [
+                  339,
+                  194
+                ],
+                [
+                  382,
+                  332
+                ],
+                [
+                  292,
+                  335
+                ],
+                [
+                  290,
+                  315
+                ],
+                [
+                  312,
+                  294
+                ],
+                [
+                  284,
+                  195
+                ],
+                [
+                  277,
+                  196
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            },
+            {
+              "tile": 4
+            },
+            {
+              "tile": 5
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "delayMs": [
+            650,
+            850,
+            500,
+            650,
+            850,
+            500
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "rect": [
+                62,
+                330,
+                322,
+                44
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  273,
+                  130
+                ],
+                [
+                  357,
+                  128
+                ],
+                [
+                  370,
+                  178
+                ],
+                [
+                  340,
+                  193
+                ],
+                [
+                  381,
+                  334
+                ],
+                [
+                  291,
+                  335
+                ],
+                [
+                  289,
+                  313
+                ],
+                [
+                  312,
+                  293
+                ],
+                [
+                  282,
+                  196
+                ],
+                [
+                  273,
+                  195
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-elliptical-trainer",
+      "framing": "The floor feet and housing stay fixed while the pedals and linked handles move.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            },
+            {
+              "tile": 4
+            },
+            {
+              "tile": 5
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "delayMs": [
+            550,
+            500,
+            700,
+            900,
+            750,
+            600
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "polygon": [
+                [
+                  64,
+                  250
+                ],
+                [
+                  126,
+                  239
+                ],
+                [
+                  128,
+                  267
+                ],
+                [
+                  111,
+                  295
+                ],
+                [
+                  126,
+                  316
+                ],
+                [
+                  139,
+                  330
+                ],
+                [
+                  135,
+                  344
+                ],
+                [
+                  64,
+                  347
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  86,
+                  321
+                ],
+                [
+                  138,
+                  325
+                ],
+                [
+                  303,
+                  343
+                ],
+                [
+                  313,
+                  364
+                ],
+                [
+                  78,
+                  346
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  301,
+                  340
+                ],
+                [
+                  339,
+                  335
+                ],
+                [
+                  364,
+                  324
+                ],
+                [
+                  371,
+                  365
+                ],
+                [
+                  297,
+                  369
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            },
+            {
+              "tile": 4
+            },
+            {
+              "tile": 5
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "delayMs": [
+            550,
+            500,
+            700,
+            900,
+            750,
+            600
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "polygon": [
+                [
+                  66,
+                  260
+                ],
+                [
+                  124,
+                  250
+                ],
+                [
+                  127,
+                  275
+                ],
+                [
+                  113,
+                  301
+                ],
+                [
+                  125,
+                  320
+                ],
+                [
+                  137,
+                  334
+                ],
+                [
+                  132,
+                  349
+                ],
+                [
+                  66,
+                  351
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  86,
+                  325
+                ],
+                [
+                  133,
+                  333
+                ],
+                [
+                  302,
+                  349
+                ],
+                [
+                  311,
+                  369
+                ],
+                [
+                  79,
+                  350
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  301,
+                  342
+                ],
+                [
+                  339,
+                  335
+                ],
+                [
+                  364,
+                  327
+                ],
+                [
+                  371,
+                  367
+                ],
+                [
+                  296,
+                  374
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-rowing-machine",
+      "framing": "The rail, monitor support and floor feet stay fixed while the seat and handle travel.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            },
+            {
+              "tile": 4
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            2,
+            1,
+            0
+          ],
+          "delayMs": [
+            400,
+            350,
+            350,
+            450,
+            400,
+            600,
+            650,
+            800
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "rect": [
+                15,
+                276,
+                198,
+                55
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "rect": [
+                338,
+                280,
+                65,
+                56
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "rect": [
+                297,
+                159,
+                22,
+                34
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            },
+            {
+              "tile": 4
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            2,
+            1,
+            0
+          ],
+          "delayMs": [
+            400,
+            350,
+            350,
+            450,
+            400,
+            600,
+            650,
+            800
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "rect": [
+                24,
+                292,
+                207,
+                52
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "rect": [
+                349,
+                296,
+                63,
+                51
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "rect": [
+                313,
+                187,
+                23,
+                36
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-air-bike",
+      "framing": "The floor frame stays fixed while the cranks, pedals and handle arms move.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            },
+            {
+              "tile": 4
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "delayMs": [
+            700,
+            700,
+            1000,
+            800,
+            800
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "polygon": [
+                [
+                  59,
+                  358
+                ],
+                [
+                  108,
+                  345
+                ],
+                [
+                  123,
+                  347
+                ],
+                [
+                  134,
+                  360
+                ],
+                [
+                  224,
+                  358
+                ],
+                [
+                  232,
+                  371
+                ],
+                [
+                  232,
+                  390
+                ],
+                [
+                  58,
+                  390
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  230,
+                  377
+                ],
+                [
+                  275,
+                  374
+                ],
+                [
+                  346,
+                  367
+                ],
+                [
+                  350,
+                  394
+                ],
+                [
+                  228,
+                  394
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            },
+            {
+              "tile": 4
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "delayMs": [
+            700,
+            700,
+            1000,
+            800,
+            800
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "polygon": [
+                [
+                  59,
+                  358
+                ],
+                [
+                  108,
+                  345
+                ],
+                [
+                  123,
+                  347
+                ],
+                [
+                  134,
+                  360
+                ],
+                [
+                  224,
+                  358
+                ],
+                [
+                  232,
+                  371
+                ],
+                [
+                  232,
+                  393
+                ],
+                [
+                  58,
+                  393
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4
+              ]
+            },
+            {
+              "polygon": [
+                [
+                  230,
+                  377
+                ],
+                [
+                  275,
+                  374
+                ],
+                [
+                  346,
+                  368
+                ],
+                [
+                  350,
+                  396
+                ],
+                [
+                  228,
+                  396
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-stair-climber",
+      "framing": "The side cover, console and foot stay fixed while the steps cycle under the athlete.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            },
+            {
+              "tile": 4
+            },
+            {
+              "tile": 5
+            },
+            {
+              "tile": 6
+            },
+            {
+              "tile": 7
+            },
+            {
+              "tile": 8
+            },
+            {
+              "tile": 9
+            },
+            {
+              "tile": 10
+            },
+            {
+              "tile": 11
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "delayMs": [
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            337
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "polygon": [
+                [
+                  244,
+                  231
+                ],
+                [
+                  289,
+                  230
+                ],
+                [
+                  297,
+                  347
+                ],
+                [
+                  195,
+                  355
+                ],
+                [
+                  194,
+                  329
+                ],
+                [
+                  201,
+                  313
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            },
+            {
+              "rect": [
+                236,
+                140,
+                48,
+                29
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            },
+            {
+              "rect": [
+                100,
+                332,
+                35,
+                22
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            }
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            },
+            {
+              "tile": 4
+            },
+            {
+              "tile": 5
+            },
+            {
+              "tile": 6
+            },
+            {
+              "tile": 7
+            },
+            {
+              "tile": 8
+            },
+            {
+              "tile": 9
+            },
+            {
+              "tile": 10
+            },
+            {
+              "tile": 11
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "delayMs": [
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            333,
+            337
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "locks": [
+            {
+              "polygon": [
+                [
+                  244,
+                  232
+                ],
+                [
+                  298,
+                  231
+                ],
+                [
+                  306,
+                  351
+                ],
+                [
+                  195,
+                  359
+                ],
+                [
+                  190,
+                  330
+                ],
+                [
+                  204,
+                  311
+                ]
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            },
+            {
+              "rect": [
+                244,
+                142,
+                47,
+                31
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            },
+            {
+              "rect": [
+                101,
+                333,
+                35,
+                24
+              ],
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-standing-hip-extension-machine",
+      "framing": "Registered weight tower and fixed floor supports; working leg and linkage move through the extension.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                -20,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                7,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                26,
+                -1
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                20,
+                0
+              ]
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  177,
+                  0,
+                  243,
+                  420
+                ]
+              },
+              {
+                "rect": [
+                  125,
+                  145,
+                  39,
+                  164
+                ]
+              },
+              {
+                "rect": [
+                  164,
+                  221,
+                  36,
+                  58
+                ]
+              }
+            ]
+          },
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                177,
+                322,
+                48,
+                62
+              ]
+            }
+          ],
+          "minBorder": 20
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                -20,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                7,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                22,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                27,
+                -1
+              ]
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  177,
+                  0,
+                  243,
+                  420
+                ]
+              },
+              {
+                "rect": [
+                  125,
+                  145,
+                  39,
+                  164
+                ]
+              },
+              {
+                "rect": [
+                  164,
+                  221,
+                  36,
+                  58
+                ]
+              }
+            ]
+          },
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                177,
+                322,
+                48,
+                62
+              ]
+            }
+          ],
+          "minBorder": 20
+        }
+      }
+    },
+    {
+      "id": "exp-single-leg-seated-leg-curl",
+      "framing": "Fixed seat, body and floor frame; working lower leg, roller and weight stack move through one controlled curl.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                5,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                7,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                8,
+                0
+              ]
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    61,
+                    174
+                  ],
+                  [
+                    120,
+                    172
+                  ],
+                  [
+                    135,
+                    210
+                  ],
+                  [
+                    221,
+                    211
+                  ],
+                  [
+                    238,
+                    246
+                  ],
+                  [
+                    238,
+                    310
+                  ],
+                  [
+                    64,
+                    314
+                  ],
+                  [
+                    45,
+                    286
+                  ],
+                  [
+                    50,
+                    235
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  151,
+                  95,
+                  47,
+                  117
+                ]
+              }
+            ]
+          },
+          "minBorder": 20
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                3,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                7,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                7,
+                -1
+              ]
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    61,
+                    174
+                  ],
+                  [
+                    120,
+                    172
+                  ],
+                  [
+                    135,
+                    210
+                  ],
+                  [
+                    221,
+                    211
+                  ],
+                  [
+                    238,
+                    246
+                  ],
+                  [
+                    238,
+                    310
+                  ],
+                  [
+                    64,
+                    314
+                  ],
+                  [
+                    45,
+                    286
+                  ],
+                  [
+                    50,
+                    235
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  151,
+                  95,
+                  47,
+                  117
+                ]
+              }
+            ]
+          },
+          "minBorder": 20
+        }
+      }
+    },
+    {
+      "id": "g0-22_Hip_Adduction_Machine",
+      "framing": "Registered fixed tower and central seat support; moving leg pads and feet stay free.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                1,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                2,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                3,
+                0
+              ]
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    179,
+                    110
+                  ],
+                  [
+                    410,
+                    110
+                  ],
+                  [
+                    411,
+                    370
+                  ],
+                  [
+                    109,
+                    370
+                  ],
+                  [
+                    111,
+                    288
+                  ],
+                  [
+                    124,
+                    228
+                  ],
+                  [
+                    160,
+                    210
+                  ],
+                  [
+                    175,
+                    185
+                  ],
+                  [
+                    179,
+                    160
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  123,
+                  161,
+                  39,
+                  59
+                ]
+              }
+            ]
+          },
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                252,
+                279,
+                20,
+                75
+              ]
+            }
+          ],
+          "minBorder": 20
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                1,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                1,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                2,
+                0
+              ]
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    179,
+                    110
+                  ],
+                  [
+                    410,
+                    110
+                  ],
+                  [
+                    411,
+                    370
+                  ],
+                  [
+                    109,
+                    370
+                  ],
+                  [
+                    111,
+                    288
+                  ],
+                  [
+                    124,
+                    228
+                  ],
+                  [
+                    160,
+                    210
+                  ],
+                  [
+                    175,
+                    185
+                  ],
+                  [
+                    179,
+                    160
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  123,
+                  161,
+                  39,
+                  59
+                ]
+              }
+            ]
+          },
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                252,
+                279,
+                20,
+                75
+              ]
+            }
+          ],
+          "minBorder": 20
+        }
+      }
+    },
+    {
+      "id": "exp-single-leg-leg-press",
+      "framing": "Matched base scale and fixed floor rail; carriage and working foot travel on the rails.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ],
+              "size": 410
+            },
+            {
+              "tile": 1,
+              "translate": [
+                -2,
+                -3
+              ],
+              "size": 420
+            },
+            {
+              "tile": 2,
+              "translate": [
+                -3,
+                -4
+              ],
+              "size": 420
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            450,
+            350,
+            500,
+            550
+          ],
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2
+              ],
+              "rect": [
+                0,
+                319,
+                420,
+                101
+              ]
+            }
+          ],
+          "minBorder": 20
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ],
+              "size": 410
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                -3
+              ],
+              "size": 420
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                -1
+              ],
+              "size": 416
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            450,
+            350,
+            500,
+            550
+          ],
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2
+              ],
+              "rect": [
+                0,
+                319,
+                420,
+                101
+              ]
+            }
+          ],
+          "minBorder": 20
+        }
+      }
+    },
+    {
+      "id": "exp-side-plank-cable-row",
+      "framing": "Fixed outer cable station; only intended exercise parts move.",
+      "variants": {
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    0
+                  ],
+                  "taper": [
+                    104,
+                    121
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    4,
+                    1
+                  ],
+                  "taper": [
+                    104,
+                    121
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    5,
+                    0
+                  ],
+                  "taper": [
+                    104,
+                    121
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    6,
+                    2
+                  ],
+                  "taper": [
+                    104,
+                    121
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    7,
+                    2
+                  ],
+                  "taper": [
+                    104,
+                    121
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    5,
+                    0
+                  ],
+                  "taper": [
+                    104,
+                    121
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    6,
+                    2
+                  ],
+                  "taper": [
+                    104,
+                    121
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    6,
+                    0
+                  ],
+                  "taper": [
+                    104,
+                    121
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            320,
+            280,
+            280,
+            280,
+            280,
+            280,
+            280,
+            320,
+            280,
+            280,
+            280,
+            280,
+            280,
+            280
+          ],
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  59,
+                  188,
+                  31,
+                  111
+                ]
+              },
+              {
+                "polygon": [
+                  [
+                    152,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    143,
+                    420
+                  ],
+                  [
+                    143,
+                    298
+                  ],
+                  [
+                    122,
+                    281
+                  ],
+                  [
+                    109,
+                    269
+                  ],
+                  [
+                    102,
+                    264
+                  ],
+                  [
+                    102,
+                    254
+                  ],
+                  [
+                    115,
+                    245
+                  ],
+                  [
+                    122,
+                    235
+                  ],
+                  [
+                    125,
+                    207
+                  ],
+                  [
+                    119,
+                    173
+                  ],
+                  [
+                    150,
+                    152
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "exp-smith-machine-seated-calf-raise",
+      "framing": "The Smith rack, bench base and floor platform stay fixed while the bar and loaded plates travel on their guides.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                1,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                -1
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                4,
+                0
+              ]
+            },
+            {
+              "tile": 4,
+              "translate": [
+                6,
+                0
+              ]
+            },
+            {
+              "tile": 5,
+              "translate": [
+                1,
+                -1
+              ]
+            },
+            {
+              "tile": 6,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 7,
+              "translate": [
+                4,
+                -1
+              ]
+            },
+            {
+              "tile": 8,
+              "translate": [
+                0,
+                2
+              ]
+            },
+            {
+              "tile": 9,
+              "translate": [
+                7,
+                -1
+              ]
+            },
+            {
+              "tile": 10,
+              "translate": [
+                4,
+                0
+              ]
+            },
+            {
+              "tile": 11,
+              "translate": [
+                2,
+                0
+              ]
+            },
+            {
+              "tile": 12,
+              "translate": [
+                2,
+                2
+              ]
+            },
+            {
+              "tile": 13,
+              "translate": [
+                4,
+                2
+              ]
+            },
+            {
+              "tile": 14,
+              "translate": [
+                7,
+                -1
+              ]
+            },
+            {
+              "tile": 15,
+              "translate": [
+                7,
+                2
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            320,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            320,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    158,
+                    0
+                  ],
+                  [
+                    316,
+                    0
+                  ],
+                  [
+                    315,
+                    225
+                  ],
+                  [
+                    322,
+                    249
+                  ],
+                  [
+                    327,
+                    352
+                  ],
+                  [
+                    246,
+                    352
+                  ],
+                  [
+                    237,
+                    310
+                  ],
+                  [
+                    236,
+                    271
+                  ],
+                  [
+                    157,
+                    264
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  82,
+                  126,
+                  303,
+                  111
+                ]
+              }
+            ]
+          }
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                2,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                2,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                2,
+                0
+              ]
+            },
+            {
+              "tile": 4,
+              "translate": [
+                3,
+                0
+              ]
+            },
+            {
+              "tile": 5,
+              "translate": [
+                1,
+                0
+              ]
+            },
+            {
+              "tile": 6,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 7,
+              "translate": [
+                3,
+                0
+              ]
+            },
+            {
+              "tile": 8,
+              "translate": [
+                0,
+                2
+              ]
+            },
+            {
+              "tile": 9,
+              "translate": [
+                5,
+                2
+              ]
+            },
+            {
+              "tile": 10,
+              "translate": [
+                3,
+                1
+              ]
+            },
+            {
+              "tile": 11,
+              "translate": [
+                1,
+                1
+              ]
+            },
+            {
+              "tile": 12,
+              "translate": [
+                1,
+                2
+              ]
+            },
+            {
+              "tile": 13,
+              "translate": [
+                2,
+                2
+              ]
+            },
+            {
+              "tile": 14,
+              "translate": [
+                4,
+                2
+              ]
+            },
+            {
+              "tile": 15,
+              "translate": [
+                5,
+                2
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            320,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            320,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    158,
+                    0
+                  ],
+                  [
+                    316,
+                    0
+                  ],
+                  [
+                    315,
+                    225
+                  ],
+                  [
+                    322,
+                    249
+                  ],
+                  [
+                    327,
+                    352
+                  ],
+                  [
+                    246,
+                    352
+                  ],
+                  [
+                    237,
+                    310
+                  ],
+                  [
+                    236,
+                    271
+                  ],
+                  [
+                    157,
+                    264
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  82,
+                  126,
+                  303,
+                  111
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "g3-19_Rope_Hammer_Cable_Curl",
+      "framing": "Fixed outer cable station; only intended exercise parts move.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    0
+                  ],
+                  "taper": [
+                    173,
+                    235
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    -5,
+                    0
+                  ],
+                  "taper": [
+                    173,
+                    235
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -9,
+                    1
+                  ],
+                  "taper": [
+                    173,
+                    235
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    -26,
+                    0
+                  ],
+                  "taper": [
+                    173,
+                    235
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    -12,
+                    1
+                  ],
+                  "taper": [
+                    173,
+                    235
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    -14,
+                    0
+                  ],
+                  "taper": [
+                    173,
+                    235
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    -9,
+                    1
+                  ],
+                  "taper": [
+                    173,
+                    235
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    -20,
+                    1
+                  ],
+                  "taper": [
+                    173,
+                    235
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  90,
+                  143,
+                  41,
+                  184
+                ]
+              },
+              {
+                "polygon": [
+                  [
+                    211,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    211,
+                    420
+                  ],
+                  [
+                    211,
+                    320
+                  ],
+                  [
+                    174,
+                    319
+                  ],
+                  [
+                    154,
+                    310
+                  ],
+                  [
+                    154,
+                    272
+                  ],
+                  [
+                    166,
+                    262
+                  ],
+                  [
+                    189,
+                    238
+                  ],
+                  [
+                    211,
+                    210
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    0
+                  ],
+                  "taper": [
+                    180,
+                    233
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    -10,
+                    0
+                  ],
+                  "taper": [
+                    180,
+                    233
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -10,
+                    -1
+                  ],
+                  "taper": [
+                    180,
+                    233
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    -19,
+                    -1
+                  ],
+                  "taper": [
+                    180,
+                    233
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    -3,
+                    -3
+                  ],
+                  "taper": [
+                    180,
+                    233
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    -11,
+                    -3
+                  ],
+                  "taper": [
+                    180,
+                    233
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    -7,
+                    -3
+                  ],
+                  "taper": [
+                    180,
+                    233
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    -19,
+                    -3
+                  ],
+                  "taper": [
+                    180,
+                    233
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  95,
+                  140,
+                  42,
+                  190
+                ]
+              },
+              {
+                "polygon": [
+                  [
+                    211,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    211,
+                    420
+                  ],
+                  [
+                    211,
+                    322
+                  ],
+                  [
+                    178,
+                    320
+                  ],
+                  [
+                    160,
+                    311
+                  ],
+                  [
+                    159,
+                    273
+                  ],
+                  [
+                    171,
+                    262
+                  ],
+                  [
+                    193,
+                    237
+                  ],
+                  [
+                    211,
+                    210
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "exp-single-arm-seated-cable-shoulder-press",
+      "framing": "Fixed outer cable station; only intended exercise parts move.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    0
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    3,
+                    0
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    3,
+                    0
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    6,
+                    0
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    -1
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    4,
+                    -2
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    3,
+                    -2
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    6,
+                    -1
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 8,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    -1
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 9,
+              "tapers": [
+                {
+                  "translate": [
+                    3,
+                    -1
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 10,
+              "tapers": [
+                {
+                  "translate": [
+                    3,
+                    -1
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 11,
+              "tapers": [
+                {
+                  "translate": [
+                    6,
+                    -1
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 12,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    -1
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 13,
+              "tapers": [
+                {
+                  "translate": [
+                    3,
+                    -1
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 14,
+              "tapers": [
+                {
+                  "translate": [
+                    3,
+                    -1
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 15,
+              "tapers": [
+                {
+                  "translate": [
+                    5,
+                    -1
+                  ],
+                  "taper": [
+                    138,
+                    162
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            320,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            320,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  87,
+                  165,
+                  34,
+                  180
+                ]
+              },
+              {
+                "polygon": [
+                  [
+                    137,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    253,
+                    420
+                  ],
+                  [
+                    253,
+                    291
+                  ],
+                  [
+                    243,
+                    285
+                  ],
+                  [
+                    233,
+                    277
+                  ],
+                  [
+                    232,
+                    274
+                  ],
+                  [
+                    180,
+                    273
+                  ],
+                  [
+                    154,
+                    273
+                  ],
+                  [
+                    150,
+                    312
+                  ],
+                  [
+                    150,
+                    348
+                  ],
+                  [
+                    111,
+                    348
+                  ],
+                  [
+                    112,
+                    316
+                  ],
+                  [
+                    113,
+                    283
+                  ],
+                  [
+                    119,
+                    237
+                  ],
+                  [
+                    128,
+                    179
+                  ],
+                  [
+                    135,
+                    100
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "exp-cable-pull-through",
+      "framing": "Fixed outer cable station; only intended exercise parts move.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    0
+                  ],
+                  "taper": [
+                    125,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    -34,
+                    0
+                  ],
+                  "taper": [
+                    125,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -30,
+                    0
+                  ],
+                  "taper": [
+                    125,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    7,
+                    0
+                  ],
+                  "taper": [
+                    125,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    -3,
+                    0
+                  ],
+                  "taper": [
+                    125,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    -15,
+                    0
+                  ],
+                  "taper": [
+                    125,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    0
+                  ],
+                  "taper": [
+                    125,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    -1,
+                    0
+                  ],
+                  "taper": [
+                    125,
+                    213
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    156,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    179,
+                    420
+                  ],
+                  [
+                    179,
+                    331
+                  ],
+                  [
+                    155,
+                    331
+                  ],
+                  [
+                    140,
+                    330
+                  ],
+                  [
+                    128,
+                    327
+                  ],
+                  [
+                    120,
+                    320
+                  ],
+                  [
+                    120,
+                    298
+                  ],
+                  [
+                    136,
+                    289
+                  ],
+                  [
+                    156,
+                    274
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    0
+                  ],
+                  "taper": [
+                    122,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    -26,
+                    0
+                  ],
+                  "taper": [
+                    122,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -29,
+                    0
+                  ],
+                  "taper": [
+                    122,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    3,
+                    0
+                  ],
+                  "taper": [
+                    122,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    -2
+                  ],
+                  "taper": [
+                    122,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    -15,
+                    -2
+                  ],
+                  "taper": [
+                    122,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    2,
+                    -2
+                  ],
+                  "taper": [
+                    122,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    -1,
+                    -2
+                  ],
+                  "taper": [
+                    122,
+                    213
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    156,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    179,
+                    420
+                  ],
+                  [
+                    179,
+                    331
+                  ],
+                  [
+                    155,
+                    331
+                  ],
+                  [
+                    140,
+                    330
+                  ],
+                  [
+                    124,
+                    327
+                  ],
+                  [
+                    117,
+                    320
+                  ],
+                  [
+                    117,
+                    297
+                  ],
+                  [
+                    133,
+                    289
+                  ],
+                  [
+                    156,
+                    274
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "g1-24_Rope_Face_Pull",
+      "framing": "The tower stays fixed while the stack, cable and rope attachment move through the face pull.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    -18,
+                    -1
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -50,
+                    -1
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    -49,
+                    0
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    -43,
+                    -1
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    -35,
+                    -1
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    -30,
+                    0
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    -16,
+                    -1
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    133,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    134,
+                    420
+                  ],
+                  [
+                    134,
+                    118
+                  ],
+                  [
+                    101,
+                    116
+                  ],
+                  [
+                    101,
+                    65
+                  ],
+                  [
+                    133,
+                    60
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  56,
+                  114,
+                  34,
+                  208
+                ]
+              }
+            ]
+          }
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    -19,
+                    0
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -49,
+                    0
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    -46,
+                    0
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    -36,
+                    -1
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "tapers": [
+                {
+                  "translate": [
+                    -32,
+                    -1
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    -36,
+                    -1
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 7,
+              "tapers": [
+                {
+                  "translate": [
+                    -19,
+                    -1
+                  ],
+                  "taper": [
+                    120,
+                    198
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    133,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    134,
+                    420
+                  ],
+                  [
+                    134,
+                    118
+                  ],
+                  [
+                    101,
+                    116
+                  ],
+                  [
+                    101,
+                    65
+                  ],
+                  [
+                    133,
+                    60
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  56,
+                  114,
+                  34,
+                  208
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "g4-17_Horizontal_Cable_Rotation",
+      "framing": "The upright and floor supports stay fixed while the athlete rotates with the cable.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -1,
+                    0
+                  ],
+                  "taper": [
+                    113,
+                    184
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    -8,
+                    0
+                  ],
+                  "taper": [
+                    113,
+                    184
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "delayMs": [
+            475,
+            360,
+            500,
+            465
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    123,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    123,
+                    420
+                  ],
+                  [
+                    123,
+                    177
+                  ],
+                  [
+                    91,
+                    172
+                  ],
+                  [
+                    91,
+                    139
+                  ],
+                  [
+                    123,
+                    133
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    -1
+                  ],
+                  "taper": [
+                    113,
+                    184
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    -2,
+                    -1
+                  ],
+                  "taper": [
+                    113,
+                    184
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "delayMs": [
+            475,
+            360,
+            500,
+            465
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    123,
+                    0
+                  ],
+                  [
+                    420,
+                    0
+                  ],
+                  [
+                    420,
+                    420
+                  ],
+                  [
+                    123,
+                    420
+                  ],
+                  [
+                    123,
+                    177
+                  ],
+                  [
+                    91,
+                    172
+                  ],
+                  [
+                    91,
+                    139
+                  ],
+                  [
+                    123,
+                    133
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "g3-21_Overhead_Cable_Curl",
+      "framing": "Both cable towers stay fixed while the athlete curls the handles and the two stacks move.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    -11,
+                    0
+                  ],
+                  "taper": [
+                    80,
+                    148
+                  ]
+                },
+                {
+                  "translate": [
+                    1,
+                    0
+                  ],
+                  "taper": [
+                    340,
+                    269
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    -25,
+                    1
+                  ],
+                  "taper": [
+                    80,
+                    148
+                  ]
+                },
+                {
+                  "translate": [
+                    20,
+                    1
+                  ],
+                  "taper": [
+                    340,
+                    269
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    -23,
+                    2
+                  ],
+                  "taper": [
+                    80,
+                    148
+                  ]
+                },
+                {
+                  "translate": [
+                    19,
+                    2
+                  ],
+                  "taper": [
+                    340,
+                    269
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    89,
+                    0
+                  ],
+                  [
+                    333,
+                    0
+                  ],
+                  [
+                    333,
+                    70
+                  ],
+                  [
+                    352,
+                    77
+                  ],
+                  [
+                    352,
+                    129
+                  ],
+                  [
+                    335,
+                    150
+                  ],
+                  [
+                    318,
+                    229
+                  ],
+                  [
+                    318,
+                    420
+                  ],
+                  [
+                    103,
+                    420
+                  ],
+                  [
+                    103,
+                    225
+                  ],
+                  [
+                    85,
+                    145
+                  ],
+                  [
+                    70,
+                    123
+                  ],
+                  [
+                    70,
+                    77
+                  ],
+                  [
+                    89,
+                    66
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  49,
+                  171,
+                  25,
+                  139
+                ]
+              },
+              {
+                "rect": [
+                  345,
+                  168,
+                  26,
+                  139
+                ]
+              }
+            ]
+          }
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    -7,
+                    0
+                  ],
+                  "taper": [
+                    80,
+                    148
+                  ]
+                },
+                {
+                  "translate": [
+                    4,
+                    0
+                  ],
+                  "taper": [
+                    340,
+                    269
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 6,
+              "tapers": [
+                {
+                  "translate": [
+                    -24,
+                    1
+                  ],
+                  "taper": [
+                    80,
+                    148
+                  ]
+                },
+                {
+                  "translate": [
+                    19,
+                    1
+                  ],
+                  "taper": [
+                    340,
+                    269
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    -23,
+                    1
+                  ],
+                  "taper": [
+                    80,
+                    148
+                  ]
+                },
+                {
+                  "translate": [
+                    16,
+                    1
+                  ],
+                  "taper": [
+                    340,
+                    269
+                  ]
+                }
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "columns": 4,
+          "minBorder": 0,
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "polygon": [
+                  [
+                    89,
+                    0
+                  ],
+                  [
+                    333,
+                    0
+                  ],
+                  [
+                    333,
+                    70
+                  ],
+                  [
+                    352,
+                    77
+                  ],
+                  [
+                    352,
+                    129
+                  ],
+                  [
+                    335,
+                    150
+                  ],
+                  [
+                    318,
+                    229
+                  ],
+                  [
+                    318,
+                    420
+                  ],
+                  [
+                    103,
+                    420
+                  ],
+                  [
+                    103,
+                    225
+                  ],
+                  [
+                    85,
+                    145
+                  ],
+                  [
+                    70,
+                    123
+                  ],
+                  [
+                    70,
+                    77
+                  ],
+                  [
+                    89,
+                    66
+                  ]
+                ]
+              },
+              {
+                "rect": [
+                  49,
+                  171,
+                  25,
+                  139
+                ]
+              },
+              {
+                "rect": [
+                  345,
+                  168,
+                  26,
+                  139
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "g4-16_Low_to_High_Cable_Woodchop",
+      "framing": "Fixed cable tower, floor supports and pulley. The handle travels upward across the body and returns along the same path.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "phase": 0,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    -7
+                  ],
+                  "taper": [
+                    112,
+                    160
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 1,
+              "phase": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    2,
+                    -5
+                  ],
+                  "taper": [
+                    112,
+                    160
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "phase": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -21,
+                    4
+                  ],
+                  "taper": [
+                    112,
+                    160
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "phase": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    -8,
+                    1
+                  ],
+                  "taper": [
+                    112,
+                    160
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "phase": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    -1,
+                    6
+                  ],
+                  "taper": [
+                    112,
+                    160
+                  ]
+                }
+              ]
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            380,
+            220,
+            210,
+            205,
+            410,
+            240,
+            230,
+            260
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  112,
+                  0,
+                  308,
+                  420
+                ]
+              },
+              {
+                "rect": [
+                  91,
+                  233,
+                  36,
+                  66
+                ]
+              }
+            ]
+          },
+          "minBorder": 20
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "phase": 0,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    -7
+                  ],
+                  "taper": [
+                    112,
+                    160
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 1,
+              "phase": 1,
+              "tapers": [
+                {
+                  "translate": [
+                    1,
+                    -3
+                  ],
+                  "taper": [
+                    112,
+                    160
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 5,
+              "phase": 2,
+              "tapers": [
+                {
+                  "translate": [
+                    -15,
+                    8
+                  ],
+                  "taper": [
+                    112,
+                    160
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "phase": 3,
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    3
+                  ],
+                  "taper": [
+                    112,
+                    160
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "phase": 4,
+              "tapers": [
+                {
+                  "translate": [
+                    2,
+                    2
+                  ],
+                  "taper": [
+                    112,
+                    160
+                  ]
+                }
+              ]
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            380,
+            220,
+            210,
+            205,
+            410,
+            240,
+            230,
+            260
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  112,
+                  0,
+                  308,
+                  420
+                ]
+              },
+              {
+                "rect": [
+                  91,
+                  233,
+                  36,
+                  66
+                ]
+              }
+            ]
+          },
+          "minBorder": 20
+        }
+      }
+    },
+    {
+      "id": "g4-15_High_to_Low_Cable_Woodchop",
+      "framing": "Fixed cable tower, floor supports and pulley. The handle travels downward across the body and returns along the same path.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "phase": 0,
+              "taperBottom": [
+                226,
+                275
+              ],
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    0
+                  ],
+                  "taper": [
+                    109,
+                    175
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 1,
+              "phase": 1,
+              "taperBottom": [
+                226,
+                275
+              ],
+              "tapers": [
+                {
+                  "translate": [
+                    -12,
+                    0
+                  ],
+                  "taper": [
+                    109,
+                    164
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "phase": 2,
+              "taperBottom": [
+                226,
+                275
+              ],
+              "tapers": [
+                {
+                  "translate": [
+                    -13,
+                    -1
+                  ],
+                  "taper": [
+                    109,
+                    211
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "phase": 3,
+              "taperBottom": [
+                226,
+                275
+              ],
+              "tapers": [
+                {
+                  "translate": [
+                    -41,
+                    2
+                  ],
+                  "taper": [
+                    109,
+                    258
+                  ]
+                }
+              ]
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  109,
+                  0,
+                  311,
+                  176
+                ]
+              },
+              {
+                "rect": [
+                  154,
+                  176,
+                  266,
+                  244
+                ]
+              },
+              {
+                "rect": [
+                  93,
+                  69,
+                  33,
+                  54
+                ]
+              }
+            ]
+          },
+          "minBorder": 20
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "phase": 0,
+              "taperBottom": [
+                226,
+                275
+              ],
+              "tapers": [
+                {
+                  "translate": [
+                    0,
+                    0
+                  ],
+                  "taper": [
+                    109,
+                    175
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 1,
+              "phase": 1,
+              "taperBottom": [
+                226,
+                275
+              ],
+              "tapers": [
+                {
+                  "translate": [
+                    -7,
+                    0
+                  ],
+                  "taper": [
+                    109,
+                    170
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 2,
+              "phase": 2,
+              "taperBottom": [
+                226,
+                275
+              ],
+              "tapers": [
+                {
+                  "translate": [
+                    -8,
+                    0
+                  ],
+                  "taper": [
+                    109,
+                    213
+                  ]
+                }
+              ]
+            },
+            {
+              "tile": 3,
+              "phase": 3,
+              "taperBottom": [
+                226,
+                275
+              ],
+              "tapers": [
+                {
+                  "translate": [
+                    -28,
+                    1
+                  ],
+                  "taper": [
+                    109,
+                    260
+                  ]
+                }
+              ]
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "fixedScene": {
+            "from": 0,
+            "moving": [
+              {
+                "rect": [
+                  109,
+                  0,
+                  311,
+                  176
+                ]
+              },
+              {
+                "rect": [
+                  154,
+                  176,
+                  266,
+                  244
+                ]
+              },
+              {
+                "rect": [
+                  93,
+                  69,
+                  33,
+                  54
+                ]
+              }
+            ]
+          },
+          "minBorder": 20
+        }
+      }
+    }
+  ]
+}

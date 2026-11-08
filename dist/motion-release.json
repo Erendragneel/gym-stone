@@ -4,7 +4,7 @@
   "reviewedExercises": 425,
   "pendingExercises": 0,
   "variants": 864,
-  "keyframes": 22768,
+  "keyframes": 22732,
   "siteBytes": 866236586,
   "pixelIdentityVerifiedForEveryPackedKeyframe": true,
   "lossless": true,
@@ -25,12 +25,12 @@
     {
       "exercise": "exp-air-bike",
       "variant": "female",
-      "sourceHash": "43b5fe3fa22dbad8b18102ad22fdb7ea9ccc9eabddb1d68d0165d74ad67e46b1"
+      "sourceHash": "36476ba7953548345da17d80c519e11fd505e0a0d3ed4c5933bbded3619d4c39"
     },
     {
       "exercise": "exp-air-bike",
       "variant": "male",
-      "sourceHash": "cfa6d2689fba874af9f5c721f32be24c34e72cb8ab3b94986e446ca4efd8b98e"
+      "sourceHash": "e1e7f5093264dbb1672cbcb352189d4927302052045b913d9918d27429d75947"
     },
     {
       "exercise": "exp-anchored-resistance-band-chest-fly",
@@ -294,8 +294,13 @@
     },
     {
       "exercise": "exp-cable-pull-through",
-      "variant": "retained",
-      "sourceHash": "75246949d5d10c41552fdcccf2ae19dec028e6b889a98f2ec43b608be3a8d492"
+      "variant": "female",
+      "sourceHash": "fee6e399aac796cc03f9c31d41e2d2ed57d0d35c102d8589a6365e76e526da0a"
+    },
+    {
+      "exercise": "exp-cable-pull-through",
+      "variant": "male",
+      "sourceHash": "b10548855a0f7d6ed23d1db91be7564ced2ce1fef1228cf4c5d1cca60e26c1a4"
     },
     {
       "exercise": "exp-cable-rear-delt-fly",
@@ -655,12 +660,12 @@
     {
       "exercise": "exp-elliptical-trainer",
       "variant": "female",
-      "sourceHash": "76c1f2de5a96b8d58203b40ac9c5e8275d55a20ed63949f2f0423bbde2f53b2b"
+      "sourceHash": "969093e2a941516be7990d9b233f39e48f9767cd45f32dcecb0fd61c89738a18"
     },
     {
       "exercise": "exp-elliptical-trainer",
       "variant": "male",
-      "sourceHash": "51e5c4dbd2de978ddf7b06098dccff3021ff10743dc079eeb860f1f2c7bf9a54"
+      "sourceHash": "4d67204623a0b2b45b8bddbaef92233388e26d52a513fae70d308bbb42ad123c"
     },
     {
       "exercise": "exp-ez-bar-lying-triceps-extension",
@@ -760,12 +765,12 @@
     {
       "exercise": "exp-hack-squat-machine",
       "variant": "female",
-      "sourceHash": "38711438993a4d965c54a1b1071e5d138752999cc0db9aeac1ad3b547f645fa4"
+      "sourceHash": "a87e6866e701f9625572c0eadc1666dd9f8984ec6de61df73e7f78fd0b1d4bf1"
     },
     {
       "exercise": "exp-hack-squat-machine",
       "variant": "male",
-      "sourceHash": "92299d26669c7947ffd6efe24a282f21542546c9b67ab1773ba0b84dd223d8b8"
+      "sourceHash": "6e159d9dfea22201513968a8f2fbb5bb17291341dd6e64df912eaaae2e7d3613"
     },
     {
       "exercise": "exp-hamstring-walkout",
@@ -1130,12 +1135,12 @@
     {
       "exercise": "exp-plate-loaded-lat-pulldown",
       "variant": "female",
-      "sourceHash": "1b9f4d4b83a66e03442128c427f9c57c73ce8d402562d3696286417ddd4ca60e"
+      "sourceHash": "1dca3b8f9d4977754c1fdd93d2b6054778bb256334cdb010d9470e48c46157c7"
     },
     {
       "exercise": "exp-plate-loaded-lat-pulldown",
       "variant": "male",
-      "sourceHash": "c6afe9ce8b75b5aeb5188e3e308bc5790e6b4f25fc483b0f4bb32c04069bf134"
+      "sourceHash": "4f411418584394935d2884a86b6be24816f0f2cc9c4c5fb2f8822698ef9cb217"
     },
     {
       "exercise": "exp-plate-pinch-hold",
@@ -1359,18 +1364,23 @@
     },
     {
       "exercise": "exp-reverse-hyperextension-machine",
-      "variant": "retained",
-      "sourceHash": "c40dac77acd266e5e19a0bfdbfd3669539c3664c25c244a23bc2b520f0dc632a"
+      "variant": "female",
+      "sourceHash": "ae60f0b59ebaa82c925e46c98f3b1aded4f0ddcaca26f95066f69c2ae2a054cd"
+    },
+    {
+      "exercise": "exp-reverse-hyperextension-machine",
+      "variant": "male",
+      "sourceHash": "0445c6c0078ab5ed5b351c7408f4cdbd1df147276bbf567636acc45297c0ba31"
     },
     {
       "exercise": "exp-rowing-machine",
       "variant": "female",
-      "sourceHash": "bebbb56aa391ab7c10b5b221bef2499a1acd9a2b01432750defcfee0773a731e"
+      "sourceHash": "fc42cf447652da07f0d456b9ecca2592fd298ece1da411e1b262128c7132efc0"
     },
     {
       "exercise": "exp-rowing-machine",
       "variant": "male",
-      "sourceHash": "3fb6f08577c2e9a49c1ec222c4488238f85db313f6bb4ec3c880effd3310f029"
+      "sourceHash": "a56b8ee642a0815f16e558074c607542cd6265a44e967005de612c23eb12220b"
     },
     {
       "exercise": "exp-sandbag-bear-hug-carry",
@@ -1450,7 +1460,7 @@
     {
       "exercise": "exp-seated-leg-curl",
       "variant": "female",
-      "sourceHash": "1e57f7bb3601d89af24ce12c853b3cb90fcb24876bafac0f70cced86d406714e"
+      "sourceHash": "d6d1659952f6ce0b6199b8231877c31fb8148753e9a5da66b9722ef2258fb3c9"
     },
     {
       "exercise": "exp-seated-leg-curl",
@@ -1490,7 +1500,7 @@
     {
       "exercise": "exp-side-plank-cable-row",
       "variant": "female",
-      "sourceHash": "72074760ee14f8c5d91926e3da7b6c19b8baa9feaeef1087753acf8cd745ae40"
+      "sourceHash": "5606814eeee326972ebfd65c29fed575103ad72b4f5b24420bcf9683759ed2bf"
     },
     {
       "exercise": "exp-side-plank-cable-row",
@@ -1499,8 +1509,13 @@
     },
     {
       "exercise": "exp-single-arm-cable-chest-press",
-      "variant": "retained",
-      "sourceHash": "b7daf6634fdfbf004a08a11af5798f9f643104bd39af7c83c46574a566476e9d"
+      "variant": "female",
+      "sourceHash": "62e7e3ea024087d85c4277e837280972cb0aae7ad8ad60b580681ed27565de06"
+    },
+    {
+      "exercise": "exp-single-arm-cable-chest-press",
+      "variant": "male",
+      "sourceHash": "c644b9b5d45f296af0535645e8839d6c9e8aaa295c47b6c2098d94e5d384398f"
     },
     {
       "exercise": "exp-single-arm-cable-triceps-pressdown",
@@ -1545,7 +1560,7 @@
     {
       "exercise": "exp-single-arm-seated-cable-shoulder-press",
       "variant": "male",
-      "sourceHash": "50cdfa09216c047b7191894444886b991f161df6173da24f734cb4ab79c91b7e"
+      "sourceHash": "89ccb72c8dfdbcdc272b849e2dbf7f91f1b9ef51d8ef2f8bb214ffaa596a393a"
     },
     {
       "exercise": "exp-single-arm-standing-dumbbell-shoulder-press",
@@ -1605,22 +1620,32 @@
     {
       "exercise": "exp-single-leg-leg-press",
       "variant": "female",
-      "sourceHash": "59c2965a753e1d48accd0d744dd54dfd09c5559fd51c6017b5e37426a70da6fe"
+      "sourceHash": "ba23fd02e637fdece6a89652a2f950b5e9aeccb85977fe2a08ac8bfafb21cea1"
     },
     {
       "exercise": "exp-single-leg-leg-press",
       "variant": "male",
-      "sourceHash": "1a9e3c22f569549d474b37756bb252aa40ff4936af310b03c1e56a9d449ce483"
+      "sourceHash": "b7b832ef1f9f3cd9febe12386bdd2c37656dfa095a1a2d9c7f6bcef130d3095c"
     },
     {
       "exercise": "exp-single-leg-prone-leg-curl",
-      "variant": "retained",
-      "sourceHash": "32dffeb49725188cdae52961cbbfff5a9043c324251daa9d45698616448681e2"
+      "variant": "female",
+      "sourceHash": "a67c7e3defbaadc6e75a7f6631e7d4fc24c8a7bcc3e43099196703a37e28955a"
+    },
+    {
+      "exercise": "exp-single-leg-prone-leg-curl",
+      "variant": "male",
+      "sourceHash": "f44e3f353710eab4ff76e4129545c22a2f08718ea987158c6db96fb6a935cec4"
     },
     {
       "exercise": "exp-single-leg-seated-leg-curl",
-      "variant": "retained",
-      "sourceHash": "8149d585d9af6f68b25b4de10e8dbab9b25b6166ee50cbddfe8b4f8fcf982479"
+      "variant": "female",
+      "sourceHash": "81501c4be800502f710576ebcf8121d876c476f395a094023ac14867131c9d3c"
+    },
+    {
+      "exercise": "exp-single-leg-seated-leg-curl",
+      "variant": "male",
+      "sourceHash": "9f15324b1acd8359542c5da8950ba5a4d8851b66affa370929442e0073b6f6cd"
     },
     {
       "exercise": "exp-single-leg-slider-hamstring-curl",
@@ -1705,12 +1730,12 @@
     {
       "exercise": "exp-smith-machine-seated-calf-raise",
       "variant": "female",
-      "sourceHash": "9c0badb0fe7a70e822ea7318dafc0aca3888127f19b4df0cf989262b4bfabf25"
+      "sourceHash": "df3d2e378ded3096a1e1d4b3409d4775a45f5c880baa6369d6db28d4ce52384a"
     },
     {
       "exercise": "exp-smith-machine-seated-calf-raise",
       "variant": "male",
-      "sourceHash": "f7770c9e5d8f5d3968a8a40acd1c3a6413687df9193cdac11aad84c4c66cd363"
+      "sourceHash": "7233cd63f6322e4ce70848185e6a7ee09a91c6203d9c4fbabf37250f304bd859"
     },
     {
       "exercise": "exp-smith-machine-squat",
@@ -1760,12 +1785,12 @@
     {
       "exercise": "exp-stair-climber",
       "variant": "female",
-      "sourceHash": "76c786e20668d0f0b163ec1593d5e5c61ca6c3445e06c2fd1f83d7fbb5730424"
+      "sourceHash": "eb376c1cd281e1e06057f6ee0743062fb31adbb1142c33d5c2d6defb1a0f05eb"
     },
     {
       "exercise": "exp-stair-climber",
       "variant": "male",
-      "sourceHash": "fdeb5cfc61149a8de996f6215745e54a91eef9a34b27251aa413de01182de0e8"
+      "sourceHash": "95760c3b8b17dfb365869983ab71376d0311a1ca7d62e03c12e6297f7414b350"
     },
     {
       "exercise": "exp-standing-band-hip-abduction",
@@ -1804,8 +1829,13 @@
     },
     {
       "exercise": "exp-standing-cable-leg-extension",
-      "variant": "retained",
-      "sourceHash": "42e9379a637cc19e8b4ca5e1bd89a7ea585c95bf26d6ac45a5b410399cfe32f9"
+      "variant": "female",
+      "sourceHash": "6456d0cb54bb24fc87bbcd64b1a7991aceadd3daf05a4c8798149587d94d6cb3"
+    },
+    {
+      "exercise": "exp-standing-cable-leg-extension",
+      "variant": "male",
+      "sourceHash": "6cffabdc1e66c3f49536250ab6eead5a03a15a5640e23f6edde10abcf8a54355"
     },
     {
       "exercise": "exp-standing-calf-raise-machine",
@@ -1819,13 +1849,23 @@
     },
     {
       "exercise": "exp-standing-high-cable-row",
-      "variant": "retained",
-      "sourceHash": "c76636a5547986079eee7711ba436bb29a849e20250b7afc88f0f1ae77b4cb22"
+      "variant": "female",
+      "sourceHash": "f9712d5a7661cdd5ff0bbd05532239ad478abf789d7c0316e4177f002f5034f5"
+    },
+    {
+      "exercise": "exp-standing-high-cable-row",
+      "variant": "male",
+      "sourceHash": "7f3d7680ba9f42bbadf4c8b5d62e201787e63b6e591bbf478d85dcff9cdb712a"
     },
     {
       "exercise": "exp-standing-hip-extension-machine",
-      "variant": "retained",
-      "sourceHash": "48d28243993c38242077b906ae34710a65ae078183860fdb162cd38a69edf9c6"
+      "variant": "female",
+      "sourceHash": "db25f883f2def867534fa3654c5cf22f5d2a2cb47d7e44018f6f5b8c1516cdea"
+    },
+    {
+      "exercise": "exp-standing-hip-extension-machine",
+      "variant": "male",
+      "sourceHash": "4f6142ea3aa94be01562cc2275e220d9c4a2b8f579978f637fff620382c7e7f0"
     },
     {
       "exercise": "exp-standing-leg-curl-machine",
@@ -1945,12 +1985,12 @@
     {
       "exercise": "exp-treadmill-jog",
       "variant": "female",
-      "sourceHash": "3e63343f2e7f1841e1b7d1b5e4614c3ce19cfa867e44c57edc3183d2e39b8781"
+      "sourceHash": "5c7a6802d685b501480cfc2ade7a12b0ac5d7527e04d2d99e0b0d095597ac5ba"
     },
     {
       "exercise": "exp-treadmill-jog",
       "variant": "male",
-      "sourceHash": "9509cb78dba205a8f5a24c0ea9ecdf3e71a038b3584284ea21150418f7dbf6aa"
+      "sourceHash": "2f661bf6792d948c1ddc9230ec93b28ffa34e48a7d0d6f9fc826990f462bf8ca"
     },
     {
       "exercise": "exp-v-up",
@@ -2194,8 +2234,13 @@
     },
     {
       "exercise": "g0-22_Hip_Adduction_Machine",
-      "variant": "retained",
-      "sourceHash": "ce4739a9bedaad47331014d1b8ea99b25c72ca224642dd77b856a0d678ce4624"
+      "variant": "female",
+      "sourceHash": "833496e528a7b6cb1ad65302ee0eb68d522cdb6124277eacd164bd9f22e95858"
+    },
+    {
+      "exercise": "g0-22_Hip_Adduction_Machine",
+      "variant": "male",
+      "sourceHash": "bcd94a283a18b9369b8cd7feb761e33fcff47ba9fb41daa7f73254fd603cdce2"
     },
     {
       "exercise": "g0-23_Barbell_Romanian_Deadlift",
@@ -2434,8 +2479,13 @@
     },
     {
       "exercise": "g1-24_Rope_Face_Pull",
-      "variant": "retained",
-      "sourceHash": "97b17484b933e375476a96b5b4a4628bd961fa24ba7eea73abca75bd05fa5f2d"
+      "variant": "female",
+      "sourceHash": "ba287975fcf4f7cfb8e267a5eba14388fa181ec1925b8592a1e93e667c9002ab"
+    },
+    {
+      "exercise": "g1-24_Rope_Face_Pull",
+      "variant": "male",
+      "sourceHash": "d3112c9ded3b9be5b33d28a2841768031333963d1839bfa6787880c578fc73e4"
     },
     {
       "exercise": "g1-25_Superman",
@@ -2685,17 +2735,22 @@
     {
       "exercise": "g3-18_Single_Arm_Cable_Curl",
       "variant": "female",
-      "sourceHash": "4d279837bfab635e285b44b68d9a1a8b8ac5def6911cb8dd46d226fa20d9f178"
+      "sourceHash": "bb18a17792f1cf5f29c5f386a9ce6fe9ebba475c443ecf3f5e3c5d11e98b82e7"
     },
     {
       "exercise": "g3-18_Single_Arm_Cable_Curl",
       "variant": "male",
-      "sourceHash": "09c9d1976a8408182e7f730a2fb7b114256004571c7e33313d6a9b29b2379493"
+      "sourceHash": "dfed95e358803c8ae22d3eaae269dc181d51488f494b00c44bceb8f8abb0c8bc"
     },
     {
       "exercise": "g3-19_Rope_Hammer_Cable_Curl",
-      "variant": "retained",
-      "sourceHash": "c568b261d6b7ee70f4a19364e9854e2e7d8d34f9179781a8f5c5122410f6057a"
+      "variant": "female",
+      "sourceHash": "373f15efec5cedec1def4209e4337457cf89e98d80731d2bbcb6a06e9ad496c6"
+    },
+    {
+      "exercise": "g3-19_Rope_Hammer_Cable_Curl",
+      "variant": "male",
+      "sourceHash": "ffd1164ba476a9d3a4f757692964924daf6602b450629a219b7f96ab10219a33"
     },
     {
       "exercise": "g3-20_Bayesian_Cable_Curl",
@@ -2709,8 +2764,13 @@
     },
     {
       "exercise": "g3-21_Overhead_Cable_Curl",
-      "variant": "retained",
-      "sourceHash": "f6cb030d5e344ce07135fbbc4741da6fbfc425126c28b2335c17b41623735e69"
+      "variant": "female",
+      "sourceHash": "8648fb986ffe276bfc8e8290ebb35add037f2d46f9f18c396d9be7d97b2760bc"
+    },
+    {
+      "exercise": "g3-21_Overhead_Cable_Curl",
+      "variant": "male",
+      "sourceHash": "1b92384ad9f26a98b59cfb2e16a49bdb30df870dd65ee122c95cbcd8743bdb73"
     },
     {
       "exercise": "g3-22_Machine_Preacher_Curl",
@@ -2844,18 +2904,33 @@
     },
     {
       "exercise": "g4-15_High_to_Low_Cable_Woodchop",
-      "variant": "retained",
-      "sourceHash": "030ea6697ec5ea48d5905e574adda4bc56f944ef61a6445933c560de970acaa2"
+      "variant": "female",
+      "sourceHash": "366a7d6e6658c5136c85eac3a9c3af9620aad08b275b7699b4bb5c883f1e009d"
+    },
+    {
+      "exercise": "g4-15_High_to_Low_Cable_Woodchop",
+      "variant": "male",
+      "sourceHash": "c235d297dbe2917e403f320aec9ba54628f44f4df9c69d92d76daeca1b225f17"
     },
     {
       "exercise": "g4-16_Low_to_High_Cable_Woodchop",
-      "variant": "retained",
-      "sourceHash": "de5b21306a47a0b5f947194b40cb890e2c88f323814f0a6db6be2efc911ef1a2"
+      "variant": "female",
+      "sourceHash": "fedb863b7db941196c0a5cc781631af3b6b88f1ae36f2d8f3f30971089128454"
+    },
+    {
+      "exercise": "g4-16_Low_to_High_Cable_Woodchop",
+      "variant": "male",
+      "sourceHash": "1001f505ac2892ac1111cdca5979d0867e52fbf9356adf089d45ff7b168fe2cc"
     },
     {
       "exercise": "g4-17_Horizontal_Cable_Rotation",
-      "variant": "retained",
-      "sourceHash": "f767bd24a8e7b26e1b827215471f76a0718fe35f51056ac236c7090a550782bb"
+      "variant": "female",
+      "sourceHash": "edd7dd482fc06381750ef9d05cd80c2bc6c18720322a8360088b54cb734950a2"
+    },
+    {
+      "exercise": "g4-17_Horizontal_Cable_Rotation",
+      "variant": "male",
+      "sourceHash": "4f90b312332135781ecfe36d0984463f1df741130efeb3770af79eb13a16d299"
     },
     {
       "exercise": "g4-18_Pallof_Press",
@@ -3085,12 +3160,12 @@
     {
       "exercise": "guide-prone-leg-curl",
       "variant": "female",
-      "sourceHash": "a94465f746dd5aa32de7853648e09e1405ea88eeefc2a1e1359a0f50a7a72205"
+      "sourceHash": "1dded5ae54fbfbacd869fc8b8c8bd1b74d6f1bfd1c65f23f4427a6fa94be6135"
     },
     {
       "exercise": "guide-prone-leg-curl",
       "variant": "male",
-      "sourceHash": "6f155c711451debcd1fb30f3befcb904bdf95c5db4539fec01a3c282a428efc9"
+      "sourceHash": "fd0de76efd1cae08fb24dd90e440b93f15b22108d0c6dd5dfb78b71f3a07ce6d"
     },
     {
       "exercise": "guide-push-up",
@@ -3337,5 +3412,42 @@
     ],
     "variants": 37,
     "pixelsVerified": true
+  },
+  "fixedEquipmentFrameLock": {
+    "date": "2026-11-08",
+    "exercises": [
+      "guide-prone-leg-curl",
+      "exp-single-leg-prone-leg-curl",
+      "exp-plate-loaded-lat-pulldown",
+      "exp-hack-squat-machine",
+      "g3-18_Single_Arm_Cable_Curl",
+      "exp-single-arm-cable-chest-press",
+      "exp-standing-high-cable-row",
+      "exp-seated-leg-curl",
+      "exp-reverse-hyperextension-machine",
+      "exp-standing-cable-leg-extension",
+      "exp-treadmill-jog",
+      "exp-elliptical-trainer",
+      "exp-rowing-machine",
+      "exp-air-bike",
+      "exp-stair-climber",
+      "exp-standing-hip-extension-machine",
+      "exp-single-leg-seated-leg-curl",
+      "g0-22_Hip_Adduction_Machine",
+      "exp-single-leg-leg-press",
+      "exp-side-plank-cable-row",
+      "exp-smith-machine-seated-calf-raise",
+      "g3-19_Rope_Hammer_Cable_Curl",
+      "exp-single-arm-seated-cable-shoulder-press",
+      "exp-cable-pull-through",
+      "g1-24_Rope_Face_Pull",
+      "g4-17_Horizontal_Cable_Rotation",
+      "g3-21_Overhead_Cable_Curl",
+      "g4-16_Low_to_High_Cable_Woodchop",
+      "g4-15_High_to_Low_Cable_Woodchop"
+    ],
+    "variants": 55,
+    "pixelsVerified": true,
+    "fixedSceneVariants": 40
   }
 }

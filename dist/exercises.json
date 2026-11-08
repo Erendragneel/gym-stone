@@ -5878,11 +5878,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g0-22_Hip_Adduction_Machine-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-g0-22_Hip_Adduction_Machine-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Registered fixed tower and central seat support; moving leg pads and feet stay free.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g0-22_Hip_Adduction_Machine-atlas.webp",
@@ -5890,40 +5893,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-g0-22_Hip_Adduction_Machine-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g0-22_Hip_Adduction_Machine-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g0-22_Hip_Adduction_Machine-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Registered fixed tower and central seat support; moving leg pads and feet stay free.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g0-22_Hip_Adduction_Machine-atlas.webp",
@@ -5931,39 +5933,37 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g0-22_Hip_Adduction_Machine-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 2000,
+      "framing": "Registered fixed tower and central seat support; moving leg pads and feet stay free.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g0-22_Hip_Adduction_Machine-atlas.webp",
@@ -5971,31 +5971,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        400,
+        235,
+        255,
+        345,
+        355,
+        410
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g0-22_Hip_Adduction_Machine-poster.webp"
   },
   {
     "name": "Barbell Romanian Deadlift",
@@ -11991,11 +11989,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g1-24_Rope_Face_Pull-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-g1-24_Rope_Face_Pull-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The tower stays fixed while the stack, cable and rope attachment move through the face pull.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g1-24_Rope_Face_Pull-atlas.webp",
@@ -12012,6 +12013,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -12027,16 +12029,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-g1-24_Rope_Face_Pull-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g1-24_Rope_Face_Pull-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g1-24_Rope_Face_Pull-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The tower stays fixed while the stack, cable and rope attachment move through the face pull.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g1-24_Rope_Face_Pull-atlas.webp",
@@ -12053,6 +12057,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -12068,15 +12073,16 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-g1-24_Rope_Face_Pull-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The tower stays fixed while the stack, cable and rope attachment move through the face pull.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g1-24_Rope_Face_Pull-atlas.webp",
@@ -12093,6 +12099,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -12108,7 +12115,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g1-24_Rope_Face_Pull-poster.webp"
   },
   {
     "name": "Superman",
@@ -18405,7 +18413,7 @@
           "keyframes": 6,
           "uniquePoses": 4,
           "duration_ms": 2000,
-          "framing": "One complete repetition with a controlled return.",
+          "framing": "The cable tower chassis stays fixed as the weight stack, cable and curling arm move.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -18445,7 +18453,7 @@
           "keyframes": 6,
           "uniquePoses": 4,
           "duration_ms": 2000,
-          "framing": "One complete repetition with a controlled return.",
+          "framing": "The cable tower chassis stays fixed as the weight stack, cable and curling arm move.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -18483,7 +18491,7 @@
       "keyframes": 6,
       "uniquePoses": 4,
       "duration_ms": 2000,
-      "framing": "One complete repetition with a controlled return.",
+      "framing": "The cable tower chassis stays fixed as the weight stack, cable and curling arm move.",
       "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
@@ -18524,11 +18532,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g3-19_Rope_Hammer_Cable_Curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-g3-19_Rope_Hammer_Cable_Curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed outer cable station; only intended exercise parts move.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g3-19_Rope_Hammer_Cable_Curl-atlas.webp",
@@ -18545,6 +18556,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -18560,16 +18572,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-g3-19_Rope_Hammer_Cable_Curl-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g3-19_Rope_Hammer_Cable_Curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g3-19_Rope_Hammer_Cable_Curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed outer cable station; only intended exercise parts move.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g3-19_Rope_Hammer_Cable_Curl-atlas.webp",
@@ -18586,6 +18600,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -18601,15 +18616,16 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-g3-19_Rope_Hammer_Cable_Curl-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "Fixed outer cable station; only intended exercise parts move.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g3-19_Rope_Hammer_Cable_Curl-atlas.webp",
@@ -18626,6 +18642,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -18641,7 +18658,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g3-19_Rope_Hammer_Cable_Curl-poster.webp"
   },
   {
     "name": "Bayesian Cable Curl",
@@ -18782,11 +18800,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g3-21_Overhead_Cable_Curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-g3-21_Overhead_Cable_Curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Both cable towers stay fixed while the athlete curls the handles and the two stacks move.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g3-21_Overhead_Cable_Curl-atlas.webp",
@@ -18794,40 +18815,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-g3-21_Overhead_Cable_Curl-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g3-21_Overhead_Cable_Curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g3-21_Overhead_Cable_Curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Both cable towers stay fixed while the athlete curls the handles and the two stacks move.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g3-21_Overhead_Cable_Curl-atlas.webp",
@@ -18835,39 +18855,37 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g3-21_Overhead_Cable_Curl-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 2000,
+      "framing": "Both cable towers stay fixed while the athlete curls the handles and the two stacks move.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g3-21_Overhead_Cable_Curl-atlas.webp",
@@ -18875,31 +18893,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        400,
+        235,
+        255,
+        345,
+        355,
+        410
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g3-21_Overhead_Cable_Curl-poster.webp"
   },
   {
     "name": "Machine Preacher Curl",
@@ -21922,11 +21938,13 @@
       "male": {
         "image": "assets/motion-v18/male-g4-15_High_to_Low_Cable_Woodchop-poster.webp",
         "poster": "assets/motion-v18/male-g4-15_High_to_Low_Cable_Woodchop-poster.webp",
-        "style": "Clean anime pose loop",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Fixed cable tower, floor supports and pulley. The handle travels downward across the body and returns along the same path.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-15_High_to_Low_Cable_Woodchop-atlas.webp",
@@ -21934,39 +21952,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
         }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-15_High_to_Low_Cable_Woodchop-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g4-15_High_to_Low_Cable_Woodchop-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Fixed cable tower, floor supports and pulley. The handle travels downward across the body and returns along the same path.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-15_High_to_Low_Cable_Woodchop-atlas.webp",
@@ -21974,39 +21992,37 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-15_High_to_Low_Cable_Woodchop-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 2000,
+      "framing": "Fixed cable tower, floor supports and pulley. The handle travels downward across the body and returns along the same path.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-15_High_to_Low_Cable_Woodchop-atlas.webp",
@@ -22014,31 +22030,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        400,
+        235,
+        255,
+        345,
+        355,
+        410
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-15_High_to_Low_Cable_Woodchop-poster.webp"
   },
   {
     "name": "Low to High Cable Woodchop",
@@ -22049,11 +22063,13 @@
       "male": {
         "image": "assets/motion-v18/male-g4-16_Low_to_High_Cable_Woodchop-poster.webp",
         "poster": "assets/motion-v18/male-g4-16_Low_to_High_Cable_Woodchop-poster.webp",
-        "style": "Clean anime pose loop",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "uniquePoses": 5,
+          "duration_ms": 2155,
+          "framing": "Fixed cable tower, floor supports and pulley. The handle travels upward across the body and returns along the same path.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-16_Low_to_High_Cable_Woodchop-atlas.webp",
@@ -22061,39 +22077,43 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            380,
+            220,
+            210,
+            205,
+            410,
+            240,
+            230,
+            260
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 5,
           "poseSequence": [
             0,
             1,
             2,
             3,
             4,
-            5,
-            6,
-            7
+            3,
+            2,
+            1
           ]
         }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-16_Low_to_High_Cable_Woodchop-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g4-16_Low_to_High_Cable_Woodchop-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "uniquePoses": 5,
+          "duration_ms": 2155,
+          "framing": "Fixed cable tower, floor supports and pulley. The handle travels upward across the body and returns along the same path.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-16_Low_to_High_Cable_Woodchop-atlas.webp",
@@ -22101,39 +22121,41 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            380,
+            220,
+            210,
+            205,
+            410,
+            240,
+            230,
+            260
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 5,
           "poseSequence": [
             0,
             1,
             2,
             3,
             4,
-            5,
-            6,
-            7
+            3,
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-16_Low_to_High_Cable_Woodchop-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "uniquePoses": 5,
+      "duration_ms": 2155,
+      "framing": "Fixed cable tower, floor supports and pulley. The handle travels upward across the body and returns along the same path.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-16_Low_to_High_Cable_Woodchop-atlas.webp",
@@ -22141,31 +22163,33 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        380,
+        220,
+        210,
+        205,
+        410,
+        240,
+        230,
+        260
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 5,
       "poseSequence": [
         0,
         1,
         2,
         3,
         4,
-        5,
-        6,
-        7
+        3,
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-16_Low_to_High_Cable_Woodchop-poster.webp"
   },
   {
     "name": "Horizontal Cable Rotation",
@@ -22176,123 +22200,109 @@
       "male": {
         "image": "assets/motion-v18/male-g4-17_Horizontal_Cable_Rotation-poster.webp",
         "poster": "assets/motion-v18/male-g4-17_Horizontal_Cable_Rotation-poster.webp",
-        "style": "Clean anime pose loop",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 4,
+          "uniquePoses": 3,
+          "duration_ms": 1800,
+          "framing": "The upright and floor supports stay fixed while the athlete rotates with the cable.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-17_Horizontal_Cable_Rotation-atlas.webp",
-          "columns": 4,
+          "columns": 3,
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
+            475,
+            360,
             500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            465
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 3,
           "poseSequence": [
             0,
             1,
             2,
-            3,
-            4,
-            5,
-            6,
-            7
+            1
           ]
         }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-17_Horizontal_Cable_Rotation-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g4-17_Horizontal_Cable_Rotation-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 4,
+          "uniquePoses": 3,
+          "duration_ms": 1800,
+          "framing": "The upright and floor supports stay fixed while the athlete rotates with the cable.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-17_Horizontal_Cable_Rotation-atlas.webp",
-          "columns": 4,
+          "columns": 3,
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
+            475,
+            360,
             500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            465
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 3,
           "poseSequence": [
             0,
             1,
             2,
-            3,
-            4,
-            5,
-            6,
-            7
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-17_Horizontal_Cable_Rotation-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 4,
+      "uniquePoses": 3,
+      "duration_ms": 1800,
+      "framing": "The upright and floor supports stay fixed while the athlete rotates with the cable.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-17_Horizontal_Cable_Rotation-atlas.webp",
-      "columns": 4,
+      "columns": 3,
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
+        475,
+        360,
         500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        465
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 3,
       "poseSequence": [
         0,
         1,
         2,
-        3,
-        4,
-        5,
-        6,
-        7
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-17_Horizontal_Cable_Rotation-poster.webp"
   },
   {
     "name": "Pallof Press",
@@ -27715,7 +27725,7 @@
       "keyframes": 6,
       "uniquePoses": 4,
       "duration_ms": 2000,
-      "framing": "Fixed bench and floor frame; hips stay supported as the lower legs and loaded ankle roller pivot.",
+      "framing": "One stationary bench, chassis and supported upper body; lower legs and loaded ankle lever move through one curl.",
       "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
@@ -27755,7 +27765,7 @@
           "keyframes": 6,
           "uniquePoses": 4,
           "duration_ms": 2000,
-          "framing": "Fixed bench and floor frame; hips stay supported as the lower legs and loaded ankle roller pivot.",
+          "framing": "One stationary bench, chassis and supported upper body; lower legs and loaded ankle lever move through one curl.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -27795,7 +27805,7 @@
           "keyframes": 6,
           "uniquePoses": 4,
           "duration_ms": 2000,
-          "framing": "Fixed bench and floor frame; hips stay supported as the lower legs and loaded ankle roller pivot.",
+          "framing": "One stationary bench, chassis and supported upper body; lower legs and loaded ankle lever move through one curl.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -40247,11 +40257,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-single-arm-cable-chest-press-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-single-arm-cable-chest-press-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The cable tower chassis stays fixed as the athlete presses the cable and the stack travels.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-single-arm-cable-chest-press-atlas.webp",
@@ -40268,6 +40281,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -40283,16 +40297,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-single-arm-cable-chest-press-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-single-arm-cable-chest-press-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-single-arm-cable-chest-press-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The cable tower chassis stays fixed as the athlete presses the cable and the stack travels.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-single-arm-cable-chest-press-atlas.webp",
@@ -40309,6 +40325,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -40324,16 +40341,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-single-arm-cable-chest-press-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-single-arm-cable-chest-press-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The cable tower chassis stays fixed as the athlete presses the cable and the stack travels.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-single-arm-cable-chest-press-atlas.webp",
@@ -40350,6 +40368,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -40365,7 +40384,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-single-arm-cable-chest-press-poster.webp"
   },
   {
     "id": "exp-standing-cable-chest-fly",
@@ -48560,11 +48580,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-standing-high-cable-row-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-standing-high-cable-row-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The cable tower base and uprights stay fixed while the handles, cable and stack move.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-standing-high-cable-row-atlas.webp",
@@ -48581,6 +48604,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -48596,16 +48620,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-standing-high-cable-row-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-standing-high-cable-row-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-standing-high-cable-row-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The cable tower base and uprights stay fixed while the handles, cable and stack move.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-standing-high-cable-row-atlas.webp",
@@ -48622,6 +48648,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -48637,16 +48664,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-standing-high-cable-row-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-standing-high-cable-row-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The cable tower base and uprights stay fixed while the handles, cable and stack move.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-standing-high-cable-row-atlas.webp",
@@ -48663,6 +48691,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -48678,7 +48707,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-standing-high-cable-row-poster.webp"
   },
   {
     "id": "exp-plate-loaded-lat-pulldown",
@@ -48701,7 +48731,7 @@
           "keyframes": 8,
           "uniquePoses": 5,
           "duration_ms": 2010,
-          "framing": "Fixed camera; aligned seat and floor; controlled pull and return",
+          "framing": "The lower chassis stays fixed while the two loaded handles and the athlete’s arms move.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -48745,7 +48775,7 @@
           "keyframes": 6,
           "uniquePoses": 4,
           "duration_ms": 2010,
-          "framing": "Fixed camera; aligned seat and floor; controlled pull and return",
+          "framing": "The lower chassis stays fixed while the two loaded handles and the athlete’s arms move.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -48784,7 +48814,7 @@
       "keyframes": 8,
       "uniquePoses": 5,
       "duration_ms": 2010,
-      "framing": "Fixed camera; aligned seat and floor; controlled pull and return",
+      "framing": "The lower chassis stays fixed while the two loaded handles and the athlete’s arms move.",
       "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
@@ -51716,14 +51746,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-single-arm-seated-cable-shoulder-press-poster.webp",
+        "poster": "assets/motion-v18/male-exp-single-arm-seated-cable-shoulder-press-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 30,
           "uniquePoses": 16,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "Fixed outer cable station; only intended exercise parts move.",
           "nativeTransformVersion": 2,
-          "sourceCellBorderTrim": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-single-arm-seated-cable-shoulder-press-atlas.webp",
@@ -51800,8 +51830,7 @@
             2,
             1
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-single-arm-seated-cable-shoulder-press-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-single-arm-seated-cable-shoulder-press-poster.webp",
@@ -51899,9 +51928,8 @@
       "keyframes": 30,
       "uniquePoses": 16,
       "duration_ms": 4000,
-      "framing": "Fixed camera and one uniform resize of the complete source atlas",
+      "framing": "Fixed outer cable station; only intended exercise parts move.",
       "nativeTransformVersion": 2,
-      "sourceCellBorderTrim": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-single-arm-seated-cable-shoulder-press-atlas.webp",
@@ -51978,7 +52006,8 @@
         2,
         1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-single-arm-seated-cable-shoulder-press-poster.webp"
   },
   {
     "id": "exp-dumbbell-push-press",
@@ -57630,7 +57659,7 @@
           "keyframes": 6,
           "uniquePoses": 4,
           "duration_ms": 2000,
-          "framing": "Fixed base and footplate; planted feet; padded sled and loaded plates slide on the guide rail.",
+          "framing": "The base and footplate stay anchored while the padded carriage and plates travel along the rails and the athlete bends at the knees and hips.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -57670,7 +57699,7 @@
           "keyframes": 6,
           "uniquePoses": 4,
           "duration_ms": 2000,
-          "framing": "Fixed base and footplate; planted feet; padded sled and loaded plates slide on the guide rail.",
+          "framing": "The base and footplate stay anchored while the padded carriage and plates travel along the rails and the athlete bends at the knees and hips.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -57709,7 +57738,7 @@
       "keyframes": 6,
       "uniquePoses": 4,
       "duration_ms": 2000,
-      "framing": "Fixed base and footplate; planted feet; padded sled and loaded plates slide on the guide rail.",
+      "framing": "The base and footplate stay anchored while the padded carriage and plates travel along the rails and the athlete bends at the knees and hips.",
       "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
@@ -58630,8 +58659,8 @@
         "animation": {
           "keyframes": 4,
           "uniquePoses": 3,
-          "duration_ms": 1800,
-          "framing": "Near-aligned frame; one press and return with the working foot staying on the plate.",
+          "duration_ms": 1850,
+          "framing": "Matched base scale and fixed floor rail; carriage and working foot travel on the rails.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -58640,10 +58669,10 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            490,
-            345,
-            435,
-            530
+            450,
+            350,
+            500,
+            550
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
@@ -58666,8 +58695,8 @@
         "animation": {
           "keyframes": 4,
           "uniquePoses": 3,
-          "duration_ms": 1800,
-          "framing": "Near-aligned frame; one press and return with the working foot staying on the plate.",
+          "duration_ms": 1850,
+          "framing": "Matched base scale and fixed floor rail; carriage and working foot travel on the rails.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -58676,10 +58705,10 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            490,
-            345,
-            435,
-            530
+            450,
+            350,
+            500,
+            550
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
@@ -58701,8 +58730,8 @@
     "animation": {
       "keyframes": 4,
       "uniquePoses": 3,
-      "duration_ms": 1800,
-      "framing": "Near-aligned frame; one press and return with the working foot staying on the plate.",
+      "duration_ms": 1850,
+      "framing": "Matched base scale and fixed floor rail; carriage and working foot travel on the rails.",
       "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
@@ -58711,10 +58740,10 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        490,
-        345,
-        435,
-        530
+        450,
+        350,
+        500,
+        550
       ],
       "isometricHold": false,
       "atlasFrameWidth": 420,
@@ -70874,11 +70903,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-standing-cable-leg-extension-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-standing-cable-leg-extension-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The low cable unit and standing support stay fixed while the leg extends against the ankle cable.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-standing-cable-leg-extension-atlas.webp",
@@ -70895,6 +70927,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -70910,16 +70943,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-standing-cable-leg-extension-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-standing-cable-leg-extension-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-standing-cable-leg-extension-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The low cable unit and standing support stay fixed while the leg extends against the ankle cable.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-standing-cable-leg-extension-atlas.webp",
@@ -70936,6 +70971,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -70951,16 +70987,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-standing-cable-leg-extension-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-standing-cable-leg-extension-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The low cable unit and standing support stay fixed while the leg extends against the ankle cable.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-standing-cable-leg-extension-atlas.webp",
@@ -70977,6 +71014,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -70992,7 +71030,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-standing-cable-leg-extension-poster.webp"
   },
   {
     "id": "exp-dumbbell-romanian-deadlift",
@@ -72193,11 +72232,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-cable-pull-through-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-cable-pull-through-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed outer cable station; only intended exercise parts move.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-cable-pull-through-atlas.webp",
@@ -72214,6 +72256,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -72229,16 +72272,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-cable-pull-through-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-cable-pull-through-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-cable-pull-through-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed outer cable station; only intended exercise parts move.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-cable-pull-through-atlas.webp",
@@ -72255,6 +72300,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -72270,16 +72316,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-cable-pull-through-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-cable-pull-through-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "Fixed outer cable station; only intended exercise parts move.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-cable-pull-through-atlas.webp",
@@ -72296,6 +72343,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -72311,7 +72359,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-cable-pull-through-poster.webp"
   },
   {
     "id": "exp-resistance-band-good-morning",
@@ -72697,14 +72746,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-exp-seated-leg-curl-poster.webp",
+        "poster": "assets/motion-v18/female-exp-seated-leg-curl-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 30,
           "uniquePoses": 16,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The floor frame, rear support and tower stay fixed while the legs curl and the linked roller and stack move.",
           "nativeTransformVersion": 2,
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-seated-leg-curl-atlas.webp",
@@ -72781,8 +72830,7 @@
             2,
             1
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-seated-leg-curl-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-seated-leg-curl-poster.webp",
@@ -72889,11 +72937,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-single-leg-seated-leg-curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-single-leg-seated-leg-curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Fixed seat, body and floor frame; working lower leg, roller and weight stack move through one controlled curl.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-single-leg-seated-leg-curl-atlas.webp",
@@ -72901,40 +72952,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-single-leg-seated-leg-curl-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-single-leg-seated-leg-curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-single-leg-seated-leg-curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Fixed seat, body and floor frame; working lower leg, roller and weight stack move through one controlled curl.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-single-leg-seated-leg-curl-atlas.webp",
@@ -72942,40 +72992,38 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-single-leg-seated-leg-curl-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-single-leg-seated-leg-curl-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 2000,
+      "framing": "Fixed seat, body and floor frame; working lower leg, roller and weight stack move through one controlled curl.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-single-leg-seated-leg-curl-atlas.webp",
@@ -72983,31 +73031,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        400,
+        235,
+        255,
+        345,
+        355,
+        410
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-single-leg-seated-leg-curl-poster.webp"
   },
   {
     "id": "exp-standing-leg-curl-machine",
@@ -73893,11 +73939,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-single-leg-prone-leg-curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-single-leg-prone-leg-curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "The base, bench and tower stay fixed while the working lower leg, ankle roller, linkage and stack move.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-single-leg-prone-leg-curl-atlas.webp",
@@ -73905,40 +73954,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-single-leg-prone-leg-curl-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-single-leg-prone-leg-curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-single-leg-prone-leg-curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "The base, bench and tower stay fixed while the working lower leg, ankle roller, linkage and stack move.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-single-leg-prone-leg-curl-atlas.webp",
@@ -73946,40 +73994,38 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-single-leg-prone-leg-curl-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-single-leg-prone-leg-curl-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 2000,
+      "framing": "The base, bench and tower stay fixed while the working lower leg, ankle roller, linkage and stack move.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-single-leg-prone-leg-curl-atlas.webp",
@@ -73987,31 +74033,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        400,
+        235,
+        255,
+        345,
+        355,
+        410
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-single-leg-prone-leg-curl-poster.webp"
   },
   {
     "id": "exp-kneeling-leg-curl-machine",
@@ -82023,11 +82067,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-reverse-hyperextension-machine-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-reverse-hyperextension-machine-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Fixed upper body, bench and front chassis; lower body and loaded linkage swing behind the hip pivot.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-reverse-hyperextension-machine-atlas.webp",
@@ -82035,40 +82082,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-reverse-hyperextension-machine-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-reverse-hyperextension-machine-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-reverse-hyperextension-machine-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Fixed upper body, bench and front chassis; lower body and loaded linkage swing behind the hip pivot.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-reverse-hyperextension-machine-atlas.webp",
@@ -82076,40 +82122,38 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-reverse-hyperextension-machine-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-reverse-hyperextension-machine-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 2000,
+      "framing": "Fixed upper body, bench and front chassis; lower body and loaded linkage swing behind the hip pivot.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-reverse-hyperextension-machine-atlas.webp",
@@ -82117,31 +82161,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        400,
+        235,
+        255,
+        345,
+        355,
+        410
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-reverse-hyperextension-machine-poster.webp"
   },
   {
     "id": "exp-standing-hip-extension-machine",
@@ -82159,11 +82201,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-standing-hip-extension-machine-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-standing-hip-extension-machine-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Registered weight tower and fixed floor supports; working leg and linkage move through the extension.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-standing-hip-extension-machine-atlas.webp",
@@ -82171,40 +82216,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-standing-hip-extension-machine-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-standing-hip-extension-machine-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-standing-hip-extension-machine-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2000,
+          "framing": "Registered weight tower and fixed floor supports; working leg and linkage move through the extension.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-standing-hip-extension-machine-atlas.webp",
@@ -82212,40 +82256,38 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-standing-hip-extension-machine-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-standing-hip-extension-machine-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 2000,
+      "framing": "Registered weight tower and fixed floor supports; working leg and linkage move through the extension.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-standing-hip-extension-machine-atlas.webp",
@@ -82253,31 +82295,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        400,
+        235,
+        255,
+        345,
+        355,
+        410
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-standing-hip-extension-machine-poster.webp"
   },
   {
     "id": "exp-resistance-band-standing-hip-extension",
@@ -87878,18 +87918,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-smith-machine-seated-calf-raise-poster.webp",
+        "poster": "assets/motion-v18/male-exp-smith-machine-seated-calf-raise-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 30,
           "uniquePoses": 16,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The Smith rack, bench base and floor platform stay fixed while the bar and loaded plates travel on their guides.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 4
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-smith-machine-seated-calf-raise-atlas.webp",
@@ -87966,23 +88002,18 @@
             2,
             1
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-smith-machine-seated-calf-raise-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-smith-machine-seated-calf-raise-poster.webp",
+        "poster": "assets/motion-v18/female-exp-smith-machine-seated-calf-raise-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 30,
           "uniquePoses": 16,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The Smith rack, bench base and floor platform stay fixed while the bar and loaded plates travel on their guides.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 4
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-smith-machine-seated-calf-raise-atlas.webp",
@@ -88059,8 +88090,7 @@
             2,
             1
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-smith-machine-seated-calf-raise-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-smith-machine-seated-calf-raise-poster.webp",
@@ -88069,13 +88099,8 @@
       "keyframes": 30,
       "uniquePoses": 16,
       "duration_ms": 4000,
-      "framing": "Fixed camera and one uniform resize of the complete source atlas",
+      "framing": "The Smith rack, bench base and floor platform stay fixed while the bar and loaded plates travel on their guides.",
       "nativeTransformVersion": 2,
-      "sourceGrid": {
-        "columns": 4,
-        "rows": 4
-      },
-      "sourceCellBorderTrim": 6,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-smith-machine-seated-calf-raise-atlas.webp",
@@ -88152,7 +88177,8 @@
         2,
         1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-smith-machine-seated-calf-raise-poster.webp"
   },
   {
     "id": "exp-standing-calf-raise-machine",
@@ -94480,18 +94506,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-exp-side-plank-cable-row-poster.webp",
+        "poster": "assets/motion-v18/female-exp-side-plank-cable-row-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 14,
           "uniquePoses": 8,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "Fixed outer cable station; only intended exercise parts move.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-side-plank-cable-row-atlas.webp",
@@ -94536,8 +94558,7 @@
             2,
             1
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-side-plank-cable-row-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-side-plank-cable-row-poster.webp",
@@ -102082,18 +102103,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-treadmill-jog-poster.webp",
+        "poster": "assets/motion-v18/male-exp-treadmill-jog-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 6,
           "uniquePoses": 6,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The display, uprights and base stay fixed while the belt and runner move.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-treadmill-jog-atlas.webp",
@@ -102122,23 +102139,18 @@
             4,
             5
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-treadmill-jog-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-treadmill-jog-poster.webp",
+        "poster": "assets/motion-v18/female-exp-treadmill-jog-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 6,
           "uniquePoses": 6,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The display, uprights and base stay fixed while the belt and runner move.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-treadmill-jog-atlas.webp",
@@ -102167,8 +102179,7 @@
             4,
             5
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-treadmill-jog-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-treadmill-jog-poster.webp",
@@ -102177,13 +102188,8 @@
       "keyframes": 6,
       "uniquePoses": 6,
       "duration_ms": 4000,
-      "framing": "Fixed camera and one uniform resize of the complete source atlas",
+      "framing": "The display, uprights and base stay fixed while the belt and runner move.",
       "nativeTransformVersion": 2,
-      "sourceGrid": {
-        "columns": 4,
-        "rows": 2
-      },
-      "sourceCellBorderTrim": 6,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-treadmill-jog-atlas.webp",
@@ -102212,7 +102218,8 @@
         4,
         5
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-treadmill-jog-poster.webp"
   },
   {
     "id": "exp-elliptical-trainer",
@@ -102229,18 +102236,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-elliptical-trainer-poster.webp",
+        "poster": "assets/motion-v18/male-exp-elliptical-trainer-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 6,
           "uniquePoses": 6,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The floor feet and housing stay fixed while the pedals and linked handles move.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-elliptical-trainer-atlas.webp",
@@ -102269,23 +102272,18 @@
             4,
             5
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-elliptical-trainer-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-elliptical-trainer-poster.webp",
+        "poster": "assets/motion-v18/female-exp-elliptical-trainer-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 6,
           "uniquePoses": 6,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The floor feet and housing stay fixed while the pedals and linked handles move.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-elliptical-trainer-atlas.webp",
@@ -102314,8 +102312,7 @@
             4,
             5
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-elliptical-trainer-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-elliptical-trainer-poster.webp",
@@ -102324,13 +102321,8 @@
       "keyframes": 6,
       "uniquePoses": 6,
       "duration_ms": 4000,
-      "framing": "Fixed camera and one uniform resize of the complete source atlas",
+      "framing": "The floor feet and housing stay fixed while the pedals and linked handles move.",
       "nativeTransformVersion": 2,
-      "sourceGrid": {
-        "columns": 4,
-        "rows": 2
-      },
-      "sourceCellBorderTrim": 6,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-elliptical-trainer-atlas.webp",
@@ -102359,7 +102351,8 @@
         4,
         5
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-elliptical-trainer-poster.webp"
   },
   {
     "id": "exp-rowing-machine",
@@ -102376,18 +102369,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-rowing-machine-poster.webp",
+        "poster": "assets/motion-v18/male-exp-rowing-machine-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
-          "uniquePoses": 8,
+          "uniquePoses": 5,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The rail, monitor support and floor feet stay fixed while the seat and handle travel.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-rowing-machine-atlas.webp",
@@ -102409,34 +102398,29 @@
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 5,
           "poseSequence": [
             0,
             1,
             2,
             3,
             4,
-            5,
-            6,
-            7
+            2,
+            1,
+            0
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-rowing-machine-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-rowing-machine-poster.webp",
+        "poster": "assets/motion-v18/female-exp-rowing-machine-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
-          "uniquePoses": 8,
+          "uniquePoses": 5,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The rail, monitor support and floor feet stay fixed while the seat and handle travel.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-rowing-machine-atlas.webp",
@@ -102458,34 +102442,28 @@
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 5,
           "poseSequence": [
             0,
             1,
             2,
             3,
             4,
-            5,
-            6,
-            7
+            2,
+            1,
+            0
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-rowing-machine-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-rowing-machine-poster.webp",
     "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
-      "uniquePoses": 8,
+      "uniquePoses": 5,
       "duration_ms": 4000,
-      "framing": "Fixed camera and one uniform resize of the complete source atlas",
+      "framing": "The rail, monitor support and floor feet stay fixed while the seat and handle travel.",
       "nativeTransformVersion": 2,
-      "sourceGrid": {
-        "columns": 4,
-        "rows": 2
-      },
-      "sourceCellBorderTrim": 6,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-rowing-machine-atlas.webp",
@@ -102507,18 +102485,19 @@
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 5,
       "poseSequence": [
         0,
         1,
         2,
         3,
         4,
-        5,
-        6,
-        7
+        2,
+        1,
+        0
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-rowing-machine-poster.webp"
   },
   {
     "id": "exp-air-bike",
@@ -102535,18 +102514,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-air-bike-poster.webp",
+        "poster": "assets/motion-v18/male-exp-air-bike-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 5,
           "uniquePoses": 5,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The floor frame stays fixed while the cranks, pedals and handle arms move.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-air-bike-atlas.webp",
@@ -102573,23 +102548,18 @@
             3,
             4
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-air-bike-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-air-bike-poster.webp",
+        "poster": "assets/motion-v18/female-exp-air-bike-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 5,
           "uniquePoses": 5,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The floor frame stays fixed while the cranks, pedals and handle arms move.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-air-bike-atlas.webp",
@@ -102616,8 +102586,7 @@
             3,
             4
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-air-bike-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-air-bike-poster.webp",
@@ -102626,13 +102595,8 @@
       "keyframes": 5,
       "uniquePoses": 5,
       "duration_ms": 4000,
-      "framing": "Fixed camera and one uniform resize of the complete source atlas",
+      "framing": "The floor frame stays fixed while the cranks, pedals and handle arms move.",
       "nativeTransformVersion": 2,
-      "sourceGrid": {
-        "columns": 4,
-        "rows": 2
-      },
-      "sourceCellBorderTrim": 6,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-air-bike-atlas.webp",
@@ -102659,7 +102623,8 @@
         3,
         4
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-air-bike-poster.webp"
   },
   {
     "id": "exp-stair-climber",
@@ -102676,18 +102641,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-stair-climber-poster.webp",
+        "poster": "assets/motion-v18/male-exp-stair-climber-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 12,
           "uniquePoses": 12,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The side cover, console and foot stay fixed while the steps cycle under the athlete.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 3
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-stair-climber-atlas.webp",
@@ -102728,23 +102689,18 @@
             10,
             11
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-stair-climber-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-stair-climber-poster.webp",
+        "poster": "assets/motion-v18/female-exp-stair-climber-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 12,
           "uniquePoses": 12,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "The side cover, console and foot stay fixed while the steps cycle under the athlete.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 3
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-stair-climber-atlas.webp",
@@ -102785,8 +102741,7 @@
             10,
             11
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-stair-climber-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-stair-climber-poster.webp",
@@ -102795,13 +102750,8 @@
       "keyframes": 12,
       "uniquePoses": 12,
       "duration_ms": 4000,
-      "framing": "Fixed camera and one uniform resize of the complete source atlas",
+      "framing": "The side cover, console and foot stay fixed while the steps cycle under the athlete.",
       "nativeTransformVersion": 2,
-      "sourceGrid": {
-        "columns": 4,
-        "rows": 3
-      },
-      "sourceCellBorderTrim": 6,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-stair-climber-atlas.webp",
@@ -102842,7 +102792,8 @@
         10,
         11
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-stair-climber-poster.webp"
   },
   {
     "id": "exp-jump-rope",

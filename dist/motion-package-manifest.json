@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "reviewedExercises": 425,
   "pendingExercises": 0,
-  "animationCatalogSha256": "9d7240b4a371b6ebd3fe231a4ba8bf6c419a1e7d5b170d1dc8beee2e00db0efc",
+  "animationCatalogSha256": "40f30b8424f4dad1a814d1da7cb9c39115e4f378a97dbac5d9795201f4a2ae37",
   "nativeSourceBindings": [
     {
       "exercise": "exp-45-degree-leg-press",
@@ -17,12 +17,12 @@
     {
       "exercise": "exp-air-bike",
       "variant": "female",
-      "sourceHash": "43b5fe3fa22dbad8b18102ad22fdb7ea9ccc9eabddb1d68d0165d74ad67e46b1"
+      "sourceHash": "36476ba7953548345da17d80c519e11fd505e0a0d3ed4c5933bbded3619d4c39"
     },
     {
       "exercise": "exp-air-bike",
       "variant": "male",
-      "sourceHash": "cfa6d2689fba874af9f5c721f32be24c34e72cb8ab3b94986e446ca4efd8b98e"
+      "sourceHash": "e1e7f5093264dbb1672cbcb352189d4927302052045b913d9918d27429d75947"
     },
     {
       "exercise": "exp-anchored-resistance-band-chest-fly",
@@ -286,8 +286,13 @@
     },
     {
       "exercise": "exp-cable-pull-through",
-      "variant": "retained",
-      "sourceHash": "75246949d5d10c41552fdcccf2ae19dec028e6b889a98f2ec43b608be3a8d492"
+      "variant": "female",
+      "sourceHash": "fee6e399aac796cc03f9c31d41e2d2ed57d0d35c102d8589a6365e76e526da0a"
+    },
+    {
+      "exercise": "exp-cable-pull-through",
+      "variant": "male",
+      "sourceHash": "b10548855a0f7d6ed23d1db91be7564ced2ce1fef1228cf4c5d1cca60e26c1a4"
     },
     {
       "exercise": "exp-cable-rear-delt-fly",
@@ -647,12 +652,12 @@
     {
       "exercise": "exp-elliptical-trainer",
       "variant": "female",
-      "sourceHash": "76c1f2de5a96b8d58203b40ac9c5e8275d55a20ed63949f2f0423bbde2f53b2b"
+      "sourceHash": "969093e2a941516be7990d9b233f39e48f9767cd45f32dcecb0fd61c89738a18"
     },
     {
       "exercise": "exp-elliptical-trainer",
       "variant": "male",
-      "sourceHash": "51e5c4dbd2de978ddf7b06098dccff3021ff10743dc079eeb860f1f2c7bf9a54"
+      "sourceHash": "4d67204623a0b2b45b8bddbaef92233388e26d52a513fae70d308bbb42ad123c"
     },
     {
       "exercise": "exp-ez-bar-lying-triceps-extension",
@@ -752,12 +757,12 @@
     {
       "exercise": "exp-hack-squat-machine",
       "variant": "female",
-      "sourceHash": "38711438993a4d965c54a1b1071e5d138752999cc0db9aeac1ad3b547f645fa4"
+      "sourceHash": "a87e6866e701f9625572c0eadc1666dd9f8984ec6de61df73e7f78fd0b1d4bf1"
     },
     {
       "exercise": "exp-hack-squat-machine",
       "variant": "male",
-      "sourceHash": "92299d26669c7947ffd6efe24a282f21542546c9b67ab1773ba0b84dd223d8b8"
+      "sourceHash": "6e159d9dfea22201513968a8f2fbb5bb17291341dd6e64df912eaaae2e7d3613"
     },
     {
       "exercise": "exp-hamstring-walkout",
@@ -1122,12 +1127,12 @@
     {
       "exercise": "exp-plate-loaded-lat-pulldown",
       "variant": "female",
-      "sourceHash": "1b9f4d4b83a66e03442128c427f9c57c73ce8d402562d3696286417ddd4ca60e"
+      "sourceHash": "1dca3b8f9d4977754c1fdd93d2b6054778bb256334cdb010d9470e48c46157c7"
     },
     {
       "exercise": "exp-plate-loaded-lat-pulldown",
       "variant": "male",
-      "sourceHash": "c6afe9ce8b75b5aeb5188e3e308bc5790e6b4f25fc483b0f4bb32c04069bf134"
+      "sourceHash": "4f411418584394935d2884a86b6be24816f0f2cc9c4c5fb2f8822698ef9cb217"
     },
     {
       "exercise": "exp-plate-pinch-hold",
@@ -1351,18 +1356,23 @@
     },
     {
       "exercise": "exp-reverse-hyperextension-machine",
-      "variant": "retained",
-      "sourceHash": "c40dac77acd266e5e19a0bfdbfd3669539c3664c25c244a23bc2b520f0dc632a"
+      "variant": "female",
+      "sourceHash": "ae60f0b59ebaa82c925e46c98f3b1aded4f0ddcaca26f95066f69c2ae2a054cd"
+    },
+    {
+      "exercise": "exp-reverse-hyperextension-machine",
+      "variant": "male",
+      "sourceHash": "0445c6c0078ab5ed5b351c7408f4cdbd1df147276bbf567636acc45297c0ba31"
     },
     {
       "exercise": "exp-rowing-machine",
       "variant": "female",
-      "sourceHash": "bebbb56aa391ab7c10b5b221bef2499a1acd9a2b01432750defcfee0773a731e"
+      "sourceHash": "fc42cf447652da07f0d456b9ecca2592fd298ece1da411e1b262128c7132efc0"
     },
     {
       "exercise": "exp-rowing-machine",
       "variant": "male",
-      "sourceHash": "3fb6f08577c2e9a49c1ec222c4488238f85db313f6bb4ec3c880effd3310f029"
+      "sourceHash": "a56b8ee642a0815f16e558074c607542cd6265a44e967005de612c23eb12220b"
     },
     {
       "exercise": "exp-sandbag-bear-hug-carry",
@@ -1442,7 +1452,7 @@
     {
       "exercise": "exp-seated-leg-curl",
       "variant": "female",
-      "sourceHash": "1e57f7bb3601d89af24ce12c853b3cb90fcb24876bafac0f70cced86d406714e"
+      "sourceHash": "d6d1659952f6ce0b6199b8231877c31fb8148753e9a5da66b9722ef2258fb3c9"
     },
     {
       "exercise": "exp-seated-leg-curl",
@@ -1482,7 +1492,7 @@
     {
       "exercise": "exp-side-plank-cable-row",
       "variant": "female",
-      "sourceHash": "72074760ee14f8c5d91926e3da7b6c19b8baa9feaeef1087753acf8cd745ae40"
+      "sourceHash": "5606814eeee326972ebfd65c29fed575103ad72b4f5b24420bcf9683759ed2bf"
     },
     {
       "exercise": "exp-side-plank-cable-row",
@@ -1491,8 +1501,13 @@
     },
     {
       "exercise": "exp-single-arm-cable-chest-press",
-      "variant": "retained",
-      "sourceHash": "b7daf6634fdfbf004a08a11af5798f9f643104bd39af7c83c46574a566476e9d"
+      "variant": "female",
+      "sourceHash": "62e7e3ea024087d85c4277e837280972cb0aae7ad8ad60b580681ed27565de06"
+    },
+    {
+      "exercise": "exp-single-arm-cable-chest-press",
+      "variant": "male",
+      "sourceHash": "c644b9b5d45f296af0535645e8839d6c9e8aaa295c47b6c2098d94e5d384398f"
     },
     {
       "exercise": "exp-single-arm-cable-triceps-pressdown",
@@ -1537,7 +1552,7 @@
     {
       "exercise": "exp-single-arm-seated-cable-shoulder-press",
       "variant": "male",
-      "sourceHash": "50cdfa09216c047b7191894444886b991f161df6173da24f734cb4ab79c91b7e"
+      "sourceHash": "89ccb72c8dfdbcdc272b849e2dbf7f91f1b9ef51d8ef2f8bb214ffaa596a393a"
     },
     {
       "exercise": "exp-single-arm-standing-dumbbell-shoulder-press",
@@ -1597,22 +1612,32 @@
     {
       "exercise": "exp-single-leg-leg-press",
       "variant": "female",
-      "sourceHash": "59c2965a753e1d48accd0d744dd54dfd09c5559fd51c6017b5e37426a70da6fe"
+      "sourceHash": "ba23fd02e637fdece6a89652a2f950b5e9aeccb85977fe2a08ac8bfafb21cea1"
     },
     {
       "exercise": "exp-single-leg-leg-press",
       "variant": "male",
-      "sourceHash": "1a9e3c22f569549d474b37756bb252aa40ff4936af310b03c1e56a9d449ce483"
+      "sourceHash": "b7b832ef1f9f3cd9febe12386bdd2c37656dfa095a1a2d9c7f6bcef130d3095c"
     },
     {
       "exercise": "exp-single-leg-prone-leg-curl",
-      "variant": "retained",
-      "sourceHash": "32dffeb49725188cdae52961cbbfff5a9043c324251daa9d45698616448681e2"
+      "variant": "female",
+      "sourceHash": "a67c7e3defbaadc6e75a7f6631e7d4fc24c8a7bcc3e43099196703a37e28955a"
+    },
+    {
+      "exercise": "exp-single-leg-prone-leg-curl",
+      "variant": "male",
+      "sourceHash": "f44e3f353710eab4ff76e4129545c22a2f08718ea987158c6db96fb6a935cec4"
     },
     {
       "exercise": "exp-single-leg-seated-leg-curl",
-      "variant": "retained",
-      "sourceHash": "8149d585d9af6f68b25b4de10e8dbab9b25b6166ee50cbddfe8b4f8fcf982479"
+      "variant": "female",
+      "sourceHash": "81501c4be800502f710576ebcf8121d876c476f395a094023ac14867131c9d3c"
+    },
+    {
+      "exercise": "exp-single-leg-seated-leg-curl",
+      "variant": "male",
+      "sourceHash": "9f15324b1acd8359542c5da8950ba5a4d8851b66affa370929442e0073b6f6cd"
     },
     {
       "exercise": "exp-single-leg-slider-hamstring-curl",
@@ -1697,12 +1722,12 @@
     {
       "exercise": "exp-smith-machine-seated-calf-raise",
       "variant": "female",
-      "sourceHash": "9c0badb0fe7a70e822ea7318dafc0aca3888127f19b4df0cf989262b4bfabf25"
+      "sourceHash": "df3d2e378ded3096a1e1d4b3409d4775a45f5c880baa6369d6db28d4ce52384a"
     },
     {
       "exercise": "exp-smith-machine-seated-calf-raise",
       "variant": "male",
-      "sourceHash": "f7770c9e5d8f5d3968a8a40acd1c3a6413687df9193cdac11aad84c4c66cd363"
+      "sourceHash": "7233cd63f6322e4ce70848185e6a7ee09a91c6203d9c4fbabf37250f304bd859"
     },
     {
       "exercise": "exp-smith-machine-squat",
@@ -1752,12 +1777,12 @@
     {
       "exercise": "exp-stair-climber",
       "variant": "female",
-      "sourceHash": "76c786e20668d0f0b163ec1593d5e5c61ca6c3445e06c2fd1f83d7fbb5730424"
+      "sourceHash": "eb376c1cd281e1e06057f6ee0743062fb31adbb1142c33d5c2d6defb1a0f05eb"
     },
     {
       "exercise": "exp-stair-climber",
       "variant": "male",
-      "sourceHash": "fdeb5cfc61149a8de996f6215745e54a91eef9a34b27251aa413de01182de0e8"
+      "sourceHash": "95760c3b8b17dfb365869983ab71376d0311a1ca7d62e03c12e6297f7414b350"
     },
     {
       "exercise": "exp-standing-band-hip-abduction",
@@ -1796,8 +1821,13 @@
     },
     {
       "exercise": "exp-standing-cable-leg-extension",
-      "variant": "retained",
-      "sourceHash": "42e9379a637cc19e8b4ca5e1bd89a7ea585c95bf26d6ac45a5b410399cfe32f9"
+      "variant": "female",
+      "sourceHash": "6456d0cb54bb24fc87bbcd64b1a7991aceadd3daf05a4c8798149587d94d6cb3"
+    },
+    {
+      "exercise": "exp-standing-cable-leg-extension",
+      "variant": "male",
+      "sourceHash": "6cffabdc1e66c3f49536250ab6eead5a03a15a5640e23f6edde10abcf8a54355"
     },
     {
       "exercise": "exp-standing-calf-raise-machine",
@@ -1811,13 +1841,23 @@
     },
     {
       "exercise": "exp-standing-high-cable-row",
-      "variant": "retained",
-      "sourceHash": "c76636a5547986079eee7711ba436bb29a849e20250b7afc88f0f1ae77b4cb22"
+      "variant": "female",
+      "sourceHash": "f9712d5a7661cdd5ff0bbd05532239ad478abf789d7c0316e4177f002f5034f5"
+    },
+    {
+      "exercise": "exp-standing-high-cable-row",
+      "variant": "male",
+      "sourceHash": "7f3d7680ba9f42bbadf4c8b5d62e201787e63b6e591bbf478d85dcff9cdb712a"
     },
     {
       "exercise": "exp-standing-hip-extension-machine",
-      "variant": "retained",
-      "sourceHash": "48d28243993c38242077b906ae34710a65ae078183860fdb162cd38a69edf9c6"
+      "variant": "female",
+      "sourceHash": "db25f883f2def867534fa3654c5cf22f5d2a2cb47d7e44018f6f5b8c1516cdea"
+    },
+    {
+      "exercise": "exp-standing-hip-extension-machine",
+      "variant": "male",
+      "sourceHash": "4f6142ea3aa94be01562cc2275e220d9c4a2b8f579978f637fff620382c7e7f0"
     },
     {
       "exercise": "exp-standing-leg-curl-machine",
@@ -1937,12 +1977,12 @@
     {
       "exercise": "exp-treadmill-jog",
       "variant": "female",
-      "sourceHash": "3e63343f2e7f1841e1b7d1b5e4614c3ce19cfa867e44c57edc3183d2e39b8781"
+      "sourceHash": "5c7a6802d685b501480cfc2ade7a12b0ac5d7527e04d2d99e0b0d095597ac5ba"
     },
     {
       "exercise": "exp-treadmill-jog",
       "variant": "male",
-      "sourceHash": "9509cb78dba205a8f5a24c0ea9ecdf3e71a038b3584284ea21150418f7dbf6aa"
+      "sourceHash": "2f661bf6792d948c1ddc9230ec93b28ffa34e48a7d0d6f9fc826990f462bf8ca"
     },
     {
       "exercise": "exp-v-up",
@@ -2186,8 +2226,13 @@
     },
     {
       "exercise": "g0-22_Hip_Adduction_Machine",
-      "variant": "retained",
-      "sourceHash": "ce4739a9bedaad47331014d1b8ea99b25c72ca224642dd77b856a0d678ce4624"
+      "variant": "female",
+      "sourceHash": "833496e528a7b6cb1ad65302ee0eb68d522cdb6124277eacd164bd9f22e95858"
+    },
+    {
+      "exercise": "g0-22_Hip_Adduction_Machine",
+      "variant": "male",
+      "sourceHash": "bcd94a283a18b9369b8cd7feb761e33fcff47ba9fb41daa7f73254fd603cdce2"
     },
     {
       "exercise": "g0-23_Barbell_Romanian_Deadlift",
@@ -2426,8 +2471,13 @@
     },
     {
       "exercise": "g1-24_Rope_Face_Pull",
-      "variant": "retained",
-      "sourceHash": "97b17484b933e375476a96b5b4a4628bd961fa24ba7eea73abca75bd05fa5f2d"
+      "variant": "female",
+      "sourceHash": "ba287975fcf4f7cfb8e267a5eba14388fa181ec1925b8592a1e93e667c9002ab"
+    },
+    {
+      "exercise": "g1-24_Rope_Face_Pull",
+      "variant": "male",
+      "sourceHash": "d3112c9ded3b9be5b33d28a2841768031333963d1839bfa6787880c578fc73e4"
     },
     {
       "exercise": "g1-25_Superman",
@@ -2677,17 +2727,22 @@
     {
       "exercise": "g3-18_Single_Arm_Cable_Curl",
       "variant": "female",
-      "sourceHash": "4d279837bfab635e285b44b68d9a1a8b8ac5def6911cb8dd46d226fa20d9f178"
+      "sourceHash": "bb18a17792f1cf5f29c5f386a9ce6fe9ebba475c443ecf3f5e3c5d11e98b82e7"
     },
     {
       "exercise": "g3-18_Single_Arm_Cable_Curl",
       "variant": "male",
-      "sourceHash": "09c9d1976a8408182e7f730a2fb7b114256004571c7e33313d6a9b29b2379493"
+      "sourceHash": "dfed95e358803c8ae22d3eaae269dc181d51488f494b00c44bceb8f8abb0c8bc"
     },
     {
       "exercise": "g3-19_Rope_Hammer_Cable_Curl",
-      "variant": "retained",
-      "sourceHash": "c568b261d6b7ee70f4a19364e9854e2e7d8d34f9179781a8f5c5122410f6057a"
+      "variant": "female",
+      "sourceHash": "373f15efec5cedec1def4209e4337457cf89e98d80731d2bbcb6a06e9ad496c6"
+    },
+    {
+      "exercise": "g3-19_Rope_Hammer_Cable_Curl",
+      "variant": "male",
+      "sourceHash": "ffd1164ba476a9d3a4f757692964924daf6602b450629a219b7f96ab10219a33"
     },
     {
       "exercise": "g3-20_Bayesian_Cable_Curl",
@@ -2701,8 +2756,13 @@
     },
     {
       "exercise": "g3-21_Overhead_Cable_Curl",
-      "variant": "retained",
-      "sourceHash": "f6cb030d5e344ce07135fbbc4741da6fbfc425126c28b2335c17b41623735e69"
+      "variant": "female",
+      "sourceHash": "8648fb986ffe276bfc8e8290ebb35add037f2d46f9f18c396d9be7d97b2760bc"
+    },
+    {
+      "exercise": "g3-21_Overhead_Cable_Curl",
+      "variant": "male",
+      "sourceHash": "1b92384ad9f26a98b59cfb2e16a49bdb30df870dd65ee122c95cbcd8743bdb73"
     },
     {
       "exercise": "g3-22_Machine_Preacher_Curl",
@@ -2836,18 +2896,33 @@
     },
     {
       "exercise": "g4-15_High_to_Low_Cable_Woodchop",
-      "variant": "retained",
-      "sourceHash": "030ea6697ec5ea48d5905e574adda4bc56f944ef61a6445933c560de970acaa2"
+      "variant": "female",
+      "sourceHash": "366a7d6e6658c5136c85eac3a9c3af9620aad08b275b7699b4bb5c883f1e009d"
+    },
+    {
+      "exercise": "g4-15_High_to_Low_Cable_Woodchop",
+      "variant": "male",
+      "sourceHash": "c235d297dbe2917e403f320aec9ba54628f44f4df9c69d92d76daeca1b225f17"
     },
     {
       "exercise": "g4-16_Low_to_High_Cable_Woodchop",
-      "variant": "retained",
-      "sourceHash": "de5b21306a47a0b5f947194b40cb890e2c88f323814f0a6db6be2efc911ef1a2"
+      "variant": "female",
+      "sourceHash": "fedb863b7db941196c0a5cc781631af3b6b88f1ae36f2d8f3f30971089128454"
+    },
+    {
+      "exercise": "g4-16_Low_to_High_Cable_Woodchop",
+      "variant": "male",
+      "sourceHash": "1001f505ac2892ac1111cdca5979d0867e52fbf9356adf089d45ff7b168fe2cc"
     },
     {
       "exercise": "g4-17_Horizontal_Cable_Rotation",
-      "variant": "retained",
-      "sourceHash": "f767bd24a8e7b26e1b827215471f76a0718fe35f51056ac236c7090a550782bb"
+      "variant": "female",
+      "sourceHash": "edd7dd482fc06381750ef9d05cd80c2bc6c18720322a8360088b54cb734950a2"
+    },
+    {
+      "exercise": "g4-17_Horizontal_Cable_Rotation",
+      "variant": "male",
+      "sourceHash": "4f90b312332135781ecfe36d0984463f1df741130efeb3770af79eb13a16d299"
     },
     {
       "exercise": "g4-18_Pallof_Press",
@@ -3077,12 +3152,12 @@
     {
       "exercise": "guide-prone-leg-curl",
       "variant": "female",
-      "sourceHash": "a94465f746dd5aa32de7853648e09e1405ea88eeefc2a1e1359a0f50a7a72205"
+      "sourceHash": "1dded5ae54fbfbacd869fc8b8c8bd1b74d6f1bfd1c65f23f4427a6fa94be6135"
     },
     {
       "exercise": "guide-prone-leg-curl",
       "variant": "male",
-      "sourceHash": "6f155c711451debcd1fb30f3befcb904bdf95c5db4539fec01a3c282a428efc9"
+      "sourceHash": "fd0de76efd1cae08fb24dd90e440b93f15b22108d0c6dd5dfb78b71f3a07ce6d"
     },
     {
       "exercise": "guide-push-up",
@@ -3298,8 +3373,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-air-bike-atlas.webp",
-      "sha256": "c287963d226080daafaf811ddb88a9ff42ea248a5c4bf39a3ebf0626804184e9",
-      "bytes": 689778
+      "sha256": "f84406242b35f709cda75f0ee8d46dd3584df2d740d0cd8e789312d2cc1d4dcc",
+      "bytes": 688928
     },
     {
       "path": "dist/assets/motion-v18/female-exp-air-bike-poster.webp",
@@ -3648,8 +3723,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-cable-pull-through-atlas.webp",
-      "sha256": "cffe789401c5db28665663bfb61c44627861cbd6c23c294b980916c219324df7",
-      "bytes": 484306
+      "sha256": "eefdd5765f56b1d5dfe8a9d22d9908ab3b80fc72b5be143899d15583d863bc40",
+      "bytes": 452484
     },
     {
       "path": "dist/assets/motion-v18/female-exp-cable-pull-through-poster.webp",
@@ -4098,8 +4173,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-elliptical-trainer-atlas.webp",
-      "sha256": "eed909cc06e6f295747a8bcffb3974525e5e1eaf80318e43f66ea15fdcb8bec6",
-      "bytes": 729260
+      "sha256": "fbecab91f26d8c5410ef2581c1f1d1d4a895953a4c0eea6ee27233c90741e199",
+      "bytes": 728838
     },
     {
       "path": "dist/assets/motion-v18/female-exp-elliptical-trainer-poster.webp",
@@ -4218,13 +4293,13 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-hack-squat-machine-atlas.webp",
-      "sha256": "ccfbb1c6f9a91c3e8e1763c8804ca70035273cc08248d5f0244d0ce8e4f5190b",
-      "bytes": 431474
+      "sha256": "68d57ea7c87328bf561704794c4271e53aeeb66d2a02f9a4d8744e97acfc618e",
+      "bytes": 421010
     },
     {
       "path": "dist/assets/motion-v18/female-exp-hack-squat-machine-poster.webp",
-      "sha256": "405ebc0e7f53e85174deca95c67a951bbffe15aa0fa5d59cc1644e220fbd1f8a",
-      "bytes": 121510
+      "sha256": "8afd652d57fe718e599284e491af8758be45217dbe8d4e5f4aedf77b4c732539",
+      "bytes": 121596
     },
     {
       "path": "dist/assets/motion-v18/female-exp-hamstring-walkout-atlas.webp",
@@ -4678,8 +4753,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-plate-loaded-lat-pulldown-atlas.webp",
-      "sha256": "4c53379e90f8e1822187888bbe476e24e9a3179bfc86fc6fa875935f2716f98a",
-      "bytes": 404404
+      "sha256": "8939648ed6f898ac7e170dcb60b34d669e1dc2df85dece1058461c4dfb5c5f31",
+      "bytes": 344742
     },
     {
       "path": "dist/assets/motion-v18/female-exp-plate-loaded-lat-pulldown-poster.webp",
@@ -4978,18 +5053,18 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-reverse-hyperextension-machine-atlas.webp",
-      "sha256": "a6f12fced5acca8e0c8932f8894d02b07b529d406f7ef6e0cf21c053079417e3",
-      "bytes": 568130
+      "sha256": "b7a2f58e898072783ed57bf47226bb31f401e6e473dfaf49882b7f42886250ee",
+      "bytes": 217200
     },
     {
       "path": "dist/assets/motion-v18/female-exp-reverse-hyperextension-machine-poster.webp",
-      "sha256": "3e8fc73fa5447a91fddff2463679513685b29668a70f25ec3e23542735f4793e",
-      "bytes": 67484
+      "sha256": "a6d0015400dfa341fd53f41ae94932a97e58cd033010bc74321e9c4d297a82a2",
+      "bytes": 67114
     },
     {
       "path": "dist/assets/motion-v18/female-exp-rowing-machine-atlas.webp",
-      "sha256": "ae45b805eaa5852a9a0011cef20408f9406fd2ca61ff62b026b5b2b219709519",
-      "bytes": 869390
+      "sha256": "03f5565394d0f4d2f96962d3b2b81f3aa117155217ce89d34b0f55b6818175d1",
+      "bytes": 544252
     },
     {
       "path": "dist/assets/motion-v18/female-exp-rowing-machine-poster.webp",
@@ -5078,8 +5153,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-seated-leg-curl-atlas.webp",
-      "sha256": "93681d5ff2c9a99bf9b8ea697a8ec85ec75f9817460020b9b0ca717fcd63852a",
-      "bytes": 2067556
+      "sha256": "bfa3650794e17e6b3b4f9f2e5f9b8450f6d9f8a7d4a33fe942591a695227e060",
+      "bytes": 1866048
     },
     {
       "path": "dist/assets/motion-v18/female-exp-seated-leg-curl-poster.webp",
@@ -5138,8 +5213,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-side-plank-cable-row-atlas.webp",
-      "sha256": "918de24649ea7bd2aeb145c3d9d4d37696c27183efdff38173c251d04a50f85f",
-      "bytes": 586550
+      "sha256": "af1b3929fb6a3cfd7900d56d300a9c0160e20fc0c79ba8eadbaad0a34e463e22",
+      "bytes": 535444
     },
     {
       "path": "dist/assets/motion-v18/female-exp-side-plank-cable-row-poster.webp",
@@ -5148,8 +5223,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-arm-cable-chest-press-atlas.webp",
-      "sha256": "594a175ca7fed65227150aa247e739e0090686aca0942fbb04e02c70e038a4d0",
-      "bytes": 581402
+      "sha256": "52a9c0b04b2d7e22ca00e941af57590bbaa4c77053f835427dc0d5121c216332",
+      "bytes": 536132
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-arm-cable-chest-press-poster.webp",
@@ -5288,28 +5363,28 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-leg-leg-press-atlas.webp",
-      "sha256": "b2c407feb824a286ed62a2ef97caf52330858de115a67a0c5d6be290f4d57a23",
-      "bytes": 228134
+      "sha256": "2ba0c4273dcfbead4bc87513c3926fbc624d308c85f2e54fde406bf3b8f9c4f9",
+      "bytes": 221748
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-leg-leg-press-poster.webp",
-      "sha256": "5973d5c75eac38afe50b031598f51ef14dcdf7259f0447fe4f03d94d39cbee86",
-      "bytes": 78100
+      "sha256": "f10d19bd6f22502972c1c0e66a171e51884306ffb6ba519667f82aa1747009cf",
+      "bytes": 76612
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-leg-prone-leg-curl-atlas.webp",
-      "sha256": "ce20f1c78bd70335e21fd1401f7e3d39221a8e6bd1eaf222a198aa5d7409bd76",
-      "bytes": 640832
+      "sha256": "086315b4513bbb7da71a62034674dc5969b2df7529fb86f9ddbb1ad580718111",
+      "bytes": 226430
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-leg-prone-leg-curl-poster.webp",
-      "sha256": "dad3f8ad2b8f707846138f274fbf97b919828a103d54d52ac935a1bedf9c6637",
-      "bytes": 77058
+      "sha256": "b4a190debe1ed0ed26414a25938822cc240613f8dc0258546c535412f5d0a0c6",
+      "bytes": 76528
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-leg-seated-leg-curl-atlas.webp",
-      "sha256": "48f46ac849c2ccdff111faf09bab37a2398278a024809f3e9d293b413e87e455",
-      "bytes": 743188
+      "sha256": "a33cf87007f483627f2913626ca69ffba41c3600e10e6f03e5b4b2b965b66ab9",
+      "bytes": 271888
     },
     {
       "path": "dist/assets/motion-v18/female-exp-single-leg-seated-leg-curl-poster.webp",
@@ -5408,8 +5483,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-smith-machine-seated-calf-raise-atlas.webp",
-      "sha256": "a76017fb0add4d8523b129aa42a45f8ec4d85ab4dde5bd32f35f46d553f50406",
-      "bytes": 1544206
+      "sha256": "a42bb337240ae8ea5b1f3e7e3fe58993952ffad829c36b82b93f8ef63ecac75d",
+      "bytes": 1238730
     },
     {
       "path": "dist/assets/motion-v18/female-exp-smith-machine-seated-calf-raise-poster.webp",
@@ -5468,8 +5543,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-stair-climber-atlas.webp",
-      "sha256": "ddbe1bf2ed2f4325d1847a7080e8ba8e05972b1bbee7f90e82a87327cf4172a7",
-      "bytes": 975440
+      "sha256": "75a51ee1b9328e6dea901164ae25f9a676071af42fa52a2322e19a410f85ed8c",
+      "bytes": 974364
     },
     {
       "path": "dist/assets/motion-v18/female-exp-stair-climber-poster.webp",
@@ -5528,8 +5603,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-standing-cable-leg-extension-atlas.webp",
-      "sha256": "81d16f5248dfa41090269e9c123f253f32261ad7bd847518631907d2db74f00d",
-      "bytes": 542792
+      "sha256": "c9c7f22b3e30e4c478d1cdca1198edaeadf5db5ae818432b5b7cc03e071be77c",
+      "bytes": 534040
     },
     {
       "path": "dist/assets/motion-v18/female-exp-standing-cable-leg-extension-poster.webp",
@@ -5548,8 +5623,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-standing-high-cable-row-atlas.webp",
-      "sha256": "a3e423f88940b8606b47f5b3c1e45e37adeace44925cc7dec7770daf734f5b28",
-      "bytes": 586410
+      "sha256": "b23e1ce8e4da192413a0e41944c83cdec02acf5b0207a841c5abbdd0e2a41b92",
+      "bytes": 506614
     },
     {
       "path": "dist/assets/motion-v18/female-exp-standing-high-cable-row-poster.webp",
@@ -5558,13 +5633,13 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-standing-hip-extension-machine-atlas.webp",
-      "sha256": "2060130768934cf1fd847403cf4c6f7c0c0e39a8f5b371861b034deb7514b485",
-      "bytes": 587606
+      "sha256": "095ba82505a8882461d7ca1bfd9a73ff0a92b9a874bfceec00f1dbd96b9ecd3e",
+      "bytes": 266014
     },
     {
       "path": "dist/assets/motion-v18/female-exp-standing-hip-extension-machine-poster.webp",
-      "sha256": "f0609731a0815fdd957db277b4168f1ff2b230feeb692b11baea18e9c9908fa2",
-      "bytes": 63918
+      "sha256": "7cca436767db81add042e2cf6a0e98105c89a8a6df210e860570409f3095f32d",
+      "bytes": 63284
     },
     {
       "path": "dist/assets/motion-v18/female-exp-standing-leg-curl-machine-atlas.webp",
@@ -5718,8 +5793,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-exp-treadmill-jog-atlas.webp",
-      "sha256": "0181c798d362920116f6542d407b848cb6c6c5cf213519a77158dc56fcd21462",
-      "bytes": 662150
+      "sha256": "1293233b055d610129a46252df617602791424a29a685398485fdab8511537c5",
+      "bytes": 662694
     },
     {
       "path": "dist/assets/motion-v18/female-exp-treadmill-jog-poster.webp",
@@ -5988,13 +6063,13 @@
     },
     {
       "path": "dist/assets/motion-v18/female-g0-22_Hip_Adduction_Machine-atlas.webp",
-      "sha256": "85e86c9cc0271be333389b764ed26f232ae01da37ee20c85e7e5542a0fe06c4f",
-      "bytes": 764210
+      "sha256": "fa2da9c0db09d3966346272e1d3b93e44d3b8cad561f9486122f342cda114b93",
+      "bytes": 336962
     },
     {
       "path": "dist/assets/motion-v18/female-g0-22_Hip_Adduction_Machine-poster.webp",
-      "sha256": "ac8724da0eb11149069b52c6db177d4a941c12ddb0d0a5d24317fb82d9764d6a",
-      "bytes": 92466
+      "sha256": "93e30cc56c334b3cde6897ba7ff0d1c85004d6105e1c1e5b7dc605d5a4fc30a7",
+      "bytes": 92458
     },
     {
       "path": "dist/assets/motion-v18/female-g0-23_Barbell_Romanian_Deadlift-atlas.webp",
@@ -6258,8 +6333,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-g1-24_Rope_Face_Pull-atlas.webp",
-      "sha256": "fca967d3519041c420e8c130f3b56b5f505ad5e489502f38ee9597c288ad0dab",
-      "bytes": 595492
+      "sha256": "7a2488d4fd9caf8cb7082fc48a71ce8a55b90dd65eead5d488dcc9786d84fb6e",
+      "bytes": 554396
     },
     {
       "path": "dist/assets/motion-v18/female-g1-24_Rope_Face_Pull-poster.webp",
@@ -6678,8 +6753,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-g3-18_Single_Arm_Cable_Curl-atlas.webp",
-      "sha256": "129c2772f64662a05fbef45f433109ddc0fd1cc3aa87e50f906a808f18d4a1e6",
-      "bytes": 327494
+      "sha256": "ac199c830dbf15b89473c3042ff1ac7b6cc8ecca1919b57f6181fe064a8d3183",
+      "bytes": 295706
     },
     {
       "path": "dist/assets/motion-v18/female-g3-18_Single_Arm_Cable_Curl-poster.webp",
@@ -6688,8 +6763,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-g3-19_Rope_Hammer_Cable_Curl-atlas.webp",
-      "sha256": "8fc240f7f65c5f75ae055f2359732b59b17db561c4fe6906037c40f80da9a443",
-      "bytes": 643072
+      "sha256": "ae665168e74fde474b884ff9a4fdda39fc696e0d5b18e60507cc1e1c15ed25ce",
+      "bytes": 566838
     },
     {
       "path": "dist/assets/motion-v18/female-g3-19_Rope_Hammer_Cable_Curl-poster.webp",
@@ -6708,8 +6783,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-g3-21_Overhead_Cable_Curl-atlas.webp",
-      "sha256": "00511e4b1ef452f8b487b9606cef8de4ac0206ea6f710f8547ee22f9a3f9352f",
-      "bytes": 577630
+      "sha256": "bccb6b548ff56293ec2e064dce876b4000b5d58dae74c710006be18cc544d8ee",
+      "bytes": 288734
     },
     {
       "path": "dist/assets/motion-v18/female-g3-21_Overhead_Cable_Curl-poster.webp",
@@ -6898,8 +6973,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-g4-15_High_to_Low_Cable_Woodchop-atlas.webp",
-      "sha256": "9c7dadc0f8e64b4810601ea9c723b16fb7ebc68b64c1ef3989d3014e4dc833f2",
-      "bytes": 581932
+      "sha256": "04b2e589d2a16dc1ca78a70f465cc3dd6129584bce62ba0d12f3934774e20cba",
+      "bytes": 270328
     },
     {
       "path": "dist/assets/motion-v18/female-g4-15_High_to_Low_Cable_Woodchop-poster.webp",
@@ -6908,18 +6983,18 @@
     },
     {
       "path": "dist/assets/motion-v18/female-g4-16_Low_to_High_Cable_Woodchop-atlas.webp",
-      "sha256": "730185ab627f704ae1c7305c619881f0873c84e1cf1b92e409cf7f120957bdec",
-      "bytes": 613398
+      "sha256": "7895f8e21d9ccea12d80030a0a253db131ca6a8982c1631b823d0ccf07246afd",
+      "bytes": 374806
     },
     {
       "path": "dist/assets/motion-v18/female-g4-16_Low_to_High_Cable_Woodchop-poster.webp",
-      "sha256": "de594c3fc7128157df3bea1d57f220c5ede5986ba8ca9ae31ac784047f1b1af6",
-      "bytes": 74480
+      "sha256": "8e9346ae91d7ca3b1021853991bdd7b884cacb1a8d9fe8ee5b300477cdd55cab",
+      "bytes": 74868
     },
     {
       "path": "dist/assets/motion-v18/female-g4-17_Horizontal_Cable_Rotation-atlas.webp",
-      "sha256": "f524e2cb1e5b9eedcd60306fbf80b2a5b6b9e840713792de7de19854d219912f",
-      "bytes": 595376
+      "sha256": "125e8673e887359ecba80caae689b682021b3629078d7538a898aa2f96cd1f17",
+      "bytes": 210630
     },
     {
       "path": "dist/assets/motion-v18/female-g4-17_Horizontal_Cable_Rotation-poster.webp",
@@ -7218,8 +7293,8 @@
     },
     {
       "path": "dist/assets/motion-v18/female-guide-prone-leg-curl-atlas.webp",
-      "sha256": "8e8507a2e0ee2b0bb7efab45d518727a07fb70e5eb8ecf190ddcf0a9ab644497",
-      "bytes": 343046
+      "sha256": "c1fbb98945b122ac0da0d45ad0d904e40c05c4f4fe217109a8a96e573b698127",
+      "bytes": 265976
     },
     {
       "path": "dist/assets/motion-v18/female-guide-prone-leg-curl-poster.webp",
@@ -7408,8 +7483,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-air-bike-atlas.webp",
-      "sha256": "718a86ccc5dadca5517c8db1e22391b12ab9119c2d9855071f2089265a56e836",
-      "bytes": 687764
+      "sha256": "5993ac94ac776d66860182f9fe0adacacfaf4c84358de8c4279e9c76ee6bd26c",
+      "bytes": 687298
     },
     {
       "path": "dist/assets/motion-v18/male-exp-air-bike-poster.webp",
@@ -7758,8 +7833,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-cable-pull-through-atlas.webp",
-      "sha256": "3c87d5d09bfc2207795f97f4bdab11a77b43acc2d3b76e4d432fa8713ec253a8",
-      "bytes": 485318
+      "sha256": "e1391bd04233c381b8f39805472de26f67aedb01f52aca98cad6379a78bb0ec8",
+      "bytes": 455636
     },
     {
       "path": "dist/assets/motion-v18/male-exp-cable-pull-through-poster.webp",
@@ -8208,8 +8283,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-elliptical-trainer-atlas.webp",
-      "sha256": "71c4105133839b692bd9843799b98da12dce71e6251e4d496e259529a40d77b7",
-      "bytes": 706516
+      "sha256": "faa10e067404975664108c6bc256adf9349ef1d1859bf58edee034cc4a2b3b0c",
+      "bytes": 705344
     },
     {
       "path": "dist/assets/motion-v18/male-exp-elliptical-trainer-poster.webp",
@@ -8328,13 +8403,13 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-hack-squat-machine-atlas.webp",
-      "sha256": "36240b65763aef412cfd9ebb5e2ef832bd862bcdc30400f8f24762cc41086f4a",
-      "bytes": 364298
+      "sha256": "349c57706729209d6dea972e6bb1b678ca9f9a57dc8c22b12b9a20810008a817",
+      "bytes": 354954
     },
     {
       "path": "dist/assets/motion-v18/male-exp-hack-squat-machine-poster.webp",
-      "sha256": "939519bc8774833dfe0af0637525086331cada28f2ee4a98a4fb3a4f1cfe0d50",
-      "bytes": 106756
+      "sha256": "b07b7ea67ee5bd640bc92690b951683acff382609de6efca63c9c56b92d9f7dc",
+      "bytes": 106760
     },
     {
       "path": "dist/assets/motion-v18/male-exp-hamstring-walkout-atlas.webp",
@@ -8788,8 +8863,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-plate-loaded-lat-pulldown-atlas.webp",
-      "sha256": "b64cb2ebfa367f1e19503d7965d83c014ef214e66f2a83d86dfdc2e2ea889574",
-      "bytes": 535824
+      "sha256": "109b882c31793446c7242e5be5596e9d8603bb625e660c5d877fc98559c01ed2",
+      "bytes": 511122
     },
     {
       "path": "dist/assets/motion-v18/male-exp-plate-loaded-lat-pulldown-poster.webp",
@@ -9088,8 +9163,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-reverse-hyperextension-machine-atlas.webp",
-      "sha256": "794eb5fde9d884bf56588a1fd4fc0e536eb1b6bc37c0e84f33260f3a71256e36",
-      "bytes": 555196
+      "sha256": "3d02ab77c28ad9126e1745091c8bc142d7bccc5095acdc466f7736dffc3cf5d1",
+      "bytes": 215494
     },
     {
       "path": "dist/assets/motion-v18/male-exp-reverse-hyperextension-machine-poster.webp",
@@ -9098,8 +9173,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-rowing-machine-atlas.webp",
-      "sha256": "ab39d70f9fbdbefd3236d6c1be1260ba0010a29af051e6f3c75ba9cd5fa3797a",
-      "bytes": 870214
+      "sha256": "32431e893df36a3a01b371298596522068b07ff5daa7976336fd878da494a99a",
+      "bytes": 543516
     },
     {
       "path": "dist/assets/motion-v18/male-exp-rowing-machine-poster.webp",
@@ -9258,8 +9333,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-arm-cable-chest-press-atlas.webp",
-      "sha256": "caf98545acb0cd0e886e784f6fcd697908639cbe22dc57ee7aa0225ec5be4194",
-      "bytes": 575404
+      "sha256": "cafba123fce72059e2f9b657779a84bc213b160b474eff658cb8c50bf7113408",
+      "bytes": 532482
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-arm-cable-chest-press-poster.webp",
@@ -9328,8 +9403,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-arm-seated-cable-shoulder-press-atlas.webp",
-      "sha256": "25a70acfeaa7ee4b77f85e61e5a7a3358ddf504749e8669b0e7db2178dfb8494",
-      "bytes": 1605606
+      "sha256": "29089525ba6ca2e501652ab460eabe6cc77be0ac69086ea4651a6054397f2650",
+      "bytes": 1374284
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-arm-seated-cable-shoulder-press-poster.webp",
@@ -9398,18 +9473,18 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-leg-leg-press-atlas.webp",
-      "sha256": "e160846abcb8e8ef236281e12a028d32d03f5eb8284d83ca11799fe1d62fc790",
-      "bytes": 228750
+      "sha256": "066be653f4fdfe98f66718609d39ae340b534f99ff3d65ea19993fe210da89aa",
+      "bytes": 222874
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-leg-leg-press-poster.webp",
-      "sha256": "68a25770df59fba967065978f7c6e5e8a4ee646f41551849ead114b58e6b87be",
-      "bytes": 78654
+      "sha256": "d3c1d0e6c693f9bcfabd694bb0e7f71b57f1955b63efd7f2597f86348892726a",
+      "bytes": 77306
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-leg-prone-leg-curl-atlas.webp",
-      "sha256": "15ef453b447ea57685259f6663fee32186b1500c1a440306fb5076bd68da61d6",
-      "bytes": 631894
+      "sha256": "9fa870d1566e761dfd071ea24ad0124a446a50b45a9f63c42ff1c8aea083a01a",
+      "bytes": 228188
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-leg-prone-leg-curl-poster.webp",
@@ -9418,8 +9493,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-leg-seated-leg-curl-atlas.webp",
-      "sha256": "5713749dc5fcbb73fe56fbd0a158c48132727ec0bdf96b74ed1da41ba2304e0b",
-      "bytes": 746216
+      "sha256": "73483cda3199dc72bc90ba6090828ae61e93c4b4d4bb59c700920043381d5a72",
+      "bytes": 274136
     },
     {
       "path": "dist/assets/motion-v18/male-exp-single-leg-seated-leg-curl-poster.webp",
@@ -9518,8 +9593,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-smith-machine-seated-calf-raise-atlas.webp",
-      "sha256": "8aa6197210411833e810c670105971b79385299836da6c382001e18b55221ce8",
-      "bytes": 1615248
+      "sha256": "3f4f3620ee187b195d1c2be2aca8f0b6ae968d0d878e142ac0cbcc19a5278115",
+      "bytes": 1273330
     },
     {
       "path": "dist/assets/motion-v18/male-exp-smith-machine-seated-calf-raise-poster.webp",
@@ -9578,8 +9653,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-stair-climber-atlas.webp",
-      "sha256": "cf65495a8b98a7bee1607e076d35499a6cb541a3231f2d6c69e4e227cd1d52b0",
-      "bytes": 1008730
+      "sha256": "92ed88ac2815f0614125ab039ac9e9177e9d7776e4d73eab2d3244156481391d",
+      "bytes": 1008326
     },
     {
       "path": "dist/assets/motion-v18/male-exp-stair-climber-poster.webp",
@@ -9638,8 +9713,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-standing-cable-leg-extension-atlas.webp",
-      "sha256": "909962e140efcaf29a95a2ba457cd9d5d90909c8e4a01eb62fd7b1b9217cca31",
-      "bytes": 540612
+      "sha256": "5cf9399669d63b8b200e6b3432483a14d54da7222133956b047cd1e5748e6bfc",
+      "bytes": 531944
     },
     {
       "path": "dist/assets/motion-v18/male-exp-standing-cable-leg-extension-poster.webp",
@@ -9658,8 +9733,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-standing-high-cable-row-atlas.webp",
-      "sha256": "75ebede74ff51b26672a04fc43bb74a2c85715c822e8fa09fec8d9e0a6399f2b",
-      "bytes": 591764
+      "sha256": "595ddc9a056c0703ae2b45e5dc72577f8f38ddcf1501aa4183c40f38f3694399",
+      "bytes": 511832
     },
     {
       "path": "dist/assets/motion-v18/male-exp-standing-high-cable-row-poster.webp",
@@ -9668,13 +9743,13 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-standing-hip-extension-machine-atlas.webp",
-      "sha256": "b93407eaa0818af04a233af265148272328e3bba81c61f112b0c515285f74bbc",
-      "bytes": 583750
+      "sha256": "352441b67178a8b0f01c8ddb1117e694f2a13b438dabed34bd0b75b4320f1880",
+      "bytes": 260652
     },
     {
       "path": "dist/assets/motion-v18/male-exp-standing-hip-extension-machine-poster.webp",
-      "sha256": "a4a8441fcb3344f1108b7c23012b394c8e7c807cdadce25cd7d4b2e096858b3b",
-      "bytes": 62570
+      "sha256": "265c98904413285884ab684cc2d40a53c2f91d8b2eb3f6f2fc90f52500bb0b45",
+      "bytes": 62030
     },
     {
       "path": "dist/assets/motion-v18/male-exp-standing-leg-curl-machine-atlas.webp",
@@ -9828,8 +9903,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-exp-treadmill-jog-atlas.webp",
-      "sha256": "60fe70153c6ff6841eeb0686f9718e58767186998de66b7c1db15e534d6ef9b9",
-      "bytes": 661340
+      "sha256": "bb5a50c994c66a45c22e56dd1adf8de6a09651d0ce220e1aefba6397098bf67c",
+      "bytes": 658380
     },
     {
       "path": "dist/assets/motion-v18/male-exp-treadmill-jog-poster.webp",
@@ -10098,8 +10173,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-g0-22_Hip_Adduction_Machine-atlas.webp",
-      "sha256": "8d739c1c570341a5b8264c0d3a86d0d3df4ce30539242a23d76abd137d4e1b25",
-      "bytes": 745560
+      "sha256": "7b8b9625d55391e147d65eacb733e7274520ef4b300361d200d82b73989fa860",
+      "bytes": 327388
     },
     {
       "path": "dist/assets/motion-v18/male-g0-22_Hip_Adduction_Machine-poster.webp",
@@ -10368,8 +10443,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-g1-24_Rope_Face_Pull-atlas.webp",
-      "sha256": "2cb6cceb48597e85ee68dfe4344313dcbae3e7dc7d7546b00ada1af956a7ede4",
-      "bytes": 565786
+      "sha256": "3608207a20c0fc9c05ab1372ebe7c1aa2e9160d4cf5fc5d88aca8b8aaaa4daee",
+      "bytes": 525642
     },
     {
       "path": "dist/assets/motion-v18/male-g1-24_Rope_Face_Pull-poster.webp",
@@ -10788,8 +10863,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-g3-18_Single_Arm_Cable_Curl-atlas.webp",
-      "sha256": "7fc0d6e6e3241a72d126dd999870a514c30789791fe404bcf67ddf4789885149",
-      "bytes": 263198
+      "sha256": "458ccb327cdb434a1b7b1d54f0740aedd003cf8cb565a424b37053a4f77eb194",
+      "bytes": 234802
     },
     {
       "path": "dist/assets/motion-v18/male-g3-18_Single_Arm_Cable_Curl-poster.webp",
@@ -10798,8 +10873,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-g3-19_Rope_Hammer_Cable_Curl-atlas.webp",
-      "sha256": "b0b734f3cd44961c2a1906fdef4acc572a2ff1a8c74d77a6a5ca6984c6329f6c",
-      "bytes": 618626
+      "sha256": "b826f6ed6601c24d550a7b42a435522122a555e1fa00c8e94690041af8e3ad89",
+      "bytes": 533766
     },
     {
       "path": "dist/assets/motion-v18/male-g3-19_Rope_Hammer_Cable_Curl-poster.webp",
@@ -10818,8 +10893,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-g3-21_Overhead_Cable_Curl-atlas.webp",
-      "sha256": "0a93b08d0009f3610097dbc7ae177088d235777e9c3c2ca18c4e670194cd5455",
-      "bytes": 560672
+      "sha256": "23d4a1d7357757c789386ebe7cfac65a5ce7bb4f4d4db92f20210cd24c490d02",
+      "bytes": 279830
     },
     {
       "path": "dist/assets/motion-v18/male-g3-21_Overhead_Cable_Curl-poster.webp",
@@ -11008,8 +11083,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-g4-15_High_to_Low_Cable_Woodchop-atlas.webp",
-      "sha256": "4bf695a8ed8395768f7eb6fcfe5336e8dc8cf9304b8296372ed3001818a11e8f",
-      "bytes": 542242
+      "sha256": "4536bde9d8d10225e9b7e3ea361bc39c6f0eae7a56ee698c545d92cf17035709",
+      "bytes": 251556
     },
     {
       "path": "dist/assets/motion-v18/male-g4-15_High_to_Low_Cable_Woodchop-poster.webp",
@@ -11018,18 +11093,18 @@
     },
     {
       "path": "dist/assets/motion-v18/male-g4-16_Low_to_High_Cable_Woodchop-atlas.webp",
-      "sha256": "fb7528bcd09edf6404096274fcb978a9d6d1208866fbd02fb0e5d2fd85096d85",
-      "bytes": 589396
+      "sha256": "c9950c60cc88efbbdf63530b537e5536bca46ff33fb9ba1a13efa1e7189ef8c4",
+      "bytes": 356234
     },
     {
       "path": "dist/assets/motion-v18/male-g4-16_Low_to_High_Cable_Woodchop-poster.webp",
-      "sha256": "c55921b68cf1f5c4d86634c9f66eca6b849e5a1947a69b602f8b57c5657ea18e",
-      "bytes": 72416
+      "sha256": "94c63417f6a0764e30ec5f350e185f140b3034a0e33f0b7be4edb5b16745460f",
+      "bytes": 72796
     },
     {
       "path": "dist/assets/motion-v18/male-g4-17_Horizontal_Cable_Rotation-atlas.webp",
-      "sha256": "42a624b419e9696ad5f2c0fc5d679e9be409f9fc2caf5f7258fbb7e4377a8edf",
-      "bytes": 588572
+      "sha256": "56948e578047583ff40c732b12760b4defaf711abad8d2e86ca156f8a3fda0c0",
+      "bytes": 205452
     },
     {
       "path": "dist/assets/motion-v18/male-g4-17_Horizontal_Cable_Rotation-poster.webp",
@@ -11328,8 +11403,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-guide-prone-leg-curl-atlas.webp",
-      "sha256": "5e21c52d6f478dc5f2b86007ec07509fb6723b6fee480c85177cda5405b59d9a",
-      "bytes": 341208
+      "sha256": "dd0e0411f26bc00bc67b555501fb9e75139577d13f6402ab19e24dd4d050fe54",
+      "bytes": 263468
     },
     {
       "path": "dist/assets/motion-v18/male-guide-prone-leg-curl-poster.webp",
