@@ -2650,11 +2650,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g0-12_Monster_Walk-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-g0-12_Monster_Walk-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1940,
+          "framing": "One three-quarter camera with visible shoes and ankle band throughout the stepping cycle.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g0-12_Monster_Walk-atlas.webp",
@@ -2662,40 +2665,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            380,
+            330,
+            270,
+            360,
+            270,
+            330
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-g0-12_Monster_Walk-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g0-12_Monster_Walk-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g0-12_Monster_Walk-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1940,
+          "framing": "One three-quarter camera with visible shoes and ankle band throughout the stepping cycle.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g0-12_Monster_Walk-atlas.webp",
@@ -2703,39 +2705,37 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            380,
+            330,
+            270,
+            360,
+            270,
+            330
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g0-12_Monster_Walk-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 1940,
+      "framing": "One three-quarter camera with visible shoes and ankle band throughout the stepping cycle.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g0-12_Monster_Walk-atlas.webp",
@@ -2743,31 +2743,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        380,
+        330,
+        270,
+        360,
+        270,
+        330
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g0-12_Monster_Walk-poster.webp"
   },
   {
     "name": "Goblet Squat",
@@ -6412,11 +6410,13 @@
       "male": {
         "image": "assets/motion-v18/male-g0-25_90_90_Hip_Switch-poster.webp",
         "poster": "assets/motion-v18/male-g0-25_90_90_Hip_Switch-poster.webp",
-        "style": "Clean anime pose loop",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 10,
+          "uniquePoses": 7,
+          "duration_ms": 2790,
+          "framing": "The arms and torso keep one viewpoint while the knees rotate side to side through center.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g0-25_90_90_Hip_Switch-atlas.webp",
@@ -6424,39 +6424,47 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            310,
+            180,
+            550,
+            180,
+            310,
+            180,
+            550,
+            180,
+            130,
+            220
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 7,
           "poseSequence": [
             0,
             1,
             2,
+            1,
+            0,
+            4,
             3,
             4,
             5,
-            6,
-            7
+            6
           ]
         }
       },
       "female": {
         "image": "assets/motion-v18/female-g0-25_90_90_Hip_Switch-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g0-25_90_90_Hip_Switch-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 10,
+          "uniquePoses": 7,
+          "duration_ms": 2790,
+          "framing": "The arms and torso keep one viewpoint while the knees rotate side to side through center.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g0-25_90_90_Hip_Switch-atlas.webp",
@@ -6464,39 +6472,45 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            310,
+            180,
+            550,
+            180,
+            310,
+            180,
+            550,
+            180,
+            130,
+            220
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 7,
           "poseSequence": [
             0,
             1,
             2,
+            1,
+            0,
+            4,
             3,
             4,
             5,
-            6,
-            7
+            6
           ]
-        },
-        "poster": "assets/motion-v18/female-g0-25_90_90_Hip_Switch-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 10,
+      "uniquePoses": 7,
+      "duration_ms": 2790,
+      "framing": "The arms and torso keep one viewpoint while the knees rotate side to side through center.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g0-25_90_90_Hip_Switch-atlas.webp",
@@ -6504,31 +6518,37 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        310,
+        180,
+        550,
+        180,
+        310,
+        180,
+        550,
+        180,
+        130,
+        220
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 7,
       "poseSequence": [
         0,
         1,
         2,
+        1,
+        0,
+        4,
         3,
         4,
         5,
-        6,
-        7
+        6
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g0-25_90_90_Hip_Switch-poster.webp"
   },
   {
     "name": "Conventional Deadlift",
@@ -13059,10 +13079,10 @@
         "poster": "assets/motion-v18/male-g2-07_Half_Kneeling_Landmine_Press-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "uniquePoses": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed equipment geometry with reviewed movement and foreground occlusion preserved",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1735,
+          "framing": "The base stays planted while the bar pivots and the working arm presses upward.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -13071,30 +13091,26 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            225,
+            255,
+            390,
+            240,
+            225
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
         }
       },
@@ -13103,10 +13119,10 @@
         "poster": "assets/motion-v18/female-g2-07_Half_Kneeling_Landmine_Press-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "uniquePoses": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed equipment geometry with reviewed movement and foreground occlusion preserved",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1735,
+          "framing": "The base stays planted while the bar pivots and the working arm presses upward.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -13115,40 +13131,36 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            225,
+            255,
+            390,
+            240,
+            225
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
         }
       }
     },
     "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "uniquePoses": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed equipment geometry with reviewed movement and foreground occlusion preserved",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 1735,
+      "framing": "The base stays planted while the bar pivots and the working arm presses upward.",
       "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
@@ -13157,30 +13169,26 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        400,
+        225,
+        255,
+        390,
+        240,
+        225
       ],
       "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
     },
     "poster": "assets/motion-v18/male-g2-07_Half_Kneeling_Landmine_Press-poster.webp"
@@ -13196,10 +13204,10 @@
         "poster": "assets/motion-v18/male-g2-08_Two_Hand_Landmine_Press-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "uniquePoses": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed equipment geometry with reviewed movement and foreground occlusion preserved",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1735,
+          "framing": "A stationary base and continuous pivot keep the pressing path clear.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -13208,30 +13216,26 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            225,
+            255,
+            390,
+            240,
+            225
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
         }
       },
@@ -13240,10 +13244,10 @@
         "poster": "assets/motion-v18/female-g2-08_Two_Hand_Landmine_Press-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "uniquePoses": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed equipment geometry with reviewed movement and foreground occlusion preserved",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1735,
+          "framing": "A stationary base and continuous pivot keep the pressing path clear.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -13252,40 +13256,36 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            400,
+            225,
+            255,
+            390,
+            240,
+            225
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
         }
       }
     },
     "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "uniquePoses": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed equipment geometry with reviewed movement and foreground occlusion preserved",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 1735,
+      "framing": "A stationary base and continuous pivot keep the pressing path clear.",
       "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
@@ -13294,30 +13294,26 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        400,
+        225,
+        255,
+        390,
+        240,
+        225
       ],
       "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
     },
     "poster": "assets/motion-v18/male-g2-08_Two_Hand_Landmine_Press-poster.webp"
@@ -13889,11 +13885,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-g2-13_Plate_Front_Raise-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g2-13_Plate_Front_Raise-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "A fixed front view holds the character scale and foot line during the plate raise.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g2-13_Plate_Front_Raise-atlas.webp",
@@ -13910,6 +13909,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -13925,8 +13925,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-g2-13_Plate_Front_Raise-poster.webp"
+        }
       }
     },
     "style": "Clean anime pose loop",
@@ -13981,7 +13980,7 @@
           "keyframes": 8,
           "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed cable station frame and moving resistance, cable, and working limbs.",
+          "framing": "A fixed view shows the working arm lifting in front of the cable tower.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -14025,7 +14024,7 @@
           "keyframes": 8,
           "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed cable station frame and moving resistance, cable, and working limbs.",
+          "framing": "A fixed view shows the working arm lifting in front of the cable tower.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -14067,7 +14066,7 @@
       "keyframes": 8,
       "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed cable station frame and moving resistance, cable, and working limbs.",
+      "framing": "A fixed view shows the working arm lifting in front of the cable tower.",
       "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
@@ -15196,11 +15195,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-g2-23_Resistance_Band_Pull_Apart-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g2-23_Resistance_Band_Pull_Apart-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g2-23_Resistance_Band_Pull_Apart-atlas.webp",
@@ -15217,6 +15219,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -15232,8 +15235,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-g2-23_Resistance_Band_Pull_Apart-poster.webp"
+        }
       }
     },
     "style": "Clean anime pose loop",
@@ -15969,11 +15971,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-g3-02_Alternating_Dumbbell_Curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g3-02_Alternating_Dumbbell_Curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g3-02_Alternating_Dumbbell_Curl-atlas.webp",
@@ -15990,6 +15995,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -16005,8 +16011,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-g3-02_Alternating_Dumbbell_Curl-poster.webp"
+        }
       }
     },
     "style": "Clean anime pose loop",
@@ -17031,11 +17036,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-g3-09_Straight_Barbell_Curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g3-09_Straight_Barbell_Curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g3-09_Straight_Barbell_Curl-atlas.webp",
@@ -17052,6 +17060,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -17067,8 +17076,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-g3-09_Straight_Barbell_Curl-poster.webp"
+        }
       }
     },
     "style": "Clean anime pose loop",
@@ -17158,11 +17166,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-g3-10_EZ_Bar_Curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g3-10_EZ_Bar_Curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g3-10_EZ_Bar_Curl-atlas.webp",
@@ -17179,6 +17190,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -17194,8 +17206,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-g3-10_EZ_Bar_Curl-poster.webp"
+        }
       }
     },
     "style": "Clean anime pose loop",
@@ -17539,11 +17550,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-g3-13_Drag_Curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g3-13_Drag_Curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g3-13_Drag_Curl-atlas.webp",
@@ -17560,6 +17574,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -17575,8 +17590,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-g3-13_Drag_Curl-poster.webp"
+        }
       }
     },
     "style": "Clean anime pose loop",
@@ -23738,11 +23752,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g4-25_Side_Plank_Crunch-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-g4-25_Side_Plank_Crunch-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1690,
+          "framing": "One diagonal view with distinct clean poses as the top knee draws toward the elbow.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-25_Side_Plank_Crunch-atlas.webp",
@@ -23750,40 +23767,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            385,
+            230,
+            225,
+            395,
+            225,
+            230
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-g4-25_Side_Plank_Crunch-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-25_Side_Plank_Crunch-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g4-25_Side_Plank_Crunch-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1690,
+          "framing": "One diagonal view with distinct clean poses as the top knee draws toward the elbow.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-25_Side_Plank_Crunch-atlas.webp",
@@ -23791,39 +23807,37 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            385,
+            230,
+            225,
+            395,
+            225,
+            230
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-25_Side_Plank_Crunch-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 1690,
+      "framing": "One diagonal view with distinct clean poses as the top knee draws toward the elbow.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-25_Side_Plank_Crunch-atlas.webp",
@@ -23831,31 +23845,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        385,
+        230,
+        225,
+        395,
+        225,
+        230
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-25_Side_Plank_Crunch-poster.webp"
   },
   {
     "id": "guide-push-up",
@@ -24919,11 +24931,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-guide-overhead-dumbbell-triceps-extension-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-guide-overhead-dumbbell-triceps-extension-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-guide-overhead-dumbbell-triceps-extension-atlas.webp",
@@ -24940,6 +24955,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -24955,8 +24971,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-guide-overhead-dumbbell-triceps-extension-poster.webp"
+        }
       }
     }
   },
@@ -25171,11 +25186,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-guide-dumbbell-triceps-kickback-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-guide-dumbbell-triceps-kickback-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-guide-dumbbell-triceps-kickback-atlas.webp",
@@ -25192,6 +25210,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -25207,8 +25226,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-guide-dumbbell-triceps-kickback-poster.webp"
+        }
       }
     }
   },
@@ -29596,11 +29614,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-stretch-front-leg-swings-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-stretch-front-leg-swings-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 12,
+          "uniquePoses": 7,
+          "duration_ms": 2340,
+          "framing": "A fixed side view locks the support rail while one leg swings forward and backward through center.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-stretch-front-leg-swings-atlas.webp",
@@ -29608,40 +29629,51 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
             250,
+            150,
+            150,
+            320,
+            150,
+            150,
             250,
-            250,
-            500,
-            250,
-            250,
-            250
+            150,
+            150,
+            320,
+            150,
+            150
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 7,
           "poseSequence": [
             0,
             1,
             2,
             3,
+            2,
+            1,
+            0,
             4,
             5,
             6,
-            7
+            5,
+            4
           ]
-        },
-        "poster": "assets/motion-v18/male-stretch-front-leg-swings-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-stretch-front-leg-swings-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-stretch-front-leg-swings-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 12,
+          "uniquePoses": 7,
+          "duration_ms": 2340,
+          "framing": "A fixed side view locks the support rail while one leg swings forward and backward through center.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-stretch-front-leg-swings-atlas.webp",
@@ -29649,40 +29681,50 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
             250,
+            150,
+            150,
+            320,
+            150,
+            150,
             250,
-            250,
-            500,
-            250,
-            250,
-            250
+            150,
+            150,
+            320,
+            150,
+            150
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 7,
           "poseSequence": [
             0,
             1,
             2,
             3,
+            2,
+            1,
+            0,
             4,
             5,
             6,
-            7
+            5,
+            4
           ]
-        },
-        "poster": "assets/motion-v18/female-stretch-front-leg-swings-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-stretch-front-leg-swings-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 12,
+      "uniquePoses": 7,
+      "duration_ms": 2340,
+      "framing": "A fixed side view locks the support rail while one leg swings forward and backward through center.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-stretch-front-leg-swings-atlas.webp",
@@ -29690,31 +29732,41 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
         250,
+        150,
+        150,
+        320,
+        150,
+        150,
         250,
-        250,
-        500,
-        250,
-        250,
-        250
+        150,
+        150,
+        320,
+        150,
+        150
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 7,
       "poseSequence": [
         0,
         1,
         2,
         3,
+        2,
+        1,
+        0,
         4,
         5,
         6,
-        7
+        5,
+        4
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-stretch-front-leg-swings-poster.webp"
   },
   {
     "id": "stretch-lateral-leg-swings",
@@ -29733,11 +29785,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-stretch-lateral-leg-swings-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-stretch-lateral-leg-swings-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 12,
+          "uniquePoses": 7,
+          "duration_ms": 2340,
+          "framing": "A fixed frontal view locks the support rail while the working leg swings out and across through center.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-stretch-lateral-leg-swings-atlas.webp",
@@ -29745,40 +29800,51 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
             250,
+            150,
+            150,
+            320,
+            150,
+            150,
             250,
-            250,
-            500,
-            250,
-            250,
-            250
+            150,
+            150,
+            320,
+            150,
+            150
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 7,
           "poseSequence": [
             0,
             1,
             2,
             3,
+            2,
+            1,
+            0,
+            6,
             4,
             5,
-            6,
-            7
+            4,
+            6
           ]
-        },
-        "poster": "assets/motion-v18/male-stretch-lateral-leg-swings-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-stretch-lateral-leg-swings-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-stretch-lateral-leg-swings-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 12,
+          "uniquePoses": 7,
+          "duration_ms": 2340,
+          "framing": "A fixed frontal view locks the support rail while the working leg swings out and across through center.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-stretch-lateral-leg-swings-atlas.webp",
@@ -29786,40 +29852,50 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
             250,
+            150,
+            150,
+            320,
+            150,
+            150,
             250,
-            250,
-            500,
-            250,
-            250,
-            250
+            150,
+            150,
+            320,
+            150,
+            150
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 7,
           "poseSequence": [
             0,
             1,
             2,
             3,
+            2,
+            1,
+            0,
+            6,
             4,
             5,
-            6,
-            7
+            4,
+            6
           ]
-        },
-        "poster": "assets/motion-v18/female-stretch-lateral-leg-swings-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-stretch-lateral-leg-swings-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 12,
+      "uniquePoses": 7,
+      "duration_ms": 2340,
+      "framing": "A fixed frontal view locks the support rail while the working leg swings out and across through center.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-stretch-lateral-leg-swings-atlas.webp",
@@ -29827,31 +29903,41 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
         250,
+        150,
+        150,
+        320,
+        150,
+        150,
         250,
-        250,
-        500,
-        250,
-        250,
-        250
+        150,
+        150,
+        320,
+        150,
+        150
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 7,
       "poseSequence": [
         0,
         1,
         2,
         3,
+        2,
+        1,
+        0,
+        6,
         4,
         5,
-        6,
-        7
+        4,
+        6
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-stretch-lateral-leg-swings-poster.webp"
   },
   {
     "id": "stretch-cat-cow",
@@ -30516,11 +30602,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-stretch-hip-flexor-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-stretch-hip-flexor-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 12,
+          "uniquePoses": 7,
+          "duration_ms": 2240,
+          "framing": "A fixed side view with the kneeling pad and feet anchored while the hip moves gently forward.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-stretch-hip-flexor-atlas.webp",
@@ -30528,20 +30617,25 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            360,
+            140,
+            140,
+            140,
+            140,
+            140,
+            480,
+            140,
+            140,
+            140,
+            140,
+            140
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 7,
           "poseSequence": [
             0,
             1,
@@ -30550,18 +30644,24 @@
             4,
             5,
             6,
-            7
+            5,
+            4,
+            3,
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-stretch-hip-flexor-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-stretch-hip-flexor-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-stretch-hip-flexor-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 12,
+          "uniquePoses": 7,
+          "duration_ms": 2240,
+          "framing": "A fixed side view with the kneeling pad and feet anchored while the hip moves gently forward.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-stretch-hip-flexor-atlas.webp",
@@ -30569,20 +30669,25 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            360,
+            140,
+            140,
+            140,
+            140,
+            140,
+            480,
+            140,
+            140,
+            140,
+            140,
+            140
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 7,
           "poseSequence": [
             0,
             1,
@@ -30591,18 +30696,23 @@
             4,
             5,
             6,
-            7
+            5,
+            4,
+            3,
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-stretch-hip-flexor-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-stretch-hip-flexor-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 12,
+      "uniquePoses": 7,
+      "duration_ms": 2240,
+      "framing": "A fixed side view with the kneeling pad and feet anchored while the hip moves gently forward.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-stretch-hip-flexor-atlas.webp",
@@ -30610,20 +30720,25 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        360,
+        140,
+        140,
+        140,
+        140,
+        140,
+        480,
+        140,
+        140,
+        140,
+        140,
+        140
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 7,
       "poseSequence": [
         0,
         1,
@@ -30632,9 +30747,14 @@
         4,
         5,
         6,
-        7
+        5,
+        4,
+        3,
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-stretch-hip-flexor-poster.webp"
   },
   {
     "id": "stretch-figure-four",
@@ -30757,125 +30877,111 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-stretch-shoulder-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-stretch-shoulder-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 4,
+          "uniquePoses": 3,
+          "duration_ms": 2660,
+          "framing": "Same frontal view, with fixed feet and separate stretches across the chest in both directions.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-stretch-shoulder-atlas.webp",
-          "columns": 4,
+          "columns": 3,
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            480,
+            850,
+            480,
+            850
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 3,
           "poseSequence": [
             0,
             1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
+            0,
+            2
           ]
-        },
-        "poster": "assets/motion-v18/male-stretch-shoulder-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-stretch-shoulder-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-stretch-shoulder-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 4,
+          "uniquePoses": 3,
+          "duration_ms": 2660,
+          "framing": "Same frontal view, with fixed feet and separate stretches across the chest in both directions.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-stretch-shoulder-atlas.webp",
-          "columns": 4,
+          "columns": 3,
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            480,
+            850,
+            480,
+            850
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 3,
           "poseSequence": [
             0,
             1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
+            0,
+            2
           ]
-        },
-        "poster": "assets/motion-v18/female-stretch-shoulder-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-stretch-shoulder-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 4,
+      "uniquePoses": 3,
+      "duration_ms": 2660,
+      "framing": "Same frontal view, with fixed feet and separate stretches across the chest in both directions.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-stretch-shoulder-atlas.webp",
-      "columns": 4,
+      "columns": 3,
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        480,
+        850,
+        480,
+        850
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 3,
       "poseSequence": [
         0,
         1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
+        0,
+        2
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-stretch-shoulder-poster.webp"
   },
   {
     "id": "prenatal-walk",
@@ -31374,11 +31480,13 @@
       "prenatal": {
         "image": "assets/motion-v18/prenatal-prenatal-march-poster.webp",
         "poster": "assets/motion-v18/prenatal-prenatal-march-poster.webp",
-        "style": "Clean anime pose loop",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "A stable chair and planted foot give a fixed front view as the knee lifts.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-march-atlas.webp",
@@ -31403,6 +31511,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -31430,11 +31539,14 @@
       },
       "female": {
         "image": "assets/motion-v18/prenatal-prenatal-march-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/prenatal-prenatal-march-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "A stable chair and planted foot give a fixed front view as the knee lifts.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-march-atlas.webp",
@@ -31459,6 +31571,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -31482,16 +31595,18 @@
             14,
             15
           ]
-        },
-        "poster": "assets/motion-v18/prenatal-prenatal-march-poster.webp"
+        }
       },
       "male": {
         "image": "assets/motion-v18/prenatal-prenatal-march-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/prenatal-prenatal-march-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "A stable chair and planted foot give a fixed front view as the knee lifts.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-march-atlas.webp",
@@ -31516,6 +31631,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -31539,15 +31655,16 @@
             14,
             15
           ]
-        },
-        "poster": "assets/motion-v18/prenatal-prenatal-march-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 16,
+      "uniquePoses": 16,
       "duration_ms": 4500,
-      "framing": "Fixed full-cell scale",
+      "framing": "A stable chair and planted foot give a fixed front view as the knee lifts.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/prenatal-prenatal-march-atlas.webp",
@@ -31572,6 +31689,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -31595,7 +31713,8 @@
         14,
         15
       ]
-    }
+    },
+    "poster": "assets/motion-v18/prenatal-prenatal-march-poster.webp"
   },
   {
     "id": "prenatal-sit-stand",
@@ -34777,11 +34896,13 @@
       "prenatal": {
         "image": "assets/motion-v18/prenatal-prenatal-calf-raise-poster.webp",
         "poster": "assets/motion-v18/prenatal-prenatal-calf-raise-poster.webp",
-        "style": "Clean anime pose loop",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The chair remains anchored while the heels lift from a consistent side view.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-calf-raise-atlas.webp",
@@ -34806,6 +34927,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -34833,11 +34955,14 @@
       },
       "female": {
         "image": "assets/motion-v18/prenatal-prenatal-calf-raise-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/prenatal-prenatal-calf-raise-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The chair remains anchored while the heels lift from a consistent side view.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-calf-raise-atlas.webp",
@@ -34862,6 +34987,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -34885,16 +35011,18 @@
             14,
             15
           ]
-        },
-        "poster": "assets/motion-v18/prenatal-prenatal-calf-raise-poster.webp"
+        }
       },
       "male": {
         "image": "assets/motion-v18/prenatal-prenatal-calf-raise-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/prenatal-prenatal-calf-raise-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The chair remains anchored while the heels lift from a consistent side view.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-calf-raise-atlas.webp",
@@ -34919,6 +35047,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -34942,15 +35071,16 @@
             14,
             15
           ]
-        },
-        "poster": "assets/motion-v18/prenatal-prenatal-calf-raise-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 16,
+      "uniquePoses": 16,
       "duration_ms": 4500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The chair remains anchored while the heels lift from a consistent side view.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/prenatal-prenatal-calf-raise-atlas.webp",
@@ -34975,6 +35105,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -34998,7 +35129,8 @@
         14,
         15
       ]
-    }
+    },
+    "poster": "assets/motion-v18/prenatal-prenatal-calf-raise-poster.webp"
   },
   {
     "id": "prenatal-leg-extension",
@@ -35883,11 +36015,13 @@
       "prenatal": {
         "image": "assets/motion-v18/prenatal-prenatal-figure-four-poster.webp",
         "poster": "assets/motion-v18/prenatal-prenatal-figure-four-poster.webp",
-        "style": "Clean anime pose loop",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "A fixed seated angle shows the upper body leaning while the chair and foot stay put.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-figure-four-atlas.webp",
@@ -35912,6 +36046,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -35939,11 +36074,14 @@
       },
       "female": {
         "image": "assets/motion-v18/prenatal-prenatal-figure-four-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/prenatal-prenatal-figure-four-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "A fixed seated angle shows the upper body leaning while the chair and foot stay put.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-figure-four-atlas.webp",
@@ -35968,6 +36106,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -35991,16 +36130,18 @@
             14,
             15
           ]
-        },
-        "poster": "assets/motion-v18/prenatal-prenatal-figure-four-poster.webp"
+        }
       },
       "male": {
         "image": "assets/motion-v18/prenatal-prenatal-figure-four-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/prenatal-prenatal-figure-four-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "A fixed seated angle shows the upper body leaning while the chair and foot stay put.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-figure-four-atlas.webp",
@@ -36025,6 +36166,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -36048,15 +36190,16 @@
             14,
             15
           ]
-        },
-        "poster": "assets/motion-v18/prenatal-prenatal-figure-four-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 16,
+      "uniquePoses": 16,
       "duration_ms": 4500,
-      "framing": "Fixed full-cell scale",
+      "framing": "A fixed seated angle shows the upper body leaning while the chair and foot stay put.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/prenatal-prenatal-figure-four-atlas.webp",
@@ -36081,6 +36224,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -36104,7 +36248,8 @@
         14,
         15
       ]
-    }
+    },
+    "poster": "assets/motion-v18/prenatal-prenatal-figure-four-poster.webp"
   },
   {
     "id": "prenatal-calf-stretch",
@@ -36124,11 +36269,13 @@
       "prenatal": {
         "image": "assets/motion-v18/prenatal-prenatal-calf-stretch-poster.webp",
         "poster": "assets/motion-v18/prenatal-prenatal-calf-stretch-poster.webp",
-        "style": "Clean anime pose loop",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "A stable wall and consistent side view show the stance lengthen and return.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-calf-stretch-atlas.webp",
@@ -36153,6 +36300,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -36180,11 +36328,14 @@
       },
       "female": {
         "image": "assets/motion-v18/prenatal-prenatal-calf-stretch-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/prenatal-prenatal-calf-stretch-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "A stable wall and consistent side view show the stance lengthen and return.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-calf-stretch-atlas.webp",
@@ -36209,6 +36360,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -36232,16 +36384,18 @@
             14,
             15
           ]
-        },
-        "poster": "assets/motion-v18/prenatal-prenatal-calf-stretch-poster.webp"
+        }
       },
       "male": {
         "image": "assets/motion-v18/prenatal-prenatal-calf-stretch-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/prenatal-prenatal-calf-stretch-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
+          "uniquePoses": 16,
           "duration_ms": 4500,
-          "framing": "Fixed full-cell scale",
+          "framing": "A stable wall and consistent side view show the stance lengthen and return.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/prenatal-prenatal-calf-stretch-atlas.webp",
@@ -36266,6 +36420,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -36289,15 +36444,16 @@
             14,
             15
           ]
-        },
-        "poster": "assets/motion-v18/prenatal-prenatal-calf-stretch-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 16,
+      "uniquePoses": 16,
       "duration_ms": 4500,
-      "framing": "Fixed full-cell scale",
+      "framing": "A stable wall and consistent side view show the stance lengthen and return.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/prenatal-prenatal-calf-stretch-atlas.webp",
@@ -36322,6 +36478,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -36345,7 +36502,8 @@
         14,
         15
       ]
-    }
+    },
+    "poster": "assets/motion-v18/prenatal-prenatal-calf-stretch-poster.webp"
   },
   {
     "id": "exp-barbell-bench-press",
@@ -42407,7 +42565,7 @@
           "keyframes": 4,
           "uniquePoses": 3,
           "duration_ms": 1800,
-          "framing": "Fixed cable station frame and moving resistance, cable, and working limbs.",
+          "framing": "Both towers and the bench stay fixed as the handles press forward.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -42758,11 +42916,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-kettlebell-floor-press-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-kettlebell-floor-press-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The mat and planted feet stay registered as the kettlebells lower and press.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-kettlebell-floor-press-atlas.webp",
@@ -42779,6 +42940,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -42794,16 +42956,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-kettlebell-floor-press-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-kettlebell-floor-press-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-kettlebell-floor-press-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The mat and planted feet stay registered as the kettlebells lower and press.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-kettlebell-floor-press-atlas.webp",
@@ -42820,6 +42984,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -42835,16 +43000,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-kettlebell-floor-press-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-kettlebell-floor-press-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The mat and planted feet stay registered as the kettlebells lower and press.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-kettlebell-floor-press-atlas.webp",
@@ -42861,6 +43027,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -42876,7 +43043,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-kettlebell-floor-press-poster.webp"
   },
   {
     "id": "exp-close-grip-barbell-bench-press",
@@ -43436,11 +43604,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-single-arm-overhead-dumbbell-extension-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-single-arm-overhead-dumbbell-extension-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-single-arm-overhead-dumbbell-extension-atlas.webp",
@@ -43457,6 +43628,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -43472,16 +43644,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-single-arm-overhead-dumbbell-extension-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-single-arm-overhead-dumbbell-extension-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-single-arm-overhead-dumbbell-extension-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-single-arm-overhead-dumbbell-extension-atlas.webp",
@@ -43498,6 +43672,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -43513,16 +43688,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-single-arm-overhead-dumbbell-extension-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-single-arm-overhead-dumbbell-extension-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-single-arm-overhead-dumbbell-extension-atlas.webp",
@@ -43539,6 +43715,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -43554,7 +43731,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-single-arm-overhead-dumbbell-extension-poster.webp"
   },
   {
     "id": "exp-seated-cable-overhead-triceps-extension",
@@ -44132,11 +44310,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-resistance-band-overhead-triceps-extension-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-resistance-band-overhead-triceps-extension-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-resistance-band-overhead-triceps-extension-atlas.webp",
@@ -44153,6 +44334,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -44168,16 +44350,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-resistance-band-overhead-triceps-extension-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-resistance-band-overhead-triceps-extension-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-resistance-band-overhead-triceps-extension-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-resistance-band-overhead-triceps-extension-atlas.webp",
@@ -44194,6 +44378,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -44209,16 +44394,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-resistance-band-overhead-triceps-extension-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-resistance-band-overhead-triceps-extension-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-resistance-band-overhead-triceps-extension-atlas.webp",
@@ -44235,6 +44421,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -44250,7 +44437,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-resistance-band-overhead-triceps-extension-poster.webp"
   },
   {
     "id": "exp-resistance-band-triceps-kickback",
@@ -45695,10 +45883,10 @@
         "poster": "assets/motion-v18/male-exp-assisted-triceps-dip-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 10,
-          "uniquePoses": 10,
-          "duration_ms": 3000,
-          "framing": "The assisted dip moves the athlete, pad and counterweight inside a stationary frame.",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1800,
+          "framing": "The frame and handles stay fixed while the body and kneeling pad lower and rise in one continuous dip.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -45707,34 +45895,26 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250,
-            250
+            425,
+            220,
+            240,
+            430,
+            255,
+            230
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 10,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9
+            2,
+            1
           ]
         }
       },
@@ -45743,10 +45923,10 @@
         "poster": "assets/motion-v18/female-exp-assisted-triceps-dip-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 10,
-          "uniquePoses": 10,
-          "duration_ms": 3000,
-          "framing": "The assisted dip moves the athlete, pad and counterweight inside a stationary frame.",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1800,
+          "framing": "The frame and handles stay fixed while the body and kneeling pad lower and rise in one continuous dip.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -45755,34 +45935,26 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250,
-            250
+            425,
+            220,
+            240,
+            430,
+            255,
+            230
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 10,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9
+            2,
+            1
           ]
         }
       }
@@ -45790,10 +45962,10 @@
     "image": "assets/motion-v18/male-exp-assisted-triceps-dip-poster.webp",
     "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 10,
-      "uniquePoses": 10,
-      "duration_ms": 3000,
-      "framing": "The assisted dip moves the athlete, pad and counterweight inside a stationary frame.",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 1800,
+      "framing": "The frame and handles stay fixed while the body and kneeling pad lower and rise in one continuous dip.",
       "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
@@ -45802,34 +45974,26 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250,
-        250
+        425,
+        220,
+        240,
+        430,
+        255,
+        230
       ],
       "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 10,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
+        2,
+        1
       ]
     },
     "poster": "assets/motion-v18/male-exp-assisted-triceps-dip-poster.webp"
@@ -46448,11 +46612,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-exp-resistance-band-bent-over-row-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-resistance-band-bent-over-row-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-resistance-band-bent-over-row-atlas.webp",
@@ -46469,6 +46636,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -46484,8 +46652,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-resistance-band-bent-over-row-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-resistance-band-bent-over-row-poster.webp",
@@ -46860,11 +47027,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-exp-kettlebell-bent-over-row-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-kettlebell-bent-over-row-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-kettlebell-bent-over-row-atlas.webp",
@@ -46881,6 +47051,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -46896,8 +47067,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-kettlebell-bent-over-row-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-kettlebell-bent-over-row-poster.webp",
@@ -50477,11 +50647,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-barbell-pullover-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-barbell-pullover-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "One bench position anchors the barbell arc through the pullover.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-barbell-pullover-atlas.webp",
@@ -50498,6 +50671,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -50513,16 +50687,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-barbell-pullover-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-barbell-pullover-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-barbell-pullover-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "One bench position anchors the barbell arc through the pullover.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-barbell-pullover-atlas.webp",
@@ -50539,6 +50715,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -50554,16 +50731,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-barbell-pullover-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-barbell-pullover-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "One bench position anchors the barbell arc through the pullover.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-barbell-pullover-atlas.webp",
@@ -50580,6 +50758,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -50595,7 +50774,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-barbell-pullover-poster.webp"
   },
   {
     "id": "exp-resistance-band-shoulder-press",
@@ -50789,11 +50969,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-exp-kettlebell-shoulder-press-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-kettlebell-shoulder-press-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-kettlebell-shoulder-press-atlas.webp",
@@ -50810,6 +50993,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -50825,8 +51009,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-kettlebell-shoulder-press-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-kettlebell-shoulder-press-poster.webp",
@@ -50884,11 +51067,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-single-arm-standing-dumbbell-shoulder-press-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-single-arm-standing-dumbbell-shoulder-press-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-single-arm-standing-dumbbell-shoulder-press-atlas.webp",
@@ -50905,6 +51091,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -50920,8 +51107,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-single-arm-standing-dumbbell-shoulder-press-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-single-arm-standing-dumbbell-shoulder-press-poster.webp",
@@ -50966,11 +51152,13 @@
       }
     },
     "image": "assets/motion-v18/male-exp-single-arm-standing-dumbbell-shoulder-press-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-single-arm-standing-dumbbell-shoulder-press-atlas.webp",
@@ -50987,6 +51175,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -51002,7 +51191,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-single-arm-standing-dumbbell-shoulder-press-poster.webp"
   },
   {
     "id": "exp-single-arm-seated-cable-shoulder-press",
@@ -52270,11 +52460,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-prone-dumbbell-w-raise-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-prone-dumbbell-w-raise-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "One anchored bench position shows the arms drawing into a W.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-prone-dumbbell-w-raise-atlas.webp",
@@ -52291,6 +52484,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -52306,16 +52500,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-prone-dumbbell-w-raise-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-prone-dumbbell-w-raise-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-prone-dumbbell-w-raise-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "One anchored bench position shows the arms drawing into a W.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-prone-dumbbell-w-raise-atlas.webp",
@@ -52332,6 +52528,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -52347,16 +52544,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-prone-dumbbell-w-raise-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-prone-dumbbell-w-raise-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "One anchored bench position shows the arms drawing into a W.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-prone-dumbbell-w-raise-atlas.webp",
@@ -52373,6 +52571,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -52388,7 +52587,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-prone-dumbbell-w-raise-poster.webp"
   },
   {
     "id": "exp-prone-dumbbell-i-raise",
@@ -52960,11 +53160,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-side-lying-dumbbell-internal-rotation-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-side-lying-dumbbell-internal-rotation-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The mat and resting side stay registered from a fixed angle while the working forearm rotates.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-side-lying-dumbbell-internal-rotation-atlas.webp",
@@ -52981,6 +53184,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -52996,16 +53200,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-side-lying-dumbbell-internal-rotation-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-side-lying-dumbbell-internal-rotation-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-side-lying-dumbbell-internal-rotation-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The mat and resting side stay registered from a fixed angle while the working forearm rotates.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-side-lying-dumbbell-internal-rotation-atlas.webp",
@@ -53022,6 +53228,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -53037,16 +53244,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-side-lying-dumbbell-internal-rotation-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-side-lying-dumbbell-internal-rotation-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The mat and resting side stay registered from a fixed angle while the working forearm rotates.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-side-lying-dumbbell-internal-rotation-atlas.webp",
@@ -53063,6 +53271,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -53078,7 +53287,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-side-lying-dumbbell-internal-rotation-poster.webp"
   },
   {
     "id": "exp-cable-internal-rotation",
@@ -54209,11 +54419,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-kettlebell-biceps-curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-kettlebell-biceps-curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-kettlebell-biceps-curl-atlas.webp",
@@ -54230,6 +54443,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -54245,16 +54459,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-kettlebell-biceps-curl-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-kettlebell-biceps-curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-kettlebell-biceps-curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-kettlebell-biceps-curl-atlas.webp",
@@ -54271,6 +54487,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -54286,16 +54503,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-kettlebell-biceps-curl-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-kettlebell-biceps-curl-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-kettlebell-biceps-curl-atlas.webp",
@@ -54312,6 +54530,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -54327,7 +54546,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-kettlebell-biceps-curl-poster.webp"
   },
   {
     "id": "exp-incline-dumbbell-hammer-curl",
@@ -54872,11 +55092,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-single-arm-incline-dumbbell-bench-press-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-single-arm-incline-dumbbell-bench-press-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-single-arm-incline-dumbbell-bench-press-atlas.webp",
@@ -54893,6 +55116,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -54908,16 +55132,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-single-arm-incline-dumbbell-bench-press-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-single-arm-incline-dumbbell-bench-press-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-single-arm-incline-dumbbell-bench-press-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-single-arm-incline-dumbbell-bench-press-atlas.webp",
@@ -54934,6 +55160,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -54949,16 +55176,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-single-arm-incline-dumbbell-bench-press-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-single-arm-incline-dumbbell-bench-press-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-single-arm-incline-dumbbell-bench-press-atlas.webp",
@@ -54975,6 +55203,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -54990,7 +55219,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-single-arm-incline-dumbbell-bench-press-poster.webp"
   },
   {
     "id": "exp-chest-supported-barbell-row",
@@ -55007,11 +55237,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-chest-supported-barbell-row-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-chest-supported-barbell-row-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The bench and contact points stay aligned while the barbell moves.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-chest-supported-barbell-row-atlas.webp",
@@ -55028,6 +55261,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -55043,16 +55277,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-chest-supported-barbell-row-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-chest-supported-barbell-row-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-chest-supported-barbell-row-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The bench and contact points stay aligned while the barbell moves.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-chest-supported-barbell-row-atlas.webp",
@@ -55069,6 +55305,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -55084,16 +55321,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-chest-supported-barbell-row-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-chest-supported-barbell-row-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The bench and contact points stay aligned while the barbell moves.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-chest-supported-barbell-row-atlas.webp",
@@ -55110,6 +55348,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -55125,7 +55364,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-chest-supported-barbell-row-poster.webp"
   },
   {
     "id": "exp-dumbbell-front-squat",
@@ -56850,10 +57090,10 @@
         "poster": "assets/motion-v18/male-exp-belt-squat-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "uniquePoses": 8,
-          "duration_ms": 2500,
-          "framing": "The squat belt and body follow the full movement while the rack, platform and planted shoes stay anchored.",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1810,
+          "framing": "The frame and platform stay fixed while the hips and knees bend through a continuous squat.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -56862,30 +57102,26 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
+            410,
+            240,
+            240,
+            430,
             250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            240
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
         }
       },
@@ -56894,10 +57130,10 @@
         "poster": "assets/motion-v18/female-exp-belt-squat-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "uniquePoses": 8,
-          "duration_ms": 2500,
-          "framing": "The squat belt and body follow the full movement while the rack, platform and planted shoes stay anchored.",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1810,
+          "framing": "The frame and platform stay fixed while the hips and knees bend through a continuous squat.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -56906,30 +57142,26 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
+            410,
+            240,
+            240,
+            430,
             250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            240
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
         }
       }
@@ -56937,10 +57169,10 @@
     "image": "assets/motion-v18/male-exp-belt-squat-poster.webp",
     "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "uniquePoses": 8,
-      "duration_ms": 2500,
-      "framing": "The squat belt and body follow the full movement while the rack, platform and planted shoes stay anchored.",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 1810,
+      "framing": "The frame and platform stay fixed while the hips and knees bend through a continuous squat.",
       "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
@@ -56949,30 +57181,26 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
+        410,
+        240,
+        240,
+        430,
         250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        240
       ],
       "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
     },
     "poster": "assets/motion-v18/male-exp-belt-squat-poster.webp"
@@ -59225,18 +59453,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-lateral-step-up-poster.webp",
+        "poster": "assets/motion-v18/male-exp-lateral-step-up-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 80,
-          "uniquePoses": 80,
-          "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2085,
+          "framing": "A fixed frontal view with the support step locked as the working leg lifts and lowers the athlete.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 8,
-            "rows": 10
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-lateral-step-up-atlas.webp",
@@ -59244,192 +59468,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50
+            365,
+            335,
+            290,
+            470,
+            290,
+            335
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 80,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            42,
-            43,
-            44,
-            45,
-            46,
-            47,
-            48,
-            49,
-            50,
-            51,
-            52,
-            53,
-            54,
-            55,
-            56,
-            57,
-            58,
-            59,
-            60,
-            61,
-            62,
-            63,
-            64,
-            65,
-            66,
-            67,
-            68,
-            69,
-            70,
-            71,
-            72,
-            73,
-            74,
-            75,
-            76,
-            77,
-            78,
-            79
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-lateral-step-up-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-lateral-step-up-poster.webp",
+        "poster": "assets/motion-v18/female-exp-lateral-step-up-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 80,
-          "uniquePoses": 80,
-          "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 2085,
+          "framing": "A fixed frontal view with the support step locked as the working leg lifts and lowers the athlete.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 8,
-            "rows": 10
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-lateral-step-up-atlas.webp",
@@ -59437,192 +59508,38 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50,
-            50
+            365,
+            335,
+            290,
+            470,
+            290,
+            335
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 80,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
-            26,
-            27,
-            28,
-            29,
-            30,
-            31,
-            32,
-            33,
-            34,
-            35,
-            36,
-            37,
-            38,
-            39,
-            40,
-            41,
-            42,
-            43,
-            44,
-            45,
-            46,
-            47,
-            48,
-            49,
-            50,
-            51,
-            52,
-            53,
-            54,
-            55,
-            56,
-            57,
-            58,
-            59,
-            60,
-            61,
-            62,
-            63,
-            64,
-            65,
-            66,
-            67,
-            68,
-            69,
-            70,
-            71,
-            72,
-            73,
-            74,
-            75,
-            76,
-            77,
-            78,
-            79
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-lateral-step-up-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-lateral-step-up-poster.webp",
     "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 80,
-      "uniquePoses": 80,
-      "duration_ms": 4000,
-      "framing": "Fixed camera and one uniform resize of the complete source atlas",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 2085,
+      "framing": "A fixed frontal view with the support step locked as the working leg lifts and lowers the athlete.",
       "nativeTransformVersion": 2,
-      "sourceGrid": {
-        "columns": 8,
-        "rows": 10
-      },
-      "sourceCellBorderTrim": 6,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-lateral-step-up-atlas.webp",
@@ -59630,176 +59547,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50,
-        50
+        365,
+        335,
+        290,
+        470,
+        290,
+        335
       ],
       "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 80,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-lateral-step-up-poster.webp"
   },
   {
     "id": "exp-crossover-step-up",
@@ -68130,11 +67900,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-kettlebell-romanian-deadlift-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-kettlebell-romanian-deadlift-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-kettlebell-romanian-deadlift-atlas.webp",
@@ -68151,6 +67924,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -68166,8 +67940,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-kettlebell-romanian-deadlift-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-kettlebell-romanian-deadlift-poster.webp",
@@ -68212,11 +67985,13 @@
       }
     },
     "image": "assets/motion-v18/male-exp-kettlebell-romanian-deadlift-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-kettlebell-romanian-deadlift-atlas.webp",
@@ -68233,6 +68008,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -68248,7 +68024,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-kettlebell-romanian-deadlift-poster.webp"
   },
   {
     "id": "exp-trap-bar-deadlift",
@@ -71854,11 +71631,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-single-leg-slider-hamstring-curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-single-leg-slider-hamstring-curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "One fixed view keeps the supporting head and arm in place while the working foot slides toward and away from the hips.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-single-leg-slider-hamstring-curl-atlas.webp",
@@ -71875,6 +71655,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -71890,16 +71671,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-single-leg-slider-hamstring-curl-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-single-leg-slider-hamstring-curl-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-single-leg-slider-hamstring-curl-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "One fixed view keeps the supporting head and arm in place while the working foot slides toward and away from the hips.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-single-leg-slider-hamstring-curl-atlas.webp",
@@ -71916,6 +71699,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -71931,16 +71715,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-single-leg-slider-hamstring-curl-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-single-leg-slider-hamstring-curl-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "One fixed view keeps the supporting head and arm in place while the working foot slides toward and away from the hips.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-single-leg-slider-hamstring-curl-atlas.webp",
@@ -71957,6 +71742,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -71972,7 +71758,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-single-leg-slider-hamstring-curl-poster.webp"
   },
   {
     "id": "exp-stability-ball-hamstring-curl",
@@ -74541,11 +74328,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-hamstring-walkout-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-hamstring-walkout-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The head and resting shoulders hold their position as the heels walk away from and back toward the hips.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-hamstring-walkout-atlas.webp",
@@ -74562,6 +74352,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -74577,16 +74368,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-hamstring-walkout-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-hamstring-walkout-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-hamstring-walkout-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The head and resting shoulders hold their position as the heels walk away from and back toward the hips.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-hamstring-walkout-atlas.webp",
@@ -74603,6 +74396,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -74618,16 +74412,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-hamstring-walkout-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-hamstring-walkout-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The head and resting shoulders hold their position as the heels walk away from and back toward the hips.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-hamstring-walkout-atlas.webp",
@@ -74644,6 +74439,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -74659,7 +74455,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-hamstring-walkout-poster.webp"
   },
   {
     "id": "exp-b-stance-dumbbell-romanian-deadlift",
@@ -75917,7 +75714,7 @@
           "keyframes": 30,
           "uniquePoses": 16,
           "duration_ms": 4000,
-          "framing": "Fixed equipment geometry with reviewed movement and foreground occlusion preserved",
+          "framing": "Both bench supports stay fixed beneath the athlete as the hips rise and return.",
           "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
@@ -79953,11 +79750,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-standing-band-hip-abduction-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-standing-band-hip-abduction-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The support post and planted foot stay at one screen position while the other leg lifts sideways.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-standing-band-hip-abduction-atlas.webp",
@@ -79974,6 +79774,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -79989,16 +79790,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-standing-band-hip-abduction-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-standing-band-hip-abduction-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-standing-band-hip-abduction-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The support post and planted foot stay at one screen position while the other leg lifts sideways.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-standing-band-hip-abduction-atlas.webp",
@@ -80015,6 +79818,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -80030,16 +79834,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-standing-band-hip-abduction-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-standing-band-hip-abduction-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The support post and planted foot stay at one screen position while the other leg lifts sideways.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-standing-band-hip-abduction-atlas.webp",
@@ -80056,6 +79861,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -80071,7 +79877,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-standing-band-hip-abduction-poster.webp"
   },
   {
     "id": "exp-seated-band-hip-abduction",
@@ -81138,11 +80945,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-side-lying-hip-adduction-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-side-lying-hip-adduction-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The head and supporting forearm keep the same framing as the lower leg lifts.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-side-lying-hip-adduction-atlas.webp",
@@ -81159,6 +80969,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -81174,16 +80985,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-side-lying-hip-adduction-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-side-lying-hip-adduction-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-side-lying-hip-adduction-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The head and supporting forearm keep the same framing as the lower leg lifts.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-side-lying-hip-adduction-atlas.webp",
@@ -81200,6 +81013,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -81215,16 +81029,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-side-lying-hip-adduction-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-side-lying-hip-adduction-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The head and supporting forearm keep the same framing as the lower leg lifts.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-side-lying-hip-adduction-atlas.webp",
@@ -81241,6 +81056,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -81256,7 +81072,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-side-lying-hip-adduction-poster.webp"
   },
   {
     "id": "exp-standing-band-hip-adduction",
@@ -94713,11 +94530,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-wrist-roller-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-wrist-roller-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-wrist-roller-atlas.webp",
@@ -94734,6 +94554,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -94749,16 +94570,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-wrist-roller-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-wrist-roller-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-wrist-roller-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-wrist-roller-atlas.webp",
@@ -94775,6 +94598,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -94790,16 +94614,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-wrist-roller-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-wrist-roller-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-wrist-roller-atlas.webp",
@@ -94816,6 +94641,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -94831,7 +94657,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-wrist-roller-poster.webp"
   },
   {
     "id": "exp-forearm-pronation-supination",
@@ -95027,11 +94854,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-exp-dumbbell-radial-deviation-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-dumbbell-radial-deviation-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-dumbbell-radial-deviation-atlas.webp",
@@ -95048,6 +94878,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -95063,8 +94894,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-dumbbell-radial-deviation-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-dumbbell-radial-deviation-poster.webp",
@@ -95439,11 +95269,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-exp-finger-band-extension-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-finger-band-extension-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 6,
+          "uniquePoses": 6,
           "duration_ms": 2000,
-          "framing": "Fixed full-cell scale",
+          "framing": "The source movement keeps its framing while disconnected crop marks are cleared from the background.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-finger-band-extension-atlas.webp",
@@ -95458,6 +95291,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -95471,8 +95305,7 @@
             4,
             5
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-finger-band-extension-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-finger-band-extension-poster.webp",

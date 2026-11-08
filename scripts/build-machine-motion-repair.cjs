@@ -434,12 +434,21 @@ async function build(recipePath, mode, destination) {
     const source = baseline.find(row => row.id === id);
     const record = catalog.find(row => row.id === id);
     const selected = Object.keys(variants ?? {});
+    const prenatal = record?.prenatal === true && source?.prenatal === true;
+    const available = prenatal ? ['prenatal'] : genders;
     assert(record?.animation && source?.animation && selected.length &&
-      selected.every(gender => genders.includes(gender) && variants[gender] && typeof variants[gender] === 'object'),
-      `Expected existing male or female variants for ${id}`);
+      selected.every(gender => available.includes(gender) && variants[gender] && typeof variants[gender] === 'object'),
+      `Expected existing motion variants for ${id}`);
+    if (prenatal) {
+      for (const entry of [record, source]) {
+        for (const gender of genders) {
+          assert.deepEqual(entry.variants[gender], entry.variants.prenatal, `Inconsistent prenatal alias for ${id}: ${gender}`);
+        }
+      }
+    }
     reviewed.set(id, new Set(selected));
     const next = { ...record.variants };
-    for (const gender of genders) {
+    for (const gender of available) {
       if (!variants[gender]) continue;
       const original = source.variants[gender];
       let sourceAtlas;
@@ -463,14 +472,17 @@ async function build(recipePath, mode, destination) {
       }
       bindings.push({ exercise: id, variant: gender, sourceHash: packed.sourceHash });
     }
-    if (variants.male) Object.assign(record, next.male);
+    if (prenatal) {
+      for (const gender of genders) next[gender] = next.prenatal;
+      Object.assign(record, next.prenatal);
+    } else if (variants.male) Object.assign(record, next.male);
     record.variants = next;
   }
   const prior = release.nativeSourceBindings;
   release.nativeSourceBindings = prior.flatMap(binding => {
     const selected = reviewed.get(binding.exercise);
     if (!selected) return [binding];
-    if (selected.has(binding.variant)) return [];
+    if (selected.has(binding.variant) || selected.has('prenatal')) return [];
     if (binding.variant !== 'retained') return [binding];
     return genders.filter(gender => !selected.has(gender) && !prior.some(item =>
       item.exercise === binding.exercise && item.variant === gender

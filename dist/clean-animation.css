@@ -3,6 +3,8 @@ body[data-screen=exercises] .exercise-visual img,
 #exercise-dialog #preview-image,
 #exercise-dialog .clean-motion-canvas { background:#fff; }
 .exercise-visual img,#preview-image,.clean-motion-canvas { object-fit:contain; transform:none; transition:none; }
+/* Add definition to the illustrated figures while keeping the white artboard neutral. */
+.motion-art,.clean-motion-canvas { filter:contrast(1.055) saturate(1.13); }
 #exercise-dialog .exercise-preview-animation { flex-direction:column; align-items:stretch; align-self:start; justify-content:flex-start; background:#fff; }
 #exercise-dialog .clean-motion-canvas { display:block; width:100%; height:auto; max-height:540px; aspect-ratio:600/484; }
 #exercise-dialog #preview-image[hidden],#exercise-dialog .clean-motion-canvas[hidden],.clean-motion-controls[hidden] { display:none; }
