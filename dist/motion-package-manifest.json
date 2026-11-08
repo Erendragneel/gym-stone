@@ -3032,7 +3032,7 @@
     {
       "exercise": "g4-04_Bicycle_Crunch",
       "variant": "male",
-      "sourceHash": "d151c4deae436749c72b4f02143a60a6dca56a841eb87e592a149989e7656fe6"
+      "sourceHash": "fe91f27a883a11a9f9bd42843c4d96a02fcce18cae0bde4d4a720cacfc0dae63"
     },
     {
       "exercise": "g4-05_Heel_Touches",
@@ -11243,8 +11243,8 @@
     },
     {
       "path": "dist/assets/motion-v18/male-g4-04_Bicycle_Crunch-atlas.webp",
-      "sha256": "6c60dd8a88dd16cc4c1224cc4534bacb99ac5aaa48375a449f5fca77f86b807d",
-      "bytes": 493264
+      "sha256": "c044a0ed2e42d7cfaa42f7789b3a3c9c8584c4091da2f9df8e17b9c9403f3399",
+      "bytes": 493570
     },
     {
       "path": "dist/assets/motion-v18/male-g4-04_Bicycle_Crunch-poster.webp",
