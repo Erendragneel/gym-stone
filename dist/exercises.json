@@ -19794,11 +19794,13 @@
       "male": {
         "image": "assets/motion-v18/male-g4-02_Side_Plank_Hip_Dips-poster.webp",
         "poster": "assets/motion-v18/male-g4-02_Side_Plank_Hip_Dips-poster.webp",
-        "style": "Clean anime pose loop",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1980,
+          "framing": "Controlled side plank hip dip from high to low and back; forearm and feet stay grounded.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-02_Side_Plank_Hip_Dips-atlas.webp",
@@ -19806,39 +19808,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
+            450,
+            270,
+            245,
             500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            245,
+            270
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
         }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-02_Side_Plank_Hip_Dips-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g4-02_Side_Plank_Hip_Dips-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1980,
+          "framing": "Controlled side plank hip dip from high to low and back; forearm and feet stay grounded.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-02_Side_Plank_Hip_Dips-atlas.webp",
@@ -19846,39 +19848,37 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
+            450,
+            270,
+            245,
             500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            245,
+            270
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-02_Side_Plank_Hip_Dips-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 1980,
+      "framing": "Controlled side plank hip dip from high to low and back; forearm and feet stay grounded.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-02_Side_Plank_Hip_Dips-atlas.webp",
@@ -19886,31 +19886,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
+        450,
+        270,
+        245,
         500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        245,
+        270
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-02_Side_Plank_Hip_Dips-poster.webp"
   },
   {
     "name": "Side Plank Rotation",
@@ -19921,11 +19919,13 @@
       "male": {
         "image": "assets/motion-v18/male-g4-03_Side_Plank_Rotation-poster.webp",
         "poster": "assets/motion-v18/male-g4-03_Side_Plank_Rotation-poster.webp",
-        "style": "Clean anime pose loop",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1685,
+          "framing": "One fixed view shows the upper arm threading under the ribs while the supporting forearm and stacked feet stay planted.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-03_Side_Plank_Rotation-atlas.webp",
@@ -19933,39 +19933,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            390,
+            180,
+            210,
+            470,
+            215,
+            220
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
         }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-03_Side_Plank_Rotation-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g4-03_Side_Plank_Rotation-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1685,
+          "framing": "One fixed view shows the upper arm threading under the ribs while the supporting forearm and stacked feet stay planted.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-03_Side_Plank_Rotation-atlas.webp",
@@ -19973,39 +19973,37 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            390,
+            180,
+            210,
+            470,
+            215,
+            220
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-03_Side_Plank_Rotation-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 1685,
+      "framing": "One fixed view shows the upper arm threading under the ribs while the supporting forearm and stacked feet stay planted.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-03_Side_Plank_Rotation-atlas.webp",
@@ -20013,31 +20011,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        390,
+        180,
+        210,
+        470,
+        215,
+        220
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-03_Side_Plank_Rotation-poster.webp"
   },
   {
     "name": "Bicycle Crunch",
@@ -20047,11 +20043,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g4-04_Bicycle_Crunch-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-g4-04_Bicycle_Crunch-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 4,
+          "uniquePoses": 4,
+          "duration_ms": 1590,
+          "framing": "From one diagonal view, opposite elbow and knee alternate through a centered position as the other leg extends.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-04_Bicycle_Crunch-atlas.webp",
@@ -20059,40 +20058,35 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            285,
+            510,
+            285,
+            510
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
-            3,
-            4,
-            5,
-            6,
-            7
+            3
           ]
-        },
-        "poster": "assets/motion-v18/male-g4-04_Bicycle_Crunch-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-04_Bicycle_Crunch-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g4-04_Bicycle_Crunch-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 4,
+          "uniquePoses": 4,
+          "duration_ms": 1590,
+          "framing": "From one diagonal view, opposite elbow and knee alternate through a centered position as the other leg extends.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-04_Bicycle_Crunch-atlas.webp",
@@ -20100,39 +20094,33 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            285,
+            510,
+            285,
+            510
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
-            3,
-            4,
-            5,
-            6,
-            7
+            3
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-04_Bicycle_Crunch-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 4,
+      "uniquePoses": 4,
+      "duration_ms": 1590,
+      "framing": "From one diagonal view, opposite elbow and knee alternate through a centered position as the other leg extends.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-04_Bicycle_Crunch-atlas.webp",
@@ -20140,31 +20128,25 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        285,
+        510,
+        285,
+        510
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
-        3,
-        4,
-        5,
-        6,
-        7
+        3
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-04_Bicycle_Crunch-poster.webp"
   },
   {
     "name": "Heel Touches",
@@ -20963,11 +20945,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g4-08_Windshield_Wipers-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-g4-08_Windshield_Wipers-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 10,
+          "uniquePoses": 6,
+          "duration_ms": 3060,
+          "framing": "Both legs sweep through a visible center position between side-to-side ranges while shoulders, head, and arms stay anchored.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-08_Windshield_Wipers-atlas.webp",
@@ -20975,40 +20960,47 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
+            360,
+            230,
             500,
-            250,
-            250,
-            250,
+            230,
+            360,
+            200,
+            240,
             500,
-            250,
-            250,
-            250
+            240,
+            200
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 6,
           "poseSequence": [
             0,
             1,
             2,
+            1,
+            0,
+            5,
+            4,
             3,
             4,
-            5,
-            6,
-            7
+            5
           ]
-        },
-        "poster": "assets/motion-v18/male-g4-08_Windshield_Wipers-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-08_Windshield_Wipers-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g4-08_Windshield_Wipers-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 10,
+          "uniquePoses": 6,
+          "duration_ms": 3060,
+          "framing": "Both legs sweep through a visible center position between side-to-side ranges while shoulders, head, and arms stay anchored.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-08_Windshield_Wipers-atlas.webp",
@@ -21016,39 +21008,45 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
+            360,
+            230,
             500,
-            250,
-            250,
-            250,
+            230,
+            360,
+            200,
+            240,
             500,
-            250,
-            250,
-            250
+            240,
+            200
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 6,
           "poseSequence": [
             0,
             1,
             2,
+            1,
+            0,
+            5,
+            4,
             3,
             4,
-            5,
-            6,
-            7
+            5
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-08_Windshield_Wipers-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 10,
+      "uniquePoses": 6,
+      "duration_ms": 3060,
+      "framing": "Both legs sweep through a visible center position between side-to-side ranges while shoulders, head, and arms stay anchored.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-08_Windshield_Wipers-atlas.webp",
@@ -21056,31 +21054,37 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
+        360,
+        230,
         500,
-        250,
-        250,
-        250,
+        230,
+        360,
+        200,
+        240,
         500,
-        250,
-        250,
-        250
+        240,
+        200
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 6,
       "poseSequence": [
         0,
         1,
         2,
+        1,
+        0,
+        5,
+        4,
         3,
         4,
-        5,
-        6,
-        7
+        5
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-08_Windshield_Wipers-poster.webp"
   },
   {
     "name": "Russian Twist",
@@ -21090,18 +21094,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g4-09_Russian_Twist-poster.webp",
+        "poster": "assets/motion-v18/male-g4-09_Russian_Twist-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
-          "uniquePoses": 8,
-          "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "uniquePoses": 5,
+          "duration_ms": 3540,
+          "framing": "The torso rotates left, through center, and right while the seated feet stay steady.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-09_Russian_Twist-atlas.webp",
@@ -21109,48 +21109,43 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            400,
-            700,
-            400,
-            500,
-            400,
-            700,
-            400
+            450,
+            320,
+            680,
+            320,
+            450,
+            320,
+            680,
+            320
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 5,
           "poseSequence": [
             0,
             1,
             2,
+            1,
+            0,
             3,
             4,
-            5,
-            6,
-            7
+            3
           ]
-        },
-        "poster": "assets/motion-v18/male-g4-09_Russian_Twist-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-09_Russian_Twist-poster.webp",
+        "poster": "assets/motion-v18/female-g4-09_Russian_Twist-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
-          "uniquePoses": 8,
-          "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "uniquePoses": 5,
+          "duration_ms": 3540,
+          "framing": "The torso rotates left, through center, and right while the seated feet stay steady.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-09_Russian_Twist-atlas.webp",
@@ -21158,47 +21153,41 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            400,
-            700,
-            400,
-            500,
-            400,
-            700,
-            400
+            450,
+            320,
+            680,
+            320,
+            450,
+            320,
+            680,
+            320
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 5,
           "poseSequence": [
             0,
             1,
             2,
+            1,
+            0,
             3,
             4,
-            5,
-            6,
-            7
+            3
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-09_Russian_Twist-poster.webp"
+        }
       }
     },
     "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
-      "uniquePoses": 8,
-      "duration_ms": 4000,
-      "framing": "Fixed camera and one uniform resize of the complete source atlas",
+      "uniquePoses": 5,
+      "duration_ms": 3540,
+      "framing": "The torso rotates left, through center, and right while the seated feet stay steady.",
       "nativeTransformVersion": 2,
-      "sourceGrid": {
-        "columns": 4,
-        "rows": 2
-      },
-      "sourceCellBorderTrim": 6,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-09_Russian_Twist-atlas.webp",
@@ -21206,32 +21195,33 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        400,
-        700,
-        400,
-        500,
-        400,
-        700,
-        400
+        450,
+        320,
+        680,
+        320,
+        450,
+        320,
+        680,
+        320
       ],
       "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 5,
       "poseSequence": [
         0,
         1,
         2,
+        1,
+        0,
         3,
         4,
-        5,
-        6,
-        7
+        3
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-09_Russian_Twist-poster.webp"
   },
   {
     "name": "Reverse Crunch With Rotation",
@@ -21241,11 +21231,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g4-10_Reverse_Crunch_With_Rotation-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-g4-10_Reverse_Crunch_With_Rotation-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "uniquePoses": 4,
+          "duration_ms": 2430,
+          "framing": "A fixed view from above shows both knees curling left and right through center while the shoulders and arms stay down.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-10_Reverse_Crunch_With_Rotation-atlas.webp",
@@ -21253,40 +21246,43 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            315,
+            220,
+            450,
+            230,
+            315,
+            220,
+            450,
+            230
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
+            1,
+            0,
+            1,
             3,
-            4,
-            5,
-            6,
-            7
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-g4-10_Reverse_Crunch_With_Rotation-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-10_Reverse_Crunch_With_Rotation-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g4-10_Reverse_Crunch_With_Rotation-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "uniquePoses": 4,
+          "duration_ms": 2430,
+          "framing": "A fixed view from above shows both knees curling left and right through center while the shoulders and arms stay down.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-10_Reverse_Crunch_With_Rotation-atlas.webp",
@@ -21294,39 +21290,41 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            315,
+            220,
+            450,
+            230,
+            315,
+            220,
+            450,
+            230
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
+            1,
+            0,
+            1,
             3,
-            4,
-            5,
-            6,
-            7
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-10_Reverse_Crunch_With_Rotation-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "uniquePoses": 4,
+      "duration_ms": 2430,
+      "framing": "A fixed view from above shows both knees curling left and right through center while the shoulders and arms stay down.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-10_Reverse_Crunch_With_Rotation-atlas.webp",
@@ -21334,31 +21332,33 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        315,
+        220,
+        450,
+        230,
+        315,
+        220,
+        450,
+        230
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
+        1,
+        0,
+        1,
         3,
-        4,
-        5,
-        6,
-        7
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-10_Reverse_Crunch_With_Rotation-poster.webp"
   },
   {
     "name": "Dumbbell Side Bend",
@@ -21368,11 +21368,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g4-11_Dumbbell_Side_Bend-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-g4-11_Dumbbell_Side_Bend-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1980,
+          "framing": "The dumbbell lowers during one lateral bend and returns to neutral while both feet stay planted.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-11_Dumbbell_Side_Bend-atlas.webp",
@@ -21380,40 +21383,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
+            450,
+            270,
+            245,
             500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            245,
+            270
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-g4-11_Dumbbell_Side_Bend-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-11_Dumbbell_Side_Bend-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-g4-11_Dumbbell_Side_Bend-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 1980,
+          "framing": "The dumbbell lowers during one lateral bend and returns to neutral while both feet stay planted.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-11_Dumbbell_Side_Bend-atlas.webp",
@@ -21421,39 +21423,37 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
+            450,
+            270,
+            245,
             500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            245,
+            270
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-11_Dumbbell_Side_Bend-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 1980,
+      "framing": "The dumbbell lowers during one lateral bend and returns to neutral while both feet stay planted.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-11_Dumbbell_Side_Bend-atlas.webp",
@@ -21461,31 +21461,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
+        450,
+        270,
+        245,
         500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        245,
+        270
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-11_Dumbbell_Side_Bend-poster.webp"
   },
   {
     "name": "Weighted Russian Twist",
@@ -21495,18 +21493,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g4-12_Weighted_Russian_Twist-poster.webp",
+        "poster": "assets/motion-v18/male-g4-12_Weighted_Russian_Twist-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
-          "uniquePoses": 8,
-          "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "uniquePoses": 5,
+          "duration_ms": 3540,
+          "framing": "The ball follows the rib cage left and right from a fixed front view while the seated base stays steady.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-12_Weighted_Russian_Twist-atlas.webp",
@@ -21514,48 +21508,43 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            400,
-            700,
-            400,
-            500,
-            400,
-            700,
-            400
+            450,
+            320,
+            680,
+            320,
+            450,
+            320,
+            680,
+            320
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 5,
           "poseSequence": [
             0,
             1,
             2,
+            1,
+            0,
             3,
             4,
-            5,
-            6,
-            7
+            3
           ]
-        },
-        "poster": "assets/motion-v18/male-g4-12_Weighted_Russian_Twist-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-12_Weighted_Russian_Twist-poster.webp",
+        "poster": "assets/motion-v18/female-g4-12_Weighted_Russian_Twist-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
-          "uniquePoses": 8,
-          "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "uniquePoses": 5,
+          "duration_ms": 3540,
+          "framing": "The ball follows the rib cage left and right from a fixed front view while the seated base stays steady.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-12_Weighted_Russian_Twist-atlas.webp",
@@ -21563,47 +21552,41 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            400,
-            700,
-            400,
-            500,
-            400,
-            700,
-            400
+            450,
+            320,
+            680,
+            320,
+            450,
+            320,
+            680,
+            320
           ],
           "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 5,
           "poseSequence": [
             0,
             1,
             2,
+            1,
+            0,
             3,
             4,
-            5,
-            6,
-            7
+            3
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-12_Weighted_Russian_Twist-poster.webp"
+        }
       }
     },
     "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
-      "uniquePoses": 8,
-      "duration_ms": 4000,
-      "framing": "Fixed camera and one uniform resize of the complete source atlas",
+      "uniquePoses": 5,
+      "duration_ms": 3540,
+      "framing": "The ball follows the rib cage left and right from a fixed front view while the seated base stays steady.",
       "nativeTransformVersion": 2,
-      "sourceGrid": {
-        "columns": 4,
-        "rows": 2
-      },
-      "sourceCellBorderTrim": 6,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-12_Weighted_Russian_Twist-atlas.webp",
@@ -21611,32 +21594,33 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        400,
-        700,
-        400,
-        500,
-        400,
-        700,
-        400
+        450,
+        320,
+        680,
+        320,
+        450,
+        320,
+        680,
+        320
       ],
       "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 5,
       "poseSequence": [
         0,
         1,
         2,
+        1,
+        0,
         3,
         4,
-        5,
-        6,
-        7
+        3
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-12_Weighted_Russian_Twist-poster.webp"
   },
   {
     "name": "Suitcase Carry",
@@ -21646,11 +21630,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g4-13_Suitcase_Carry-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-g4-13_Suitcase_Carry-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "One forward walking cycle at a fixed angle with the weight carried in the same hand.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-13_Suitcase_Carry-atlas.webp",
@@ -21667,134 +21654,7 @@
             250,
             250
           ],
-          "atlasFrameWidth": 420,
-          "atlasFrameHeight": 420,
-          "atlasOffsetX": 90,
-          "atlasOffsetY": 32,
-          "storedPoses": 8,
-          "poseSequence": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-          ]
-        },
-        "poster": "assets/motion-v18/male-g4-13_Suitcase_Carry-poster.webp"
-      },
-      "female": {
-        "image": "assets/motion-v18/female-g4-13_Suitcase_Carry-poster.webp",
-        "style": "Clean anime pose loop",
-        "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
-          "background": "#ffffff",
-          "crossfade": false,
-          "atlas": "assets/motion-v18/female-g4-13_Suitcase_Carry-atlas.webp",
-          "columns": 4,
-          "frameWidth": 600,
-          "frameHeight": 484,
-          "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
-          ],
-          "atlasFrameWidth": 420,
-          "atlasFrameHeight": 420,
-          "atlasOffsetX": 90,
-          "atlasOffsetY": 32,
-          "storedPoses": 8,
-          "poseSequence": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
-          ]
-        },
-        "poster": "assets/motion-v18/female-g4-13_Suitcase_Carry-poster.webp"
-      }
-    },
-    "style": "Clean anime pose loop",
-    "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
-      "background": "#ffffff",
-      "crossfade": false,
-      "atlas": "assets/motion-v18/male-g4-13_Suitcase_Carry-atlas.webp",
-      "columns": 4,
-      "frameWidth": 600,
-      "frameHeight": 484,
-      "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
-      ],
-      "atlasFrameWidth": 420,
-      "atlasFrameHeight": 420,
-      "atlasOffsetX": 90,
-      "atlasOffsetY": 32,
-      "storedPoses": 8,
-      "poseSequence": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ]
-    }
-  },
-  {
-    "name": "Standing Oblique Crunch",
-    "id": "g4-14_Standing_Oblique_Crunch",
-    "group": "Obliques",
-    "image": "assets/motion-v18/male-g4-14_Standing_Oblique_Crunch-poster.webp",
-    "variants": {
-      "male": {
-        "image": "assets/motion-v18/male-g4-14_Standing_Oblique_Crunch-poster.webp",
-        "poster": "assets/motion-v18/male-g4-14_Standing_Oblique_Crunch-poster.webp",
-        "style": "Clean anime pose loop",
-        "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
-          "background": "#ffffff",
-          "crossfade": false,
-          "atlas": "assets/motion-v18/male-g4-14_Standing_Oblique_Crunch-atlas.webp",
-          "columns": 4,
-          "frameWidth": 600,
-          "frameHeight": 484,
-          "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
-          ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -21813,15 +21673,18 @@
         }
       },
       "female": {
-        "image": "assets/motion-v18/female-g4-14_Standing_Oblique_Crunch-poster.webp",
-        "style": "Clean anime pose loop",
+        "image": "assets/motion-v18/female-g4-13_Suitcase_Carry-poster.webp",
+        "poster": "assets/motion-v18/female-g4-13_Suitcase_Carry-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "One forward walking cycle at a fixed angle with the weight carried in the same hand.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
-          "atlas": "assets/motion-v18/female-g4-14_Standing_Oblique_Crunch-atlas.webp",
+          "atlas": "assets/motion-v18/female-g4-13_Suitcase_Carry-atlas.webp",
           "columns": 4,
           "frameWidth": 600,
           "frameHeight": 484,
@@ -21835,6 +21698,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -21850,18 +21714,19 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-14_Standing_Oblique_Crunch-poster.webp"
+        }
       }
     },
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "One forward walking cycle at a fixed angle with the weight carried in the same hand.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
-      "atlas": "assets/motion-v18/male-g4-14_Standing_Oblique_Crunch-atlas.webp",
+      "atlas": "assets/motion-v18/male-g4-13_Suitcase_Carry-atlas.webp",
       "columns": 4,
       "frameWidth": 600,
       "frameHeight": 484,
@@ -21875,6 +21740,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -21890,7 +21756,121 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-13_Suitcase_Carry-poster.webp"
+  },
+  {
+    "name": "Standing Oblique Crunch",
+    "id": "g4-14_Standing_Oblique_Crunch",
+    "group": "Obliques",
+    "image": "assets/motion-v18/male-g4-14_Standing_Oblique_Crunch-poster.webp",
+    "variants": {
+      "male": {
+        "image": "assets/motion-v18/male-g4-14_Standing_Oblique_Crunch-poster.webp",
+        "poster": "assets/motion-v18/male-g4-14_Standing_Oblique_Crunch-poster.webp",
+        "style": "Controlled anime exercise loop",
+        "animation": {
+          "keyframes": 4,
+          "uniquePoses": 3,
+          "duration_ms": 1600,
+          "framing": "One full side crunch with elbow and same-side knee closing while the support foot stays planted. Repeat on the other side.",
+          "nativeTransformVersion": 2,
+          "background": "#ffffff",
+          "crossfade": false,
+          "atlas": "assets/motion-v18/male-g4-14_Standing_Oblique_Crunch-atlas.webp",
+          "columns": 3,
+          "frameWidth": 600,
+          "frameHeight": 484,
+          "delayMs": [
+            470,
+            280,
+            540,
+            310
+          ],
+          "isometricHold": false,
+          "atlasFrameWidth": 420,
+          "atlasFrameHeight": 420,
+          "atlasOffsetX": 90,
+          "atlasOffsetY": 32,
+          "storedPoses": 3,
+          "poseSequence": [
+            0,
+            1,
+            2,
+            1
+          ]
+        }
+      },
+      "female": {
+        "image": "assets/motion-v18/female-g4-14_Standing_Oblique_Crunch-poster.webp",
+        "poster": "assets/motion-v18/female-g4-14_Standing_Oblique_Crunch-poster.webp",
+        "style": "Controlled anime exercise loop",
+        "animation": {
+          "keyframes": 4,
+          "uniquePoses": 3,
+          "duration_ms": 1600,
+          "framing": "One full side crunch with elbow and same-side knee closing while the support foot stays planted. Repeat on the other side.",
+          "nativeTransformVersion": 2,
+          "background": "#ffffff",
+          "crossfade": false,
+          "atlas": "assets/motion-v18/female-g4-14_Standing_Oblique_Crunch-atlas.webp",
+          "columns": 3,
+          "frameWidth": 600,
+          "frameHeight": 484,
+          "delayMs": [
+            470,
+            280,
+            540,
+            310
+          ],
+          "isometricHold": false,
+          "atlasFrameWidth": 420,
+          "atlasFrameHeight": 420,
+          "atlasOffsetX": 90,
+          "atlasOffsetY": 32,
+          "storedPoses": 3,
+          "poseSequence": [
+            0,
+            1,
+            2,
+            1
+          ]
+        }
+      }
+    },
+    "style": "Controlled anime exercise loop",
+    "animation": {
+      "keyframes": 4,
+      "uniquePoses": 3,
+      "duration_ms": 1600,
+      "framing": "One full side crunch with elbow and same-side knee closing while the support foot stays planted. Repeat on the other side.",
+      "nativeTransformVersion": 2,
+      "background": "#ffffff",
+      "crossfade": false,
+      "atlas": "assets/motion-v18/male-g4-14_Standing_Oblique_Crunch-atlas.webp",
+      "columns": 3,
+      "frameWidth": 600,
+      "frameHeight": 484,
+      "delayMs": [
+        470,
+        280,
+        540,
+        310
+      ],
+      "isometricHold": false,
+      "atlasFrameWidth": 420,
+      "atlasFrameHeight": 420,
+      "atlasOffsetX": 90,
+      "atlasOffsetY": 32,
+      "storedPoses": 3,
+      "poseSequence": [
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    "poster": "assets/motion-v18/male-g4-14_Standing_Oblique_Crunch-poster.webp"
   },
   {
     "name": "High to Low Cable Woodchop",
@@ -22717,18 +22697,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-g4-20_Medicine_Ball_Rotational_Throw-poster.webp",
+        "poster": "assets/motion-v18/male-g4-20_Medicine_Ball_Rotational_Throw-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
-          "uniquePoses": 16,
+          "uniquePoses": 10,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "Fixed frontal three-quarter camera and stationary wall with the full throw, contact, catch, and reset.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 4
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-g4-20_Medicine_Ball_Rotational_Throw-atlas.webp",
@@ -22758,7 +22734,7 @@
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 16,
+          "storedPoses": 10,
           "poseSequence": [
             0,
             1,
@@ -22769,31 +22745,26 @@
             6,
             7,
             8,
+            7,
+            6,
             9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15
+            4,
+            3,
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-g4-20_Medicine_Ball_Rotational_Throw-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-g4-20_Medicine_Ball_Rotational_Throw-poster.webp",
+        "poster": "assets/motion-v18/female-g4-20_Medicine_Ball_Rotational_Throw-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 16,
-          "uniquePoses": 16,
+          "uniquePoses": 13,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "Fixed frontal three-quarter camera and stationary wall with the full throw, contact, catch, and reset.",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 4
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-g4-20_Medicine_Ball_Rotational_Throw-atlas.webp",
@@ -22823,7 +22794,7 @@
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 16,
+          "storedPoses": 13,
           "poseSequence": [
             0,
             1,
@@ -22837,27 +22808,21 @@
             9,
             10,
             11,
+            4,
             12,
-            13,
-            14,
-            15
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-g4-20_Medicine_Ball_Rotational_Throw-poster.webp"
+        }
       }
     },
     "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 16,
-      "uniquePoses": 16,
+      "uniquePoses": 10,
       "duration_ms": 4000,
-      "framing": "Fixed camera and one uniform resize of the complete source atlas",
+      "framing": "Fixed frontal three-quarter camera and stationary wall with the full throw, contact, catch, and reset.",
       "nativeTransformVersion": 2,
-      "sourceGrid": {
-        "columns": 4,
-        "rows": 4
-      },
-      "sourceCellBorderTrim": 6,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-g4-20_Medicine_Ball_Rotational_Throw-atlas.webp",
@@ -22887,7 +22852,7 @@
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 16,
+      "storedPoses": 10,
       "poseSequence": [
         0,
         1,
@@ -22898,15 +22863,16 @@
         6,
         7,
         8,
+        7,
+        6,
         9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15
+        4,
+        3,
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-g4-20_Medicine_Ball_Rotational_Throw-poster.webp"
   },
   {
     "name": "Hanging Oblique Knee Raise",
@@ -27389,11 +27355,13 @@
     "name": "Crunch",
     "group": "Abs",
     "image": "assets/motion-v18/male-guide-crunch-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "Fixed view registered against planted contact points",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-guide-crunch-atlas.webp",
@@ -27410,6 +27378,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -27429,11 +27398,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-guide-crunch-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-guide-crunch-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed view registered against planted contact points",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-guide-crunch-atlas.webp",
@@ -27450,6 +27422,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -27465,16 +27438,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-guide-crunch-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-guide-crunch-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-guide-crunch-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed view registered against planted contact points",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-guide-crunch-atlas.webp",
@@ -27491,6 +27466,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -27506,21 +27482,23 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-guide-crunch-poster.webp"
+        }
       }
-    }
+    },
+    "poster": "assets/motion-v18/male-guide-crunch-poster.webp"
   },
   {
     "id": "guide-lying-leg-raise",
     "name": "Lying Leg Raise",
     "group": "Abs",
     "image": "assets/motion-v18/male-guide-lying-leg-raise-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "Fixed view registered against planted contact points",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-guide-lying-leg-raise-atlas.webp",
@@ -27537,6 +27515,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -27556,11 +27535,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-guide-lying-leg-raise-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-guide-lying-leg-raise-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed view registered against planted contact points",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-guide-lying-leg-raise-atlas.webp",
@@ -27577,6 +27559,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -27592,16 +27575,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-guide-lying-leg-raise-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-guide-lying-leg-raise-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-guide-lying-leg-raise-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed view registered against planted contact points",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-guide-lying-leg-raise-atlas.webp",
@@ -27618,6 +27603,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -27633,10 +27619,10 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-guide-lying-leg-raise-poster.webp"
+        }
       }
-    }
+    },
+    "poster": "assets/motion-v18/male-guide-lying-leg-raise-poster.webp"
   },
   {
     "id": "guide-dead-bug",
@@ -27770,11 +27756,13 @@
     "name": "Bird Dog",
     "group": "Abs",
     "image": "assets/motion-v18/male-guide-bird-dog-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
+      "keyframes": 6,
+      "uniquePoses": 4,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "Fixed three-quarter view with one controlled diagonal reach and return",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-guide-bird-dog-atlas.webp",
@@ -27783,38 +27771,38 @@
       "frameHeight": 484,
       "delayMs": [
         500,
-        250,
-        250,
-        250,
+        375,
+        375,
         500,
-        250,
-        250,
-        250
+        375,
+        375
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
     },
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-guide-bird-dog-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-guide-bird-dog-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
+          "keyframes": 6,
+          "uniquePoses": 4,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed three-quarter view with one controlled diagonal reach and return",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-guide-bird-dog-atlas.webp",
@@ -27823,39 +27811,38 @@
           "frameHeight": 484,
           "delayMs": [
             500,
-            250,
-            250,
-            250,
+            375,
+            375,
             500,
-            250,
-            250,
-            250
+            375,
+            375
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-guide-bird-dog-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-guide-bird-dog-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-guide-bird-dog-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
+          "keyframes": 6,
+          "uniquePoses": 4,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed three-quarter view with one controlled diagonal reach and return",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-guide-bird-dog-atlas.webp",
@@ -27864,33 +27851,30 @@
           "frameHeight": 484,
           "delayMs": [
             500,
-            250,
-            250,
-            250,
+            375,
+            375,
             500,
-            250,
-            250,
-            250
+            375,
+            375
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-guide-bird-dog-poster.webp"
+        }
       }
-    }
+    },
+    "poster": "assets/motion-v18/male-guide-bird-dog-poster.webp"
   },
   {
     "id": "guide-seated-wrist-curl",
@@ -29489,125 +29473,111 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-stretch-torso-rotations-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-stretch-torso-rotations-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 4,
+          "uniquePoses": 3,
+          "duration_ms": 1780,
+          "framing": "A fixed front view shows the shoulders turn left and right through center over planted feet and steady hips.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-stretch-torso-rotations-atlas.webp",
-          "columns": 4,
+          "columns": 3,
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            330,
+            560,
+            330,
+            560
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 3,
           "poseSequence": [
             0,
             1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
+            0,
+            2
           ]
-        },
-        "poster": "assets/motion-v18/male-stretch-torso-rotations-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-stretch-torso-rotations-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-stretch-torso-rotations-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 4,
+          "uniquePoses": 3,
+          "duration_ms": 1780,
+          "framing": "A fixed front view shows the shoulders turn left and right through center over planted feet and steady hips.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-stretch-torso-rotations-atlas.webp",
-          "columns": 4,
+          "columns": 3,
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            330,
+            560,
+            330,
+            560
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 3,
           "poseSequence": [
             0,
             1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
+            0,
+            2
           ]
-        },
-        "poster": "assets/motion-v18/female-stretch-torso-rotations-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-stretch-torso-rotations-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 4,
+      "uniquePoses": 3,
+      "duration_ms": 1780,
+      "framing": "A fixed front view shows the shoulders turn left and right through center over planted feet and steady hips.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-stretch-torso-rotations-atlas.webp",
-      "columns": 4,
+      "columns": 3,
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        330,
+        560,
+        330,
+        560
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 3,
       "poseSequence": [
         0,
         1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
+        0,
+        2
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-stretch-torso-rotations-poster.webp"
   },
   {
     "id": "stretch-front-leg-swings",
@@ -86170,11 +86140,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-reverse-crunch-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-reverse-crunch-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed view registered against planted contact points",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-reverse-crunch-atlas.webp",
@@ -86191,6 +86164,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -86206,8 +86180,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-reverse-crunch-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-reverse-crunch-poster.webp",
@@ -86252,11 +86225,13 @@
       }
     },
     "image": "assets/motion-v18/male-exp-reverse-crunch-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "Fixed view registered against planted contact points",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-reverse-crunch-atlas.webp",
@@ -86273,6 +86248,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -86288,7 +86264,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-reverse-crunch-poster.webp"
   },
   {
     "id": "exp-flutter-kick",
@@ -88196,18 +88173,14 @@
       },
       "female": {
         "image": "assets/motion-v18/female-exp-stability-ball-knee-tuck-poster.webp",
+        "poster": "assets/motion-v18/female-exp-stability-ball-knee-tuck-poster.webp",
         "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
           "uniquePoses": 8,
           "duration_ms": 4000,
-          "framing": "Fixed camera and one uniform resize of the complete source atlas",
+          "framing": "Fixed view registered against planted contact points",
           "nativeTransformVersion": 2,
-          "sourceGrid": {
-            "columns": 4,
-            "rows": 2
-          },
-          "sourceCellBorderTrim": 6,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-stability-ball-knee-tuck-atlas.webp",
@@ -88240,8 +88213,7 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-stability-ball-knee-tuck-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-stability-ball-knee-tuck-poster.webp",
@@ -90790,11 +90762,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-slider-body-saw-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-slider-body-saw-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 4000,
+          "framing": "Fixed side view with planted forearms and one complete slider travel and return",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-slider-body-saw-atlas.webp",
@@ -90802,40 +90777,39 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            700,
+            650,
+            650,
+            700,
+            650,
+            650
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-slider-body-saw-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-slider-body-saw-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-slider-body-saw-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
-          "keyframes": 8,
-          "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "keyframes": 6,
+          "uniquePoses": 4,
+          "duration_ms": 4000,
+          "framing": "Fixed side view with planted forearms and one complete slider travel and return",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-slider-body-saw-atlas.webp",
@@ -90843,40 +90817,38 @@
           "frameWidth": 600,
           "frameHeight": 484,
           "delayMs": [
-            500,
-            250,
-            250,
-            250,
-            500,
-            250,
-            250,
-            250
+            700,
+            650,
+            650,
+            700,
+            650,
+            650
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
           "atlasOffsetY": 32,
-          "storedPoses": 8,
+          "storedPoses": 4,
           "poseSequence": [
             0,
             1,
             2,
             3,
-            4,
-            5,
-            6,
-            7
+            2,
+            1
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-slider-body-saw-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-slider-body-saw-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
-      "keyframes": 8,
-      "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "keyframes": 6,
+      "uniquePoses": 4,
+      "duration_ms": 4000,
+      "framing": "Fixed side view with planted forearms and one complete slider travel and return",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-slider-body-saw-atlas.webp",
@@ -90884,31 +90856,29 @@
       "frameWidth": 600,
       "frameHeight": 484,
       "delayMs": [
-        500,
-        250,
-        250,
-        250,
-        500,
-        250,
-        250,
-        250
+        700,
+        650,
+        650,
+        700,
+        650,
+        650
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
       "atlasOffsetY": 32,
-      "storedPoses": 8,
+      "storedPoses": 4,
       "poseSequence": [
         0,
         1,
         2,
         3,
-        4,
-        5,
-        6,
-        7
+        2,
+        1
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-slider-body-saw-poster.webp"
   },
   {
     "id": "exp-bear-plank-hold",
@@ -92048,11 +92018,14 @@
     "variants": {
       "male": {
         "image": "assets/motion-v18/male-exp-side-lying-oblique-v-up-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/male-exp-side-lying-oblique-v-up-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed side view and floor mat with continuous unobstructed leg lift and return.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/male-exp-side-lying-oblique-v-up-atlas.webp",
@@ -92069,6 +92042,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -92084,16 +92058,18 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/male-exp-side-lying-oblique-v-up-poster.webp"
+        }
       },
       "female": {
         "image": "assets/motion-v18/female-exp-side-lying-oblique-v-up-poster.webp",
-        "style": "Clean anime pose loop",
+        "poster": "assets/motion-v18/female-exp-side-lying-oblique-v-up-poster.webp",
+        "style": "Controlled anime exercise loop",
         "animation": {
           "keyframes": 8,
+          "uniquePoses": 8,
           "duration_ms": 2500,
-          "framing": "Fixed full-cell scale",
+          "framing": "Fixed side view and floor mat with continuous unobstructed leg lift and return.",
+          "nativeTransformVersion": 2,
           "background": "#ffffff",
           "crossfade": false,
           "atlas": "assets/motion-v18/female-exp-side-lying-oblique-v-up-atlas.webp",
@@ -92110,6 +92086,7 @@
             250,
             250
           ],
+          "isometricHold": false,
           "atlasFrameWidth": 420,
           "atlasFrameHeight": 420,
           "atlasOffsetX": 90,
@@ -92125,16 +92102,17 @@
             6,
             7
           ]
-        },
-        "poster": "assets/motion-v18/female-exp-side-lying-oblique-v-up-poster.webp"
+        }
       }
     },
     "image": "assets/motion-v18/male-exp-side-lying-oblique-v-up-poster.webp",
-    "style": "Clean anime pose loop",
+    "style": "Controlled anime exercise loop",
     "animation": {
       "keyframes": 8,
+      "uniquePoses": 8,
       "duration_ms": 2500,
-      "framing": "Fixed full-cell scale",
+      "framing": "Fixed side view and floor mat with continuous unobstructed leg lift and return.",
+      "nativeTransformVersion": 2,
       "background": "#ffffff",
       "crossfade": false,
       "atlas": "assets/motion-v18/male-exp-side-lying-oblique-v-up-atlas.webp",
@@ -92151,6 +92129,7 @@
         250,
         250
       ],
+      "isometricHold": false,
       "atlasFrameWidth": 420,
       "atlasFrameHeight": 420,
       "atlasOffsetX": 90,
@@ -92166,7 +92145,8 @@
         6,
         7
       ]
-    }
+    },
+    "poster": "assets/motion-v18/male-exp-side-lying-oblique-v-up-poster.webp"
   },
   {
     "id": "exp-pallof-walkout",

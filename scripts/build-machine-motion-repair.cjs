@@ -387,6 +387,33 @@ function verifyMachineScope(scope, reviewed, catalog) {
   return { exercises: ids.size, variants: seen.size, updated, retainedAnchors, isometricHolds, travellingSleds };
 }
 
+function verifyAbScope(scope, reviewed, catalog) {
+  const exercises = catalog.filter(exercise =>
+    exercise.group === 'Abs' || exercise.group === 'Obliques' || exercise.id === 'stretch-torso-rotations'
+  );
+  const expected = new Map(exercises.flatMap(exercise =>
+    genders.map(gender => [exercise.id + ':' + gender, exercise.variants[gender]?.animation])
+  ));
+  const ids = new Set(exercises.map(exercise => exercise.id));
+  const seen = new Set();
+  function claim(keys, accept) {
+    assert(Array.isArray(keys), 'Ab review outcomes must be listed');
+    for (const key of keys) {
+      const animation = expected.get(key);
+      assert(animation && !seen.has(key) && accept(animation), `Invalid or duplicate ab review entry: ${key}`);
+      seen.add(key);
+    }
+    return keys.length;
+  }
+  const updated = claim([...reviewed].filter(([id]) => ids.has(id)).flatMap(([id, variants]) =>
+    [...variants].map(gender => id + ':' + gender)
+  ), animation => animation.storedPoses > 1);
+  const retainedViews = claim(scope.retainedViews, animation => animation.storedPoses > 1);
+  const isometricHolds = claim(scope.isometricHolds, animation => animation.storedPoses === 1);
+  assert.equal(seen.size, expected.size, 'Every ab variant needs a repair or an explicit review outcome');
+  return { exercises: exercises.length, variants: seen.size, updated, retainedViews, isometricHolds };
+}
+
 async function build(recipePath, mode, destination) {
   const sourcePath = fs.realpathSync(recipePath);
   const sourceRoot = path.dirname(sourcePath);
@@ -457,6 +484,7 @@ async function build(recipePath, mode, destination) {
   const fixedSceneVariants = exercises.flatMap(exercise => Object.values(exercise.variants)).filter(variant => variant.fixedScene).length;
   if (fixedSceneVariants) report.fixedSceneVariants = fixedSceneVariants;
   if (recipe.machineScope) report.machineScope = verifyMachineScope(recipe.machineScope, reviewed, catalog);
+  if (recipe.abScope) report.abScope = verifyAbScope(recipe.abScope, reviewed, catalog);
   release[releaseKey] = report;
   files.set(catalogPath, json(catalog));
   files.set(releasePath, json(release));

@@ -1,7 +1,7 @@
 /* Offline app shell. Exercise animations and local OCR files are cached as used. */
 const CACHE_PREFIX = 'gym-stone-';
-const SHELL_CACHE = CACHE_PREFIX + 'shell-v41-library-motion';
-const MEDIA_CACHE = CACHE_PREFIX + 'media-v24-library-motion';
+const SHELL_CACHE = CACHE_PREFIX + 'shell-v42-ab-motion';
+const MEDIA_CACHE = CACHE_PREFIX + 'media-v25-ab-motion';
 const SHELL = [
   './kettlebell-motion-manifest.json',
   './assets/kettlebell-motion/male-kettlebell-russian-twist-animated.webp',

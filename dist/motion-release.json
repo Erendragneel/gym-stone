@@ -4,7 +4,7 @@
   "reviewedExercises": 425,
   "pendingExercises": 0,
   "variants": 864,
-  "keyframes": 21720,
+  "keyframes": 21680,
   "siteBytes": 866236586,
   "pixelIdentityVerifiedForEveryPackedKeyframe": true,
   "lossless": true,
@@ -1444,8 +1444,13 @@
     },
     {
       "exercise": "exp-reverse-crunch",
-      "variant": "retained",
+      "variant": "female",
       "sourceHash": "bdce90b3fed4794a66309975490ea4b3ccdeba4eb9f782d1a4ebc01c979b58e2"
+    },
+    {
+      "exercise": "exp-reverse-crunch",
+      "variant": "male",
+      "sourceHash": "46f40dacc821a27942d0a9932ebbc4460a1ac14b7613641d4600ee1ec955d17f"
     },
     {
       "exercise": "exp-reverse-hyperextension-machine",
@@ -1584,8 +1589,13 @@
     },
     {
       "exercise": "exp-side-lying-oblique-v-up",
-      "variant": "retained",
-      "sourceHash": "ff95eef0a2b067b46f60faf71d402d45e9f4c7ebc10a32277243fda0bb19976b"
+      "variant": "female",
+      "sourceHash": "4f89b3be42f40226df5cff22eff01b0a10ac4a069c9c553b4c0c67eb1e4ca6a9"
+    },
+    {
+      "exercise": "exp-side-lying-oblique-v-up",
+      "variant": "male",
+      "sourceHash": "2defb9249f8e8cc4da827ec7577caf44112a9c967d115580345ab96f1eeab2ec"
     },
     {
       "exercise": "exp-side-plank-cable-row",
@@ -1789,8 +1799,13 @@
     },
     {
       "exercise": "exp-slider-body-saw",
-      "variant": "retained",
-      "sourceHash": "2c5a4dff1fad1580a2a22e48b11ca6e9c890a5569539d7b50c307bd8347b7b27"
+      "variant": "female",
+      "sourceHash": "a70076318957dce8fde17877127ff4587308a593a6dacb057edcc7a8f491bad1"
+    },
+    {
+      "exercise": "exp-slider-body-saw",
+      "variant": "male",
+      "sourceHash": "f460131375682927e1e51a2d1e0239bc7e73ba6d643c6e2dcb41648ccfe1bde6"
     },
     {
       "exercise": "exp-slider-hamstring-curl",
@@ -1875,7 +1890,7 @@
     {
       "exercise": "exp-stability-ball-knee-tuck",
       "variant": "female",
-      "sourceHash": "8c58584292d74e08ae54439d67f3d355725dcf18acfada71221f3abe69f26977"
+      "sourceHash": "8ec63b6f070b0b8032ef9d92811616c412d0a6a0abe4f5528c6e6c217f2ecffa"
     },
     {
       "exercise": "exp-stability-ball-knee-tuck",
@@ -2999,18 +3014,33 @@
     },
     {
       "exercise": "g4-02_Side_Plank_Hip_Dips",
-      "variant": "retained",
-      "sourceHash": "86ec2c1419ba94871eb0034006812463fa4d2cf4c62de8e369b444c0751f180a"
+      "variant": "female",
+      "sourceHash": "031a8e0bdd43dce8db73f03bfa374a7e031c9e9fc6606aa19f5abc6933520ea1"
+    },
+    {
+      "exercise": "g4-02_Side_Plank_Hip_Dips",
+      "variant": "male",
+      "sourceHash": "a9df26732e657ef2d43880942f67344f8fb2901c1946397b95545bf464037382"
     },
     {
       "exercise": "g4-03_Side_Plank_Rotation",
-      "variant": "retained",
-      "sourceHash": "effb75c02362de560775836c183c2ce71ff25eb08ad47607ddf50743b473a3ae"
+      "variant": "female",
+      "sourceHash": "74373b8d32b7e325b0a23341447cf7fd18619b9e63f9c4602a9a0d3b7655d706"
+    },
+    {
+      "exercise": "g4-03_Side_Plank_Rotation",
+      "variant": "male",
+      "sourceHash": "ffba67604a03f2ac25a79fe7a101c40c87ec6938643e89302e06a230e86dbfd3"
     },
     {
       "exercise": "g4-04_Bicycle_Crunch",
-      "variant": "retained",
-      "sourceHash": "0525a0f7a1f01e9a1cc4f0602d880fd936d31010b068dd4746b5bb25acd66546"
+      "variant": "female",
+      "sourceHash": "b74857573a9c13445df38dcceeac49dba99d57468e5336d6b8bfca4756606e0b"
+    },
+    {
+      "exercise": "g4-04_Bicycle_Crunch",
+      "variant": "male",
+      "sourceHash": "d151c4deae436749c72b4f02143a60a6dca56a841eb87e592a149989e7656fe6"
     },
     {
       "exercise": "g4-05_Heel_Touches",
@@ -3044,48 +3074,73 @@
     },
     {
       "exercise": "g4-08_Windshield_Wipers",
-      "variant": "retained",
-      "sourceHash": "d2163539dec8c16aa731f49a5d9ffdaad4593bf472e133d456b6daa4a0f7eb7e"
+      "variant": "female",
+      "sourceHash": "479c42e77c3474d426577891b802ee0e5ec0a9dd48033eacdd3eb8190cc5ceb7"
+    },
+    {
+      "exercise": "g4-08_Windshield_Wipers",
+      "variant": "male",
+      "sourceHash": "517ac1210bbad14e4df1c26b442d2b3a06de8e679e5f9cd374fb0d1439690595"
     },
     {
       "exercise": "g4-09_Russian_Twist",
       "variant": "female",
-      "sourceHash": "d5ee173149f0195f6c0cc4d680c70a2955e7e53ab3439470e6df40de0cebfbbf"
+      "sourceHash": "c97bcc110098ff26abf7af611b853b5c2b26e731b73c400152f99cedece78b04"
     },
     {
       "exercise": "g4-09_Russian_Twist",
       "variant": "male",
-      "sourceHash": "acf778b13ca07dd7bcdf8e05eae1621d2021a3ee5069cd49de9087fc3db1d16b"
+      "sourceHash": "60dd370c393f17274e8a005a432b4583bd4fea457e5f3adfa1aed6850d0db4ec"
     },
     {
       "exercise": "g4-10_Reverse_Crunch_With_Rotation",
-      "variant": "retained",
-      "sourceHash": "95d038e0cf2935245a7d2fd7c46d9d36f8568f27d6e7ff516ab1c166d4abf790"
+      "variant": "female",
+      "sourceHash": "fa0f4127b6dd0f842014e8b1745acfdce946b88d5accf80867e44cf44a61c598"
+    },
+    {
+      "exercise": "g4-10_Reverse_Crunch_With_Rotation",
+      "variant": "male",
+      "sourceHash": "988efcc10fcd2dfa8101f1f97dadb15b016717d06080d9fad8119e8089f9ee14"
     },
     {
       "exercise": "g4-11_Dumbbell_Side_Bend",
-      "variant": "retained",
-      "sourceHash": "b1e7a60abe7d4e743b6107616b73c7d425715549ef6fd1d0f0a1d932d0414cd8"
+      "variant": "female",
+      "sourceHash": "c8427f9b5c24ecdcdd930bc6e125748a83fbc23c0d2ed130c289f30874db8e29"
+    },
+    {
+      "exercise": "g4-11_Dumbbell_Side_Bend",
+      "variant": "male",
+      "sourceHash": "cdf8363ad95820828e111126181c90ef92593b01acc6e196319fe7cda1496edf"
     },
     {
       "exercise": "g4-12_Weighted_Russian_Twist",
       "variant": "female",
-      "sourceHash": "54a1a319cab4be457a6589fe4401efb77423c46ee160af13f38ebc7e6f623d7e"
+      "sourceHash": "c217f73983edd484788e33130e2cdb97dc49b714a2c717fb0ff79a15d05d9b43"
     },
     {
       "exercise": "g4-12_Weighted_Russian_Twist",
       "variant": "male",
-      "sourceHash": "4788710d1e856a50a259f30070931aed71ad42e6763cb91a79dcf3b2844b9302"
+      "sourceHash": "b0c05ff35192a12230fc5c653a48b94f38a85c5a35f9f5156a4ddf80ca3eb261"
     },
     {
       "exercise": "g4-13_Suitcase_Carry",
-      "variant": "retained",
-      "sourceHash": "c738fc52d1d145cae7a96d7549386115338f350323340b95bd4b02ef80b75b90"
+      "variant": "female",
+      "sourceHash": "05b75c500ddca96da33081e71bb629108180a287a03a553588c294766f473f63"
+    },
+    {
+      "exercise": "g4-13_Suitcase_Carry",
+      "variant": "male",
+      "sourceHash": "91334226765a4fd484a29071061c7754c056e05984a800fd8b3d9d404d7a0e7f"
     },
     {
       "exercise": "g4-14_Standing_Oblique_Crunch",
-      "variant": "retained",
-      "sourceHash": "89d35d651e9fbf355147e2011637a9f77c0e8cbd3c8e83d841b0c4b0b2ff4f7e"
+      "variant": "female",
+      "sourceHash": "f75a2c0be69b6f048df1dae493ca39ecead1991a7a57004a37d86e2ce072389e"
+    },
+    {
+      "exercise": "g4-14_Standing_Oblique_Crunch",
+      "variant": "male",
+      "sourceHash": "6577b0ab966ac75b2703fb67eff865b03537b5a0a09cee4fcede5aa65d5eaf6c"
     },
     {
       "exercise": "g4-15_High_to_Low_Cable_Woodchop",
@@ -3140,12 +3195,12 @@
     {
       "exercise": "g4-20_Medicine_Ball_Rotational_Throw",
       "variant": "female",
-      "sourceHash": "7c4aee1d1f2858c6fae4313dab46543b0b3ca514ab9b2a8371cb9d55532d988c"
+      "sourceHash": "0a64cfcafcbab96f6b9b59d9e5afdc6af5343542dab0c8c5ece6c65ea4bdd6b1"
     },
     {
       "exercise": "g4-20_Medicine_Ball_Rotational_Throw",
       "variant": "male",
-      "sourceHash": "2c231829199fd4055c925166a71388c4450f3d354169a4ce03b5b7e6ef6c04c3"
+      "sourceHash": "3d25f8da31509d05ee0b315e09c21cf148820a3bcb25bb790370142004ae2b6f"
     },
     {
       "exercise": "g4-21_Hanging_Oblique_Knee_Raise",
@@ -3224,8 +3279,13 @@
     },
     {
       "exercise": "guide-bird-dog",
-      "variant": "retained",
-      "sourceHash": "bf1240bdb4bd69067a269fb9b5675fb829a79b1ce3556bac0271b61718fb6877"
+      "variant": "female",
+      "sourceHash": "20a947f637976e7bd2ae4ec410860ddc6c3fdf7966a36177329182b3fe990161"
+    },
+    {
+      "exercise": "guide-bird-dog",
+      "variant": "male",
+      "sourceHash": "ddfd1a114684cca2adc6653b5629959487c4cf54766eb15b6d1188312e286cbf"
     },
     {
       "exercise": "guide-bodyweight-hip-hinge",
@@ -3259,8 +3319,13 @@
     },
     {
       "exercise": "guide-crunch",
-      "variant": "retained",
-      "sourceHash": "8c45e201585a1e86229407084650e57364b674c6f80938cfe2deaafacddbc626"
+      "variant": "female",
+      "sourceHash": "2537e98fa388a4a0a4da17ef65de8df1deeb37659b23b09e8196c2348a4e40cd"
+    },
+    {
+      "exercise": "guide-crunch",
+      "variant": "male",
+      "sourceHash": "bd8ce3b98f6cb316af7133e671f1887de05ecb21e6d4f3903481fa16a70d078c"
     },
     {
       "exercise": "guide-dead-bug",
@@ -3339,8 +3404,13 @@
     },
     {
       "exercise": "guide-lying-leg-raise",
-      "variant": "retained",
-      "sourceHash": "76a43ae914eaad0ba34d9baa8766242d22e6768bb90021665c15c390eac95ef1"
+      "variant": "female",
+      "sourceHash": "a44b712f86ad98688e115492edc887c1a65d24558c11bc6668e8ee90ad92701f"
+    },
+    {
+      "exercise": "guide-lying-leg-raise",
+      "variant": "male",
+      "sourceHash": "720b21ad3030f2b2c8b0bcdd9cc4e7eddf7737cde7e2793795225277c903c698"
     },
     {
       "exercise": "guide-mountain-climber",
@@ -3554,8 +3624,13 @@
     },
     {
       "exercise": "stretch-torso-rotations",
-      "variant": "retained",
-      "sourceHash": "603a44074613dddb3b3994b893d9d5e5f8827b2a4b857165c3dc910d91ab6332"
+      "variant": "female",
+      "sourceHash": "6bad6c257b949166b4d2580525b4e40ad7321a739547326e1bd42094ca3b3334"
+    },
+    {
+      "exercise": "stretch-torso-rotations",
+      "variant": "male",
+      "sourceHash": "b42592489eb54adacc105e7aef6cc720ec43cc3fab9de9ecdb1f3008ec27b5a8"
     },
     {
       "exercise": "stretch-walking-knee-hugs",
@@ -3770,6 +3845,40 @@
       "retainedAnchors": 50,
       "isometricHolds": 4,
       "travellingSleds": 4
+    }
+  },
+  "abMotionFrameLock": {
+    "date": "2026-11-08",
+    "exercises": [
+      "exp-reverse-crunch",
+      "exp-side-lying-oblique-v-up",
+      "exp-slider-body-saw",
+      "exp-stability-ball-knee-tuck",
+      "g4-02_Side_Plank_Hip_Dips",
+      "g4-03_Side_Plank_Rotation",
+      "g4-04_Bicycle_Crunch",
+      "g4-08_Windshield_Wipers",
+      "g4-09_Russian_Twist",
+      "g4-10_Reverse_Crunch_With_Rotation",
+      "g4-11_Dumbbell_Side_Bend",
+      "g4-12_Weighted_Russian_Twist",
+      "g4-13_Suitcase_Carry",
+      "g4-14_Standing_Oblique_Crunch",
+      "g4-20_Medicine_Ball_Rotational_Throw",
+      "guide-bird-dog",
+      "guide-crunch",
+      "guide-lying-leg-raise",
+      "stretch-torso-rotations"
+    ],
+    "variants": 36,
+    "pixelsVerified": true,
+    "fixedSceneVariants": 18,
+    "abScope": {
+      "exercises": 55,
+      "variants": 110,
+      "updated": 36,
+      "retainedViews": 64,
+      "isometricHolds": 10
     }
   }
 }
