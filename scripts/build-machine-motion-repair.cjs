@@ -134,7 +134,11 @@ async function preparePose(pose, { sourceRoot, baseline, atlas, sources, margin 
       const [[leftFull, leftZero], [rightFull, rightZero]] = tapers.map(alignment => alignment.taper);
       assert(leftFull < leftZero && leftZero <= rightZero && rightZero < rightFull, 'Keep tower transitions separated');
     }
-    const bottom = pose.taperBottom;
+    const { taperTop: top, taperBottom: bottom } = pose;
+    if (top) {
+      assert(top.length === 2 && top.every(y => Number.isInteger(y) && y >= 0 && y < tile) &&
+        top[0] < top[1], 'Taper into the floor without moving the upper pose');
+    }
     if (bottom) {
       assert(bottom.length === 2 && bottom.every(y => Number.isInteger(y) && y >= 0 && y < tile) &&
         bottom[0] < bottom[1], 'Taper above the athlete’s planted feet');
@@ -148,7 +152,9 @@ async function preparePose(pose, { sourceRoot, baseline, atlas, sources, margin 
         offsetY += shiftY * weight;
       }
       for (let y = 0; y < tile; y++) {
-        const weight = bottom ? Math.max(0, Math.min(1, (bottom[1] - y) / (bottom[1] - bottom[0]))) : 1;
+        const topWeight = top ? Math.max(0, Math.min(1, (y - top[0]) / (top[1] - top[0]))) : 1;
+        const bottomWeight = bottom ? Math.max(0, Math.min(1, (bottom[1] - y) / (bottom[1] - bottom[0]))) : 1;
+        const weight = topWeight * bottomWeight;
         const sourceX = x - offsetX * weight;
         const sourceY = y - Math.round(offsetY * weight);
         if (sourceX < 0 || sourceX > tile - 1 || sourceY < 0 || sourceY >= tile) continue;
@@ -209,11 +215,9 @@ function regionPixels(region) {
   return runs;
 }
 
-function fixedSceneRegions(poses, scene) {
-  const base = poses[scene.from];
-  assert(Number.isInteger(scene.from) && base && Array.isArray(scene.moving) && scene.moving.length,
-    'A fixed scene needs a base pose and moving regions');
-  const moving = scene.moving.flatMap(regionPixels).sort((a, b) => a[0] - b[0]);
+function splitSceneRegions(base, regions) {
+  assert(regions.length, 'A fixed scene needs moving regions');
+  const moving = regions.flatMap(regionPixels).sort((a, b) => a[0] - b[0]);
   const fixed = [];
   let cursor = 0;
   for (const [start, end] of moving) {
@@ -222,7 +226,38 @@ function fixedSceneRegions(poses, scene) {
   }
   if (cursor < base.length) fixed.push([cursor, base.length]);
   assert(fixed.length, 'Keep part of the scene fixed');
-  return { base, moving, fixed };
+  return { moving, fixed };
+}
+
+function fixedSceneRegions(poses, scene) {
+  const source = scene.base ?? poses[scene.from];
+  const { moving = [], movingByPose, basePatches = [] } = scene;
+  assert((scene.base || Number.isInteger(scene.from)) && Buffer.isBuffer(source) && Array.isArray(moving),
+    'A fixed scene needs a base image or pose');
+  assert(!movingByPose || (Array.isArray(movingByPose) && movingByPose.length === poses.length &&
+    movingByPose.every(Array.isArray)), 'Supply one moving-region list per pose');
+  assert(Array.isArray(basePatches), 'Base patches must be a list');
+  const base = basePatches.length ? Buffer.from(source) : source;
+  for (const patch of basePatches) {
+    const sample = poses[patch.from];
+    assert(Number.isInteger(patch.from) && sample, 'A base patch needs an existing pose');
+    for (const [start, end] of regionPixels(patch)) sample.copy(base, start, start, end);
+  }
+  const regions = movingByPose
+    ? movingByPose.map(local => splitSceneRegions(base, [...moving, ...local]))
+    : Array(poses.length).fill(splitSceneRegions(base, moving));
+  return { base, regions };
+}
+
+async function loadFixedScene(scene, sourceRoot, sources) {
+  if (!scene?.baseImage) return scene;
+  assert(scene.from == null, 'Choose a source pose or a separate stationary image');
+  const encoded = sourceFile(sourceRoot, scene.baseImage);
+  const image = sharp(encoded);
+  const { width, height } = await image.metadata();
+  assert(width === tile && height === tile, 'A stationary image must match the atlas tile');
+  sources.set(scene.baseImage, hash(encoded));
+  return { ...scene, base: await rgb(image) };
 }
 
 function composePoses(prepared, locks, scene) {
@@ -230,9 +265,10 @@ function composePoses(prepared, locks, scene) {
   const checks = prepared.map(() => []);
   const poses = prepared.map((source, index) => {
     if (!fixedScene) return Buffer.from(source);
+    const { moving, fixed } = fixedScene.regions[index];
     const pose = Buffer.from(fixedScene.base);
-    for (const [start, end] of fixedScene.moving) source.copy(pose, start, start, end);
-    checks[index].push({ source: fixedScene.base, pixels: fixedScene.fixed, label: 'fixed scene' });
+    for (const [start, end] of moving) source.copy(pose, start, start, end);
+    checks[index].push({ source: fixedScene.base, pixels: fixed, label: 'fixed scene' });
     return pose;
   });
   for (const lock of locks) {
@@ -279,7 +315,8 @@ async function packVariant(recipe, context, current) {
   const sources = new Map();
   const prepared = [];
   for (const pose of recipe.poses) prepared.push(await preparePose(pose, { ...context, margin, sources }));
-  const composition = composePoses(prepared, recipe.locks ?? [], recipe.fixedScene);
+  const scene = await loadFixedScene(recipe.fixedScene, context.sourceRoot, sources);
+  const composition = composePoses(prepared, recipe.locks ?? [], scene);
   const { poses } = composition;
   for (const [index, pose] of poses.entries()) {
     checkMargin(artworkBounds(pose, tile), margin);
@@ -318,6 +355,36 @@ async function packVariant(recipe, context, current) {
     visual, files: [[assetPath(poster), posterBytes], [assetPath(atlas), atlasBytes]],
     sourceHash: hash(json({ baseCommit: context.baseCommit, recipe, sources: Array.from(sources) }))
   };
+}
+
+function verifyMachineScope(scope, reviewed, catalog) {
+  const { categories, get } = require(path.join(root, 'dist/machine-data.js'));
+  const ids = new Set(categories.flatMap(category => category.exerciseIds));
+  const sleds = new Set(get('sled').exerciseIds);
+  const expected = new Map(catalog.filter(exercise => ids.has(exercise.id)).flatMap(exercise =>
+    genders.map(gender => [exercise.id + ':' + gender, { exercise, gender }])
+  ));
+  assert.equal(expected.size, ids.size * genders.length, 'Machine scope has missing exercise records');
+  const seen = new Set();
+  const count = (keys, accept = () => true) => {
+    assert(Array.isArray(keys), 'Machine scope entries must be listed');
+    for (const key of keys) {
+      const entry = expected.get(key);
+      assert(entry && !seen.has(key) && accept(entry), `Invalid or duplicate machine scope entry: ${key}`);
+      seen.add(key);
+    }
+    return keys.length;
+  };
+  const updated = count([...reviewed].filter(([id]) => ids.has(id)).flatMap(([id, variants]) =>
+    [...variants].map(gender => id + ':' + gender)
+  ));
+  const retainedAnchors = count(scope.retainedAnchors);
+  const isometricHolds = count(scope.isometricHolds, ({ exercise, gender }) =>
+    exercise.variants[gender].animation.storedPoses === 1
+  );
+  const travellingSleds = count(scope.travellingSleds, ({ exercise }) => sleds.has(exercise.id));
+  assert.equal(seen.size, expected.size, 'Every machine variant needs a repair or an explicit review outcome');
+  return { exercises: ids.size, variants: seen.size, updated, retainedAnchors, isometricHolds, travellingSleds };
 }
 
 async function build(recipePath, mode, destination) {
@@ -389,6 +456,7 @@ async function build(recipePath, mode, destination) {
   const report = { date: reviewedOn, exercises: repaired, variants: bindings.length, pixelsVerified: true };
   const fixedSceneVariants = exercises.flatMap(exercise => Object.values(exercise.variants)).filter(variant => variant.fixedScene).length;
   if (fixedSceneVariants) report.fixedSceneVariants = fixedSceneVariants;
+  if (recipe.machineScope) report.machineScope = verifyMachineScope(recipe.machineScope, reviewed, catalog);
   release[releaseKey] = report;
   files.set(catalogPath, json(catalog));
   files.set(releasePath, json(release));
