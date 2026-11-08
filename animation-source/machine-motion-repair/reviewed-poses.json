@@ -1,0 +1,2299 @@
+{
+  "baseCommit": "7ea33847bfe9ebe9e33336084288abc810fb86ef",
+  "reviewedOn": "2026-11-08",
+  "exercises": [
+    {
+      "id": "exp-hack-squat-machine",
+      "framing": "Fixed base and footplate; planted feet; padded sled and loaded plates slide on the guide rail.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "sheet": "sheets/male-hack-squat.png",
+              "cell": 0,
+              "phase": 0
+            },
+            {
+              "sheet": "sheets/male-hack-squat.png",
+              "cell": 1,
+              "phase": 1
+            },
+            {
+              "sheet": "sheets/male-hack-squat.png",
+              "cell": 2,
+              "phase": 2
+            },
+            {
+              "sheet": "sheets/male-hack-squat.png",
+              "cell": 3,
+              "phase": 3
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "locks": [
+            {
+              "from": 1,
+              "to": [
+                0,
+                2,
+                3
+              ],
+              "rect": [
+                40,
+                338,
+                346,
+                61
+              ]
+            },
+            {
+              "from": 1,
+              "to": [
+                0,
+                2,
+                3
+              ],
+              "rect": [
+                44,
+                270,
+                107,
+                68
+              ]
+            },
+            {
+              "from": 1,
+              "to": [
+                0,
+                2,
+                3
+              ],
+              "rect": [
+                58,
+                40,
+                49,
+                46
+              ]
+            },
+            {
+              "from": 1,
+              "to": [
+                0,
+                2,
+                3
+              ],
+              "polygon": [
+                [
+                  225,
+                  340
+                ],
+                [
+                  255,
+                  332
+                ],
+                [
+                  315,
+                  322
+                ],
+                [
+                  374,
+                  311
+                ],
+                [
+                  385,
+                  339
+                ],
+                [
+                  385,
+                  398
+                ],
+                [
+                  225,
+                  398
+                ]
+              ]
+            }
+          ],
+          "minBorder": 20
+        },
+        "female": {
+          "poses": [
+            {
+              "sheet": "sheets/female-hack-squat.png",
+              "cell": 0,
+              "phase": 0
+            },
+            {
+              "sheet": "sheets/female-hack-squat.png",
+              "cell": 1,
+              "phase": 1
+            },
+            {
+              "sheet": "sheets/female-hack-squat.png",
+              "cell": 2,
+              "phase": 2
+            },
+            {
+              "sheet": "sheets/female-hack-squat.png",
+              "cell": 3,
+              "phase": 3
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "locks": [
+            {
+              "from": 1,
+              "to": [
+                0,
+                2,
+                3
+              ],
+              "rect": [
+                40,
+                338,
+                346,
+                61
+              ]
+            },
+            {
+              "from": 1,
+              "to": [
+                0,
+                2,
+                3
+              ],
+              "rect": [
+                44,
+                270,
+                107,
+                68
+              ]
+            },
+            {
+              "from": 1,
+              "to": [
+                0,
+                2,
+                3
+              ],
+              "rect": [
+                58,
+                40,
+                49,
+                46
+              ]
+            },
+            {
+              "from": 1,
+              "to": [
+                0,
+                2,
+                3
+              ],
+              "polygon": [
+                [
+                  225,
+                  340
+                ],
+                [
+                  255,
+                  332
+                ],
+                [
+                  315,
+                  322
+                ],
+                [
+                  374,
+                  311
+                ],
+                [
+                  385,
+                  339
+                ],
+                [
+                  385,
+                  398
+                ],
+                [
+                  225,
+                  398
+                ]
+              ]
+            }
+          ],
+          "minBorder": 20
+        }
+      }
+    },
+    {
+      "id": "guide-prone-leg-curl",
+      "framing": "Fixed bench and floor frame; hips stay supported as the lower legs and loaded ankle roller pivot.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "sheet": "sheets/male-prone-leg-curl.png",
+              "cell": 0,
+              "phase": 0
+            },
+            {
+              "sheet": "sheets/male-prone-leg-curl.png",
+              "cell": 1,
+              "phase": 1
+            },
+            {
+              "sheet": "sheets/male-prone-leg-curl.png",
+              "cell": 2,
+              "phase": 2
+            },
+            {
+              "sheet": "sheets/male-prone-leg-curl.png",
+              "cell": 3,
+              "phase": 3
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                43,
+                254,
+                100,
+                112
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                40,
+                329,
+                346,
+                37
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                114,
+                231,
+                113,
+                16
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                235,
+                289,
+                39,
+                40
+              ]
+            }
+          ],
+          "minBorder": 20
+        },
+        "female": {
+          "poses": [
+            {
+              "sheet": "sheets/female-prone-leg-curl.png",
+              "cell": 0,
+              "phase": 0
+            },
+            {
+              "sheet": "sheets/female-prone-leg-curl.png",
+              "cell": 1,
+              "phase": 1
+            },
+            {
+              "sheet": "sheets/female-prone-leg-curl.png",
+              "cell": 2,
+              "phase": 2
+            },
+            {
+              "sheet": "sheets/female-prone-leg-curl.png",
+              "cell": 3,
+              "phase": 3
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                43,
+                254,
+                100,
+                112
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                40,
+                329,
+                346,
+                37
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                114,
+                231,
+                113,
+                16
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                235,
+                289,
+                39,
+                40
+              ]
+            }
+          ],
+          "minBorder": 20
+        }
+      }
+    },
+    {
+      "id": "g0-21_Hip_Abduction_Machine",
+      "framing": "Registered seat and machine base; one outward movement and controlled return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                3,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                3,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                5,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                3,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                3,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                5,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-donkey-calf-raise-machine",
+      "framing": "Registered supports; one progressive heel lift and controlled return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                -2,
+                -5
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                -3,
+                -5
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                -6,
+                -5
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                -2,
+                -10
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                -3,
+                -10
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                -5,
+                -11
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-standing-calf-raise-machine",
+      "framing": "Registered floor supports; one progressive heel lift and controlled return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                -2,
+                -2
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                -1,
+                -2
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                -1,
+                -5
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                -3,
+                -3
+              ]
+            },
+            {
+              "tile": 4,
+              "translate": [
+                -2,
+                -4
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                -2,
+                -6
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-seated-cable-chest-press",
+      "framing": "Fixed frame; one press and controlled return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            490,
+            345,
+            435,
+            530
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            490,
+            345,
+            435,
+            530
+          ]
+        }
+      }
+    },
+    {
+      "id": "g0-16_Bulgarian_Split_Squat",
+      "framing": "Registered rear-foot bench; one lower and return.",
+      "variants": {
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 4,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 5,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 6,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 7,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 8,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 9,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 10,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 11,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 12,
+              "translate": [
+                0,
+                36
+              ]
+            },
+            {
+              "tile": 13,
+              "translate": [
+                0,
+                35
+              ]
+            },
+            {
+              "tile": 14,
+              "translate": [
+                1,
+                36
+              ]
+            },
+            {
+              "tile": 15,
+              "translate": [
+                0,
+                35
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            320,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            320,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-machine-pullover",
+      "framing": "One complete repetition with a controlled return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-cable-triceps-kickback",
+      "framing": "One complete repetition with a controlled return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        }
+      }
+    },
+    {
+      "id": "g3-18_Single_Arm_Cable_Curl",
+      "framing": "One complete repetition with a controlled return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        }
+      }
+    },
+    {
+      "id": "guide-cable-triceps-pushdown",
+      "framing": "One complete repetition with a controlled return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-low-to-high-cable-chest-fly",
+      "framing": "One complete repetition with a controlled return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            490,
+            345,
+            435,
+            530
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            490,
+            345,
+            435,
+            530
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-cross-body-cable-triceps-extension",
+      "framing": "One complete repetition with a controlled return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            490,
+            345,
+            435,
+            530
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            490,
+            345,
+            435,
+            530
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-standing-cable-chest-press",
+      "framing": "One complete repetition with a controlled return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            490,
+            345,
+            435,
+            530
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            490,
+            345,
+            435,
+            530
+          ]
+        }
+      }
+    },
+    {
+      "id": "g1-14_Close_Neutral_Grip_Pulldown",
+      "framing": "Registered fixed station; removed a stray edge artifact.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                4,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                5,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                6,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                31,
+                285,
+                38,
+                82
+              ]
+            }
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                3,
+                -1
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                4,
+                -1
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                6,
+                -1
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                31,
+                285,
+                38,
+                82
+              ]
+            }
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        }
+      }
+    },
+    {
+      "id": "exp-machine-chest-press",
+      "framing": "One complete repetition with a controlled return.",
+      "variants": {
+        "female": {
+          "poses": [
+            {
+              "tile": 0
+            },
+            {
+              "tile": 1
+            },
+            {
+              "tile": 2
+            },
+            {
+              "tile": 3
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "minBorder": 0,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ]
+        }
+      }
+    },
+    {
+      "id": "g3-20_Bayesian_Cable_Curl",
+      "framing": "Fixed low-pulley tower and split stance; the same working hand curls forward with the handle.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "sheet": "sheets/male-bayesian-cable-curl.png",
+              "cell": 0,
+              "trim": 2,
+              "phase": 0
+            },
+            {
+              "sheet": "sheets/male-bayesian-cable-curl.png",
+              "cell": 1,
+              "trim": 2,
+              "phase": 1
+            },
+            {
+              "sheet": "sheets/male-bayesian-cable-curl.png",
+              "cell": 2,
+              "trim": 2,
+              "phase": 2
+            },
+            {
+              "sheet": "sheets/male-bayesian-cable-curl.png",
+              "cell": 3,
+              "trim": 2,
+              "phase": 3
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                48,
+                25,
+                83,
+                351
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                130,
+                24,
+                22,
+                244
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                46,
+                337,
+                123,
+                52
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                177,
+                354,
+                178,
+                37
+              ]
+            }
+          ],
+          "minBorder": 20
+        },
+        "female": {
+          "poses": [
+            {
+              "sheet": "sheets/female-bayesian-cable-curl.png",
+              "cell": 0,
+              "trim": 2,
+              "phase": 0
+            },
+            {
+              "sheet": "sheets/female-bayesian-cable-curl.png",
+              "cell": 1,
+              "trim": 2,
+              "phase": 1
+            },
+            {
+              "sheet": "sheets/female-bayesian-cable-curl.png",
+              "cell": 2,
+              "trim": 2,
+              "phase": 2
+            },
+            {
+              "sheet": "sheets/female-bayesian-cable-curl.png",
+              "cell": 3,
+              "trim": 2,
+              "phase": 3
+            }
+          ],
+          "reverse": true,
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "locks": [
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                48,
+                25,
+                83,
+                351
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                130,
+                24,
+                22,
+                244
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                46,
+                337,
+                123,
+                52
+              ]
+            },
+            {
+              "from": 0,
+              "to": [
+                1,
+                2,
+                3
+              ],
+              "rect": [
+                177,
+                354,
+                178,
+                37
+              ]
+            }
+          ],
+          "minBorder": 20
+        }
+      }
+    },
+    {
+      "id": "exp-single-leg-leg-press",
+      "framing": "Near-aligned frame; one press and return with the working foot staying on the plate.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 7
+            },
+            {
+              "tile": 4
+            },
+            {
+              "tile": 3
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "delayMs": [
+            490,
+            345,
+            435,
+            530
+          ],
+          "minBorder": 0
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 7
+            },
+            {
+              "tile": 4
+            },
+            {
+              "tile": 3
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "delayMs": [
+            490,
+            345,
+            435,
+            530
+          ],
+          "minBorder": 0
+        }
+      }
+    },
+    {
+      "id": "exp-single-leg-leg-extension",
+      "framing": "Registered cabinet and floor base; one controlled knee extension and return.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                -11,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                -16,
+                0
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                1,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "minBorder": 0
+        },
+        "female": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                -12,
+                0
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                -16,
+                -1
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                0,
+                -1
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            2,
+            1
+          ],
+          "delayMs": [
+            400,
+            235,
+            255,
+            345,
+            355,
+            410
+          ],
+          "minBorder": 0
+        }
+      }
+    },
+    {
+      "id": "exp-leg-press-calf-raise",
+      "framing": "Registered leg press floor supports; retained the original heel-lift sequence.",
+      "variants": {
+        "male": {
+          "poses": [
+            {
+              "tile": 0,
+              "translate": [
+                0,
+                0
+              ]
+            },
+            {
+              "tile": 1,
+              "translate": [
+                0,
+                -1
+              ]
+            },
+            {
+              "tile": 2,
+              "translate": [
+                0,
+                -1
+              ]
+            },
+            {
+              "tile": 3,
+              "translate": [
+                -11,
+                -1
+              ]
+            },
+            {
+              "tile": 4,
+              "translate": [
+                -11,
+                0
+              ]
+            },
+            {
+              "tile": 5,
+              "translate": [
+                -11,
+                0
+              ]
+            },
+            {
+              "tile": 6,
+              "translate": [
+                -11,
+                0
+              ]
+            },
+            {
+              "tile": 7,
+              "translate": [
+                -11,
+                0
+              ]
+            }
+          ],
+          "sequence": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "delayMs": [
+            500,
+            250,
+            250,
+            250,
+            500,
+            250,
+            250,
+            250
+          ],
+          "minBorder": 0
+        }
+      }
+    }
+  ]
+}
