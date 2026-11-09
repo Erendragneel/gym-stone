@@ -14,4 +14,9 @@ body:not([data-screen=today]) #recommended-workout{display:none!important}.recom
 .recommended-content{padding:0 24px 24px}
 .recommended-content>.recommended-heading{margin-bottom:12px}
 .recommended-workout:not([open])>.recommended-content{display:none}
+#recommended-moves .recommended-target{display:block;margin-top:4px;color:var(--text)}
+#recommended-evidence{margin:0 0 16px;font-size:13px;color:var(--muted)}
+#recommended-evidence h4{margin:0 0 5px;font-size:13px}
+#recommended-sources{margin:0;padding-inline-start:20px}
+#recommended-sources a{display:inline-block;padding:5px 0;color:var(--lime);overflow-wrap:anywhere}
 @media(max-width:720px){.recommended-workout{padding:0}.recommended-workout>summary{min-height:56px;padding:16px;font-size:16px;gap:12px}.recommended-workout[open]>summary{margin-bottom:16px}.recommended-content{padding:0 16px 16px}}
