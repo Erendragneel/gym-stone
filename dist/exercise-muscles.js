@@ -5625,6 +5625,21 @@ window.GymMuscleData = {
       ],
       "kind": "strength"
     },
+    "exp-burpee": {
+      "name": "Burpee",
+      "primary": [
+        "quads",
+        "chest",
+        "glutes"
+      ],
+      "secondary": [
+        "triceps",
+        "frontDelts",
+        "deepCore",
+        "hipFlexors"
+      ],
+      "kind": "strength"
+    },
     "exp-dumbbell-thruster": {
       "name": "Dumbbell Thruster",
       "primary": [

@@ -15,6 +15,8 @@ const POSTPARTUM_IDS = new Set([
   'postpartum-gentle-pelvic-floor-lift-release', 'postpartum-side-lying-core-connection'
 ]);
 const KETTLEBELL_IDS = new Set(['kettlebell-russian-twist', 'kettlebell-sit-up', 'kettlebell-halo']);
+const BURPEE_ID = 'exp-burpee';
+const BURPEE_MANIFEST_PATH = 'dist/burpee-motion-manifest.json';
 
 function staticOnly(record) {
   const visit = value => {
@@ -30,9 +32,11 @@ function staticOnly(record) {
 function animationCatalog(catalog) {
   assert(Array.isArray(catalog), 'Missing exercise catalog');
   const ids = new Set(), motion = [], guides = [], kettlebellAnimations = [];
+  let burpee;
   for (const record of catalog) {
     assert(record && typeof record.id === 'string' && record.id.length && !ids.has(record.id), 'Missing or duplicate exercise ID');
     ids.add(record.id);
+    if (record.id === BURPEE_ID) { burpee = record; continue; }
     if (KETTLEBELL_IDS.has(record.id)) {
       assert(record.kettlebellAnimation === true && record.illustratedGuide == null && record.equipment === 'Kettlebell' && record.tracking === 'reps' && record.expansion === true && record.supportsWeight === true, 'Invalid kettlebell animation metadata: ' + record.id);
       assert(record.variants && typeof record.variants === 'object' && !Array.isArray(record.variants) && Object.keys(record.variants).sort().join(',') === 'female,male', 'Kettlebell animation must have male and female variants: ' + record.id);
@@ -50,8 +54,10 @@ function animationCatalog(catalog) {
   assert(motion.length === 425, 'Package requires all 425 reviewed animations');
   assert(guides.length === 0 || guides.length === POSTPARTUM_IDS.size, 'Incomplete postpartum guide supplement');
   assert(kettlebellAnimations.length === 0 || kettlebellAnimations.length === KETTLEBELL_IDS.size, 'Incomplete kettlebell animation supplement');
-  return {motion, guides, kettlebellAnimations};
+  return {motion, guides, kettlebellAnimations, burpee};
 }
+
+const baseMotionRecords = catalog => animationCatalog(catalog).motion;
 
 function validateStaticGuides(stage, guides) {
   const safeTags = new Set(['svg', 'title', 'desc', 'g', 'path', 'rect', 'circle', 'ellipse', 'line', 'polyline', 'polygon', 'text', 'tspan', 'defs', 'marker', 'clippath', 'lineargradient', 'radialgradient', 'stop']);
@@ -90,13 +96,53 @@ function validateAnimation(animation, label) {
   assert(animation.atlasOffsetX === 90 && animation.atlasOffsetY === 32, 'Unreviewed packed frame placement: ' + label);
 }
 
+function createBurpeeManifest(stage, record) {
+  assert(record && record.id === BURPEE_ID && record.name === 'Burpee' && record.group === 'Full body' &&
+    record.equipment === 'Bodyweight' && record.difficulty === 'Intermediate' && record.tracking === 'reps' &&
+    record.expansion === true && record.supportsWeight === false && !record.supportsDistance &&
+    !record.postpartum && !record.prenatal && !record.kettlebellAnimation && !record.illustratedGuide && !record.gif,
+    'Invalid Burpee catalog metadata');
+  assert.deepStrictEqual(record.aliases, ['Burpees'], 'Invalid Burpee search alias');
+  assert(Array.isArray(record.cues) && record.cues.length && record.cues.every(cue => typeof cue === 'string' && cue.trim()),
+    'Burpee form cues are missing');
+  assert.strictEqual(record.guidanceUrl, 'https://www.nasm.org/resource-center/exercise-library/squat-thrust-burpees',
+    'Unreviewed Burpee form guidance');
+  assert(['sets', 'reps', 'weight', 'minutes', 'defaultSets', 'defaultReps', 'defaultMinutes'].every(key => record[key] == null),
+    'Burpee must not prefill workout amounts');
+
+  const genders = ['female', 'male'];
+  assert(record.variants && Object.keys(record.variants).sort().join(',') === genders.join(','),
+    'Burpee must have male and female variants');
+  const files = [];
+  for (const gender of genders) {
+    const variant = record.variants[gender], base = 'assets/burpee-motion/' + gender + '-' + BURPEE_ID;
+    const atlas = base + '-atlas.webp', poster = base + '-poster.webp';
+    const label = BURPEE_ID + ':' + gender;
+    assert(variant && !variant.gif && variant.image === poster && variant.poster === poster &&
+      variant.animation?.atlas === atlas, 'Invalid Burpee variant assets: ' + label);
+    validateAnimation(variant.animation, label);
+    assert(variant.animation.storedPoses > 1 && !variant.animation.isometricHold &&
+      new Set(variant.animation.poseSequence).size === variant.animation.storedPoses, 'Incomplete Burpee motion: ' + label);
+    for (const asset of [atlas, poster]) {
+      const relative = 'dist/' + asset, bytes = fs.readFileSync(ordinaryFile(stage, relative));
+      assert(bytes.toString('ascii', 0, 4) === 'RIFF' && bytes.toString('ascii', 8, 12) === 'WEBP',
+        'Invalid Burpee WebP: ' + relative);
+      files.push({path: relative, sha256: sha256(bytes), bytes: bytes.length});
+    }
+  }
+  assert.deepStrictEqual(owned(record), owned(record.variants.male), 'Burpee default visual must match the male variant');
+  assert.deepStrictEqual(fs.readdirSync(path.join(stage, 'dist/assets/burpee-motion')).sort(),
+    files.map(file => path.posix.basename(file.path)).sort(), 'Unexpected Burpee motion assets');
+  return {schemaVersion: 1, exercise: BURPEE_ID, catalogSha256: digest(record), files};
+}
+
 function motionAsset(relative) {
   assert(typeof relative === 'string' && /^assets\/motion-v18\/[A-Za-z0-9_.\/-]+\.(?:png|webp)$/.test(relative) && !relative.split('/').includes('..'), 'Unreviewed motion asset path: ' + relative);
   return 'dist/' + relative;
 }
 
 function normalizeAnimationCatalog(catalog) {
-  catalog = animationCatalog(catalog).motion;
+  catalog = baseMotionRecords(catalog);
   const ids = new Set();
   return catalog.map(record => {
     assert(typeof record.id === 'string' && record.id.length && !ids.has(record.id), 'Missing or duplicate exercise ID');
@@ -160,9 +206,12 @@ function packageFiles(stage, catalog) {
 
 function createManifest(stage, nativeSourceBindings) {
   const catalog = read(ordinaryFile(stage, 'dist/exercises.json'));
-  const {motion, guides, kettlebellAnimations} = animationCatalog(catalog);
+  const {motion, guides, kettlebellAnimations, burpee} = animationCatalog(catalog);
   validateStaticGuides(stage, guides);
   if (kettlebellAnimations.length) require('./verify-kettlebell-motion.cjs').verifyKettlebellMotion(stage, catalog);
+  assert.strictEqual(Boolean(burpee), fs.existsSync(path.join(stage, BURPEE_MANIFEST_PATH)), 'Incomplete Burpee motion supplement');
+  if (burpee) assert.deepStrictEqual(read(ordinaryFile(stage, BURPEE_MANIFEST_PATH)), createBurpeeManifest(stage, burpee),
+    'Burpee catalog or assets differ from the reviewed manifest');
   const normalized = normalizeAnimationCatalog(catalog);
   return {schemaVersion: 1, reviewedExercises: 425, pendingExercises: 0,
     animationCatalogSha256: digest(normalized), nativeSourceBindings: normalizeBindings(nativeSourceBindings, motion), files: packageFiles(stage, motion)};
@@ -184,7 +233,7 @@ function verifyPackage(stage) {
     animationCatalogSha256: manifest.animationCatalogSha256, nativeSourceBindings: actual.nativeSourceBindings};
 }
 
-module.exports = {MANIFEST_PATH, normalizeAnimationCatalog, createManifest, verifyPackage};
+module.exports = {MANIFEST_PATH, BURPEE_MANIFEST_PATH, baseMotionRecords, normalizeAnimationCatalog, createBurpeeManifest, createManifest, verifyPackage};
 if (require.main === module) {
   try {
     const result = verifyPackage(path.resolve(process.argv[2] || '.'));

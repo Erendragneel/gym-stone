@@ -77,12 +77,12 @@ async function build() {
     const record = records.find(row=>row.id===binding.exercise);
     if(record) binding.sourceHash = record.sourceSha256;
   }
-  const original = catalog.filter(row=>!row.postpartum && !row.kettlebellAnimation);
+  const {baseMotionRecords,createManifest,verifyPackage} = require('./verify-motion-package.cjs');
+  const original = baseMotionRecords(catalog);
   release.keyframes = original.reduce((sum,row)=>sum+Object.values(row.variants).reduce((count,value)=>count+value.animation.keyframes,0),0);
   release.calfRepair = {date:'2026-10-21',exercises:4,variants:8,sourceMethod:'Built-in ImageGen whole-character redraw; no segmented anatomy',pixelsVerified:true};
   write(releaseFile,release);
   write(path.join(sourceRoot,'repair-manifest.json'),{schemaVersion:1,sequence,delayMs:delays,sourceLayoutSha256:hash(fs.readFileSync(layoutFile)),uniformCameraScale:0.9,records});
-  const {createManifest,verifyPackage} = require('./verify-motion-package.cjs');
   write(path.join(root,'dist/motion-package-manifest.json'),createManifest(root,release.nativeSourceBindings));
   console.log(JSON.stringify({...verifyPackage(root),nativeSourceBindings:undefined}));
 }

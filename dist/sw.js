@@ -1,8 +1,13 @@
 /* Offline app shell. Exercise animations and local OCR files are cached as used. */
 const CACHE_PREFIX = 'gym-stone-';
-const SHELL_CACHE = CACHE_PREFIX + 'shell-v45-workout-goals';
+const SHELL_CACHE = CACHE_PREFIX + 'shell-v46-burpee';
 const MEDIA_CACHE = CACHE_PREFIX + 'media-v27-motion-art';
 const SHELL = [
+  './burpee-motion-manifest.json',
+  './assets/burpee-motion/male-exp-burpee-poster.webp',
+  './assets/burpee-motion/male-exp-burpee-atlas.webp',
+  './assets/burpee-motion/female-exp-burpee-poster.webp',
+  './assets/burpee-motion/female-exp-burpee-atlas.webp',
   './kettlebell-motion-manifest.json',
   './assets/kettlebell-motion/male-kettlebell-russian-twist-animated.webp',
   './assets/kettlebell-motion/male-kettlebell-russian-twist-poster.webp',
@@ -34,7 +39,7 @@ const SHELL = [
   './clean-animation.js?v=19', './clean-animation.css?v=19', './motion-framing.json',
   './exercise-history.css?v=1', './exercise-history.js?v=1', './workout-recommendations.css?v=3', './workout-recommendations-data.js?v=3', './workout-recommendations.js?v=4', './', './index.html', './app.js?v=25-kettlebell-motion', './style.css?v=5', './calendar-theme.css', './nutrition.css?v=2', './nutrition.js?v=2', './nutrition-tools.js?v=1', './food-worker.js', './machine-data.js?v=2', './machine-label.js?v=1', './machine-references.js?v=1', './machine-photo.js?v=6', './machine-photo.css?v=5', './machine-worker.js?v=2', './food-library.json', './navigation.css?v=1', './navigation.js?v=5', './stretch-library.js?v=5', './postpartum-library.js?v=1', './postpartum-library.css?v=1', './stretch-library.css?v=2', './expanded-library.js?v=3', './expanded-library.css?v=2',
   './screenshot-import.css?v=2', './screenshot-parser.js', './screenshot-store.js?v=4',
-  './screenshot-import.js?v=3', './workout-tracking.js?v=5', './set-entries.css?v=1', './set-entry-fields.js?v=1', './progress-data.js?v=3', './progress.js?v=2', './progress.css?v=1', './exercises.json', './exercise-muscles.js?v=2', './muscle-map.js?v=1', './muscle-map.css?v=1', './qr-code.js',
+  './screenshot-import.js?v=3', './workout-tracking.js?v=5', './set-entries.css?v=1', './set-entry-fields.js?v=1', './progress-data.js?v=3', './progress.js?v=2', './progress.css?v=1', './exercises.json', './exercise-muscles.js?v=3', './muscle-map.js?v=1', './muscle-map.css?v=1', './qr-code.js',
   './player-profile.js?v=3', './player-profile.css?v=5', './profile-data.js', './cloud-config.js', './cloud-account.js?v=3', './cloud-calendar.js?v=3', './assets/characters/male-avatar.png', './assets/characters/female-avatar.png', './assets/characters/male-character.png', './assets/characters/female-character.png',
   './share-install.js', './share-install.css?v=2', './manifest.webmanifest?v=4',
   './icons/gym-stone-v3-32.png', './icons/gym-stone-v3-48.png',

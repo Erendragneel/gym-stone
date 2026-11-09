@@ -145,6 +145,7 @@ function classify(e) {
     'high knees':['hipFlexors quads','glutes hamstrings gastrocnemius soleus abs deepCore obliques'],
     'butt kicks':['hamstrings gastrocnemius soleus','quads glutes hipFlexors abs deepCore'],
     'step back burpee':['quads glutes chest triceps','hamstrings gastrocnemius soleus frontDelts abs deepCore obliques serratus'],
+    'burpee':['quads chest glutes','triceps frontDelts deepCore hipFlexors'],
     'medicine ball slam':['lats abs obliques','quads glutes hamstrings spinalErectors frontDelts triceps forearmFlexors deepCore'],
     'sled push':['quads glutes gastrocnemius soleus','hamstrings abs deepCore obliques chest frontDelts triceps'],
     'backward sled drag':['quads','glutes hamstrings gastrocnemius soleus abs deepCore forearmFlexors'],

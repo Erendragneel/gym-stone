@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "exercise": "exp-burpee",
+  "catalogSha256": "b95afd2d189ecb4158eb332ad8f07f3c015328b8ebbd33a7fcacf952a230410a",
+  "files": [
+    {
+      "path": "dist/assets/burpee-motion/female-exp-burpee-atlas.webp",
+      "sha256": "8f2d98eff21b57f3c73d3b17b9cc6751db1fe548106a8c7b9d20df9106cf9c52",
+      "bytes": 232778
+    },
+    {
+      "path": "dist/assets/burpee-motion/female-exp-burpee-poster.webp",
+      "sha256": "e2dd2a6156103efc38a8da0b15d6b1c043d38986f27453205ab2bbce4ba7e5a2",
+      "bytes": 26414
+    },
+    {
+      "path": "dist/assets/burpee-motion/male-exp-burpee-atlas.webp",
+      "sha256": "1b6df63b88fabcdd40b7bccd582210ad7cde9ba71ffd0bfb32ec66565a9ce64a",
+      "bytes": 204404
+    },
+    {
+      "path": "dist/assets/burpee-motion/male-exp-burpee-poster.webp",
+      "sha256": "6cc2a10d0c1e327bc0d5615e83ffdccac8807c8db9de2080428d66b55d6a954b",
+      "bytes": 22164
+    }
+  ]
+}

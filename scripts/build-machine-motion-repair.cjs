@@ -7,7 +7,7 @@ const { execFileSync } = require('node:child_process');
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
-const { createManifest, verifyPackage } = require('./verify-motion-package.cjs');
+const { baseMotionRecords, createManifest, verifyPackage } = require('./verify-motion-package.cjs');
 
 const sharp = require(require.resolve('sharp', {
   paths: [__dirname, path.join(os.homedir(), '.cache/codex-runtimes/codex-primary-runtime/dependencies/node')]
@@ -489,7 +489,7 @@ async function build(recipePath, mode, destination) {
     )).map(variant => ({ ...binding, variant }));
   }).concat(bindings);
   release.nativeSourceBindings.sort((a, b) => a.exercise.localeCompare(b.exercise, 'en') || a.variant.localeCompare(b.variant, 'en'));
-  release.keyframes = catalog.filter(row => !row.postpartum && !row.kettlebellAnimation)
+  release.keyframes = baseMotionRecords(catalog)
     .reduce((total, row) => total + Object.values(row.variants).reduce((count, variant) => count + variant.animation.keyframes, 0), 0);
   const repaired = [...reviewed.keys()];
   const report = { date: reviewedOn, exercises: repaired, variants: bindings.length, pixelsVerified: true };

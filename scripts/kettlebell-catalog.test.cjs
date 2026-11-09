@@ -6,7 +6,7 @@ for (const file of ['workout-tracking.js', 'exercise-muscles.js']) vm.runInNewCo
 const names = ['Kettlebell Russian Twist', 'Kettlebell Sit-Up', 'Kettlebell Halo'];
 const guides = catalog.filter(e => e.kettlebellAnimation);
 assert.equal(guides.length, 3);
-assert.equal(catalog.length, 434);
+assert.equal(catalog.length, 435);
 assert.equal(new Set(catalog.map(e => e.id)).size, catalog.length);
 assert.equal(catalog.filter(e => e.name === 'Kettlebell Swing').length, 1);
 assert.equal(catalog.find(e => e.name === 'Kettlebell Swing').id, 'g0-24_Kettlebell_Swing');

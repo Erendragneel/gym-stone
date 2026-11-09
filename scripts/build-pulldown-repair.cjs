@@ -6,7 +6,7 @@ const crypto = require('node:crypto');
 const fs = require('node:fs');
 const os = require('node:os');
 const path = require('node:path');
-const { createManifest, verifyPackage } = require('./verify-motion-package.cjs');
+const { baseMotionRecords, createManifest, verifyPackage } = require('./verify-motion-package.cjs');
 
 const sharp = require(require.resolve('sharp', {
   paths: [__dirname, path.join(os.homedir(), '.cache/codex-runtimes/codex-primary-runtime/dependencies/node')]
@@ -162,7 +162,7 @@ async function build() {
   release.nativeSourceBindings = release.nativeSourceBindings.filter(binding => binding.exercise !== exercise);
   release.nativeSourceBindings.push(...bindings);
   release.nativeSourceBindings.sort((a, b) => a.exercise.localeCompare(b.exercise, 'en') || a.variant.localeCompare(b.variant, 'en'));
-  const original = catalog.filter(row => !row.postpartum && !row.kettlebellAnimation);
+  const original = baseMotionRecords(catalog);
   release.keyframes = original.reduce((total, row) => total + Object.values(row.variants)
     .reduce((count, variant) => count + variant.animation.keyframes, 0), 0);
   release.pulldownRepair = { date: '2026-11-04', exercise, variants: genders.length,
