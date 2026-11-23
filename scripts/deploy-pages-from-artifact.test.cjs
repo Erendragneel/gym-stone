@@ -1,0 +1,20 @@
+'use strict';
+const assert=require('node:assert/strict');
+const deploy=require('./deploy-pages-from-artifact.cjs');
+(async()=>{
+ const requests=[],outputs={},statuses=['queued','building','succeed'];
+ const context={repo:{owner:'owner',repo:'game'},sha:'a'.repeat(40)};
+ const core={getIDToken:async()=> 'test-oidc',setOutput:(key,value)=>{outputs[key]=value;},info() {}};
+ const github={request:async(route,args)=>{requests.push({route,args});return {data:route.startsWith('POST')?{id:42,page_url:'https://example.test/game/'}:{status:statuses.shift()}};}};
+ await deploy({github,core,context,artifactId:'123456',sleep:async()=>{}});
+ assert.deepEqual(requests[0],{route:'POST /repos/{owner}/{repo}/pages/deployments',args:{...context.repo,artifact_id:123456,pages_build_version:context.sha,oidc_token:'test-oidc'}});
+ assert.equal(requests.filter(r=>r.route.startsWith('GET')).length,3);assert.equal(outputs.status,'succeed');
+ assert.equal(outputs.page_url,'https://example.test/game/');
+ await assert.rejects(deploy({github,core,context,artifactId:'',sleep:async()=>{}}),/valid artifact ID/);
+ const failed={request:async route=>({data:route.startsWith('POST')?{id:43}:{status:'deployment_content_failed'}})};
+ await assert.rejects(deploy({github:failed,core,context,artifactId:'1',sleep:async()=>{}}),/deployment_content_failed/);
+ const timed=[];const timeout={request:async(route,args)=>{timed.push(route);return{data:route.startsWith('POST')?{id:44}:{status:'queued'}};}};
+ await assert.rejects(deploy({github:timeout,core,context,artifactId:'1',sleep:async()=>{},attempts:2}),/timed out/);
+ assert.equal(timed.at(-1),'POST /repos/{owner}/{repo}/pages/deployments/{deploymentId}/cancel');
+ console.log('PASS: verified artifact ID, Pages API payload, success polling, failure handling and timeout cancellation.');
+})().catch(error=>{console.error(error);process.exitCode=1;});
