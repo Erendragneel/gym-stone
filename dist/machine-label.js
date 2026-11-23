@@ -46,13 +46,40 @@
     ids: pulldownLabels.flatMap(item => item.ids),
     label: 'Lat Pulldown'
   };
+  // These specific labels must be removed before the broad chest/Smith/lat
+  // patterns run, so a specialty station cannot fall back to a different guide.
+  const specificLabels = [
+    { pattern: /\bPENDULUM[\s-]+SQUAT(?:[\s-]+MACHINE)?\b/g, ids: ['pendulum-squat'], label: 'Pendulum Squat' },
+    { pattern: /\bV[\s-]+SQUAT(?:[\s-]+MACHINE)?\b/g, ids: ['v-squat'], label: 'V-Squat' },
+    { pattern: /\bSTANDING[\s-]+HIP[\s-]+THRUST(?:[\s-]+MACHINE)?\b/g, ids: ['standing-hip-thrust'], label: 'Standing Hip Thrust' },
+    { pattern: /\bDECLINE[\s-]+(?:MACHINE[\s-]+)?CHEST[\s-]+PRESS(?:[\s-]+MACHINE)?\b/g, ids: ['decline-chest-press'], label: 'Decline Chest Press' },
+    { pattern: /\bSTANDING[\s-]+(?:MACHINE[\s-]+)?CHEST[\s-]+PRESS(?:[\s-]+MACHINE)?\b/g, ids: ['standing-chest-press'], label: 'Standing Chest Press Machine' },
+    { pattern: /\bINCLINE[\s-]+(?:MACHINE[\s-]+)?(?:CHEST[\s-]+)?FLY(?:[\s-]+MACHINE)?\b/g, ids: ['incline-machine-fly'], label: 'Incline Chest Fly Machine' },
+    { pattern: /\b(?:UPRIGHT[\s-]+)?STATIONARY[\s-]+(?:BIKE|BICYCLE|CYCLING)\b/g, ids: ['stationary-bike'], label: 'Stationary Bike' },
+    { pattern: /\bDUAL[\s-]+SMITH(?:[\s-]+MACHINE)?\b/g, ids: ['dual-smith'], label: 'Dual Smith — confirm model' },
+    { pattern: /\bHIGH[\s-]+INCLINE(?:[\s-]+(?:MACHINE[\s-]+)?(?:CHEST[\s-]+)?PRESS(?:[\s-]+MACHINE)?)?\b/g, ids: ['high-incline'], label: 'High Incline — confirm setup' },
+    { pattern: /\bVIKING[\s-]+(?:PRESS|MACHINE)\b/g, ids: ['viking-machine'], label: 'Viking Machine — confirm model' },
+    { pattern: /\bSUPER[\s-]*HAND[\s-]+LAT[\s-]+PULL[\s-]*DOWN\b/g, ids: ['super-hand-pulldown'], label: 'Super Hand Lat Pulldown — confirm model' },
+    { pattern: /\bMULTI[\s-]+PULL[\s-]*DOWN\b/g, ids: ['multi-pulldown'], label: 'Multi-Pulldown — confirm model' },
+    { pattern: /\bFRENCH[\s-]+PRESS[\s-]+MACHINE\b/g, ids: ['french-press-machine'], label: 'French Press Machine — confirm setup' },
+    { pattern: /\bDIP[\s-]+MACHINE\b/g, ids: ['dip-machine'], label: 'Dip Machine — confirm setup' },
+    { pattern: /\bT[\s-]+BAR[\s-]+ROW[\s-]+MACHINE\b/g, ids: ['t-bar-row-machine'], label: 'T-Bar Row Machine — confirm setup' },
+    { pattern: /\bGLUTE[\s-]+KICK[\s-]*BACK[\s-]+MACHINE\b/g, ids: ['glute-kickback-machine'], label: 'Glute Kickback Machine — confirm setup' },
+    { pattern: /\b(?:ABDOMINAL|AB)[\s-]+BENCH\b/g, ids: ['ab-bench'], label: 'Abdominal Bench — confirm setup' },
+    { pattern: /\bPOWER[\s-]+RACK\b/g, ids: ['power-rack'], label: 'Power Rack' },
+    { pattern: /\bEZ[\s-]+(?:CURL[\s-]+)?BAR\b/g, ids: ['ez-bar'], label: 'EZ Curl Bar' },
+    { pattern: /\bPREACHER[\s-]+(?:CURL[\s-]+)?(?:BENCH|STAND)\b/g, ids: ['preacher-bench'], label: 'Preacher Curl Bench' },
+    { pattern: /\bINCLINE[\s-]+BENCH\b/g, ids: ['incline-bench'], label: 'Incline Bench' },
+    { pattern: /\bTREADMILL\b/g, ids: ['treadmill'], label: 'Treadmill' },
+    { pattern: /\bDUMBBELLS?\b/g, ids: ['dumbbells'], label: 'Dumbbells' }
+  ];
   const otherLabels = [
     { pattern: /\bHACK[\s-]*(?:LIFT|SQUAT)\b/, ids: ['hack-squat'], label: 'Hack Squat' },
     { pattern: /\bSTANDING[\s-]+(?:HIP[\s-]+)?ABDUCT(?:OR|ION)\b/, ids: ['standing-hip-abduction'], label: 'Standing Abductor' },
     { pattern: /\bLEG[\s-]+EXTENSION\b/, ids: ['leg-extension'], label: 'Leg Extension' },
     { pattern: /\bLEG[\s-]+PRESS\b/, ids: ['leg-press'], label: 'Leg Press' },
     { pattern: /\bINCLINE[\s-]+CHEST[\s-]+PRESS\b/, ids: ['incline-chest-press'], label: 'Incline Chest Press' },
-    { pattern: /\bCHEST[\s-]+PRESS\b/, without: /\bINCLINE[\s-]+CHEST[\s-]+PRESS\b/g, ids: ['chest-press', 'incline-chest-press'], label: 'Chest Press' },
+    { pattern: /\bCHEST[\s-]+PRESS\b/, without: /\b(?:INCLINE|DECLINE|STANDING)(?:[\s-]+(?:CABLE|BARBELL|DUMBBELL|MACHINE))?[\s-]+CHEST[\s-]+PRESS\b/g, ids: ['chest-press', 'incline-chest-press'], label: 'Chest Press' },
     { pattern: /\bSHOULDER[\s-]+PRESS\b/, ids: ['shoulder-press'], label: 'Shoulder Press' },
     { pattern: /\b(?:REVERSE[\s-]+PEC[\s-]+DECK|REAR[\s-]+DELT[\s-]+FLY)\b/, ids: ['reverse-pec-deck'], label: 'Reverse Pec Deck' },
     { pattern: /\bPEC[\s-]+DECK\b/, without: /\bREVERSE[\s-]+PEC[\s-]+DECK\b/g, ids: ['pec-deck', 'reverse-pec-deck'], label: 'Pec Deck' },
@@ -87,13 +114,30 @@
       };
     }
 
-    const curls = curlLabels.filter(item => item.pattern.test(normalized));
-    if (!curls.length && genericCurl.pattern.test(normalized)) curls.push(genericCurl);
-    const pulldowns = pulldownLabels.filter(item => item.pattern.test(normalized));
-    if (!pulldowns.length && genericPulldown.pattern.test(normalized)) pulldowns.push(genericPulldown);
+    const machineData = root.GymMachineData || (typeof module === 'object' && module.exports ? require('./machine-data.js') : null);
+    // Manual/pasted Japanese labels are supported independently of OCR. The
+    // bundled OCR worker below still reads English; this does not claim Japanese OCR.
+    const exactLabels = machineData?.labelMatches(text) || [];
+    if (exactLabels.length && (/[\u3040-\u30ff\u3400-\u9fff]/u.test(text) || exactLabels.some(item => item.referenceOnly))) return { kind: 'possible', machineIds: exactLabels.map(item => item.id), text,
+      label: exactLabels.length === 1 ? exactLabels[0].name : '' };
+    const japaneseLabels = /[\u3040-\u30ff\u3400-\u9fff]/u.test(text)
+      ? text.split(/[\n\r\/／]+/).flatMap(part => machineData?.labelMatches(part.trim()) || []) : [];
+    let generalText = normalized;
+    const specific = specificLabels.filter(item => {
+      item.pattern.lastIndex = 0;
+      const found = item.pattern.test(generalText);
+      item.pattern.lastIndex = 0;
+      if (found) generalText = generalText.replace(item.pattern, ' ');
+      return found;
+    });
+    const curls = curlLabels.filter(item => item.pattern.test(generalText));
+    if (!curls.length && genericCurl.pattern.test(generalText)) curls.push(genericCurl);
+    const pulldowns = pulldownLabels.filter(item => item.pattern.test(generalText));
+    if (!pulldowns.length && genericPulldown.pattern.test(generalText)) pulldowns.push(genericPulldown);
     const others = otherLabels.filter(item => item.pattern.test(item.without
-      ? normalized.replace(item.without, ' ') : normalized));
-    const matches = [...curls, ...pulldowns, ...others];
+      ? generalText.replace(item.without, ' ') : generalText));
+    const matches = [...specific, ...curls, ...pulldowns, ...others,
+      ...japaneseLabels.map(item => ({ ids: [item.id], label: item.name }))];
     return {
       kind: matches.length ? 'possible' : 'unknown',
       machineIds: [...new Set(matches.flatMap(item => item.ids))],

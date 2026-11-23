@@ -1,0 +1,178 @@
+[
+  {
+    "exerciseId": "gym-floor-pendulum-squat",
+    "referenceId": "pendulum-squat",
+    "manufacturer": "Panatta",
+    "model": "1FW080-Super Pendulum Squat",
+    "sourceUrl": "https://panattaturkiye.com/freeweight-special---super-pendulum-squat",
+    "image": "assets/machine-references/pendulum-squat.webp"
+  },
+  {
+    "exerciseId": "gym-floor-v-squat",
+    "referenceId": "v-squat",
+    "manufacturer": "Hammer Strength / Life Fitness",
+    "model": "Hammer Strength PL-VSQ",
+    "sourceUrl": "https://www.lifefitness.com/en-gb/catalog/strength-training/plate-loaded/plate-loaded-v-squat",
+    "image": "assets/machine-references/v-squat.png"
+  },
+  {
+    "exerciseId": "gym-floor-standing-hip-thrust",
+    "referenceId": "standing-hip-thrust",
+    "manufacturer": "Panatta",
+    "model": "Panatta 1FE197",
+    "sourceUrl": "https://www.apexmotionusa.com/equipment/strength/fit-evo/standing-hip-thrust-2",
+    "image": "assets/machine-references/standing-hip-thrust.webp"
+  },
+  {
+    "exerciseId": "gym-floor-standing-machine-hip-abduction",
+    "referenceId": "standing-hip-abduction",
+    "manufacturer": "Panatta",
+    "model": "1FW099-Standing abductor",
+    "sourceUrl": "https://panattaturkiye.com/standing-abductor",
+    "image": "assets/machine-references/standing-hip-abduction.webp"
+  },
+  {
+    "exerciseId": "gym-floor-stationary-cycling",
+    "referenceId": "stationary-bike",
+    "manufacturer": "Panatta",
+    "model": "1FXT001-Bike Fenix Touch",
+    "sourceUrl": "https://panattaturkiye.com/bike-fenix-touch",
+    "image": "assets/machine-references/stationary-bike.webp"
+  },
+  {
+    "exerciseId": "gym-floor-decline-machine-chest-press",
+    "referenceId": "decline-chest-press",
+    "manufacturer": "Panatta",
+    "model": "1FW041-Super Declined Chest Press",
+    "sourceUrl": "https://panattaturkiye.com/freeweight---super-declined-chest-press",
+    "image": "assets/machine-references/decline-chest-press.webp"
+  },
+  {
+    "exerciseId": "gym-floor-standing-machine-chest-press",
+    "referenceId": "standing-chest-press",
+    "manufacturer": "Sorinex",
+    "model": "Sorinex P11800",
+    "sourceUrl": "https://www.sorinex.com/products/standing-chest-press-machine",
+    "image": "assets/machine-references/standing-chest-press.jpg"
+  },
+  {
+    "exerciseId": "gym-floor-incline-machine-chest-fly",
+    "referenceId": "incline-machine-fly",
+    "manufacturer": "Panatta",
+    "model": "1FW038-Super Upper Chest Flight Machine",
+    "sourceUrl": "https://panattaturkiye.com/freeweight-special---super-upper-chest-flight-machine",
+    "image": "assets/machine-references/incline-machine-fly.webp"
+  },
+  {
+    "exerciseId": "gym-floor-smith-machine-bench-press",
+    "referenceId": "smith-machine",
+    "manufacturer": "Panatta",
+    "model": "1FW520-Olympic Smith Machine Counterbalanced",
+    "sourceUrl": "https://panattaturkiye.com/olympic-smith-machine-counterbalanced",
+    "image": "assets/machine-references/smith-machine.webp"
+  },
+  {
+    "exerciseId": "gym-floor-incline-smith-machine-bench-press",
+    "referenceId": "smith-machine",
+    "manufacturer": "Panatta",
+    "model": "1FW520-Olympic Smith Machine Counterbalanced",
+    "sourceUrl": "https://panattaturkiye.com/olympic-smith-machine-counterbalanced",
+    "image": "assets/machine-references/smith-machine.webp"
+  },
+  {
+    "exerciseId": "gym-floor-smith-machine-shoulder-press",
+    "referenceId": "smith-machine",
+    "manufacturer": "Panatta",
+    "model": "1FW520-Olympic Smith Machine Counterbalanced",
+    "sourceUrl": "https://panattaturkiye.com/olympic-smith-machine-counterbalanced",
+    "image": "assets/machine-references/smith-machine.webp"
+  },
+  {
+    "exerciseId": "gym-floor-smith-machine-row",
+    "referenceId": "smith-machine",
+    "manufacturer": "Panatta",
+    "model": "1FW520-Olympic Smith Machine Counterbalanced",
+    "sourceUrl": "https://panattaturkiye.com/olympic-smith-machine-counterbalanced",
+    "image": "assets/machine-references/smith-machine.webp"
+  },
+  {
+    "exerciseId": "gym-floor-close-grip-smith-machine-bench-press",
+    "referenceId": "smith-machine",
+    "manufacturer": "Panatta",
+    "model": "1FW520-Olympic Smith Machine Counterbalanced",
+    "sourceUrl": "https://panattaturkiye.com/olympic-smith-machine-counterbalanced",
+    "image": "assets/machine-references/smith-machine.webp"
+  },
+  {
+    "exerciseId": "gym-floor-rack-pull",
+    "referenceId": "power-rack",
+    "manufacturer": "Panatta",
+    "model": "1FW531-Olympic Power Rack",
+    "sourceUrl": "https://panattaturkiye.com/olympic-power-rack",
+    "image": "assets/machine-references/power-rack.webp"
+  },
+  {
+    "exerciseId": "gym-floor-neutral-grip-dumbbell-bench-press",
+    "referenceId": "dumbbells",
+    "manufacturer": "Panatta",
+    "model": "1RD025-1RD50-Urathane Dumbells",
+    "sourceUrl": "https://panattaturkiye.com/urathane-dumbells",
+    "image": "assets/machine-references/dumbbells.webp"
+  },
+  {
+    "exerciseId": "gym-floor-underhand-barbell-row",
+    "referenceId": "barbell",
+    "manufacturer": "Panatta",
+    "model": "1BC56-Olympic Standard Barbell",
+    "sourceUrl": "https://panattaturkiye.com/olympic-standard-barbell",
+    "image": "assets/machine-references/barbell.webp"
+  },
+  {
+    "exerciseId": "gym-floor-two-arm-bent-over-dumbbell-row",
+    "referenceId": "dumbbells",
+    "manufacturer": "Panatta",
+    "model": "1RD025-1RD50-Urathane Dumbells",
+    "sourceUrl": "https://panattaturkiye.com/urathane-dumbells",
+    "image": "assets/machine-references/dumbbells.webp"
+  },
+  {
+    "exerciseId": "gym-floor-dumbbell-grip-hold",
+    "referenceId": "dumbbells",
+    "manufacturer": "Panatta",
+    "model": "1RD025-1RD50-Urathane Dumbells",
+    "sourceUrl": "https://panattaturkiye.com/urathane-dumbells",
+    "image": "assets/machine-references/dumbbells.webp"
+  },
+  {
+    "exerciseId": "gym-floor-suitcase-hold",
+    "referenceId": "dumbbells",
+    "manufacturer": "Panatta",
+    "model": "1RD025-1RD50-Urathane Dumbells",
+    "sourceUrl": "https://panattaturkiye.com/urathane-dumbells",
+    "image": "assets/machine-references/dumbbells.webp"
+  },
+  {
+    "exerciseId": "gym-floor-treadmill-walk",
+    "referenceId": "treadmill",
+    "manufacturer": "Panatta",
+    "model": "1FXT003-Runner Fenix Touch",
+    "sourceUrl": "https://panattaturkiye.com/runner-fenix-touch",
+    "image": "assets/machine-references/treadmill.webp"
+  },
+  {
+    "exerciseId": "gym-floor-treadmill-run",
+    "referenceId": "treadmill",
+    "manufacturer": "Panatta",
+    "model": "1FXT003-Runner Fenix Touch",
+    "sourceUrl": "https://panattaturkiye.com/runner-fenix-touch",
+    "image": "assets/machine-references/treadmill.webp"
+  },
+  {
+    "exerciseId": "gym-floor-dumbbell-russian-twist",
+    "referenceId": "dumbbells",
+    "manufacturer": "Panatta",
+    "model": "1RD025-1RD50-Urathane Dumbells",
+    "sourceUrl": "https://panattaturkiye.com/urathane-dumbells",
+    "image": "assets/machine-references/dumbbells.webp"
+  }
+]

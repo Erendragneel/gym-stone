@@ -26,7 +26,7 @@ const expectedIds={
   'leg-extension':['guide-leg-extension','exp-single-leg-leg-extension'],
   'plate-loaded-lat-pulldown':['exp-plate-loaded-lat-pulldown'],
   'prone-leg-curl':['guide-prone-leg-curl','exp-single-leg-prone-leg-curl'],
-  'smith-machine':['exp-smith-machine-squat','exp-smith-machine-hip-thrust','exp-smith-machine-seated-calf-raise','exp-smith-machine-standing-calf-raise']
+  'smith-machine':['exp-smith-machine-squat','exp-smith-machine-hip-thrust','exp-smith-machine-seated-calf-raise','exp-smith-machine-standing-calf-raise','gym-floor-smith-machine-bench-press','gym-floor-incline-smith-machine-bench-press','gym-floor-smith-machine-shoulder-press','gym-floor-smith-machine-row','gym-floor-close-grip-smith-machine-bench-press','g1-20_Overhand_Inverted_Row','g3-25_Underhand_Inverted_Row']
 };
 
 (async()=>{

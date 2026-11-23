@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Your gym machines · Gym Stone</title>
+  <meta name="description" content="A bilingual picture reference for the equipment on your Gym Stone floor plans.">
+  <meta name="theme-color" content="#101522">
+  <link rel="icon" href="icons/gym-stone-v3-32.png">
+  <link rel="stylesheet" href="machine-guide.css?v=1">
+  <script src="machine-data.js?v=3" defer></script>
+  <script src="machine-guide.js?v=1" defer></script>
+</head>
+<body>
+  <header class="guide-header"><a class="brand" href="index.html#exercises"><img src="icons/gym-stone-v3-192.png" alt="">GYM STONE</a><a class="back-link" href="index.html#exercises">Back to exercises</a></header>
+  <main>
+    <div class="guide-intro"><span class="eyebrow">YOUR EQUIPMENT REFERENCE</span><h1>Your gym machines</h1><p>Match the Japanese floor-plan labels to pictures and exercises.</p><p class="reference-note">Manufacturer photos show example models. Compare the actual station before choosing an exercise.</p></div>
+    <form class="guide-controls" role="search"><label for="guide-search">Find a machine<input id="guide-search" type="search" placeholder="English or 日本語" autocomplete="off"></label><label for="guide-floor">Floor plan<select id="guide-floor"><option value="all">Both maps</option><option value="1">Image 1 · Legs and cardio</option><option value="2">Image 2 · Upper body and weights</option></select></label><label for="guide-status">Show<select id="guide-status"><option value="all">All equipment</option><option value="ready">With matching exercises</option><option value="confirm">Model needs confirmation</option></select></label></form>
+    <p id="guide-count" class="guide-count" role="status" aria-live="polite">Loading machine pictures…</p>
+    <section id="machine-guide-grid" class="guide-grid" aria-label="Gym equipment pictures"></section>
+    <noscript><p>Enable JavaScript to browse the machine reference.</p></noscript>
+  </main>
+  <footer>GYM STONE · Photos credited on each card.</footer>
+</body>
+</html>

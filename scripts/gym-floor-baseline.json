@@ -1,0 +1,2616 @@
+{
+  "catalogCount": 435,
+  "metadataFieldsAllowedToChange": [
+    "equipment",
+    "aliases",
+    "machineType"
+  ],
+  "originalEntries": [
+    {
+      "id": "g0-01_Bodyweight_Glute_Bridge",
+      "name": "Bodyweight Glute Bridge",
+      "metadataSha256": "1de01dea555bd7bf074c89bb74a3988dbf7ab420ca360dd42de25ead26846ab0"
+    },
+    {
+      "id": "g0-02_Barbell_Hip_Thrust",
+      "name": "Barbell Hip Thrust",
+      "metadataSha256": "b7835907537fb7d898e73208257111c9e32ad7859f85ea4e83f21032c75dd883"
+    },
+    {
+      "id": "g0-03_Single_Leg_Glute_Bridge",
+      "name": "Single Leg Glute Bridge",
+      "metadataSha256": "5e3b0f1a905ec27d239f27ad4beafb1d7b35334259a11d7c4c791cdf1496ee4f"
+    },
+    {
+      "id": "g0-04_Frog_Pump",
+      "name": "Frog Pump",
+      "metadataSha256": "7cb42db2f764f35d8829ec9ef49727b4e8190531f91e3328607f5ac8cbf6f042"
+    },
+    {
+      "id": "g0-05_Side_Lying_Clamshell",
+      "name": "Side Lying Clamshell",
+      "metadataSha256": "5ce9417717f3638250c1b4bb34850747761fdb5f1a11546a484c4ac6151fe751"
+    },
+    {
+      "id": "g0-06_Side_Lying_Hip_Abduction",
+      "name": "Side Lying Hip Abduction",
+      "metadataSha256": "eadf9e5445b7cd4fa222d21c21713357f21bb4f1b5966f7324ac4114fbb6681a"
+    },
+    {
+      "id": "g0-07_Quadruped_Donkey_Kick",
+      "name": "Quadruped Donkey Kick",
+      "metadataSha256": "0043d8b391d8084ee3d1c3b1f1646cb0912cfc36c3c68fde4e957a519916ccc8"
+    },
+    {
+      "id": "g0-08_Quadruped_Fire_Hydrant",
+      "name": "Quadruped Fire Hydrant",
+      "metadataSha256": "6b88e2b3529e52a9a6efb2ebd307058c3d7f2a07ce7d5edd81440339cf2caaa7"
+    },
+    {
+      "id": "g0-09_Cable_Hip_Abduction",
+      "name": "Cable Hip Abduction",
+      "metadataSha256": "714ee65b6d067a1a8e3d1d5e0f1a2caf0c42de41984c69f9585c2f3b1cf2b9a6"
+    },
+    {
+      "id": "g0-10_Cable_Glute_Kickback",
+      "name": "Cable Glute Kickback",
+      "metadataSha256": "3880454d4c47573ffdc1e1ebb378fcb89a1c1e85dfe69786a5e142368cb9f010"
+    },
+    {
+      "id": "g0-12_Monster_Walk",
+      "name": "Monster Walk",
+      "metadataSha256": "ee95272762a96ae6209b6edb4b8589c4d348d5997cca9d508f4c1f46b2b915f6"
+    },
+    {
+      "id": "g0-13_Goblet_Squat",
+      "name": "Goblet Squat",
+      "metadataSha256": "b1346d8d4a2aad40b8df6ce783056c431914fe658056d5ab604b110a6e1323a4"
+    },
+    {
+      "id": "g0-14_Sumo_Dumbbell_Squat",
+      "name": "Sumo Dumbbell Squat",
+      "metadataSha256": "be70d5e112e003a57a00355fbc16a163c119dcd0abc83ab59d86edbbe15b4144"
+    },
+    {
+      "id": "g0-15_Reverse_Lunge",
+      "name": "Reverse Lunge",
+      "metadataSha256": "a62e159f22b63527d3353e82ade76d8cdf25a34c45b70ddb3ac522e31841b0c7"
+    },
+    {
+      "id": "g0-16_Bulgarian_Split_Squat",
+      "name": "Bulgarian Split Squat",
+      "metadataSha256": "8c66971222c6c5586525387f34737104b33f9bd5cae65896667b7cf33b666ee5"
+    },
+    {
+      "id": "g0-17_Low_Box_Step_Up",
+      "name": "Low Box Step Up",
+      "metadataSha256": "976d79bca3f9b4587a7cff193ac696c1108bba45dfa299a08b06b1fafa5973fe"
+    },
+    {
+      "id": "g0-18_Lateral_Lunge",
+      "name": "Lateral Lunge",
+      "metadataSha256": "5c30599c1dc64f9ac82b9f8fa4fa1d1f1366c058fae0860af07d6ab343ed371d"
+    },
+    {
+      "id": "g0-19_Curtsy_Lunge",
+      "name": "Curtsy Lunge",
+      "metadataSha256": "a5205f44a251ac2cfee0812524e25cb7757ebbd04c760f973f20ff61c11f0985"
+    },
+    {
+      "id": "g0-20_Single_Leg_Dumbbell_RDL",
+      "name": "Single Leg Dumbbell RDL",
+      "metadataSha256": "81bcf6fef372bc2bc20bca667c4561047dcea8c43243b6ab89acd77fc510fed2"
+    },
+    {
+      "id": "g0-21_Hip_Abduction_Machine",
+      "name": "Hip Abduction Machine",
+      "metadataSha256": "83b1fd79d6acd4bbfadb451ca183ce76b7a98df82e5cba34ce8f73253be9caa2"
+    },
+    {
+      "id": "g0-22_Hip_Adduction_Machine",
+      "name": "Hip Adduction Machine",
+      "metadataSha256": "9396a069b5c56c331f472ae31af587ffed0ba87d0cd37a654d88eab1ac5e7cea"
+    },
+    {
+      "id": "g0-23_Barbell_Romanian_Deadlift",
+      "name": "Barbell Romanian Deadlift",
+      "metadataSha256": "3eea334b9ff33197093d01897ae410e5cf7adcbbf3d79e52d3966960d47f90be"
+    },
+    {
+      "id": "g0-24_Kettlebell_Swing",
+      "name": "Kettlebell Swing",
+      "metadataSha256": "253e3f9cb7cbcd5d42beb4f5c424f3328c315e5780b918ce81d10d74c47100b6"
+    },
+    {
+      "id": "g0-25_90_90_Hip_Switch",
+      "name": "90 90 Hip Switch",
+      "metadataSha256": "aa0c9a5df7f56eafdfe0f50cdf707b3da2eefd0d4706c696b8c72ea1e4651c76"
+    },
+    {
+      "id": "g1-01_Conventional_Deadlift",
+      "name": "Conventional Deadlift",
+      "metadataSha256": "8a7d194e0c3e34e0e3bda07ebcaf0c413c95f25c1a996f65a1d0bd06565e8786"
+    },
+    {
+      "id": "g1-02_Romanian_Deadlift",
+      "name": "Romanian Deadlift",
+      "metadataSha256": "a4c6c12ea52a33cf9f07139372b667d6a8c20bef3eafcc642f4e64be2d5503c6"
+    },
+    {
+      "id": "g1-03_Barbell_Good_Morning",
+      "name": "Barbell Good Morning",
+      "metadataSha256": "0f220a791e7cc65d19be3e2aa50444c2d3b01281878a530714f9b0a6e8c751ab"
+    },
+    {
+      "id": "g1-04_45_Degree_Back_Extension",
+      "name": "45 Degree Back Extension",
+      "metadataSha256": "871c9700c10955a3a63e466fd5ae8acd108c3759103971c464fae12a898d92d6"
+    },
+    {
+      "id": "g1-05_Bent_Over_Barbell_Row",
+      "name": "Bent Over Barbell Row",
+      "metadataSha256": "ef04f2d181a6884a2876b0631360cadbc0cf1bd13aa50c16edc80dd9058ee3b1"
+    },
+    {
+      "id": "g1-06_Pendlay_Row",
+      "name": "Pendlay Row",
+      "metadataSha256": "dc0949d0447753ae646e92d09fad4fe1aacb8d5b8b2d3692a2106fb2214cd377"
+    },
+    {
+      "id": "g1-07_T_Bar_Row",
+      "name": "T Bar Row",
+      "metadataSha256": "31930c90be2d2a4d13441ac4f2eb16f9909e189fa0f48488e6d0202cd674a384"
+    },
+    {
+      "id": "g1-08_Single_Arm_Dumbbell_Row",
+      "name": "Single Arm Dumbbell Row",
+      "metadataSha256": "6260da8ce652e1d1240d11531adf40962f076dbf2199661e33749c30f6a22b29"
+    },
+    {
+      "id": "g1-09_Chest_Supported_Dumbbell_Row",
+      "name": "Chest Supported Dumbbell Row",
+      "metadataSha256": "c10124999766356dd0e48d192c406deaa9706760cf62ca3b8fcb9fb5ee061af4"
+    },
+    {
+      "id": "g1-10_Chest_Supported_Machine_Row",
+      "name": "Chest Supported Machine Row",
+      "metadataSha256": "b6ccf0072cfd7c935a9c955154dfa1aa0feb08e78b1e5f0ebc4f658d2c23e927"
+    },
+    {
+      "id": "g1-11_Neutral_Grip_Seated_Cable_Row",
+      "name": "Neutral Grip Seated Cable Row",
+      "metadataSha256": "b7ac7bcc0283cceecedcef32107956d4c9e49d7c6bd077807f792f2899b41f68"
+    },
+    {
+      "id": "g1-12_Wide_Grip_Seated_Cable_Row",
+      "name": "Wide Grip Seated Cable Row",
+      "metadataSha256": "28b20f2cf9ace6539e59267e046c44d6291da8cdd967b52308880ab2f64285b1"
+    },
+    {
+      "id": "g1-13_Wide_Grip_Lat_Pulldown",
+      "name": "Wide Grip Lat Pulldown",
+      "metadataSha256": "70250ac007fc8f1f33a6985fe93d30b94403f754ed0ac9196204f2b925663bd1"
+    },
+    {
+      "id": "g1-14_Close_Neutral_Grip_Pulldown",
+      "name": "Close Neutral Grip Pulldown",
+      "metadataSha256": "4041f855f2cd0a821ce072eaad203c8283e3ecbb7b5e24380a8cbb6b3f63a149"
+    },
+    {
+      "id": "g1-15_Single_Arm_Cable_Pulldown",
+      "name": "Single Arm Cable Pulldown",
+      "metadataSha256": "09df7e7a757c4a3d383d76a1232034ec5c5a484d97d59bdabbefb1d5bbfa08d8"
+    },
+    {
+      "id": "g1-16_Straight_Arm_Cable_Pulldown",
+      "name": "Straight Arm Cable Pulldown",
+      "metadataSha256": "6da023081ac04a1be5a267ac943154c90f0bcca6b77c2b96be862ce508723ee7"
+    },
+    {
+      "id": "g1-17_Overhand_Pull_Up",
+      "name": "Overhand Pull Up",
+      "metadataSha256": "669b964f984162cc9719be91e87a5a7b42dd1cc35c664f351350bd26038719dd"
+    },
+    {
+      "id": "g1-18_Wide_Grip_Pull_Up",
+      "name": "Wide Grip Pull Up",
+      "metadataSha256": "2ed77669b555dbf88fd905b67bbe5e7cf88ded2c632d0b35c35a6cd110294bc7"
+    },
+    {
+      "id": "g1-19_Neutral_Grip_Pull_Up",
+      "name": "Neutral Grip Pull Up",
+      "metadataSha256": "1a0f1ce84ede0d19c8b8483fb58d872a37bc3a39cab5beee9bbf9b9b0a06dccf"
+    },
+    {
+      "id": "g1-20_Overhand_Inverted_Row",
+      "name": "Overhand Inverted Row",
+      "metadataSha256": "5c372c7b24363414a3453f947b99e4f006467264983065a7c8f73ea1a1a1aa99"
+    },
+    {
+      "id": "g1-21_Machine_High_Row",
+      "name": "Machine High Row",
+      "metadataSha256": "6c71d38070ffa9af4a7c39e79cb688cb9e2f904b94f4387b2aebdf4188373cf9"
+    },
+    {
+      "id": "g1-22_Dumbbell_Pullover",
+      "name": "Dumbbell Pullover",
+      "metadataSha256": "b08e1844d21eb643e0ed43b54668909a23944c6681afaecbcd2114db009b858c"
+    },
+    {
+      "id": "g1-23_Barbell_Shrug",
+      "name": "Barbell Shrug",
+      "metadataSha256": "ddd6db44cf2c333e50bec5eca4a63b555da1b346f2a0e7e0bdcad97caec907c6"
+    },
+    {
+      "id": "g1-24_Rope_Face_Pull",
+      "name": "Rope Face Pull",
+      "metadataSha256": "4807ae971fd54d0392ca2c94dc3f1596f98c3c8bd9262f62578599729194ba3b"
+    },
+    {
+      "id": "g1-25_Superman",
+      "name": "Superman",
+      "metadataSha256": "46eba1ce76973825da493713466ab9cdeddc86196e5997ea844fbd4546be1733"
+    },
+    {
+      "id": "g2-01_Standing_Dumbbell_Shoulder_Press",
+      "name": "Standing Dumbbell Shoulder Press",
+      "metadataSha256": "573a1ce5ffa8f4f2d5b164069ddf65249b1856e05586282b733db4083910645b"
+    },
+    {
+      "id": "g2-02_Seated_Dumbbell_Shoulder_Press",
+      "name": "Seated Dumbbell Shoulder Press",
+      "metadataSha256": "eacde0d418ccede160f17989fed611e786e39e768fbb00ba74fb58a4cb660225"
+    },
+    {
+      "id": "g2-03_Arnold_Press",
+      "name": "Arnold Press",
+      "metadataSha256": "dc564b3a7d13efc74d855789eeeab853ae5c5c4f6e7dfb9f6b0c81cc8c9811ed"
+    },
+    {
+      "id": "g2-04_Standing_Barbell_Overhead_Press",
+      "name": "Standing Barbell Overhead Press",
+      "metadataSha256": "11d5814b96dd6668d1119911092c71999386b4bf4e43b10ae9071c211931737c"
+    },
+    {
+      "id": "g2-05_Seated_Barbell_Shoulder_Press",
+      "name": "Seated Barbell Shoulder Press",
+      "metadataSha256": "33077ce09f0773cd386bb1b91a353da8032ef33de5bb776115ac899d23079316"
+    },
+    {
+      "id": "g2-06_Machine_Shoulder_Press",
+      "name": "Machine Shoulder Press",
+      "metadataSha256": "cc7a12cd8269b2f1cf3138d6325ee3223f8a54bad60c6fec6e301d27e95cd304"
+    },
+    {
+      "id": "g2-07_Half_Kneeling_Landmine_Press",
+      "name": "Half Kneeling Landmine Press",
+      "metadataSha256": "7460d611eb1fc551ff250850c289740427a100a21aaa146676724b54d483d36f"
+    },
+    {
+      "id": "g2-08_Two_Hand_Landmine_Press",
+      "name": "Two Hand Landmine Press",
+      "metadataSha256": "486abbc22da3e6c435c3445949c1879cb4e4c52e4ce82de51ecc2b8c7357a1e3"
+    },
+    {
+      "id": "g2-09_Dumbbell_Lateral_Raise",
+      "name": "Dumbbell Lateral Raise",
+      "metadataSha256": "9e60c135b207ead60333a10fa47c9a126b3f4f5b0533f52209cacbc58ec39900"
+    },
+    {
+      "id": "g2-10_Cable_Lateral_Raise",
+      "name": "Cable Lateral Raise",
+      "metadataSha256": "e4efbfcca322807b63a7ed1748dc6eb6f534a170e955f784e16609f0e6dbf9d4"
+    },
+    {
+      "id": "g2-11_Leaning_Lateral_Raise",
+      "name": "Leaning Lateral Raise",
+      "metadataSha256": "952a28abff930fc1a9248a475605354cfe695bb44ff546fe908e5b5a7413d904"
+    },
+    {
+      "id": "g2-12_Dumbbell_Front_Raise",
+      "name": "Dumbbell Front Raise",
+      "metadataSha256": "acac36785e8ecf555a457d2f1c254019c6fde3f2578b2d8895d9a713e73dede6"
+    },
+    {
+      "id": "g2-13_Plate_Front_Raise",
+      "name": "Plate Front Raise",
+      "metadataSha256": "07fe6c15c944dfeb6f062c586a33e512ab7a86c4dadbf7d380bc064f79dce7e1"
+    },
+    {
+      "id": "g2-14_Cable_Front_Raise",
+      "name": "Cable Front Raise",
+      "metadataSha256": "21a55f267a9b08c8865b3816d1dfd8994166a7bbab861ebfe9f80e74d31f6eaf"
+    },
+    {
+      "id": "g2-15_Bent_Over_Rear_Delt_Fly",
+      "name": "Bent Over Rear Delt Fly",
+      "metadataSha256": "cc136fc8a73f1e42dd295d74d1068bcbc6618cb4dad4d961a573736937d50930"
+    },
+    {
+      "id": "g2-16_Chest_Supported_Rear_Delt_Fly",
+      "name": "Chest Supported Rear Delt Fly",
+      "metadataSha256": "6e16e9171626c5160a0f6eb8f8b62f78f50380d6d0a14e22a76106c4de8cc212"
+    },
+    {
+      "id": "g2-17_Reverse_Pec_Deck",
+      "name": "Reverse Pec Deck",
+      "metadataSha256": "4e5ac603bbc2c4f05ddea554eeb47c9badc9ad9faf1f363596f82201e8d8cc91"
+    },
+    {
+      "id": "g2-19_Wide_Grip_Upright_Row",
+      "name": "Wide Grip Upright Row",
+      "metadataSha256": "3dab76063b12e7ed28a8941d169bda4d35ead399a1a77f1d838d913470a792fd"
+    },
+    {
+      "id": "g2-20_Dumbbell_Scaption_Raise",
+      "name": "Dumbbell Scaption Raise",
+      "metadataSha256": "16c7a034726dfff30403509667326a561f110ab39bcc17ef21336c7bf58e7cb1"
+    },
+    {
+      "id": "g2-21_Cuban_Rotation_to_Press",
+      "name": "Cuban Rotation to Press",
+      "metadataSha256": "2183bfad68154f7cf3c8465143c47f645e7d7d549e1b0f163718cb66554d2d24"
+    },
+    {
+      "id": "g2-22_Incline_Bench_Y_Raise",
+      "name": "Incline Bench Y Raise",
+      "metadataSha256": "c75880e54ee011bbfdcd6c0bc5307d9dcbde1998f31fcc565ff5e8dba1eb5b4d"
+    },
+    {
+      "id": "g2-23_Resistance_Band_Pull_Apart",
+      "name": "Resistance Band Pull Apart",
+      "metadataSha256": "2d80e5fa46a1462dcf0baa1086481ef68b13144f49922b43fc67032c3854bdf1"
+    },
+    {
+      "id": "g2-24_Cable_External_Rotation",
+      "name": "Cable External Rotation",
+      "metadataSha256": "dbdc06254656d63a88bd5e4dee54f3326999f3cf6e5d29336262c4827b23727a"
+    },
+    {
+      "id": "g2-25_Pike_Push_Up",
+      "name": "Pike Push Up",
+      "metadataSha256": "92051e484638c0cdb6422c7abc012a07101f02fd7b8d9ec4748e8ce2a98ddda2"
+    },
+    {
+      "id": "g3-01_Standing_Dumbbell_Curl",
+      "name": "Standing Dumbbell Curl",
+      "metadataSha256": "553096c9ff55578acb4cf040d5a2d683ff9b1202a47a6f952c9e3e9cf10fb477"
+    },
+    {
+      "id": "g3-02_Alternating_Dumbbell_Curl",
+      "name": "Alternating Dumbbell Curl",
+      "metadataSha256": "c90a093832166d8b9a8e0e831cdd4b3d12a1bede3dcd56d2d8d9eca00ae1a589"
+    },
+    {
+      "id": "g3-03_Hammer_Curl",
+      "name": "Hammer Curl",
+      "metadataSha256": "eacc40069b0dc4b0d513a63a846f8311cf4442a9d06505660dc06c9bf979434c"
+    },
+    {
+      "id": "g3-04_Cross_Body_Hammer_Curl",
+      "name": "Cross Body Hammer Curl",
+      "metadataSha256": "8f8393753105c099dedf816eaca14903e7d2e833a32921da14e5ea7e310092a3"
+    },
+    {
+      "id": "g3-06_Concentration_Curl",
+      "name": "Concentration Curl",
+      "metadataSha256": "f0b34ea10bf49ea24a489011b980b80ad98ade303fe0b15607997e2eca17bd92"
+    },
+    {
+      "id": "g3-07_Dumbbell_Preacher_Curl",
+      "name": "Dumbbell Preacher Curl",
+      "metadataSha256": "d7d90701fb181b3f3957e5798df4b997506ecda85804a6c7f3cd8997729798aa"
+    },
+    {
+      "id": "g3-08_Spider_Curl",
+      "name": "Spider Curl",
+      "metadataSha256": "f57c05015c5c6d0dcfe3c0dd7e59b588ad2e246c91a3f8ea0f0359ba2a2be5e9"
+    },
+    {
+      "id": "g3-09_Straight_Barbell_Curl",
+      "name": "Straight Barbell Curl",
+      "metadataSha256": "4a8dae62246b42c7bf7a9d2cc9a10550b9dafba5fa9072073ba13a30df04bb87"
+    },
+    {
+      "id": "g3-10_EZ_Bar_Curl",
+      "name": "EZ Bar Curl",
+      "metadataSha256": "3bfc32ec27208791a3600ced8b5afe738b4c2f3dc76017e1de84934f9accd999"
+    },
+    {
+      "id": "g3-11_Preacher_EZ_Bar_Curl",
+      "name": "Preacher EZ Bar Curl",
+      "metadataSha256": "582738163f68e9e5df93f1465325ffb5521b7abafeae91414603e3c0ef996a91"
+    },
+    {
+      "id": "g3-12_Reverse_Barbell_Curl",
+      "name": "Reverse Barbell Curl",
+      "metadataSha256": "d6c7fd9cd17ccce4ce4baa55531ec5472d134505b1fe3b01fe4f7aadc21c8ac4"
+    },
+    {
+      "id": "g3-13_Drag_Curl",
+      "name": "Drag Curl",
+      "metadataSha256": "666db1e3a55fc2015710b6979f30dda9a683fc2bd467f4c8edf9df339e06b1ea"
+    },
+    {
+      "id": "g3-14_Zottman_Curl",
+      "name": "Zottman Curl",
+      "metadataSha256": "179a8fa7d11888e230a2f1730a33f1b988786198a7ddf98cd4d8de5e7059ac64"
+    },
+    {
+      "id": "g3-15_Seated_Dumbbell_Curl",
+      "name": "Seated Dumbbell Curl",
+      "metadataSha256": "167e65d7ab4b36c6f11dcb76bee6e71f44bdf40db79212bc36948fa45e3dba41"
+    },
+    {
+      "id": "g3-16_Seated_Hammer_Curl",
+      "name": "Seated Hammer Curl",
+      "metadataSha256": "10cf7ff84ef64d373176a5fe6a89624f275e28dca9a60617b2c57a5f32e7464a"
+    },
+    {
+      "id": "g3-17_Standing_Cable_Curl",
+      "name": "Standing Cable Curl",
+      "metadataSha256": "9b1f6f614689f2dd57fba86f89daade5a195bb03b9a6fbd2a5a9e7b81ec0fcd5"
+    },
+    {
+      "id": "g3-18_Single_Arm_Cable_Curl",
+      "name": "Single Arm Cable Curl",
+      "metadataSha256": "c7c1cea50179ff05b5e025b7ed23958ca958320bad1a52fbb4f3fdffbab754c8"
+    },
+    {
+      "id": "g3-19_Rope_Hammer_Cable_Curl",
+      "name": "Rope Hammer Cable Curl",
+      "metadataSha256": "74db0ff878cd9390c256fc50c658640f3da0821b1f8707034a9dd34510647e64"
+    },
+    {
+      "id": "g3-20_Bayesian_Cable_Curl",
+      "name": "Bayesian Cable Curl",
+      "metadataSha256": "b44cc6cb6193d4d19952e4dbba52bfafaa4d5dca704d7622fabd175ad3d2113e"
+    },
+    {
+      "id": "g3-21_Overhead_Cable_Curl",
+      "name": "Overhead Cable Curl",
+      "metadataSha256": "4b8ff644b37473680c537a5fb0541d7ddf7c9340a9d59a9ef261e4f98c40eeef"
+    },
+    {
+      "id": "g3-22_Machine_Preacher_Curl",
+      "name": "Machine Preacher Curl",
+      "metadataSha256": "cc23ad84eaf7f4f776fbb29b617df4bd06d0f4bfd34247b85862a96e9eb25878"
+    },
+    {
+      "id": "g3-23_Resistance_Band_Curl",
+      "name": "Resistance Band Curl",
+      "metadataSha256": "7c23bd9400d2e7c5831391540f7d0e67a5fabae216acc8670d24dd95e6d3a3de"
+    },
+    {
+      "id": "g3-24_Chin_Up",
+      "name": "Chin Up",
+      "metadataSha256": "1240daa0f21592d600e6709a0f923ccc91d5d778413dbd114ee188b8a42f9fe2"
+    },
+    {
+      "id": "g3-25_Underhand_Inverted_Row",
+      "name": "Underhand Inverted Row",
+      "metadataSha256": "03dd50dddf92587e753aeec229bcce1e96ca13c6d768c09276aeeebc1934c63c"
+    },
+    {
+      "id": "g4-01_Side_Plank",
+      "name": "Side Plank",
+      "metadataSha256": "558cee40186a047b54002a9c6e10b027ec31526648e0912c7261b975025c9e52"
+    },
+    {
+      "id": "g4-02_Side_Plank_Hip_Dips",
+      "name": "Side Plank Hip Dips",
+      "metadataSha256": "016f53cea075180249e30f3f4a522f4a8209574bf8cb06729ed64903e60b8bb6"
+    },
+    {
+      "id": "g4-03_Side_Plank_Rotation",
+      "name": "Side Plank Rotation",
+      "metadataSha256": "2db9da3e4afe8e64702e7f9e0ea1de00571dfc1797fc9c15e5248f1073541245"
+    },
+    {
+      "id": "g4-04_Bicycle_Crunch",
+      "name": "Bicycle Crunch",
+      "metadataSha256": "5b2aa077ebc05274119c9b74b2b231fe10c29d9d7b228b3cd77cbae37916ce76"
+    },
+    {
+      "id": "g4-05_Heel_Touches",
+      "name": "Heel Touches",
+      "metadataSha256": "bb76f72b79d63fff1b8384dd47a274e7642dac6262a26811a976b7205a121f6d"
+    },
+    {
+      "id": "g4-06_Cross_Body_Crunch",
+      "name": "Cross Body Crunch",
+      "metadataSha256": "315b02943ae70019aff526e548e1c13aced17f157a18b15d0ab36aa661d8e1ba"
+    },
+    {
+      "id": "g4-07_Cross_Body_Mountain_Climber",
+      "name": "Cross Body Mountain Climber",
+      "metadataSha256": "ec5ece463f4194e027af56461d92bc7d728a38747ce294e6a1fb1000b42e4d8e"
+    },
+    {
+      "id": "g4-08_Windshield_Wipers",
+      "name": "Windshield Wipers",
+      "metadataSha256": "d3381f4fad1df6880c8a1db5a9d1613f6e12fe63a638c77ed61140b590942c75"
+    },
+    {
+      "id": "g4-09_Russian_Twist",
+      "name": "Russian Twist",
+      "metadataSha256": "8d935ad298ea5a66e1607408b796d95a38662d89ce2220ed42359fe27e73e071"
+    },
+    {
+      "id": "g4-10_Reverse_Crunch_With_Rotation",
+      "name": "Reverse Crunch With Rotation",
+      "metadataSha256": "369a88b31c8036a10a440c8a2a109979f24d6d32a21b76a620a54b2857fd3bf5"
+    },
+    {
+      "id": "g4-11_Dumbbell_Side_Bend",
+      "name": "Dumbbell Side Bend",
+      "metadataSha256": "0c30e21e5ecac57ac31f36daf662eceecc3ff4e7a36ce39c972bee60ca895c72"
+    },
+    {
+      "id": "g4-12_Weighted_Russian_Twist",
+      "name": "Weighted Russian Twist",
+      "metadataSha256": "cb7c70419ec1c3ccc3aa52824dc7b58aaadd8557ecb2311909062fc3a8f7d2eb"
+    },
+    {
+      "id": "g4-13_Suitcase_Carry",
+      "name": "Suitcase Carry",
+      "metadataSha256": "b635471baea1348de6bcc5374f4828e09d39db4e5862e133180a759dc31ce12f"
+    },
+    {
+      "id": "g4-14_Standing_Oblique_Crunch",
+      "name": "Standing Oblique Crunch",
+      "metadataSha256": "10d204e9f7b25920da42b3f76bb3255132f8fd55ddb1df632d36a6856d488f46"
+    },
+    {
+      "id": "g4-15_High_to_Low_Cable_Woodchop",
+      "name": "High to Low Cable Woodchop",
+      "metadataSha256": "db720908ea391dc504cbdcd026e2aef87ffd6290ed2313c28d52346ba92135fe"
+    },
+    {
+      "id": "g4-16_Low_to_High_Cable_Woodchop",
+      "name": "Low to High Cable Woodchop",
+      "metadataSha256": "f86bbe5143f07ae28fe0d7e4cb309c23375f01b57fcd0f1ce1d17e513d2ad4fe"
+    },
+    {
+      "id": "g4-17_Horizontal_Cable_Rotation",
+      "name": "Horizontal Cable Rotation",
+      "metadataSha256": "a20d2e256cf24810bbba354b40068260e7bf0436f30672a557713f0666de7c61"
+    },
+    {
+      "id": "g4-18_Pallof_Press",
+      "name": "Pallof Press",
+      "metadataSha256": "0740d3d5f9c0dd60d386a86883299f32164ca5cc1763ad32c765ce2ca836c94a"
+    },
+    {
+      "id": "g4-19_Landmine_Rotation",
+      "name": "Landmine Rotation",
+      "metadataSha256": "a4b773389f805173eff96692f1963d8720ebc96d18735149b4f7ca68261daf0d"
+    },
+    {
+      "id": "g4-20_Medicine_Ball_Rotational_Throw",
+      "name": "Medicine Ball Rotational Throw",
+      "metadataSha256": "886044a0281573719bb9bad71b8fd9a876124204eb858b3e563e74a16d40d29e"
+    },
+    {
+      "id": "g4-21_Hanging_Oblique_Knee_Raise",
+      "name": "Hanging Oblique Knee Raise",
+      "metadataSha256": "a74b8c84595a61391eeca36f65faa3e244d11abf710d7d31d38b78aa80f05f20"
+    },
+    {
+      "id": "g4-22_Hanging_Windshield_Wipers",
+      "name": "Hanging Windshield Wipers",
+      "metadataSha256": "8fd8bc86cc134ce8a9810598fed58af70013e650a9889e11e63182ef4f43f55c"
+    },
+    {
+      "id": "g4-23_Hanging_Knee_Raise_With_Twist",
+      "name": "Hanging Knee Raise With Twist",
+      "metadataSha256": "dbdc9abb33da1963bcc3e273fe8e31b846d64689fa8049f208eee696d033288e"
+    },
+    {
+      "id": "g4-24_Copenhagen_Plank",
+      "name": "Copenhagen Plank",
+      "metadataSha256": "8aa573de4b24ca91f24ceffdab76a0a8db85071a406ce0fec0ee3e93e8675d81"
+    },
+    {
+      "id": "g4-25_Side_Plank_Crunch",
+      "name": "Side Plank Crunch",
+      "metadataSha256": "470f4562ea2c0de9e23763040193cfd1ff6bdfdb6597a580f0a2cc4eddee7131"
+    },
+    {
+      "id": "guide-push-up",
+      "name": "Push Up",
+      "metadataSha256": "7a54e553a2a301ad4b658a84b529a6b3cd43b2a3214124fd9c2435e8e63e80a2"
+    },
+    {
+      "id": "guide-close-grip-push-up",
+      "name": "Close Grip Push Up",
+      "metadataSha256": "f44b4327cd93908bb3143c0a06fa96f1c72e24fd8bd7d26c43e8fc3f25d1f9ef"
+    },
+    {
+      "id": "guide-dumbbell-bench-press",
+      "name": "Dumbbell Bench Press",
+      "metadataSha256": "8de353147e8c994cb59197b6937482418ee100d854c21401a3ea94f724d0361f"
+    },
+    {
+      "id": "guide-dumbbell-chest-fly",
+      "name": "Dumbbell Chest Fly",
+      "metadataSha256": "adcbaf9ddf8e5bff15879983ecc6dda3f2b5d3ac9ac9903466a400cb09c96488"
+    },
+    {
+      "id": "guide-overhead-dumbbell-triceps-extension",
+      "name": "Overhead Dumbbell Triceps Extension",
+      "metadataSha256": "e1e42f158b97fcceb71e999c956286e08b6802136a1d5b97efe67157ea6eb51d"
+    },
+    {
+      "id": "guide-cable-triceps-pushdown",
+      "name": "Cable Triceps Pushdown",
+      "metadataSha256": "3b115f78ef5178511c0b6ee7b7ff5362627ba15c4e4ca8ce72e0b2d8dc24eed9"
+    },
+    {
+      "id": "guide-dumbbell-triceps-kickback",
+      "name": "Dumbbell Triceps Kickback",
+      "metadataSha256": "00ed2660afbdb82263a52d8bb63fb1819c54e155c6d11641d83b747adb0c4493"
+    },
+    {
+      "id": "guide-bench-dip",
+      "name": "Bench Dip",
+      "metadataSha256": "fa32a387c513c1a9077f6b734736f143e6376356392c2a73fb6e36571fac94eb"
+    },
+    {
+      "id": "guide-bodyweight-squat",
+      "name": "Bodyweight Squat",
+      "metadataSha256": "c7573b08f3b71d116492c5d4ae2110c6506f0e7a7bbc64ec7911a80014b33ed4"
+    },
+    {
+      "id": "guide-barbell-back-squat",
+      "name": "Barbell Back Squat",
+      "metadataSha256": "2e105bc6a252fc472e01226b242388426fb61d57c763960a2fc5266af6378e57"
+    },
+    {
+      "id": "guide-barbell-front-squat",
+      "name": "Barbell Front Squat",
+      "metadataSha256": "b3f31eab715357a587379f2c84306f8d2a3c5eaaea3388b245db8652ed9d161e"
+    },
+    {
+      "id": "guide-forward-lunge",
+      "name": "Forward Lunge",
+      "metadataSha256": "dcdcc168c806af046976af2eb190037b94c2c610760aade7750d8dc4583da03e"
+    },
+    {
+      "id": "guide-leg-extension",
+      "name": "Leg Extension",
+      "metadataSha256": "1647f3b71f16fadf4a71d3351cafe6768ab70d0cbcf78989516b57fcd125dd87"
+    },
+    {
+      "id": "guide-prone-leg-curl",
+      "name": "Prone Leg Curl",
+      "metadataSha256": "5efabf98365199c522bc83f0f3c6979a6245e30bef49e2356afc069d4fe07f3e"
+    },
+    {
+      "id": "guide-bodyweight-hip-hinge",
+      "name": "Bodyweight Hip Hinge",
+      "metadataSha256": "f4cc61861b83336bb01efcc82280c69c436d0c2ac9a8f4a40feb45bee0817fdc"
+    },
+    {
+      "id": "guide-standing-calf-raise",
+      "name": "Standing Calf Raise",
+      "metadataSha256": "f01c5e02a32dd0953fa193ceb9e8cdc8003aa30d133f6ec6abf6c7e1186c0a51"
+    },
+    {
+      "id": "guide-standing-dumbbell-calf-raise",
+      "name": "Standing Dumbbell Calf Raise",
+      "metadataSha256": "cab8447370567bd304eccf23e817689ceeb34b252bc317f72db3ff1be330f854"
+    },
+    {
+      "id": "guide-crunch",
+      "name": "Crunch",
+      "metadataSha256": "1a9e1a317647a73e21032b020808a5dbba7d4cf0df13c1f1588239355a01b814"
+    },
+    {
+      "id": "guide-lying-leg-raise",
+      "name": "Lying Leg Raise",
+      "metadataSha256": "6a551dd7b0381bd26ba409d6726e7a3777a24f0b95924a1cf850e97e057eda94"
+    },
+    {
+      "id": "guide-dead-bug",
+      "name": "Dead Bug",
+      "metadataSha256": "24dedccd8224e1ff7383bbed19088efcd91702020b05f5fec5305280ae22f188"
+    },
+    {
+      "id": "guide-bird-dog",
+      "name": "Bird Dog",
+      "metadataSha256": "ad000bc80ba4bde8fd994433943855223d023a7e452636439be9c4f622461fdb"
+    },
+    {
+      "id": "guide-seated-wrist-curl",
+      "name": "Seated Wrist Curl",
+      "metadataSha256": "3ef0b5e4baab62efed824efb315e0304d077aa9fba1f8a441c1522d1e7acada7"
+    },
+    {
+      "id": "guide-seated-reverse-wrist-curl",
+      "name": "Seated Reverse Wrist Curl",
+      "metadataSha256": "239e64178022e0d8b18201e18f6e47d6cdb36de61e7c9f02f3f8b8063e7d0cbb"
+    },
+    {
+      "id": "guide-jumping-jack",
+      "name": "Jumping Jack",
+      "metadataSha256": "ddc95609f5024637134f09f4516f37ea564b6d0476de0a87ab345a7b418a2270"
+    },
+    {
+      "id": "guide-mountain-climber",
+      "name": "Mountain Climber",
+      "metadataSha256": "f5e422f39e766a9e183c895ce5417855606c39e098d1f35e1e5ed08632714f1d"
+    },
+    {
+      "id": "guide-lateral-band-walk",
+      "name": "Lateral Band Walk",
+      "metadataSha256": "973f7f65eb5bf639f7fdd049508386d1ca1330dcb1f176dd4a1c35bdb9b3fa4d"
+    },
+    {
+      "id": "guide-incline-dumbbell-curl",
+      "name": "Incline Dumbbell Curl",
+      "metadataSha256": "37dfe8098e63289326a2fd2fe1a136767f55c746deca5608fc5d22b9e276e797"
+    },
+    {
+      "id": "stretch-arm-circles",
+      "name": "Arm Circles",
+      "metadataSha256": "87e63f929ce9ff9cd936dccaca47e98fce1b4a789bfe001c0e9febf4c5604bdb"
+    },
+    {
+      "id": "stretch-torso-rotations",
+      "name": "Standing Torso Rotations",
+      "metadataSha256": "ad59753d8cf97c2f20fab1f8f7cf74ae8768a7b8f543fd07ab265aca1fdff085"
+    },
+    {
+      "id": "stretch-front-leg-swings",
+      "name": "Front-to-Back Leg Swings",
+      "metadataSha256": "5c1ef0a585f6b68c29130dc46a37f2b57df4825b22edec701f09a981e7deeba9"
+    },
+    {
+      "id": "stretch-lateral-leg-swings",
+      "name": "Lateral Leg Swings",
+      "metadataSha256": "844a34a087537010e3d8e98cfc01f91e9d496f9c2e68a3ab4a9e56d5c846d1ff"
+    },
+    {
+      "id": "stretch-cat-cow",
+      "name": "Cat-Cow",
+      "metadataSha256": "9d91fee29c2b0ddc195cd30c9c964c911d66104bd071055356cf332cbac1eb76"
+    },
+    {
+      "id": "stretch-walking-knee-hugs",
+      "name": "Walking Knee Hugs",
+      "metadataSha256": "00452027c61cb97bb2ed4c38d492eb2e34549aa71a9672f3e94a08c927ad791c"
+    },
+    {
+      "id": "stretch-calf",
+      "name": "Standing Calf Stretch",
+      "metadataSha256": "538b6ce2bb5a1071d4d3b2fa71cbb15dc5e30423ef6dfa52ae391bf46910b666"
+    },
+    {
+      "id": "stretch-quadriceps",
+      "name": "Standing Quadriceps Stretch",
+      "metadataSha256": "e35fcdfe54d338791e9ea012e4f1b42cd1ff3186c9bc34cdf1cb33f7fd4ba906"
+    },
+    {
+      "id": "stretch-hamstring",
+      "name": "Seated Hamstring Stretch",
+      "metadataSha256": "813c403a2f317db0e537ac8f03ee2f6f451c712979a1bd41714f6796d550b3b7"
+    },
+    {
+      "id": "stretch-hip-flexor",
+      "name": "Half-Kneeling Hip Flexor Stretch",
+      "metadataSha256": "afd8d265089749be0017dee9036b17a0791d77e879f48971f0146316c75515cf"
+    },
+    {
+      "id": "stretch-figure-four",
+      "name": "Seated Figure-Four Glute Stretch",
+      "metadataSha256": "6d28b4747908ae9859ec78feb157b695161efa8b6fee954d1c2c9993b52a23a8"
+    },
+    {
+      "id": "stretch-shoulder",
+      "name": "Cross-Body Shoulder Stretch",
+      "metadataSha256": "1cf2ccab5c0bf354ab01015b0f2ba619bc0a16beaf5f9f5535508c4326153fb6"
+    },
+    {
+      "id": "prenatal-walk",
+      "name": "Comfortable Walk",
+      "metadataSha256": "6563858b8ce6ddc76c1d15948d6f18ee4e6fa12cf5ac0597881be5ad90d4538e"
+    },
+    {
+      "id": "prenatal-cycle",
+      "name": "Upright Stationary Cycling",
+      "metadataSha256": "05b9e2368c234668ce774a649fa8115d09e5ddef7885c19c8a27ed4de41f38da"
+    },
+    {
+      "id": "prenatal-march",
+      "name": "Supported Marching",
+      "metadataSha256": "d8e1b512a3612eac69fd5e1d9fb07c878c30421255eb62eac3842a328d3b7d4a"
+    },
+    {
+      "id": "prenatal-sit-stand",
+      "name": "Chair Sit-to-Stand",
+      "metadataSha256": "5ad87054db00c5ff81c3ef875f67af0b426959df1061e92d49e6cf458f814c6c"
+    },
+    {
+      "id": "prenatal-wall-pushup",
+      "name": "Wall Push-Up",
+      "metadataSha256": "08a77abac586a3e5aea0515ece544d8409651717c1bd79510ff9a2cdba6d1704"
+    },
+    {
+      "id": "prenatal-band-row",
+      "name": "Seated Band Row",
+      "metadataSha256": "8f39246ac42ae347f94ebf737342d889529a7dd63b6e4408f000f12148f28184"
+    },
+    {
+      "id": "prenatal-band-curl",
+      "name": "Seated Band Biceps Curl",
+      "metadataSha256": "bdac6f833232243e2906e29bd67b08338bcfa3349f4686e8c71da73d07718e3f"
+    },
+    {
+      "id": "prenatal-band-raise",
+      "name": "Seated Band Lateral Raise",
+      "metadataSha256": "a26d01791ff4d1db508eebd1ac778d0d6effa6f8eb38dec690af8a1c2de56bd7"
+    },
+    {
+      "id": "prenatal-calf-raise",
+      "name": "Supported Calf Raise",
+      "metadataSha256": "6632f0a1ccc8173234a1ed8d6feacb4e19fda0ea7d432508444ca119c993bc36"
+    },
+    {
+      "id": "prenatal-leg-extension",
+      "name": "All-Fours Leg Extension",
+      "metadataSha256": "eeac66e6f97eb1ce15a9db4d42e55fcf0a88c79d838a97a43b041205a3a08bed"
+    },
+    {
+      "id": "prenatal-wall-tilt",
+      "name": "Standing Wall Pelvic Tilt",
+      "metadataSha256": "8d2a73890825331674becf84ffc75ba5b01e579c05245e904b77e918bac48838"
+    },
+    {
+      "id": "prenatal-cat-arch",
+      "name": "Gentle Cat Arch",
+      "metadataSha256": "c2c16b2db90b749f117d450105502d51b9de49f70fcc59bcfd69cc9fd8454fb4"
+    },
+    {
+      "id": "prenatal-figure-four",
+      "name": "Seated Figure-Four Stretch",
+      "metadataSha256": "f37b7b161ebca5fb146df6c60532c1830cb3698284852d5f85b1fa3468df236c"
+    },
+    {
+      "id": "prenatal-calf-stretch",
+      "name": "Supported Calf Stretch",
+      "metadataSha256": "fc0920ce9d32e549ec74a33755a46e20a1567d95429ee3c7f9196e26c9760edc"
+    },
+    {
+      "id": "exp-barbell-bench-press",
+      "name": "Barbell Bench Press",
+      "metadataSha256": "dbcb21df64e74cbc134bc4226321c31ed465ee647281ba85b3d2bb786e7823c7"
+    },
+    {
+      "id": "exp-incline-barbell-bench-press",
+      "name": "Incline Barbell Bench Press",
+      "metadataSha256": "189c1ff3abfdb2ed4af128624a613aaf239b0f44e459ec2c0688d7db2e73085c"
+    },
+    {
+      "id": "exp-decline-barbell-bench-press",
+      "name": "Decline Barbell Bench Press",
+      "metadataSha256": "f8880cab8d93b78fc4fdd482811cbf55a1aeab39d6fef42d4c544a6587de3da4"
+    },
+    {
+      "id": "exp-incline-dumbbell-bench-press",
+      "name": "Incline Dumbbell Bench Press",
+      "metadataSha256": "cdb6fe9c4e6b87c968fd022789f2364d4c12097a9a727ff7ef68650d0462c4f6"
+    },
+    {
+      "id": "exp-decline-dumbbell-bench-press",
+      "name": "Decline Dumbbell Bench Press",
+      "metadataSha256": "12217d400c9cf238fbe71872cab7738e826a8e4a61b8e465f32c147ca28afd69"
+    },
+    {
+      "id": "exp-dumbbell-floor-press",
+      "name": "Dumbbell Floor Press",
+      "metadataSha256": "b0fcadd43117af4d3cb2e9074120304ad6ffde4757093912e8a4dd7e5199717d"
+    },
+    {
+      "id": "exp-single-arm-dumbbell-bench-press",
+      "name": "Single Arm Dumbbell Bench Press",
+      "metadataSha256": "2c7bfb1ae8743631e384745fec5d6cc42bee5de107ccf0433c7d61deb9d04298"
+    },
+    {
+      "id": "exp-dumbbell-squeeze-press",
+      "name": "Dumbbell Squeeze Press",
+      "metadataSha256": "a9dfc73eae16f5c35f4bd4bdb39c880672c222fc474e92883875cbd4785ad362"
+    },
+    {
+      "id": "exp-incline-dumbbell-chest-fly",
+      "name": "Incline Dumbbell Chest Fly",
+      "metadataSha256": "4f2a8651d83bf05d0db2bfa387a4719594d5e9092d3e959117c043d05cd77ab7"
+    },
+    {
+      "id": "exp-decline-dumbbell-chest-fly",
+      "name": "Decline Dumbbell Chest Fly",
+      "metadataSha256": "598b85a85265d034c27e9a478a6b621485c34d976d2c4c1b9d64bf3171f70c09"
+    },
+    {
+      "id": "exp-machine-chest-press",
+      "name": "Machine Chest Press",
+      "metadataSha256": "19f8129b07b78f9dd1ade6eb91fa86f7396e51c3a2921d168efbce7036f94a66"
+    },
+    {
+      "id": "exp-incline-machine-chest-press",
+      "name": "Incline Machine Chest Press",
+      "metadataSha256": "3134fd17ea2946413d2ff26b9a75700fa63571d909fbaefe3a04fa531b5d142b"
+    },
+    {
+      "id": "exp-pec-deck-chest-fly",
+      "name": "Pec Deck Chest Fly",
+      "metadataSha256": "d10a8adabd6c63e6230afa4d763b9fc4e516658f54a3dcee6cac2b08e9820492"
+    },
+    {
+      "id": "exp-standing-cable-chest-press",
+      "name": "Standing Cable Chest Press",
+      "metadataSha256": "7ce9784bd63d54b6e029640bb69557b861e6e9a889a42b5b1559eba97bf519a6"
+    },
+    {
+      "id": "exp-single-arm-cable-chest-press",
+      "name": "Single Arm Cable Chest Press",
+      "metadataSha256": "88291f5bb4407828ffa198d0095ee94b15837da49b35d4be6188824f41e52521"
+    },
+    {
+      "id": "exp-standing-cable-chest-fly",
+      "name": "Standing Cable Chest Fly",
+      "metadataSha256": "130705a1619cd5c7941e5a06ab41d78fd2a329449eea26c053fbe6bf58ef2582"
+    },
+    {
+      "id": "exp-low-to-high-cable-chest-fly",
+      "name": "Low to High Cable Chest Fly",
+      "metadataSha256": "fb1ca527c935baaa30932494982397531455f63401a19444131ca6d507ffa27c"
+    },
+    {
+      "id": "exp-high-to-low-cable-chest-fly",
+      "name": "High to Low Cable Chest Fly",
+      "metadataSha256": "4f5b8ec32f5a70d6e1c99c39926271de5d77e5f8de4bcaf926e008e816318860"
+    },
+    {
+      "id": "exp-supine-cable-chest-fly",
+      "name": "Supine Cable Chest Fly",
+      "metadataSha256": "194f5ae74418ba90326168030e72a336b75162dc09ae0d2d98120fb202ec2d56"
+    },
+    {
+      "id": "exp-resistance-band-chest-press",
+      "name": "Resistance Band Chest Press",
+      "metadataSha256": "1a92deefce0c0884db0d858522dfae8da33678033de760b547abd01d2ea0c69f"
+    },
+    {
+      "id": "exp-anchored-resistance-band-chest-fly",
+      "name": "Anchored Resistance Band Chest Fly",
+      "metadataSha256": "598ce858bea41a7f91c15105b4592703df0310789960a2f74a4e65afb199c56c"
+    },
+    {
+      "id": "exp-incline-push-up",
+      "name": "Incline Push-Up",
+      "metadataSha256": "2356131aa1323ada965812e0854d59f2d4b2c3759900366fc6e6acf8dc3c892a"
+    },
+    {
+      "id": "exp-decline-push-up",
+      "name": "Decline Push-Up",
+      "metadataSha256": "7e697fac41e5d4ac1ab40102b534897fa5352666ef4c59bfb7526036ab5ad6a2"
+    },
+    {
+      "id": "exp-kneeling-push-up",
+      "name": "Kneeling Push-Up",
+      "metadataSha256": "65db26f8cd81a0d5430a6e71b0350b0d596469c673251a195b66385feaa41a6f"
+    },
+    {
+      "id": "exp-scapular-push-up",
+      "name": "Scapular Push-Up",
+      "metadataSha256": "c003f5a615c03dd08476e039a46317f6b5ef9387d0d62ba445ba063d07165df7"
+    },
+    {
+      "id": "exp-resistance-band-push-up",
+      "name": "Resistance Band Push-Up",
+      "metadataSha256": "ae1d3537cd40e43ecea6636942688f9f7d45ad1d4c4fbf880a294f89ab668b29"
+    },
+    {
+      "id": "exp-suspension-chest-press",
+      "name": "Suspension Chest Press",
+      "metadataSha256": "0b38982bad1fede14055991c51ee334592b56fb029c9cd151850396d994032d7"
+    },
+    {
+      "id": "exp-suspension-chest-fly",
+      "name": "Suspension Chest Fly",
+      "metadataSha256": "b0b24d34f8c0ddb30534d1191b29ba94863625d34d52a68c8ed8e39a7d9c992e"
+    },
+    {
+      "id": "exp-seated-cable-chest-press",
+      "name": "Seated Cable Chest Press",
+      "metadataSha256": "cc4df76767cdba20632ac0077ca0ac059782a6cf0d2c8ce67ae7c4cb5aa7f369"
+    },
+    {
+      "id": "exp-medicine-ball-chest-pass",
+      "name": "Medicine Ball Chest Pass",
+      "metadataSha256": "424ee8115eb0bf41367132938294de61c282332801e67a85d633eb3e8753b4d8"
+    },
+    {
+      "id": "exp-single-arm-dumbbell-floor-press",
+      "name": "Single Arm Dumbbell Floor Press",
+      "metadataSha256": "c92d2a3b3c0d9d666c308b4b8696f1252eea9584a8e0429c844b882f71049272"
+    },
+    {
+      "id": "exp-kettlebell-floor-press",
+      "name": "Kettlebell Floor Press",
+      "metadataSha256": "83ae0a905ceb19ed90ad857fff9c23eabe033c92a255eef8065a5b306ce0f7b4"
+    },
+    {
+      "id": "exp-close-grip-barbell-bench-press",
+      "name": "Close Grip Barbell Bench Press",
+      "metadataSha256": "ae0816749862fc85547f1528c2bdc91ddcd4c003aa20390451f9adf56c6ec82a"
+    },
+    {
+      "id": "exp-close-grip-barbell-floor-press",
+      "name": "Close Grip Barbell Floor Press",
+      "metadataSha256": "3e2e4d1d4845c5ac8bd51de400152b8f1c351ab2b05a6e0dcc2f3cfd9047d6f8"
+    },
+    {
+      "id": "exp-ez-bar-lying-triceps-extension",
+      "name": "EZ Bar Lying Triceps Extension",
+      "metadataSha256": "56296daba9f2a38124f099ce1fa5f47db3bc98f1c1dc3485dd051445008e6e04"
+    },
+    {
+      "id": "exp-dumbbell-lying-triceps-extension",
+      "name": "Dumbbell Lying Triceps Extension",
+      "metadataSha256": "826ad5c68817f4716a7903cfdecf9bfc934de4988dee40061101ee3769961adc"
+    },
+    {
+      "id": "exp-single-arm-overhead-dumbbell-extension",
+      "name": "Single Arm Overhead Dumbbell Extension",
+      "metadataSha256": "e05ec82ea37fdd8535724eade13bf177c1981d5fef1ff9b93ba5f504b79f9d96"
+    },
+    {
+      "id": "exp-seated-cable-overhead-triceps-extension",
+      "name": "Seated Cable Overhead Triceps Extension",
+      "metadataSha256": "90270d4e28499d38bc0617f2d03a4664d56cd7e81a113d35226b203a7b0646df"
+    },
+    {
+      "id": "exp-single-arm-cable-triceps-pressdown",
+      "name": "Single Arm Cable Triceps Pressdown",
+      "metadataSha256": "fc471c99b026bfbccc428143f2943fe62c521829485bb08a2db7ce96521f9e44"
+    },
+    {
+      "id": "exp-cable-triceps-kickback",
+      "name": "Cable Triceps Kickback",
+      "metadataSha256": "8b8f14ca39d0e8f428b67b8653c0c057294d888e3aec850bb3882a3669947650"
+    },
+    {
+      "id": "exp-resistance-band-triceps-pressdown",
+      "name": "Resistance Band Triceps Pressdown",
+      "metadataSha256": "e909ba03254c82a8d4c5d1e25dc47c0c94d5438ac07111612e9802436fda92c8"
+    },
+    {
+      "id": "exp-resistance-band-overhead-triceps-extension",
+      "name": "Resistance Band Overhead Triceps Extension",
+      "metadataSha256": "79879241907fdb2b90d4efe8cae7fb9aaed2bea5b75172ab244971d53eeb70c6"
+    },
+    {
+      "id": "exp-resistance-band-triceps-kickback",
+      "name": "Resistance Band Triceps Kickback",
+      "metadataSha256": "fa0330537b604312fe3fb28ce6f9d5139be600b9a2d4db459728c130424f23f5"
+    },
+    {
+      "id": "exp-suspension-triceps-extension",
+      "name": "Suspension Triceps Extension",
+      "metadataSha256": "c5f03a903324c46560955dceaf03e359ceb4d044e49b307ab08dbd3bbb0330d1"
+    },
+    {
+      "id": "exp-bench-bodyweight-triceps-extension",
+      "name": "Bench Bodyweight Triceps Extension",
+      "metadataSha256": "65ac9204fbd04af1cb3f5f14b2349919a9ddd5e27a7c133a0be663c5422ea03e"
+    },
+    {
+      "id": "exp-parallel-bar-triceps-dip",
+      "name": "Parallel Bar Triceps Dip",
+      "metadataSha256": "fcdb6586b31f3b32191198a64a61a991bd9f2ff2500d23994d4c84d4c031121e"
+    },
+    {
+      "id": "exp-assisted-triceps-dip",
+      "name": "Assisted Triceps Dip",
+      "metadataSha256": "3fc45861de171dc020b357d23cbd0affd4a5198c9460d6a93b07b19d6c741f01"
+    },
+    {
+      "id": "exp-machine-triceps-extension",
+      "name": "Machine Triceps Extension",
+      "metadataSha256": "f8c39dddfafe267c4b9e1de1bf12f9c5aba94302db6d58292ee31c0cd64788a3"
+    },
+    {
+      "id": "exp-lying-cable-triceps-extension",
+      "name": "Lying Cable Triceps Extension",
+      "metadataSha256": "d2bf1e30a1d9039785c3b16c3ae5558df8c14d9bb0274e9c2c8268c56bb06a2c"
+    },
+    {
+      "id": "exp-cross-body-cable-triceps-extension",
+      "name": "Cross Body Cable Triceps Extension",
+      "metadataSha256": "c2a9e68d877f6ef62a0b640b348cfcb3485369a9bc83d0476c134cd194d0d186"
+    },
+    {
+      "id": "exp-standing-single-arm-cable-row",
+      "name": "Standing Single Arm Cable Row",
+      "metadataSha256": "358ebe24688ac70f6e42c9b31076251006ded796f2680806546ff3d3a5438220"
+    },
+    {
+      "id": "exp-resistance-band-bent-over-row",
+      "name": "Resistance Band Bent Over Row",
+      "metadataSha256": "c08c70694db7c60f6e7415a6ba57523c15538a6d3367f72acb77dcfbe88eabbc"
+    },
+    {
+      "id": "exp-bent-over-cable-row",
+      "name": "Bent Over Cable Row",
+      "metadataSha256": "d239e5dc3aa5e2321a3a1f44e339e3f364bb45db9376cc0344f5d2917b44f74e"
+    },
+    {
+      "id": "exp-kettlebell-bent-over-row",
+      "name": "Kettlebell Bent Over Row",
+      "metadataSha256": "e9b1a28b0267f90bde1fc9b1e22924ccdaa0a2f48bf0a6abac730ea24a910d37"
+    },
+    {
+      "id": "exp-renegade-row",
+      "name": "Renegade Row",
+      "metadataSha256": "ec2a4f1f1003d7eec809fafd27747dec18bb8c082be02c912cedb762476f7eeb"
+    },
+    {
+      "id": "exp-standing-high-cable-row",
+      "name": "Standing High Cable Row",
+      "metadataSha256": "301e137591ab2744ae70a82270696da4d8ffef343f7dac347bbfabb2f2868ed1"
+    },
+    {
+      "id": "exp-plate-loaded-lat-pulldown",
+      "name": "Plate Loaded Lat Pulldown",
+      "metadataSha256": "5e6c95526cb24606de4a3d55fe12ff84b175d42f4462f2c221b608dca08898fc"
+    },
+    {
+      "id": "exp-resistance-band-lat-pulldown",
+      "name": "Resistance Band Lat Pulldown",
+      "metadataSha256": "e93e52f527611d5ad620668a215df0bda9945b8e8f0c033585d77bb96f5bb7a3"
+    },
+    {
+      "id": "exp-resistance-band-straight-arm-pulldown",
+      "name": "Resistance Band Straight Arm Pulldown",
+      "metadataSha256": "b83901f14b7217f8ca7dcf3d1bee7e203070ea7d36a22da34b9e072c9ee917fd"
+    },
+    {
+      "id": "exp-machine-pullover",
+      "name": "Machine Pullover",
+      "metadataSha256": "87eed52d9783c8a242211b69513e923be02a56c17d598879dfe7ce01cc0d53a4"
+    },
+    {
+      "id": "exp-supine-cable-pullover",
+      "name": "Supine Cable Pullover",
+      "metadataSha256": "2289c04503f6e3dc06f2ed144f6611e7bb7b89eb7d67b1b18ddebd7499f30966"
+    },
+    {
+      "id": "exp-scapular-pull-up",
+      "name": "Scapular Pull-Up",
+      "metadataSha256": "49cf49fbdbe8f27747724fcb62cc734145ffb4a6f3c89d433b4df5a3461faf56"
+    },
+    {
+      "id": "exp-machine-assisted-pull-up",
+      "name": "Machine Assisted Pull-Up",
+      "metadataSha256": "83668fbd943f9130990977414b378776daa6c26f62682bc1d17275d9226ff7d4"
+    },
+    {
+      "id": "exp-suspension-row",
+      "name": "Suspension Row",
+      "metadataSha256": "0f0c88fd55cb0832efc95c44445e808fd2553af779eac177125080c114d8d556"
+    },
+    {
+      "id": "exp-cable-shrug",
+      "name": "Cable Shrug",
+      "metadataSha256": "87bee341afb5f2dbec6b135c41d7a0c3ca26483238717dc729c604df86d53de6"
+    },
+    {
+      "id": "exp-dumbbell-shrug",
+      "name": "Dumbbell Shrug",
+      "metadataSha256": "8ce72cf8b1b7afdc65edd8295ea31fec78fbc8a9d4be57ecda38190fe65e1034"
+    },
+    {
+      "id": "exp-band-assisted-pull-up",
+      "name": "Band Assisted Pull-Up",
+      "metadataSha256": "3d1bf3a060b841ea60428b1071fa3b3d45f1a1f11a1a56b9464ab5b8c334ff29"
+    },
+    {
+      "id": "exp-prone-cobra-hold",
+      "name": "Prone Cobra Hold",
+      "metadataSha256": "cc0a7ddb0784618899c61d337911301063348730003539d95da87956ae0f68f9"
+    },
+    {
+      "id": "exp-resistance-band-face-pull",
+      "name": "Resistance Band Face Pull",
+      "metadataSha256": "72799017dca2043399e8d0565a1769e5fd135b4c20797db8240c40843fd53c6f"
+    },
+    {
+      "id": "exp-barbell-pullover",
+      "name": "Barbell Pullover",
+      "metadataSha256": "43317e3ae5fc83764c48009f43da788be2663ca82809475dbaf2b16812ba8659"
+    },
+    {
+      "id": "exp-resistance-band-shoulder-press",
+      "name": "Resistance Band Shoulder Press",
+      "metadataSha256": "7906cbe9a370c27f914622b2f0df7886ccbd6a666108d1dfb04ab483ec3c0e7e"
+    },
+    {
+      "id": "exp-kettlebell-shoulder-press",
+      "name": "Kettlebell Shoulder Press",
+      "metadataSha256": "098a1b0c5d885ac35d3a3f45f58b029c327ea718db3d691f33361ea659dde7ca"
+    },
+    {
+      "id": "exp-single-arm-standing-dumbbell-shoulder-press",
+      "name": "Single Arm Standing Dumbbell Shoulder Press",
+      "metadataSha256": "ea7aa9530440899ff911c94b33019514ec1376d5fc00d646618623fda9426f81"
+    },
+    {
+      "id": "exp-single-arm-seated-cable-shoulder-press",
+      "name": "Single Arm Seated Cable Shoulder Press",
+      "metadataSha256": "5c0702d24f1b79ccf4de819f70e6c815db66e15754bf4ac377eb897724d70203"
+    },
+    {
+      "id": "exp-dumbbell-push-press",
+      "name": "Dumbbell Push Press",
+      "metadataSha256": "742f4736eeda3c8043216727b961206b6ccaed7ba5ccb442924b17927208750d"
+    },
+    {
+      "id": "exp-barbell-push-press",
+      "name": "Barbell Push Press",
+      "metadataSha256": "2aed94ea498845ebb8e38bf079621e733304a52e117062b574ebe0dfd61fa76f"
+    },
+    {
+      "id": "exp-cable-scaption-raise",
+      "name": "Cable Scaption Raise",
+      "metadataSha256": "e6ddf979c37ad9a520f00f3ce9b8ce19d6eba4ebc3c293abeaba6665ef5b13e7"
+    },
+    {
+      "id": "exp-machine-lateral-raise",
+      "name": "Machine Lateral Raise",
+      "metadataSha256": "95ee1ae6cba9fc78688e3091504cc0dec8ac24179a605241417b0f4d779b9ac0"
+    },
+    {
+      "id": "exp-cable-y-raise",
+      "name": "Cable Y Raise",
+      "metadataSha256": "bce6bc43d85ceed3572fc1ee43789513cf1385e003ad38a4d99715fd426f5c41"
+    },
+    {
+      "id": "exp-resistance-band-front-raise",
+      "name": "Resistance Band Front Raise",
+      "metadataSha256": "a7359e1e3d1131368076ea67a0ef2b9b9c56828725c86aa4d6009d77bfa94e81"
+    },
+    {
+      "id": "exp-prone-dumbbell-w-raise",
+      "name": "Prone Dumbbell W Raise",
+      "metadataSha256": "b0c0fabe36210a94fc13bb8c5f5ed07e5b57c514c56b5a7560cfb50df5226d33"
+    },
+    {
+      "id": "exp-prone-dumbbell-i-raise",
+      "name": "Prone Dumbbell I Raise",
+      "metadataSha256": "8ff50b67d8547f7526ce9734e54c3e8141c0bdfbc117fc231558662eeffa6bbd"
+    },
+    {
+      "id": "exp-cable-rear-delt-fly",
+      "name": "Cable Rear Delt Fly",
+      "metadataSha256": "982c170ec4bc35109a7a17e85cc0828794f38651fae049961e52d76f5b20ec1b"
+    },
+    {
+      "id": "exp-anchored-resistance-band-rear-delt-fly",
+      "name": "Anchored Resistance Band Rear Delt Fly",
+      "metadataSha256": "f183a749588bf3e2b3bb46642d96a150d145e7388dd0f49d48549a541cf50d57"
+    },
+    {
+      "id": "exp-side-lying-dumbbell-external-rotation",
+      "name": "Side Lying Dumbbell External Rotation",
+      "metadataSha256": "de40b05907b66fe5e93e69ae7c2f59b5c91ba3da298950411e6bdbd9c377617c"
+    },
+    {
+      "id": "exp-side-lying-dumbbell-internal-rotation",
+      "name": "Side Lying Dumbbell Internal Rotation",
+      "metadataSha256": "30bd9d67d77db3352dacad5eea6abf542bbb8d648d7808b59299c37acf8e6b53"
+    },
+    {
+      "id": "exp-cable-internal-rotation",
+      "name": "Cable Internal Rotation",
+      "metadataSha256": "cbe0e6bc9b79acfbc381c2eb9b5c1b52f77111edcd4c014a798b10e469d83a40"
+    },
+    {
+      "id": "exp-dumbbell-serratus-punch",
+      "name": "Dumbbell Serratus Punch",
+      "metadataSha256": "5873972e0e3607e31feb8a04e34a6fff7662558306a50c46c15d601659f30bd4"
+    },
+    {
+      "id": "exp-resistance-band-external-rotation",
+      "name": "Resistance Band External Rotation",
+      "metadataSha256": "70267c12f5fe2d8c6355221daa0a13417e0d61e5301f331199840e68c6fd4f16"
+    },
+    {
+      "id": "exp-resistance-band-w-pull",
+      "name": "Resistance Band W Pull",
+      "metadataSha256": "a8e1d962bbc0f6939047dc11bd84de25738e554d5f080040801a0a9d45b2b82c"
+    },
+    {
+      "id": "exp-cable-preacher-curl",
+      "name": "Cable Preacher Curl",
+      "metadataSha256": "e1bf319803cb97527a71dff4145bc8ec5197e29710c1d76e603d40fffe206b88"
+    },
+    {
+      "id": "exp-resistance-band-hammer-curl",
+      "name": "Resistance Band Hammer Curl",
+      "metadataSha256": "c8b64c0c0b4cf69be2e8facb5631025f185950c8dd8e20b427602ebaa646930d"
+    },
+    {
+      "id": "exp-suspension-biceps-curl",
+      "name": "Suspension Biceps Curl",
+      "metadataSha256": "e0cc8d705c1d9731bc332d15b5db85bafc2ed51609b97cff87264e6bcbb73b07"
+    },
+    {
+      "id": "exp-kettlebell-biceps-curl",
+      "name": "Kettlebell Biceps Curl",
+      "metadataSha256": "0ce6ff5e8c57801753450d4349df2188d8001e8781ea4b98adb71b818c2f0e02"
+    },
+    {
+      "id": "exp-incline-dumbbell-hammer-curl",
+      "name": "Incline Dumbbell Hammer Curl",
+      "metadataSha256": "b8d1901da0ef409040ee6b6159eb023647e7501a1cabbd88938afa71e968914d"
+    },
+    {
+      "id": "exp-reverse-cable-curl",
+      "name": "Reverse Cable Curl",
+      "metadataSha256": "eb708e63b7e3be0665c6e3605ad24f0103417eaeeca2a28da1cdefe5ca5a72ad"
+    },
+    {
+      "id": "exp-cable-drag-curl",
+      "name": "Cable Drag Curl",
+      "metadataSha256": "48d506fcc600297e980c17f333865746fe251f52a91356db0a00ecd0647893cd"
+    },
+    {
+      "id": "exp-dumbbell-curl-isometric-hold",
+      "name": "Dumbbell Curl Isometric Hold",
+      "metadataSha256": "979e40bae1bf7b3b047c8332a2c669a2d356343e451457517c753cf82c9218b4"
+    },
+    {
+      "id": "exp-single-arm-incline-dumbbell-bench-press",
+      "name": "Single Arm Incline Dumbbell Bench Press",
+      "metadataSha256": "e85b8e282cd62d3fbf99c9b787edd61d43fb6ea02c0aafb3987c376777dfb009"
+    },
+    {
+      "id": "exp-chest-supported-barbell-row",
+      "name": "Chest Supported Barbell Row",
+      "metadataSha256": "3c3b531100db89defe7ccfc89036a53c7bda51a4fe5be03ffb0ac7427bc6161d"
+    },
+    {
+      "id": "exp-dumbbell-front-squat",
+      "name": "Dumbbell Front Squat",
+      "metadataSha256": "16661bfa9d4fdea412aa7d016a6751a7699d5cb4c005e99bc88f053e3d183aaa"
+    },
+    {
+      "id": "exp-dumbbell-suitcase-squat",
+      "name": "Dumbbell Suitcase Squat",
+      "metadataSha256": "2acfe9cccde6ffc8deae1111af6b628e4928c605a14c9b4c717129ac777f9496"
+    },
+    {
+      "id": "exp-barbell-box-squat",
+      "name": "Barbell Box Squat",
+      "metadataSha256": "96de054586157df7fe6550ff181c0d4d8b21c747ba4ca653bf95afb5dc57b512"
+    },
+    {
+      "id": "exp-zercher-squat",
+      "name": "Zercher Squat",
+      "metadataSha256": "a9f0bd2586698d08c39243a6ebbf04caf57f60c6cffd723154f4ac574767f034"
+    },
+    {
+      "id": "exp-landmine-squat",
+      "name": "Landmine Squat",
+      "metadataSha256": "105696de3650eafaa6912ca3b8f0f71ec07a7005c6ab676d1720ca08229877b0"
+    },
+    {
+      "id": "exp-belt-squat",
+      "name": "Belt Squat",
+      "metadataSha256": "104ffba56ba933d38dbe364b7b8963530e5105380d4f4eb9f0bbc02b43120be0"
+    },
+    {
+      "id": "exp-hack-squat-machine",
+      "name": "Hack Squat Machine",
+      "metadataSha256": "32e0284e749246ae5e5bf68e05e3124891f8c2a674df93cd04085849f23224d6"
+    },
+    {
+      "id": "exp-smith-machine-squat",
+      "name": "Smith Machine Squat",
+      "metadataSha256": "d26b2b1c80a1212c075116a828a1e0e17a100f9470394a34906bf1de0efbfd14"
+    },
+    {
+      "id": "exp-45-degree-leg-press",
+      "name": "45-Degree Leg Press",
+      "metadataSha256": "1893cbc7d273d701ba14a376484a353992ddd0eb8bf1d9d4dc38cd5da69b1afe"
+    },
+    {
+      "id": "exp-horizontal-leg-press",
+      "name": "Horizontal Leg Press",
+      "metadataSha256": "23c265fd5cb78e4f42338f42b3b2289c48d64b2f4be22029801b6d3e3efdcd0c"
+    },
+    {
+      "id": "exp-single-leg-leg-press",
+      "name": "Single-Leg Leg Press",
+      "metadataSha256": "eed2648ee185016f5839f2fa6bf5328131f572110f52854d55f737e6d0136808"
+    },
+    {
+      "id": "exp-wall-sit",
+      "name": "Wall Sit",
+      "metadataSha256": "abe15ffb6476965978675b0f381b66525590706736ffeafbf64287fabab94b58"
+    },
+    {
+      "id": "exp-forward-step-down",
+      "name": "Forward Step-Down",
+      "metadataSha256": "69ce2d860ebd3099e5c682e671b1188c33a1f01cb86ba01414ad0e92adae39e1"
+    },
+    {
+      "id": "exp-dumbbell-step-up",
+      "name": "Dumbbell Step-Up",
+      "metadataSha256": "95f1e55fce3820fbd149a5dcc125b4f58d9269cfe5d0395a42d80845185faed4"
+    },
+    {
+      "id": "exp-lateral-step-up",
+      "name": "Lateral Step-Up",
+      "metadataSha256": "c83c1401292bd2a34b93bc17cb4a5cb5b8496e6dfe72440cddfc921b937ab5af"
+    },
+    {
+      "id": "exp-crossover-step-up",
+      "name": "Crossover Step-Up",
+      "metadataSha256": "46f88bcc14dcf9f16bafc4677ff875fa78bee04ae764d36d04d90fb883aefbda"
+    },
+    {
+      "id": "exp-dumbbell-forward-lunge",
+      "name": "Dumbbell Forward Lunge",
+      "metadataSha256": "bb98d4cce7b6ed5f2ee5b23ec59329d7e6392ffe6fe7051e77e82f80b97f4ef5"
+    },
+    {
+      "id": "exp-dumbbell-reverse-lunge",
+      "name": "Dumbbell Reverse Lunge",
+      "metadataSha256": "623ad19ca9aeb500a3a2c17c01690ff529c5cd2dba05effba8bd4d69f5ed5c1a"
+    },
+    {
+      "id": "exp-barbell-reverse-lunge",
+      "name": "Barbell Reverse Lunge",
+      "metadataSha256": "d229a20401f1213b01c41a902f5920c183a6b6dd823b7fbc338661313bd20a4c"
+    },
+    {
+      "id": "exp-barbell-split-squat",
+      "name": "Barbell Split Squat",
+      "metadataSha256": "9f040f70e79d461ebd423f6c5247add4b5360881c917c6da352b12fa7411feee"
+    },
+    {
+      "id": "exp-dumbbell-split-squat",
+      "name": "Dumbbell Split Squat",
+      "metadataSha256": "13261beba56c3a0e70be571f5c0c7bd33d455cae00784efa9bb1feedb0ee5c33"
+    },
+    {
+      "id": "exp-bodyweight-reverse-lunge",
+      "name": "Bodyweight Reverse Lunge",
+      "metadataSha256": "e265d0d74f64e28726b6f0c9325202a2aa7226e41dec2fff48428799dceaaac7"
+    },
+    {
+      "id": "exp-walking-lunge",
+      "name": "Walking Lunge",
+      "metadataSha256": "3187b3c40929dd2eba00345cb22a2bb5a0a3decdf269c1e5604c806ba5352388"
+    },
+    {
+      "id": "exp-dumbbell-walking-lunge",
+      "name": "Dumbbell Walking Lunge",
+      "metadataSha256": "777a1c1b9913b9e3e7d60a69154d7f828a86d333a0d32f2148f67377da78f2d4"
+    },
+    {
+      "id": "exp-front-foot-elevated-split-squat",
+      "name": "Front-Foot-Elevated Split Squat",
+      "metadataSha256": "b19b0cbce3b3071a09c20afceffae8ec4eb03d94b78fa653421b799f891192a8"
+    },
+    {
+      "id": "exp-cable-split-squat",
+      "name": "Cable Split Squat",
+      "metadataSha256": "307cf625c9a97a8bcf09b97a95b59afdd73a026f4cba250734e1e2711b4fdebf"
+    },
+    {
+      "id": "exp-suspension-assisted-squat",
+      "name": "Suspension-Assisted Squat",
+      "metadataSha256": "a399a9405ca2f3f144dc646cde3bdd688265ec67fb05e90c9fd9e2281752963d"
+    },
+    {
+      "id": "exp-single-leg-box-squat",
+      "name": "Single-Leg Box Squat",
+      "metadataSha256": "c1382823bd4b5c60dd63c929bbf66fcc1c8e9092cf3f67f3213f904a0eca338e"
+    },
+    {
+      "id": "exp-single-leg-leg-extension",
+      "name": "Single-Leg Leg Extension",
+      "metadataSha256": "72ca0632ccfd7d69ab7a6c914df9c1f73e7be0ecbc7b60e2d6a5ea61a6990066"
+    },
+    {
+      "id": "exp-standing-cable-leg-extension",
+      "name": "Standing Cable Leg Extension",
+      "metadataSha256": "7cec87ce2c60f0011fa60323050879d39b3633256ec5b41fea31bc376983a951"
+    },
+    {
+      "id": "exp-dumbbell-romanian-deadlift",
+      "name": "Dumbbell Romanian Deadlift",
+      "metadataSha256": "ac4fdca7db2fa6c889f8b5ae63bf81571b345269ef72a8c48371227e3eb2d5a0"
+    },
+    {
+      "id": "exp-kettlebell-romanian-deadlift",
+      "name": "Kettlebell Romanian Deadlift",
+      "metadataSha256": "0a527f731e07265d9241bd269914216b08a78f454471b8fdb255026393379e7c"
+    },
+    {
+      "id": "exp-trap-bar-deadlift",
+      "name": "Trap-Bar Deadlift",
+      "metadataSha256": "6ae813452852e0a38ba447033f5dd8633bdfeccf3ee69379db96098bbfbbca9a"
+    },
+    {
+      "id": "exp-barbell-sumo-deadlift",
+      "name": "Barbell Sumo Deadlift",
+      "metadataSha256": "f52e21c8e93e8ade7a625de399167f60d2cbe390648bba5a8a3e5b50734a6887"
+    },
+    {
+      "id": "exp-kettlebell-deadlift",
+      "name": "Kettlebell Deadlift",
+      "metadataSha256": "edc9b3208ad3173dd97641324922fb50b314006630ce4b4a7dcd7da0f7ade2c6"
+    },
+    {
+      "id": "exp-dumbbell-deadlift",
+      "name": "Dumbbell Deadlift",
+      "metadataSha256": "47bda90c4bea4ca85c77fea6d2adfe965cac50d7cf9d0de678436b1268d0d980"
+    },
+    {
+      "id": "exp-cable-pull-through",
+      "name": "Cable Pull-Through",
+      "metadataSha256": "0f8fefd9f948134b093638f0a5679d382a99799b4ac168d87546a8904072c557"
+    },
+    {
+      "id": "exp-resistance-band-good-morning",
+      "name": "Resistance-Band Good Morning",
+      "metadataSha256": "31d5833e61ccb6b31f4f9d466ada5e3114b666367ba5ebeaf2b352ec2459f8e1"
+    },
+    {
+      "id": "exp-seated-leg-curl",
+      "name": "Seated Leg Curl",
+      "metadataSha256": "8dd0484f605d2a377ef4f4db25b65b810d55d80fcca1545863c027909845aafc"
+    },
+    {
+      "id": "exp-single-leg-seated-leg-curl",
+      "name": "Single-Leg Seated Leg Curl",
+      "metadataSha256": "6def2869d84fdfe3e9650d1b0309915639fe00faf14519fe2bf87b7c4940e5ee"
+    },
+    {
+      "id": "exp-standing-leg-curl-machine",
+      "name": "Standing Leg Curl Machine",
+      "metadataSha256": "cdbb558ed74d362ca3451f56028cb96a2e7d4d6ac8d37e26a8ea7538144e675a"
+    },
+    {
+      "id": "exp-single-leg-prone-leg-curl",
+      "name": "Single-Leg Prone Leg Curl",
+      "metadataSha256": "ebdd54fdc9da58adf19821043060dadd045e88d90d51d4b74ca92bab2f15b31d"
+    },
+    {
+      "id": "exp-kneeling-leg-curl-machine",
+      "name": "Kneeling Leg Curl Machine",
+      "metadataSha256": "0b0e3d1c4fce925b8222159caf9c64cd3c1e6aa1a3e93b0689cde8710244a041"
+    },
+    {
+      "id": "exp-standing-cable-leg-curl",
+      "name": "Standing Cable Leg Curl",
+      "metadataSha256": "0c09cccfd13437deebaeaeff80ac92e6dfe70e6e0cae6b0e4179e71503e2e105"
+    },
+    {
+      "id": "exp-resistance-band-prone-leg-curl",
+      "name": "Resistance-Band Prone Leg Curl",
+      "metadataSha256": "e1a201452629004f25b852bc90d7c8e544dabd1a4a1b3c43494a090658c8f1f3"
+    },
+    {
+      "id": "exp-slider-hamstring-curl",
+      "name": "Slider Hamstring Curl",
+      "metadataSha256": "a8144b610cb92a2364b07b0ab21f8a840b0458bd30a6b466fee351a464d4ba52"
+    },
+    {
+      "id": "exp-single-leg-slider-hamstring-curl",
+      "name": "Single-Leg Slider Hamstring Curl",
+      "metadataSha256": "0fa3ffeb94334d5a3c8c88ff03d560f4aab5868a411c52e5ab7c98e7e0f89d8d"
+    },
+    {
+      "id": "exp-stability-ball-hamstring-curl",
+      "name": "Stability-Ball Hamstring Curl",
+      "metadataSha256": "1b59167d916d00a32c793bf6f1aeba0a19f52514d2c35809896c936ee82a3790"
+    },
+    {
+      "id": "exp-single-leg-stability-ball-hamstring-curl",
+      "name": "Single-Leg Stability-Ball Hamstring Curl",
+      "metadataSha256": "576e6c927fe66a48fdcb62ad113351bcd12376bef51af8bcab68d50cbb268ad6"
+    },
+    {
+      "id": "exp-suspension-hamstring-curl",
+      "name": "Suspension Hamstring Curl",
+      "metadataSha256": "7d9b810a6480123c91d95f75c07c5e2a29e19c95efe2e385905b64fbccaaa4d5"
+    },
+    {
+      "id": "exp-assisted-nordic-hamstring-curl",
+      "name": "Assisted Nordic Hamstring Curl",
+      "metadataSha256": "4dcb4cbb6623e44e75fa84785f495868ae8242a206f8ecbdf8e33871f9442d6b"
+    },
+    {
+      "id": "exp-glute-ham-raise",
+      "name": "Glute-Ham Raise",
+      "metadataSha256": "9c8e5a75d2c6c00347cc394785798e1a5724691ae324e6c29e30d7b124ec3e13"
+    },
+    {
+      "id": "exp-hamstring-walkout",
+      "name": "Hamstring Walkout",
+      "metadataSha256": "ea3ed734531dc3e5bb9aeb00b532dc3b3b512b455bb55705f2ad4f8d5c4c63ec"
+    },
+    {
+      "id": "exp-b-stance-dumbbell-romanian-deadlift",
+      "name": "B-Stance Dumbbell Romanian Deadlift",
+      "metadataSha256": "2f3c11514024dac3c85b8286bdc6ef429b2fd982a01c07f932e8e1cb06835385"
+    },
+    {
+      "id": "exp-resistance-band-romanian-deadlift",
+      "name": "Resistance-Band Romanian Deadlift",
+      "metadataSha256": "c6cf3f493f9274948cc47d60865af86952fe95c5daf44334dc8609604f02e4b1"
+    },
+    {
+      "id": "exp-bodyweight-bench-hip-thrust",
+      "name": "Bodyweight Bench Hip Thrust",
+      "metadataSha256": "5cdd9876bd8885223b6100d377bae83cef2020d9831eaa09f556a07e89257100"
+    },
+    {
+      "id": "exp-dumbbell-hip-thrust",
+      "name": "Dumbbell Hip Thrust",
+      "metadataSha256": "6f9b0ee321d2a6c4d72efad0a5c1b1dc1bd70c5f4959de513db9b22ed52d85fa"
+    },
+    {
+      "id": "exp-single-leg-hip-thrust",
+      "name": "Single-Leg Hip Thrust",
+      "metadataSha256": "7ad5e3c3c7f03ff5210abe30704bd6ad07ee07cf85a0366c1c9be37a6213457b"
+    },
+    {
+      "id": "exp-smith-machine-hip-thrust",
+      "name": "Smith Machine Hip Thrust",
+      "metadataSha256": "3519a93cc68add7037829d615c41e9f894a0ed9e7a4a0f9169009a3176ba08cc"
+    },
+    {
+      "id": "exp-hip-thrust-machine",
+      "name": "Hip Thrust Machine",
+      "metadataSha256": "ce1888e48669cae3dcb671b10e384d86e495450eac7c4b51ae7dec4aa99e1748"
+    },
+    {
+      "id": "exp-dumbbell-glute-bridge",
+      "name": "Dumbbell Glute Bridge",
+      "metadataSha256": "61637ed397ef228688b5d285b3e15aba1675b9d9c2ecc9d42e12ac748f11723f"
+    },
+    {
+      "id": "exp-barbell-glute-bridge",
+      "name": "Barbell Glute Bridge",
+      "metadataSha256": "23a202d406351888b7560bce21eae6eb5c88d32b63e1cfc74ea9338c4145f667"
+    },
+    {
+      "id": "exp-feet-elevated-glute-bridge",
+      "name": "Feet-Elevated Glute Bridge",
+      "metadataSha256": "f50970fca6e76a5841dd184b5617ab04c6aab58fefd68f3a14916cdc548b0cd9"
+    },
+    {
+      "id": "exp-single-leg-feet-elevated-glute-bridge",
+      "name": "Single-Leg Feet-Elevated Glute Bridge",
+      "metadataSha256": "99a22957a51ece0d64ffd9e036cface5f2132b9c91ad5fbe86add33a5fc87334"
+    },
+    {
+      "id": "exp-reverse-hyperextension-machine",
+      "name": "Reverse Hyperextension Machine",
+      "metadataSha256": "2a8fb3f6618fa4748c84dbeacddfd7b0b835fdd1934eceac896082f3af1bbf1f"
+    },
+    {
+      "id": "exp-standing-hip-extension-machine",
+      "name": "Standing Hip Extension Machine",
+      "metadataSha256": "11282370baa2dcbe18d4ab84106a0bd8a49e11031ba302cb270ea2a5def6742a"
+    },
+    {
+      "id": "exp-resistance-band-standing-hip-extension",
+      "name": "Resistance-Band Standing Hip Extension",
+      "metadataSha256": "a8dbcf37c5a61b0239872c7be01ea9fa651c3d433958ce67b43cba9b2cea7dfd"
+    },
+    {
+      "id": "exp-bodyweight-clamshell",
+      "name": "Bodyweight Clamshell",
+      "metadataSha256": "9fa4457bd55e5c579db36a3658589dc245584c18552ca53254dd066e6ab3de78"
+    },
+    {
+      "id": "exp-banded-side-lying-hip-abduction",
+      "name": "Banded Side-Lying Hip Abduction",
+      "metadataSha256": "b481c28cd20ba646f271122409102c91296b92955aecbf4bb5edd32390acdf86"
+    },
+    {
+      "id": "exp-standing-band-hip-abduction",
+      "name": "Standing Band Hip Abduction",
+      "metadataSha256": "865140eb2902ab23322b3a6bc926d0b9c132e464ca2a103f9b47211c5477411d"
+    },
+    {
+      "id": "exp-seated-band-hip-abduction",
+      "name": "Seated Band Hip Abduction",
+      "metadataSha256": "d5a7378bf416c9ada894b536008a73ba12ab290414cd74da759c1d2492eb30da"
+    },
+    {
+      "id": "exp-cable-hip-adduction",
+      "name": "Cable Hip Adduction",
+      "metadataSha256": "cf5705d9ee1c68ec95b3783f83a7136a4419b18c744becb57c4ec86b20c66c6a"
+    },
+    {
+      "id": "exp-side-lying-hip-adduction",
+      "name": "Side-Lying Hip Adduction",
+      "metadataSha256": "80f0ff437973b7027878d1a1091373cb8e79429562c387300b4b1fa5fb03f82e"
+    },
+    {
+      "id": "exp-standing-band-hip-adduction",
+      "name": "Standing Band Hip Adduction",
+      "metadataSha256": "08636184e725d41eff52a8bd37e295ddafd4a71c032a6ae1a16c58f2a54f4bdd"
+    },
+    {
+      "id": "exp-dumbbell-lateral-lunge",
+      "name": "Dumbbell Lateral Lunge",
+      "metadataSha256": "a048c3fb26b630cb892ffc6eeb1dc207aa2d3439c1fd7bb95d6177dba2ac02cb"
+    },
+    {
+      "id": "exp-dumbbell-curtsy-lunge",
+      "name": "Dumbbell Curtsy Lunge",
+      "metadataSha256": "918de8a141e8970bfa3269514ef3e05384bb1c8a11a5816e63705bc2ed5e60af"
+    },
+    {
+      "id": "exp-bodyweight-bulgarian-split-squat",
+      "name": "Bodyweight Bulgarian Split Squat",
+      "metadataSha256": "809cb4d1a36a916e333bbd358da6788212e28de817c170a56e710894eb501d83"
+    },
+    {
+      "id": "exp-barbell-bulgarian-split-squat",
+      "name": "Barbell Bulgarian Split Squat",
+      "metadataSha256": "18c7bc2993eba8ab178f6a1dcebb76bedb7ccb79adf3a2611fdfa804d893c9fa"
+    },
+    {
+      "id": "exp-cable-reverse-lunge",
+      "name": "Cable Reverse Lunge",
+      "metadataSha256": "48663b9e94ec2c8ca5bd72dea5ea382e314c08af167172caa54863349e9ab793"
+    },
+    {
+      "id": "exp-sliding-lateral-lunge",
+      "name": "Sliding Lateral Lunge",
+      "metadataSha256": "84811abc13b8b67afd17b4cd56d9eb8d79c0d9d873a77280de0bc74167952833"
+    },
+    {
+      "id": "exp-seated-calf-raise-machine",
+      "name": "Seated Calf Raise Machine",
+      "metadataSha256": "70d62100c315b02013080b01e1daa2256fdbb74b215162e9b463169eb281a880"
+    },
+    {
+      "id": "exp-seated-dumbbell-calf-raise",
+      "name": "Seated Dumbbell Calf Raise",
+      "metadataSha256": "fe80c50c62ac5043c385b47fb850a14dfc780aa056a52198257b56bd898814a2"
+    },
+    {
+      "id": "exp-smith-machine-seated-calf-raise",
+      "name": "Smith Machine Seated Calf Raise",
+      "metadataSha256": "7fee939083aab7bd83b793517913a0abde2baec70caf353d4bd328bc87a01bde"
+    },
+    {
+      "id": "exp-standing-calf-raise-machine",
+      "name": "Standing Calf Raise Machine",
+      "metadataSha256": "f14ef1a10e45fb8478143706ee30f7039ab28916017cde420501591cee37a29c"
+    },
+    {
+      "id": "exp-single-leg-standing-calf-raise",
+      "name": "Single-Leg Standing Calf Raise",
+      "metadataSha256": "3650ad29d53851df5f2000e165099a2d42769c995c3d66226cad6fad989f0287"
+    },
+    {
+      "id": "exp-single-leg-dumbbell-calf-raise",
+      "name": "Single-Leg Dumbbell Calf Raise",
+      "metadataSha256": "94a6c1e0fae3ae6d863bc4ce69fb99e19c129d36be058f848c7b9de879610583"
+    },
+    {
+      "id": "exp-leg-press-calf-raise",
+      "name": "Leg Press Calf Raise",
+      "metadataSha256": "d72265aa12c4df6345b4344b73c4ef71ea798ed1bfb132378429f66d8e35d267"
+    },
+    {
+      "id": "exp-smith-machine-standing-calf-raise",
+      "name": "Smith Machine Standing Calf Raise",
+      "metadataSha256": "32bfebf6eda32ce41f344903a6aa374ab4ed7dfea408a243737e69d9a6409dde"
+    },
+    {
+      "id": "exp-donkey-calf-raise-machine",
+      "name": "Donkey Calf Raise Machine",
+      "metadataSha256": "6787abbfa5878ba110a28cc8224548d91aa544776eb8fd64bea7bdf03adb3d47"
+    },
+    {
+      "id": "exp-band-resisted-seated-calf-press",
+      "name": "Band-Resisted Seated Calf Press",
+      "metadataSha256": "c102f7f02f6c92075551c3694251f71e38392d6756798aca9e2956627dc3fdb9"
+    },
+    {
+      "id": "exp-forearm-plank",
+      "name": "Forearm Plank",
+      "metadataSha256": "89de4ef87eb30a41b91d68040abe013f21b49f870bbf1b9c51fd12ce4e74cfde"
+    },
+    {
+      "id": "exp-reverse-crunch",
+      "name": "Reverse Crunch",
+      "metadataSha256": "617e0624ff4a79594c6c2574da78bc28597e3d3a7074e8f956d83b342921c20f"
+    },
+    {
+      "id": "exp-flutter-kick",
+      "name": "Flutter Kick",
+      "metadataSha256": "fd03039cf61d45719f589894299cc49b6bcd7a585367727db4ca64fec1c63475"
+    },
+    {
+      "id": "exp-hollow-body-hold",
+      "name": "Hollow Body Hold",
+      "metadataSha256": "4b26dba9ed296b45d94da26fbd743f6152e4d44c8fa0bd2036646f29329c0597"
+    },
+    {
+      "id": "exp-kneeling-ab-wheel-rollout",
+      "name": "Kneeling Ab Wheel Rollout",
+      "metadataSha256": "f2a623af628487f7e0e33696aeac192ad801652f0af408d0d84b92d1c2df13c6"
+    },
+    {
+      "id": "exp-stability-ball-crunch",
+      "name": "Stability Ball Crunch",
+      "metadataSha256": "cc6a76fd926304e03417a56a7b630d292fee194f4eda6e79d7693c8161d3f89c"
+    },
+    {
+      "id": "exp-stability-ball-knee-tuck",
+      "name": "Stability Ball Knee Tuck",
+      "metadataSha256": "34ccdb5dbb82d4fed9f4229b921efd22ec3cddfe660d0a8a2fa12dd064189100"
+    },
+    {
+      "id": "exp-kneeling-cable-crunch",
+      "name": "Kneeling Cable Crunch",
+      "metadataSha256": "8ff01f131633d365b4b69d8df50f8ad2fd145c08c7fd7f4b624ddf97af24b403"
+    },
+    {
+      "id": "exp-captains-chair-knee-raise",
+      "name": "Captain's Chair Knee Raise",
+      "metadataSha256": "b655c77c84daf38d2605bada9dbad40098656e8d3855cb4fc7873840da0c4bc1"
+    },
+    {
+      "id": "exp-v-up",
+      "name": "V-Up",
+      "metadataSha256": "a931681cc26db70db7917f6a528c9589aa275e0b0788b35d01df665eee6f94d4"
+    },
+    {
+      "id": "exp-plank-shoulder-tap",
+      "name": "Plank Shoulder Tap",
+      "metadataSha256": "795ea3472c0872bc9c6f0857c2025f4afe9a89fca1aa4205965d0cf6c9e93a3d"
+    },
+    {
+      "id": "exp-sit-up",
+      "name": "Sit-Up",
+      "metadataSha256": "3c05b77ea91b624daa5644298918e7ce38c4457303c3bd9ddfb89c8f53b22730"
+    },
+    {
+      "id": "exp-hanging-straight-leg-raise",
+      "name": "Hanging Straight-Leg Raise",
+      "metadataSha256": "79b4cdaeac192f586468c7462f343c226e26e69baa2088d1cc3920565a5e92b1"
+    },
+    {
+      "id": "exp-slider-body-saw",
+      "name": "Slider Body Saw",
+      "metadataSha256": "bea31563e72127429a57982df05917c3607f2cd99b044097ad06f44ec5b50225"
+    },
+    {
+      "id": "exp-bear-plank-hold",
+      "name": "Bear Plank Hold",
+      "metadataSha256": "f36e36400aee57e0cf7c4970f4565b68e699432dee74d8649d8add9605862a8b"
+    },
+    {
+      "id": "exp-suitcase-deadlift",
+      "name": "Suitcase Deadlift",
+      "metadataSha256": "50333f298413ad4a21b1cecf35279618a0e756c00ee3a307d5d837371366837b"
+    },
+    {
+      "id": "exp-side-plank-cable-row",
+      "name": "Side Plank Cable Row",
+      "metadataSha256": "0fadd379467938001baded5bd9d41bb756033e3b9656273eae99884eb09507dc"
+    },
+    {
+      "id": "exp-dumbbell-windmill",
+      "name": "Dumbbell Windmill",
+      "metadataSha256": "e293d42f065a7bead2a277302e9a035999f64bb5607e4537058e5666f7c6ce56"
+    },
+    {
+      "id": "exp-medicine-ball-rotational-slam",
+      "name": "Medicine Ball Rotational Slam",
+      "metadataSha256": "2ab45a63573bf2b944afddee39e695d7efad24d26db11007f7921de364746ed7"
+    },
+    {
+      "id": "exp-bear-plank-dumbbell-drag",
+      "name": "Bear Plank Dumbbell Drag",
+      "metadataSha256": "5a16098ab915d9bdbab39dba532d1a6eb8c69216e0bc37e6b682cbf09b2c76d4"
+    },
+    {
+      "id": "exp-side-lying-oblique-v-up",
+      "name": "Side-Lying Oblique V-Up",
+      "metadataSha256": "8cd12dca26cdd5b4599ca2b50bb97da38ead19b386ca045f2e15fcd089492c95"
+    },
+    {
+      "id": "exp-pallof-walkout",
+      "name": "Band Pallof Walkout",
+      "metadataSha256": "b2450c994b79c465e1151b08cd15f049a1b0d0e58efa977159184413e156af9d"
+    },
+    {
+      "id": "exp-single-arm-overhead-carry",
+      "name": "Single-Arm Overhead Carry",
+      "metadataSha256": "ade39d1b8a7a5467a82c896fdc70f671508690f178b1a100bccf20d9b372cc7d"
+    },
+    {
+      "id": "exp-plate-pinch-hold",
+      "name": "Plate Pinch Hold",
+      "metadataSha256": "39e26f9722608a1941247d86bd58d8f3ca81f6ab89d613d95385f7e95dd47032"
+    },
+    {
+      "id": "exp-dead-hang",
+      "name": "Dead Hang",
+      "metadataSha256": "3e3da6de7a250ff33102df31f75535ce545639c7d4fd6e495273587a2946cc02"
+    },
+    {
+      "id": "exp-wrist-roller",
+      "name": "Wrist Roller",
+      "metadataSha256": "54a582b2e90fa39d4b3ac6237fc62c1dc9d9bf74c21980255ef8f6cad5cc2172"
+    },
+    {
+      "id": "exp-forearm-pronation-supination",
+      "name": "Dumbbell Forearm Pronation and Supination",
+      "metadataSha256": "d7229f0c6b8efd639b77fa845010153e3fde91311e91073fb4b75cae0b2f39b3"
+    },
+    {
+      "id": "exp-dumbbell-radial-deviation",
+      "name": "Dumbbell Radial Deviation",
+      "metadataSha256": "3ef5a7cc2dbd7452ef65f6b3c3a13c37361b80472d90a9e368f87f67b2795e24"
+    },
+    {
+      "id": "exp-hand-gripper-squeeze",
+      "name": "Hand Gripper Squeeze",
+      "metadataSha256": "892203d51423fc93ca11f0ddd0cdd6d8c2fac11cc23c8c129db0f5a42460ea6a"
+    },
+    {
+      "id": "exp-finger-band-extension",
+      "name": "Finger Band Extension",
+      "metadataSha256": "c5c56690865c86085a2a1db4ffebc3dcc6ed354ba521e2b10e962fe7e831ce77"
+    },
+    {
+      "id": "exp-burpee",
+      "name": "Burpee",
+      "metadataSha256": "0ddd5566aa5a46612ace394ad06ed293f94628c1a4077f8a293169f71602d8b1"
+    },
+    {
+      "id": "exp-step-back-burpee",
+      "name": "Step-Back Burpee",
+      "metadataSha256": "180f3a6259337d1a7779d20c278624e2d6d09e9e1ad4b7942dee96f6ca55e91f"
+    },
+    {
+      "id": "exp-dumbbell-thruster",
+      "name": "Dumbbell Thruster",
+      "metadataSha256": "ab24dc705b0c687fb717554880bfbf156c7b645e0b735a06b0f20a26e685efe7"
+    },
+    {
+      "id": "exp-medicine-ball-slam",
+      "name": "Medicine Ball Slam",
+      "metadataSha256": "6e88c2188851c48fa134539a22ae4feb86dca39b4142388639d45ca3c717ede8"
+    },
+    {
+      "id": "exp-sled-push",
+      "name": "Sled Push",
+      "metadataSha256": "8d86d1409fa0410341ad649cce300c0a3ded168f03c7bc682865abebb54bf121"
+    },
+    {
+      "id": "exp-backward-sled-drag",
+      "name": "Backward Sled Drag",
+      "metadataSha256": "da344f0b2f2243a122146e29f14f8a6c67b285b800f341277a26a3772b23ae01"
+    },
+    {
+      "id": "exp-battle-rope-alternating-waves",
+      "name": "Battle Rope Alternating Waves",
+      "metadataSha256": "e665fa5a58b75cc5c047f8f7359e84988ae64fd4c0efc86f0ddd78ae5c224ad7"
+    },
+    {
+      "id": "exp-farmers-carry",
+      "name": "Farmer's Carry",
+      "metadataSha256": "f0d093c6fb4bf2b56b72cb10e97437ae25b9a26a1f70e949eb4005a0ef0f3430"
+    },
+    {
+      "id": "exp-sandbag-bear-hug-carry",
+      "name": "Sandbag Bear-Hug Carry",
+      "metadataSha256": "6e1834919744e21a5e7071a8c070204b8a22f64ede376fa6778a5825a743a5e3"
+    },
+    {
+      "id": "exp-bear-crawl",
+      "name": "Bear Crawl",
+      "metadataSha256": "54769670f86c99d3eeea6325de587b87c63adb271850f3940e51e602cd2ebaa6"
+    },
+    {
+      "id": "exp-inchworm-walkout",
+      "name": "Inchworm Walkout",
+      "metadataSha256": "40bc95b90c0a29d3151fb89d5bf47f79ea03be95fa816ffea6657aa5ca25fecf"
+    },
+    {
+      "id": "exp-treadmill-jog",
+      "name": "Treadmill Jog",
+      "metadataSha256": "6231dabf5ea05926514069b30815d195b9c3370f8a09acad50a64203c65cbfd2"
+    },
+    {
+      "id": "exp-elliptical-trainer",
+      "name": "Elliptical Trainer",
+      "metadataSha256": "3bba0d24161de9bccc175857a14e08a23885a5a7d5fe03d2fd2eab230ff93f45"
+    },
+    {
+      "id": "exp-rowing-machine",
+      "name": "Rowing Machine",
+      "metadataSha256": "fc32b7e942ec6cc409536d4129f579d03aa300c6f0ee1d26b172c177b3de2b7f"
+    },
+    {
+      "id": "exp-air-bike",
+      "name": "Air Bike",
+      "metadataSha256": "902ecf198e0d1bb91e45c9abbb619a265ef8443e817106b835648606b3e32ee6"
+    },
+    {
+      "id": "exp-stair-climber",
+      "name": "Stair Climber",
+      "metadataSha256": "f3832b7e387e7bd7f13ac25fb87459d554253c0be33135395dc06fd936aa302e"
+    },
+    {
+      "id": "exp-jump-rope",
+      "name": "Jump Rope",
+      "metadataSha256": "68500c5bd832f55c71e990c14d619f76fe24f705276af3e60c097883042d4f96"
+    },
+    {
+      "id": "exp-shadow-boxing",
+      "name": "Shadow Boxing",
+      "metadataSha256": "90197d42f2bbd2e048b72ba674fd69a4ac2a9e0f8e4fd28f2fa082bb79b5b183"
+    },
+    {
+      "id": "exp-lateral-shuffle",
+      "name": "Lateral Shuffle",
+      "metadataSha256": "10b72ceae2645985fe437311267c7ee29d9889e78e9fecfab02c7d569eedaf45"
+    },
+    {
+      "id": "exp-high-knees",
+      "name": "High Knees",
+      "metadataSha256": "25d5902638c13f426fb5c95d562f1ff6d9ced23a3235fda9ca2c6e5b1740907b"
+    },
+    {
+      "id": "exp-butt-kicks",
+      "name": "Butt Kicks",
+      "metadataSha256": "2df3fe3be6ab19fcfdb7d7622c8a0ce1284bf2af942d88361aa7bf103cd4485a"
+    },
+    {
+      "id": "exp-thoracic-open-book",
+      "name": "Thoracic Open Book",
+      "metadataSha256": "0ba6b9d39622ebada3ec32b359bdeccd1a5b63e5674209ee83833825ac13bc03"
+    },
+    {
+      "id": "exp-quadruped-thread-the-needle",
+      "name": "Quadruped Thread the Needle",
+      "metadataSha256": "82d78212bf2dc53a187239278b9b4aec1696a8678005dc29e7b0fa8849ed1ad5"
+    },
+    {
+      "id": "exp-wall-slides",
+      "name": "Wall Slides",
+      "metadataSha256": "1de586dbd7ce99480821c8364f059e633b3ee31d34235d49d30508c274b5d393"
+    },
+    {
+      "id": "exp-knee-to-wall-ankle-mobilization",
+      "name": "Knee-to-Wall Ankle Mobilization",
+      "metadataSha256": "9302fcc8b666cac3e9b9c017e32d8c174440f8b494bcb404e6331e7db0d089d4"
+    },
+    {
+      "id": "exp-quadruped-adductor-rock-back",
+      "name": "Quadruped Adductor Rock-Back",
+      "metadataSha256": "6be3ddbcb96f572bc2252bcb249dad61fcdd6c7934fa8a9dfe22670b683dfbe3"
+    },
+    {
+      "id": "exp-childs-pose-lat-reach",
+      "name": "Child's Pose Lat Reach",
+      "metadataSha256": "a13e9974f841847e254132ca8b0f43efea4d686cd91d19660df0a4122e991db0"
+    },
+    {
+      "id": "exp-quadruped-wrist-rock",
+      "name": "Quadruped Wrist Rock",
+      "metadataSha256": "fe8e6c5cd94de3e12335fc0f00a0f70b385de7dd687e60084e881752ec8ded41"
+    },
+    {
+      "id": "exp-gentle-neck-rotation",
+      "name": "Gentle Neck Rotation",
+      "metadataSha256": "cf454807aa7fe4cdd169c3c970dc7b9fa9502a778dd6d80f254ef99d4e2faa12"
+    },
+    {
+      "id": "exp-prone-press-up",
+      "name": "Prone Press-Up",
+      "metadataSha256": "a0a95cfaefff2c3cae3cf366398faa50b3308c24b6c9ad49b255d82db0bd9a20"
+    },
+    {
+      "id": "exp-doorway-chest-stretch",
+      "name": "Doorway Chest Stretch",
+      "metadataSha256": "d2e9844113dd727ff177457d5f722594d61c19e998bb8bb585c4521e4ddec599"
+    },
+    {
+      "id": "postpartum-comfortable-rib-breathing",
+      "name": "Comfortable Rib Breathing",
+      "metadataSha256": "802b62f97952af4837f8bf578fe468c307d8fcb7d847efa7f7788057091643ea"
+    },
+    {
+      "id": "postpartum-pelvic-floor-release",
+      "name": "Pelvic Floor Release",
+      "metadataSha256": "46e9bda6a484e76766682e0ad19a7fd0409da9e3f22674147a0097e2441f556b"
+    },
+    {
+      "id": "postpartum-gentle-ankle-movement",
+      "name": "Gentle Ankle Movement",
+      "metadataSha256": "2232aab6af29f5a700ff57ffbd1ea9a1fc5907041b79ea98760d00d308a45393"
+    },
+    {
+      "id": "postpartum-short-easy-walk",
+      "name": "Short Easy Walk",
+      "metadataSha256": "b6a12dedfe89656a8cf7f833267ff32146a1e06ab1bf36b34b605205b1a978fd"
+    },
+    {
+      "id": "postpartum-gentle-pelvic-floor-lift-release",
+      "name": "Gentle Pelvic Floor Lift and Release",
+      "metadataSha256": "123952372192ff2aa144e04e2909750dc942ae4bfab30b49a5df22cf64766559"
+    },
+    {
+      "id": "postpartum-side-lying-core-connection",
+      "name": "Side-Lying Core Connection",
+      "metadataSha256": "6e615b03ac22d59a7bd0819ffda7da3c8e812909f5a0c1db7187df48a71629d2"
+    },
+    {
+      "id": "kettlebell-russian-twist",
+      "name": "Kettlebell Russian Twist",
+      "metadataSha256": "5d5cfb89ef9361e3940defe3f37720665cfa30db6c5f4fe80e06d3ab844fe796"
+    },
+    {
+      "id": "kettlebell-sit-up",
+      "name": "Kettlebell Sit-Up",
+      "metadataSha256": "8bb4741fc244eb15492622a47070b67404b98cd33389eb52b636af5d526dcc3a"
+    },
+    {
+      "id": "kettlebell-halo",
+      "name": "Kettlebell Halo",
+      "metadataSha256": "956b9639e8960c08e80b9a5ba2600f730a72877906fa4f770e4f796e82afad40"
+    }
+  ],
+  "originalMuscles": {
+    "g0-01_Bodyweight_Glute_Bridge": "c7218dea65a40f9f3343eb593c329b316732f08507bdee409ae0dbf3a897f0b9",
+    "g0-02_Barbell_Hip_Thrust": "82c3248b56d23cc59e6c03eed9b93abad7e2f1a30dc91bf40bcca91854f372c3",
+    "g0-03_Single_Leg_Glute_Bridge": "18ceb3d1360a9939ef94e9fd4f65f4c94a33c81aea7e0c769ee8d9b365f860d4",
+    "g0-04_Frog_Pump": "ee4a3510d74312f656a517171e3287819e6d962889f0b2953a9aad97e3fdef02",
+    "g0-05_Side_Lying_Clamshell": "fb5a63e3d365dcdc393632b13c130028b6025d40670b88ba8d6042124b9e2af9",
+    "g0-06_Side_Lying_Hip_Abduction": "bbc2ce354a912a5b788fc8bc9e622deda7f56a2e01aff2e085503e00cab47da6",
+    "g0-07_Quadruped_Donkey_Kick": "a7131257598deb7d8636d86624f3c96ea819b8d0d43b71b359aab52361284525",
+    "g0-08_Quadruped_Fire_Hydrant": "f7fac0ec139539a34182012df37207f8e149ffe1945ca557a6a1d339de7d6943",
+    "g0-09_Cable_Hip_Abduction": "4b0895998b88687002514120ff32cfa38d575be677aaa9e39713ab18641d8458",
+    "g0-10_Cable_Glute_Kickback": "e4e6550bc877dccd180cb56b5a909a21a6089280402214529261fa51c5912040",
+    "g0-12_Monster_Walk": "65187a6d4e270b7648da346cacb453dffda9675efb9f7838c8d497bb07cfe547",
+    "g0-13_Goblet_Squat": "e039e5db378bf4eee400ad40141cc7c272ca112d1ef5d59c230c218ec2e2ac58",
+    "g0-14_Sumo_Dumbbell_Squat": "2088ed0ff68ce8bb3b689531b9a080250ad1635c46c15058a278eb1e45a91a81",
+    "g0-15_Reverse_Lunge": "78f21c25c4012e6c7d181d42a7cb22b7f49a0015747e893aaddad5796948296b",
+    "g0-16_Bulgarian_Split_Squat": "101ed2df4f25e7bda39870d9eab82aaa40ed828425b29858f5614d3255524db0",
+    "g0-17_Low_Box_Step_Up": "2444725c69fbd932dc6ddde2bc36068d01170811594b1eb0cf1356e2f0026a36",
+    "g0-18_Lateral_Lunge": "44b6c463acffe600cbfcfa5b4487b43323506efb489e17a097a4415da1d1ee16",
+    "g0-19_Curtsy_Lunge": "f5b54588f63ae41974c940399a4aa22b49b9c78586819b315eda2022c06ffdd9",
+    "g0-20_Single_Leg_Dumbbell_RDL": "83413309d9b4caddd4539b0f3121a2761c2edef544056499c476619c8ea46fa0",
+    "g0-21_Hip_Abduction_Machine": "e489716b7d671120d4728a0900543d4c361fed7331e6550227d4a796f4e94907",
+    "g0-22_Hip_Adduction_Machine": "21e82c2c66c1de127c4ad9f1a0691e0215abedcf4a41814ca1c110665fcf42c3",
+    "g0-23_Barbell_Romanian_Deadlift": "75f7ccbbdbe690dc62e3550927988f1edfba6e05b409082a9c368a02d7382d83",
+    "g0-24_Kettlebell_Swing": "353c75a2ff75e78ea0c41b4d8cfde9c3a7fed913ea8e4c981022623999ad2952",
+    "g0-25_90_90_Hip_Switch": "3c358e449323efa0c4aa5851af1f81b743f577bf6bcd1999929b8349141bc4dc",
+    "g1-01_Conventional_Deadlift": "363bd918f2edb8848406acd7889e752bb61625f9f70b008c47b1aa9f4b825740",
+    "g1-02_Romanian_Deadlift": "b3999dd8658d04c47e9dc43f8ae8b783ba7a7fd5fbd5131674a63ca8a20e2a88",
+    "g1-03_Barbell_Good_Morning": "e8cb9523675ab6e895a73774a341b00b1370ce7dcaedbc329573da9424824200",
+    "g1-04_45_Degree_Back_Extension": "44776d221738db9f56568eec1ca16483b0850582242156300e1d8a2870a98845",
+    "g1-05_Bent_Over_Barbell_Row": "8dbccff851073bf865c33e7f3d74d6be101ba0a1ad8522aad8fe8d152dac0c10",
+    "g1-06_Pendlay_Row": "c448a08010f3585500f419a5c3c3b14401258d1a67aff6a9ebd360311fc142aa",
+    "g1-07_T_Bar_Row": "e3990c3d9141c3f300d15d42ed193a473e781480842068419c09f3d31effe0b1",
+    "g1-08_Single_Arm_Dumbbell_Row": "986e3b2a426d7c099ec074ac4aa75497c7bbc0019aba0bf5dcc29fc3f828111c",
+    "g1-09_Chest_Supported_Dumbbell_Row": "a2c1382089df5a4197987681fc01b21924bf2d9c0b98764fa42391557338ca86",
+    "g1-10_Chest_Supported_Machine_Row": "1b16cba32d2bca90df41a999e4c5b55eca504ac14f1274c9caa3a778d1fc0f05",
+    "g1-11_Neutral_Grip_Seated_Cable_Row": "e682cf700859df0e88c181f7cdeac7ab493c832a11db68a3555c47646068cc58",
+    "g1-12_Wide_Grip_Seated_Cable_Row": "f79e6b1aacfb2574cc2a55fb748c6a6077c77a8765072f3ca3d89a0613341ddc",
+    "g1-13_Wide_Grip_Lat_Pulldown": "612a7da418b8ab8e658047b81eb8062ca07dcc38d41a1e019b2b6d2e71eaa4d5",
+    "g1-14_Close_Neutral_Grip_Pulldown": "f1cc8d4af4f6654d6d3097fd20ee3eeac2ed09e82f9e1bc0c22c6200c6730358",
+    "g1-15_Single_Arm_Cable_Pulldown": "362856372de153fdf7943a000c2f91c2704122e68f210f902c44c7decc8ef86e",
+    "g1-16_Straight_Arm_Cable_Pulldown": "3241bd5f5dbc48cc6298c852585fb622ae9ede6e602a6d33c180f5bd29877782",
+    "g1-17_Overhand_Pull_Up": "181177a5d59c41cd3280b198745bd4e76faf2f50b9cb4c36455507f93f304718",
+    "g1-18_Wide_Grip_Pull_Up": "8b4e9a8d20da7a16b677bd3ba812dda198c61f90d1742586914a489de287d2af",
+    "g1-19_Neutral_Grip_Pull_Up": "5c6bf465da15ab28f7307104e154f71cb5c148f96c4c3034ab78823636115497",
+    "g1-20_Overhand_Inverted_Row": "35fae764d9941537f496a7b1cc14331de882d5426eb9db8e987907ee1fb4c3e6",
+    "g1-21_Machine_High_Row": "b4fc0c32943c51c2ae8f54084a6bbdae351e898c53c73633e078e753f2c3fe55",
+    "g1-22_Dumbbell_Pullover": "6f63ee3e4f1e77a2f83c7365e101bc0fe4269842bd745f938ba24be753283ed0",
+    "g1-23_Barbell_Shrug": "6b364dc9dc394923a2f2c1a3eae8a1f65f60644dd7a76ab035bbbdc5ab5b045a",
+    "g1-24_Rope_Face_Pull": "9098d951d5f1adc2f9250daf3ee1ea7b6fe68d072bf864d3d46676ea161ef664",
+    "g1-25_Superman": "988631f2adf5dc4766dfc4ddd37161a7832830b716c4978893155f9904bbc2b4",
+    "g2-01_Standing_Dumbbell_Shoulder_Press": "6323825a7df9b870fb9c5c347b68f72643ee0f4625222602d570d66e3ef17fa8",
+    "g2-02_Seated_Dumbbell_Shoulder_Press": "cbe178c4d3824c51d0395f60d388be5079821ca5b4218cc1e14c959fddd77dfa",
+    "g2-03_Arnold_Press": "440b80e49ea975772415318a5cd4114119504b264d8ff2dc861fc0f771ae745e",
+    "g2-04_Standing_Barbell_Overhead_Press": "d22a71a4a0d00bcdd5ccef30b2b39f0a6e0135b26b01d22ece1245055981882c",
+    "g2-05_Seated_Barbell_Shoulder_Press": "860a643a09aa4e9cb7529cdda71fa110b3b814727a9fa803f97c1f93c70e29ab",
+    "g2-06_Machine_Shoulder_Press": "333decb9b2f6fa51f3dfbb684b76e6985466312bc5cba1fb520e03d02e33db01",
+    "g2-07_Half_Kneeling_Landmine_Press": "11c4eef0b655620e1a38a1f06ab582799c67d7dc7618eff4e1a53a3829764734",
+    "g2-08_Two_Hand_Landmine_Press": "68f23e18b2d999b8a82a7a1c8a37e24c922938c2c3a1285fc309a4e79bf5da8b",
+    "g2-09_Dumbbell_Lateral_Raise": "bb9579066ccaaaabb06d4d8d1ff3c70138ca3ef8faa0656b0825de0539843b47",
+    "g2-10_Cable_Lateral_Raise": "d0a25db7c356b1bbfa6839b24e70efb072ccd4eb7d792ad60f521cad3664fec2",
+    "g2-11_Leaning_Lateral_Raise": "71b93d0961c28591df23c062440c263ccdc8c582fe4565923d43ba6c077f05d3",
+    "g2-12_Dumbbell_Front_Raise": "fc07990a881002ec1f2da5dc0bbae89ce7b2c1b3b032c46a3597f501904081fc",
+    "g2-13_Plate_Front_Raise": "bd8ab4c3024ebc63923e86f3e44e98324304ea763b598bbbc50868baebb1dd0c",
+    "g2-14_Cable_Front_Raise": "dae3a069cca857ddd65b628039146da774d08094cd5df5639a0e4d19d7e98111",
+    "g2-15_Bent_Over_Rear_Delt_Fly": "4d22f511653d4e3b0dbecfdea690cf683c14deb60a85c16b46b164856c95fe35",
+    "g2-16_Chest_Supported_Rear_Delt_Fly": "5a8dc31ac9567b768a24cccb99027a70170e0dda58d6623513be6725f92ee8df",
+    "g2-17_Reverse_Pec_Deck": "206c7b1f74b91a7f12bb6dcab658c2a04d06ae1beee147bcbd74b679e84de8b2",
+    "g2-19_Wide_Grip_Upright_Row": "6c9607acc701eba4c5304edd156e379a07e7cf5231c3002b46cb168721a77e11",
+    "g2-20_Dumbbell_Scaption_Raise": "dd500a2b658308b703a87b0efbfa6019a1974a41291aa7b21eb5497f04bb746e",
+    "g2-21_Cuban_Rotation_to_Press": "ccde3fde857aa5dfa38ffbd5636b7f5337493a5efd0d11ff011193693fd8d35c",
+    "g2-22_Incline_Bench_Y_Raise": "bc03c16d56599ee886d073f06cda030db77d8e7c0c1436136562ba583cccb8b4",
+    "g2-23_Resistance_Band_Pull_Apart": "3f0760b09a2ca8533fc1588dc38ba5bc09addfd62ca9bb646e326a7e77c67dd2",
+    "g2-24_Cable_External_Rotation": "a5205578e2b134c8c57d625c3cef4aa489bb1164621b3fa6538c66578a4104f2",
+    "g2-25_Pike_Push_Up": "db86683b683fc2b7d3244056871131feee91d4ac2f39bf1e84aed2627818dc97",
+    "g3-01_Standing_Dumbbell_Curl": "ac0c486db0dceb4ef7d2423b9dc2c9281157b7b9826cd09d9739e079feae3a2e",
+    "g3-02_Alternating_Dumbbell_Curl": "82fa2f90a13e11cd77e324f8f6c6b0254e0168c9d4974155b5bd1ebb8a4a047f",
+    "g3-03_Hammer_Curl": "7f06ef0c6ba2cdafb16d1a86cce01f6a268681c994fb8e4896dd413eef602f24",
+    "g3-04_Cross_Body_Hammer_Curl": "c96e9e4578d9e330495fcfbe6b17875843141c018d5b810b40eba501d386014b",
+    "g3-06_Concentration_Curl": "b5ea02f0cfb33761f0179a9a5879b01bf039b8db7b8290a7ad5808ae359163f1",
+    "g3-07_Dumbbell_Preacher_Curl": "134546ccce00b08f3c7b882d7d97a0c8f0d0a20fa2b4c2b75e1e7fde7b563d56",
+    "g3-08_Spider_Curl": "6f08863fbd630a85aea5ec617f73fdefc8f4b40026a74781027146d5a9763221",
+    "g3-09_Straight_Barbell_Curl": "42fb60f66591922077b909e81d6f528fabdb2b3c02fde303b76c76f1f6456330",
+    "g3-10_EZ_Bar_Curl": "c01d3f489bbe32dbbc8886e6a8a8879a2ca61c7a5719a2755268eb3338e472f4",
+    "g3-11_Preacher_EZ_Bar_Curl": "e4a70787af8017085242e1766be3d11ab4ddc2a7d2fd939a92bd57f79fadc7b1",
+    "g3-12_Reverse_Barbell_Curl": "69e1e6f5e73ef74951158a3ba7dabede45d7d349f6ec99818079fab4b02903c3",
+    "g3-13_Drag_Curl": "409f234fcddf9e3d75df43fce7f59388d6fb18e0a06ea626ebcd0116410fcc5b",
+    "g3-14_Zottman_Curl": "5ec1ed9a033d13b214615ef207b9cc8a7b5dbfbc796e3b43cdb8bc28b061e226",
+    "g3-15_Seated_Dumbbell_Curl": "5e4ee7bd2c29ba7796e17cfd0e4eaa3adc30b5101bc0fa94f23b6a580d46cc50",
+    "g3-16_Seated_Hammer_Curl": "cb09cd6115dc17bc169c1c76d3cc9a3f0114ec0206c7e3835aa82626518668ee",
+    "g3-17_Standing_Cable_Curl": "9cae798c5fe903271a33107de4d6fd5e906c77f4d98b8137a627f9b9d973ed00",
+    "g3-18_Single_Arm_Cable_Curl": "8188b243ca7eb0eecd2ae1a917d210b1dfe3006ca1461b79a158c4232d809145",
+    "g3-19_Rope_Hammer_Cable_Curl": "0ddc6807379cd0f1ff35f8aeec8b38be3d9d80bb0daba7bd5bd9eea4ad5f30df",
+    "g3-20_Bayesian_Cable_Curl": "a55ee82400d81e287d6f26f5149f040e303eaad21879a54a8ce6aa9aad539a03",
+    "g3-21_Overhead_Cable_Curl": "0bf84b3cc6d6572d326b72018410e1684f80c094c5a2b2839219ec8b41821f93",
+    "g3-22_Machine_Preacher_Curl": "7b22378cf76ef7eabb31a157daedcca541edf1da14a1481a296ee67a7c34933c",
+    "g3-23_Resistance_Band_Curl": "87ca7c6b8cdbac9b90ad3e99824d951c0c19a063b51409ac4a53debd721fc66f",
+    "g3-24_Chin_Up": "69cdcc4fbe1c23043e1d8ffa161aa0342d20c76fbb25a41eea077cc6faaecdc3",
+    "g3-25_Underhand_Inverted_Row": "dacfc35a01bf7c460be7d73076427aafd6ae31e66bb0fe239ca8d1502da16a5c",
+    "g4-01_Side_Plank": "7da067b9c9fe813b2e88fd3cf9652f973226bf87e8aa63e2600090f70456afd0",
+    "g4-02_Side_Plank_Hip_Dips": "f6aa643868f8c41eb077313905c1b26197928544b11d8a07b2602b44d500b52d",
+    "g4-03_Side_Plank_Rotation": "f0789783442dcd831ec7046a9b31d168fbc76fb2ed49907561531c5f61540216",
+    "g4-04_Bicycle_Crunch": "966fbb5501bdf5291c507b400d7abd1d20e9e759d59e6d142f5f2d4d1e8a2bf9",
+    "g4-05_Heel_Touches": "abdd5b80f3aaa34e169f2a8a672a344160c58e47d82d554e8abb7ff584a10af8",
+    "g4-06_Cross_Body_Crunch": "214fe29e3db8fc2fc56e3ffac531d41535021aae9e529527cb4967e273caa175",
+    "g4-07_Cross_Body_Mountain_Climber": "04d4f5cafb8ea4d50367c60b5a6e43b2fa3be65cf17f9a6f454ee6deca091f82",
+    "g4-08_Windshield_Wipers": "9aadaa8b4e68d50adbd9cbfb7517c4e1cdc2f968385d9d2baa860852343b6236",
+    "g4-09_Russian_Twist": "dbb3dc65dedf36d43d96d5b6a93ca529489cd4a9e13d3f2fb5756fe164456ce8",
+    "g4-10_Reverse_Crunch_With_Rotation": "7390f880a4e725e6f419d9803eb588ad83ca520eae06747e3ba5783e19445f7f",
+    "g4-11_Dumbbell_Side_Bend": "6e4243668bff2172dbbb39b338505b1bac4fc4a3991562afa0867df962b6582e",
+    "g4-12_Weighted_Russian_Twist": "ad7df2f674fe4dbe6e394aff5939c41456c1911708027d07826f75f4e45c044e",
+    "g4-13_Suitcase_Carry": "9adc29a8d92f141fb20e4df8a7ab4bbd925f2fa3177e2db6c4c348ad695d0501",
+    "g4-14_Standing_Oblique_Crunch": "4d2ca8b90fee79c4fbea0b3923c5f7ce3b53d62c3669f58cc6245322c9e5eab2",
+    "g4-15_High_to_Low_Cable_Woodchop": "6530cb5af0e29af9cca0caaccc107c412256fd7c4d292f106f9ba25cbac2c8c7",
+    "g4-16_Low_to_High_Cable_Woodchop": "24f929fb5996d85a7bce335c9afd540a7085ac83c3b1481f81ee2e42cd96a69a",
+    "g4-17_Horizontal_Cable_Rotation": "a1436690c889e15a876311a003111dfc06551626c7e94a7fe013f7fc657b6dba",
+    "g4-18_Pallof_Press": "a741f19698711f8bafda5f367d197c31fb16e5887e0ce3706de9f2c67776d419",
+    "g4-19_Landmine_Rotation": "32de3d7319b4116f4500b6bcf7137319451ba5440bce790ed56fe2d6ed54e0bc",
+    "g4-20_Medicine_Ball_Rotational_Throw": "4a2d24669caef8d877176b1ec803a66d0d2b9074066c7bc9cfb9f96a2bf0b1dc",
+    "g4-21_Hanging_Oblique_Knee_Raise": "d02902f38820b17c0b30b0b6f8c9ed966d72b22d143d3bd94ab4e486c714d749",
+    "g4-22_Hanging_Windshield_Wipers": "74e7709a5faebd2dcff90409a6392f1491e5a927c1da5aa768c077fa2d74d2db",
+    "g4-23_Hanging_Knee_Raise_With_Twist": "95a67dd4c90ed07ab57ee50d9abdf29b22e0c9976779ea336bef8849f164190f",
+    "g4-24_Copenhagen_Plank": "21b43c3e760cedf8c5bdb056b536bca1b03434f956971332b88300f19707ced3",
+    "g4-25_Side_Plank_Crunch": "04fa1e702179a4f6fcb00f8e28066a7d5fa1063443ec6add7ae23d3dfb1a2a47",
+    "guide-push-up": "9979e6ae8de3da926c36cc611aa374c6cc1e50ca982f00e0847383e76b289342",
+    "guide-close-grip-push-up": "7f6412540c6ec92706da9398b743bee8822e3195cbe48aaf7849a1bb2cb5d7ca",
+    "guide-dumbbell-bench-press": "653738f0e33bf2eab443ebbb29d1933ca5b1e92b9777601fd664b017f10eb8c5",
+    "guide-dumbbell-chest-fly": "2b015264816d0f7b27cbfabfdf6805b1799ad7370af3d50a8a2a327fb36606c3",
+    "guide-overhead-dumbbell-triceps-extension": "6a25be1fcf734ee790a0d8abffb8514796729258cdc3b1b22aaa13b70554d0f1",
+    "guide-cable-triceps-pushdown": "286f1b7911e84e3e1de01b6cb40a74579e08a929ed678cabbbbc5acb3f141399",
+    "guide-dumbbell-triceps-kickback": "fe5cdbbc2c63f4b265fd9f22fb467c40d5a13c7d3d7d552668bf04b1a60f9f50",
+    "guide-bench-dip": "4f385d76052fa7a6bce3b919ee228bef8ca8344ca26d8026656823f2d102bfba",
+    "guide-bodyweight-squat": "f3aa3592c7c14a5594a7dabe50d20eec33ef40f6e3f8d50f55105b58c70211db",
+    "guide-barbell-back-squat": "ca77d2226ebf2ccd935015de2a48e7562210c41a44f7ef4a8468119998ec57f4",
+    "guide-barbell-front-squat": "222d96a4df53fdeb077aa9b62c63956217cf78cd1dd6a130a66927134d6f0baa",
+    "guide-forward-lunge": "20453688e4a4bc4df9c3803fcae472b942f68070c980f09c6515f3ca1334426c",
+    "guide-leg-extension": "b1b58ad76135acfc684a52550c4afa8b832dab445e9c9c3af7c1093b6ec1e1f0",
+    "guide-prone-leg-curl": "daab1ae88ca8f8a311143307dbf4761edfa68f472cd56a6d8dd5dcab79c67662",
+    "guide-bodyweight-hip-hinge": "d4be5178224b3a06f5f2ace701adb74d2992d64f7a3a31b02b77b9e93d9e509e",
+    "guide-standing-calf-raise": "44b040cf30f9d3f05091be8cb281ebfcfd2ccda7056cb21d22122fd2a994a8d7",
+    "guide-standing-dumbbell-calf-raise": "6ec2a8e8bc20e57393276556ab64e2381d31de63a43506d18bb6bc7a700cad73",
+    "guide-crunch": "b666867f44324713290293ea3c439605b57505a67120c85662e03ac6d20e5b8b",
+    "guide-lying-leg-raise": "30516e96db20366cfc3de008a4fadb893f8f136e6b8c002da97643215f080250",
+    "guide-dead-bug": "4aea99332ab766df24ab3bf6ae4cdfe374e27e7f4f696a7f13f5db38c147ed4c",
+    "guide-bird-dog": "a94b6a0c8b586bdbc50fec7a738544ae109d1a0a3e7efaeae120212b7fe54d37",
+    "guide-seated-wrist-curl": "c5b442766d766cfaed08b72d923d24e56f1c67d7fc289401a2f33ca1accc492a",
+    "guide-seated-reverse-wrist-curl": "7c22aa0506c414812002fb5e230dc8bfdef051510e51fb50dc9d1ffd3c22b31e",
+    "guide-jumping-jack": "f9c74a595592475989e14a07c9fdb2fa8dd1dad904cbcca1af0ece0d68f7849b",
+    "guide-mountain-climber": "9a57ad68a8e9d1448240200dc0ed84bea1fe26f0dda370bbdbe42575a782c11f",
+    "guide-lateral-band-walk": "a713142c222bedb6c8d7801a9545d3c9bbd4bcc7af3aa0adcc3194e3093b08d3",
+    "guide-incline-dumbbell-curl": "0968fa03adfa0150d61c19bd0d543728f669ff37705c46e36fe5926d1c52712c",
+    "stretch-arm-circles": "b3e550748b5a89516ae0c67cfbe4f3ffb3dbd45f130a3e52b0dbf8aa4514fc18",
+    "stretch-torso-rotations": "6741734c5ce658c0796c148f19efd35fe51c59ea517b9f48566f2fc307dba180",
+    "stretch-front-leg-swings": "57013cc2437d63f3f956717a37b920e9b87bbba9bfbf370701db05ee0cf57eac",
+    "stretch-lateral-leg-swings": "286a5af8daee05c71e323f3f17050c13939aac31c13cfc16d55213b3c13b8e7f",
+    "stretch-cat-cow": "2c6fb3d50738437b11ba5fb8b1efec03f3785246e5d2343c6d18d72eeffd058d",
+    "stretch-walking-knee-hugs": "c6912e53b7c2a3f7e02b5f5b327b1b5411275f011c905059b4e9e36df96b2550",
+    "stretch-calf": "2a0c6bf9c8b43d2e33f65ff295a5ed71302dea39c8b5312a9b03f224abbc3e9d",
+    "stretch-quadriceps": "cc4ca756cc3bf03f014649b8a0e394ab6f97b7e8b8ed5f2bfe10a7090dc8b62a",
+    "stretch-hamstring": "a3e7d0ab132bb6f2753ada7d2cb4e64ddc2cb9cb04943b28ecf20789bf993e73",
+    "stretch-hip-flexor": "6c7aa5bed5e01d8b5549929446722233c27d52e0a746031044983df84c9b35c2",
+    "stretch-figure-four": "f650c78771ab255929b9335cd10db1e8a546ab8a59d2b3135a41ff91dbcc1717",
+    "stretch-shoulder": "46fc106828724ad2294fb65c33cdc7fe3ceb063dd930a28fd285b050a56cdcb8",
+    "prenatal-walk": "ef5d7b7156482e1e69831953ed19102d84fbc812d422909d205aec7e9a8f0fd0",
+    "prenatal-cycle": "b77ce9eace12699b37f62dd6632fd63c0dcbbecdcf6e3410cafcc4cadad01fd3",
+    "prenatal-march": "4b7fe1ffb5394347516c7db17faedaaee2b908fbde527e1616a1219bfc06f8f4",
+    "prenatal-sit-stand": "ac30be4b130860de58d623d79f01a812f870f2be01954d8fdefa8462994a1f04",
+    "prenatal-wall-pushup": "cda8a78b3fdace714765d006957e88632e23f0288aa013c92e1eeb2abb8a1ce4",
+    "prenatal-band-row": "381cdefe97a55fe89fb5ee81ac9fb4bd1079eecbb2d7abe7e4c5a2105e73c27b",
+    "prenatal-band-curl": "ec5ccef481412e5f9e7e0f14ead23abe1e87d4566dc2d424306ea27aa0de1c50",
+    "prenatal-band-raise": "d77921d7dc0a08e7adc0eeff827d11478078911ee9936e1c96e148550801cc9b",
+    "prenatal-calf-raise": "07e53e421b5372f5c027c31248282e0fc26226a3a3a32396bfed786ef7610c36",
+    "prenatal-leg-extension": "ce94b17b98c14d2a34b2b0e4932b7906fe1a2fdb2f65f50ff58de4586643e09a",
+    "prenatal-wall-tilt": "677e43e4d2408e6205ee6a4edcaa5be6ad8adc17dc358b1e74090516139bf1a7",
+    "prenatal-cat-arch": "0f3396d7842d49d58314cfb3b7870a0803731cf353b8e358d0ce15eef4b76870",
+    "prenatal-figure-four": "d81c0846fbd474179ea05e014ae3d8ba99bf7e0f1a84a8ed9be2c45b69c57731",
+    "prenatal-calf-stretch": "071048ed663684acde5191b6f9be87a030045bdd0d254aa227d90b6214559aa9",
+    "exp-barbell-bench-press": "b25096b1a92b470fa8a7253b17677f0fee69a409bda9870017f1e0b09a3a01c2",
+    "exp-incline-barbell-bench-press": "8f7f7692705546ce1284e881858f9fb7a1c0e5c7f66d8b297cbdb76ac002c0aa",
+    "exp-decline-barbell-bench-press": "1be03242c7c363a05922e346f03f2988c33115cfdb3bf5ee3c3c6b75a8379905",
+    "exp-incline-dumbbell-bench-press": "bed7494e15a25aa480b312852733621c97bceeb03ec4fa587794d3bb83495800",
+    "exp-decline-dumbbell-bench-press": "a6d62c6f8e69f5746cf8af15f4e4be184ee320680930d9de3fee61c449eb8ea5",
+    "exp-dumbbell-floor-press": "c69581f75e751738c22b2f4c10d49014b986339605f3d00840e021499ed7d53f",
+    "exp-single-arm-dumbbell-bench-press": "c43014714977b35f57a0b079493832a64591ada256787533865e9e4dbbd6dab0",
+    "exp-dumbbell-squeeze-press": "6ce653a5cc73ed0ac889a2e4c564ea76234c72e127a80d68361429c78f147aaa",
+    "exp-incline-dumbbell-chest-fly": "df174b1f96726da7d43c40ba97f42ca8c4509c05bca41a470e67d5e2496744f1",
+    "exp-decline-dumbbell-chest-fly": "a81d3cfdef25529e14748832bdebdae3affe16990106f0b451b97691f1a5d71c",
+    "exp-machine-chest-press": "ba5ce25f41c63e46aa4f34b1d6b268a0cb5dd4f4ae004d0482a3446d1ab5a0b2",
+    "exp-incline-machine-chest-press": "3f1f260352d2cee7fc9cde1f1141a1e4b2030092d080c32d614d453b4ba078b2",
+    "exp-pec-deck-chest-fly": "bee4d3a207bae6f30bf983be78c6c12cd6543194b12b7365d2b185e512c0a577",
+    "exp-standing-cable-chest-press": "0e697bc36606ac906d38dc468f05962856488486fd524c0ab2312682ff888747",
+    "exp-single-arm-cable-chest-press": "0f6c71888f5c4e11ed342859440c6a5b7315e849582ee4188341abed4714bf56",
+    "exp-standing-cable-chest-fly": "e9408530786c929bf393072d8f256906df45d41d158f4e6c744a704d27f77b62",
+    "exp-low-to-high-cable-chest-fly": "e3e3ebcd577efd3439f0ec186d479eb73b71abfe71ac1e59bec480bdca9c81e8",
+    "exp-high-to-low-cable-chest-fly": "899e5030eef5feb6aed3f530efbf91c41567ec745c6f7a785290db2a580e9ab1",
+    "exp-supine-cable-chest-fly": "6eeb994c2742a3346b334a78c687f41d7b7b7f6eab8092a98043458d74fc90ac",
+    "exp-resistance-band-chest-press": "7c19d57b59b9390d7c276b3a321d063c1df20648d2c7a9e43ae066ad1933625c",
+    "exp-anchored-resistance-band-chest-fly": "ac20590694a06cbd644270c8bcfd1486306090757640ed8b12e054fd7c8ab593",
+    "exp-incline-push-up": "31990658d95ecfbc36fa23abb5547a6b3dd5b59fbe71758fef0474c965a47ec2",
+    "exp-decline-push-up": "ed7f3a39839f02584ae2be1f1abf6b66e68e80499406e917e6c5ba4aa3e3cd64",
+    "exp-kneeling-push-up": "2c72c6bf2157b66de79fa84f33f34d3d5cb1ca7aee462131930a8cb6547dd1f9",
+    "exp-scapular-push-up": "9c63df3ea792239ad138c02103ddb7d647e6d1ecb43d308778097cccc7867d78",
+    "exp-resistance-band-push-up": "34984b2402f979934f643967f947da099f128c8838c72259391ed894c97c79d8",
+    "exp-suspension-chest-press": "4ac9039c4c4aba9011164f28c66a7752e024bbaa999e545f7b2046b2d258cc13",
+    "exp-suspension-chest-fly": "d7060f0572028bf2aa9ff77bbb76ec77377dcf7e654a5e1cea2d337040032263",
+    "exp-seated-cable-chest-press": "6efc49c42f881cd6d950c58509c4870dfe6ee083656c0fff3db3953961da818d",
+    "exp-medicine-ball-chest-pass": "80143f6aaeb186e0e1e90a6bde7010a0a5645ff12f76c73760652f5770160c84",
+    "exp-single-arm-dumbbell-floor-press": "d842f4c6feb3e1e8b62f32866fbcab69fbc8c824117ad54ef38f687e00655538",
+    "exp-kettlebell-floor-press": "6f2057c730561a46193db50888cdf35dffea5f1e5cb1bf11c2a87575242c87dc",
+    "exp-close-grip-barbell-bench-press": "b0791ff6462024af28e0d59f081ab1eb574fcac4709ad31386bad25835df5359",
+    "exp-close-grip-barbell-floor-press": "231f32924068b282e8638534948211be38b4f00fbd72f828d23f8ff9c8fd95b7",
+    "exp-ez-bar-lying-triceps-extension": "83e3454049a0522a33a022ee687f9fde2bfddad8d6656ee45d932b51b4a6d2a6",
+    "exp-dumbbell-lying-triceps-extension": "781d794cbc9cfb5ce6ae5fb4c4d26e732f6a263e543629f83b42c16f1ed36e66",
+    "exp-single-arm-overhead-dumbbell-extension": "ecbb919ef9e3d8bc24345da786dd8f226a5244276f45c0c25ed2dc7a16ce44e4",
+    "exp-seated-cable-overhead-triceps-extension": "513596a5ad1faa91f355fad9c35cadb57edb5278a027c983e69f3ed9671d0dac",
+    "exp-single-arm-cable-triceps-pressdown": "c1479e5efb1042f0426372abfbbfb75619d1dddd6fcc9c755e352ebc32f88a03",
+    "exp-cable-triceps-kickback": "2def870118eda1684596ede507b98281b51d0952493940c259f3774c990f63f2",
+    "exp-resistance-band-triceps-pressdown": "5c08b5b1f2a0161df662e98135cd37cef325ce34ff2e00c48ef3dd144b3032d2",
+    "exp-resistance-band-overhead-triceps-extension": "38d1ec74eec21113dc723d67584bb98f08cd96f2c950bc609ce8707183c159c1",
+    "exp-resistance-band-triceps-kickback": "31f3f696295d3fd34192718c1a336aac67214dbd2a41fbed42414ba565d5366b",
+    "exp-suspension-triceps-extension": "b0d3554705dd6beb6724a7c63207858cedd6c56f23003617bdc9652f45864ae0",
+    "exp-bench-bodyweight-triceps-extension": "101ddcf232491d5151efca7ca635ba0bc89c8d648de1cd0b3101eaaefbe477b9",
+    "exp-parallel-bar-triceps-dip": "b70343bd5bb4c04ff68427789415eabf61812f27b90c7a1cfdfeed29640351b6",
+    "exp-assisted-triceps-dip": "562ed53966b1bfc2e479b451b5aaf432e3752c73cf4ac4e4307bac83a16471eb",
+    "exp-machine-triceps-extension": "8b82c2f61c23d2b467efc8332593bc97f9bafa467b8c1f2e7bd8af2bb4c0d4cc",
+    "exp-lying-cable-triceps-extension": "3fe8c7e25eed3cedb9b9ba32abf0b4976dbc0acf87fc36d973aa5b8097dcb7e9",
+    "exp-cross-body-cable-triceps-extension": "2006598346f8c74158a9a59e58f8accef08d14b3aae10abb70d1e9f1b4fba027",
+    "exp-standing-single-arm-cable-row": "fef76c663a777419ba916ab7c873025cec1cfb14b53e0c8f0a90676cfc0f671c",
+    "exp-resistance-band-bent-over-row": "23c23c2d974ad4834ae73a68967ab9e9c6ed4d39978441a1987a2235d4b89291",
+    "exp-bent-over-cable-row": "9c7481b935a0fc9829ce08fdfa15a3ab9a6bfa3e69a50af5465a729dd1c8a99a",
+    "exp-kettlebell-bent-over-row": "cb82d8f43326fcf44c4358c4483e1a5aa53b07e904df0ef45b64d0dad7b85786",
+    "exp-renegade-row": "99f88ae578c7d1ebe827dec9df6b1be04f9193988b113ac3f26d3edab43f5000",
+    "exp-standing-high-cable-row": "818e6906684a094768d2ced6da574fb9c3e09481579a5943dee0489141950032",
+    "exp-plate-loaded-lat-pulldown": "135b5085ae25b4bca2d5761f9f9c1ff4a9228d21a7f4f3898f147cec33afa038",
+    "exp-resistance-band-lat-pulldown": "b3a6fc1b7d8e1111c1f8a22f385d90fcf216eefa557250b11be3365c494ddb16",
+    "exp-resistance-band-straight-arm-pulldown": "0a94ecf9be4bab54450ed728f0b1f295fc37435992ac26bb5294e26494f60ca8",
+    "exp-machine-pullover": "c254c9b8835bb21a54c786ed256ed992cb7f3d096edfed21246bbba057ca00ac",
+    "exp-supine-cable-pullover": "1ec429af38e2d8aaa6587eba7ac1a91b9576505a6faea7f56919597701b526ea",
+    "exp-scapular-pull-up": "5a05fd330ad2eadc60067e2779e7bdf4bd8b9673c8f7debae5bea71274b91153",
+    "exp-machine-assisted-pull-up": "b028468e0c22e094fa798892959975c3a734cd4c87715336c4e8f673a56dfb9c",
+    "exp-suspension-row": "4bd46eb2731021a410c2c36430fac3a4569a8aad62d0751fa878e29e48c5f760",
+    "exp-cable-shrug": "546c2cff86d87ce39d479b70406b82e93d4f5ea231b74736943eed873c4f7cd9",
+    "exp-dumbbell-shrug": "560a1ac32aadc19085008c0f35f87ec38df0725a0cbdbc117f17a80f3ce78615",
+    "exp-band-assisted-pull-up": "7d87e402001efbdd9c24b46748c46ef99efb034d9a6944d0999d19199e88a114",
+    "exp-prone-cobra-hold": "86e907effe5692ec4de3dad087bb493df62a49a2e3f5d391ee70a699c7ab6b2e",
+    "exp-resistance-band-face-pull": "44e8a937a84c51d427c9aaea7a6a4bbc59de865aa6d2d7acc0c7acca227c8114",
+    "exp-barbell-pullover": "45d87ecb0f935e42220caa8ee61ab6aefffe02e320c3ea5032d9b9bf638b66ac",
+    "exp-resistance-band-shoulder-press": "dd1d5d830a23b1f3301e9ee7e82e797f07516935b64876b4dff3ca3d8a826b9f",
+    "exp-kettlebell-shoulder-press": "61172b0dac287a79f7fd10c914ac4af84be5e09effef9db5f0925e20df6c9a3e",
+    "exp-single-arm-standing-dumbbell-shoulder-press": "e5cee4fb0d2f80b255d2070c6e6c19dcf8ff9433f46a9718c2b56f59434d7e34",
+    "exp-single-arm-seated-cable-shoulder-press": "796fb71a9031933a6fbbd10818302bcfcf53e947af1fe5c43fb92219469decbd",
+    "exp-dumbbell-push-press": "377cc2ac714bb6e0fb2bc793e3445ce00c4a6b1cea5c97049ff17c985212e7ff",
+    "exp-barbell-push-press": "3abd2300478a13854aef6453dab6e91acd487f118a21e3d4bfe7533e32a4291e",
+    "exp-cable-scaption-raise": "272bb05eeb2ae54c2d3430a94871aa05acf89a4e2e5adbc3b44b4fc768bd3af0",
+    "exp-machine-lateral-raise": "0e1ca95d8ae1f07bce5c1ce5cf36012d7497fe28675d2a4ad64f745db21ad3e3",
+    "exp-cable-y-raise": "8e8f6250e941c38bf42af8ae366adda3b01eef2c092a992f4c53ab1bbffd67f6",
+    "exp-resistance-band-front-raise": "df411300ade5f04d22453cd97f108afcb65095d056f1ffcd09ac32bc4f394e0f",
+    "exp-prone-dumbbell-w-raise": "84225b61530c4e58185d2e0b01fabb77bb051005d91882e4d0337f28c02bdb59",
+    "exp-prone-dumbbell-i-raise": "c9fb37e4f87412ca22efcb99890c046e85748a59f31aae2875ab8ec3d83a0f3c",
+    "exp-cable-rear-delt-fly": "bd7ddf2a834b8fc40d86d56ff6dab07e507a8e8b77d33d766627e909de623b2f",
+    "exp-anchored-resistance-band-rear-delt-fly": "f9ade281f5e6e1b7904164f5ab6d647b9b0f3d3d47c320bf62659e22ba75e615",
+    "exp-side-lying-dumbbell-external-rotation": "7bec55da19b8fdc62ee8967d9cc8d8c1770750b784eb736befa01edfe6f64a6a",
+    "exp-side-lying-dumbbell-internal-rotation": "503e4055f08a406bd3c046043a677d11d5a23f72c155efb52af20f3077971331",
+    "exp-cable-internal-rotation": "ea9061cef0c653f4906470e52d5fdbb2fae29a813b6680b36da4dc053acadf60",
+    "exp-dumbbell-serratus-punch": "7e97a233f9a3aefd72f6b14b6ffccf223fb873c4d1c1c40e9aa84a264c973650",
+    "exp-resistance-band-external-rotation": "7a478d90cc3b444176239842b2f50fa00b3091a1db9a9a9b99eeb6b3afa3e948",
+    "exp-resistance-band-w-pull": "440fdb482fff35de15d81f1ebaff2a1682ea70ed0ff588323ae97032a81389e2",
+    "exp-cable-preacher-curl": "d1961d8581d3e51b0b8bce54e087024cb60811a3892ba519d296e5cae4a349c1",
+    "exp-resistance-band-hammer-curl": "637394b716b580bb6e5d3daf787ffb5aecebecf6a3568c924d26455418c48d86",
+    "exp-suspension-biceps-curl": "791283fab7023d9fbb345a4687d7854a1cf594146fb4e5e25ec3b6687040b595",
+    "exp-kettlebell-biceps-curl": "1452eac728cb009362a37af6dfd4c4cbdf08237c653d80f99b093898a57e7f50",
+    "exp-incline-dumbbell-hammer-curl": "80f3b64a80791f941b9ecc4c589ce56190ebc39df9d66608a667734a3853798f",
+    "exp-reverse-cable-curl": "ab887c12aea7b793a0ef3123ef320ce5ab1213d476f6d491cea35792a6aa9644",
+    "exp-cable-drag-curl": "3a7618f63d2c10b8a90d85e48b341b485a7cdbb25580c6ac4504ccc413f0f377",
+    "exp-dumbbell-curl-isometric-hold": "9a371b6c5d6e2a0f4943423bd7cc69d04486928b708d216503d2eee7d7e51de6",
+    "exp-single-arm-incline-dumbbell-bench-press": "1be3ed64a549776f278f7a940fd5e33badbb85d7fc3b95e4cdc68aaa8e4627f7",
+    "exp-chest-supported-barbell-row": "24efae4f79e7e17ae253dcb154e63d5f75114153e8686c8890fc0fe687b85da5",
+    "exp-dumbbell-front-squat": "1d8e59a0a6bb33cc4fe1731efaac3dfc959f6f8a6c83419853f840a4d0ba244f",
+    "exp-dumbbell-suitcase-squat": "e3fb3413c36ca7c63ed9ded85f65b68db6a646ffd193569caaa71f62ffcb7975",
+    "exp-barbell-box-squat": "470495db006693cfa1fa060129959a8e14e418fc2d33adb2a2296846e90a978c",
+    "exp-zercher-squat": "4cad6b00c4576c4ac9006e4a9bcbb4093222a0148cfb12250ac049f3ac4c2aa8",
+    "exp-landmine-squat": "38703c47bcfd0ca8e29243b22035ff850b9f593e75dabf466c095f1e7e4494a6",
+    "exp-belt-squat": "06fb0b15aff19ec65e9926618e9c775d4b9207cd557b79ca373477e2c389826d",
+    "exp-hack-squat-machine": "1d03e4e216098c34da6c697eb3b91fe6772a486e2b5d9fa7095a939cc9e4cb2d",
+    "exp-smith-machine-squat": "5e2a90030b9f20f26c4dae5e4406f5be950f19d39a4e0209440f7172958bfcc6",
+    "exp-45-degree-leg-press": "9a4f7559838c264d88f78dd895a575388ed998c2300aa6102f21437fe07931b2",
+    "exp-horizontal-leg-press": "b9617e5ae824ac2f3911c9fc574fe193a59fc1a9f0aafb066d3d6fd916b776e9",
+    "exp-single-leg-leg-press": "94e995016e0e40b4b81ea4f63035967dfdde249d0967af8f44294febcadda637",
+    "exp-wall-sit": "ab9c8cc832747c64b9c06c4ea6761b8abf8c07ea511a2705e3d099f8129f8fc9",
+    "exp-forward-step-down": "a2a223234a0e2bb2a02b64c784d51a6c8b2653cde962a93ed2238f12e8c06b74",
+    "exp-dumbbell-step-up": "5a0161f778bcdf6aab20646a77ca8a0832cc412eadc30c34c7eae404042844af",
+    "exp-lateral-step-up": "ed8c7f0be433b8a6c4f5552628d1ec14220aa91f897030ad46ba732edda94f4b",
+    "exp-crossover-step-up": "94f9dafc392adbc8ee73ed058dd4f14500c568939199455f68921a2768967649",
+    "exp-dumbbell-forward-lunge": "1b731871a3bef5f1c9546d7a02c456dc3b62aacc07e81170eb81a4fbd45668c7",
+    "exp-dumbbell-reverse-lunge": "4c8deca91d4d5fe6d481e0b44d131184f00eb7e7a6edd0a60109713311509913",
+    "exp-barbell-reverse-lunge": "1eaac728d425f7587bce9c585dc363945418bf4ee7ec5d64bea9ee6e3aa288c6",
+    "exp-barbell-split-squat": "0aaa893f064d4a39c6d67b703562cc4785bda98b89e19d2330780cd5839e8ef1",
+    "exp-dumbbell-split-squat": "699b5237d269d57966f18feefcadf1529ba692d227f777f7b6fd9c645109b948",
+    "exp-bodyweight-reverse-lunge": "0b313337a19e3e7f0b805716dd01195c87638655015419861b747d500a5bd49c",
+    "exp-walking-lunge": "9deb69656a75e714b8eadb3311a986cf213ffd5192581010ee196e1d00d18eb9",
+    "exp-dumbbell-walking-lunge": "6500467c946ef6ada579f41a38d257ebc94b6cd18b7bc4ca24e0e3e1dcabd1bd",
+    "exp-front-foot-elevated-split-squat": "6da0761904a93d8dce5f6a88c86f4f267207d6f9e22bfb9dfb792f9af1e4a9fc",
+    "exp-cable-split-squat": "f1f04462fd2ca040ce909249bb1636d3423731cf6c0ddf7b0867b036dcacf464",
+    "exp-suspension-assisted-squat": "ac960b766be6c411585cb0c2cfbe7c84b1b8121933240c04b62a0a989fd4b0f4",
+    "exp-single-leg-box-squat": "0fdbf2c9c24be792f979c9a33b7605e97f088fd5523a2d33619b81c3fac1ff01",
+    "exp-single-leg-leg-extension": "d7932620b9fdd3047940739a72ddad3865b56e4eb96b8e8bd6b18453c6dbbc20",
+    "exp-standing-cable-leg-extension": "86f326dd3b8824cf96cb25ff69a598245cd42e9e7613d43363d44dcbedd28ced",
+    "exp-dumbbell-romanian-deadlift": "7db9490ef7dc05940e9d4a3570b8735e987c81e0cbb29f3688d077ccb9a091e2",
+    "exp-kettlebell-romanian-deadlift": "407880a07902fb84c26a23d872b30e8a581d4faf5a1c1d448eae9914baf27615",
+    "exp-trap-bar-deadlift": "802d8eb7544535dc2b6adfcc9e5c4c6c4951eec2829d71384667d2508eb4aa58",
+    "exp-barbell-sumo-deadlift": "4f8dcfa34693f46b1ae40e47ce5925c72d649e740e31909b947755f7dbec3b9f",
+    "exp-kettlebell-deadlift": "49ef2961e99810c07cb51aff16b0524d823fe78b146ce1e3286c958ca526462b",
+    "exp-dumbbell-deadlift": "f109339fa2c453ee9d082b9131e8d3c8350742f1ed78f6138be83b518277e0fd",
+    "exp-cable-pull-through": "dc44a54577f54524afd5fa0c3c0bccde2efc7e010e06c1193492e256d4efde07",
+    "exp-resistance-band-good-morning": "6574662847c5a2c5c23068f5a3230e20893c6bea0436946898a85f3648c94331",
+    "exp-seated-leg-curl": "01f690237df67c340b201dad847f2969d9088115d32a4e8631124449378a7d7f",
+    "exp-single-leg-seated-leg-curl": "27508aff03d4f36211354aff98bb7ec847a0a61fccba429aea522f2579ce7b16",
+    "exp-standing-leg-curl-machine": "b2848a1600c4135502415448682e91963fb95ef527b7884256dae221e58bfa0f",
+    "exp-single-leg-prone-leg-curl": "94bf67b4f2ae7fcb53eb5e4fa47398448327a0c34abdb9dc125692916aebca53",
+    "exp-kneeling-leg-curl-machine": "20eca74dd33f0cea222aa1c455f82e803ebc93ecf090266bb43a209a35ee7eb5",
+    "exp-standing-cable-leg-curl": "d9ebda193025901608c812608db2dad80b6dcf44bdc4f01d1fe01917dd2eb595",
+    "exp-resistance-band-prone-leg-curl": "ff68c38f02245abd406cc888e2b3413d9d2c1bff15200fe3fd94ace31331651c",
+    "exp-slider-hamstring-curl": "234f714c6a3b4d41e98b0ba67162abe653fadb322bcf7b22e62dd6a7cf90671a",
+    "exp-single-leg-slider-hamstring-curl": "39c449d1a26fc9f86041bc8714af715f09e5147a821bd1afb72ce6361f070d4f",
+    "exp-stability-ball-hamstring-curl": "259da0983fad0157c274129c9862403331f3f8c4be407f563ce4a06be7052e9b",
+    "exp-single-leg-stability-ball-hamstring-curl": "b5746999d29f31e9197a155b7f5e7eded7b97db6e94a4a1efa371471529f194a",
+    "exp-suspension-hamstring-curl": "ae222b547dc0465f205fbb10a3ed587475e48ece47fafb2e52704783f4e236d2",
+    "exp-assisted-nordic-hamstring-curl": "28b94fed1dbb27ec24bc62e69fc7b237ec784504c4dded1ca9fa7f5b364d8c7b",
+    "exp-glute-ham-raise": "49ed6dc888cf1129ac6456798ef0c7898362b2d0d3509c17eb688e25f6e37737",
+    "exp-hamstring-walkout": "c9419554ab3c57cad5447a0337d23bf7380d1b55dfb82debf56d2cca1a9686c2",
+    "exp-b-stance-dumbbell-romanian-deadlift": "1a6dfd2bd2f324b0958c49b0a8e2c9e2519f6c032887a4e317c27173cc57b61d",
+    "exp-resistance-band-romanian-deadlift": "211b199573b3e16c164fc2263295f4a9771632a23a6463d68a1456f18d97db87",
+    "exp-bodyweight-bench-hip-thrust": "dc368ba924dfdec51f7cc81b210609a0aba1e4878aea373900b6b472a962bc7d",
+    "exp-dumbbell-hip-thrust": "8e54ab5013408b66e5b7f7eb493ceb1616df0c5ce2e53ba642f12ab86675b40d",
+    "exp-single-leg-hip-thrust": "4ab31afc667ff82d1efd9a7ddf8bfbe7611d1932a8c36a15ea27f9f380dc07a9",
+    "exp-smith-machine-hip-thrust": "5ddfd4a90dbe4e22fdb9298ac95bc6f64ca60c009ddab5ef5ef519182325c75c",
+    "exp-hip-thrust-machine": "034cac55febb60753bbee9bd1d30437b9901fbedde891d3c922089558b88ee38",
+    "exp-dumbbell-glute-bridge": "f0a28676c43f1d059fda091c2357827a2c5b3e007ae8b6b3dec6b72d8da4a81a",
+    "exp-barbell-glute-bridge": "4bb36e938d2b236940425fb53043259c76a8dee33ad54986cd680f78fbe8b670",
+    "exp-feet-elevated-glute-bridge": "73ef7c5e4464ac5ed4b1932fc1840c423b9a91d837d44714b30429b3629a149b",
+    "exp-single-leg-feet-elevated-glute-bridge": "012e0e62d719cc82b57afed4a81a469cda50d31a75bc132943f1308a876a0dc7",
+    "exp-reverse-hyperextension-machine": "ba259cdfb32241ac5ca2ec6681252aa829b3ff14f8a3bffdc566d2896b42eafa",
+    "exp-standing-hip-extension-machine": "1debc8355cf42a5ca4a659e09d5cebb66e86748c01442104540ab1409275fc44",
+    "exp-resistance-band-standing-hip-extension": "533096e0f33d841a0a0ae04b6930ae77fa7cc13f16eecde0761b425db905c1dd",
+    "exp-bodyweight-clamshell": "7b57a8889a7b0e978c24e9c7fe7529976edb85859a8fdeccfc05c0354c4d3e58",
+    "exp-banded-side-lying-hip-abduction": "b226c7029f2b35b22d07f8a851d63b4918b38ca1fc4df05b5c84aba4e35ce8b9",
+    "exp-standing-band-hip-abduction": "89f265a9258c69d60b4f4beba96b20f3c7ff5f765f71b2920443f1fc6f72530c",
+    "exp-seated-band-hip-abduction": "20e3f3a79b6a5e187171145a4b7e45432ecee1101efd327fe20674c4e79e542a",
+    "exp-cable-hip-adduction": "4e7de178485634ca0700a25e414df5285c70e199fd2039e3a949508ef3f6445d",
+    "exp-side-lying-hip-adduction": "27ce61a0ebd56e28bf8356a57748d7a6ce58ba7ac35b48a2ba020e26699d41ab",
+    "exp-standing-band-hip-adduction": "de0f9898b69f5e8e8ba037b3eb217be2d0169f6be35e54227813a23ff8a054a1",
+    "exp-dumbbell-lateral-lunge": "c06d079354f803a470c553282541d911251ebc725a9c4622278d8fa3b1913662",
+    "exp-dumbbell-curtsy-lunge": "96a2bf1b0efc5a6cd35700e74531cb66710c1f7aade909d066bd7315bc4912bc",
+    "exp-bodyweight-bulgarian-split-squat": "fb254c08ef9750ac70158d1a3ccad4a120e675dd2ca189e02dfb99e5ea21db55",
+    "exp-barbell-bulgarian-split-squat": "e10995a8dd09af3a6b58809f8380d5fffa83bce1b0314d978652cde66407d881",
+    "exp-cable-reverse-lunge": "e0df901641f3e15d6b34ad230c7ee89b9e8aec2a5a2acefe2734dd50787bf8c4",
+    "exp-sliding-lateral-lunge": "5a7f2bcead4f160a46218cb969e79195d7841a02bf6984618c8ce75a5680767d",
+    "exp-seated-calf-raise-machine": "a27587ef53b9e22b1edf840d35f50a03e235cb19e5d609f084560be754018156",
+    "exp-seated-dumbbell-calf-raise": "c1003afac2ff568e5ef1191f3bbba70a436552b0ce730201399fbafbd97209ea",
+    "exp-smith-machine-seated-calf-raise": "443e256a6f40ba36f7fdf0c3cdba3657b50c517914ad800108909d0e487a67d5",
+    "exp-standing-calf-raise-machine": "f42ea548339377f0b3eaec13a228c8c274ebe76647feeadedbf7e52147d5f792",
+    "exp-single-leg-standing-calf-raise": "b756c87f55505b87d8a0567b2a670fea2d820aaa290d82de5ffd018bf3b72fa3",
+    "exp-single-leg-dumbbell-calf-raise": "a0ce9d444a35178439c2f3482146cbe0484cefef254936d8db4a936aad2d87b1",
+    "exp-leg-press-calf-raise": "71edc22bef250e15597d4dc0ecbca83240b8be2a8c15284b550c51cd88fcae28",
+    "exp-smith-machine-standing-calf-raise": "6d97f36b46340a2a98af343fa5728f2ecbf3c5cb8dc65dd89a928b8b3328028b",
+    "exp-donkey-calf-raise-machine": "c582e7394010b65558398ed04bcef5079b3bb08aaf54a71d1c24c040eaa732b5",
+    "exp-band-resisted-seated-calf-press": "b183dc4dfacd8deaa5a6ba131fc6494f72e76a65ef1a088ace0ca3e0e4543c25",
+    "exp-forearm-plank": "a6cb803125c956c9de26391adbab172339c2233525c4b584c7e2a0eaf2a9961f",
+    "exp-reverse-crunch": "cc143f05b3576a67ba05582ff500f87f51234d934ca483260762229ad441bb82",
+    "exp-flutter-kick": "b4b04f6014650c8435490d9f07839b5eb66e68750d01685c2cfbedd921e63fe7",
+    "exp-hollow-body-hold": "333ef54c527a45170338d981062b585c27a0de831ef9ad73c7de517a8bbf532f",
+    "exp-kneeling-ab-wheel-rollout": "6f4b28f5637238264c92ade0f68e0decfa01c3cbafadb85c318ac2f157c73694",
+    "exp-stability-ball-crunch": "a9d90fd2292741978661d4cfccfdbcbee27fb9eaa51f931c19ca064b598ec623",
+    "exp-stability-ball-knee-tuck": "0756d55e823b0602009e0cd74281f3198c4a7380ec0c1e5d9c667cc9a929137c",
+    "exp-kneeling-cable-crunch": "6fe2fe49dea1de17d6da6e032d6dfe0b1d5d175ed4c740166e0027dfb5844443",
+    "exp-captains-chair-knee-raise": "d34b9056ed75848eafacc08574dbf6ef0ab9d8c6235d9a481ddb0a428d839908",
+    "exp-v-up": "88ae7abf2d7f884c3ce56b08f50e95932aed6dfa9c1ef22703108104f431eddf",
+    "exp-plank-shoulder-tap": "ed6d37694c518dbb7ffb99c36669b98c87693d0094d670d321837bf9e01628a7",
+    "exp-sit-up": "dd1ff57c1c8157a4f88011f05e70064b886b395a62653861dd809e95c1e0dd78",
+    "exp-hanging-straight-leg-raise": "c37e5890fb36899ff7f56d888a9bb9aa7e8ea28b337d3971fab265d629ed48f3",
+    "exp-slider-body-saw": "f733172bc319c896b8d6badbfab8233d9ebed50d356df04733d3dd99809ad0ba",
+    "exp-bear-plank-hold": "01cb1fe04f2c04aedb7558f0bfe1c985825a3d22296b1598141dfadc308cc87a",
+    "exp-suitcase-deadlift": "5340eeb4cb1256ae8679b0e753fe4383307767b3a5751f835b6ca1b2f5b9e7fb",
+    "exp-side-plank-cable-row": "ea3edf9f3c038684757c4daeca937db87c1b9143dba1efdd1d6228d000f121dc",
+    "exp-dumbbell-windmill": "8d3c4a36e70adeb2ec0b27237ce520e5fe55e5219c8d652383b0274b4a519076",
+    "exp-medicine-ball-rotational-slam": "53f54eb6c042dcc322e9c4c9a9e5d3c14df3dbfd68b754f89960d50b6cedef63",
+    "exp-bear-plank-dumbbell-drag": "dea27a7a75b25f9fda9b377e1429285bc7bc7103e70db623a2cebbfdf8c43fb8",
+    "exp-side-lying-oblique-v-up": "63707710ca962b616c7b74f95aa761fed6120813d0c597527c648b808b171141",
+    "exp-pallof-walkout": "91b7e289efec98ad1a456c6be6844934dc5ac2e521f03509eea47d98f0322858",
+    "exp-single-arm-overhead-carry": "e7353e238afc9b235e216d307d2880c67d83fd464e97c840e7de7a4071a5cff8",
+    "exp-plate-pinch-hold": "da46fe6ef61f6c7867e174cf54df53c1a4bb2d54b2c0929c0647162fa27d247a",
+    "exp-dead-hang": "5834dec289f027c91d6d602e1445f3b9be33fce70117f2a0cff360fff91f3301",
+    "exp-wrist-roller": "d4ba23d31ef4e7ae831b01fc01fb16b8f177078a177d25be74e9ef860b9ed676",
+    "exp-forearm-pronation-supination": "a32ceb7c2163dae6c1a0cbb0a7ce140c11fc7d0791045e26379af1821409e9ab",
+    "exp-dumbbell-radial-deviation": "39185af47c0b2e30c6133733eaf4ddd75b82347bb19e12782d902d6dfe554b37",
+    "exp-hand-gripper-squeeze": "c9504c84b39fdf3916070feea4828baf8b4f1bef61d4fa4ab19322fdcee9d2c4",
+    "exp-finger-band-extension": "7ed5330b95176a215147baed185149a1f6eafdeb974c39451907ddb144cdb55f",
+    "exp-step-back-burpee": "1d88ad266fede7ca3f78770716e076b94d7534366291637f5e20c45db06a3b6e",
+    "exp-burpee": "66d9bc35f30cb68ad1dd6471393b52479ab4368f44737a7313c74175ed97f726",
+    "exp-dumbbell-thruster": "9f001fe7ec6a969c74e6acb7330c277626a64f7a75d0026c6ecf8c8cf4371d2a",
+    "exp-medicine-ball-slam": "9f018897faa4cefea2be91e73105d2eb208657c86d829e94893970cfac9112c6",
+    "exp-sled-push": "2484b2b4c87d274a833adea1a2c716b8baf15d5a466bf16c5e4dfb361587afa8",
+    "exp-backward-sled-drag": "6c0792cbab34615fd9ef1abb5f5fb6efa3fe64cd0c5ae035ebe6b58e99a49bff",
+    "exp-battle-rope-alternating-waves": "83c800d0b3a2311e119269d9132377ad3ebfe6ba64f2ccc51ae969a47ac9c4d4",
+    "exp-farmers-carry": "e3a64c445fbaf12d0d36470eb28e75242a89c15f47fa2121a8b21f5955043bfb",
+    "exp-sandbag-bear-hug-carry": "2b8f7a396e04c68cb28258bd438e1bc6eb4fc98c6e8daf4624158322b346609c",
+    "exp-bear-crawl": "ac046ece21bb2d543f704dbcb5d09e55fec583ca9ff53963d0436501e19a1323",
+    "exp-inchworm-walkout": "1a2db9372ea6fc1baed9ecd54f8ba6b9d4dddd8440eb743134c2381e90f74cce",
+    "exp-treadmill-jog": "18e6e0549eb4fd6604811d7d653eeecf157c21c122e308fabd6645c7906ebe0f",
+    "exp-elliptical-trainer": "4056d13f92977e544cd845912659638bcf4be256f3b1cb0dbc1de547e014e13f",
+    "exp-rowing-machine": "8b76e3064a09a2734e2f813e91ca1c20365139bce1f53a633a0cd73e98827c64",
+    "exp-air-bike": "3b8b76675cdbc9d7de9bc9f63d36011e61f9eb96fbe54cc793b7064e9b5693e8",
+    "exp-stair-climber": "1563fb30455cec8f1d2190863ea33c46307fdddfab456bb10feceff5c8bca4ba",
+    "exp-jump-rope": "939bd6b1fd0001170efd19c8ae33b7152943d53b269d8e5f326bc236cd3e2614",
+    "exp-shadow-boxing": "23c639beb57c5a3bde2e2cc7cd2bbe1893736531a9e1fb8853f9cbf0885335d6",
+    "exp-lateral-shuffle": "5c70cb3b8717ad5347da71104bcd18e47b407c27e5a4e4d97330f8e811a88faf",
+    "exp-high-knees": "abe3e2193b34ad155fae48ea5d3d56ea1e1f8ab876ca01616d8b1fbfa54ba52a",
+    "exp-butt-kicks": "d9c8576960fe06fdb14df29040aa609dce460f2371fd7ba3137cd37ca3c0d5d5",
+    "exp-thoracic-open-book": "8f79e3f115b710933baf21b96fe72b26ccc5d353f3fbfdcc17d9a4d2dedd9795",
+    "exp-quadruped-thread-the-needle": "6f97ae2b268544496bc12f5bd20a03970aff5c0ddd5037b999943f4bcb8f706b",
+    "exp-wall-slides": "002307f87361f199c1d4ed9fe753032e39b61f357877a8709e822fe9bad21769",
+    "exp-knee-to-wall-ankle-mobilization": "0ae93225ddb2394de4cddf0cf22653f34803afd69542bafc321972dcc2976f17",
+    "exp-quadruped-adductor-rock-back": "257ec93cf3ea7c63228aa323d60bdf57de43bb5f1a200ba7a9e3b9653791712c",
+    "exp-childs-pose-lat-reach": "ce5c3a613470e4d4688f23d471d67ca92c6048259af99059c9d73ed3bc048440",
+    "exp-quadruped-wrist-rock": "c85cdddc8c3ddd38c5a5dbcee6f706487356e10ed4e7fcd84eac7c0a61b97edd",
+    "exp-gentle-neck-rotation": "0f197b6c8ee4a389327fb42e9e67e433858cc9a4f665f28c8089482159de71db",
+    "exp-prone-press-up": "6c11fabc6172eaa7027120fa5a378567fcedb4dec88745269a5a4027c54aaf75",
+    "exp-doorway-chest-stretch": "eb034ad538ec32ee1434642278ddd7db196406b29ee7ddfb81c6e49dc5d8ff23",
+    "kettlebell-russian-twist": "deda4347c25749d632bb57b6432407787caefbb0e21aebd5f51536e1778cc0f0",
+    "kettlebell-sit-up": "005d4a3566481f8ed180df121590d450176a86e6a55692f8790dcc4bb77c6910",
+    "kettlebell-halo": "c8adb2a7d86caaa1efb95dcabe57fd8179e075c712953fabece3f915754a553c"
+  }
+}

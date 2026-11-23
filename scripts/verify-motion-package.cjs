@@ -15,6 +15,8 @@ const POSTPARTUM_IDS = new Set([
   'postpartum-gentle-pelvic-floor-lift-release', 'postpartum-side-lying-core-connection'
 ]);
 const KETTLEBELL_IDS = new Set(['kettlebell-russian-twist', 'kettlebell-sit-up', 'kettlebell-halo']);
+const GYM_FLOOR_SPECS = require('./add-gym-floor-catalog.cjs').specs;
+const GYM_FLOOR_BY_ID = new Map(GYM_FLOOR_SPECS.map(spec => [spec.id, spec]));
 const BURPEE_ID = 'exp-burpee';
 const BURPEE_MANIFEST_PATH = 'dist/burpee-motion-manifest.json';
 
@@ -31,11 +33,27 @@ function staticOnly(record) {
 
 function animationCatalog(catalog) {
   assert(Array.isArray(catalog), 'Missing exercise catalog');
-  const ids = new Set(), motion = [], guides = [], kettlebellAnimations = [];
+  const ids = new Set(), motion = [], guides = [], kettlebellAnimations = [], equipmentReferences = [];
   let burpee;
   for (const record of catalog) {
     assert(record && typeof record.id === 'string' && record.id.length && !ids.has(record.id), 'Missing or duplicate exercise ID');
     ids.add(record.id);
+    if (GYM_FLOOR_BY_ID.has(record.id)) {
+      const spec = GYM_FLOOR_BY_ID.get(record.id), image = 'assets/gym-floor/' + record.id + '.svg';
+      assert(record.gymFloorSupplement === true && record.equipmentReference === true && record.illustratedGuide == null &&
+        record.name === spec.name && record.group === spec.group && record.equipment === spec.equipment &&
+        record.machineType === spec.machineType && record.tracking === (spec.tracking || 'reps') &&
+        record.supportsWeight === (spec.supportsWeight ?? true) && record.supportsDistance === (spec.supportsDistance ?? false) &&
+        record.expansion === true && !record.postpartum && !record.prenatal && !record.kettlebellAnimation,
+        'Invalid gym floor equipment reference metadata: ' + record.id);
+      assert(['sets', 'reps', 'weight', 'minutes', 'defaultSets', 'defaultReps', 'defaultMinutes'].every(key => record[key] == null),
+        'Equipment reference must not prefill workout amounts: ' + record.id);
+      assert(record.image === image && record.style === 'Equipment setup reference', 'Invalid equipment reference asset: ' + record.id);
+      assert(record.variants && Object.keys(record.variants).sort().join(',') === 'female,male', 'Equipment reference requires both profile variants: ' + record.id);
+      for (const gender of ['male', 'female']) assert(record.variants[gender]?.image === image && record.variants[gender]?.style === record.style,
+        'Equipment reference profile must use its matching static asset: ' + record.id + ':' + gender);
+      staticOnly(record); equipmentReferences.push(record); continue;
+    }
     if (record.id === BURPEE_ID) { burpee = record; continue; }
     if (KETTLEBELL_IDS.has(record.id)) {
       assert(record.kettlebellAnimation === true && record.illustratedGuide == null && record.equipment === 'Kettlebell' && record.tracking === 'reps' && record.expansion === true && record.supportsWeight === true, 'Invalid kettlebell animation metadata: ' + record.id);
@@ -54,7 +72,8 @@ function animationCatalog(catalog) {
   assert(motion.length === 425, 'Package requires all 425 reviewed animations');
   assert(guides.length === 0 || guides.length === POSTPARTUM_IDS.size, 'Incomplete postpartum guide supplement');
   assert(kettlebellAnimations.length === 0 || kettlebellAnimations.length === KETTLEBELL_IDS.size, 'Incomplete kettlebell animation supplement');
-  return {motion, guides, kettlebellAnimations, burpee};
+  assert(equipmentReferences.length === 0 || equipmentReferences.length === GYM_FLOOR_BY_ID.size, 'Incomplete gym floor equipment reference supplement');
+  return {motion, guides, kettlebellAnimations, equipmentReferences, burpee};
 }
 
 const baseMotionRecords = catalog => animationCatalog(catalog).motion;
@@ -69,6 +88,19 @@ function validateStaticGuides(stage, guides) {
       assert(!/<!DOCTYPE|<!ENTITY|<\?(?!xml\s)|\bon[a-z]+\s*=|\b(?:href|src)\s*=|\bstyle\s*=|url\s*\(|javascript\s*:|data\s*:/i.test(svg), 'Active or external content in static guide SVG: ' + record.id);
       for (const match of svg.matchAll(/<\/?\s*([A-Za-z][\w:.-]*)\b/g)) assert(safeTags.has(match[1].toLowerCase()), 'Unsupported static guide SVG element: ' + match[1]);
     }
+  }
+}
+
+function validateEquipmentReferences(stage, references) {
+  for (const record of references) {
+    const svg = fs.readFileSync(ordinaryFile(stage, 'dist/' + record.image), 'utf8');
+    assert(/<svg\b/i.test(svg) && /<\/svg\s*>\s*$/i.test(svg), 'Invalid equipment reference SVG: ' + record.id);
+    assert(!/<!DOCTYPE|<!ENTITY|<\?(?!xml\s)|<\s*(?:script|foreignObject|animate(?:Motion|Transform)?|set|iframe|object|embed)\b|\bon[a-z]+\s*=|javascript\s*:/i.test(svg),
+      'Active content in equipment reference: ' + record.id);
+    for (const match of svg.matchAll(/\b(?:href|src)\s*=\s*(["'])(.*?)\1/gis)) {
+      assert(/^data:image\/(?:jpeg|png|webp);base64,[a-z0-9+/=\s]+$/i.test(match[2]), 'External content in equipment reference: ' + record.id);
+    }
+    assert(!/url\s*\(\s*["']?(?!#)/i.test(svg), 'External CSS content in equipment reference: ' + record.id);
   }
 }
 
@@ -206,8 +238,9 @@ function packageFiles(stage, catalog) {
 
 function createManifest(stage, nativeSourceBindings) {
   const catalog = read(ordinaryFile(stage, 'dist/exercises.json'));
-  const {motion, guides, kettlebellAnimations, burpee} = animationCatalog(catalog);
+  const {motion, guides, kettlebellAnimations, equipmentReferences, burpee} = animationCatalog(catalog);
   validateStaticGuides(stage, guides);
+  validateEquipmentReferences(stage, equipmentReferences);
   if (kettlebellAnimations.length) require('./verify-kettlebell-motion.cjs').verifyKettlebellMotion(stage, catalog);
   assert.strictEqual(Boolean(burpee), fs.existsSync(path.join(stage, BURPEE_MANIFEST_PATH)), 'Incomplete Burpee motion supplement');
   if (burpee) assert.deepStrictEqual(read(ordinaryFile(stage, BURPEE_MANIFEST_PATH)), createBurpeeManifest(stage, burpee),

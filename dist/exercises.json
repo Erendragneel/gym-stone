@@ -106043,5 +106043,790 @@
       "playbackMode": "loop",
       "atlas": "assets/kettlebell-motion/male-kettlebell-halo-atlas.webp"
     }
+  },
+  {
+    "id": "gym-floor-pendulum-squat",
+    "name": "Pendulum Squat",
+    "group": "Quads",
+    "equipment": "Machine",
+    "machineType": "pendulum-squat",
+    "aliases": [
+      "ペンデュラムスクワット",
+      "Pendulum Squat Machine"
+    ],
+    "cues": [
+      "Use the pendulum squat station with its shoulder and back supports adjusted for you",
+      "Keep your feet supported on the platform as your hips and knees bend",
+      "Return smoothly through a controlled range and use the station release and stops as labeled"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-pendulum-squat.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-pendulum-squat.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-pendulum-squat.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-v-squat",
+    "name": "V-Squat",
+    "group": "Quads",
+    "equipment": "Machine",
+    "machineType": "v-squat",
+    "aliases": [
+      "Vスクワット",
+      "V Squat",
+      "V-Squat Machine"
+    ],
+    "cues": [
+      "Use the V-squat station in the orientation shown on its label",
+      "Keep your feet planted and your torso against the intended supports",
+      "Bend and straighten your hips and knees without bouncing or snapping the knees straight"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-v-squat.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-v-squat.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-v-squat.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-standing-hip-thrust",
+    "name": "Standing Hip Thrust",
+    "group": "Glutes & hips",
+    "equipment": "Machine",
+    "machineType": "standing-hip-thrust",
+    "aliases": [
+      "スタンディングヒップスラスト",
+      "Standing Hip Thrust Machine"
+    ],
+    "cues": [
+      "Use the dedicated standing hip-thrust station and its intended pelvis support",
+      "Press through your feet and extend your hips while keeping your ribs and pelvis controlled",
+      "Return with control rather than leaning backward to increase the range"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-standing-hip-thrust.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-standing-hip-thrust.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-standing-hip-thrust.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-standing-machine-hip-abduction",
+    "name": "Standing Machine Hip Abduction",
+    "group": "Glutes & hips",
+    "equipment": "Machine",
+    "machineType": "standing-hip-abduction",
+    "aliases": [
+      "スタンディングアウターサイ",
+      "Standing Hip Abduction Machine",
+      "Standing Outer Thigh Machine"
+    ],
+    "cues": [
+      "Stand on the machine platforms and use its intended support handles and thigh pads",
+      "Move your legs outward against the resistance while keeping your pelvis steady",
+      "Return slowly without letting the resistance pull the legs together"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-standing-machine-hip-abduction.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-standing-machine-hip-abduction.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-standing-machine-hip-abduction.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-stationary-cycling",
+    "name": "Stationary Cycling",
+    "group": "Cardio",
+    "equipment": "Upright stationary bike",
+    "machineType": "stationary-bike",
+    "aliases": [
+      "自転車",
+      "Stationary Bicycle",
+      "Exercise Bike",
+      "Upright Stationary Cycling"
+    ],
+    "difficulty": "Beginner",
+    "tracking": "time",
+    "supportsWeight": false,
+    "supportsDistance": true,
+    "cues": [
+      "Adjust the seat so you can pedal comfortably without locking your knees",
+      "Remain seated upright and pedal smoothly at your chosen resistance",
+      "Record the time and, if available, the distance shown by the bike"
+    ],
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-stationary-cycling.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-stationary-cycling.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-stationary-cycling.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-decline-machine-chest-press",
+    "name": "Decline Machine Chest Press",
+    "group": "Chest",
+    "equipment": "Machine",
+    "machineType": "decline-chest-press",
+    "aliases": [
+      "デクラインチェストプレス",
+      "Decline Chest Press Machine"
+    ],
+    "cues": [
+      "Use the dedicated decline chest-press station and adjust the seat to its handles",
+      "Keep your back supported and wrists aligned with your forearms as you press",
+      "Return along the machine path with control without forcing a deep shoulder stretch"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-decline-machine-chest-press.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-decline-machine-chest-press.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-decline-machine-chest-press.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-standing-machine-chest-press",
+    "name": "Standing Machine Chest Press",
+    "group": "Chest",
+    "equipment": "Machine",
+    "machineType": "standing-chest-press",
+    "aliases": [
+      "スタンディングチェストプレス",
+      "Standing Chest Press Machine"
+    ],
+    "cues": [
+      "Use the dedicated standing press machine with the supports and foot position shown on its label",
+      "Keep your torso steady as you press the handles forward",
+      "Return smoothly along the intended lever path; this is a machine press rather than a cable press"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-standing-machine-chest-press.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-standing-machine-chest-press.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-standing-machine-chest-press.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-incline-machine-chest-fly",
+    "name": "Incline Machine Chest Fly",
+    "group": "Chest",
+    "equipment": "Machine",
+    "machineType": "incline-machine-fly",
+    "aliases": [
+      "インクラインフライ",
+      "Incline Fly Machine",
+      "Incline Machine Fly"
+    ],
+    "cues": [
+      "Use the dedicated incline fly station and adjust its seat and starting position",
+      "Maintain a soft elbow bend as you bring the supported arms together",
+      "Return with control within a comfortable shoulder range without turning the fly into a press"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-incline-machine-chest-fly.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-incline-machine-chest-fly.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-incline-machine-chest-fly.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-smith-machine-bench-press",
+    "name": "Smith Machine Bench Press",
+    "group": "Chest",
+    "equipment": "Machine",
+    "machineType": "smith-machine",
+    "aliases": [
+      "Smith Bench Press",
+      "Flat Smith Machine Bench Press",
+      "スミスベンチプレス"
+    ],
+    "cues": [
+      "Position a stable flat bench under the Smith bar and set the catches",
+      "Keep your shoulders supported and wrists above your forearms while lowering toward your chest",
+      "Press along the rail path and rerack the bar before leaving the bench"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-smith-machine-bench-press.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-smith-machine-bench-press.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-smith-machine-bench-press.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-incline-smith-machine-bench-press",
+    "name": "Incline Smith Machine Bench Press",
+    "group": "Chest",
+    "equipment": "Machine",
+    "machineType": "smith-machine",
+    "aliases": [
+      "Smith Incline Bench Press",
+      "Incline Smith Press",
+      "スミスインクラインベンチプレス"
+    ],
+    "cues": [
+      "Place a stable incline bench beneath the Smith bar and adjust the catches",
+      "Keep your upper back against the bench and lower the bar toward your upper chest",
+      "Press along the rails without lifting your hips or forcing the shoulder range"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-incline-smith-machine-bench-press.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-incline-smith-machine-bench-press.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-incline-smith-machine-bench-press.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-smith-machine-shoulder-press",
+    "name": "Smith Machine Shoulder Press",
+    "group": "Shoulders",
+    "equipment": "Machine",
+    "machineType": "smith-machine",
+    "aliases": [
+      "Smith Overhead Press",
+      "Seated Smith Shoulder Press",
+      "スミスショルダープレス"
+    ],
+    "cues": [
+      "Use a stable supported bench positioned for a front-of-head Smith press and set the catches",
+      "Keep your ribs controlled and forearms beneath the bar",
+      "Press overhead within your available range, then lower with control in front of your head"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-smith-machine-shoulder-press.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-smith-machine-shoulder-press.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-smith-machine-shoulder-press.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-smith-machine-row",
+    "name": "Smith Machine Row",
+    "group": "Back",
+    "equipment": "Machine",
+    "machineType": "smith-machine",
+    "aliases": [
+      "Smith Bent-Over Row",
+      "Smith Machine Bent Over Row",
+      "スミスローイング"
+    ],
+    "cues": [
+      "Hinge at your hips and take an overhand grip on the Smith bar",
+      "Keep your torso steady as you draw your elbows back and bring the bar toward your lower ribs",
+      "Lower the bar with control rather than jerking your torso upward"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-smith-machine-row.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-smith-machine-row.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-smith-machine-row.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-close-grip-smith-machine-bench-press",
+    "name": "Close-Grip Smith Machine Bench Press",
+    "group": "Triceps",
+    "equipment": "Machine",
+    "machineType": "smith-machine",
+    "aliases": [
+      "Close Grip Smith Machine Bench Press",
+      "Smith Close-Grip Bench Press",
+      "スミスナローベンチプレス"
+    ],
+    "cues": [
+      "Use a stable flat bench, set the catches, and choose a grip around shoulder width",
+      "Keep your wrists stacked above your forearms and elbows controlled as the bar lowers",
+      "Press along the Smith rails without allowing the wrists to fold back"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-close-grip-smith-machine-bench-press.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-close-grip-smith-machine-bench-press.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-close-grip-smith-machine-bench-press.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-rack-pull",
+    "name": "Rack Pull",
+    "group": "Back",
+    "equipment": "Barbell",
+    "machineType": "power-rack",
+    "aliases": [
+      "Rack Deadlift",
+      "ラックプル"
+    ],
+    "cues": [
+      "Set the rack supports to a height that lets you hinge to the bar with a controlled spine",
+      "Brace, keep the bar close, and stand by extending your hips and knees",
+      "Return the bar to the supports smoothly rather than dropping or bouncing it"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-rack-pull.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-rack-pull.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-rack-pull.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-neutral-grip-dumbbell-bench-press",
+    "name": "Neutral-Grip Dumbbell Bench Press",
+    "group": "Chest",
+    "equipment": "Dumbbells",
+    "machineType": "dumbbells",
+    "aliases": [
+      "Neutral Grip Dumbbell Bench Press",
+      "Palms-In Dumbbell Bench Press",
+      "ニュートラルグリップダンベルプレス"
+    ],
+    "cues": [
+      "Lie on a stable flat bench with a dumbbell in each hand and palms facing each other",
+      "Lower the weights with wrists above your forearms and elbows controlled beside the torso",
+      "Press upward without rotating into a palms-forward grip or bouncing at the bottom"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-neutral-grip-dumbbell-bench-press.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-neutral-grip-dumbbell-bench-press.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-neutral-grip-dumbbell-bench-press.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-underhand-barbell-row",
+    "name": "Underhand Barbell Row",
+    "group": "Back",
+    "equipment": "Barbell",
+    "machineType": "power-rack",
+    "aliases": [
+      "Reverse-Grip Barbell Row",
+      "Supinated Barbell Row",
+      "アンダーグリップバーベルロー"
+    ],
+    "cues": [
+      "Hinge at your hips and hold the bar with an underhand grip",
+      "Keep your torso steady and draw the bar toward the lower ribs with elbows close",
+      "Lower with control without using a backward torso swing to lift the bar"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-underhand-barbell-row.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-underhand-barbell-row.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-underhand-barbell-row.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-two-arm-bent-over-dumbbell-row",
+    "name": "Two-Arm Bent-Over Dumbbell Row",
+    "group": "Back",
+    "equipment": "Dumbbells",
+    "machineType": "dumbbells",
+    "aliases": [
+      "Two Arm Bent Over Dumbbell Row",
+      "Bent-Over Dumbbell Row",
+      "ダンベルベントオーバーロー"
+    ],
+    "cues": [
+      "Hold a dumbbell in each hand and hinge at your hips with both feet planted",
+      "Keep your torso steady while drawing both elbows back together",
+      "Lower both dumbbells smoothly rather than lifting the chest to swing the weights"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-two-arm-bent-over-dumbbell-row.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-two-arm-bent-over-dumbbell-row.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-two-arm-bent-over-dumbbell-row.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-dumbbell-grip-hold",
+    "name": "Dumbbell Grip Hold",
+    "group": "Forearms",
+    "equipment": "Dumbbells",
+    "machineType": "dumbbells",
+    "aliases": [
+      "Dumbbell Static Hold",
+      "Farmer Hold",
+      "ダンベルホールド"
+    ],
+    "tracking": "time",
+    "difficulty": "Beginner",
+    "cues": [
+      "Stand upright holding one dumbbell at each side with a closed grip",
+      "Keep your wrists neutral, shoulders level, and arms still while you hold",
+      "Record the time held and set the dumbbells down under control; this entry is a stationary hold"
+    ],
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-dumbbell-grip-hold.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-dumbbell-grip-hold.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-dumbbell-grip-hold.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-suitcase-hold",
+    "name": "Suitcase Hold",
+    "group": "Obliques",
+    "equipment": "Dumbbells",
+    "machineType": "dumbbells",
+    "aliases": [
+      "Single-Arm Dumbbell Hold",
+      "Suitcase Static Hold",
+      "スーツケースホールド"
+    ],
+    "tracking": "time",
+    "difficulty": "Beginner",
+    "cues": [
+      "Stand upright holding one dumbbell at one side",
+      "Keep your ribs and pelvis level without leaning toward or away from the weight",
+      "Hold still and record the time for each side; this entry does not require walking"
+    ],
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-suitcase-hold.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-suitcase-hold.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-suitcase-hold.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-treadmill-walk",
+    "name": "Treadmill Walk",
+    "group": "Cardio",
+    "equipment": "Treadmill",
+    "machineType": "treadmill",
+    "aliases": [
+      "Treadmill Walking",
+      "トレッドミルウォーキング"
+    ],
+    "difficulty": "Beginner",
+    "tracking": "time",
+    "supportsWeight": false,
+    "supportsDistance": true,
+    "cues": [
+      "Start the belt at a walking pace you can control",
+      "Walk with a natural stride and use the treadmill controls to adjust your pace",
+      "Record your actual walking time and any distance shown by the treadmill"
+    ],
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-treadmill-walk.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-treadmill-walk.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-treadmill-walk.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-treadmill-run",
+    "name": "Treadmill Run",
+    "group": "Cardio",
+    "equipment": "Treadmill",
+    "machineType": "treadmill",
+    "aliases": [
+      "Treadmill Running",
+      "トレッドミルランニング"
+    ],
+    "tracking": "time",
+    "supportsWeight": false,
+    "supportsDistance": true,
+    "cues": [
+      "Build to a running pace that lets you maintain a controlled stride",
+      "Look forward and keep your position centered on the belt",
+      "Record the time and distance for the running activity and slow the belt before stepping off"
+    ],
+    "difficulty": "Intermediate",
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-treadmill-run.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-treadmill-run.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-treadmill-run.svg",
+        "style": "Equipment setup reference"
+      }
+    }
+  },
+  {
+    "id": "gym-floor-dumbbell-russian-twist",
+    "name": "Dumbbell Russian Twist",
+    "group": "Obliques",
+    "equipment": "Dumbbells",
+    "machineType": "dumbbells",
+    "aliases": [
+      "Dumbbell Russian Twists",
+      "ダンベルロシアンツイスト"
+    ],
+    "cues": [
+      "Sit with knees bent and heels on the floor, holding one dumbbell close to your chest with both hands",
+      "Turn your ribs and shoulders together from side to side while keeping your hips steady",
+      "Keep the dumbbell controlled rather than swinging it with your arms; count one left-and-right pair as one rep"
+    ],
+    "difficulty": "Intermediate",
+    "tracking": "reps",
+    "supportsWeight": true,
+    "supportsDistance": false,
+    "expansion": true,
+    "gymFloorSupplement": true,
+    "equipmentReference": true,
+    "image": "assets/gym-floor/gym-floor-dumbbell-russian-twist.svg",
+    "style": "Equipment setup reference",
+    "variants": {
+      "male": {
+        "image": "assets/gym-floor/gym-floor-dumbbell-russian-twist.svg",
+        "style": "Equipment setup reference"
+      },
+      "female": {
+        "image": "assets/gym-floor/gym-floor-dumbbell-russian-twist.svg",
+        "style": "Equipment setup reference"
+      }
+    }
   }
 ]

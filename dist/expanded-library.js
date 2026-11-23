@@ -21,7 +21,8 @@
     if (existingEquipment[exercise.name]) return existingEquipment[exercise.name];
     const name = exercise.name.toLowerCase();
     if (/dumbbell/.test(name)) return 'Dumbbells';
-    if (/barbell|ez bar/.test(name)) return 'Barbell';
+    if (/ez bar/.test(name)) return 'EZ bar';
+    if (/barbell/.test(name)) return 'Barbell';
     if (/kettlebell/.test(name)) return 'Kettlebell';
     if (/cable|rope face pull|pulldown/.test(name)) return 'Cable';
     if (/landmine/.test(name)) return 'Landmine';
@@ -36,14 +37,15 @@
   function categoryOf(value) {
     const name = value.toLowerCase();
     if (/dumbbell/.test(name)) return 'Dumbbells';
-    if (/barbell|ez bar/.test(name)) return 'Barbell';
+    if (/ez bar/.test(name)) return 'EZ bar';
+    if (/barbell/.test(name)) return 'Barbell';
     if (/cable/.test(name)) return 'Cable';
     if (/resistance band|finger resistance/.test(name)) return 'Resistance band';
     if (/slider/.test(name)) return 'Sliders';
     if (/medicine ball|slam ball/.test(name)) return 'Medicine ball';
     if (/sled/.test(name)) return 'Sled';
     if (/weight plates?/.test(name)) return 'Weight plate';
-    if (/treadmill|elliptical|fan bike|ergometer|stair-climbing/.test(name)) return 'Cardio machine';
+    if (/treadmill|elliptical|fan bike|stationary bike|ergometer|stair-climbing/.test(name)) return 'Cardio machine';
     return value;
   }
   function matches(exercise, group) {
@@ -67,10 +69,16 @@
     if (!exercise.expansion) return false;
     const help = byId('preview-instructions'); help.replaceChildren();
     const metadata = document.createElement('strong'); metadata.className = 'exercise-metadata';
-    metadata.textContent = exercise.equipment + ' · ' + exercise.difficulty + ' · ' + (exercise.tracking === 'time' ? 'Track minutes' : 'Track sets & reps') + (exercise.illustratedGuide ? ' · Illustrated position guide' : '');
+    metadata.textContent = exercise.equipment + ' · ' + exercise.difficulty + ' · ' + (exercise.tracking === 'time' ? 'Track minutes' : 'Track sets & reps') + (exercise.equipmentReference ? ' · Equipment reference' : exercise.illustratedGuide ? ' · Illustrated position guide' : '');
     const cues = document.createElement('span');
     cues.textContent = exercise.cues.map(cue=>cue.trim().replace(/[.!?]+$/, '')).join('. ') + '.';
     help.append(metadata, cues);
+    if (exercise.equipmentReference) {
+      const referenceNote = document.createElement('span');
+      referenceNote.className = 'exercise-side-note';
+      referenceNote.textContent = 'Equipment picture identifies the setup; use the written cues for this exercise.';
+      help.append(referenceNote);
+    }
     if (exercise.sides === 'both') { const sides = document.createElement('span'); sides.className='exercise-side-note'; sides.textContent='Repeat on the other side.'; help.append(sides); }
     if (exercise.guidanceUrl?.startsWith('https://')) {
       const source=document.createElement('a'); source.href=exercise.guidanceUrl; source.target='_blank'; source.rel='noopener'; source.className='exercise-source'; source.textContent='Exercise form guidance ↗'; help.append(source);

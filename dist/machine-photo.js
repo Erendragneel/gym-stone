@@ -279,7 +279,7 @@
     $('machine-filter-label').textContent = category?.exerciseIds.length ? 'Exercises for ' + category.name : category?.name || '';
     $('machine-note').textContent = category?.note || '';
     $('machine-cable-setup').hidden = machine !== 'cable-station';
-    $('machine-remember').hidden = !category || !lastEmbedding || remembered;
+    $('machine-remember').hidden = !category || category.referenceOnly || !lastEmbedding || remembered;
     $('machine-saved-actions').hidden = !GymMachineReferences.count(scope());
     for (const button of $('machine-suggestions').children) button.setAttribute('aria-pressed', String(button.dataset.machine === machine));
   }
@@ -329,7 +329,7 @@
     remembered = false; resetCableSetup();
     if (machineSearch.value) { machineSearch.value = ''; fillChoices(); }
     status(category.exerciseIds.length ? 'Machine selected. Preview its exercises below.'
-      : 'Machine identified. A dedicated exercise guide isn’t available for this machine yet.');
+      : 'Machine label selected. Confirm the setup described below; no matching guide is assigned yet.');
     refresh(); renderExercises();
   }
   function renderSuggestions(ids, message, highlighted = '') {
@@ -580,7 +580,13 @@
     .observe(library, { attributes: true, attributeFilter: ['hidden'] });
   window.addEventListener('pagehide', () => { stopCamera(); cancel(); resetPhoto(); });
   window.GymMachinePhoto = {
-    matches: exercise => !GymMachineData.get(machine)?.exerciseIds.length || GymMachineData.matches(exercise, machine, {
+    select: id => {
+      if (!GymMachineData.get(id)) return false;
+      choose(id);
+      showLookup();
+      return true;
+    },
+    matches: exercise => !machine || GymMachineData.matches(exercise, machine, {
       attachment: attachmentChoice.value, height: pulleyChoice.value
     }),
     render: group => {

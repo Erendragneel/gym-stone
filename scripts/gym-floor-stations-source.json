@@ -1,0 +1,617 @@
+[
+  {
+    "japanese": "両手足",
+    "english": "Both arms and legs",
+    "images": [
+      "1"
+    ],
+    "referenceId": "elliptical-trainer",
+    "needsConfirmation": true,
+    "originalStatus": "verify",
+    "note": "Compare the actual supports, handles and movement with this example before selecting a guide.",
+    "additionalReferenceIds": [
+      "air-bike"
+    ]
+  },
+  {
+    "japanese": "バックエクステンション",
+    "english": "Back extension",
+    "images": [
+      "1"
+    ],
+    "referenceId": "back-extension-bench",
+    "needsConfirmation": true,
+    "originalStatus": "verify",
+    "note": "Compare the actual supports, handles and movement with this example before selecting a guide."
+  },
+  {
+    "japanese": "トレッドミル",
+    "english": "Treadmill",
+    "images": [
+      "1"
+    ],
+    "referenceId": "treadmill",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "ベルトスクワット",
+    "english": "Belt squat",
+    "images": [
+      "1"
+    ],
+    "referenceId": "belt-squat",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "ペンデュラムスクワット",
+    "english": "Pendulum squat",
+    "images": [
+      "1"
+    ],
+    "referenceId": "pendulum-squat",
+    "needsConfirmation": false,
+    "originalStatus": "missing",
+    "note": ""
+  },
+  {
+    "japanese": "スミス",
+    "english": "Smith machine",
+    "images": [
+      "1",
+      "2"
+    ],
+    "referenceId": "smith-machine",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "プローンレッグカール",
+    "english": "Prone / lying leg curl",
+    "images": [
+      "1"
+    ],
+    "referenceId": "prone-leg-curl",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "グルートキックバック",
+    "english": "Glute kickback",
+    "images": [
+      "1"
+    ],
+    "referenceId": "glute-kickback-machine",
+    "needsConfirmation": true,
+    "originalStatus": "verify",
+    "note": "Compare the actual supports, handles and movement with this example before selecting a guide."
+  },
+  {
+    "japanese": "Vスクワット",
+    "english": "V-squat",
+    "images": [
+      "1"
+    ],
+    "referenceId": "v-squat",
+    "needsConfirmation": false,
+    "originalStatus": "missing",
+    "note": ""
+  },
+  {
+    "japanese": "レッグプレス",
+    "english": "Leg press",
+    "images": [
+      "1"
+    ],
+    "referenceId": "leg-press",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "スタンディングレッグカール",
+    "english": "Standing leg curl",
+    "images": [
+      "1"
+    ],
+    "referenceId": "standing-leg-curl",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "片足エクステンション",
+    "english": "Single-leg leg extension",
+    "images": [
+      "1"
+    ],
+    "referenceId": "leg-extension",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "（シーテッド）カーフレイズ",
+    "english": "Seated calf raise",
+    "images": [
+      "1"
+    ],
+    "referenceId": "seated-calf-raise",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "エクステンション",
+    "english": "Extension; probably leg extension",
+    "images": [
+      "1"
+    ],
+    "referenceId": "leg-extension",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "カーフレイズ",
+    "english": "Calf raise",
+    "images": [
+      "1"
+    ],
+    "referenceId": "standing-calf-raise",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "階段",
+    "english": "Stairs / stair climber",
+    "images": [
+      "1"
+    ],
+    "referenceId": "stair-climber",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "自転車",
+    "english": "Stationary bicycle",
+    "images": [
+      "1"
+    ],
+    "referenceId": "stationary-bike",
+    "needsConfirmation": false,
+    "originalStatus": "missing",
+    "note": ""
+  },
+  {
+    "japanese": "スタンディングヒップスラスト",
+    "english": "Standing hip thrust",
+    "images": [
+      "1"
+    ],
+    "referenceId": "standing-hip-thrust",
+    "needsConfirmation": false,
+    "originalStatus": "missing",
+    "note": ""
+  },
+  {
+    "japanese": "ヒップスラスト",
+    "english": "Hip thrust",
+    "images": [
+      "1"
+    ],
+    "referenceId": "hip-thrust",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "ハックスクワット",
+    "english": "Hack squat",
+    "images": [
+      "1"
+    ],
+    "referenceId": "hack-squat",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "インナーサイ／アウターサイ",
+    "english": "Inner / outer thigh; hip adduction / abduction",
+    "images": [
+      "1"
+    ],
+    "referenceId": "hip-abduction",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": "",
+    "additionalReferenceIds": [
+      "hip-adduction"
+    ]
+  },
+  {
+    "japanese": "スタンディングアウターサイ",
+    "english": "Standing hip abduction",
+    "images": [
+      "1"
+    ],
+    "referenceId": "standing-hip-abduction",
+    "needsConfirmation": false,
+    "originalStatus": "missing",
+    "note": ""
+  },
+  {
+    "japanese": "パワーラック",
+    "english": "Power rack",
+    "images": [
+      "2"
+    ],
+    "referenceId": "power-rack",
+    "needsConfirmation": false,
+    "originalStatus": "equipment",
+    "note": ""
+  },
+  {
+    "japanese": "ダンベル",
+    "english": "Dumbbells",
+    "images": [
+      "2"
+    ],
+    "referenceId": "dumbbells",
+    "needsConfirmation": false,
+    "originalStatus": "equipment",
+    "note": ""
+  },
+  {
+    "japanese": "ベンチ",
+    "english": "Bench",
+    "images": [
+      "2"
+    ],
+    "referenceId": "exercise-bench",
+    "needsConfirmation": false,
+    "originalStatus": "equipment",
+    "note": ""
+  },
+  {
+    "japanese": "EZバー",
+    "english": "EZ curl bar",
+    "images": [
+      "2"
+    ],
+    "referenceId": "ez-bar",
+    "needsConfirmation": false,
+    "originalStatus": "equipment",
+    "note": ""
+  },
+  {
+    "japanese": "プリチャーカール台（判読候補）",
+    "english": "Probably preacher curl bench / stand",
+    "images": [
+      "2"
+    ],
+    "referenceId": "preacher-bench",
+    "needsConfirmation": true,
+    "originalStatus": "verify",
+    "note": "Compare the actual supports, handles and movement with this example before selecting a guide."
+  },
+  {
+    "japanese": "インクラインベンチ",
+    "english": "Incline bench",
+    "images": [
+      "2"
+    ],
+    "referenceId": "incline-bench",
+    "needsConfirmation": false,
+    "originalStatus": "equipment",
+    "note": ""
+  },
+  {
+    "japanese": "ワイドプルダウン",
+    "english": "Wide pulldown",
+    "images": [
+      "2"
+    ],
+    "referenceId": "lat-pulldown",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "デュアルスミス",
+    "english": "Dual Smith",
+    "images": [
+      "2"
+    ],
+    "referenceId": "dual-smith",
+    "needsConfirmation": true,
+    "originalStatus": "specialty",
+    "note": "The name does not identify the exact design. This picture is a possible equipment type; confirm the station model."
+  },
+  {
+    "japanese": "プリチャーカールマシン",
+    "english": "Preacher curl machine",
+    "images": [
+      "2"
+    ],
+    "referenceId": "preacher-curl-machine",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "ラットプルダウン",
+    "english": "Lat pulldown",
+    "images": [
+      "2"
+    ],
+    "referenceId": "lat-pulldown",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "プーリーロー",
+    "english": "Pulley row",
+    "images": [
+      "2"
+    ],
+    "referenceId": "seated-cable-row",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "リアレイズ",
+    "english": "Rear-delt raise",
+    "images": [
+      "2"
+    ],
+    "referenceId": "rear-delt-machine",
+    "needsConfirmation": true,
+    "originalStatus": "verify",
+    "note": "Compare the actual supports, handles and movement with this example before selecting a guide."
+  },
+  {
+    "japanese": "インクラインフライ",
+    "english": "Incline fly",
+    "images": [
+      "2"
+    ],
+    "referenceId": "incline-machine-fly",
+    "needsConfirmation": false,
+    "originalStatus": "missing",
+    "note": ""
+  },
+  {
+    "japanese": "チェストプレス",
+    "english": "Chest press",
+    "images": [
+      "2"
+    ],
+    "referenceId": "chest-press",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "ペックフライ",
+    "english": "Pec fly",
+    "images": [
+      "2"
+    ],
+    "referenceId": "pec-fly",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "ラテラルレイズ",
+    "english": "Lateral raise",
+    "images": [
+      "2"
+    ],
+    "referenceId": "lateral-raise",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "アシストチンニング",
+    "english": "Assisted chin-up / pull-up",
+    "images": [
+      "2"
+    ],
+    "referenceId": "assisted-pull-up",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "腹筋台",
+    "english": "Abdominal bench",
+    "images": [
+      "2"
+    ],
+    "referenceId": "abdominal-bench",
+    "needsConfirmation": true,
+    "originalStatus": "verify",
+    "note": "Compare the actual supports, handles and movement with this example before selecting a guide."
+  },
+  {
+    "japanese": "マルチプルダウン",
+    "english": "Multi-pulldown",
+    "images": [
+      "2"
+    ],
+    "referenceId": "multi-pulldown",
+    "needsConfirmation": true,
+    "originalStatus": "specialty",
+    "note": "The name does not identify the exact design. This picture is a possible equipment type; confirm the station model."
+  },
+  {
+    "japanese": "プルオーバー",
+    "english": "Pullover",
+    "images": [
+      "2"
+    ],
+    "referenceId": "pullover",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "デクラインチェストプレス",
+    "english": "Decline chest press",
+    "images": [
+      "2"
+    ],
+    "referenceId": "decline-chest-press",
+    "needsConfirmation": false,
+    "originalStatus": "missing",
+    "note": ""
+  },
+  {
+    "japanese": "インクラインチェストプレス",
+    "english": "Incline chest press",
+    "images": [
+      "2"
+    ],
+    "referenceId": "incline-chest-press",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "ローイングマシン",
+    "english": "Rowing machine",
+    "images": [
+      "2"
+    ],
+    "referenceId": "rowing-machine",
+    "needsConfirmation": true,
+    "originalStatus": "verify",
+    "note": "Compare the actual supports, handles and movement with this example before selecting a guide.",
+    "additionalReferenceIds": [
+      "chest-supported-row"
+    ]
+  },
+  {
+    "japanese": "スーパーハンドラッドプルダウン",
+    "english": "Super Hand lat pulldown",
+    "images": [
+      "2"
+    ],
+    "referenceId": "super-hand-pulldown",
+    "needsConfirmation": true,
+    "originalStatus": "specialty",
+    "note": "The name does not identify the exact design. This picture is a possible equipment type; confirm the station model."
+  },
+  {
+    "japanese": "ショルダープレス",
+    "english": "Shoulder press",
+    "images": [
+      "2"
+    ],
+    "referenceId": "shoulder-press",
+    "needsConfirmation": false,
+    "originalStatus": "covered",
+    "note": ""
+  },
+  {
+    "japanese": "ハイインクライン",
+    "english": "High incline",
+    "images": [
+      "2"
+    ],
+    "referenceId": "high-incline",
+    "needsConfirmation": true,
+    "originalStatus": "specialty",
+    "note": "The name does not identify the exact design. This picture is a possible equipment type; confirm the station model."
+  },
+  {
+    "japanese": "スタンディングチェストプレス",
+    "english": "Standing chest press",
+    "images": [
+      "2"
+    ],
+    "referenceId": "standing-chest-press",
+    "needsConfirmation": false,
+    "originalStatus": "missing",
+    "note": ""
+  },
+  {
+    "japanese": "Tバーロー",
+    "english": "T-bar row",
+    "images": [
+      "2"
+    ],
+    "referenceId": "t-bar-row",
+    "needsConfirmation": true,
+    "originalStatus": "verify",
+    "note": "Compare the actual supports, handles and movement with this example before selecting a guide."
+  },
+  {
+    "japanese": "バイキングマシン",
+    "english": "Viking machine",
+    "images": [
+      "2"
+    ],
+    "referenceId": "viking-press",
+    "needsConfirmation": true,
+    "originalStatus": "specialty",
+    "note": "The name does not identify the exact design. This picture is a possible equipment type; confirm the station model."
+  },
+  {
+    "japanese": "チンニングマシン",
+    "english": "Chin-up / pull-up machine",
+    "images": [
+      "2"
+    ],
+    "referenceId": "chin-up-station",
+    "needsConfirmation": true,
+    "originalStatus": "verify",
+    "note": "Compare the actual supports, handles and movement with this example before selecting a guide."
+  },
+  {
+    "japanese": "フレンチプレスマシン",
+    "english": "French press machine",
+    "images": [
+      "2"
+    ],
+    "referenceId": "french-press-machine",
+    "needsConfirmation": true,
+    "originalStatus": "verify",
+    "note": "Compare the actual supports, handles and movement with this example before selecting a guide."
+  },
+  {
+    "japanese": "ディップスマシン",
+    "english": "Dip machine",
+    "images": [
+      "2"
+    ],
+    "referenceId": "dip-machine",
+    "needsConfirmation": true,
+    "originalStatus": "verify",
+    "note": "Compare the actual supports, handles and movement with this example before selecting a guide."
+  },
+  {
+    "japanese": "おもり",
+    "english": "Weights",
+    "images": [
+      "2"
+    ],
+    "referenceId": "weight-plates",
+    "needsConfirmation": false,
+    "originalStatus": "equipment",
+    "note": ""
+  }
+]

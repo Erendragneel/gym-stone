@@ -6157,6 +6157,295 @@ window.GymMuscleData = {
         "obliques"
       ],
       "kind": "strength"
+    },
+    "gym-floor-pendulum-squat": {
+      "name": "Pendulum Squat",
+      "primary": [
+        "quads",
+        "glutes"
+      ],
+      "secondary": [
+        "adductors",
+        "hamstrings",
+        "deepCore"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-v-squat": {
+      "name": "V-Squat",
+      "primary": [
+        "quads",
+        "glutes"
+      ],
+      "secondary": [
+        "adductors",
+        "hamstrings",
+        "deepCore"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-standing-hip-thrust": {
+      "name": "Standing Hip Thrust",
+      "primary": [
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings",
+        "adductors",
+        "abs",
+        "deepCore"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-standing-machine-hip-abduction": {
+      "name": "Standing Machine Hip Abduction",
+      "primary": [
+        "hipAbductors"
+      ],
+      "secondary": [
+        "glutes",
+        "hipRotators",
+        "deepCore"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-stationary-cycling": {
+      "name": "Stationary Cycling",
+      "primary": [
+        "quads",
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings",
+        "gastrocnemius",
+        "soleus"
+      ],
+      "kind": "cardio"
+    },
+    "gym-floor-decline-machine-chest-press": {
+      "name": "Decline Machine Chest Press",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "frontDelts",
+        "serratus"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-standing-machine-chest-press": {
+      "name": "Standing Machine Chest Press",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "frontDelts",
+        "serratus",
+        "abs",
+        "deepCore"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-incline-machine-chest-fly": {
+      "name": "Incline Machine Chest Fly",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "frontDelts",
+        "serratus"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-smith-machine-bench-press": {
+      "name": "Smith Machine Bench Press",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "frontDelts",
+        "serratus"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-incline-smith-machine-bench-press": {
+      "name": "Incline Smith Machine Bench Press",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "frontDelts",
+        "triceps",
+        "serratus"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-smith-machine-shoulder-press": {
+      "name": "Smith Machine Shoulder Press",
+      "primary": [
+        "frontDelts",
+        "sideDelts"
+      ],
+      "secondary": [
+        "triceps",
+        "upperTraps",
+        "serratus",
+        "deepCore"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-smith-machine-row": {
+      "name": "Smith Machine Row",
+      "primary": [
+        "lats",
+        "rhomboids",
+        "midTraps"
+      ],
+      "secondary": [
+        "biceps",
+        "rearDelts",
+        "spinalErectors",
+        "forearmFlexors"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-close-grip-smith-machine-bench-press": {
+      "name": "Close-Grip Smith Machine Bench Press",
+      "primary": [
+        "triceps"
+      ],
+      "secondary": [
+        "chest",
+        "frontDelts",
+        "serratus"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-rack-pull": {
+      "name": "Rack Pull",
+      "primary": [
+        "glutes",
+        "spinalErectors"
+      ],
+      "secondary": [
+        "hamstrings",
+        "upperTraps",
+        "lats",
+        "forearmFlexors",
+        "deepCore"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-neutral-grip-dumbbell-bench-press": {
+      "name": "Neutral-Grip Dumbbell Bench Press",
+      "primary": [
+        "chest"
+      ],
+      "secondary": [
+        "triceps",
+        "frontDelts",
+        "serratus"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-underhand-barbell-row": {
+      "name": "Underhand Barbell Row",
+      "primary": [
+        "lats",
+        "rhomboids",
+        "midTraps"
+      ],
+      "secondary": [
+        "biceps",
+        "spinalErectors",
+        "rearDelts",
+        "forearmFlexors"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-two-arm-bent-over-dumbbell-row": {
+      "name": "Two-Arm Bent-Over Dumbbell Row",
+      "primary": [
+        "lats",
+        "rhomboids",
+        "midTraps"
+      ],
+      "secondary": [
+        "biceps",
+        "rearDelts",
+        "spinalErectors",
+        "forearmFlexors"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-dumbbell-grip-hold": {
+      "name": "Dumbbell Grip Hold",
+      "primary": [
+        "forearmFlexors"
+      ],
+      "secondary": [
+        "upperTraps",
+        "deepCore"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-suitcase-hold": {
+      "name": "Suitcase Hold",
+      "primary": [
+        "obliques",
+        "forearmFlexors"
+      ],
+      "secondary": [
+        "deepCore",
+        "spinalErectors",
+        "hipAbductors",
+        "upperTraps"
+      ],
+      "kind": "strength"
+    },
+    "gym-floor-treadmill-walk": {
+      "name": "Treadmill Walk",
+      "primary": [
+        "quads",
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings",
+        "gastrocnemius",
+        "soleus"
+      ],
+      "kind": "cardio"
+    },
+    "gym-floor-treadmill-run": {
+      "name": "Treadmill Run",
+      "primary": [
+        "quads",
+        "glutes"
+      ],
+      "secondary": [
+        "hamstrings",
+        "gastrocnemius",
+        "soleus",
+        "hipFlexors"
+      ],
+      "kind": "cardio"
+    },
+    "gym-floor-dumbbell-russian-twist": {
+      "name": "Dumbbell Russian Twist",
+      "primary": [
+        "obliques",
+        "abs"
+      ],
+      "secondary": [
+        "deepCore",
+        "hipFlexors",
+        "frontDelts",
+        "forearmFlexors"
+      ],
+      "kind": "strength"
     }
   }
 };

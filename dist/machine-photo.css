@@ -45,3 +45,4 @@
 @media(max-width:720px){#machine-suggestions button{flex-basis:auto}}
 @media(max-width:1000px){.library-search-tools{width:100%;flex-basis:auto}}
 @media(max-width:720px){.library-heading:has(.library-search-tools){top:0;padding:8px 0}.library-search-tools .search{padding:8px 10px}.library-search-tools .search input{font-size:16px}.library-search-tools .machine-scan{min-width:76px;padding:10px}.machine-actions button{min-width:60px}}
+.gym-floor-reference-link{margin:12px 0 16px}.gym-floor-reference-link a{display:inline-flex;align-items:center;min-height:44px;padding:9px 13px;border:1px solid #526b44;border-radius:8px;background:#263720;color:#dbf3ca;text-decoration:none;font-size:15px;font-weight:600}.gym-floor-reference-link a:focus-visible{outline:3px solid #b5e988;outline-offset:3px}

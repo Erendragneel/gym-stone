@@ -8,8 +8,8 @@
 
   // Explicit catalog IDs keep a detected machine from suggesting unrelated
   // exercises that happen to share a muscle group or the generic "Machine" tag.
-  function category(id, name, description, exerciseIds, note) {
-    return Object.freeze({ id, name, description, exerciseIds: Object.freeze(exerciseIds), note });
+  function category(id, name, description, exerciseIds, note, referenceOnly = false) {
+    return Object.freeze({ id, name, description, exerciseIds: Object.freeze(exerciseIds), note, referenceOnly });
   }
 
   const categories = Object.freeze([
@@ -40,6 +40,15 @@
     category('incline-chest-press', 'Incline chest press machine', 'an incline chest press machine with an angled backrest and upward pressing handles', [
       'exp-incline-machine-chest-press'
     ], 'Confirm that this is the incline press version and adjust the seat to its handles.'),
+    category('decline-chest-press', 'Decline chest press machine', 'a decline chest press machine with a supported seat and downward pressing handles', [
+      'gym-floor-decline-machine-chest-press'
+    ], 'Use the dedicated decline machine setup and its intended handles.'),
+    category('standing-chest-press', 'Standing chest press machine', 'a standing chest press lever machine with forward pressing handles', [
+      'gym-floor-standing-machine-chest-press'
+    ], 'Use a dedicated standing press machine. A standing cable press uses a different station.'),
+    category('incline-machine-fly', 'Incline chest fly machine', 'an incline chest fly machine with an angled torso support and moving fly handles', [
+      'gym-floor-incline-machine-chest-fly'
+    ], 'Confirm the inclined machine fly setup rather than an incline dumbbell fly or a standard pec deck.'),
     category('pec-deck', 'Pec deck chest fly', 'a seated pec deck chest fly machine with arm pads or wide handles', [
       'exp-pec-deck-chest-fly'
     ], 'Choose the chest fly position. A reverse fly is available only on machines that support that separate setup.'),
@@ -82,6 +91,9 @@
     category('leg-extension', 'Leg extension machine', 'a seated leg extension machine with a roller in front of the shins', [
       'guide-leg-extension', 'exp-single-leg-leg-extension'
     ], 'Confirm the leg extension mode. Use the single-leg version only if the machine permits it; leg curls are a different movement.'),
+    category('single-leg-leg-extension', 'Single-leg leg extension machine', 'a leg extension machine configured for one leg at a time with a shin roller', [
+      'exp-single-leg-leg-extension'
+    ], 'Use the machine’s intended single-leg setup and repeat with the other leg.'),
     category('seated-leg-curl', 'Seated leg curl machine', 'a seated leg curl machine with a thigh restraint and ankle roller', [
       'exp-seated-leg-curl', 'exp-single-leg-seated-leg-curl'
     ], 'Choose the seated curl setup and its supported one-leg or two-leg version.'),
@@ -97,8 +109,9 @@
     category('hip-abduction-adduction', 'Hip abduction / adduction machine', 'a seated hip abduction or adduction machine with pads beside the knees', [
       'g0-21_Hip_Abduction_Machine', 'g0-22_Hip_Adduction_Machine'
     ], 'These machines can look alike. Read the label: abduction pushes the legs apart; adduction brings them together. Choose only the mode your machine supports.'),
-    category('standing-hip-abduction', 'Standing hip abduction machine', 'a standing hip abductor machine with two foot platforms, thigh pads, and upright support handles', [],
-      'This standing machine has a different setup from the seated hip abduction guide. There is no dedicated guide for this machine yet.'),
+    category('standing-hip-abduction', 'Standing hip abduction machine', 'a standing hip abductor machine with foot platforms, thigh pads, and upright support handles', [
+      'gym-floor-standing-machine-hip-abduction'
+    ], 'Use the standing machine guide and the supports provided by the actual station.'),
     category('leg-press', 'Leg press machine', 'a leg press machine with a seat and a large footplate', [
       'exp-45-degree-leg-press', 'exp-horizontal-leg-press', 'exp-single-leg-leg-press', 'exp-leg-press-calf-raise'
     ], 'Choose the 45-degree or horizontal version that matches the machine. Single-leg presses and calf raises are options only if the machine instructions support that setup.'),
@@ -108,13 +121,26 @@
     category('belt-squat', 'Belt squat machine', 'a belt squat machine with a standing platform and a hip belt attachment', [
       'exp-belt-squat'
     ], 'Use the machine with its intended hip belt and platform.'),
+    category('pendulum-squat', 'Pendulum squat machine', 'a pendulum squat machine with shoulder pads and a pivoting squat arm above an angled footplate', [
+      'gym-floor-pendulum-squat'
+    ], 'Use the pendulum machine setup and release/re-engage its intended start support.'),
+    category('v-squat', 'V-squat machine', 'a V-squat machine with shoulder supports on a pivoting lever and a standing foot platform', [
+      'gym-floor-v-squat'
+    ], 'Follow the orientation marked on the V-squat machine. A hack squat sled has a different path.'),
     category('smith-machine', 'Smith machine', 'a Smith machine with a barbell fixed on vertical guide rails', [
       'exp-smith-machine-squat', 'exp-smith-machine-hip-thrust',
-      'exp-smith-machine-seated-calf-raise', 'exp-smith-machine-standing-calf-raise'
-    ], 'Choose a Smith-specific move and set the catches. Hip thrusts and seated calf raises also require the appropriate stable bench or seat.'),
+      'exp-smith-machine-seated-calf-raise', 'exp-smith-machine-standing-calf-raise',
+      'gym-floor-smith-machine-bench-press', 'gym-floor-incline-smith-machine-bench-press',
+      'gym-floor-smith-machine-shoulder-press', 'gym-floor-smith-machine-row',
+      'gym-floor-close-grip-smith-machine-bench-press',
+      'g1-20_Overhand_Inverted_Row', 'g3-25_Underhand_Inverted_Row'
+    ], 'Choose a Smith-specific move and set the catches. Presses, hip thrusts and seated calf raises need the specified stable bench or seat. Inverted rows require a securely locked bar at a suitable height.'),
     category('hip-thrust', 'Hip thrust machine', 'a hip thrust machine with a padded hip belt or lever and a back support', [
       'exp-hip-thrust-machine'
     ], 'Confirm a dedicated hip thrust setup rather than a seated leg press.'),
+    category('standing-hip-thrust', 'Standing hip thrust machine', 'a dedicated standing hip thrust machine with upright supports and a padded hip resistance lever', [
+      'gym-floor-standing-hip-thrust'
+    ], 'Use the standing hip thrust setup shown by the manufacturer; this is separate from a seated hip thrust or a leg kickback.'),
     category('reverse-hyperextension', 'Reverse hyperextension machine', 'a reverse hyperextension machine with a high torso platform and a hanging leg pendulum', [
       'exp-reverse-hyperextension-machine'
     ], 'This machine moves the legs beneath a supported torso; a back extension bench moves the torso instead.'),
@@ -156,7 +182,7 @@
       'g4-19_Landmine_Rotation', 'exp-landmine-squat'
     ], 'Confirm an anchored barbell. The T-bar row needs the matching row handle; other moves use the bar end.'),
     category('treadmill', 'Treadmill', 'a gym treadmill with a running belt and handrails', [
-      'exp-treadmill-jog'
+      'exp-treadmill-jog', 'gym-floor-treadmill-walk', 'gym-floor-treadmill-run'
     ], 'Choose the treadmill activity and enter your actual time.'),
     category('elliptical', 'Elliptical trainer', 'an elliptical cardio trainer with long pedals and moving handles', [
       'exp-elliptical-trainer'
@@ -167,8 +193,9 @@
     category('air-bike', 'Air / fan bike', 'an air resistance exercise bike with a large front fan and moving handles', [
       'exp-air-bike'
     ], 'Choose this category for a fan bike with moving handles; a regular stationary bicycle uses another category.'),
-    category('stationary-bike', 'Upright stationary bike', 'an upright stationary exercise bicycle with fixed handlebars', [],
-      'The general library has no upright cycling entry. Use Log activity for cycling; pregnancy-only activities are not suggested by this lookup.'),
+    category('stationary-bike', 'Upright stationary bike', 'an upright stationary exercise bicycle with fixed handlebars', [
+      'gym-floor-stationary-cycling'
+    ], 'Choose the general stationary cycling activity and record your actual time. An air bike with moving arms uses a different category.'),
     category('stair-climber', 'Stair climber', 'a stair climbing cardio machine with revolving steps', [
       'exp-stair-climber'
     ], 'Choose the stair-climbing activity and enter your actual time.'),
@@ -182,7 +209,89 @@
       'exp-bodyweight-bench-hip-thrust', 'exp-single-leg-hip-thrust',
       'exp-feet-elevated-glute-bridge', 'exp-single-leg-feet-elevated-glute-bridge',
       'exp-bodyweight-bulgarian-split-squat'
-    ], 'Use a stable bench with a height suitable for the chosen move. A bench alone does not establish access to dumbbells, a barbell rack or a safe step-up platform.')
+    ], 'Use a stable bench with a height suitable for the chosen move. A bench alone does not establish access to dumbbells, a barbell rack or a safe step-up platform.'),
+    category('power-rack', 'Power rack / barbell station', 'a power rack with adjustable barbell supports and safety catches', [
+      'guide-barbell-back-squat', 'guide-barbell-front-squat', 'exp-barbell-bench-press',
+      'exp-incline-barbell-bench-press', 'exp-close-grip-barbell-bench-press',
+      'g2-04_Standing_Barbell_Overhead_Press', 'g2-05_Seated_Barbell_Shoulder_Press',
+      'gym-floor-rack-pull', 'gym-floor-underhand-barbell-row'
+    ], 'Barbell and plates are required. Presses also need the indicated bench; rack pulls need the bar supported at the intended height.'),
+    category('dumbbells', 'Dumbbells', 'a gym dumbbell rack with pairs of handheld free weights', [
+      'g0-13_Goblet_Squat', 'g0-14_Sumo_Dumbbell_Squat', 'g0-15_Reverse_Lunge',
+      'g0-16_Bulgarian_Split_Squat', 'g0-20_Single_Leg_Dumbbell_RDL',
+      'g1-08_Single_Arm_Dumbbell_Row', 'g1-09_Chest_Supported_Dumbbell_Row', 'g1-22_Dumbbell_Pullover',
+      'g2-01_Standing_Dumbbell_Shoulder_Press', 'g2-02_Seated_Dumbbell_Shoulder_Press', 'g2-03_Arnold_Press',
+      'g2-09_Dumbbell_Lateral_Raise', 'g2-11_Leaning_Lateral_Raise', 'g2-12_Dumbbell_Front_Raise',
+      'g2-15_Bent_Over_Rear_Delt_Fly', 'g2-16_Chest_Supported_Rear_Delt_Fly', 'g2-20_Dumbbell_Scaption_Raise',
+      'g2-21_Cuban_Rotation_to_Press', 'g2-22_Incline_Bench_Y_Raise',
+      'g3-01_Standing_Dumbbell_Curl', 'g3-02_Alternating_Dumbbell_Curl', 'g3-03_Hammer_Curl',
+      'g3-04_Cross_Body_Hammer_Curl', 'g3-06_Concentration_Curl', 'g3-07_Dumbbell_Preacher_Curl',
+      'g3-08_Spider_Curl', 'g3-14_Zottman_Curl', 'g3-15_Seated_Dumbbell_Curl', 'g3-16_Seated_Hammer_Curl',
+      'g4-11_Dumbbell_Side_Bend', 'g4-13_Suitcase_Carry',
+      'guide-dumbbell-bench-press', 'guide-dumbbell-chest-fly', 'guide-overhead-dumbbell-triceps-extension',
+      'guide-dumbbell-triceps-kickback', 'guide-standing-dumbbell-calf-raise',
+      'guide-seated-wrist-curl', 'guide-seated-reverse-wrist-curl', 'guide-incline-dumbbell-curl',
+      'exp-incline-dumbbell-bench-press', 'exp-dumbbell-floor-press', 'exp-single-arm-dumbbell-bench-press',
+      'exp-dumbbell-squeeze-press', 'exp-incline-dumbbell-chest-fly', 'exp-single-arm-dumbbell-floor-press',
+      'exp-dumbbell-lying-triceps-extension', 'exp-single-arm-overhead-dumbbell-extension',
+      'exp-renegade-row', 'exp-dumbbell-shrug', 'exp-single-arm-standing-dumbbell-shoulder-press',
+      'exp-dumbbell-push-press', 'exp-prone-dumbbell-w-raise', 'exp-prone-dumbbell-i-raise',
+      'exp-side-lying-dumbbell-external-rotation', 'exp-side-lying-dumbbell-internal-rotation',
+      'exp-dumbbell-serratus-punch', 'exp-incline-dumbbell-hammer-curl', 'exp-dumbbell-curl-isometric-hold',
+      'exp-single-arm-incline-dumbbell-bench-press', 'exp-dumbbell-front-squat', 'exp-dumbbell-suitcase-squat',
+      'exp-dumbbell-forward-lunge', 'exp-dumbbell-reverse-lunge', 'exp-dumbbell-split-squat',
+      'exp-dumbbell-walking-lunge', 'exp-dumbbell-romanian-deadlift', 'exp-dumbbell-deadlift',
+      'exp-b-stance-dumbbell-romanian-deadlift', 'exp-dumbbell-hip-thrust', 'exp-dumbbell-glute-bridge',
+      'exp-dumbbell-lateral-lunge', 'exp-dumbbell-curtsy-lunge', 'exp-seated-dumbbell-calf-raise',
+      'exp-single-leg-dumbbell-calf-raise', 'exp-suitcase-deadlift', 'exp-dumbbell-windmill',
+      'exp-bear-plank-dumbbell-drag', 'exp-single-arm-overhead-carry',
+      'exp-forearm-pronation-supination', 'exp-dumbbell-radial-deviation', 'exp-dumbbell-thruster', 'exp-farmers-carry',
+      'gym-floor-neutral-grip-dumbbell-bench-press', 'gym-floor-two-arm-bent-over-dumbbell-row',
+      'gym-floor-dumbbell-grip-hold', 'gym-floor-suitcase-hold', 'gym-floor-dumbbell-russian-twist'
+    ], 'Choose the exercise with its required supports. Some moves need a flat or incline bench, preacher pad, suitable floor space, or a clear carrying area. A dumbbell rack alone does not provide those supports.'),
+    category('ez-bar', 'EZ curl bar', 'a short angled EZ curl bar used with weight plates', [
+      'g3-10_EZ_Bar_Curl', 'g3-11_Preacher_EZ_Bar_Curl', 'exp-ez-bar-lying-triceps-extension'
+    ], 'Use an EZ bar and suitable plates. Preacher curls need a preacher pad; lying triceps extensions need a stable bench.'),
+    category('preacher-bench', 'Preacher curl bench', 'a preacher curl bench with an angled upper-arm support pad and no built-in resistance', [
+      'g3-07_Dumbbell_Preacher_Curl', 'g3-11_Preacher_EZ_Bar_Curl'
+    ], 'Add the dumbbell or EZ bar shown in the selected guide. A preacher bench is separate from a resistance machine.'),
+    category('incline-bench', 'Incline exercise bench', 'a padded incline exercise bench with an angled backrest', [
+      'g1-09_Chest_Supported_Dumbbell_Row', 'g2-16_Chest_Supported_Rear_Delt_Fly',
+      'g2-22_Incline_Bench_Y_Raise', 'guide-incline-dumbbell-curl',
+      'exp-incline-dumbbell-bench-press', 'exp-incline-dumbbell-chest-fly',
+      'exp-incline-dumbbell-hammer-curl', 'exp-single-arm-incline-dumbbell-bench-press'
+    ], 'These moves also need dumbbells. Choose the bench angle and orientation shown by the guide; a decline bench is a different setup.'),
+    category('weight-plates', 'Weight plates', 'gym weight plates stored on a plate tree', [
+      'exp-plate-pinch-hold', 'g2-13_Plate_Front_Raise'
+    ], 'These guides use plates directly. Other plate-loaded exercises require their specified bar or machine.'),
+    category('ab-bench', 'Abdominal bench — confirm setup', 'an abdominal exercise bench whose incline and restraints need confirmation', [],
+      'Confirm whether this is a sit-up bench, crunch bench, or another abdominal station. The floor crunch and floor sit-up guides do not establish the bench setup.', true),
+    category('dual-smith', 'Dual Smith — confirm model', 'a gym station labeled dual Smith with unconfirmed independent bar or rail design', [],
+      'Identify the actual model and bar movement before choosing a guide. Ordinary Smith exercises are not linked automatically.', true),
+    category('high-incline', 'High incline — confirm machine', 'a gym station labeled high incline with an unconfirmed press path', [],
+      'Confirm the actual press and backrest before choosing incline chest or shoulder instructions.', true),
+    category('viking-machine', 'Viking machine — confirm model', 'a gym station labeled Viking with an unconfirmed pressing lever design', [],
+      'Often a Viking press, but the map does not identify the machine or permitted movement.', true),
+    category('super-hand-pulldown', 'Super Hand lat pulldown — confirm model', 'a specialty lat pulldown station labeled Super Hand', [],
+      'Confirm the exact handles, support, and resistance system before selecting a generic pulldown guide.', true),
+    category('multi-pulldown', 'Multi-pulldown — confirm model', 'a specialty gym station labeled multi pulldown', [],
+      'The label does not identify its movements or attachments. It does not establish an adjustable cable station.', true),
+    category('french-press-machine', 'French press machine — confirm setup', 'a French press triceps machine with an unconfirmed overhead resistance path', [],
+      'Confirm the actual overhead French press setup. The upper-arm-supported triceps extension guide is not linked automatically.', true),
+    category('dip-machine', 'Dip machine — confirm setup', 'a dip machine whose seated loaded or assisted design needs confirmation', [],
+      'Determine whether the machine is a seated loaded dip or an assisted bodyweight station before selecting the matching guide.', true),
+    category('t-bar-row-machine', 'T-bar row machine — confirm setup', 'a dedicated T-bar rowing machine whose supports need confirmation', [],
+      'The existing T Bar Row uses a landmine bar. Confirm whether this station is the same setup or a supported lever machine.', true),
+    category('glute-kickback-machine', 'Glute kickback machine — confirm setup', 'a glute kickback machine with an unconfirmed torso and knee support arrangement', [],
+      'Confirm the machine supports and resistance pad. Cable kickbacks and standing hip extensions use different setups.', true),
+    category('back-extension-unconfirmed', 'Back extension — confirm setup', 'a back extension station whose bench or seated machine design needs confirmation', [],
+      'Choose the existing 45-degree guide only if this is a 45-degree back extension bench.', true),
+    category('rear-raise-unconfirmed', 'Rear raise — confirm setup', 'a rear deltoid raise station whose reverse fly configuration needs confirmation', [],
+      'Choose the reverse pec deck guide only when this machine supports that same rear-delt setup.', true),
+    category('chin-up-machine', 'Chin-up machine — confirm setup', 'a chin-up station whose grips and assistance system need confirmation', [],
+      'Choose the pull-up bar or assisted pull-up category after confirming the handles and assistance system.', true),
+    category('arm-leg-cardio', 'Arm-and-leg cardio — confirm type', 'a cardio machine intended to use both arms and legs', [],
+      'Confirm whether the actual machine is an elliptical, air bike, or another arm-and-leg trainer.', true)
   ]);
 
   const byId = new Map(categories.map(item => [item.id, item]));
@@ -190,11 +299,62 @@
   const categoriesByName = categories.slice().sort((a, b) => a.name.localeCompare(b.name));
   const aliases = {
     'cable-station': ['cable machine', 'functional trainer', 'dual adjustable pulley', 'cable crossover'],
-    'plate-loaded-lat-pulldown': ['Forward FWHM-007', 'FWHM-007', 'wide lat pulldown'],
-    'prone-leg-curl': ['Forward FWHM-012', 'FWHM-012', 'prone leg curl', 'lying hamstring curl'],
-    'hack-squat': ['Gymleco 244', '244 Hacklift', 'Hacklift', 'hack lift'],
-    'standing-hip-abduction': ['Gymleco 362', '362 Standing Abductor', 'standing abductor', 'standing hip abductor'],
-    'hip-abduction-adduction': ['seated abductor', 'seated adductor', 'seated hip abduction', 'seated hip adduction']
+    'plate-loaded-lat-pulldown': ['Forward FWHM-007', 'FWHM-007', 'wide lat pulldown', 'ワイドプルダウン', 'ラットプルダウン'],
+    'lat-pulldown': ['ワイドプルダウン', 'ラットプルダウン'],
+    'prone-leg-curl': ['Forward FWHM-012', 'FWHM-012', 'prone leg curl', 'lying hamstring curl', 'プローンレッグカール'],
+    'standing-leg-curl': ['スタンディングレッグカール'],
+    'hack-squat': ['Gymleco 244', '244 Hacklift', 'Hacklift', 'hack lift', 'ハックスクワット'],
+    'belt-squat': ['ベルトスクワット'],
+    'pendulum-squat': ['ペンデュラムスクワット'],
+    'v-squat': ['Vスクワット', 'V squat'],
+    'smith-machine': ['スミス'],
+    'standing-hip-abduction': ['Gymleco 362', '362 Standing Abductor', 'standing abductor', 'standing hip abductor', 'スタンディングアウターサイ'],
+    'hip-abduction-adduction': ['seated abductor', 'seated adductor', 'seated hip abduction', 'seated hip adduction', 'インナーサイ', 'アウターサイ', 'インナーサイ／アウターサイ'],
+    'leg-press': ['レッグプレス'],
+    'leg-extension': ['エクステンション', 'レッグエクステンション'],
+    'single-leg-leg-extension': ['片足エクステンション', 'single leg leg extension'],
+    'seated-calf-raise': ['シーテッドカーフレイズ', '（シーテッド）カーフレイズ'],
+    'standing-calf-raise': ['カーフレイズ'],
+    'standing-hip-thrust': ['スタンディングヒップスラスト'],
+    'hip-thrust': ['ヒップスラスト'],
+    'treadmill': ['トレッドミル'],
+    'stair-climber': ['階段'],
+    'stationary-bike': ['自転車', 'stationary bicycle', 'stationary cycling'],
+    'power-rack': ['パワーラック'],
+    'dumbbells': ['ダンベル'],
+    'ez-bar': ['EZバー', 'EZ bar'],
+    'exercise-bench': ['ベンチ'],
+    'incline-bench': ['インクラインベンチ'],
+    'preacher-bench': ['プリチャーカール台', 'プリチャーカール台（判読候補）', 'preacher curl stand'],
+    'preacher-curl': ['プリチャーカールマシン'],
+    'seated-cable-row': ['プーリーロー'],
+    'chest-press': ['チェストプレス'],
+    'incline-chest-press': ['インクラインチェストプレス'],
+    'decline-chest-press': ['デクラインチェストプレス'],
+    'standing-chest-press': ['スタンディングチェストプレス'],
+    'incline-machine-fly': ['インクラインフライ'],
+    'pec-deck': ['ペックフライ'],
+    'shoulder-press': ['ショルダープレス'],
+    'lateral-raise': ['ラテラルレイズ'],
+    'assisted-pull-up-dip': ['アシストチンニング'],
+    'pullover': ['プルオーバー'],
+    'chest-supported-row': ['ローイングマシン'],
+    'rowing-ergometer': ['ローイングマシン'],
+    'weight-plates': ['おもり', '重り', 'weights'],
+    'arm-leg-cardio': ['両手足'],
+    'back-extension-unconfirmed': ['バックエクステンション', 'back extension'],
+    'glute-kickback-machine': ['グルートキックバック', 'glute kickback machine'],
+    'rear-raise-unconfirmed': ['リアレイズ', 'rear raise'],
+    'dual-smith': ['デュアルスミス', 'dual smith', 'dual smith machine'],
+    'high-incline': ['ハイインクライン', 'high incline', 'high incline press'],
+    'viking-machine': ['バイキングマシン', 'viking press', 'viking machine'],
+    'super-hand-pulldown': ['スーパーハンドラッドプルダウン', 'スーパーハンドラットプルダウン', 'super hand lat pulldown', 'superhand lat pulldown'],
+    'multi-pulldown': ['マルチプルダウン', 'multi pulldown'],
+    'french-press-machine': ['フレンチプレスマシン', 'french press machine'],
+    'dip-machine': ['ディップスマシン', 'dip machine'],
+    't-bar-row-machine': ['Tバーロー', 't bar row', 't bar row machine'],
+    'chin-up-machine': ['チンニングマシン', 'chinning machine', 'chin up machine'],
+    'ab-bench': ['腹筋台', 'abdominal bench']
   };
   const option = (id, name) => Object.freeze({ id, name });
   const cableOptions = Object.freeze({
@@ -278,6 +438,11 @@
       return { item, rank: terms.some(term => term.includes(key)) ? 2 : 3 };
     }).filter(({ rank }) => rank < 3).sort((a, b) => a.rank - b.rank).map(({ item }) => item);
   }
+  function labelMatches(query) {
+    const key = searchKey(query);
+    if (!key) return [];
+    return categoriesByName.filter(item => searchTerms.get(item.id).includes(key));
+  }
   function matches(exercise, id, setup) {
     if (id === '' || id == null) return true;
     const allowed = exerciseIdsByCategory.get(id);
@@ -293,9 +458,9 @@
     );
   }
   function candidates() {
-    return categories.map(item => ({ id: item.id, text: 'a photo of ' + item.description }))
+    return categories.filter(item => !item.referenceOnly).map(item => ({ id: item.id, text: 'a photo of ' + item.description }))
       .concat(negativeCandidates.map(item => ({ id: item.id, text: item.text })));
   }
 
-  return Object.freeze({ categories, cableOptions, get, search, matches, candidates });
+  return Object.freeze({ categories, cableOptions, get, search, labelMatches, matches, candidates });
 });
