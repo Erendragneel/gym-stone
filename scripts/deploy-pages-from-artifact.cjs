@@ -4,6 +4,16 @@
  */
 'use strict';
 module.exports = async function deployPages({github,core,context,artifactId=process.env.PAGES_ARTIFACT_ID,sleep=ms=>new Promise(resolve=>setTimeout(resolve,ms)),attempts=120}) {
+  if(!artifactId){
+    for(let attempt=0;attempt<12;attempt++){
+      const {data}=await github.request('GET /repos/{owner}/{repo}/actions/runs/{run_id}/artifacts',{
+        ...context.repo,run_id:context.runId,per_page:100
+      });
+      const artifact=data.artifacts.find(item=>item.name==='github-pages'&&!item.expired);
+      if(artifact){artifactId=artifact.id;break;}
+      await sleep(5000);
+    }
+  }
   if (!/^\d+$/.test(String(artifactId)) || !Number.isSafeInteger(Number(artifactId)) || Number(artifactId)<=0) throw Error('The Pages upload did not return a valid artifact ID.');
   const oidcToken=await core.getIDToken();
   const {data:deployment}=await github.request('POST /repos/{owner}/{repo}/pages/deployments',{

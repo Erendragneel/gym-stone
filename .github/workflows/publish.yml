@@ -33,7 +33,8 @@ jobs:
           cp -a dist _site/dist
           touch _site/.nojekyll
           test "$(du -sb _site | cut -f1)" -lt 1000000000
-      - uses: actions/upload-pages-artifact@v4
+      - id: pages-artifact
+        uses: actions/upload-pages-artifact@v4
         with:
           path: _site
       - id: deployment
